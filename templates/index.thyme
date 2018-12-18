@@ -1,0 +1,172 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head th:replace="header.thyme::head"/>
+	<body onload="prettyPrint()">
+	<div id="wrap">
+		<div th:replace="menu.thyme::menu"/>
+		<!--==========================
+	    Intro Section
+	  ============================-->
+	  <section id="intro">
+	    <div class="intro-container wow fadeIn">
+	      <h1 class="mb-4 pb-0">JDay<br><span>Dominican Republic</span> </h1>
+	      <p class="mb-4 pb-0">Saturday, June 29, 2019. Dominican Republic</p>
+	    <!--  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
+	        data-autoplay="true"></a>-->
+	      <a href="#about" class="about-btn scrollto">About</a>
+	    </div>
+	  </section>
+
+	  <main id="main">
+
+	    <!--==========================
+	      About Section
+	    ============================-->
+	    <section id="about">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-lg-6">
+	            <h3>About JDay Dominican Republic</h3>
+	            <p>JDay Dominican Republic is a community driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to help developers to learn the newest technologies about Java, Web, Mobile, Cloud and DevOps. Besides, developers, tech companies, and startups can establish a good network among them and for them who want to enjoy the pristine beaches, cloud-forest treks and welcoming villages, this is a great opportunity to come to the Dominican Republic to learn about among Java topics and have fun sightseeing.</p>
+	          </div>
+	          <div class="col-lg-3">
+	            <h3>Where</h3>
+	            <p>Santiago de los Caballeros, Dominican Republic</p>
+	          </div>
+	          <div class="col-lg-3">
+	            <h3>When</h3>
+	            <p>Saturday<br>29 June, 2019</p>
+	            <p>08:30 AM – 06:00 PM</p>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+
+	    <!--==========================
+	      Speakers Section
+	    ============================-->
+	    <section id="speakers" class="wow fadeInUp">
+	      <div class="container">
+	        <div class="section-header">
+	          <h2>Featured Speakers</h2>
+	        <!--  <p>Here are some of our speakers</p>-->
+	        </div>
+
+	        <div class="row">
+	          <div class="col-lg-4 col-md-6">
+	            <div class="speaker">
+	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/josh-long.jpg'" alt="Josh Long" class="img-fluid">
+	              <div class="details">
+	                <h3><a href="#">Josh Long</a></h3>
+	                <p>Spring Developer Advocate @ Pivotal</p>
+	                <div class="social">
+	                  <a href="http://twitter.com/starbuxman"><i class="fa fa-twitter"></i></a>
+	                  <a href="https://github.com/joshlong"><i class="fa fa-github"></i></a>
+	                <!--  <a href=""><i class="fa fa-google-plus"></i></a>-->
+	                  <a href="#"><i class="fa fa-linkedin"></i></a>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="col-lg-4 col-md-6">
+	            <div class="speaker">
+	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/mark-heckler.jpeg'" alt="Speaker 2" class="img-fluid">
+	              <div class="details">
+	                <h3><a href="#">Mark Heckler</a></h3>
+	                <p>Spring Developer & Advocate @ Pivotal</p>
+	                <div class="social">
+	                  <a href="https://twitter.com/mkheck"><i class="fa fa-twitter"></i></a>
+	                  <a href="https://github.com/mkheck"><i class="fa fa-github"></i></a>
+	                 <!--  <a href=""><i class="fa fa-google-plus"></i></a>-->
+	                  <a href="#"><i class="fa fa-linkedin"></i></a>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="col-lg-4 col-md-6">
+	            <div class="speaker">
+	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/sebastian-daschner.jpeg'" alt="Speaker 3" class="img-fluid">
+	              <div class="details">
+	                <h3><a href="#">Sebastian Daschner</a></h3>
+	                <p>Lead Java Developer Advocate @ IBM</p>
+	                <div class="social">
+	                  <a href="https://twitter.com/DaschnerS" target="_blank"><i class="fa fa-twitter"></i></a>
+	                  <a href="https://github.com/sdaschner/" target="_blank"><i class="fa fa-github"></i></a>
+	               <!--   <a href=""><i class="fa fa-google-plus"></i></a>-->
+	                  <a href="https://www.linkedin.com/in/sebastian-daschner-9894bb103" target="_blank"><i class="fa fa-linkedin"></i></a>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	         <!-- <div class="col-lg-4 col-md-6">
+	            <div class="speaker">
+	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/4.jpg'" alt="Speaker 4" class="img-fluid">
+	              <div class="details">
+	                <h3><a href="#">Jack Christiansen</a></h3>
+	                <p>Debitis iure vero</p>
+	                <div class="social">
+	                  <a href=""><i class="fa fa-twitter"></i></a>
+	                  <a href=""><i class="fa fa-facebook"></i></a>
+	                  <a href=""><i class="fa fa-google-plus"></i></a>
+	                  <a href=""><i class="fa fa-linkedin"></i></a>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="col-lg-4 col-md-6">
+	            <div class="speaker">
+	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/5.jpg'" alt="Speaker 5" class="img-fluid">
+	              <div class="details">
+	                <h3><a href="#">Alejandrin Littel</a></h3>
+	                <p>Qui molestiae natus</p>
+	                <div class="social">
+	                  <a href=""><i class="fa fa-twitter"></i></a>
+	                  <a href=""><i class="fa fa-facebook"></i></a>
+	                  <a href=""><i class="fa fa-google-plus"></i></a>
+	                  <a href=""><i class="fa fa-linkedin"></i></a>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="col-lg-4 col-md-6">
+	            <div class="speaker">
+	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/6.jpg'" alt="Speaker 6" class="img-fluid">
+	              <div class="details">
+	                <h3><a href="#">Willow Trantow</a></h3>
+	                <p>Non autem dicta</p>
+	                <div class="social">
+	                  <a href=""><i class="fa fa-twitter"></i></a>
+	                  <a href=""><i class="fa fa-facebook"></i></a>
+	                  <a href=""><i class="fa fa-google-plus"></i></a>
+	                  <a href=""><i class="fa fa-linkedin"></i></a>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	        </div>-->
+	      </div>
+
+	    </section>
+
+	    <!--==========================
+	      Sponsors Section
+	    ============================-->
+	    <section id="sponsors" class="section-with-bg wow fadeInUp">
+
+	      <div class="container">
+	        <div class="section-header">
+	          <h2>Sponsors</h2>
+	          <p> If you’re interested in becoming a JDay Dominican Republic sponsor or supporter, 
+				<a href="mailto:info@javadominicano.org" target="_blank">contact us </a>
+
+	          	to discuss things further.  </p>
+	        </div>
+	      </div>
+
+	    </section>
+	  </main>
+
+	<div th:replace="footer.thyme::footer"></div>
+    </body>
+</html>
