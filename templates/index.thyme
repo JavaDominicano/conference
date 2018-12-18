@@ -10,11 +10,11 @@
 	  ============================-->
 	  <section id="intro">
 	    <div class="intro-container wow fadeIn">
-	      <h1 class="mb-4 pb-0">JDay<br><span>Rep&uacute;blica Dominicana</span> </h1>
-	      <p class="mb-4 pb-0">29 June,  Republica Dominicana</p>
-	      <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
-	        data-autoplay="true"></a>
-	      <a href="#about" class="about-btn scrollto">About The Event</a>
+	      <h1 class="mb-4 pb-0">JDay<br><span>Dominican Republic</span> </h1>
+	      <p class="mb-4 pb-0">Saturday, June 29, 2019. Dominican Republic</p>
+	    <!--  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
+	        data-autoplay="true"></a>-->
+	      <a href="#about" class="about-btn scrollto">About</a>
 	    </div>
 	  </section>
 
@@ -27,18 +27,17 @@
 	      <div class="container">
 	        <div class="row">
 	          <div class="col-lg-6">
-	            <h2>About The Event</h2>
-	            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-	              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-	              est ut optio sequi unde.</p>
+	            <h3>About JDay Dominican Republic</h3>
+	            <p>JDay Dominican Republic is a community driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to help developers to learn the newest technologies about Java, Web, Mobile, Cloud and DevOps. Besides, developers, tech companies, and startups can establish a good network among them and for them who want to enjoy the pristine beaches, cloud-forest treks and welcoming villages, this is a great opportunity to come to the Dominican Republic to learn about among Java topics and have fun sightseeing.</p>
 	          </div>
 	          <div class="col-lg-3">
 	            <h3>Where</h3>
-	            <p>Downtown Conference Center, New York</p>
+	            <p>Santiago de los Caballeros, Dominican Republic</p>
 	          </div>
 	          <div class="col-lg-3">
 	            <h3>When</h3>
-	            <p>Monday to Wednesday<br>10-12 December</p>
+	            <p>Saturday<br>29 June, 2019</p>
+	            <p>08:30 AM – 06:00 PM</p>
 	          </div>
 	        </div>
 	      </div>
@@ -50,61 +49,61 @@
 	    <section id="speakers" class="wow fadeInUp">
 	      <div class="container">
 	        <div class="section-header">
-	          <h2>Event Speakers</h2>
-	          <p>Here are some of our speakers</p>
+	          <h2>Featured Speakers</h2>
+	        <!--  <p>Here are some of our speakers</p>-->
 	        </div>
 
 	        <div class="row">
 	          <div class="col-lg-4 col-md-6">
 	            <div class="speaker">
-	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/1.jpg'" alt="Speaker 1" class="img-fluid">
+	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/josh-long.jpg'" alt="Josh Long" class="img-fluid">
 	              <div class="details">
-	                <h3><a href="speaker-details.html">Brenden Legros</a></h3>
-	                <p>Quas alias incidunt</p>
+	                <h3><a href="#">Josh Long</a></h3>
+	                <p>Spring Developer Advocate @ Pivotal</p>
 	                <div class="social">
-	                  <a href=""><i class="fa fa-twitter"></i></a>
-	                  <a href=""><i class="fa fa-facebook"></i></a>
-	                  <a href=""><i class="fa fa-google-plus"></i></a>
-	                  <a href=""><i class="fa fa-linkedin"></i></a>
+	                  <a href="http://twitter.com/starbuxman"><i class="fa fa-twitter"></i></a>
+	                  <a href="https://github.com/joshlong"><i class="fa fa-github"></i></a>
+	                <!--  <a href=""><i class="fa fa-google-plus"></i></a>-->
+	                  <a href="#"><i class="fa fa-linkedin"></i></a>
 	                </div>
 	              </div>
 	            </div>
 	          </div>
 	          <div class="col-lg-4 col-md-6">
 	            <div class="speaker">
-	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/2.jpg'" alt="Speaker 2" class="img-fluid">
+	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/mark-heckler.jpeg'" alt="Speaker 2" class="img-fluid">
 	              <div class="details">
-	                <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
-	                <p>Consequuntur odio aut</p>
+	                <h3><a href="#">Mark Heckler</a></h3>
+	                <p>Spring Developer & Advocate @ Pivotal</p>
 	                <div class="social">
-	                  <a href=""><i class="fa fa-twitter"></i></a>
-	                  <a href=""><i class="fa fa-facebook"></i></a>
-	                  <a href=""><i class="fa fa-google-plus"></i></a>
-	                  <a href=""><i class="fa fa-linkedin"></i></a>
+	                  <a href="https://twitter.com/mkheck"><i class="fa fa-twitter"></i></a>
+	                  <a href="https://github.com/mkheck"><i class="fa fa-github"></i></a>
+	                 <!--  <a href=""><i class="fa fa-google-plus"></i></a>-->
+	                  <a href="#"><i class="fa fa-linkedin"></i></a>
 	                </div>
 	              </div>
 	            </div>
 	          </div>
 	          <div class="col-lg-4 col-md-6">
 	            <div class="speaker">
-	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/3.jpg'" alt="Speaker 3" class="img-fluid">
+	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/sebastian-daschner.jpeg'" alt="Speaker 3" class="img-fluid">
 	              <div class="details">
-	                <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
-	                <p>Fugiat laborum et</p>
+	                <h3><a href="#">Sebastian Daschner</a></h3>
+	                <p>Lead Java Developer Advocate @ IBM</p>
 	                <div class="social">
-	                  <a href=""><i class="fa fa-twitter"></i></a>
-	                  <a href=""><i class="fa fa-facebook"></i></a>
-	                  <a href=""><i class="fa fa-google-plus"></i></a>
-	                  <a href=""><i class="fa fa-linkedin"></i></a>
+	                  <a href="https://twitter.com/DaschnerS" target="_blank"><i class="fa fa-twitter"></i></a>
+	                  <a href="https://github.com/sdaschner/" target="_blank"><i class="fa fa-github"></i></a>
+	               <!--   <a href=""><i class="fa fa-google-plus"></i></a>-->
+	                  <a href="https://www.linkedin.com/in/sebastian-daschner-9894bb103" target="_blank"><i class="fa fa-linkedin"></i></a>
 	                </div>
 	              </div>
 	            </div>
 	          </div>
-	          <div class="col-lg-4 col-md-6">
+	         <!-- <div class="col-lg-4 col-md-6">
 	            <div class="speaker">
 	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/4.jpg'" alt="Speaker 4" class="img-fluid">
 	              <div class="details">
-	                <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
+	                <h3><a href="#">Jack Christiansen</a></h3>
 	                <p>Debitis iure vero</p>
 	                <div class="social">
 	                  <a href=""><i class="fa fa-twitter"></i></a>
@@ -119,7 +118,7 @@
 	            <div class="speaker">
 	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/5.jpg'" alt="Speaker 5" class="img-fluid">
 	              <div class="details">
-	                <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
+	                <h3><a href="#">Alejandrin Littel</a></h3>
 	                <p>Qui molestiae natus</p>
 	                <div class="social">
 	                  <a href=""><i class="fa fa-twitter"></i></a>
@@ -134,7 +133,7 @@
 	            <div class="speaker">
 	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/6.jpg'" alt="Speaker 6" class="img-fluid">
 	              <div class="details">
-	                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+	                <h3><a href="#">Willow Trantow</a></h3>
 	                <p>Non autem dicta</p>
 	                <div class="social">
 	                  <a href=""><i class="fa fa-twitter"></i></a>
@@ -145,7 +144,7 @@
 	              </div>
 	            </div>
 	          </div>
-	        </div>
+	        </div>-->
 	      </div>
 
 	    </section>
@@ -158,162 +157,15 @@
 	      <div class="container">
 	        <div class="section-header">
 	          <h2>Sponsors</h2>
+	          <p> If you’re interested in becoming a JDay Dominican Republic sponsor or supporter, 
+				<a href="mailto:info@javadominicano.org" target="_blank">contact us </a>
+
+	          	to discuss things further.  </p>
 	        </div>
-
-	        <div class="row no-gutters sponsors-wrap clearfix">
-
-	          <div class="col-lg-3 col-md-4 col-xs-6">
-	            <div class="sponsor-logo">
-	              <img src="img/sponsors/1.png" class="img-fluid" alt="">
-	            </div>
-	          </div>
-
-	          <div class="col-lg-3 col-md-4 col-xs-6">
-	            <div class="sponsor-logo">
-	              <img src="img/sponsors/2.png" class="img-fluid" alt="">
-	            </div>
-	          </div>
-
-	          <div class="col-lg-3 col-md-4 col-xs-6">
-	            <div class="sponsor-logo">
-	              <img src="img/sponsors/3.png" class="img-fluid" alt="">
-	            </div>
-	          </div>
-
-	          <div class="col-lg-3 col-md-4 col-xs-6">
-	            <div class="sponsor-logo">
-	              <img src="img/sponsors/4.png" class="img-fluid" alt="">
-	            </div>
-	          </div>
-
-	          <div class="col-lg-3 col-md-4 col-xs-6">
-	            <div class="sponsor-logo">
-	              <img src="img/sponsors/5.png" class="img-fluid" alt="">
-	            </div>
-	          </div>
-
-	          <div class="col-lg-3 col-md-4 col-xs-6">
-	            <div class="sponsor-logo">
-	              <img src="img/sponsors/6.png" class="img-fluid" alt="">
-	            </div>
-	          </div>
-
-	          <div class="col-lg-3 col-md-4 col-xs-6">
-	            <div class="sponsor-logo">
-	              <img src="img/sponsors/7.png" class="img-fluid" alt="">
-	            </div>
-	          </div>
-
-	          <div class="col-lg-3 col-md-4 col-xs-6">
-	            <div class="sponsor-logo">
-	              <img src="img/sponsors/8.png" class="img-fluid" alt="">
-	            </div>
-	          </div>
-
-	        </div>
-
 	      </div>
 
 	    </section>
-
-
-
-	    <!--==========================
-	      Subscribe Section
-	    ============================-->
-	    <section id="subscribe">
-	      <div class="container wow fadeInUp">
-	        <div class="section-header">
-	          <h2>Newsletter</h2>
-	          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
-	        </div>
-
-	        <form method="POST" action="#">
-	          <div class="form-row justify-content-center">
-	            <div class="col-auto">
-	              <input type="text" class="form-control" placeholder="Enter your Email">
-	            </div>
-	            <div class="col-auto">
-	              <button type="submit">Subscribe</button>
-	            </div>
-	          </div>
-	        </form>
-
-	      </div>
-	    </section>
-
-
-	    <!--==========================
-	      Contact Section
-	    ============================-->
-	    <section id="contact" class="section-bg wow fadeInUp">
-
-	      <div class="container">
-
-	        <div class="section-header">
-	          <h2>Contact Us</h2>
-	          <p>Nihil officia ut sint molestiae tenetur.</p>
-	        </div>
-
-	        <div class="row contact-info">
-
-	          <div class="col-md-4">
-	            <div class="contact-address">
-	              <i class="ion-ios-location-outline"></i>
-	              <h3>Address</h3>
-	              <address>A108 Adam Street, NY 535022, USA</address>
-	            </div>
-	          </div>
-
-	          <div class="col-md-4">
-	            <div class="contact-phone">
-	              <i class="ion-ios-telephone-outline"></i>
-	              <h3>Phone Number</h3>
-	              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
-	            </div>
-	          </div>
-
-	          <div class="col-md-4">
-	            <div class="contact-email">
-	              <i class="ion-ios-email-outline"></i>
-	              <h3>Email</h3>
-	              <p><a href="mailto:info@example.com">info@example.com</a></p>
-	            </div>
-	          </div>
-
-	        </div>
-
-	        <div class="form">
-	          <div id="sendmessage">Your message has been sent. Thank you!</div>
-	          <div id="errormessage"></div>
-	          <form action="" method="post" role="form" class="contactForm">
-	            <div class="form-row">
-	              <div class="form-group col-md-6">
-	                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-	                <div class="validation"></div>
-	              </div>
-	              <div class="form-group col-md-6">
-	                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-	                <div class="validation"></div>
-	              </div>
-	            </div>
-	            <div class="form-group">
-	              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-	              <div class="validation"></div>
-	            </div>
-	            <div class="form-group">
-	              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-	              <div class="validation"></div>
-	            </div>
-	            <div class="text-center"><button type="submit">Send Message</button></div>
-	          </form>
-	        </div>
-
-	      </div>
-	    </section><!-- #contact -->
-
 	  </main>
-
 
 	<div th:replace="footer.thyme::footer"></div>
     </body>

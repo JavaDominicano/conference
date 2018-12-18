@@ -1,0 +1,35 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<body>
+	<div th:fragment="newsletter">
+
+ <!--==========================
+	      Subscribe Section
+	    ============================-->
+	    <section id="subscribe">
+	      <div class="container wow fadeInUp">
+	        <div class="section-header">
+	          <h2>Newsletter</h2>
+	          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
+	        </div>
+
+	        <form method="POST" action="#">
+	          <div class="form-row justify-content-center">
+	            <div class="col-auto">
+	              <input type="text" class="form-control" placeholder="Enter your Email">
+	            </div>
+	            <div class="col-auto">
+	              <button type="submit">Subscribe</button>
+	            </div>
+	          </div>
+	        </form>
+
+	      </div>
+	    </section>
+
+
+
+  </div>
+  </body>
+  </html>

@@ -12,7 +12,7 @@
 	      <div id="logo" class="pull-left">
 	        <!-- Uncomment below if you prefer to use a text logo -->
 	        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-	        <a href="#intro" class="scrollto"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/logo.png'" alt="" title=""></a>
+	        <a href="#intro" class="scrollto"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/logo-jday.png'" alt="" title=""></a>
 	      </div>
 
 	      <nav id="nav-menu-container">
@@ -25,8 +25,8 @@
 	          <li><a href="#hotels">Hotels</a></li>
 	          <li><a href="#gallery">Gallery</a></li>-->
 	          <li><a href="#sponsors">Sponsors</a></li>
-	          <li><a href="#contact">Contact</a></li>
-	          	<!--  <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>-->
+	        <!--  <li><a href="#contact">Contact</a></li>
+	          	  <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>-->
 	        </ul>
 	      </nav><!-- #nav-menu-container -->
 	    </div>
