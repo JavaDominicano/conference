@@ -1,0 +1,34 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-transitional-thymeleaf-4.dtd">
+<html lang="en">
+
+	<head th:fragment="head">
+  <meta charset="utf-8">
+	<title th:with="title=(${content.title != null} ? ${content.title} : 'JBake')" th:text="${title}"></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content=""/>
+	<meta name="author" content=""/>
+	<meta name="keywords" content=""/>
+	<meta name="generator" content="JBake"/>
+
+  <!-- Favicons -->
+  <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'img/favicon.png'" rel="icon">
+  <link  th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'img/apple-touch-icon.png'"  rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/font-awesome/css/font-awesome.min.css'" rel="stylesheet"/>
+  <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/animate/animate.min.css'" rel="stylesheet"/>
+  <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/venobox/venobox.css'" rel="stylesheet"/>
+  <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/owlcarousel/assets/owl.carousel.min.css'" rel="stylesheet"/>
+
+  <!-- Main Stylesheet File -->
+  <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/style.css'" rel="stylesheet"/>
+
+
+</head>
+</html>
