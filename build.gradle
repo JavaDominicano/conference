@@ -1,0 +1,18 @@
+plugins {
+  id 'org.jbake.site' version '1.4.0'
+}
+
+jbake {
+    clearCache = true
+}
+
+bakePreview {
+    port = '8080'
+}
+
+bakePreview.dependsOn tasks.find{ it.name == 'bake' }
+
+task publish(type: GradleBuild) {           
+    buildFile = 'publish.gradle'
+    tasks = ['gitPublishPush']
+}
