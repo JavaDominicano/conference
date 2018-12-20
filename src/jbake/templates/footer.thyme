@@ -12,7 +12,7 @@
 
 		          <div class="col-lg-3 col-md-6 footer-info">
 		            <img src="img/logo.png" alt="JDay Dominican Republic">
-		            <p>JDay Dominican Republic is a community driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to help developers to learn the newest technologies about Java, Web, Mobile, Cloud and DevOps.</p>
+		            <p>JDominicanConf is a community driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to help developers to learn the newest technologies about Java, Web, Mobile, Cloud and DevOps.</p>
 		          </div>
 
 		          <div class="col-lg-3 col-md-6 footer-links">
@@ -70,7 +70,7 @@
 		          Licensing information: https://bootstrapmade.com/license/
 		          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
 		        -->
-		     	<p class="muted credit">&copy; 2018 | Designed by <a href="https://bootstrapmade.com/buy/?theme=TheEvent">BootstrapMade</a> | Baked with <a href="http://jbake.org">JBake <span th:text='${version}'>version</span> </a></p>
+		     	<p class="muted credit">&copy;2018  | Designed by <a href="https://bootstrapmade.com/buy/?theme=TheEvent">BootstrapMade</a> | Baked with <a href="http://jbake.org">JBake <span th:text='${version}'>version</span> </a></p>
 		      </div>
 		    </div>
 		  </footer><!-- #footer -->
