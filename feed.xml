@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JBake</title>
-    <link>site.host=https://javadominicano.github.io/conference/output</link>
-    <atom:link href="site.host=https://javadominicano.github.io/conference/output/feed.xml" rel="self" type="application/rss+xml" />
+    <link>site.host=https://javadominicano.github.io/conference</link>
+    <atom:link href="site.host=https://javadominicano.github.io/conference/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Thu, 20 Dec 2018 00:36:55 -0400</pubDate>
-    <lastBuildDate>Thu, 20 Dec 2018 00:36:55 -0400</lastBuildDate>
+    <pubDate>Thu, 20 Dec 2018 00:51:53 -0400</pubDate>
+    <lastBuildDate>Thu, 20 Dec 2018 00:51:53 -0400</lastBuildDate>
 
     <item>
       <title>Fourth Post</title>
-      <link>site.host=https://javadominicano.github.io/conference/output/blog/2013/fourth-post.html</link>
+      <link>site.host=https://javadominicano.github.io/conference/blog/2013/fourth-post.html</link>
       <pubDate>Thu, 17 Oct 2013 00:00:00 -0400</pubDate>
       <guid isPermaLink="false">blog/2013/fourth-post.html</guid>
       <description>&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
@@ -38,7 +38,7 @@ libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&amp;lt;/p&amp;g
 &amp;lt;/div&amp;gt;</description>	  
     </item><item>
       <title>Third Post</title>
-      <link>site.host=https://javadominicano.github.io/conference/output/blog/2013/third-post.html</link>
+      <link>site.host=https://javadominicano.github.io/conference/blog/2013/third-post.html</link>
       <pubDate>Thu, 26 Sep 2013 00:00:00 -0400</pubDate>
       <guid isPermaLink="false">blog/2013/third-post.html</guid>
       <description>&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
@@ -65,7 +65,7 @@ libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&amp;lt;/p&amp;g
 &amp;lt;/div&amp;gt;</description>	  
     </item><item>
       <title>Second Post</title>
-      <link>site.host=https://javadominicano.github.io/conference/output/blog/2013/second-post.html</link>
+      <link>site.host=https://javadominicano.github.io/conference/blog/2013/second-post.html</link>
       <pubDate>Sun, 25 Aug 2013 00:00:00 -0400</pubDate>
       <guid isPermaLink="false">blog/2013/second-post.html</guid>
       <description>&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.&amp;lt;/p&amp;gt;
@@ -83,7 +83,7 @@ libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&amp;lt;/p&amp;g
 </description>	  
     </item><item>
       <title>First Post</title>
-      <link>site.host=https://javadominicano.github.io/conference/output/blog/2013/first-post.html</link>
+      <link>site.host=https://javadominicano.github.io/conference/blog/2013/first-post.html</link>
       <pubDate>Wed, 24 Jul 2013 00:00:00 -0400</pubDate>
       <guid isPermaLink="false">blog/2013/first-post.html</guid>
       <description>
