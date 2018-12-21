@@ -11,7 +11,7 @@
 	  <section id="intro">
 	    <div class="intro-container wow fadeIn">
 	    <!--   <h1 class="mb-4 pb-0"><span class="blue">JDom</span>inican<span>Conf</span> </h1>-->
-				<h1 class="mb-4 pb-0">The first <br><span>Java conference</span> <br>of the Dominican Republic</h1>
+				<h1 class="mb-4 pb-0">The <span>Java </span> conference <br>of the Dominican Republic</h1>
 
 	      <p class="mb-4 pb-0">Saturday, June 29, 2019. Dominican Republic.</p>
 	    <!--  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
@@ -31,7 +31,7 @@
 	        <div class="row">
 	          <div class="col-lg-6">
 	            <h3>About</h3>
-	            <p>JDominicanConf is a community driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to help developers to learn the newest technologies about Java, alternatives languages in the JVM, Web, Mobile and Cloud. Besides, developers, tech companies, and startups can establish a good network among them and for them who want to enjoy the pristine beaches, cloud-forest treks and welcoming villages, this is a great opportunity to come to the Dominican Republic to learn about among Java topics and have fun sightseeing.</p>
+	            <p>JDominicanConf is a community driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to help developers to learn the newest technologies about Java, alternatives languages on the JVM, Web, Mobile and Cloud. Besides, developers, tech companies, and startups can establish a good network among them and for them who want to enjoy the pristine beaches, cloud-forest treks and welcoming villages, this is a great opportunity to come to the Dominican Republic to learn about among Java topics and have fun sightseeing.</p>
 	          </div>
 	          <div class="col-lg-3">
 	            <h3>Where</h3>
