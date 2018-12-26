@@ -11,15 +11,17 @@
 		        <div class="row">
 
 		          <div class="col-lg-3 col-md-6 footer-info">
-		            <img src="img/logo-jdc.png" alt="JDominicanConf">
-		            <p>JDominicanConf is a community driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to help developers to learn the newest technologies about Java, alternatives languages on the JVM, Web, Mobile and Cloud.</p>
+		            <p>JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.
+</p>
 		          </div>
 
 		          <div class="col-lg-3 col-md-6 footer-links">
-		            <h4>Useful Links</h4>
+		            <h4>Site map</h4>
 		            <ul>
 		              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="#about">About us</a></li>
+			     <li><a href="#speakers">Speakers</a></li>
+			     <li><a href="#sponsors">Sponsors</a></li>
 		      <!--        <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>-->
@@ -29,8 +31,8 @@
 		          <div class="col-lg-3 col-md-6 footer-links">
 		            <h4>Useful Links</h4>
 		            <ul>
-		              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-		              <li><i class="fa fa-angle-right"></i> <a href="#about">About us</a></li>
+		              <li><i class="fa fa-angle-right"></i> <a href="http://jconfcolombia.org/">JConfColombia</a></li>
+		              <li><i class="fa fa-angle-right"></i> <a href="http://www.jespanol.org/">JEspañol</a></li>
 		      <!--        <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>-->
