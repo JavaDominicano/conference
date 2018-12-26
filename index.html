@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
   <meta charset="utf-8">
-	<title>JBake</title>
+	<title>JConfDominicana</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta name="description" content=""/>
 	<meta name="author" content=""/>
 	<meta name="keywords" content=""/>
-	<meta name="generator" content="JBake"/>
+	<meta name="generator" content="JConfDominicana"/>
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
@@ -42,8 +42,8 @@
 
 	      <div id="logo" class="pull-left">
 	        <!-- Uncomment below if you prefer to use a text logo -->
-	        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-	        <a href="#intro" class="scrollto"><img src="img/logo-jdc.png" alt="" title=""></a>
+	         <h1><a href="#main"><span>JConf</span>Dominicana</a></h1>
+	        <!--<a href="#intro" class="scrollto"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/logo-jcd.png'" alt="" title=""></a>-->
 	      </div>
 
 	      <nav id="nav-menu-container">
@@ -70,8 +70,8 @@
 	  ============================-->
 	  <section id="intro">
 	    <div class="intro-container wow fadeIn">
-	    <!--   <h1 class="mb-4 pb-0"><span class="blue">JDom</span>inican<span>Conf</span> </h1>-->
-				<h1 class="mb-4 pb-0">The first <br><span>Java conference</span> <br>of the Dominican Republic</h1>
+	   
+				<h1 class="mb-4 pb-0">The <span>Java </span> conference <br>of the Dominican Republic</h1>
 
 	      <p class="mb-4 pb-0">Saturday, June 29, 2019. Dominican Republic.</p>
 	    <!--  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
@@ -91,7 +91,11 @@
 	        <div class="row">
 	          <div class="col-lg-6">
 	            <h3>About</h3>
-	            <p>JDominicanConf is a community driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to help developers to learn the newest technologies about Java, alternatives languages in the JVM, Web, Mobile and Cloud. Besides, developers, tech companies, and startups can establish a good network among them and for them who want to enjoy the pristine beaches, cloud-forest treks and welcoming villages, this is a great opportunity to come to the Dominican Republic to learn about among Java topics and have fun sightseeing.</p>
+	            <p>JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.
+
+The conference offers a unique networking opportunity for developers, tech companies, and startups and a chance to enjoy the pristine beaches, cloud-forest treks, and the welcoming villages that the island has to offer. Come to the Dominican Republic to learn about latest Java technologies and have fun sightseeing.
+
+</p>
 	          </div>
 	          <div class="col-lg-3">
 	            <h3>Where</h3>
@@ -126,7 +130,6 @@
 	                <div class="social">
 	                  <a href="http://twitter.com/starbuxman"><i class="fa fa-twitter"></i></a>
 	                  <a href="https://github.com/joshlong"><i class="fa fa-github"></i></a>
-	                <!--  <a href=""><i class="fa fa-google-plus"></i></a>-->
 	                  <a href="#"><i class="fa fa-linkedin"></i></a>
 	                </div>
 	              </div>
@@ -134,14 +137,13 @@
 	          </div>
 	          <div class="col-lg-4 col-md-6">
 	            <div class="speaker">
-	              <img src="img/speakers/mark-heckler.jpeg" alt="Speaker 2" class="img-fluid">
+	              <img src="img/speakers/mark-heckler.jpeg" alt="Mark Heckler" class="img-fluid">
 	              <div class="details">
 	                <h3><a href="#">Mark Heckler</a></h3>
 	                <p>Spring Developer & Advocate @ Pivotal</p>
 	                <div class="social">
 	                  <a href="https://twitter.com/mkheck"><i class="fa fa-twitter"></i></a>
 	                  <a href="https://github.com/mkheck"><i class="fa fa-github"></i></a>
-	                 <!--  <a href=""><i class="fa fa-google-plus"></i></a>-->
 	                  <a href="#"><i class="fa fa-linkedin"></i></a>
 	                </div>
 	              </div>
@@ -149,65 +151,62 @@
 	          </div>
 	          <div class="col-lg-4 col-md-6">
 	            <div class="speaker">
-	              <img src="img/speakers/sebastian-daschner.jpeg" alt="Speaker 3" class="img-fluid">
+	              <img src="img/speakers/sebastian-daschner.jpeg" alt="Sebastian Daschner" class="img-fluid">
 	              <div class="details">
 	                <h3><a href="#">Sebastian Daschner</a></h3>
 	                <p>Lead Java Developer Advocate @ IBM</p>
 	                <div class="social">
 	                  <a href="https://twitter.com/DaschnerS" target="_blank"><i class="fa fa-twitter"></i></a>
 	                  <a href="https://github.com/sdaschner/" target="_blank"><i class="fa fa-github"></i></a>
-	               <!--   <a href=""><i class="fa fa-google-plus"></i></a>-->
 	                  <a href="https://www.linkedin.com/in/sebastian-daschner-9894bb103" target="_blank"><i class="fa fa-linkedin"></i></a>
 	                </div>
 	              </div>
 	            </div>
 	          </div>
-	         <!-- <div class="col-lg-4 col-md-6">
+	          <div class="col-lg-4 col-md-6">
 	            <div class="speaker">
-	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/4.jpg'" alt="Speaker 4" class="img-fluid">
+	              <img src="img/speakers/pedro-sanders.jpg" alt="Pedro Sanders" class="img-fluid">
 	              <div class="details">
-	                <h3><a href="#">Jack Christiansen</a></h3>
-	                <p>Debitis iure vero</p>
+	                <h3><a href="#">Pedro Sanders</a></h3>
+	                <p>Co-founder @ Fonoster</p>
 	                <div class="social">
-	                  <a href=""><i class="fa fa-twitter"></i></a>
-	                  <a href=""><i class="fa fa-facebook"></i></a>
-	                  <a href=""><i class="fa fa-google-plus"></i></a>
-	                  <a href=""><i class="fa fa-linkedin"></i></a>
+	                  <a href="https://twitter.com/Sandedro" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a>
+	                  <a href="https://github.com/psanders" target="_blank"><i class="fa fa-github"></i></a>
+	                  <a href="https://fonoster.com" target="_blank"><i class="fa fa-globe"></i></a>
+	                  <a href="https://www.linkedin.com/in/pedro-sanders-719639111/" target="_blank"><i class="fa fa-linkedin"></i></a>
 	                </div>
 	              </div>
 	            </div>
 	          </div>
 	          <div class="col-lg-4 col-md-6">
 	            <div class="speaker">
-	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/5.jpg'" alt="Speaker 5" class="img-fluid">
+	              <img src="img/speakers/hillmer-chona.jpg" alt="Hillmer Chona" class="img-fluid">
 	              <div class="details">
-	                <h3><a href="#">Alejandrin Littel</a></h3>
-	                <p>Qui molestiae natus</p>
+	                <h3><a href="#">Hillmer Chona</a></h3>
+	                <p>@MedellinJUG Leader, Duke’s choice award winner, Oracle Groundbreakers</p>
 	                <div class="social">
-	                  <a href=""><i class="fa fa-twitter"></i></a>
-	                  <a href=""><i class="fa fa-facebook"></i></a>
-	                  <a href=""><i class="fa fa-google-plus"></i></a>
-	                  <a href=""><i class="fa fa-linkedin"></i></a>
+	                  <a href="https://twitter.com/HillmerCh" target="_blank"><i class="fa fa-twitter"></i></a>	                 
+	                  <a href="https://github.com/HillmerCh" target="_blank"><i class="fa fa-github" target="_blank"></i></a>
+	                  <a href="https://www.linkedin.com/in/hillmerch/" target="_blank"><i class="fa fa-linkedin"></i></a>
 	                </div>
 	              </div>
 	            </div>
 	          </div>
 	          <div class="col-lg-4 col-md-6">
 	            <div class="speaker">
-	              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/6.jpg'" alt="Speaker 6" class="img-fluid">
+	              <img src="img/speakers/ccamachog.png" alt="Carlos Camacho" class="img-fluid">
 	              <div class="details">
-	                <h3><a href="#">Willow Trantow</a></h3>
-	                <p>Non autem dicta</p>
+	                <h3><a href="#">Carlos Camacho</a></h3>
+	                <p>CTO @ AvatharTech</p>
 	                <div class="social">
-	                  <a href=""><i class="fa fa-twitter"></i></a>
-	                  <a href=""><i class="fa fa-facebook"></i></a>
-	                  <a href=""><i class="fa fa-google-plus"></i></a>
-	                  <a href=""><i class="fa fa-linkedin"></i></a>
+	                  <a href="https://twitter.com/ccamachog"><i class="fa fa-twitter"target="_blank"></i></a>
+	                  <a href="https://github.com/vacax" target="_blank"><i class="fa fa-github"></i></a>
+	                  <a href="https://www.linkedin.com/in/ccamachog/"><i class="fa fa-linkedin" target="_blank"></i></a>
 	                </div>
 	              </div>
 	            </div>
 	          </div>
-	        </div>-->
+	        </div>
 	      </div>
 
 	    </section>
@@ -220,10 +219,8 @@
 	      <div class="container">
 	        <div class="section-header">
 	          <h2>Sponsors</h2>
-	          <p> If you’re interested in becoming a JDominicanConf sponsor or supporter,
-				<a href="mailto:info@javadominicano.org" target="_blank">contact us </a>
-
-	          	to discuss things further.  </p>
+	          <p> Please <a href="mailto:info@javadominicano.org" target="_blank">contact us</a> if you are interested in becoming a JConfDominicana sponsor or supporter.
+  </p>
 	        </div>
 	      </div>
 
@@ -240,15 +237,17 @@
 		        <div class="row">
 
 		          <div class="col-lg-3 col-md-6 footer-info">
-		            <img src="img/logo-jdc.png" alt="JDominicanConf">
-		            <p>JDominicanConf is a community driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to help developers to learn the newest technologies about Java, alternatives languages on the JVM, Web, Mobile and Cloud.</p>
+		            <p>JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.
+</p>
 		          </div>
 
 		          <div class="col-lg-3 col-md-6 footer-links">
-		            <h4>Useful Links</h4>
+		            <h4>Site map</h4>
 		            <ul>
 		              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="#about">About us</a></li>
+			     <li><a href="#speakers">Speakers</a></li>
+			     <li><a href="#sponsors">Sponsors</a></li>
 		      <!--        <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>-->
@@ -258,8 +257,8 @@
 		          <div class="col-lg-3 col-md-6 footer-links">
 		            <h4>Useful Links</h4>
 		            <ul>
-		              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-		              <li><i class="fa fa-angle-right"></i> <a href="#about">About us</a></li>
+		              <li><i class="fa fa-angle-right"></i> <a href="http://jconfcolombia.org/">JConfColombia</a></li>
+		              <li><i class="fa fa-angle-right"></i> <a href="http://www.jespanol.org/">JEspañol</a></li>
 		      <!--        <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>-->
