@@ -14,14 +14,16 @@
 	          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
 	        </div>
 
-	        <form method="POST" action="#">
-	          <div class="form-row justify-content-center">
+	        <form action="https://tinyletter.com/eudriscabrera" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/eudriscabrera', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+						<input type="hidden" value="1" name="embed"/>
+					  <div class="form-row justify-content-center">
 	            <div class="col-auto">
-	              <input type="text" class="form-control" placeholder="Enter your Email">
+	              <input type="text" name="email" id="tlemail" class="form-control" placeholder="Enter your Email" />
 	            </div>
 	            <div class="col-auto">
 	              <button type="submit">Subscribe</button>
 	            </div>
+							<p><a href="https://tinyletter.com" target="_blank">Powered by TinyLetter</a></p>
 	          </div>
 	        </form>
 
