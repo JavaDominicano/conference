@@ -10,8 +10,7 @@
 	    <div class="container">
 
 	      <div id="logo" class="pull-left">
-	        <!-- Uncomment below if you prefer to use a text logo -->
-	         <h1><a href="#main"><span>JConf</span>Dominicana</a></h1>
+	        <h1><a href="#main"><span>JConf</span>Dominicana</a></h1>
 	        <!--<a href="#intro" class="scrollto"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/logo-jcd.png'" alt="" title=""></a>-->
 	      </div>
 
