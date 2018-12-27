@@ -1,7 +1,7 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-transitional-thymeleaf-4.dtd">
 <html lang="en">
 
-	<head th:fragment="head">
+<head th:fragment="head">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131436977-1"></script>
   <script>
@@ -18,7 +18,7 @@
 	<meta name="description" content=""/>
 	<meta name="author" content=""/>
 	<meta name="keywords" content=""/>
-	<meta name="generator" content="JConfDominicana"/>
+	<meta name="generator" content="JBake"/>
 
   <!-- Favicons -->
   <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'img/favicon.png'" rel="icon">
