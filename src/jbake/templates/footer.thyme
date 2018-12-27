@@ -97,6 +97,6 @@
 		  <!-- Template Main Javascript File -->
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
 
-		</div>
+		 
 	</body>
 </html>
