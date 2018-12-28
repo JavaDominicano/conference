@@ -1,0 +1,27 @@
+	<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+		<body>
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+	  <script th:fragment="googleAnalytics" th:inline="javascript" th:if="${config.google_trackingID}">
+
+
+			var googleTrackingID = /*[[${config.google_trackingID}]]*/;
+
+		  document.addEventListener("DOMContentLoaded", function(event) {
+
+	      var resource = document.createElement('script');
+	      resource.async = "true";
+	      resource.src = "https://www.googletagmanager.com/gtag/js?id="+googleTrackingID;
+	      var script = document.getElementsByTagName('script')[0];
+	      script.parentNode.insertBefore(resource, script);
+	      });
+
+	      window.dataLayer = window.dataLayer || [];
+	      function gtag(){dataLayer.push(arguments);}
+	      gtag('js', new Date());
+
+	      gtag('config', googleTrackingID);
+	  </script>
+
+	  </body>
+	  </html>
