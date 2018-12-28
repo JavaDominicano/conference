@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head th:replace="header.thyme::head"/>
 <body>
-<div id="wrap">
-<div th:replace="menu.thyme::menu"/>
-<main id="main" class="main-page">
-<div th:utext='${content.body}'>body</div>
-</main>
-<div th:replace="footer.thyme::footer"></div>
-</div>
+  <div id="wrap">
+    <header th:insert="menu.thyme::menu" id="header" class="header-fixed"/>
+    <main id="main" class="main-page">
+      <th:block th:if="${content.body}" th:utext='${content.body}'>body </th:block>
+    </main>
+    <div th:replace="footer.thyme::footer"></div>
+  </div>
 </body>
 </html>
