@@ -138,6 +138,12 @@
 			 	    ============================-->
 
 				<div th:replace="newsletter.thyme::newsletter"/>
+
+				<!--==========================
+			    Buy Ticket Section
+			  ============================-->
+
+					<div th:replace="tickets.thyme::tickets"/>
 		  </main>
 
 		<div th:replace="footer.thyme::footer"/>
