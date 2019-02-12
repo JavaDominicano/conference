@@ -14,9 +14,6 @@
 					<h1 class="mb-4 pb-0">The <span>Java </span> conference <br>of the Dominican Republic</h1>
 
 		      <p class="mb-4 pb-0">Saturday, June 29, 2019. Dominican Republic.</p>
-		    <!--  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
-		        data-autoplay="true"></a>-->
-
 
 
 		      <a href="https://www.papercall.io/jconfdominicana2019" class="about-btn scrollto" title="Call For Paper" target="_blank">Apply to become a speaker</a>
@@ -143,7 +140,7 @@
 			    Buy Ticket Section
 			  ============================-->
 
-					<div th:replace="tickets.thyme::tickets"/>
+			<div th:replace="tickets.thyme::tickets"/>
 		  </main>
 
 		<div th:replace="footer.thyme::footer"/>
