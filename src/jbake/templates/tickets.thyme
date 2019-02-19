@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 	<body>
-	<div th:fragment="tickets">
+	<div th:fragment="tickets" th:remove="tag">
 
   <!--==========================
     Buy Ticket Section
@@ -13,7 +13,7 @@
       <div class="section-header">
         <h2>Buy Tickets</h2>
         <p>Tickets will be available soon. Sign up now to be notified when registration opens.</p>
-				<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+				<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: true"></script>
 				<script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"2ba9ad3be3e34e937ea55d071","lid":"73f48c7195","uniqueMethods":true}) })</script>
       </div>
     </div>

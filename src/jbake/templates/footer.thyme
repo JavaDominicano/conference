@@ -82,8 +82,6 @@
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/venobox/venobox.min.js'"></script>
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/owlcarousel/owl.carousel.min.js'"></script>
 
-		  <!-- Contact Form JavaScript File -->
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'contactform/contactform.js'"></script>
 
 		  <!-- Template Main Javascript File -->
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
