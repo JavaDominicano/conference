@@ -119,7 +119,6 @@
 			Sponsors Section
 			============================-->
 			<section id="sponsors" class="section-with-bg wow fadeInUp">
-
 				<div class="container">
 					<div class="section-header">
 						<h2>Sponsors</h2>
@@ -127,7 +126,6 @@
 						</p>
 					</div>
 				</div>
-
 			</section>
 
 			<div th:replace="newsletter.thyme::newsletter"/>
