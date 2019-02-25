@@ -2,13 +2,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 	<body>
-	<div th:fragment="newsletter">
+	<div th:fragment="sponsors">
 
 
 		 <!--==========================
 	      Sponsors Section
 	    ============================-->
-	    <section id="sponsors" class="section-with-bg wow fadeInUp">
+	    <section id="sponsors1" class="section-with-bg wow fadeInUp">
 
 	      <div class="container">
 	        <div class="section-header">
