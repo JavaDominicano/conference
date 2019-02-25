@@ -64,7 +64,11 @@
 		          You can delete the links only if you purchased the pro version.
 		          Licensing information: https://bootstrapmade.com/license/
 		        -->
-		     	<p class="muted credit">&copy;2018  | Designed by <a href="https://bootstrapmade.com/buy/?theme=TheEvent">BootstrapMade</a> | Baked with <a href="http://jbake.org">JBake <span th:text='${version}'>version</span> </a></p>
+		     	<p class="muted credit">&copy; 2018 - 2019  | Build with love by
+        <a href="https://github.com/JavaDominicano" target="_blank">Java Dominicano</a>
+        and
+        <a href="https://github.com/JavaDominicano/conference/graphs/contributors" target="_blank">
+Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span th:text='${version}'>version</span> </a> and <a href="https://bootstrapmade.com/buy/?theme=TheEvent" target="_blank">BootstrapMade</a> </p>
 		      </div>
 		    </div>
 		  </footer><!-- #footer -->
@@ -81,12 +85,18 @@
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/wow/wow.min.js'"></script>
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/venobox/venobox.min.js'"></script>
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/owlcarousel/owl.carousel.min.js'"></script>
-
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/countdown/jquery.countdown.min.js'"></script>
 
 		  <!-- Template Main Javascript File -->
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
 
+
 		 <script th:replace="commons.thyme::googleAnalytics" />
+		 <script type="text/javascript">
+            $('#countdown').countdown('2019/06/29 08:00:00', function (event) {
+                $(this).html(event.strftime('%D Days | %-H Hours | %M Minutes | %S Seconds'));
+            });
+        </script>
 		 </div>
 	</body>
 </html>
