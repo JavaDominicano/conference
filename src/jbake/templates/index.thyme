@@ -115,6 +115,8 @@
 
 			</section>
 
+	    <div th:replace="newsletter.thyme::newsletter"/>
+
 			<!--==========================
 			Sponsors Section
 			============================-->
@@ -126,11 +128,7 @@
 						</p>
 					</div>
 				</div>
-			</section>
-
-			<div th:replace="newsletter.thyme::newsletter"/>
-
-			<div th:replace="tickets.thyme::tickets"/>
+			</section>			
 		</main>
 
 		<div th:replace="footer.thyme::footer"/>
