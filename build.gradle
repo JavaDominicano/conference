@@ -10,9 +10,16 @@ bakePreview {
     port = '8080'
 }
 
+task copyCname(type: Copy) {
+        from 'src/jbake/CNAME'
+        into "$buildDir/jbake/"
+}
+
+bake.finalizedBy(copyCname)
+
 bakePreview.dependsOn tasks.find{ it.name == 'bake' }
 
-task publish(type: GradleBuild) {           
+task publish(type: GradleBuild) {
     buildFile = 'publish.gradle'
     tasks = ['gitPublishPush']
 }
