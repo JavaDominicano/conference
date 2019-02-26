@@ -168,7 +168,11 @@
 		          You can delete the links only if you purchased the pro version.
 		          Licensing information: https://bootstrapmade.com/license/
 		        -->
-		     	<p class="muted credit">&copy;2018  | Designed by <a href="https://bootstrapmade.com/buy/?theme=TheEvent">BootstrapMade</a> | Baked with <a href="http://jbake.org">JBake <span>v2.6.2</span> </a></p>
+		     	<p class="muted credit">&copy; 2018 - 2019  | Build with love by
+        <a href="https://github.com/JavaDominicano" target="_blank">Java Dominicano</a>
+        and
+        <a href="https://github.com/JavaDominicano/conference/graphs/contributors" target="_blank">
+Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span>v2.6.2</span> </a> and <a href="https://bootstrapmade.com/buy/?theme=TheEvent" target="_blank">BootstrapMade</a> </p>
 		      </div>
 		    </div>
 		  </footer><!-- #footer -->
@@ -185,10 +189,11 @@
 		  <script src="lib/wow/wow.min.js"></script>
 		  <script src="lib/venobox/venobox.min.js"></script>
 		  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+			<script src="lib/countdown/jquery.countdown.min.js"></script>
 
 		  <!-- Template Main Javascript File -->
 		  <script src="js/main.js"></script>
+
 
 		 <script>
 
@@ -210,6 +215,11 @@
 
 	      gtag('config', googleTrackingID);
 	  </script>
+		 <script type="text/javascript">
+            $('#countdown').countdown('2019/06/29 08:00:00', function (event) {
+                $(this).html(event.strftime('%D Days | %-H Hours | %M Minutes | %S Seconds'));
+            });
+        </script>
 		 
     </body>
 </html>
