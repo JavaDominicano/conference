@@ -146,7 +146,7 @@ h6 {
 
 #header {
   height: 90px;
-  padding: 25px 0;
+  padding: 5px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -158,8 +158,8 @@ h6 {
 #header.header-scrolled,
 #header.header-fixed {
   background: rgba(6, 12, 34, 0.98);
-  height: 70px;
-  padding: 15px 0;
+  height: 90px;
+  padding: 5px 0;
   transition: all 0.5s;
 }
 
@@ -256,7 +256,8 @@ h6 {
 
 #nav-menu-container {
   float: right;
-  margin: 0;
+ 
+  margin-top: 15px;
 }
 
 /* Nav Meu Styling */
