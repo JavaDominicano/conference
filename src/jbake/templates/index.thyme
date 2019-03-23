@@ -9,7 +9,7 @@
 		Intro Section
 		============================-->
 		<section id="intro">
-			<div class="intro-container wow fadeIn">
+			<div id="intro-container" class="intro-container wow fadeIn">
 
 				<h1 class="mb-4 pb-0">The <span>Java </span> conference <br>of the Dominican Republic</h1>
 
@@ -19,7 +19,7 @@
 						<p id="countdown" style="font-size:30px;font-family: 'Roboto';"></p>
 				</div>
 
-				<a href="buy-tickets.html" class="about-btn scrollto" title="Buy your Ticket!" target="_blank">Buy your Ticket!</a>
+				<a href="buy-tickets.html" class="btn-buy-tickets scrollto" title="Buy your Ticket!" target="_blank">Buy your Ticket!</a>
 
 			</div>
 		</section>

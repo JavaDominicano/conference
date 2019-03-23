@@ -100,10 +100,14 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
             });
 
 						$(function() {
-							  $('#intro').vegas({
+							  $('#intro-container').vegas({
 						        slides: [
 						            { src: 'img/homepage/java_dominicana_conference_1.jpg' },
-						            { src: 'img/homepage/java_dominicana_conference_2.jpg' }
+						            { src: 'img/homepage/java_dominicana_conference_2.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_5.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_6.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_7.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_8.jpg' }
 
 						        ]
 						    });

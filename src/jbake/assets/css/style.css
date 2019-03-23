@@ -256,7 +256,7 @@ h6 {
 
 #nav-menu-container {
   float: right;
- 
+
   margin-top: 15px;
 }
 
@@ -1683,3 +1683,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
+a.btn-buy-tickets  {
+  color: #fff;
+  background: #f82249;
+  padding: 7px 22px;
+  border-radius: 50px;
+  border: 2px solid #f82249;
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 13px;
+}
+
+a.btn-buy-tickets:hover {
+  background: none;
+}
+
+a.btn-buy-tickets:hover:before  {
+  visibility: hidden;
+}
