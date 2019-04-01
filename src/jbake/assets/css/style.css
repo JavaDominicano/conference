@@ -1704,3 +1704,7 @@ a.btn-buy-tickets:hover {
 a.btn-buy-tickets:hover:before  {
   visibility: hidden;
 }
+
+#code-of-conduct{
+  padding: 60px 0 30px 0;
+}

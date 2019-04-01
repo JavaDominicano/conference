@@ -143,5 +143,11 @@ jQuery(document).ready(function( $ ) {
   })
 
 // custom code
+  $("ul.nav-menu li").click(function() {
+     $("ul.nav-menu li").removeClass('menu-active');
+     $(this).addClass("menu-active");
+  });
+
+ $('#nav-menu-container > ul.nav-menu > li:first-child').addClass("menu-active");
 
 });
