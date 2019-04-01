@@ -87,6 +87,8 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/owlcarousel/owl.carousel.min.js'"></script>
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/countdown/jquery.countdown.min.js'"></script>
 
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/vegas/vegas.min.js'"></script>
+
 		  <!-- Template Main Javascript File -->
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
 
@@ -96,7 +98,22 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
             $('#countdown').countdown('2019/06/29 08:00:00', function (event) {
                 $(this).html(event.strftime('%D Days | %-H Hours | %M Minutes | %S Seconds'));
             });
+
+						$(function() {
+							  $('#intro-container').vegas({
+						        slides: [
+						            { src: 'img/homepage/java_dominicana_conference_1.jpg' },
+						            { src: 'img/homepage/java_dominicana_conference_2.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_5.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_6.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_7.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_8.jpg' }
+
+						        ]
+						    });
+						});
         </script>
+
 		 </div>
 	</body>
 </html>

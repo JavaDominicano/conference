@@ -47,6 +47,7 @@
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/animate/animate.min.css'" rel="stylesheet"/>
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/venobox/venobox.css'" rel="stylesheet"/>
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/owlcarousel/assets/owl.carousel.min.css'" rel="stylesheet"/>
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/vegas/vegas.min.css'" rel="stylesheet"/>
 
 <!-- Main Stylesheet File -->
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/style.css'" rel="stylesheet"/>
