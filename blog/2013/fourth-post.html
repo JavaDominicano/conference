@@ -43,6 +43,7 @@
 <link href="../../lib/animate/animate.min.css" rel="stylesheet"/>
 <link href="../../lib/venobox/venobox.css" rel="stylesheet"/>
 <link href="../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+<link href="../../lib/vegas/vegas.min.css" rel="stylesheet"/>
 
 <!-- Main Stylesheet File -->
 <link href="../../css/style.css" rel="stylesheet"/>
@@ -61,12 +62,13 @@
 
 			<nav id="nav-menu-container">
 				<ul class="nav-menu">
-					<li class="menu-active"><a href="index.html">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="buy-tickets.html">Tickets</a></li>
 					<li><a href="index.html#about">About</a></li>
 					<li><a href="speakers.html">Speakers</a></li>
+					<li><a href="code-of-conduct.html">Code of conduct</a></li>
 					<li><a href="index.html#sponsors">Sponsors</a></li>
-					
+
 				</ul>
 			</nav><!-- #nav-menu-container -->
 		</div>
@@ -192,6 +194,8 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span>
 		  <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
 			<script src="../../lib/countdown/jquery.countdown.min.js"></script>
 
+			<script src="../../lib/vegas/vegas.min.js"></script>
+
 		  <!-- Template Main Javascript File -->
 		  <script src="../../js/main.js"></script>
 
@@ -220,7 +224,22 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span>
             $('#countdown').countdown('2019/06/29 08:00:00', function (event) {
                 $(this).html(event.strftime('%D Days | %-H Hours | %M Minutes | %S Seconds'));
             });
+
+						$(function() {
+							  $('#intro-container').vegas({
+						        slides: [
+						            { src: 'img/homepage/java_dominicana_conference_1.jpg' },
+						            { src: 'img/homepage/java_dominicana_conference_2.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_5.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_6.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_7.jpg' },
+												{ src: 'img/homepage/java_dominicana_conference_8.jpg' }
+
+						        ]
+						    });
+						});
         </script>
+
 		 
     </body>
 </html>
