@@ -10,10 +10,9 @@
 		============================-->
 		<section id="intro">
 			<div id="intro-container" class="intro-container wow fadeIn">
-
-				<h1 class="mb-4 pb-0">The <span>Java </span> conference <br>of the Dominican Republic</h1>
-
-				<p class="mb-4 pb-0">Saturday, June 29, 2019. Dominican Republic.</p>
+        <div style="height:170px"></div>
+				<h1 class="mb-4 pb-0"> JConf Dominicana<br/> Saturday, June 29, 2019 </h1>
+				<p class="mb-4 pb-0">PUCMM, Santiago de los Caballeros. Dominican Republic.</p>
 
 				<div class="text-uppercase">
 						<p id="countdown" style="font-size:30px;font-family: 'Roboto';"></p>
