@@ -103,6 +103,48 @@
 								</div>
 							</div>
 						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="speaker">
+								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/heathervc.jpg'" alt="Heather VanCura" class="img-fluid">
+								<div class="details">
+									<h3><a href="#">Heather VanCura</a></h3>
+									<p>Director and Chairperson @ Java Community Process (JCP) - USA</p>
+									<div class="social">
+										<a href="https://twitter.com/heathervc" target="_blank"><i class="fa fa-twitter"></i></a>
+										<a href="https://jcp.org/en/press/pmo/pmo_profiles/commFocusPMO-vancura" target="_blank"><i class="fa fa-link"></i></a>
+										<a href="https://www.linkedin.com/in/heather-vancura-400395/" target="_blank"><i class="fa fa-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="speaker">
+								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/rafabene.jpg'" alt="Rafael Benevides" class="img-fluid">
+								<div class="details">
+									<h3><a href="#">Rafael Benevides</a></h3>
+									<p> Director of Developer Experience @ Red Hat - USA</p>
+									<div class="social">
+										<a href="https://twitter.com/rafabene" target="_blank"><i class="fa fa-twitter"></i></a>
+										<a href="http://rafabene.com/" target="_blank"><i class="fa fa-link"></i></a>
+										<a href="https://www.linkedin.com/in/rafaelbenevides/" target="_blank"><i class="fa fa-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="speaker">
+								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/mercedes_wyss.jpg'" alt="Mercedes Wyss" class="img-fluid">
+								<div class="details">
+									<h3><a href="#">Mercedes Wyss</a></h3>
+									<p> Software Engineer @ Produactivity
+ - Guatemala</p>
+									<div class="social">
+										<a href="https://twitter.com/itrjwyss" target="_blank"><i class="fa fa-twitter"></i></a>
+										<a href="https://www.linkedin.com/in/itrjwyss/" target="_blank"><i class="fa fa-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
 
 					</div>
 					<div class="row">
@@ -130,6 +172,8 @@
 					</div>
 				</div>
 			</section>
+
+			<div th:replace="organizers.thyme::organizers"/>			
 		</main>
 
 		<div th:replace="footer.thyme::footer"/>
