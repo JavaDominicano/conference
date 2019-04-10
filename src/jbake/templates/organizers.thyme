@@ -17,32 +17,38 @@
 
  			 <div class="row">
 				 <div class="col-lg-4 col-md-6">
-					 <div class="speaker">
-						<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/organizers/ciscLogo.png'" alt="Comite Estudiantes de Ingeniería en Sistemas y Computación" class="img-fluid">
-						 <div class="details">
-
-							 <p>Comite Estudiantes de Ingeniería en Sistemas y Computación</p>
-							 <div class="social">
+					 <div class="organizer">
+						 <div class="organizer-img">
+							<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/organizers/pucmm-ect.png'" alt="Escuela de Computación y Telecomunicaciones" class="img-fluid">
+						 </div>
+						 <div class="social">
+              <a href="https://www.pucmm.edu.do/ingenierias" target="_blank"><i class="fa fa-link"></i></a>
+             </div>
+					 </div>
+				 </div>
+				 <div class="col-lg-4 col-md-6">
+					 <div class="organizer">
+						<div class="organizer-img">
+							<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/organizers/cisc-logo.png'" title="Comité Estudiantes de Ingeniería en Sistemas y Computación" alt="Comité Estudiantes de Ingeniería en Sistemas y Computación" class="img-fluid">
+				 		</div>
+						 <div class="social">
 								 <a href="https://twitter.com/ComitesISC" target="_blank"><i class="fa fa-twitter"></i></a>
-								 <a href="#" target="_blank"><i class="fa fa-github"></i></a>
-							 </div>
+								 <a href="https://www.instagram.com/ciscpucmm" target="_blank"><i class="fa fa-instagram"></i></a>
 						 </div>
 					 </div>
 				 </div>
 				 <div class="col-lg-4 col-md-6">
-					 <div class="speaker">
-						<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/organizers/stgLeiD2.png'" alt="Java Users Group Dominican Republic" class="img-fluid">
-						 <div class="details">
-							 <p>Java Users Group Dominican Republic</p>
-							 <div class="social">
+					 <div class="organizer">
+					  <div class="organizer-img">
+						  <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/organizers/jugrd-logo.png'" title="Java Users Group Dominican Republic" alt="Java Users Group Dominican Republic" class="img-fluid">
+					  </div>
+						<div class="social">
 								 <a href="https://twitter.com/JavaDominicano" target="_blank"><i class="fa fa-twitter"></i></a>
 								 <a href="https://github.com/JavaDominicano" target="_blank"><i class="fa fa-github"></i></a>
-							 </div>
-						 </div>
+						</div>
 					 </div>
 				 </div>
 			</div>
-
 			</div>
 		</section>
   </div>
