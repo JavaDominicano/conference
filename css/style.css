@@ -709,7 +709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#speakers .speaker .details {
+#speakers .speaker .details{
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
@@ -734,7 +734,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
 }
 
-#speakers .speaker .details .social {
+#speakers .speaker .details .social{
   height: 30px;
 }
 
@@ -1707,4 +1707,67 @@ a.btn-buy-tickets:hover:before  {
 
 #code-of-conduct{
   padding: 60px 0 30px 0;
+}
+
+/*--------------------------------------------------------------
+# Organizers Section
+--------------------------------------------------------------*/
+
+#organizers {
+  padding: 60px 0;
+}
+
+#organizers .organizer {
+  border: 1px solid #e0e5fa;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+#organizers .organizer:hover .organizer-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#organizers .organizer-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#organizers .organizer-img img {
+  transition: 0.3s ease-in-out;
+}
+
+#organizers h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+}
+
+#organizers a {
+  color: #152b79;
+}
+
+#organizers a:hover {
+  color: #f82249;
+}
+
+#organizers .social {
+  padding: 0 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#organizers .social i {
+  color: #ffc31d;
+}
+
+#organizers p {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  color: #060c22;
+  font-style: italic;
+  font-size: 15px;
 }
