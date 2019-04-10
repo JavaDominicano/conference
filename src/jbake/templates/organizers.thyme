@@ -1,0 +1,56 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<body>
+	<div th:fragment="organizers" th:remove="tag">
+
+		<!--==========================
+			Organizers Section
+		============================-->
+		<section id="organizers" class="section-with-bg wow fadeInUp">
+			<div class="container">
+
+				<div class="section-header">
+					<h2>Organizers</h2>
+					<p>JConf Dominicana 2019 is organized by the following organizations and developer communities</p>
+				</div>
+
+ 			 <div class="row">
+				 <div class="col-lg-4 col-md-6">
+					 <div class="organizer">
+						 <div class="organizer-img">
+							<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/organizers/pucmm-ect.png'" alt="Escuela de Computación y Telecomunicaciones" class="img-fluid">
+						 </div>
+						 <div class="social">
+              <a href="https://www.pucmm.edu.do/ingenierias" target="_blank"><i class="fa fa-link"></i></a>
+             </div>
+					 </div>
+				 </div>
+				 <div class="col-lg-4 col-md-6">
+					 <div class="organizer">
+						<div class="organizer-img">
+							<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/organizers/cisc-logo.png'" title="Comité Estudiantes de Ingeniería en Sistemas y Computación" alt="Comité Estudiantes de Ingeniería en Sistemas y Computación" class="img-fluid">
+				 		</div>
+						 <div class="social">
+								 <a href="https://twitter.com/ComitesISC" target="_blank"><i class="fa fa-twitter"></i></a>
+								 <a href="https://www.instagram.com/ciscpucmm" target="_blank"><i class="fa fa-instagram"></i></a>
+						 </div>
+					 </div>
+				 </div>
+				 <div class="col-lg-4 col-md-6">
+					 <div class="organizer">
+					  <div class="organizer-img">
+						  <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/organizers/jugrd-logo.png'" title="Java Users Group Dominican Republic" alt="Java Users Group Dominican Republic" class="img-fluid">
+					  </div>
+						<div class="social">
+								 <a href="https://twitter.com/JavaDominicano" target="_blank"><i class="fa fa-twitter"></i></a>
+								 <a href="https://github.com/JavaDominicano" target="_blank"><i class="fa fa-github"></i></a>
+						</div>
+					 </div>
+				 </div>
+			</div>
+			</div>
+		</section>
+  </div>
+  </body>
+  </html>
