@@ -1,0 +1,30 @@
+{
+   "id": "psanders",
+    "name": "Pedro Sanders",
+    "photoUrl": "img/speakers/pedro-sanders.jpg",
+    "title":"Co-founder",
+    "shortBio": "",
+    "bio": "",    
+   "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/Sandedro"
+    },
+   {
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/psanders"
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/pedro-sanders-719639111/"
+    },
+    {
+      "icon": "link",
+      "name": "link",
+      "link": "https://fonoster.com"
+    }
+    ]
+      
+}

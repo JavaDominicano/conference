@@ -1,0 +1,25 @@
+{
+    "id": "markheckler",
+    "name": "Mark Heckler",
+    "photoUrl": "img/speakers/mark-heckler.jpeg",
+    "title":"Spring Developer & Advocate",
+    "shortBio": "",
+    "bio": "",    
+    "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/mkheck"
+    },
+    {
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/mkheck"
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/markheckler/"
+    }
+   ]	
+    
+}
