@@ -1,0 +1,30 @@
+{
+    "id": "migueluseche",
+    "name": "Miguel Useche",
+   "photoUrl": "https://secure.gravatar.com/avatar/b224170982470b1e61ed0ee34522c221?s=500",
+    "title":"",
+    "shortBio": "",
+    "bio": "Miguel is a [Mozilla TechSpeaker](https://events.mozilla.org/techspeakers) \u0026 Rep who loves to evangelize about the latest and newest open web technologies to make a better web. He's being doing web developing for almost 2 decades and has been volunteering in many open source communities as coder, translator, writing about web technologies in his [blog](https://skatox.com) and as speaker at events. Currently works as a Operating Systems and Programming professor at  [Universidad del Táchira](http://unet.edu.ve/), Venezuela. From there, he tries to promote open technologies among students and  local professionals by organizing tech events or the local meetups.",    
+   "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/skatox"
+    },
+   {
+      "icon": "github",
+      "name": "Github",
+      "link": ""
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": ""
+    },
+    {
+      "icon": "link",
+      "name": "link",
+      "link": "https://migueluseche.com"
+    }
+    ]
+      
+}
