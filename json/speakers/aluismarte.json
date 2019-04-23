@@ -1,0 +1,30 @@
+{
+   "id": "aluismarte",
+    "name": "Aluis Marte",
+    "photoUrl": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/40450/Aluis_Marte.jpg",
+    "title":"",
+    "shortBio": "",
+    "bio": "",    
+   "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": ""
+    },
+   {
+      "icon": "github",
+      "name": "Github",
+      "link": ""
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": ""
+    },
+    {
+      "icon": "link",
+      "name": "link",
+      "link": ""
+    }
+    ]
+      
+}

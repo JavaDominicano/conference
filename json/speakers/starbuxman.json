@@ -1,0 +1,24 @@
+{
+    "id": "starbuxman",
+    "name": "Josh Long",
+    "photoUrl": "img/speakers/josh-long.jpg",
+    "title":"Spring Developer Advocate",
+    "shortBio": "",
+    "bio": "",    
+    "socials": [{
+       "icon": "twitter",
+       "name": "Twitter",
+       "link": "http://twitter.com/starbuxman"
+      },
+      {
+        "icon": "github",
+         "name": "Github",
+         "link": "https://github.com/joshlong"
+      },
+      {
+       "icon": "linkedin",
+       "name": "Linkedin",
+       "link": "https://www.linkedin.com/in/joshlong/"
+      }
+    ]	
+}

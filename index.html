@@ -47,8 +47,6 @@
 
 <!-- Main Stylesheet File -->
 <link href="css/style.css" rel="stylesheet"/>
-
-
 </head>
 <body>
 	<div id="wrap">
@@ -58,6 +56,7 @@
 			<div id="logo" class="pull-left">
 				 <!-- <h1><a href="index.html"><span>JConf</span>Dominicana</a></h1>-->
 				<a href="index.html#intro" class="scrollto"><img src="img/jconf-sm-logo.png" alt="" title="JConf Dominicana"></a>
+
 			</div>
 
 			<nav id="nav-menu-container">
@@ -68,8 +67,7 @@
 					<li><a href="speakers.html">Speakers</a></li>
 					<li><a href="code-of-conduct.html">Code of conduct</a></li>
 					<li><a href="index.html#sponsors">Sponsors</a></li>
-
-				</ul>
+				</ul>			
 			</nav><!-- #nav-menu-container -->
 		</div>
 	</header>
@@ -79,8 +77,9 @@
 		<section id="intro">
 			<div id="intro-container" class="intro-container wow fadeIn">
         <div style="height:170px"></div>
-				<h1 class="mb-4 pb-0"> JConf Dominicana<br/> Saturday, June 29, 2019 </h1>
-				<p class="mb-4 pb-0">PUCMM, Santiago de los Caballeros. Dominican Republic.</p>
+					<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
+				<h1 class="mb-4 pb-0"> JConf Dominicana<br/></h1>
+				<p class="mb-4 pb-0"> Saturday, June 29, 2019. PUCMM, Santiago de los Caballeros. Dominican Republic.</p>
 
 				<div class="text-uppercase">
 						<p id="countdown" style="font-size:30px;font-family: 'Roboto';"></p>
@@ -100,9 +99,7 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<h3>About</h3>
-							<p>JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.
-
-								The conference offers a unique networking opportunity for developers, tech companies, and startups and a chance to enjoy the pristine beaches, cloud-forest treks, and the welcoming villages that the island has to offer. Come to the Dominican Republic to learn about latest Java technologies and have fun sightseeing.
+							<p>JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.The conference offers a unique networking opportunity for developers, tech companies, and startups and a chance to enjoy the pristine beaches, cloud-forest treks, and the welcoming villages that the island has to offer. Come to the Dominican Republic to learn about latest Java technologies and have fun sightseeing.
 
 							</p>
 						</div>
@@ -204,8 +201,7 @@
 								<img src="img/speakers/mercedes_wyss.jpg" alt="Mercedes Wyss" class="img-fluid">
 								<div class="details">
 									<h3><a href="#">Mercedes Wyss</a></h3>
-									<p> Software Engineer @ Produactivity
- - Guatemala</p>
+									<p> Software Engineer @ Produactivity - Guatemala</p>
 									<div class="social">
 										<a href="https://twitter.com/itrjwyss" target="_blank"><i class="fa fa-twitter"></i></a>
 										<a href="https://www.linkedin.com/in/itrjwyss/" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -262,7 +258,7 @@
 				<div class="container">
 					<div class="section-header">
 						<h2>Sponsors</h2>
-						<p> Please <a href="mailto:info@jconfdominicana.org" target="_blank">contact us</a> if you are interested in becoming a JConf Dominicana sponsor or supporter.
+						<p> Please contact us if you are interested in becoming a JConf Dominicana sponsor or supporter. <a href="mailto:info@jconfdominicana.org" target="_blank">Click here</a>
 						</p>
 					</div>
 				</div>
@@ -317,7 +313,7 @@
 			</div>
 			</div>
 		</section>
-  			
+  
 		</main>
 
 		
@@ -411,8 +407,10 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span>
 		  <!-- Template Main Javascript File -->
 		  <script src="js/main.js"></script>
 
+      <script src="js/JSON-translation-data.js"></script>
 
-		 <script>
+ 			<script src="js/lingumania.min.js"></script>
+		  <script>
 
 
 			var googleTrackingID = "UA-131436977-1";

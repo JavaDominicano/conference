@@ -1771,3 +1771,26 @@ a.btn-buy-tickets:hover:before  {
   font-style: italic;
   font-size: 15px;
 }
+
+.btn-link {
+ font-family: "Raleway", sans-serif;
+ font-weight: 500;
+ font-size: 14px;
+ letter-spacing: 1px;
+ display: inline-block;
+ padding: 12px 32px;
+ border-radius: 50px;
+ transition: 0.5s;
+ line-height: 1;
+ margin: 10px;
+ color: #fff;
+ -webkit-animation-delay: 0.8s;
+ animation-delay: 0.8s;
+ border: 2px solid #f82249;
+ background: #f82249;
+}
+
+.btn-link:hover {
+ background: none;
+ border: 2px solid #f82249;
+ color: #fff;

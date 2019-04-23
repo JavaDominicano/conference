@@ -1,0 +1,25 @@
+{
+    "id": "sebastian-daschner",
+    "name": "Sebastian Daschner",
+    "photoUrl": "img/speakers/sebastian-daschner.jpeg",
+    "title":"Lead Java Developer Advocate",
+    "shortBio": "",
+    "bio": "",    
+    "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/DaschnerS"
+    },
+    {
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/sdaschner/"
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/sebastian-daschner-9894bb103"
+    }
+   ]	
+    
+}
