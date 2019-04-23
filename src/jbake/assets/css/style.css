@@ -1794,3 +1794,17 @@ a.btn-buy-tickets:hover:before  {
  background: none;
  border: 2px solid #f82249;
  color: #fff;
+}
+
+.justify-content-center {
+  text-align: center;
+}
+
+
+.justify-content-center h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

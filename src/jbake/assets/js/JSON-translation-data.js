@@ -166,5 +166,9 @@ var linguJSON = {
             "source": "Tickets",
             "target": "Inscripciones",
         },
+        {
+          "source" : "About JConf Dominicana",
+          "target": "Sobre JConf Dominicana"
+        }
     ]
 };
