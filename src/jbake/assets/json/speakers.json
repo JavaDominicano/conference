@@ -61,7 +61,7 @@
     }
     ]
   },
-  
+
   "103": {
     "id": "sebastian-daschner",
     "name": "Sebastian Daschner",
@@ -93,7 +93,7 @@
     }
     ]
   },
-  
+
   "104": {
     "id": "heathervc",
     "name": "Heather VanCura",
@@ -125,7 +125,7 @@
     }
     ]
   },
-  
+
   "105": {
     "id": "rafabene",
     "name": "Rafael Benevides",
@@ -176,11 +176,6 @@
       "name": "Twitter",
       "link": "https://twitter.com/itrjwyss"
     },
-    {
-      "icon": "link",
-      "name": "link",
-      "link": ""
-    },
      {
       "icon": "linkedin",
       "name": "Linkedin",
@@ -211,7 +206,7 @@
       "icon": "github",
       "name": "Github",
       "link": "https://github.com/vacax"
-    },,
+    },
      {
       "icon": "linkedin",
       "name": "Linkedin",
@@ -219,7 +214,7 @@
     }
     ]
   },
-  
+
   "108": {
     "id": "hillmer-chona",
     "name": "Hillmer Chona",
@@ -256,7 +251,7 @@
     "name": "Pedro Sanders",
     "company": "Fonoster",
     "companyLogo": "",
-    "country": "Dominican Republic",
+    "country": "USA",
     "photoUrl": "img/speakers/pedro-sanders.jpg",
     "shortBio": "",
     "bio": "",
@@ -301,16 +296,17 @@
       "name": "Mobile Developer",
       "description": "Mobile Developer"
     }],
-    "socials": [{
-      "icon": "twitter",
-      "name": "Twitter",
-      "link": ""
-    },
-   {
-      "icon": "github",
-      "name": "Github",
-      "link": ""
-    },
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/_euryperez"
+      },
+      {
+          "icon": "github",
+          "name": "Github",
+          "link": "https://github.com/euri16"
+      },
      {
       "icon": "linkedin",
       "name": "Linkedin",
@@ -342,16 +338,6 @@
       "name": "Twitter",
       "link": "https://twitter.com/skatox"
     },
-   {
-      "icon": "github",
-      "name": "Github",
-      "link": ""
-    },
-     {
-      "icon": "linkedin",
-      "name": "Linkedin",
-      "link": ""
-    },
     {
       "icon": "link",
       "name": "Link",
@@ -362,7 +348,7 @@
   "112": {
     "id": "aluismarte",
     "name": "Aluis Marte",
-    "company": "",
+    "company": "Edessis S.R.L",
     "companyLogo": "",
     "country": "Dominican Republic",
     "photoUrl": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/40450/Aluis_Marte.jpg",
@@ -373,25 +359,16 @@
       "name": "Software Developer",
       "description": "Software Developer"
     }],
-    "socials": [{
-      "icon": "twitter",
-      "name": "Twitter",
-      "link": ""
-    },
+    "socials": [
    {
       "icon": "github",
       "name": "Github",
-      "link": ""
+      "link": "https://github.com/aluismarte"
     },
      {
       "icon": "linkedin",
       "name": "Linkedin",
-      "link": ""
-    },
-    {
-      "icon": "link",
-      "name": "Link",
-      "link": ""
+      "link": "https://www.linkedin.com/in/aluis-marte-5159b267"
     }
     ]
   }

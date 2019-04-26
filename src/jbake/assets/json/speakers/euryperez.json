@@ -4,27 +4,26 @@
     "photoUrl": "https://secure.gravatar.com/avatar/8a305f80c3633ce08f307dd4df58a18f?s=500",
     "title":"Co-founder",
     "shortBio": "",
-    "bio": "",    
+    "bio": "",
    "socials": [{
-      "icon": "twitter",
-      "name": "Twitter",
-      "link": ""
-    },
+     "icon": "twitter",
+     "name": "Twitter",
+     "link": "https://twitter.com/_euryperez"
+   },
    {
-      "icon": "github",
-      "name": "Github",
-      "link": ""
-    },
-     {
-      "icon": "linkedin",
-      "name": "Linkedin",
-      "link": "https://www.linkedin.com/in/euryperez/"
-    },
-    {
-      "icon": "link",
-      "name": "Medium",
-      "link": "https://medium.com/@euryperez"
-    }
-    ]
-      
+       "icon": "github",
+       "name": "Github",
+       "link": "https://github.com/euri16"
+   },
+  {
+   "icon": "linkedin",
+   "name": "Linkedin",
+   "link": "https://www.linkedin.com/in/euryperez/"
+ },
+ {
+   "icon": "link",
+   "name": "Medium",
+   "link": "https://medium.com/@euryperez"
+ }
+]      
 }
