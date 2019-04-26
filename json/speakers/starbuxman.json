@@ -4,7 +4,7 @@
     "photoUrl": "img/speakers/josh-long.jpg",
     "title":"Spring Developer Advocate",
     "shortBio": "",
-    "bio": "",    
+    "bio": "Josh (@starbuxman) is the Spring Developer Advocate at Pivotal. Josh is a Java Champion, author of 6 books (including O'Reilly's Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry and the upcoming Reactive Spring) and numerous best-selling video trainings (including Building Microservices with Spring Boot Livelessons with Spring Boot co-founder Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin), a podcaster and a screencaster",    
     "socials": [{
        "icon": "twitter",
        "name": "Twitter",

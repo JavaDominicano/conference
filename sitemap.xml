@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://jconfdominicana.org/speakers.html</loc>
+        <lastmod>2019-04-26</lastmod>
+    </url><url>
+        <loc>https://jconfdominicana.org/speaker-details.html</loc>
+        <lastmod>2019-04-26</lastmod>
+    </url><url>
         <loc>https://jconfdominicana.org/about.html</loc>
-        <lastmod>2019-04-10</lastmod>
+        <lastmod>2019-04-23</lastmod>
     </url><url>
         <loc>https://jconfdominicana.org/code-of-conduct.html</loc>
         <lastmod>2019-04-01</lastmod>
     </url><url>
         <loc>https://jconfdominicana.org/buy-tickets.html</loc>
         <lastmod>2019-02-25</lastmod>
-    </url><url>
-        <loc>https://jconfdominicana.org/speakers.html</loc>
-        <lastmod>2018-12-27</lastmod>
     </url><url>
         <loc>https://jconfdominicana.org/blog/2013/fourth-post.html</loc>
         <lastmod>2013-10-17</lastmod>
