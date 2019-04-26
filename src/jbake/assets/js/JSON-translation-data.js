@@ -166,5 +166,13 @@ var linguJSON = {
             "source": "Tickets",
             "target": "Inscripciones",
         },
+        {
+          "source" : "About JConf Dominicana",
+          "target": "Sobre JConf Dominicana"
+        },
+        {
+          "source" : "Speaker Details"
+          "target":  "Detalles del Conferencista"
+        }
     ]
 };
