@@ -171,7 +171,7 @@ var linguJSON = {
           "target": "Sobre JConf Dominicana"
         },
         {
-          "source" : "Speaker Details"
+          "source" : "Speaker Details",
           "target":  "Detalles del Conferencista"
         }
     ]
