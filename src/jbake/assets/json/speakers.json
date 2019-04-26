@@ -288,7 +288,7 @@
     "company": "X-Team",
     "companyLogo": "",
     "country": "Dominican Republic",
-    "photoUrl": "https://secure.gravatar.com/avatar/8a305f80c3633ce08f307dd4df58a18f?s=500",
+    "photoUrl": "img/speakers/euryperez.jpg",
     "shortBio": "",
     "bio": "",
     "tags": [],
@@ -330,8 +330,8 @@
     "bio": "",
     "tags": [],
     "badges": [{
-      "name": "Mobile Developer",
-      "description": "Mobile Developer"
+      "name": "Tech Speaker",
+      "description": "Tech Speaker"
     }],
     "socials": [{
       "icon": "twitter",
