@@ -3,6 +3,7 @@
     "name": "Carlos Paulino",
     "photoUrl": "img/speakers/carlospaulino.jpg",
     "title":"Android Engineer",
+    "countryFlag": "flag-icon-us flag-icon-squared",
     "shortBio": "",
     "bio": "Carlos is an Android Engineer at American Express working on US consumer mobile application and many other initiatives. He is very passionate about Android, Kotlin, Testing and Open Source. Carlos's journey as an Android Engineer started back in 2011 when he co-founded at ZenMenu, a startup that he co-founded, where he and his team developed a digital menu system that replaced old-fashioned paper menus with Tablets.He is also a co-organizer of the GDG Santo Domingo Chapter.",
     "socials": [{

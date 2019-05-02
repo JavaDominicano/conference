@@ -28,7 +28,7 @@ function createSpeakerDetailsCard(speakerJson) {
         "</div>" +
         "<div class=\"col-md-6\">" +
         "<div class=\"details\">" +
-        "<h2>"+speakerJson.name +"</h2>"+
+        "<h2>"+speakerJson.name +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></h2>"+
         "<div class=\"social\">" ;
 
         for(i in speakerJson.socials){

@@ -202,50 +202,6 @@
 		"speakers": [
 			"aluismarte"
 		]
-	},
-
-	"111": {
-		"id": 111,
-		"title": "Build - Test - Ship - Repeat: Effective testing and delivery using Continuous Integration",
-		"abstract": "",
-		"description": "Android testing is hard and ensuring product quality is even harder. Both of these processes are very time consuming and unfortunately time is a very limited resource. As software engineers we should automate as many processes as possible and let machines do they heavy lifting in a more efficient and faster way.\r\n\r\nIn this talk we are going to explore how we can improve product quality, stability and delivery speed by embracing Continuous Integration and Firebase Test Lab. We will also explore which techniques and strategies that you should use to automate your most of the processes that are time consuming and hard to implement manually.",
-		"audience_level": "Beginner",
-		"language": "es",
-		"talk_format": "Talk (~30-45 minutes)",
-		"tags": [
-			"java",
-			"Android",
-			"devops",
-			"Continuous Integration"
-
-		],
-		"speakers": [
-			"carlospaulino"
-		]
-	},
-  "112": {
-		"id": 112,
-		"title": "Empowering Soft Skills with Team Dynamics & Communication Skills (For Software Engineering Team Projects & Customer Service): Using Active listening Techniques",
-		"abstract": "Key Takeaways:\n•Creative Problem Solving\n•Customer Service \u0026 Support\n•Generational Gaps \u0026 Workplace Diversity\n•Goal Setting\n•Leadership and Influence\n•Employee Efficiency\n•Using Group Dynamics\n•The loss of translation in a text/email.\n•The value of how things are said\n•How someone hears a word",
-		"description": "The implementation/training of Team Dynamics \u0026 Active Listening is ideal for individuals who work in a group setting and who have Teams working in the areas of Engineering, Programming and DevOps.\r\n\r\n•This concept has proven SOUND and EFFICIENT in regards to producing advanced degrees of SUCCESS in the areas of administration performance and TEAM-ROLE awareness.\r\n\r\n•This lecture is designed to enhance the characteristics of a development team and allow them to be cross-efficient and well-informed of frameworks and sufficient-enough to the sense where they can offer all essential skillsets.\r\n\r\n•My approach derives from my experience as an adjunct professor (psychology \u0026 group dynamics) and experience as an interrogator/profiler and hostage negotiator.  My proficiency with said skills has allowed me to assemble a METHOD, which will INTEGRATE your TEAM sectors.\r\n\r\n•The lecture/ is aimed at offering Development teams’ novel methods for applying agendas for the publication of a new variety of team projects.\r\n\r\n•My RESEARCH and practice will assist companies, organizations, and groups by merging psychology in consort with Active Listening Skills (ALS), which will result in an ACCELERATED-advance technique, devised to build rapport as well as enhanced recruiting methods.\r\n\r\n•The lecture/ is designed to bring out individuals exceptional communication and administrative abilities and skills to function effectively as an element of a team.\r\n\r\n•This presentation will allow businesses to use the TEAM PROJECT MODEL to help their team members cooperate, with the focus on utilizing distinctive intensities within individual elements among members of a team.\r\n\r\n•Team leaders will take with them newer methods to develop a team of energetic, driven individuals who are enthusiastic regarding assisting the corporate endure to climb to new elevations.\r\n\r\n•This presentation also motivates an even more distanced method of diverse aspects regarding a project.\r\n\r\n•My presentation will illustrate that the above model is acceptable.  However, a team will not communicate effectively if a team that has been taken apart and separated due to disconnection and lack of communication.\r\n\r\n•By using ACTIVE LISTENING SKILLS (ALS), a method developed by the FBI, every team member will increase productivity regarding their specific missions, and when united, the team members will form successful finalization of their team-goal.  By applying ALS, the team’s entire task will be the result of collective productive representation of their work.\r\n\r\n•As with all teams, each team was placed together because at the initial conception of the group; it was assumed that the team element is within the excellent working order.  However, the appreciation of the team model must be well-oiled, and if not, members of the team will individually lack the proper function that is necessitated for TEAMWORK and fail to produce.\r\n\r\n•RESEARCH HAS PROVEN THAT THE KEY CATALYST REGARDING TEAM FAILURE IS COMMUNICATION AND THE LACK OF PROPER USAGE OF ONE’S COMMUNICATION SKILLS.",
-		"talk_format": "Workshop (\u003e 60 minutes)",
-		"language": "en",
-		"tags": [
-			"ActiveListening",
-			"CommunicationSkills",
-			"Company",
-			"Creativity",
-			"Devops",
-			"Diversity",
-			"Goals",
-			"GroupDynamics",
-			"Initiative",
-			"Leaders",
-			"Productivity",
-			"Teamwork"
-		],
-		"speakers": [
-			"sjenkins"
-		]
 	}
+
 }
