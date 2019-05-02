@@ -3,8 +3,9 @@
     "name": "Pedro Sanders",
     "photoUrl": "img/speakers/pedro-sanders.jpg",
     "title":"Co-founder",
+    "countryFlag": "flag-icon-us flag-icon-squared",
     "shortBio": "",
-    "bio": "Enthusiast Telematic Engineer. Building the next generation of communication software.",    
+    "bio": "Enthusiast Telematic Engineer. Building the next generation of communication software.",
    "socials": [{
       "icon": "twitter",
       "name": "Twitter",
@@ -26,5 +27,5 @@
       "link": "https://fonoster.com"
     }
     ]
-      
+
 }

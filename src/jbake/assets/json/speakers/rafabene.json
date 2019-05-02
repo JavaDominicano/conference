@@ -3,8 +3,9 @@
     "name": "Rafael Benevides",
     "photoUrl": "img/speakers/rafabene.jpg",
     "title":"Director of Developer Experience",
+    "countryFlag": "flag-icon-us flag-icon-squared",
     "shortBio": "",
-    "bio": "Rafael Benevides is a Director of Developer Experience at Red Hat. In his current role he helps developers worldwide to be more effective in software development, and he also promotes tools and practices that help them to be more productive. He worked in several fields including application architecture and design. Besides that, he is a member of Apache DeltaSpike PMC - a Duke’s Choice Award winner project. And a speaker in conferences like JUDCon, TDC, JavaOne and Devoxx.",    
+    "bio": "Rafael Benevides is a Director of Developer Experience at Red Hat. In his current role he helps developers worldwide to be more effective in software development, and he also promotes tools and practices that help them to be more productive. He worked in several fields including application architecture and design. Besides that, he is a member of Apache DeltaSpike PMC - a Duke’s Choice Award winner project. And a speaker in conferences like JUDCon, TDC, JavaOne and Devoxx.",
    "socials": [{
       "icon": "twitter",
       "name": "Twitter",
@@ -21,5 +22,5 @@
       "link": "https://www.linkedin.com/in/rafaelbenevides/"
     }
     ]
-    
+
 }
