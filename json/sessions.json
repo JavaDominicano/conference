@@ -1,0 +1,207 @@
+{
+	"101": {
+		"id": 101,
+		"title": "The Future of Java and You",
+		"abstract": "Learn how to take part in the Java developer community and the upcoming changes to the Java platform. Get your questions answered - why and how to participate in the evolution of Java. You will also learn about the global Adoption programs and how you can contribute to the future of Java.",
+		"description": "This session will explore how Java development has been brought into the open over the past decade. Several Java developer efforts have brought open source development processes and new levels of transparency and participation into their communities. The Java Community Process (JCP) program celebrates twenty years of Java standards development in 2019. Learn about the latest Java innovations to the Java SE Platform - Java SE 10, 11, 12 and beyond. Since the initiation of efforts to expand the developer participation in the Java community, Java standards development is more open that it ever has been.\r\n\r\nLearn how to take part in the Java developer community and the upcoming changes to Java - you can participate as an individual, corporation, or nonprofit such as a Java user group (JUG). This session answers questions about why and how to participate in the evolution of the Java platform. You will also learn about the global Adoption programs and how you can participate in contributing to the future of Java.",
+		"audience_level": "All",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+			"javase",
+			"javaee",
+			"jvm",
+			"openjdk",
+			"web",
+			"cloud",
+			"developers",
+			"community"
+		],
+		"speakers": [
+			"heathervc"
+		]
+	},
+
+	"102": {
+		"id": 102,
+		"title": "How not suck at Microservices",
+		"abstract": "There are different frameworks and tools that you can use and join the pieces together into a Microservices Architecture. This session shows how you can combine them in a live demo that will open your eyes for the huge possibilities that Microservices can enable you when using Kubernetes.",
+		"description": "With people trying MSA architectures, some failed, some succeeded. This talk will show what they need to not fail with MSA architecture.\r\n\r\nYou’ve been hearing about Microservices for months, and probably have taken a look about 12-factor and cloud-native apps too. But there’s a myriad of different Java frameworks and tools that you can use to craft your software and join the pieces together into a Microservices Architecture. You want to use the best platform to deploy all of them. Join this session to see how you can combine a lot of different technologies and tools in a live demo that will open your eyes for the huge possibilities that Microservices can enable you to achieve. We’ll have it all: containers, Docker, Java EE, Vert.x, Wildfly Swarm, Spring Boot, OpenShift, Jenkins, Kubernetes and perhaps much more.",
+		"audience_level": "Beginner",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+			"microservices",
+			"devops",
+			"containers",
+			"kubernetes",
+			"openshift",
+			"distributed computing"
+		],
+		"speakers": [
+			"rafabene"
+		]
+	},
+
+	"103": {
+		"id": 103,
+		"title": "Cloud Native, Service-Meshed Java Enterprise With Istio",
+		"abstract": "This sessions shows how to implement service-meshed applications using Java EE 8 and MicroProfile. We will develop a mesh of microservices, managed by Kubernetes and Istio.",
+		"description": "In enterprise software, we see more and more of the cloud native technologies, especially container orchestration and service meshes, emerging and slowly taking over the market. Developers are facing the challenge which technology to choose to implement microservices for a cloud native setting. Java Enterprise has been used for software solutions for a long time and its APIs are well-established in the ecosystem. However, is it possible to develop cloud native, service-meshed Java Enterprise applications that fulfill concerns such as scalability, resiliency, and telemetry — in an effective, manageable way?This sessions shows how to implement service-meshed applications using Java EE 8 and MicroProfile. We will develop a mesh of microservices, managed by Kubernetes and Istio. We’ll see why especially the Java Enterprise approach fits the concepts behind container orchestration and service meshes well. The session also includes how to integrate the required cross-cutting concerns, such as monitoring, tracing, or resiliency into our applications, where developers have to actively integrate technology themselves and where the platform support us. Especially the cooperation between Java EE and MicroProfile provides a potent technology. All of the time will be spent live-coding while explaining the concepts and solutions.",
+		"audience_level": "Beginner",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+			"microservices",
+			"devops",
+			"containers",
+			"kubernetes",
+			"cloud computing"
+		],
+		"speakers": [
+			"sebastian-daschner"
+		]
+	},
+
+	"104": {
+		"id": 104,
+		"title": "Bebiendo del Stream: Como usar las plataformas de mensajería para escalamiento y rendimiento",
+		"abstract": "Ven a esta sesión para aprender como incorporar soluciones de código abierto como Spring Cloud Stream, RabbitMQ, y Apache Kafka para maximizar las capacidades de tus sistemas distribuidos con complejidad mínima. Todos los ejemplos se escribirán en código en vivo y en tiempo real!",
+		"description": "Casi todos de los sistemas de misión crítica tienen elementos distribuidos o son totalmente distribuidos, resultando en numerosos retos: rendimiento, escalamiento, confiabilidad, elasticidad…​los ocho mitos del cómputo distribuido son vivos y bienes! Con frecuencia las plataformas de mensajería se usan para resolver estos problemas y aumentar las capacidades, pero no vienen sin complejidad por si mismas. Ven a esta sesión para aprender como incorporar soluciones de código abierto como Spring Cloud Stream, RabbitMQ, y Apache Kafka para maximizar las capacidades de tus sistemas distribuidos con complejidad mínima. Todos los ejemplos se escribirán en código en vivo y en tiempo real!",
+		"audience_level": "Beginner",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"Spring",
+			" Cloud",
+			"Distributed systems"
+
+		],
+		"speakers": [
+			"markheckler"
+		]
+	},
+
+	"105": {
+		"id": 105,
+		"title": "The Reactive Revolution",
+		"abstract": "The reactive revolution continues. For as much as we've been talking about reactive programming in Spring for the last few years the journey has only just begun. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll take our reactive applications further, looking at how to build microservices for cloud platforms like Pivotal Application Service (Cloud Foundry) and PKS (Kubernetes).",
+		"description": "The reactive revolution continues. For as much as we've been talking about reactive programming in Spring for the last few years the journey has only just begun. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll take our reactive applications further, looking at how to build microservices for cloud platforms like Pivotal Application Service (Cloud Foundry) and PKS (Kubernetes).\r\n\r\nSome of the things we may cover include:\r\n\r\nreactive NoSQL data access\r\n\r\nreactive SQL data access with R2DBC\r\n\r\norchestration and reliability patterns like client-side loadbalancing, circuit breakers, and hedging\r\n\r\nmessaging and service integration with Apache Kafka or RSocket\r\n\r\nAPI gateways with Spring Cloud Gateway and patterns like rate limiting and\r\n\r\nAPI adapters\r\n\r\nserverless programming with Spring Cloud Function and project Riff\r\n\r\nreactive authentication and authorization with Spring Security",
+		"audience_level": "Beginner",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"Spring",
+			"Reactive programming",
+			"kubernetes",
+			"cloud computing"
+		],
+		"speakers": [
+			"starbuxman"
+		]
+	},
+
+	"106": {
+		"id": 106,
+		"title": "Modern Identity Management (in the Era of Serverless and Microservices)",
+		"abstract": "Identity Management is an umbrella term for all of the core logic around identity. The main purpose of this talk is gain an in-depth knowledge of terms like manage provisioning, account management, identity governance, authentication, authorization, identity federation and how improve this with PaaS",
+		"description": "If you believe that Identity Management (IdM) is just related with the Authentication and Authorization processes, this is a talk for you. IdM is an umbrella term for all of the core logic around identity. That means manage provisioning (assigning identities to user), account management (maintaining those identities), identity governance (assigning them to groups and roles and adjusting permissions as needed), authentication, authorization, identity federation (ensuring users can use the same identification data to access resources on related domains). A login is more than a Single Sign On, we can use Passwordless, Federated Identity (FB, GitHub), Multifactor Authentication. \r\n\r\nThe main purpose of this talk is gain an in-depth knowledge of those terms, in addition explore some PaaS, that can help to achieve all that in our projects easier and faster.",
+		"audience_level": "All",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"Cloud",
+			"Software",
+			"Architecture",
+			"Solution",
+			"Future",
+			"Mobile",
+			"Frontend",
+			"Server-side Java"
+		],
+		"speakers": [
+			"mercedes_wyss"
+		]
+	},
+
+	"107": {
+		"id": 107,
+		"title": "Dockerizing Java applications with Oracle Cloud",
+		"abstract": "Containerization helps to package applications to be released and updated severals times a day in an easy and fast way. This demo-driven session shows how a Microservice can be developed with Java Technologies, packaged with containerization techniques and deploy on Oracle Kubernetes Engine.",
+		"description": "There are several Java technologies that can be used to create microservices, regardless of which one is chosen, the most effective way to deploy them could be a containerized environment. This session walks through next topics\r\n\r\n* Microservices with Java: \r\n    Java technologies to develop microservices\r\n    The demo application\r\n* Packing the application \r\n    Thin War \r\n    Uber Jar\r\n* Building docker images \r\n    The Dockerfile\r\n    Caching \r\n    Layering\r\n  Docker repository\r\n* Deploying on Kubernetes Engine: \r\n    Create an instance\r\n    Accessing to the instance\r\n   The deployment file\r\n   Deploying, scaling and deleting the service\r\n",
+		"audience_level": "Beginner",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+			"cloud",
+			"docker",
+			"kubernetes",
+			"microservices"
+		],
+		"speakers": [
+			"hillmer-chona"
+		]
+	},
+
+	"108": {
+		"id": 108,
+		"title": "Java is back to the browser thanks to WebAssembly!",
+		"abstract": "In the past it was very popular to run Java code inside browsers trough Java Applets, but it lost popularity in the past decade.\n\nBut now thanks to WebAssembly (a way to run other languages besides JS on the browser) it's possible to run your Java app in the browser again.\n\nLearn who you can do it!",
+		"description": "[WebAssembly](https://webassembly.org/) is a type of code that can be executed in modern web browsers through a compact binary format that runs at **near-native speed** without any plugins. This have a great impact for the web, because it gives a way to run code from other languages into the web at near native performance, providing client apps with a technology to run high performance applications in such way that was not possible before.\r\n\r\nWebAssembly lets you port your Java code or JVM bytecode to the web. You can compile code written for Java into WASM by using tools like [TeaVM](http://teavm.org/) or [Bytecoder](https://github.com/mirkosertic/Bytecoder), so you can reuse your current apps or call part of the code from a JavaScript context and access browser functionalities using the same Web APIs accessible from JavaScript. *All without installing any plugins!*\r\n\r\nThis talk will be an introduction on how you can take your Java code to the web with WASM. I will discuss the following topics:\r\n\r\n* Small brief about Javascript performance\r\n* Introduction of scenarios where high performance could be required.\r\n* What is WASM, its components and features.\r\n* How can you take your Java or JVM code to WASM.\r\n* Code interaction between JS and Java (and vice-versa)\r\n* Code examples and a brief presentation of demos (video or live).\r\n* Firefox's Dev Tools for working with WASM.\r\n* Where you can get more information about it.\r\n\r\nAttendees will learn the basics of this game-changer web technology, how to start to create high performance apps from scratch or migrate existing ones written in Java to WebAssembly.\r\n\r\nAll by using open technologies!",
+
+		"audience_level": "Intermediate",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"browsers",
+			"java",
+			"webassembly",
+			"wasm"
+		],
+		"speakers": [
+			"migueluseche"
+		]
+	},
+
+	"109": {
+		"id": 109,
+		"title": "Unleashing Kotlin's power: A talk for Java developers",
+		"abstract": "Kotlin is the most trending topic for JVM-related professionals, because of the functional fever and all it has to offer. As per my experience Java devs don't take advantage of it fully, because it's not only about learning a new syntax, but changing the mindset.\n\nThis talk is aimed to solve that.",
+		"description": "Kotlin is a modern programming language which explicit goal is to work an all platforms. It takes full advantage of the functional programming and all the power of the JVM. A lot of java developers are trying kotlin, but they keep coding like it is Java. In this workshop we are going to learn the difference between the both, how to unleash the Kotlin's power and how it perfectly interoperate with Java.",
+		"audience_level": "Intermediate",
+		"language": "es",
+		"talk_format": "Workshop (\u003e 60 minutes)",
+		"tags": [
+			"Java",
+			"JVM",
+			"Kotlin",
+			"Functional"
+		],
+		"speakers": [
+			"euryperez"
+		]
+	},
+
+	"110": {
+		"id": 110,
+		"title": "Paralelismo en java para todos",
+		"abstract": "Tienes problemas a la hora de programar en paralelo? no sabes como usar de forma eficiente tu CPU? tienes tareas complejas que tardan mucho, pero no sabes como atacarlas? Programas en paralelo, pero te consumes la maquina sin pensar en los demás procesos?",
+		"description": "Esta charla va dirigida a mostrar los factores más incidentes a la hora de programar bajo hilos en java, pues la forma natural de pensar y hacer las cosas para las personas es hacerlas una a una y por lo general no sabemos como trabajar en hilos sin destruir los recursos que la maquina contiene.\r\n\r\nLa charla va muy dirigida a la forma de pensar para crear procesos que sean factibles en paralelismo tomando en cuenta: disco duro, memoria, y CPU disponible en el momento.",
+		"audience_level": "All",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"Java",
+			"Parallel",
+			"HPC"
+		],
+		"speakers": [
+			"aluismarte"
+		]
+	}
+
+}

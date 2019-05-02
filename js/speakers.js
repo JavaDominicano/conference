@@ -22,7 +22,7 @@ function createSpeakerCard(speakerJson) {
         "<img src=\"" +speakerJson.photoUrl +"\" alt=\"" +speakerJson.name +"\" class=\"img-fluid\"/>" +
         "<div class=\"details\">" +
         "<h3><a href=\"speaker-details.html?id=" + speakerJson.id + "\">" +speakerJson.name +"</a></h3>"+
-        "<p>" +speakerJson.badges[0].description +" @ " +speakerJson.company +" - " +speakerJson.country +"</p>" +
+        "<p>" +speakerJson.badges[0].description +" @ " +speakerJson.company +" - " +speakerJson.country +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></p>" +
         "<div class=\"social\">" ;
 
         for(i in speakerJson.socials){

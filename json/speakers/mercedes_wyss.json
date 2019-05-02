@@ -3,6 +3,7 @@
     "name": "Mercedes Wyss",
     "photoUrl": "img/speakers/mercedes_wyss.jpg",
     "title":"Software Engineer",
+    "countryFlag": "flag-icon-gt flag-icon-squared",
     "shortBio": "",
     "bio": "Mercedes Wyss is a software engineer with more than seven years of experience in the backend, frontend and Android development using Java and Kotlin. Currently, she is a CTO at Produactivity, a startup based in Guatemala. \r\n\r\nShe was previously organizing meetings in Guatemala Java Users Group from 2012 to 2016. Now she has two years an a half focusing on increasing women’s participation in STEAM by running a JDuchess Chapter in Guatemala and is the leader of a Google community (Devs+502). \r\n\r\nShe is an Oracle Groundbreaker Ambassador and an Auth0 Ambassador, she also has a Duke’s Choice Award in Educational Outreach.",
    "socials": [{
