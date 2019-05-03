@@ -3,12 +3,12 @@ var linguJSON = {
         {
             "lang_name": "English",
             "lang_code": "en",
-            "url_pattern": "jconfdominicana.org"
+            "url_pattern": "?"
         },
         {
             "lang_name": "Español",
             "lang_code": "es",
-            "url_pattern": "es.jconfdominicana.org"
+            "url_pattern": "?"
         }
     ],
     "custom_lang_switcher_html": "<div id=\"langswitcher\" class=\"notranslate\"><a id=\"currlanglink\" class=\"btn-link\" href=\"\">[[linguCurrLang]]</a> <a href=\"[[linguTargetLangHref1]]\" class=\"targetlang  btn-link\">[[linguTargetLang1]]</a></div>",
