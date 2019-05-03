@@ -173,6 +173,110 @@ var linguJSON = {
         {
           "source" : "Speaker Details",
           "target":  "Detalles del Conferencista"
+        },
+        {
+          "source" : "Buy Now",
+          "target":  "Comprar Ahora"
+        },
+        {
+          "source" : "Early Registration",
+          "target":  "Registro Temprano"
+        },
+        {
+          "source" : "Regular Registration",
+          "target":  "Registro Regular"
+        },
+        {
+          "source" : "T-Shirt",
+          "target":  "Camiseta"
+        },
+        {
+          "source" : "Conference material",
+          "target":  "Material para la conferencia"
+        },
+        {
+          "source" : "Access to the keynote sessions",
+          "target":  "Acceso a las conferencias magistrales"
+        },
+        {
+          "source" : "Access to the sessions of the Technical Track",
+          "target":  "Acceso a las secciones técnicas"
+        },
+        {
+          "source" : "Light lunch",
+          "target":  "Almuerzo"
+        },
+        {
+          "source" : "Snacks",
+          "target":  "Refrigerio"
+        },
+        {
+          "source" : "From May 1 to 25",
+          "target":  "Del 1 al 25 Mayo"
+        },
+        {
+          "source" : "As of May 26",
+          "target":  "A partir del 26 de Mayo"
+        },
+        {
+          "source" : "Notice: Agenda topics are subject to change",
+          "target":  "Aviso: Los temas de la agenda están sujetos a cambios"
+        },
+        {
+          "source" : "Event Schedule",
+          "target":  "Calendario de eventos"
+        },
+        {
+          "source" : "Here is our event schedule",
+          "target":  "Aquí está nuestro calendario de eventos"
+        },
+        {
+          "source" : "General Agenda",
+          "target":  "Agenda General"
+        },
+        {
+          "source" : "Sessions",
+          "target":  "Charlas"
+        },
+        {
+          "source" : "Registration / Light breakfast",
+          "target":  "Registro / Desayuno Ligero"
+        },
+        {
+          "source" : "Present an identification document with photo",
+          "target":  "Presenta un documento de identificación con foto"
+        },
+        {
+          "source" : "General sessions",
+          "target":  "Temas Generales"
+        },
+        {
+          "source" : "Lunch",
+          "target":  "Almuerzo"
+        },
+        {
+          "source" : "Technical sesions",
+          "target":  "Charlas Técnicas"
+        },
+        {
+          "source" : "Parallel sessions of 50 minutes each one",
+          "target":  "Sesiones en simultáneo de 50 minutos cada una"
+        },
+        {
+          "source" : "Parallel sessions of 50 minutes each one",
+          "target":  "Sesiones en simultáneo de 50 minutos cada una"
+        },
+        {
+          "source" : "Meet our speakers",
+          "target":  "Habla con los conferencistas"
+        },
+        {
+          "source" : "Meet and talk with our speakers, bring your questions or just prepare your phone for a selfie",
+          "target":  "En horarios y espacios pre-definidos podrás conocer y compartir con nuestros conferencistas, alista tus preguntas técnicas o simplemente tu celular para una selfie"
+        },
+        {
+          "source" : "Close",
+          "target":  "Cierre"
         }
     ]
 };
