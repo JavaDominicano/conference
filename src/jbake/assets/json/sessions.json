@@ -133,7 +133,7 @@
 		"abstract": "Containerization helps to package applications to be released and updated severals times a day in an easy and fast way. This demo-driven session shows how a Microservice can be developed with Java Technologies, packaged with containerization techniques and deploy on Oracle Kubernetes Engine.",
 		"description": "There are several Java technologies that can be used to create microservices, regardless of which one is chosen, the most effective way to deploy them could be a containerized environment. This session walks through next topics\r\n\r\n* Microservices with Java: \r\n    Java technologies to develop microservices\r\n    The demo application\r\n* Packing the application \r\n    Thin War \r\n    Uber Jar\r\n* Building docker images \r\n    The Dockerfile\r\n    Caching \r\n    Layering\r\n  Docker repository\r\n* Deploying on Kubernetes Engine: \r\n    Create an instance\r\n    Accessing to the instance\r\n   The deployment file\r\n   Deploying, scaling and deleting the service\r\n",
 		"audience_level": "Beginner",
-		"language": "en",
+		"language": "es",
 		"talk_format": "Talk (~30-45 minutes)",
 		"tags": [
 			"java",

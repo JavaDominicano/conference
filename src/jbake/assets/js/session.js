@@ -14,16 +14,18 @@ fetch('../json/sessions.json')
           let id = sessionsJson[i].id;
           let abstract = sessionsJson[i].abstract;
           let speakerId = sessionsJson[i].speakers[0];
+          let language = sessionsJson[i].language;
+          let tags = sessionsJson[i].tags;
 
           speakerPromise = getSpeakerById(speakerId);
 
           speakerPromise.then(function(speaker){
-             sessions.innerHTML += createSessionCard(id,title,abstract,speaker);
+             sessions.innerHTML += createSessionCard(id,title,abstract,speaker, tags,language);
           });
         }
 });
 
-function createSessionCard(id, title,abstract, speaker) {
+function createSessionCard(id, title,abstract, speaker, tags, language) {
     var sessionHtml = "<div class=\"row schedule-item\">" +
         "<div class=\"col-md-2\"><time></time></div>" +
         "<div class=\"col-md-10\">" +
@@ -32,6 +34,19 @@ function createSessionCard(id, title,abstract, speaker) {
         "</div>" +
         "<h4>"+title +". <span><a href=\"speaker-details.html?id=" + speaker.id + "\">"+speaker.name+"</a></span></h4>"+
         "<p>"+ abstract +".</p>"+
+        "<p><strong>Tags:</strong> ";
+
+        var tagsHtml="";
+
+        for(i in tags){
+             tagsHtml += tags[i]+",";
+        }
+
+        var tagsFormatted = tagsHtml.substring(0, tagsHtml.length-1);
+        var lang = language==='es'? "Spanish" : "English";
+
+        sessionHtml += tagsFormatted+ "</p>"+
+        "<p><strong>Language:</strong> "+lang +"</p>"+
         "</div>" +
         "</div>";
 
