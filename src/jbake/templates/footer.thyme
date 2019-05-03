@@ -19,6 +19,7 @@
 		            <h4>Site map</h4>
 		            <ul>
 		              <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
+									<li><i class="fa fa-angle-right"></i><a href="schedule.html">Agenda</a></li>
 		              <li><i class="fa fa-angle-right"></i> <a href="about.html">About us</a></li>
 			     <li><i class="fa fa-angle-right"></i><a href="speakers.html">Speakers</a></li>
 			     <li><i class="fa fa-angle-right"></i><a href="index.html#sponsors">Sponsors</a></li>
