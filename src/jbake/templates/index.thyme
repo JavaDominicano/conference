@@ -43,7 +43,7 @@
 						</div>
 						<div class="col-lg-3">
 							<h3>When</h3>
-							<p>Saturday<br>29 June, 2019</p>
+							<p>Saturday 29 June, 2019</p>
 							<p>08:00 AM – 07:00 PM</p>
 						</div>
 					</div>
@@ -173,7 +173,7 @@
 
 			<div th:replace="organizers.thyme::organizers"/>
 		</main>
-
+     <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>
 		<div th:replace="footer.thyme::footer"/>
 	</div>
 </body>
