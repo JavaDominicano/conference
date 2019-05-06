@@ -202,6 +202,41 @@
 		"speakers": [
 			"aluismarte"
 		]
-	}
+	},
+	"111": {
+		"id": 111,
+		"title": "Build - Test - Ship - Repeat: Effective testing and delivery using Continuous Integration",
+		"abstract": "In this talk we are going to explore how we can improve product quality, stability and delivery speed by embracing Continuous Integration and Firebase Test",
+		"description": "Android testing is hard and ensuring product quality is even harder. Both of these processes are very time consuming and unfortunately time is a very limited resource. As software engineers we should automate as many processes as possible and let machines do they heavy lifting in a more efficient and faster way.\r\n\r\nIn this talk we are going to explore how we can improve product quality, stability and delivery speed by embracing Continuous Integration and Firebase Test Lab. We will also explore which techniques and strategies that you should use to automate your most of the processes that are time consuming and hard to implement manually.",
+		"audience_level": "Beginner",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+			"Android",
+			"devops",
+			"Continuous Integration"
 
+		],
+		"speakers": [
+			"carlospaulino"
+		]
+	},
+	"112": {
+		"id": 112,
+		"title": "GraphQL: Creando un webservice rapidamente sin multiples endpoints.",
+		"abstract": "Cansado de desplegar los WebAPI con cada nueva actualización para ajustarse a los cambios?, te presento GraphQL y como comenzar a implementarlo en las empresa y proyectos personales ahorrando tiempo en todas las etapas de desarrollo. Adiós a los WebAPI.",
+		"description": "En esta charla pretendo explicar el concepto de GraphQL, la diferencia con REST, las herramientas disponibles para java, y todas las consideraciones que se deben tener al momento de querer cambiar de paradigma, respuestas a las preguntas básicas que pueden surgir y como superar esa miedo al cambio. ",
+		"audience_level": "Beginner",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"webservice",
+			"java",
+			"graphql"
+		],
+		"speakers": [
+			"berroteranlkf"
+		]
+	},
 }
