@@ -17,6 +17,11 @@
          "link": "https://github.com/joshlong"
       },
       {
+        "icon": "link",
+        "name": "link",
+        "link": "http://www.joshlong.com"
+      },
+      {
        "icon": "linkedin",
        "name": "Linkedin",
        "link": "https://www.linkedin.com/in/joshlong/"

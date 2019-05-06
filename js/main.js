@@ -131,23 +131,46 @@ jQuery(document).ready(function( $ ) {
     loop: true,
     center:true,
     responsive: { 0: { items: 1 }, 768: { items: 3 }, 992: { items: 4 }, 1200: {items: 5}
-    }
-  });
+  }
+});
 
-  // Buy tickets select the ticket type on click
-  $('#buy-ticket-modal').on('show.bs.modal', function (event) {
-    var button = $(event.relatedTarget);
-    var ticketType = button.data('ticket-type');
-    var modal = $(this);
-    modal.find('#ticket-type').val(ticketType);
-  })
+// Buy tickets select the ticket type on click
+$('#buy-ticket-modal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget);
+  var ticketType = button.data('ticket-type');
+  var modal = $(this);
+  modal.find('#ticket-type').val(ticketType);
+})
 
 // custom code
-  $("ul.nav-menu li").click(function() {
-     $("ul.nav-menu li").removeClass('menu-active');
-     $(this).addClass("menu-active");
-  });
+$("ul.nav-menu li").click(function() {
+  $("ul.nav-menu li").removeClass('menu-active');
+  $(this).addClass("menu-active");
+});
 
- $('#nav-menu-container > ul.nav-menu > li:first-child').addClass("menu-active");
+$('#nav-menu-container > ul.nav-menu > li:first-child').addClass("menu-active");
+
+$('.nav-tabs > li > a').click(function(event){
+  event.preventDefault();//stop browser to take action for clicked anchor
+
+  //get displaying tab content jQuery selector
+  var active_tab_selector = $('.nav-tabs > li.active > a').attr('data-target');
+
+  //find actived navigation and remove 'active' css
+  var actived_nav = $('.nav-tabs > li.active');
+  actived_nav.removeClass('active');
+
+  //add 'active' css into clicked navigation
+  $(this).parents('li').addClass('active');
+
+  //hide displaying tab content
+  $(active_tab_selector).removeClass('active');
+  $(active_tab_selector).removeClass('show');
+
+  //show target tab content
+  var target_tab_selector = $(this).attr('data-target');
+  $(target_tab_selector).addClass('show');
+  $(target_tab_selector).addClass('active');
+});
 
 });
