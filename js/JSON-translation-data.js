@@ -385,6 +385,10 @@ var linguJSON = {
     {
       "source" : "Saturday 29 June, 2019",
       "target_es": "Sábado 29 de Junio del 2019"
+    },
+    {
+      "source" : "Dominican Republic",
+      "target_es": "República Dominicana"
     }
   ]
 };
