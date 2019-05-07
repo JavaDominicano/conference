@@ -383,5 +383,101 @@
       "link": "https://www.linkedin.com/in/aluis-marte-5159b267"
     }
     ]
+  },
+  "113": {
+    "id": "carlospaulino",
+    "name": "Carlos Paulino",
+    "company": "American Express",
+    "companyLogo": "",
+    "country": "USA",
+    "countryFlag": "flag-icon-us flag-icon-squared",
+    "photoUrl": "img/speakers/carlospaulino.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [{
+      "name": "Android Engineer",
+      "description": "Android Engineer"
+    }],
+    "socials": [{
+       "icon": "twitter",
+       "name": "Twitter",
+       "link": "https://twitter.com/_carlospaulino"
+      },
+      {
+        "icon": "github",
+         "name": "Github",
+         "link": "https://github.com/carlospaulino"
+      },
+      {
+       "icon": "linkedin",
+       "name": "Linkedin",
+       "link": "https://do.linkedin.com/in/carlospaulino"
+      }
+    ]
+  },
+  "114": {
+    "id": "berroteranlkf",
+    "name": "Omar Berroterán Silva",
+    "company": "FreeLancer / Nicaragua JUG Leader",
+    "companyLogo": "",
+    "country": "Nicaragua",
+    "countryFlag": "flag-icon-ni flag-icon-squared",
+    "photoUrl": "https://secure.gravatar.com/avatar/c0d3f3cd6bf5e5b23b5193cd45eef8ed?s=500",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [{
+      "name": "Java Senior DevOps",
+      "description": "Java Senior DevOps"
+    }],
+    "socials": [{
+      "icon": "link",
+      "name": "link",
+      "link": "http://notasprogramacionlkf.blogspot.com/"
+    },
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/omarberroteransilva"
+    }
+    ]
+  },
+  "115": {
+    "id": "ecabrerar",
+    "name": "Eudris Cabrera",
+    "company": "Ministerio de Hacienda",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do flag-icon-squared",
+    "photoUrl": "img/speakers/ecabrerar.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [{
+      "name": "Software Developer",
+      "description": "Software Developer"
+    }],
+    "socials": [{
+       "icon": "twitter",
+       "name": "Twitter",
+       "link": "https://twitter.com/eudriscabrera"
+     },
+     {
+       "icon": "link",
+       "name": "link",
+       "link": "http://eudriscabrera.com"
+     },
+    {
+       "icon": "github",
+       "name": "Github",
+       "link": "https://github.com/ecabrerar"
+     },
+      {
+       "icon": "linkedin",
+       "name": "Linkedin",
+       "link": "https://www.linkedin.com/in/eudriscabrera"
+     }
+    ]
   }
 }
