@@ -238,5 +238,25 @@
 		"speakers": [
 			"berroteranlkf"
 		]
+	},
+	"113": {
+		"id": 113,
+		"title": "Continuous code quality in java projects",
+		"abstract": "We use SonarQube as part of our continuous integration pipeline and try to reduce code complexity and debt in each sprint. I hope that  static code analysis will be very helpful for each java project.",
+		"description": "Technical debt management is a crucial metrics of large software system evolution. Development team can increase debt for taking shortcuts or workarounds in technical decisions to gain short-term benefit in time-to-market and earlier software release. And extra development efforts arises on late stages of project growth as a result of short-term speedup on first stages.\r\n\r\nSo let's examine how integrate continuous code quality as part of software system development process. We use SonarQube as part of our continuous integration pipeline and try to reduce code complexity and debt in each sprint. I use the same tooling to help popular open source projects manage and reduce tech debt.\r\n\r\nIn this report we considering static code analysis, project coding style, unit tests for system architecture validation, automatic documentation generation and automated behavior driven development tests as factors of engineer intention transparency, tech debt management and knowledge sharing.  \r\n\r\nAlmost each agile development team should use automated continuous code quality tools as part of software development process to reduce complexity of artifacts changes in time. I hope that also such approach helps other teams to implements new features in predictable time.",
+		"audience_level": "Beginner",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+	      "static code analysis",
+	      "sonarqube",
+	      "IntelliJ idea inspection",
+	      "continuous code quality",
+	      "quality gates"
+		],
+		"speakers": [
+			"igorsuhorukov"
+		]
 	}
 }
