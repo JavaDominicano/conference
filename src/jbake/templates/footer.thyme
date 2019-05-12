@@ -47,9 +47,7 @@
 
 		            <div class="social-links">
 		              <a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
-
-		              <a th:if="${config.github_username}" href="#" th:href="|https://github.com/${config.github_username}|" target="_blank" class="google-plus"><i class="fa fa-github"></i></a>
-
+									<a th:if="${config.instagram_username}" href="#" th:href="|https://www.instagram.com/${config.instagram_username}|" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
 		            </div>
 
 		          </div>

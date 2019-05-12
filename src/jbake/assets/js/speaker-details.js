@@ -40,11 +40,12 @@ function createSpeakerDetailsCard(speakerJson) {
         }
 
     speakerHtml +=  "</div>" +
-        "<p> "+speakerJson.bio+"</p>"+
-        "</div>" +
-        "<hr/>"+
+        "<p>"+speakerJson.bio+"</p>"+
+        "</div><br/>" +
+        "<div class=\"details\" id=\"sessions\">"+
         "<h2>Sessions</h2>"+
-        "<div class=\"details\" id=\"sessions\"></div>"+
+        "<hr/>"+
+        "</div>"+
         "</div>";
 
         return speakerHtml;
@@ -83,10 +84,9 @@ function findSessionBySpeakerId(speakerId){
 function createSessionCard(id, title, description, tags, language,audienceLevel) {
     var sessionHtml = "<div class=\"row schedule-item\">" +
         "<div class=\"col\">" +
-
-        "<h4>"+title +"</span></h4>"+
-        "<p>"+ description +".</p>"+
-        "<p><strong>Tags:</strong> ";
+        "<h2>"+title+"</span></h2>"+
+        "<p>"+description+"</p>"+
+        "<p><strong>Tags:</strong>";
 
         var tagsHtml="";
 
@@ -98,8 +98,8 @@ function createSessionCard(id, title, description, tags, language,audienceLevel)
         var lang = language==='es'? "Spanish" : "English";
 
         sessionHtml += tagsFormatted+ "</p>"+
-        "<p><strong>Language:</strong> "+lang +"</p>"+
-        "<p><strong>Audience Level:</strong> "+audienceLevel +"</p>"+
+        "<p><strong>Language:</strong>"+lang +"</p>"+
+        "<p><strong>Audience Level:</strong>"+audienceLevel +"</p>"+
         "</div>" +
         "</div>";
 

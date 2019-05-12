@@ -371,8 +371,8 @@ var linguJSON = {
       "target_es":  "Esperamos que los participantes sigan estas reglas en todos los lugares de la conferencia y eventos sociales relacionados con la conferencia."
     },
     {
-      "source" : "Language:",
-      "target_es":  "Idioma:"
+      "source" : "<strong>Language:</strong>",
+      "target_es":"Idioma:"
     },
     {
       "source" : "Spanish:",
@@ -388,7 +388,23 @@ var linguJSON = {
     },
     {
       "source" : "Dominican Republic",
-      "target_es": "República Dominicana"
+      "target_es":"República Dominicana"
+    },
+    {
+      "source" : "<strong>Tags:</strong>",
+      "target_es":"<strong>Etiquetas:</strong>"
+    },
+    {
+      "source" : "<strong>Audience Level:</strong>",
+      "target_es":"<strong>Nivel:</strong>:"
+    },
+    {
+      "source" : "USA",
+      "target_es":"EU"
+    },
+    {
+      "source" : "Germany",
+      "target_es":"Alemania"
     }
   ]
 };

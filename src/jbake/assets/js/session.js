@@ -33,9 +33,9 @@ function createSessionCard(id, title,abstract, speaker, tags, language,audienceL
         "<div class=\"speaker\">" +
         "  <img src=\"" +speaker.photoUrl +"\" alt=\""+speaker.name+"\">"+
         "</div>" +
-        "<h4>"+title +". <span><a href=\"speaker-details.html?id=" + speaker.id + "\">"+speaker.name+"</a></span></h4>"+
-        "<p>"+ abstract +".</p>"+
-        "<p><strong>Tags:</strong> ";
+        "<h4>"+title +"<span><a href=\"speaker-details.html?id=" + speaker.id + "\">"+speaker.name+"</a></span></h4>"+
+        "<p>"+abstract+"</p>"+
+        "<p><strong>Tags:</strong>";
 
         var tagsHtml="";
 
@@ -47,8 +47,8 @@ function createSessionCard(id, title,abstract, speaker, tags, language,audienceL
         var lang = language==='es'? "Spanish" : "English";
 
         sessionHtml += tagsFormatted+ "</p>"+
-        "<p><strong>Language:</strong> "+lang +"</p>"+
-        "<p><strong>Audience Level:</strong> "+audienceLevel +"</p>"+
+        "<p><strong>Language:</strong>"+lang +"</p>"+
+        "<p><strong>Audience Level:</strong>"+audienceLevel +"</p>"+
         "</div>" +
         "</div>";
 
