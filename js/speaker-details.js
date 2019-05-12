@@ -16,7 +16,11 @@ fetch('../json/speakers/'+speakerId+'.json')
         var speakerDetails = document.getElementById('speakeDetails');
         // traitement de l'objet
 
-        speakerDetails.innerHTML += createSpeakerDetailsCard(speakerJson);
+        let speaker = speakerJson;
+
+        speakerDetails.innerHTML += createSpeakerDetailsCard(speaker);
+
+        findSessionBySpeakerId(speaker.id);
 
 });
 
@@ -36,9 +40,68 @@ function createSpeakerDetailsCard(speakerJson) {
         }
 
     speakerHtml +=  "</div>" +
-        "<p> "+speakerJson.bio+"</p>"+
-        "</div>" +
+        "<p>"+speakerJson.bio+"</p>"+
+        "</div><br/>" +
+        "<div class=\"details\" id=\"sessions\">"+
+        "<h2>Sessions</h2>"+
+        "<hr/>"+
+        "</div>"+
         "</div>";
 
         return speakerHtml;
+}
+
+
+function findSessionBySpeakerId(speakerId){
+   fetch('../json/sessions.json')
+      .then(function (response) {
+          if (!response.ok) {
+              throw Error(response.statusText);
+          }
+
+          return response.json();
+      }).then(function (sessionsJson) {
+        var sessions = document.getElementById('sessions');
+
+          for (i in sessionsJson) {
+              let speakerSession = sessionsJson[i].speakers[0];
+              let title = sessionsJson[i].title;
+              let id = sessionsJson[i].id;
+              let description = sessionsJson[i].description;
+              let language = sessionsJson[i].language;
+              let tags = sessionsJson[i].tags;
+              let audienceLevel  = sessionsJson[i].audience_level;
+
+              if(speakerId===speakerSession){
+                 sessions.innerHTML += createSessionCard(id,title,description,tags,language,audienceLevel);
+              }
+          }
+
+      });
+}
+
+
+function createSessionCard(id, title, description, tags, language,audienceLevel) {
+    var sessionHtml = "<div class=\"row schedule-item\">" +
+        "<div class=\"col\">" +
+        "<h2>"+title+"</span></h2>"+
+        "<p>"+description+"</p>"+
+        "<p><strong>Tags:</strong>";
+
+        var tagsHtml="";
+
+        for(i in tags){
+             tagsHtml += tags[i]+",";
+        }
+
+        var tagsFormatted = tagsHtml.substring(0, tagsHtml.length-1);
+        var lang = language==='es'? "Spanish" : "English";
+
+        sessionHtml += tagsFormatted+ "</p>"+
+        "<p><strong>Language:</strong>"+lang +"</p>"+
+        "<p><strong>Audience Level:</strong>"+audienceLevel +"</p>"+
+        "</div>" +
+        "</div>";
+
+        return sessionHtml;
 }

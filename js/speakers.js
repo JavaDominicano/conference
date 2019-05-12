@@ -29,7 +29,7 @@ function createSpeakerCard(speakerJson) {
              speakerHtml += " <a href=\""+speakerJson.socials[i].link+"\" target=\"_blank\"><i class=\"fa fa-"+speakerJson.socials[i].icon+"\"></i></a> ";
         }
 
-    speakerHtml +=  "</div>" +
+    speakerHtml += "</div>" +
         "</div>" +
         "</div>" +
         "</div>";
