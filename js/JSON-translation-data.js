@@ -371,16 +371,12 @@ var linguJSON = {
       "target_es":  "Esperamos que los participantes sigan estas reglas en todos los lugares de la conferencia y eventos sociales relacionados con la conferencia."
     },
     {
-      "source" : "<strong>Language:</strong>",
-      "target_es":"Idioma:"
+      "source" : "<strong>Language:</strong>Spanish",
+      "target_es":"<strong>Idioma:</strong>Español"
     },
     {
-      "source" : "Spanish:",
-      "target_es":  "Español:"
-    },
-    {
-      "source" : "English:",
-      "target_es":  "Inglés:"
+      "source" : "<strong>Language:</strong>English",
+      "target_es":"<strong>Idioma:</strong>Inglés"
     },
     {
       "source" : "Saturday 29 June, 2019",
@@ -395,8 +391,16 @@ var linguJSON = {
       "target_es":"<strong>Etiquetas:</strong>"
     },
     {
-      "source" : "<strong>Audience Level:</strong>",
-      "target_es":"<strong>Nivel:</strong>:"
+      "source" : "<strong>Audience Level:</strong>Intermediate",
+      "target_es":"<strong>Nivel:</strong>Intermedio"
+    },
+    {
+      "source" : "<strong>Audience Level:</strong>All",
+      "target_es":"<strong>Nivel:</strong>Todos"
+    },
+    {
+      "source" : "<strong>Audience Level:</strong>Beginner",
+      "target_es":"<strong>Nivel:</strong>Principiante"
     },
     {
       "source" : "USA",
@@ -405,6 +409,14 @@ var linguJSON = {
     {
       "source" : "Germany",
       "target_es":"Alemania"
+    },
+    {
+      "source" : "<strong>Talk Format:</strong>Talk (~30-45 minutes)",
+      "target_es":"<strong>Formato:</strong>Charla (~30-45 minutos)"
+    },
+    {
+      "source" : "<strong>Talk Format:</strong>Workshop (\u003e 60 minutes)",
+      "target_es":"<strong>Formato:</strong>Taller (\u003e 60 minutos)"
     }
   ]
 };
