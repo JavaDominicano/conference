@@ -17,16 +17,17 @@ fetch('../json/sessions.json')
           let language = sessionsJson[i].language;
           let tags = sessionsJson[i].tags;
           let audienceLevel  = sessionsJson[i].audience_level;
+          let talkFormat = sessionsJson[i].talk_format;
 
           speakerPromise = getSpeakerById(speakerId);
 
           speakerPromise.then(function(speaker){
-             sessions.innerHTML += createSessionCard(id,title,abstract,speaker, tags,language,audienceLevel);
+             sessions.innerHTML += createSessionCard(id,title,abstract,speaker, tags,language,audienceLevel,talkFormat);
           });
         }
 });
 
-function createSessionCard(id, title,abstract, speaker, tags, language,audienceLevel) {
+function createSessionCard(id, title,abstract, speaker, tags, language,audienceLevel, talkFormat) {
     var sessionHtml = "<div class=\"row schedule-item\">" +
         "<div class=\"col-md-2\"><time></time></div>" +
         "<div class=\"col-md-10\">" +
@@ -49,6 +50,7 @@ function createSessionCard(id, title,abstract, speaker, tags, language,audienceL
         sessionHtml += tagsFormatted+ "</p>"+
         "<p><strong>Language:</strong>"+lang +"</p>"+
         "<p><strong>Audience Level:</strong>"+audienceLevel +"</p>"+
+        "<p><strong>Talk Format:</strong>"+talkFormat +"</p>"+
         "</div>" +
         "</div>";
 
