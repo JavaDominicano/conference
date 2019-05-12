@@ -64,8 +64,8 @@
 							<div class="speaker">
 								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/josh-long.jpg'" alt="Josh Long" class="img-fluid">
 								<div class="details">
-									<h3><a href="#">Josh Long</a></h3>
-									<p>Spring Developer Advocate @ Pivotal - USA</p>
+									<h3><a href="speaker-details.html?id=starbuxman">Josh Long</a> <span class="flag-icon flag-icon-us flag-icon-squared" title="USA"></span></h3>
+									<p>Spring Developer Advocate @ Pivotal</p>
 									<div class="social">
 										<a href="http://twitter.com/starbuxman" target="_blank"><i class="fa fa-twitter"></i></a>
 										<a href="https://github.com/joshlong" target="_blank"><i class="fa fa-github"></i></a>
@@ -78,8 +78,8 @@
 							<div class="speaker">
 								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/mark-heckler.jpeg'" alt="Mark Heckler" class="img-fluid">
 								<div class="details">
-									<h3><a href="#">Mark Heckler</a></h3>
-									<p>Spring Developer & Advocate @ Pivotal - USA</p>
+									<h3><a href="speaker-details.html?id=markheckler">Mark Heckler</a> <span class="flag-icon flag-icon-us flag-icon-squared" title="USA"></h3>
+									<p>Spring Developer & Advocate @ Pivotal</p>
 									<div class="social">
 										<a href="https://twitter.com/mkheck" target="_blank"><i class="fa fa-twitter"></i></a>
 										<a href="https://github.com/mkheck" target="_blank"><i class="fa fa-github"></i></a>
@@ -92,8 +92,8 @@
 							<div class="speaker">
 								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/sebastian-daschner.jpeg'" alt="Sebastian Daschner" class="img-fluid">
 								<div class="details">
-									<h3><a href="#">Sebastian Daschner</a></h3>
-									<p>Lead Java Developer Advocate @ IBM - Germany</p>
+									<h3><a href="speaker-details.html?id=sebastian-daschner">Sebastian Daschner</a> <span title="Germany" class="flag-icon flag-icon-de flag-icon-squared"></span></h3>
+									<p>Lead Java Developer Advocate @ IBM</p>
 									<div class="social">
 										<a href="https://twitter.com/DaschnerS" target="_blank"><i class="fa fa-twitter"></i></a>
 										<a href="https://github.com/sdaschner/" target="_blank"><i class="fa fa-github"></i></a>
@@ -106,8 +106,8 @@
 							<div class="speaker">
 								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/heathervc.jpg'" alt="Heather VanCura" class="img-fluid">
 								<div class="details">
-									<h3><a href="#">Heather VanCura</a></h3>
-									<p>Director and Chairperson @ Java Community Process (JCP) - USA</p>
+									<h3><a href="speaker-details.html?id=heathervc">Heather VanCura</a> <span class="flag-icon flag-icon-us flag-icon-squared" title="USA"></h3>
+									<p>Director and Chairperson @ Java Community Process (JCP)</p>
 									<div class="social">
 										<a href="https://twitter.com/heathervc" target="_blank"><i class="fa fa-twitter"></i></a>
 										<a href="https://jcp.org/en/press/pmo/pmo_profiles/commFocusPMO-vancura" target="_blank"><i class="fa fa-link"></i></a>
@@ -120,8 +120,8 @@
 							<div class="speaker">
 								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/rafabene.jpg'" alt="Rafael Benevides" class="img-fluid">
 								<div class="details">
-									<h3><a href="#">Rafael Benevides</a></h3>
-									<p> Director of Developer Experience @ Red Hat - USA</p>
+									<h3><a href="speaker-details.html?id=rafabene">Rafael Benevides</a> <span class="flag-icon flag-icon-us flag-icon-squared" title="USA"></h3>
+									<p> Director of Developer Experience @ Red Hat</p>
 									<div class="social">
 										<a href="https://twitter.com/rafabene" target="_blank"><i class="fa fa-twitter"></i></a>
 										<a href="http://rafabene.com/" target="_blank"><i class="fa fa-link"></i></a>
@@ -134,8 +134,8 @@
 							<div class="speaker">
 								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/mercedes_wyss.jpg'" alt="Mercedes Wyss" class="img-fluid">
 								<div class="details">
-									<h3><a href="#">Mercedes Wyss</a></h3>
-									<p> Software Engineer @ Produactivity - Guatemala</p>
+									<h3><a href="speaker-details.html?id=mercedes_wyss">Mercedes Wyss</a> <span title="Guatemala" class="flag-icon flag-icon-gt flag-icon-squared"></span></h3>
+									<p> Software Engineer @ Produactivity</p>
 									<div class="social">
 										<a href="https://twitter.com/itrjwyss" target="_blank"><i class="fa fa-twitter"></i></a>
 										<a href="https://www.linkedin.com/in/itrjwyss/" target="_blank"><i class="fa fa-linkedin"></i></a>
