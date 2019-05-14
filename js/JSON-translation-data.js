@@ -417,6 +417,11 @@ var linguJSON = {
     {
       "source" : "<strong>Talk Format:</strong>Workshop (\u003e 60 minutes)",
       "target_es":"<strong>Formato:</strong>Taller (\u003e 60 minutos)"
+    },
+    {
+      "source" : "Supported By",
+      "target_es":"Apoyan"
     }
+
   ]
 };
