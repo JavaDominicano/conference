@@ -118,14 +118,14 @@
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="speaker">
-								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/rafabene.jpg'" alt="Rafael Benevides" class="img-fluid">
+								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/hillmer-chona.jpg'" alt="Hillmer Chona" class="img-fluid">
 								<div class="details">
-									<h3><a href="speaker-details.html?id=rafabene">Rafael Benevides</a> <span class="flag-icon flag-icon-us flag-icon-squared" title="USA"></h3>
-									<p> Director of Developer Experience @ Red Hat</p>
+									<h3><a href="speaker-details.html?id=hillmer-chona">Hillmer Chona</a> <span class="flag-icon flag-icon-co flag-icon-squared" title="Colombia"></h3>
+									<p> MedellinJUG Leader / Oracle Groundbreakers</p>
 									<div class="social">
-										<a href="https://twitter.com/rafabene" target="_blank"><i class="fa fa-twitter"></i></a>
-										<a href="http://rafabene.com/" target="_blank"><i class="fa fa-link"></i></a>
-										<a href="https://www.linkedin.com/in/rafaelbenevides/" target="_blank"><i class="fa fa-linkedin"></i></a>
+										<a href="https://twitter.com/HillmerCh" target="_blank"><i class="fa fa-twitter"></i></a>
+										<a href="https://github.com/HillmerCh" target="_blank"><i class="fa fa-github"></i></a>
+										<a href="https://www.linkedin.com/in/hillmerch/" target="_blank"><i class="fa fa-linkedin"></i></a>
 									</div>
 								</div>
 							</div>
@@ -156,22 +156,14 @@
 
 			</section>
 
-	    <div th:replace="newsletter.thyme::newsletter"/>
-
 			<!--==========================
 			Sponsors Section
 			============================-->
-			<section id="sponsors" class="section-with-bg wow fadeInUp">
-				<div class="container">
-					<div class="section-header">
-						<h2>Sponsors</h2>
-						<p> Please contact us if you are interested in becoming a JConf Dominicana sponsor or supporter. <a href="mailto:info@jconfdominicana.org" target="_blank">Click here</a>
-						</p>
-					</div>
-				</div>
-			</section>
+		  <div th:replace="sponsors.thyme::sponsors"/>
+
 
 			<div th:replace="organizers.thyme::organizers"/>
+			<div th:replace="supporters.thyme::supporters"/>
 		</main>
      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>
 		<div th:replace="footer.thyme::footer"/>
