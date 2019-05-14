@@ -129,39 +129,7 @@
 			}
 		]
 	},
-
-	"105": {
-		"id": "rafabene",
-		"name": "Rafael Benevides",
-		"company": "Red Hat",
-		"companyLogo": "",
-		"country": "USA",
-		"countryFlag": "flag-icon-us flag-icon-squared",
-		"photoUrl": "img/speakers/rafabene.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": ["java", "microprofile", "microservices", "cloud-native"],
-		"badges": [{
-			"name": "Director of Developer Experience",
-			"description": "Director of Developer Experience"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/rafabene"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "http://rafabene.com/"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/rafaelbenevides/"
-			}
-		]
-	},
+	
 	"106": {
 		"id": "mercedes_wyss",
 		"name": "Mercedes Wyss",
@@ -484,7 +452,7 @@
 		"company": "Align Techology",
 		"companyLogo": "",
 		"country": "Moscow",
-		"countryFlag": "flag-icon-ru flag-icon-squared", 
+		"countryFlag": "flag-icon-ru flag-icon-squared",
 		"photoUrl": "https://secure.gravatar.com/avatar/8d667808737bbdcd2d7152d10276d42c?s=500",
 		"shortBio": "",
 		"bio": "",
