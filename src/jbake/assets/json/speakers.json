@@ -129,7 +129,7 @@
 			}
 		]
 	},
-	
+
 	"106": {
 		"id": "mercedes_wyss",
 		"name": "Mercedes Wyss",
@@ -477,6 +477,53 @@
 				"name": "Linkedin",
 				"link": "https://www.linkedin.com/in/suhorukov"
 			}
+		]
+	}
+	,
+	"117": {
+		"id": "olehdokuka",
+		"name": "Oleh Dokuka",
+		"company": "Netifi, inc",
+		"companyLogo": "",
+		"country": "Ukraine",
+		"countryFlag": "flag-icon-ua flag-icon-squared",
+		"photoUrl": "https://secure.gravatar.com/avatar/d8a7b6ff38e865dafa02259ed769eab4?s=500",
+		"shortBio": "",
+		"bio": "",
+		"tags": [
+			"Reactive",
+			"Reactive Streams",
+			"Protocol",
+			"CrossNetwork",
+			"ProjectReactor",
+			"RPC",
+			"RSocket"
+		],
+		"badges": [{
+			"name": "Principal Engineer / Dev Rel",
+			"description": "Principal Engineer / Dev Rel"
+		}],
+		"socials": [
+			{
+       "icon": "twitter",
+       "name": "Twitter",
+       "link": "https://twitter.com/OlehDokuka"
+      },
+      {
+        "icon": "link",
+         "name": "link",
+         "link": "http://coinen.space/"
+      },
+      {
+         "icon": "github",
+         "name": "Github",
+         "link": "https://github.com/OlegDokuka"
+       },
+      {
+       "icon": "linkedin",
+       "name": "Linkedin",
+       "link": "https://ua.linkedin.com/in/olegdokuka"
+      }
 		]
 	}
 }
