@@ -263,6 +263,7 @@
 		"abstract": "Key Takeaways:\n•Creative Problem Solving\n•Customer Service \u0026 Support\n•Generational Gaps \u0026 Workplace Diversity\n•Goal Setting\n•Leadership and Influence\n•Employee Efficiency\n•Using Group Dynamics\n•The loss of translation in a text/email.\n•The value of how things are said\n•How someone hears a word",
 		"description": "The implementation/training of Team Dynamics \u0026 Active Listening is ideal for individuals who work in a group setting and who have Teams working in the areas of Engineering, Programming and DevOps.\r\n\r\n•This concept has proven SOUND and EFFICIENT in regards to producing advanced degrees of SUCCESS in the areas of administration performance and TEAM-ROLE awareness.\r\n\r\n•This lecture is designed to enhance the characteristics of a development team and allow them to be cross-efficient and well-informed of frameworks and sufficient-enough to the sense where they can offer all essential skillsets.\r\n\r\n•My approach derives from my experience as an adjunct professor (psychology \u0026 group dynamics) and experience as an interrogator/profiler and hostage negotiator.  My proficiency with said skills has allowed me to assemble a METHOD, which will INTEGRATE your TEAM sectors.\r\n\r\n•The lecture/ is aimed at offering Development teams’ novel methods for applying agendas for the publication of a new variety of team projects.\r\n\r\n•My RESEARCH and practice will assist companies, organizations, and groups by merging psychology in consort with Active Listening Skills (ALS), which will result in an ACCELERATED-advance technique, devised to build rapport as well as enhanced recruiting methods.\r\n\r\n•The lecture/ is designed to bring out individuals exceptional communication and administrative abilities and skills to function effectively as an element of a team.\r\n\r\n•This presentation will allow businesses to use the TEAM PROJECT MODEL to help their team members cooperate, with the focus on utilizing distinctive intensities within individual elements among members of a team.\r\n\r\n•Team leaders will take with them newer methods to develop a team of energetic, driven individuals who are enthusiastic regarding assisting the corporate endure to climb to new elevations.\r\n\r\n•This presentation also motivates an even more distanced method of diverse aspects regarding a project.\r\n\r\n•My presentation will illustrate that the above model is acceptable.  However, a team will not communicate effectively if a team that has been taken apart and separated due to disconnection and lack of communication.\r\n\r\n•By using ACTIVE LISTENING SKILLS (ALS), a method developed by the FBI, every team member will increase productivity regarding their specific missions, and when united, the team members will form successful finalization of their team-goal.  By applying ALS, the team’s entire task will be the result of collective productive representation of their work.\r\n\r\n•As with all teams, each team was placed together because at the initial conception of the group; it was assumed that the team element is within the excellent working order.  However, the appreciation of the team model must be well-oiled, and if not, members of the team will individually lack the proper function that is necessitated for TEAMWORK and fail to produce.\r\n\r\n•RESEARCH HAS PROVEN THAT THE KEY CATALYST REGARDING TEAM FAILURE IS COMMUNICATION AND THE LACK OF PROPER USAGE OF ONE’S COMMUNICATION SKILLS.",
 		"talk_format": "Workshop (\u003e 60 minutes)",
+		"audience_level": "All",
 		"language": "en",
 		"tags": [
 			"ActiveListening",
@@ -281,6 +282,42 @@
 		"speakers": [
 			"sjenkins"
 		]
-	}
+	},
+	"115": {
+		"id": 115,
+		"title": "Turning External Services to Internal APIs",
+		"abstract": "How do you control the cost for your 3rd party Service? How do you track usage? How do you stop unauthorised users? How do you quickly migrate from one provider to another?<br><br>This session will answer the questions above and show how an internal API Gateway can work with your external dependencies.",
+		"description": "It is common practise to expose APIs of internal services, but APIifying external services / APIs is not so common. However, doing so provides many advantages! These include consistent interface (even when moving between external providers), tracking the internal consumption of the external providers or adding throttling to ensure you don’t accidently performance test on a pay by consumption service.<br><br>This session will go through a number of strategies for turning external services to Internal APIs. It will also look at the advantages of each approach.",
+	 "audience_level": "All",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "en",
+		"tags": [
+			"API",
+			"service",
+			"external",
+			"3rd party",
+			"gateway",
+			"openapi"
+		],
+		"speakers": [
+			"chris-phillips"
+		]
+	},
+	"116": {
+			"id": 116,
+			"title": "The Dark Side of Java 8 - Lessons Learned",
+			"abstract": "Java 8 was one of the most important Java releases ever... but still wasn't free of bugs, or just places where things could've been done better. <br><br>During this session, we'll have a look at the most painful bugs or design decisions made.",
+			"description": "Java 8 was one of the most important Java releases ever... but still wasn't free of bugs, or just places where things could've been done better. <br><br>In this session, we'll go through a quick post-mortem session and explore what went wrong with the Stream API, Lambda Expressions, and much more. We'll explore various bugs, inconsistencies along with ways how we can address those problems. (if possible).",
+			"talk_format": "Talk (~30-45 minutes)",
+			"audience_level": "All",
+			"language": "en",
+			"tags": [
+				"java",
+			  "functional programming"
+			],
+			"speakers": [
+				"grzegorz-piwowarek"
+			]
+		}
 
 }

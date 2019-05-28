@@ -4,7 +4,7 @@
 	"photoUrl": "img/speakers/ecabrerar.jpg",
 	"title": "Software Developer",
 	"shortBio": "",
-	"countryFlag": "flag-icon-do flag-icon-squared",
+	"countryFlag": "flag-icon-do",
 	"bio": "Ingeniero Telemático (Egresado de PUCMM). Actualmente Desarrollador Informático en el Ministerio de Hacienda de la República Dominicana.  Entusiasta de la tecnología y el software libre, desarrollador Java, instructor ocasional (Java / Linux), aficionado del béisbol/sóftbol y los bailes latinos. Ganador de la beca Linux Training Scholarship 2014 en la categoría Developer Do-Gooder. Miembro asociado del JCP (Java Community Process).  Co-fundador / Organizador del grupo de usuarios Java (Java User Group ) conocido como Java Dominicano. En el tiempo libre, escribe artículos, realiza charlas y ayuda en la revisión de documentación técnica en el mundo Java y el código abierto.",
 	"socials": [{
 			"icon": "twitter",
