@@ -3,7 +3,7 @@
 	"name": "Igor Suhorukov",
 	"photoUrl": "https://secure.gravatar.com/avatar/8d667808737bbdcd2d7152d10276d42c?s=500",
 	"title": "Big Data team lead",
-	"countryFlag": "flag-icon-ru flag-icon-squared",
+	"countryFlag": "flag-icon-ru",
 	"shortBio": "",
 	"bio": "Igor is <a href=\"https://www.linkedin.com/in/suhorukov\">experienced JVM professional</a> with deep knowledge of open source software and frameworks. <a href=\"https://dzone.com/articles/control-cnc-machine-using-java-or-groovy\">Speaker at conferences</a> and <a href=\"https://habrahabr.ru/users/igor_suhorukov/topics/\">popular blogger</a>. Contributor of H2, schemaspy, <a href=\"https://github.com/spring-projects/spring-framework/graphs/contributors\">spring framework(top20)</a> and <a href=\"https://github.com/spring-projects/spring-boot/graphs/contributors\">spring-boot(top20)</a> projects.)",
 	"socials": [{

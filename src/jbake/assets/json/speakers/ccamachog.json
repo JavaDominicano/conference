@@ -4,7 +4,7 @@
     "photoUrl": "img/speakers/ccamachog.png",
     "title":"CTO",
     "shortBio": "",
-    "countryFlag": "flag-icon-do flag-icon-squared",
+    "countryFlag": "flag-icon-do",
     "bio": "Más de 11 años de experiencia en desarrollo de software bajo la plataforma Java, implementación de proyectos de código libre y desarrollo e integración de proyectos embedidos en Arduino y Raspberry Pie. Graduado de Ingeniería Telemática, Master en Tecnología Educativa. Profesor de las carreras de Ingeniería de Sistemas y Computación e Ingeniería Telemática de la PUCMM. Actualmente es el Director de la escuela de Ingeniería en Computación y Telecomunicaciones Campus Santiago PUCMM. Miembro de la Fundación Código Libre y Cofundador de Java User Group, Java Dominicano.",
    "socials": [{
       "icon": "twitter",
