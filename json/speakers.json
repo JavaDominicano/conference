@@ -5,7 +5,7 @@
 		"company": "Pivotal",
 		"companyLogo": "",
 		"country": "USA",
-		"countryFlag": "flag-icon-us flag-icon-squared",
+		"countryFlag": "flag-icon-us",
 		"photoUrl": "img/speakers/josh-long.jpg",
 		"shortBio": "",
 		"bio": "",
@@ -37,7 +37,7 @@
 		"company": "Pivotal",
 		"companyLogo": "",
 		"country": "USA",
-		"countryFlag": "flag-icon-us flag-icon-squared",
+		"countryFlag": "flag-icon-us",
 		"photoUrl": "img/speakers/mark-heckler.jpeg",
 		"shortBio": "",
 		"bio": "",
@@ -70,7 +70,7 @@
 		"company": "IBM",
 		"companyLogo": "",
 		"country": "Germany",
-		"countryFlag": "flag-icon-de flag-icon-squared",
+		"countryFlag": "flag-icon-de",
 		"photoUrl": "img/speakers/sebastian-daschner.jpeg",
 		"shortBio": "",
 		"bio": "",
@@ -103,7 +103,7 @@
 		"company": "Java Community Process (JCP)",
 		"companyLogo": "",
 		"country": "USA",
-		"countryFlag": "flag-icon-us flag-icon-squared",
+		"countryFlag": "flag-icon-us",
 		"photoUrl": "img/speakers/heathervc.jpg",
 		"shortBio": "",
 		"bio": "",
@@ -136,7 +136,7 @@
 		"company": "Produactivity",
 		"companyLogo": "",
 		"country": "Guatemala",
-		"countryFlag": "flag-icon-gt flag-icon-squared",
+		"countryFlag": "flag-icon-gt",
 		"photoUrl": "img/speakers/mercedes_wyss.jpg",
 		"shortBio": "",
 		"bio": "",
@@ -163,7 +163,7 @@
 		"company": "AvatharTech",
 		"companyLogo": "",
 		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do flag-icon-squared",
+		"countryFlag": "flag-icon-do",
 		"photoUrl": "img/speakers/ccamachog.png",
 		"shortBio": "",
 		"bio": "",
@@ -196,7 +196,7 @@
 		"company": "MedellinJUG",
 		"companyLogo": "",
 		"country": "Colombia",
-		"countryFlag": "flag-icon-co flag-icon-squared",
+		"countryFlag": "flag-icon-co",
 		"photoUrl": "img/speakers/hillmer-chona.jpg",
 		"shortBio": "",
 		"bio": "",
@@ -228,7 +228,7 @@
 		"company": "Fonoster",
 		"companyLogo": "",
 		"country": "USA",
-		"countryFlag": "flag-icon-us flag-icon-squared",
+		"countryFlag": "flag-icon-us",
 		"photoUrl": "img/speakers/pedro-sanders.jpg",
 		"shortBio": "",
 		"bio": "",
@@ -265,7 +265,7 @@
 		"company": "X-Team",
 		"companyLogo": "",
 		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do flag-icon-squared",
+		"countryFlag": "flag-icon-do",
 		"photoUrl": "img/speakers/euryperez.jpg",
 		"shortBio": "",
 		"bio": "",
@@ -302,7 +302,7 @@
 		"company": "Mozilla TechSpeakers",
 		"companyLogo": "",
 		"country": "Venezuela",
-		"countryFlag": "flag-icon-ve flag-icon-squared",
+		"countryFlag": "flag-icon-ve",
 		"photoUrl": "https://secure.gravatar.com/avatar/b224170982470b1e61ed0ee34522c221?s=500",
 		"shortBio": "",
 		"bio": "",
@@ -329,7 +329,7 @@
 		"company": "Edessis S.R.L",
 		"companyLogo": "",
 		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do flag-icon-squared",
+		"countryFlag": "flag-icon-do",
 		"photoUrl": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/40450/Aluis_Marte.jpg",
 		"shortBio": "",
 		"bio": "",
@@ -356,7 +356,7 @@
 		"company": "American Express",
 		"companyLogo": "",
 		"country": "USA",
-		"countryFlag": "flag-icon-us flag-icon-squared",
+		"countryFlag": "flag-icon-us",
 		"photoUrl": "img/speakers/carlospaulino.jpg",
 		"shortBio": "",
 		"bio": "",
@@ -388,7 +388,7 @@
 		"company": "FreeLancer / Nicaragua JUG Leader",
 		"companyLogo": "",
 		"country": "Nicaragua",
-		"countryFlag": "flag-icon-ni flag-icon-squared",
+		"countryFlag": "flag-icon-ni",
 		"photoUrl": "https://secure.gravatar.com/avatar/c0d3f3cd6bf5e5b23b5193cd45eef8ed?s=500",
 		"shortBio": "",
 		"bio": "",
@@ -415,7 +415,7 @@
 		"company": "Ministerio de Hacienda",
 		"companyLogo": "",
 		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do flag-icon-squared",
+		"countryFlag": "flag-icon-do",
 		"photoUrl": "img/speakers/ecabrerar.jpg",
 		"shortBio": "",
 		"bio": "",
@@ -452,7 +452,7 @@
 		"company": "Align Techology",
 		"companyLogo": "",
 		"country": "Moscow",
-		"countryFlag": "flag-icon-ru flag-icon-squared",
+		"countryFlag": "flag-icon-ru",
 		"photoUrl": "https://secure.gravatar.com/avatar/8d667808737bbdcd2d7152d10276d42c?s=500",
 		"shortBio": "",
 		"bio": "",
@@ -486,7 +486,7 @@
 		"company": "Netifi, inc",
 		"companyLogo": "",
 		"country": "Ukraine",
-		"countryFlag": "flag-icon-ua flag-icon-squared",
+		"countryFlag": "flag-icon-ua",
 		"photoUrl": "https://secure.gravatar.com/avatar/d8a7b6ff38e865dafa02259ed769eab4?s=500",
 		"shortBio": "",
 		"bio": "",
@@ -524,6 +524,128 @@
        "name": "Linkedin",
        "link": "https://ua.linkedin.com/in/olegdokuka"
       }
+		]
+	},
+	"118": {
+		"id": "grzegorz-piwowarek",
+		"name": "Grzegorz Piwowarek",
+		"company": "Casumo",
+		"companyLogo": "",
+		"country": "Warsaw/Poland",
+		"countryFlag": "flag-icon-pl",
+		"photoUrl": "https://secure.gravatar.com/avatar/629fdde67cb23f9d3799635d89c7b250?s=500",
+		"shortBio": "",
+		"bio": "",
+		"tags": [
+			"java",
+			"functional programming"
+		],
+		"badges": [{
+			"name": "System Engineer and Trainer",
+			"description": "System Engineer and Trainer"
+		}],
+		"socials": [
+			{
+	      "icon": "twitter",
+	      "name": "Twitter",
+	      "link": "https://twitter.com/pivovarit"
+	    },
+	    {
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/pivovarit"
+			},
+	    {
+	      "icon": "link",
+	      "name": "link",
+	      "link": "http://4comprehension.com/"
+	    },
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "http://linkedin.com/in/gpiwowarek/"
+			}
+		]
+	},
+	"119": {
+		"id": "chris-phillips",
+		"name": "Chris Phillips",
+		"company": "IBM",
+		"companyLogo": "",
+		"country": "Southampton, United Kingdom",
+		"countryFlag": "flag-icon-gb",
+		"photoUrl": "img/speakers/chris-phillips.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [
+			"API",
+			"service",
+			"external",
+			"3rd party",
+			"gateway",
+			"openapi"
+		],
+		"badges": [{
+			"name": "IBM Master Inventor",
+			"description": "IBM Master Inventor"
+		}],
+		"socials": [
+			{
+	      "icon": "twitter",
+	      "name": "Twitter",
+	      "link": "https://twitter.com/cminion"
+	    },
+	    {
+	      "icon": "link",
+	      "name": "link",
+	      "link": "https://medium.com/@cminion/"
+	    }
+		]
+	},
+	"120": {
+		"id": "sjenkins",
+		"name": "Stacey Jenkins, M. Psych",
+		"company": "CruxConception",
+		"companyLogo": "",
+		"country": "Indiana, USA",
+		"countryFlag": "flag-icon-us",
+		"photoUrl": "img/speakers/sjenkins.jpeg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [
+			"ActiveListening",
+			"CommunicationSkills",
+			"Company",
+			"Creativity",
+			"Devops",
+			"Diversity",
+			"Goals",
+			"GroupDynamics",
+			"Initiative",
+			"Leaders",
+			"Productivity",
+			"Teamwork"
+		],
+		"badges": [{
+			"name": "Motivational & Inspirational Speaker",
+			"description": "Motivational & Inspirational Speaker"
+		}],
+		"socials": [
+			{
+	      "icon": "twitter",
+	      "name": "Twitter",
+	      "link": "https://twitter.com/cminion"
+	    },
+	    {
+	      "icon": "link",
+	      "name": "link",
+	      "link": "https://www.speakermatch.com/profile/cruxconception/"
+	    },
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/crux-conception/"
+			}
 		]
 	}
 }
