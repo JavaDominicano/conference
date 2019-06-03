@@ -269,7 +269,7 @@
 			"ActiveListening",
 			"CommunicationSkills",
 			"Goals",
-			"GroupDynamics",		
+			"GroupDynamics",
 			"Productivity",
 			"Teamwork"
 		],
@@ -296,22 +296,6 @@
 		"speakers": [
 			"chris-phillips"
 		]
-	},
-	"116": {
-			"id": 116,
-			"title": "The Dark Side of Java 8 - Lessons Learned",
-			"abstract": "Java 8 was one of the most important Java releases ever... but still wasn't free of bugs, or just places where things could've been done better. <br><br>During this session, we'll have a look at the most painful bugs or design decisions made.",
-			"description": "Java 8 was one of the most important Java releases ever... but still wasn't free of bugs, or just places where things could've been done better. <br><br>In this session, we'll go through a quick post-mortem session and explore what went wrong with the Stream API, Lambda Expressions, and much more. We'll explore various bugs, inconsistencies along with ways how we can address those problems. (if possible).",
-			"talk_format": "Talk (~30-45 minutes)",
-			"audience_level": "All",
-			"language": "en",
-			"tags": [
-				"java",
-			  "functional programming"
-			],
-			"speakers": [
-				"grzegorz-piwowarek"
-			]
-		}
+	}
 
 }
