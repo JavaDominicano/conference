@@ -1,5 +1,7 @@
 jQuery(document).ready(function( $ ) {
 
+  activeMenu();
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -148,7 +150,23 @@ $("ul.nav-menu li").click(function() {
   $(this).addClass("menu-active");
 });
 
-$('#nav-menu-container > ul.nav-menu > li:first-child').addClass("menu-active");
+function activeMenu() {
+  var path = window.location.pathname;
+  path = path.replace(/\/$/, "");
+  path = decodeURIComponent(path);
+
+  $("#nav-menu-container > ul.nav-menu a").each(function () {
+      var href = $(this).attr('href');
+
+      if (path.substring(0, href.length) === href) {
+          $(this).closest('li').addClass('menu-active');
+      }
+  
+  });
+}
+
+// comentando codigo original para poner el subrayado al menú principal 
+//$('#nav-menu-container > ul.nav-menu > li:first-child').addClass("menu-active");
 
 $('.nav-tabs > li > a').click(function(event){
   event.preventDefault();//stop browser to take action for clicked anchor
