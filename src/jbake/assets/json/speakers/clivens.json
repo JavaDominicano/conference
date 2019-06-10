@@ -1,0 +1,21 @@
+{
+   "id": "clivens",
+    "name": "Clivens Petit",
+    "photoUrl": "img/speakers/clivens.jpg",
+    "title":"",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Diseñador y Desarrollador de Software con más de 10 años de experiencia ofreciendo servicios de desarrollo de páginas web profesionales, programas de escritorio, aplicaciones móviles y entrenamientos corporativos dentro como fuera del país. He laborado por un periodo de 5 años como profesor de Programación en el colegio técnico del CEGES-UAPA entre otros. Actualmente soy parte de una empresa de Software aquí en Santiago denominado MAGIC SOFTWARE BAY, S.R.L. y trabajo de forma remota como Arquitecto de Software en Centally, LLC.",
+   "socials": [{
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/aluismarte"
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/aluis-marte-5159b267"
+    }
+    ]
+
+}
