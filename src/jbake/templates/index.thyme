@@ -161,7 +161,7 @@
 			============================-->
 		  <div th:replace="sponsors.thyme::sponsors"/>
 
-
+      <div th:replace="venues.thyme::venues"/>
 			<div th:replace="organizers.thyme::organizers"/>
 			<div th:replace="supporters.thyme::supporters"/>
 		</main>

@@ -12,19 +12,19 @@
 
       <div class="section-header">
         <h2>Event Venue</h2>
-        <p>Event venue location info and gallery</p>
+        <p>Event venue location info</p>
       </div>
 
       <div class="row no-gutters">
         <div class="col-lg-6 venue-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15049.247241433966!2d-70.685138!3d19.4421187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1cf6f10e8a775%3A0xce54b0bb0d6eac79!2sTeatro+PUCMM!5e0!3m2!1sen!2sdo!4v1560256814668!5m2!1sen!2sdo" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 
         <div class="col-lg-6 venue-info">
           <div class="row justify-content-center">
             <div class="col-11 col-lg-8">
-              <h3>Downtown Conference Center, New York</h3>
-              <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
+              <h3>University Theater</h3>
+						  <p>Mother and Teacher Pontifical Catholic University, Santiago de Los caballeros, Dominican Republic.</p>
             </div>
           </div>
         </div>
@@ -63,38 +63,6 @@
           <div class="venue-gallery">
             <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
               <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/venue-gallery/4.jpg'" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="venue-gallery">
-            <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
-              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/venue-gallery/5.jpg'" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="venue-gallery">
-            <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
-              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/venue-gallery/6.jpg'" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="venue-gallery">
-            <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
-              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/venue-gallery/7.jpg'" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="venue-gallery">
-            <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
-              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/venue-gallery/8.jpg'" alt="" class="img-fluid">
             </a>
           </div>
         </div>

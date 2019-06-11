@@ -25,18 +25,18 @@
 
 	"102": {
 		"id": 102,
-		"title": "Cloud Native, Service-Meshed Java Enterprise With Istio",
-		"abstract": "This sessions shows how to implement service-meshed applications using Java EE 8 and MicroProfile. We will develop a mesh of microservices, managed by Kubernetes and Istio.",
-		"description": "In enterprise software, we see more and more of the cloud native technologies, especially container orchestration and service meshes, emerging and slowly taking over the market.<br><br>Developers are facing the challenge which technology to choose to implement microservices for a cloud native setting. <br><br> Java Enterprise has been used for software solutions for a long time and its APIs are well-established in the ecosystem. However, is it possible to develop cloud native, service-meshed Java Enterprise applications that fulfill concerns such as scalability, resiliency, and telemetry — in an effective, manageable way?.<br><br>This sessions shows how to implement service-meshed applications using Java EE 8 and MicroProfile. We will develop a mesh of microservices, managed by Kubernetes and Istio. We’ll see why especially the Java Enterprise approach fits the concepts behind container orchestration and service meshes well. <br><br>The session also includes how to integrate the required cross-cutting concerns, such as monitoring, tracing, or resiliency into our applications, where developers have to actively integrate technology themselves and where the platform support us. Especially the cooperation between Java EE and MicroProfile provides a potent technology. <br><br>All of the time will be spent live-coding while explaining the concepts and solutions.",
+		"title": "¿Java EE? ¿Jakarta EE? ¿MicroProfile? ¿O tal vez, todos ellos?",
+		"abstract": "Parece que cada vez más y más tecnologías empresariales están emergiendo basadas en Java EE. Hay muchas opciones para elegir entre Java EE lo que ahora es Jakarta EE o MicroProfile o combinaciones de sus APIs. Cuales plataformas y estándares deben ser utilizadas por los desarrolladores para sus aplicaciones?",
+		"description": "Esta sesión va a mostrar la diferencia entre Java EE, Jakarta EE, MicroProfile y sus especificaciones individuales. Veremos como sus APIs se complementan y nos permiten desarrollar aplicaciones con alta productividad mediante el uso de APIs conocidas.<br>Especialmente aplicaciones nativas en el cloud que requieren algunos aspectos técnicos adicionales, como telemetría o resistencia, que son agregados por los especificaciones recientes de MicroProfile.<br><br>También veremos una comparación de entornos de ejecución, cuales servidores soportan MicroProfile, qué modelos de despliegue hay y qué elección tiene sentido para diferentes pilas de tecnología.",
 		"audience_level": "Beginner",
 		"language": "en",
 		"talk_format": "Talk (~30-45 minutes)",
 		"tags": [
 			"java",
 			"microservices",
-			"devops",
+			"Jakarta EE",
 			"containers",
-			"kubernetes",
+			"MicroProfile",
 			"cloud computing"
 		],
 		"speakers": [
@@ -296,6 +296,81 @@
 		"speakers": [
 			"chris-phillips"
 		]
+	},
+	"116": {
+		"id": 116,
+		"title": "Pruebas de integración para servicios REST usando Rest Assured",
+		"abstract": "El objetivo de ésta sección es mostrar como realizar pruebas integrales sobre los puntos finales (endpoints) de los servicios REST utilizando Assured, una librería Java para la validación de servicios REST.",
+		"description": "Contar con una gran colección de pruebas unitarias para verificar el comportamiento de las clases Java es solo el primer paso para una buena estrategia de prueba. Después de todo, el hecho de que las clases individuales de Java funcionen con éxito de forma aislada no significa que la aplicación en sí misma también funcionará correctamente, cuando todas estas clases se agrupan para formar un solo empaquetado.<br><br>Además de las pruebas unitarias básicas, también necesitamos pruebas de integración (pruebas que se centran en módulos), pruebas funcionales (pruebas de extremo a extremo que usan la aplicación como implementada) e incluso pruebas de aceptación del usuario (pruebas que examinan la GUI, como se ve por el usuario).<br><br>En esta sección vamos a realizar pruebas integrales sobre los métodos de los servicios REST ofrecidos por el servidor de aplicaciones utilizando Rest Assured, una librería Java para la validación de servicios web REST a través de un DSL amigable (lenguajes específicos del dominio) que describe una conexión a un punto final HTTP (Endpoint HTTP) y los resultados esperados.<br><br>Bonus: Adicional a Rest Assured, vamos a mostrar otras herramientas como Arquillian para realizar pruebas integrales en Java EE.",
+	 "audience_level": "All",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "es",
+		"tags": [
+			"API",
+			"REST",
+			"testing",
+			"rest assured",
+			"arquillian"
+		],
+		"speakers": [
+			"ecabrerar"
+		]
 	}
+	,
+	"117": {
+		"id": 117,
+		"title": "Serverless con OpenFaas y Java",
+		"abstract": "Cuando pensamos en Serverless es muy difícil no asociarlo con los servicios Amazon AWS, Google Cloud y Azure functions y podemos creer que fuera de esas plataformas no es posible implementarlas. Existe una solución simple y escalable utilizando Docker que abre los Serverless a todos bajo OpenFaaS.",
+		"description": "OpenFaaS, es una plataforma basada en contenedores Docker y sistemas de automatización de despliegues de aplicaciones (Kubernate o Docker Swarm) que permite en nuestra propia infraestructura poder utilizar la ejecución de nuestras aplicaciones bajo el concepto de la computación sin-servidor (Serverless) delegando el despliegue, asignación de recursos y ciclo de vida de la función a OpenFaas.<br><br>En nuestra presentación estaremos mostrando como subir la plataforma, como publicar servicios bajo la plataforma Java y mostrando una aplicación demo integrada al uso de la computación basada en Serverless bajo OpenFaas.",
+	 "audience_level": "All",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "es",
+		"tags": [
+			"Java",
+			"Openfaas",
+			"Docker",
+			"Kubernetes",
+			"Serverless"
+		],
+		"speakers": [
+			"ccamachog"
+		]
+	},
 
+	"118": {
+		"id": 118,
+		"title": "Plataformas, herramientas y librerías políglotas en plataformas Java.",
+		"abstract": "Esta charla explicará cómo la plataforma Java se presta para brindar convergencia de distintos lenguajes con plataformas, herramientas y librerías políglotas, como Graal, Gradle, Vertx entre otros.",
+		"description": "Lenguajes que antes no fueron muy populares con el paso del tiempo se han ido especializando en áreas específicas, y ganando popularidad en sus campos de mayor influencia, como lo son Python en machine learning o R en análisis estadístico.<br> Otros nuevos se van creando para tareas puntuales, como lo es Typescript, con su finalidad de llevar tipado estático a Javascript.<br><br> Esta amalgama de lenguajes ha creado retos de arquitectura en sistemas que requieran integrar desarrollos de lenguajes distintos. Esta necesidad ha traído consigo la tendencia de las plataformas políglotas.<br><br> Esta charla explicará cómo la plataforma Java se presta para brindar convergencia de distintos lenguajes con plataformas, herramientas y librerías políglotas, como Graal, Gradle, Vertx entre otros.<br><br> Se mostrarán ejemplos de convergencia, reutilización de código y ejecución de un ecosistema Node.js en una máquina virtual Java.",
+	 "audience_level": "All",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "es",
+		"tags": [
+			"Java",
+			"jvm",
+			"tools",
+			"vertx"
+		],
+		"speakers": [
+			"eliezer-herrera"
+		]
+	},
+	"119": {
+			"id": 119,
+			"title": "Desarrollar Lenguajes DSL (Domain Specific Language) con Antlr",
+			"abstract": "En esta charla, diseñaremos juntos un simple lenguaje DSL con Antlr4 que les permite a nuestros usuarios consultar data desde diferentes fuentes (SQL o NoSQL) de forma transparente usando criterios complejos de forma sencilla y amigable.",
+			"description": "Un DSL es un lenguaje que tiende a resolver un problema bien específico como SQL, HTML, XML entre otros. Y Antlr, por otro lado, es un generador de Parser que hace que la tarea de escribir nuestros propios lenguajes para un sin número de casos sea una experiencia placentera.<br><br>En nuestras aplicaciones, consultar informaciones es una de las operaciones más realizadas. Las combinaciones de esas consultas y posibles respuestas que podemos ofrecer son comúnmente limitadas por soluciones que hacen que esas tareas sean asignadas a un personal técnico con mas habilidades en tecnología que un simple usuario final.<br><br>En esta charla, diseñaremos juntos un simple lenguaje DSL con Antlr4 que les permite a nuestros usuarios consultar data desde diferentes fuentes (SQL o NoSQL) de forma transparente usando criterios complejos de forma sencilla y amigable.<br><br>Como siempre, va a ser divertido :), así que únete a mí y divirtámonos un poco construyendo nuestro propio lenguaje DSL.",
+		 "audience_level": "All",
+			"talk_format": "Talk (~30-45 minutes)",
+			"language": "es",
+			"tags": [
+				"Java",
+				"jvm",
+				"tools",
+				"vertx"
+			],
+			"speakers": [
+				"clivens"
+			]
+		}
 }

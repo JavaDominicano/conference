@@ -223,43 +223,6 @@
 		]
 	},
 	"109": {
-		"id": "psanders",
-		"name": "Pedro Sanders",
-		"company": "Fonoster",
-		"companyLogo": "",
-		"country": "USA",
-		"countryFlag": "flag-icon-us",
-		"photoUrl": "img/speakers/pedro-sanders.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Co-founder",
-			"description": "Co-founder"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/Sandedro"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/psanders"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/pedro-sanders-719639111/"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "https://fonoster.com"
-			}
-		]
-	},
-	"110": {
 		"id": "euryperez",
 		"name": "Eury Perez Beltre",
 		"company": "X-Team",
@@ -296,7 +259,7 @@
 			}
 		]
 	},
-	"111": {
+	"110": {
 		"id": "migueluseche",
 		"name": "Miguel Useche",
 		"company": "Mozilla TechSpeakers",
@@ -323,7 +286,7 @@
 			}
 		]
 	},
-	"112": {
+	"111": {
 		"id": "aluismarte",
 		"name": "Aluis Marte",
 		"company": "Edessis S.R.L",
@@ -350,7 +313,7 @@
 			}
 		]
 	},
-	"113": {
+	"112": {
 		"id": "carlospaulino",
 		"name": "Carlos Paulino",
 		"company": "American Express",
@@ -382,7 +345,7 @@
 			}
 		]
 	},
-	"114": {
+	"113": {
 		"id": "berroteranlkf",
 		"name": "Omar Berroterán Silva",
 		"company": "FreeLancer / Nicaragua JUG Leader",
@@ -409,7 +372,7 @@
 			}
 		]
 	},
-	"115": {
+	"114": {
 		"id": "ecabrerar",
 		"name": "Eudris Cabrera",
 		"company": "Ministerio de Hacienda",
@@ -446,10 +409,10 @@
 			}
 		]
 	},
-	"116": {
+	"115": {
 		"id": "igorsuhorukov",
 		"name": "Igor Suhorukov",
-		"company": "Align Techology",
+		"company": "Align Technology",
 		"companyLogo": "",
 		"country": "Moscow",
 		"countryFlag": "flag-icon-ru",
@@ -480,7 +443,7 @@
 		]
 	}
 	,
-	"117": {
+	"116": {
 		"id": "olehdokuka",
 		"name": "Oleh Dokuka",
 		"company": "Netifi, inc",
@@ -526,42 +489,7 @@
       }
 		]
 	},
-	"118": {
-		"id": "chris-phillips",
-		"name": "Chris Phillips",
-		"company": "IBM",
-		"companyLogo": "",
-		"country": "Southampton, United Kingdom",
-		"countryFlag": "flag-icon-gb",
-		"photoUrl": "img/speakers/chris-phillips.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [
-			"API",
-			"service",
-			"external",
-			"3rd party",
-			"gateway",
-			"openapi"
-		],
-		"badges": [{
-			"name": "IBM Master Inventor",
-			"description": "IBM Master Inventor"
-		}],
-		"socials": [
-			{
-	      "icon": "twitter",
-	      "name": "Twitter",
-	      "link": "https://twitter.com/cminion"
-	    },
-	    {
-	      "icon": "link",
-	      "name": "link",
-	      "link": "https://medium.com/@cminion/"
-	    }
-		]
-	},
-	"119": {
+	"117": {
 		"id": "sjenkins",
 		"name": "Stacey Jenkins, M. Psych",
 		"company": "CruxConception",
@@ -593,7 +521,7 @@
 			{
 	      "icon": "twitter",
 	      "name": "Twitter",
-	      "link": "https://twitter.com/cminion"
+	      "link": "https://twitter.com/CruxConception"
 	    },
 	    {
 	      "icon": "link",
@@ -604,6 +532,66 @@
 				"icon": "linkedin",
 				"name": "Linkedin",
 				"link": "https://www.linkedin.com/in/crux-conception/"
+			}
+		]
+	},
+	"118": {
+		"id": "eliezer-herrera",
+		"name": "Eliezer Herrera",
+		"company": "FreeLancer",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "img/speakers/eliezer-herrera.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Developer",
+			"description": "Software Developer"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eliesongo"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/zerh"
+			}
+		]
+	}
+	,
+	"119": {
+		"id": "clivens",
+		"name": "Clivens Petit",
+		"company": "Centally, LLC",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "img/speakers/clivens.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Architect",
+			"description": "Software Architect"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/peclevens"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/peclevens"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/pelevens"
 			}
 		]
 	}
