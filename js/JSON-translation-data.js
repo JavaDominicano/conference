@@ -421,7 +421,22 @@ var linguJSON = {
     {
       "source" : "Supported By",
       "target_es":"Apoyan"
+    },
+    {
+      "source" : "Event Venue",
+      "target_es":"Lugar del evento"
+    },
+    {
+      "source" : "University Theater",
+      "target_es":"Teatro Universitario"
+    },
+    {
+      "source" : "Mother and Teacher Pontifical Catholic University, Santiago de Los caballeros, Dominican Republic.",
+      "target_es":"Pontificia Universidad Católica Madre y Maestra,Santiago de Los caballeros, República Dominicana"
+    },
+    {
+      "source" : "Event venue location info",
+      "target_es":"Información de ubicación del lugar del evento"
     }
-
   ]
 };
