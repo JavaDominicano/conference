@@ -320,8 +320,8 @@
 	"117": {
 		"id": 117,
 		"title": "Serverless con OpenFaas y Java",
-		"abstract": "Cuando pensamos en Serverless es muy difícil no asociarlo con los servicios Amazon AWS, Google Cloud y Azure functions y podemos creer que fuera de esas plataformas no es posible implementarlas.Existe una solución simple y escalable utilizando Docker que abre los Serverless a todos a bajo costo llamada OpenFaaS. ",
-		"description": "Cuando pensamos en Serverless es muy difícil no asociarlo con los servicios Amazon AWS, Google Cloud y Azure functions y podemos creer que fuera de esas plataformas no es posible implementarlas. Existe una solución simple y escalable utilizando Docker que abre los Serverless a todos a bajo costo llamada OpenFaaS. ",
+		"abstract": "Cuando pensamos en Serverless es muy difícil no asociarlo con los servicios Amazon AWS, Google Cloud y Azure functions y podemos creer que fuera de esas plataformas no es posible implementarlas. Existe una solución simple y escalable utilizando Docker que abre los Serverless a todos bajo OpenFaaS.",
+		"description": "OpenFaaS, es una plataforma basada en contenedores Docker y sistemas de automatización de despliegues de aplicaciones (Kubernate o Docker Swarm) que permite en nuestra propia infraestructura poder utilizar la ejecución de nuestras aplicaciones bajo el concepto de la computación sin-servidor (Serverless) delegando el despliegue, asignación de recursos y ciclo de vida de la función a OpenFaas.<br><br>En nuestra presentación estaremos mostrando como subir la plataforma, como publicar servicios bajo la plataforma Java y mostrando una aplicación demo integrada al uso de la computación basada en Serverless bajo OpenFaas.",
 	 "audience_level": "All",
 		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
@@ -337,7 +337,7 @@
 		]
 	},
 
-	"117": {
+	"118": {
 		"id": 118,
 		"title": "Plataformas, herramientas y librerías políglotas en plataformas Java.",
 		"abstract": "Esta charla explicará cómo la plataforma Java se presta para brindar convergencia de distintos lenguajes con plataformas, herramientas y librerías políglotas, como Graal, Gradle, Vertx entre otros.",
@@ -347,14 +347,30 @@
 		"language": "es",
 		"tags": [
 			"Java",
-			"Openfaas",
-			"Docker",
-			"Kubernetes",
-			"Serverless"
+			"jvm",
+			"tools",
+			"vertx"
 		],
 		"speakers": [
 			"eliezer-herrera"
 		]
-	}
-
+	},
+	"119": {
+			"id": 119,
+			"title": "Desarrollar Lenguajes DSL (Domain Specific Language) con Antlr",
+			"abstract": "En esta charla, diseñaremos juntos un simple lenguaje DSL con Antlr4 que les permite a nuestros usuarios consultar data desde diferentes fuentes (SQL o NoSQL) de forma transparente usando criterios complejos de forma sencilla y amigable.",
+			"description": "Un DSL es un lenguaje que tiende a resolver un problema bien específico como SQL, HTML, XML entre otros. Y Antlr, por otro lado, es un generador de Parser que hace que la tarea de escribir nuestros propios lenguajes para un sin número de casos sea una experiencia placentera.<br><br>En nuestras aplicaciones, consultar informaciones es una de las operaciones más realizadas. Las combinaciones de esas consultas y posibles respuestas que podemos ofrecer son comúnmente limitadas por soluciones que hacen que esas tareas sean asignadas a un personal técnico con mas habilidades en tecnología que un simple usuario final.<br><br>En esta charla, diseñaremos juntos un simple lenguaje DSL con Antlr4 que les permite a nuestros usuarios consultar data desde diferentes fuentes (SQL o NoSQL) de forma transparente usando criterios complejos de forma sencilla y amigable.<br><br>Como siempre, va a ser divertido :), así que únete a mí y divirtámonos un poco construyendo nuestro propio lenguaje DSL.",
+		 "audience_level": "All",
+			"talk_format": "Talk (~30-45 minutes)",
+			"language": "es",
+			"tags": [
+				"Java",
+				"jvm",
+				"tools",
+				"vertx"
+			],
+			"speakers": [
+				"clivens"
+			]
+		}
 }
