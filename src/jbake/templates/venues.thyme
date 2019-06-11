@@ -67,38 +67,6 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-4">
-          <div class="venue-gallery">
-            <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
-              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/venue-gallery/5.jpg'" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="venue-gallery">
-            <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
-              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/venue-gallery/6.jpg'" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="venue-gallery">
-            <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
-              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/venue-gallery/7.jpg'" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="venue-gallery">
-            <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
-              <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/venue-gallery/8.jpg'" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
       </div>
     </div>
 
