@@ -104,6 +104,21 @@
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="speaker">
+								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" src="https://secure.gravatar.com/avatar/d8a7b6ff38e865dafa02259ed769eab4?s=500" alt="Oleh Dokuka" class="img-fluid">
+								<div class="details">
+									<h3><a href="speaker-details.html?id=olehdokuka">Oleh Dokuka</a> <span title="Ukraine" class="flag-icon flag-icon-ua flag-icon-squared"></span></h3>
+									<p> Principal Engineer @ Netifi, inc</p>
+									<div class="social">
+										<a href="https://twitter.com/OlehDokuka" target="_blank"><i class="fa fa-twitter"></i></a>
+										<a href="https://github.com/OlegDokuka" target="_blank"><i class="fa fa-github"></i></a>
+										<a href="http://coinen.space/" target="_blank"><i class="fa fa-link"></i></a>
+										<a href="https://ua.linkedin.com/in/olegdokuka" target="_blank"><i class="fa fa-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="speaker">
 								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/heathervc.jpg'" alt="Heather VanCura" class="img-fluid">
 								<div class="details">
 									<h3><a href="speaker-details.html?id=heathervc">Heather VanCura</a> <span class="flag-icon flag-icon-us flag-icon-squared" title="USA"></h3>
@@ -130,20 +145,6 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="speaker">
-								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/mercedes_wyss.jpg'" alt="Mercedes Wyss" class="img-fluid">
-								<div class="details">
-									<h3><a href="speaker-details.html?id=mercedes_wyss">Mercedes Wyss</a> <span title="Guatemala" class="flag-icon flag-icon-gt flag-icon-squared"></span></h3>
-									<p> Software Engineer @ Produactivity</p>
-									<div class="social">
-										<a href="https://twitter.com/itrjwyss" target="_blank"><i class="fa fa-twitter"></i></a>
-										<a href="https://www.linkedin.com/in/itrjwyss/" target="_blank"><i class="fa fa-linkedin"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-
 					</div>
 					<div class="row">
 						<div class="col-lg-12 col-6">

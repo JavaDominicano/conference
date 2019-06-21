@@ -84,24 +84,22 @@
 
 	"105": {
 		"id": 105,
-		"title": "Modern Identity Management (in the Era of Serverless and Microservices)",
-		"abstract": "Identity Management is an umbrella term for all of the core logic around identity. The main purpose of this talk is gain an in-depth knowledge of terms like manage provisioning, account management, identity governance, authentication, authorization, identity federation and how improve this with PaaS",
-		"description": "If you believe that Identity Management (IdM) is just related with the Authentication and Authorization processes, this is a talk for you. IdM is an umbrella term for all of the core logic around identity.<br><br> That means manage provisioning (assigning identities to user), account management (maintaining those identities), identity governance (assigning them to groups and roles and adjusting permissions as needed), authentication, authorization, identity federation (ensuring users can use the same identification data to access resources on related domains).<br><br> A login is more than a Single Sign On, we can use Passwordless, Federated Identity (FB, GitHub), Multifactor Authentication. <br><br>The main purpose of this talk is gain an in-depth knowledge of those terms, in addition explore some PaaS, that can help to achieve all that in our projects easier and faster.",
+		"title": "The Bootiful Application",
+		"abstract": "In this talk, join Spring Developer Advocate Josh Long (@starbuxman) as he looks at what Spring Boot is, why it's turning heads, why you should consider it for your next application (REST, micro services, web, batch, big data, integration, whatever!) and how to get started.",
+		"description": "Alright, so maybe \"bootiful\" won't ever work, but I tried, and it was worth it too because you're reading this. Spring Boot, the new convention-over-configuration centric framework from the Spring team at Pivotal, marries Spring's flexibility with conventional, common sense defaults to make application development not just fly, but pleasant! Spring Boot aims to make address the common functional and non-functional requirements that gate quickly moving to production.<br><br>Join Spring developer advocate Josh Long for a look at what Spring Boot is, why it's turning heads, why you should consider it for your next application (REST, micro services, web, batch, big data, integration, whatever!) and how to get started.",
 		"audience_level": "All",
-		"language": "es",
+		"language": "en",
 		"talk_format": "Talk (~30-45 minutes)",
 		"tags": [
-			"Cloud",
-			"Software",
+			"Micro services",
+			"Spring Boot",
 			"Architecture",
-			"Solution",
-			"Future",
-			"Mobile",
-			"Frontend",
+			"Integration",
+			"REST",
 			"Server-side Java"
 		],
 		"speakers": [
-			"mercedes_wyss"
+			"starbuxman"
 		]
 	},
 
@@ -279,23 +277,24 @@
 	},
 	"115": {
 		"id": 115,
-		"title": "Turning External Services to Internal APIs",
-		"abstract": "How do you control the cost for your 3rd party Service? How do you track usage? How do you stop unauthorised users? How do you quickly migrate from one provider to another?<br><br>This session will answer the questions above and show how an internal API Gateway can work with your external dependencies.",
-		"description": "It is common practise to expose APIs of internal services, but APIifying external services / APIs is not so common. However, doing so provides many advantages! These include consistent interface (even when moving between external providers), tracking the internal consumption of the external providers or adding throttling to ensure you don’t accidently performance test on a pay by consumption service.<br><br>This session will go through a number of strategies for turning external services to Internal APIs. It will also look at the advantages of each approach.",
-	 "audience_level": "All",
-		"talk_format": "Talk (~30-45 minutes)",
-		"language": "en",
-		"tags": [
-			"API",
-			"service",
-			"external",
-			"3rd party",
-			"gateway",
-			"openapi"
-		],
-		"speakers": [
-			"chris-phillips"
-		]
+		"title": "Cloud Native, Service-Meshed Java Enterprise With Istio",
+			"abstract": "This sessions shows how to implement service-meshed applications using Java EE 8 and MicroProfile. We will develop a mesh of microservices, managed by Kubernetes and Istio.",
+			"description": "In enterprise software, we see more and more of the cloud native technologies, especially container orchestration and service meshes, emerging and slowly taking over the market.<br><br>Developers are facing the challenge which technology to choose to implement microservices for a cloud native setting. <br><br> Java Enterprise has been used for software solutions for a long time and its APIs are well-established in the ecosystem. However, is it possible to develop cloud native, service-meshed Java Enterprise applications that fulfill concerns such as scalability, resiliency, and telemetry — in an effective, manageable way?.<br><br>This sessions shows how to implement service-meshed applications using Java EE 8 and MicroProfile. We will develop a mesh of microservices, managed by Kubernetes and Istio. We’ll see why especially the Java Enterprise approach fits the concepts behind container orchestration and service meshes well. <br><br>The session also includes how to integrate the required cross-cutting concerns, such as monitoring, tracing, or resiliency into our applications, where developers have to actively integrate technology themselves and where the platform support us. Especially the cooperation between Java EE and MicroProfile provides a potent technology. <br><br>All of the time will be spent live-coding while explaining the concepts and solutions.",
+
+			"audience_level": "Beginner",
+			"language": "en",
+			"talk_format": "Talk (~30-45 minutes)",
+			"tags": [
+				"java",
+				"microservices",
+				"devops",
+				"containers",
+				"kubernetes",
+				"cloud computing"
+			],
+			"speakers": [
+				"sebastian-daschner"
+			]
 	},
 	"116": {
 		"id": 116,

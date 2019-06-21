@@ -8,7 +8,7 @@
 		 <!--==========================
 	      Sponsors Section
 	    ============================-->
-	    <section id="sponsors1" class="section-with-bg wow fadeInUp">
+	    <section id="sponsors" class="section-with-bg wow fadeInUp">
 
 	      <div class="container">
 	        <div class="section-header">
@@ -18,18 +18,26 @@
 	        </div>
 
 	        <div class="row no-gutters sponsors-wrap clearfix">
-
 	          <div class="col-lg-3 col-md-4 col-xs-6">
 	            <div class="sponsor-logo">
-	              <img src="img/sponsors/jetbrains.png" class="img-fluid" alt="">
+	              <img src="img/sponsors/jetbrains.png" class="img-fluid" alt="jetbrains">
 	            </div>
 	          </div>
-
+						<div class="col-lg-3 col-md-4 col-xs-6">
+						 <div class="sponsor-logo">
+							 <img src="img/sponsors/nti.png" class="img-fluid" alt="Net Tech International">
+						 </div>
+					 </div>
+					 <div class="col-lg-3 col-md-4 col-xs-6">
+						<div class="sponsor-logo">
+							<img src="img/sponsors/uno.png" class="img-fluid" alt="UNO">
+						</div>
+					</div>
 	          <div class="col-lg-3 col-md-4 col-xs-6">
 	            <div class="sponsor-logo">
-	              <img src="img/sponsors/AvatharTech.png" class="img-fluid" alt="">
+	              <img src="img/sponsors/AvatharTech.png" class="img-fluid" alt="Avathar Tech">
 	            </div>
-	          </div>          
+	          </div>
 
 	        </div>
 
