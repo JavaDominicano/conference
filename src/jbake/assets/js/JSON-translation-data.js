@@ -437,6 +437,10 @@ var linguJSON = {
     {
       "source" : "Event venue location info",
       "target_es":"Información de ubicación del lugar del evento"
+    },
+    {
+      "source" : "Sold out",
+      "target_es":"Cerrado"
     }
   ]
 };

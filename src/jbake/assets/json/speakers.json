@@ -96,7 +96,6 @@
 			}
 		]
 	},
-
 	"104": {
 		"id": "heathervc",
 		"name": "Heather VanCura",
@@ -126,34 +125,6 @@
 				"icon": "linkedin",
 				"name": "Linkedin",
 				"link": "https://jcp.org/en/press/pmo/pmo_profiles/commFocusPMO-vancura"
-			}
-		]
-	},
-
-	"106": {
-		"id": "mercedes_wyss",
-		"name": "Mercedes Wyss",
-		"company": "Produactivity",
-		"companyLogo": "",
-		"country": "Guatemala",
-		"countryFlag": "flag-icon-gt",
-		"photoUrl": "img/speakers/mercedes_wyss.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": ["Cloud", "Software", "Architecture", "Solution", "Future", "Mobile", "Frontend", "Server-side Java"],
-		"badges": [{
-			"name": "Software Engineer",
-			"description": "Software Engineer"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/itrjwyss"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/itrjwyss/"
 			}
 		]
 	},
