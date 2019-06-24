@@ -8,6 +8,7 @@ fetch('../json/sessions.json')
     })
     .then(function (sessionsJson) {
         var sessions = document.getElementById('sessions');
+
         // traitement de l'objet
         for (i in sessionsJson) {
           let title = sessionsJson[i].title;
@@ -18,18 +19,19 @@ fetch('../json/sessions.json')
           let tags = sessionsJson[i].tags;
           let audienceLevel  = sessionsJson[i].audience_level;
           let talkFormat = sessionsJson[i].talk_format;
+          let time = sessionsJson[i].time;
 
           speakerPromise = getSpeakerById(speakerId);
 
           speakerPromise.then(function(speaker){
-             sessions.innerHTML += createSessionCard(id,title,abstract,speaker, tags,language,audienceLevel,talkFormat);
+             sessions.innerHTML += createSessionCard(id,title,abstract,speaker, tags,language,audienceLevel,talkFormat, time);
           });
         }
 });
 
-function createSessionCard(id, title,abstract, speaker, tags, language,audienceLevel, talkFormat) {
+function createSessionCard(id, title,abstract, speaker, tags, language,audienceLevel, talkFormat, time) {
     var sessionHtml = "<div class=\"row schedule-item\">" +
-        "<div class=\"col-md-2\"><time></time></div>" +
+        "<div class=\"col-md-2\"><time>"+time+"</time></div>" +
         "<div class=\"col-md-10\">" +
         "<div class=\"speaker\">" +
         "  <img src=\"" +speaker.photoUrl +"\" alt=\""+speaker.name+"\">"+
