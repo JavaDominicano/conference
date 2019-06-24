@@ -66,8 +66,8 @@
 		]
 	},
 
-	"104": {
-		"id": 104,
+	"111": {
+		"id": 111,
 		"title": "The Reactive Revolution",
 		"abstract": "The reactive revolution continues. For as much as we've been talking about reactive programming in Spring for the last few years the journey has only just begun. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll take our reactive applications further, looking at how to build microservices for cloud platforms like Pivotal Application Service (Cloud Foundry) and PKS (Kubernetes).",
 		"description": "The reactive revolution continues. For as much as we've been talking about reactive programming in Spring for the last few years the journey has only just begun. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll take our reactive applications further, looking at how to build microservices for cloud platforms like Pivotal Application Service (Cloud Foundry) and PKS (Kubernetes).<br><br>Some of the things we may cover include:</p><ul><li>Reactive NoSQL data access</li><li>Reactive SQL data access with R2DBC</li><li>Orchestration and reliability patterns like client-side loadbalancing, circuit breakers, and hedging</li><li>Messaging and service integration with Apache Kafka or RSocket</li><li>API gateways with Spring Cloud Gateway and patterns like rate limiting and</li><li>API adapters</li><li>Serverless programming with Spring Cloud Function and project Riff</li><li>Reactive authentication and authorization with Spring Security</li></ul><p>",
@@ -86,8 +86,8 @@
 		]
 	},
 
-	"105": {
-		"id": 105,
+	"104": {
+		"id": 104,
 		"title": "The Bootiful Application",
 		"abstract": "In this talk, join Spring Developer Advocate Josh Long (@starbuxman) as he looks at what Spring Boot is, why it's turning heads, why you should consider it for your next application (REST, micro services, web, batch, big data, integration, whatever!) and how to get started.",
 		"description": "Alright, so maybe \"bootiful\" won't ever work, but I tried, and it was worth it too because you're reading this. Spring Boot, the new convention-over-configuration centric framework from the Spring team at Pivotal, marries Spring's flexibility with conventional, common sense defaults to make application development not just fly, but pleasant! Spring Boot aims to make address the common functional and non-functional requirements that gate quickly moving to production.<br><br>Join Spring developer advocate Josh Long for a look at what Spring Boot is, why it's turning heads, why you should consider it for your next application (REST, micro services, web, batch, big data, integration, whatever!) and how to get started.",
@@ -108,8 +108,8 @@
 		]
 	},
 
-	"106": {
-		"id": 106,
+	"112": {
+		"id": 112,
 		"title": "Dockerizing Java applications with Oracle Cloud",
 		"abstract": "Containerization helps to package applications to be released and updated severals times a day in an easy and fast way. This demo-driven session shows how a Microservice can be developed with Java Technologies, packaged with containerization techniques and deploy on Oracle Kubernetes Engine.",
 		"description": "There are several Java technologies that can be used to create microservices, regardless of which one is chosen, the most effective way to deploy them could be a containerized environment. This session walks through next topics:</p><ul><li>Microservices with Java: Java technologies to develop microservices.<ul><li>The demo application</li></ul></li><li>Packing the application<ul><li>Thin War</li><li>Uber Jar</li></ul></li><li>Building docker images<ul><li>The Dockerfile</li><li>Caching </li><li>Layering</li><li>Docker repository</li></ul></li><li>Deploying on Kubernetes Engine:<ul><li>Create an instance</li><li>Accessing to the instance</li><li>The deployment file</li><li>Deploying, scaling and deleting the service</li></ul></li></ul><p>",
@@ -129,8 +129,8 @@
 		]
 	},
 
-	"107": {
-		"id": 107,
+	"114": {
+		"id": 114,
 		"title": "Java is back to the browser thanks to WebAssembly!",
 		"abstract": "In the past it was very popular to run Java code inside browsers trough Java Applets, but it lost popularity in the past decade.<br><br>But now thanks to WebAssembly (a way to run other languages besides JS on the browser) it's possible to run your Java app in the browser again.<br><br>Learn who you can do it!",
 		"description": "<a href=\"https://webassembly.org/\">WebAssembly</a> is a type of code that can be executed in modern web browsers through a compact binary format that runs at <strong>near-native speed</strong> without any plugins. This have a great impact for the web, because it gives a way to run code from other languages into the web at near native performance, providing client apps with a technology to run high performance applications in such way that was not possible before.<br><br>WebAssembly lets you port your Java code or JVM bytecode to the web. You can compile code written for Java into WASM by using tools like <a href=\"http://teavm.org/\">TeaVM</a> or <a href=\"https://github.com/mirkosertic/Bytecoder\">Bytecoder</a>, so you can reuse your current apps or call part of the code from a JavaScript context and access browser functionalities using the same Web APIs accessible from JavaScript. <em>All without installing any plugins!</em><br><br>This talk will be an introduction on how you can take your Java code to the web with WASM. I will discuss the following topics:</p><ul><li>Small brief about Javascript performance</li><li>Introduction of scenarios where high performance could be required.</li><li>What is WASM, its components and features.</li><li>How can you take your Java or JVM code to WASM. </li><li>Code interaction between JS and Java (and vice-versa) </li><li>Code examples and a brief presentation of demos (video or live).</li><li>Firefox's Dev Tools for working with WASM.</li><li>Where you can get more information about it.</li></ul><p>Attendees will learn the basics of this game-changer web technology, how to start to create high performance apps from scratch or migrate existing ones written in Java to WebAssembly.<br><br>All by using open technologies!",
@@ -150,8 +150,8 @@
 		]
 	},
 
-	"108": {
-		"id": 108,
+	"106": {
+		"id": 106,
 		"title": "Unleashing Kotlin's power: A talk for Java developers",
 		"abstract": "Kotlin is the most trending topic for JVM-related professionals, because of the functional fever and all it has to offer. As per my experience Java devs don't take advantage of it fully, because it's not only about learning a new syntax, but changing the mindset.\n\nThis talk is aimed to solve that.",
 		"description": "Kotlin is a modern programming language which explicit goal is to work an all platforms. It takes full advantage of the functional programming and all the power of the JVM. A lot of java developers are trying kotlin, but they keep coding like it is Java.<br><br> In this workshop we are going to learn the difference between the both, how to unleash the Kotlin's power and how it perfectly interoperate with Java.",
@@ -170,8 +170,8 @@
 		]
 	},
 
-	"109": {
-		"id": 109,
+	"117": {
+		"id": 117,
 		"title": "Paralelismo en java para todos",
 		"time": "5:30 PM",
 		"abstract": "Tienes problemas a la hora de programar en paralelo? no sabes como usar de forma eficiente tu CPU? tienes tareas complejas que tardan mucho, pero no sabes como atacarlas? Programas en paralelo, pero te consumes la maquina sin pensar en los demás procesos?",
@@ -188,10 +188,10 @@
 			"aluismarte"
 		]
 	},
-	"110": {
-		"id": 110,
+	"108": {
+		"id": 108,
 		"title": "Build - Test - Ship - Repeat: Effective testing and delivery using Continuous Integration",
-		"abstract": "In this talk we are going to explore how we can improve product quality, stability and delivery speed by embracing Continuous Integration and Firebase Test",
+		"abstract": "In this talk we are going to explore how we can improve product quality, stability and delivery speed by embracing Continuous Integration and Firebase Test.<br><br>We will also explore which techniques and strategies that you should use to automate your most of the processes that are time consuming and hard to implement manually.",
 		"description": "Android testing is hard and ensuring product quality is even harder. Both of these processes are very time consuming and unfortunately time is a very limited resource. As software engineers we should automate as many processes as possible and let machines do they heavy lifting in a more efficient and faster way.<br><br>In this talk we are going to explore how we can improve product quality, stability and delivery speed by embracing Continuous Integration and Firebase Test Lab. <br><br>We will also explore which techniques and strategies that you should use to automate your most of the processes that are time consuming and hard to implement manually.",
 		"audience_level": "Beginner",
 		"time": "3:30 PM",
@@ -202,14 +202,13 @@
 			"Android",
 			"devops",
 			"Continuous Integration"
-
 		],
 		"speakers": [
 			"carlospaulino"
 		]
 	},
-	"111": {
-		"id": 111,
+	"110": {
+		"id": 110,
 		"title": "GraphQL: Creando un webservice rapidamente sin multiples endpoints.",
 		"abstract": "Cansado de desplegar los WebAPI con cada nueva actualización para ajustarse a los cambios?, te presento GraphQL y como comenzar a implementarlo en las empresa y proyectos personales ahorrando tiempo en todas las etapas de desarrollo. Adiós a los WebAPI.",
 		"description": "En esta charla pretendo explicar el concepto de GraphQL, la diferencia con REST, las herramientas disponibles para java, y todas las consideraciones que se deben tener al momento de querer cambiar de paradigma, respuestas a las preguntas básicas que pueden surgir y como superar esa miedo al cambio. ",
@@ -226,8 +225,8 @@
 			"berroteranlkf"
 		]
 	},
-	"112": {
-		"id": 112,
+	"109": {
+		"id": 109,
 		"title": "Continuous code quality in java projects",
 		"abstract": "We use SonarQube as part of our continuous integration pipeline and try to reduce code complexity and debt in each sprint. I hope that  static code analysis will be very helpful for each java project.",
 		"description": "Technical debt management is a crucial metrics of large software system evolution. Development team can increase debt for taking shortcuts or workarounds in technical decisions to gain short-term benefit in time-to-market and earlier software release. And extra development efforts arises on late stages of project growth as a result of short-term speedup on first stages.<br><br>So let's examine how integrate continuous code quality as part of software system development process. We use SonarQube as part of our continuous integration pipeline and try to reduce code complexity and debt in each sprint. I use the same tooling to help popular open source projects manage and reduce tech debt.<br><br>In this report we considering static code analysis, project coding style, unit tests for system architecture validation, automatic documentation generation and automated behavior driven development tests as factors of engineer intention transparency, tech debt management and knowledge sharing.  <br><br>Almost each agile development team should use automated continuous code quality tools as part of software development process to reduce complexity of artifacts changes in time. I hope that also such approach helps other teams to implements new features in predictable time.",
@@ -247,8 +246,8 @@
 			"igorsuhorukov"
 		]
 	},
-	"113": {
-		"id": 113,
+	"105": {
+		"id": 105,
 		"title": "RSocket - new Reactive cross-network Protocol",
 		"abstract": "Are you doing microservices? Got exhausted of slow REST? Got mad of unreliable gRPC? An answer is RSocket. RSocket in a new network protocol with reactive streams semantic. It will make your system super fast and resilient. Come and learn why RSocket is the future of any cross-services communication.",
 		"description": "The new generation of cross-service communication is coming and called RSocket. RSocket is a new protocol that embracing Reactive Streams semantic into cross-service messaging. This protocol enables backpressure-control and allows building canonical Reactive-System. Even though the protocol offers asynchronous messages' streaming, there have already been a few competitors in this area by that time. One of those competitors is well-known gRPC.<br><br> In this session, we are going to learn why RSocket is innovation solution for cross-server communication, can we compare it with gRPC at all and if can, what are the key differences between RSocket and gRPC and why we have to start using RSocket today.<br><br>Along with that, He's going to introduce a few additions for RSocket, called RSocket-RPC and then compare to gRPC.<br><br>During the whole talk, He's going to enforce everything with demonstrating code samples, running stress tests, and in this way - explaining the core ideas, features and endless possibilities of the new Protocol.",
@@ -268,8 +267,8 @@
 			"olehdokuka"
 		]
 	},
-	"114": {
-		"id": 114,
+	"116": {
+		"id": 116,
 		"title": "Empowering Soft Skills with Team Dynamics & Communication Skills (For Software Engineering Team Projects & Customer Service): Using Active listening Techniques",
 		"abstract": "The implementation/training of Team Dynamics \u0026 Active Listening is ideal for individuals who work in a group setting and who have Teams working in the areas of Engineering, Programming and DevOps.\r\n\r\n•This concept has proven SOUND and EFFICIENT in regards to producing advanced degrees of SUCCESS in the areas of administration performance and TEAM-ROLE awareness.\r\n\r\n•This session is designed to enhance the characteristics of a development team and allow them to be cross-efficient and well-informed of frameworks and sufficient-enough to the sense where they can offer all essential skillsets.\r\n\r\n",
 		"description": "This lecture is aimed at offering Development teams’ novel methods for applying agendas for the publication of a new variety of team projects.<br><br>•My RESEARCH and practice will assist companies, organizations, and groups by merging psychology in consort with Active Listening Skills (ALS), which will result in an ACCELERATED-advance technique, devised to build rapport as well as enhanced recruiting methods.<br><br>•The lecture is designed to bring out individuals exceptional communication and administrative abilities and skills to function effectively as an element of a team.<br><br>•This presentation will allow businesses to use the TEAM PROJECT MODEL to help their team members cooperate, with the focus on utilizing distinctive intensities within individual elements among members of a team.<br><br>•Team leaders will take with them newer methods to develop a team of energetic, driven individuals who are enthusiastic regarding assisting the corporate endure to climb to new elevations.<br><br>•This presentation also motivates an even more distanced method of diverse aspects regarding a project.<br><br>•My presentation will illustrate that the above model is acceptable.  However, a team will not communicate effectively if a team that has been taken apart and separated due to disconnection and lack of communication.<br><br>•By using ACTIVE LISTENING SKILLS (ALS), a method developed by the FBI, every team member will increase productivity regarding their specific missions, and when united, the team members will form successful finalization of their team-goal.  By applying ALS, the team’s entire task will be the result of collective productive representation of their work.<br><br>• As with all teams, each team was placed together because at the initial conception of the group; it was assumed that the team element is within the excellent working order.  However, the appreciation of the team model must be well-oiled, and if not, members of the team will individually lack the proper function that is necessitated for TEAMWORK and fail to produce.",
@@ -311,8 +310,8 @@
 				"sebastian-daschner"
 			]
 	},
-	"116": {
-		"id": 116,
+	"113": {
+		"id": 113,
 		"title": "Pruebas de integración para servicios REST usando Rest Assured",
 		"abstract": "El objetivo de ésta sección es mostrar como realizar pruebas integrales sobre los puntos finales (endpoints) de los servicios REST utilizando Assured, una librería Java para la validación de servicios REST.",
 		"description": "Contar con una gran colección de pruebas unitarias para verificar el comportamiento de las clases Java es solo el primer paso para una buena estrategia de prueba. Después de todo, el hecho de que las clases individuales de Java funcionen con éxito de forma aislada no significa que la aplicación en sí misma también funcionará correctamente, cuando todas estas clases se agrupan para formar un solo empaquetado.<br><br>Además de las pruebas unitarias básicas, también necesitamos pruebas de integración (pruebas que se centran en módulos), pruebas funcionales (pruebas de extremo a extremo que usan la aplicación como implementada) e incluso pruebas de aceptación del usuario (pruebas que examinan la GUI, como se ve por el usuario).<br><br>En esta sección vamos a realizar pruebas integrales sobre los métodos de los servicios REST ofrecidos por el servidor de aplicaciones utilizando Rest Assured, una librería Java para la validación de servicios web REST a través de un DSL amigable (lenguajes específicos del dominio) que describe una conexión a un punto final HTTP (Endpoint HTTP) y los resultados esperados.<br><br>Bonus: Adicional a Rest Assured, vamos a mostrar otras herramientas como Arquillian para realizar pruebas integrales en Java EE.",
@@ -353,8 +352,8 @@
 		]
 	},
 
-	"118": {
-		"id": 118,
+	"107": {
+		"id": 107,
 		"title": "Plataformas, herramientas y librerías políglotas en plataformas Java.",
 		"abstract": "Esta charla explicará cómo la plataforma Java se presta para brindar convergencia de distintos lenguajes con plataformas, herramientas y librerías políglotas, como Graal, Gradle, Vertx entre otros.",
 		"description": "Lenguajes que antes no fueron muy populares con el paso del tiempo se han ido especializando en áreas específicas, y ganando popularidad en sus campos de mayor influencia, como lo son Python en machine learning o R en análisis estadístico.<br> Otros nuevos se van creando para tareas puntuales, como lo es Typescript, con su finalidad de llevar tipado estático a Javascript.<br><br> Esta amalgama de lenguajes ha creado retos de arquitectura en sistemas que requieran integrar desarrollos de lenguajes distintos. Esta necesidad ha traído consigo la tendencia de las plataformas políglotas.<br><br> Esta charla explicará cómo la plataforma Java se presta para brindar convergencia de distintos lenguajes con plataformas, herramientas y librerías políglotas, como Graal, Gradle, Vertx entre otros.<br><br> Se mostrarán ejemplos de convergencia, reutilización de código y ejecución de un ecosistema Node.js en una máquina virtual Java.",
