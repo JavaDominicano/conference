@@ -170,8 +170,8 @@
 		]
 	},
 
-	"117": {
-		"id": 117,
+	"118": {
+		"id": 118,
 		"title": "Paralelismo en java para todos",
 		"time": "5:30 PM",
 		"abstract": "Tienes problemas a la hora de programar en paralelo? no sabes como usar de forma eficiente tu CPU? tienes tareas complejas que tardan mucho, pero no sabes como atacarlas? Programas en paralelo, pero te consumes la maquina sin pensar en los demás procesos?",
@@ -269,23 +269,23 @@
 	},
 	"116": {
 		"id": 116,
-		"title": "Empowering Soft Skills with Team Dynamics & Communication Skills (For Software Engineering Team Projects & Customer Service): Using Active listening Techniques",
-		"abstract": "The implementation/training of Team Dynamics \u0026 Active Listening is ideal for individuals who work in a group setting and who have Teams working in the areas of Engineering, Programming and DevOps.\r\n\r\n•This concept has proven SOUND and EFFICIENT in regards to producing advanced degrees of SUCCESS in the areas of administration performance and TEAM-ROLE awareness.\r\n\r\n•This session is designed to enhance the characteristics of a development team and allow them to be cross-efficient and well-informed of frameworks and sufficient-enough to the sense where they can offer all essential skillsets.\r\n\r\n",
-		"description": "This lecture is aimed at offering Development teams’ novel methods for applying agendas for the publication of a new variety of team projects.<br><br>•My RESEARCH and practice will assist companies, organizations, and groups by merging psychology in consort with Active Listening Skills (ALS), which will result in an ACCELERATED-advance technique, devised to build rapport as well as enhanced recruiting methods.<br><br>•The lecture is designed to bring out individuals exceptional communication and administrative abilities and skills to function effectively as an element of a team.<br><br>•This presentation will allow businesses to use the TEAM PROJECT MODEL to help their team members cooperate, with the focus on utilizing distinctive intensities within individual elements among members of a team.<br><br>•Team leaders will take with them newer methods to develop a team of energetic, driven individuals who are enthusiastic regarding assisting the corporate endure to climb to new elevations.<br><br>•This presentation also motivates an even more distanced method of diverse aspects regarding a project.<br><br>•My presentation will illustrate that the above model is acceptable.  However, a team will not communicate effectively if a team that has been taken apart and separated due to disconnection and lack of communication.<br><br>•By using ACTIVE LISTENING SKILLS (ALS), a method developed by the FBI, every team member will increase productivity regarding their specific missions, and when united, the team members will form successful finalization of their team-goal.  By applying ALS, the team’s entire task will be the result of collective productive representation of their work.<br><br>• As with all teams, each team was placed together because at the initial conception of the group; it was assumed that the team element is within the excellent working order.  However, the appreciation of the team model must be well-oiled, and if not, members of the team will individually lack the proper function that is necessitated for TEAMWORK and fail to produce.",
-		"talk_format": "Workshop (\u003e 60 minutes)",
+		"title": "Emulate Amazon Web Services infrastructure in single JMV process to reduce development cost and improve productivity",
+		"abstract": "I emulated AWS infrastructure to speedup development and testing of complex distributed biomedical data processing application: SQS queues, S3 filesystem, Redshift data warehouse, PostgreSQL RDS service. It is not so hard as expected if you use open source libraries and frameworks. It is more performant and more easy approach to run emulation than use of Localstack.You can know \"secret\" information about Redshift JDBC driver under the hood. Also we will comparare several analitical and column-oriented database as base of warehouse for data science analysis/machine learning purpose",
+		"description": "I emulated AWS infrastructure to speedup development and testing of complex distributed biomedical data processing application: SQS queues, S3 filesystem, Redshift data warehouse, PostgreSQL RDS service. It is not so hard as expected if you use open source libraries and frameworks. It is more performant and more easy approach to run emulation than use of Localstack.You can know \"secret\" information about Redshift JDBC driver under the hood. Also we will comparare several analitical and column-oriented database as base of warehouse for data science analysis/machine learning purpose.",
+		"talk_format": "Talk (~30-45 minutes)",
 		"audience_level": "All",
 		"time": "5:30 PM",
 		"language": "en",
 		"tags": [
-			"ActiveListening",
-			"CommunicationSkills",
-			"Goals",
-			"GroupDynamics",
-			"Productivity",
-			"Teamwork"
+			"cloud computing",
+			"jvm",
+			"amazon web services",
+			"devops",
+			"containers",
+			"microservices"
 		],
 		"speakers": [
-			"sjenkins"
+			"igorsuhorukov"
 		]
 	},
 	"115": {
