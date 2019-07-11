@@ -1,0 +1,478 @@
+{
+	"101": {
+		"id": 101,
+		"title": "The Future of Java and You",
+		"abstract": "Learn how to take part in the Java developer community and the upcoming changes to the Java platform. Get your questions answered - why and how to participate in the evolution of Java. You will also learn about the global Adoption programs and how you can contribute to the future of Java.",
+		"description": "This session will explore how Java development has been brought into the open over the past decade. Several Java developer efforts have brought open source development processes and new levels of transparency and participation into their communities.<br><br> The Java Community Process (JCP) program celebrates twenty years of Java standards development in 2019.<br><br> Learn about the latest Java innovations to the Java SE Platform - Java SE 10, 11, 12 and beyond.<br><br> Since the initiation of efforts to expand the developer participation in the Java community, Java standards development is more open that it ever has been.<br><br>Learn how to take part in the Java developer community and the upcoming changes to Java - you can participate as an individual, corporation, or nonprofit such as a Java user group (JUG).<br><br> This session answers questions about why and how to participate in the evolution of the Java platform. You will also learn about the global Adoption programs and how you can participate in contributing to the future of Java.",
+		"audience_level": "All",
+		"time": "8:30 AM",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+			"javase",
+			"javaee",
+			"jvm",
+			"openjdk",
+			"web",
+			"cloud",
+			"developers",
+			"community"
+		],
+		"presentations": [{
+				"icon": "slideshare",
+				"name": "Slideshare",
+				"link": "https://www.slideshare.net/heathervc/apac-tour-2019-update"
+			}
+		],
+		"speakers": [
+			"heathervc"
+		]
+	},
+
+	"102": {
+		"id": 102,
+		"title": "¿Java EE? ¿Jakarta EE? ¿MicroProfile? ¿O tal vez, todos ellos?",
+		"abstract": "Parece que cada vez más y más tecnologías empresariales están emergiendo basadas en Java EE. Hay muchas opciones para elegir entre Java EE lo que ahora es Jakarta EE o MicroProfile o combinaciones de sus APIs. Cuales plataformas y estándares deben ser utilizadas por los desarrolladores para sus aplicaciones?",
+		"description": "Esta sesión va a mostrar la diferencia entre Java EE, Jakarta EE, MicroProfile y sus especificaciones individuales. Veremos como sus APIs se complementan y nos permiten desarrollar aplicaciones con alta productividad mediante el uso de APIs conocidas.<br>Especialmente aplicaciones nativas en el cloud que requieren algunos aspectos técnicos adicionales, como telemetría o resistencia, que son agregados por los especificaciones recientes de MicroProfile.<br><br>También veremos una comparación de entornos de ejecución, cuales servidores soportan MicroProfile, qué modelos de despliegue hay y qué elección tiene sentido para diferentes pilas de tecnología.",
+		"audience_level": "Beginner",
+		"time": "9:30 AM",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+			"microservices",
+			"Jakarta EE",
+			"containers",
+			"MicroProfile",
+			"cloud computing"
+		],
+		"presentations": [
+				{
+				"icon": "link",
+				"name": "link",
+				"link": "https://www.sebastian-daschner.com/talks/java-ee-microprofile/"
+			}
+		],
+		"speakers": [
+			"sebastian-daschner"
+		]
+	},
+
+	"103": {
+		"id": 103,
+		"title": "Bebiendo del Stream: Como usar las plataformas de mensajería para escalamiento y rendimiento",
+		"abstract": "Ven a esta sesión para aprender como incorporar soluciones de código abierto como Spring Cloud Stream, RabbitMQ, y Apache Kafka para maximizar las capacidades de tus sistemas distribuidos con complejidad mínima. Todos los ejemplos se escribirán en código en vivo y en tiempo real!",
+		"description": "Casi todos de los sistemas de misión crítica tienen elementos distribuidos o son totalmente distribuidos, resultando en numerosos retos: rendimiento, escalamiento, confiabilidad, elasticidad…​los ocho mitos del cómputo distribuido son vivos y bienes! Con frecuencia las plataformas de mensajería se usan para resolver estos problemas y aumentar las capacidades, pero no vienen sin complejidad por si mismas.<br><br> Ven a esta sesión para aprender como incorporar soluciones de código abierto como Spring Cloud Stream, RabbitMQ, y Apache Kafka para maximizar las capacidades de tus sistemas distribuidos con complejidad mínima. <br><br>Todos los ejemplos se escribirán en código en vivo y en tiempo real!",
+		"audience_level": "Beginner",
+		"time": "10:30 AM",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"Spring",
+			" Cloud",
+			"Distributed systems"
+
+		],
+		"presentations": [
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/mkheck/drinking-from-the-stream"
+			},
+			{
+				"icon": "slideshare",
+				"name": "Slideshare",
+				"link": "https://speakerdeck.com/mkheck/drinking-from-the-stream"
+			}
+
+		],
+		"speakers": [
+			"markheckler"
+		]
+	},
+
+	"111": {
+		"id": 111,
+		"title": "The Reactive Revolution",
+		"abstract": "The reactive revolution continues. For as much as we've been talking about reactive programming in Spring for the last few years the journey has only just begun. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll take our reactive applications further, looking at how to build microservices for cloud platforms like Pivotal Application Service (Cloud Foundry) and PKS (Kubernetes).",
+		"description": "The reactive revolution continues. For as much as we've been talking about reactive programming in Spring for the last few years the journey has only just begun. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll take our reactive applications further, looking at how to build microservices for cloud platforms like Pivotal Application Service (Cloud Foundry) and PKS (Kubernetes).<br><br>Some of the things we may cover include:</p><ul><li>Reactive NoSQL data access</li><li>Reactive SQL data access with R2DBC</li><li>Orchestration and reliability patterns like client-side loadbalancing, circuit breakers, and hedging</li><li>Messaging and service integration with Apache Kafka or RSocket</li><li>API gateways with Spring Cloud Gateway and patterns like rate limiting and</li><li>API adapters</li><li>Serverless programming with Spring Cloud Function and project Riff</li><li>Reactive authentication and authorization with Spring Security</li></ul><p>",
+		"audience_level": "Beginner",
+		"time": "4:30 PM",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"Spring",
+			"Reactive programming",
+			"kubernetes",
+			"cloud computing"
+		],
+		"presentations": [
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/joshlong/reactive-revolution"
+			}
+		],
+		"speakers": [
+			"starbuxman"
+		]
+	},
+
+	"104": {
+		"id": 104,
+		"title": "The Bootiful Application",
+		"abstract": "In this talk, join Spring Developer Advocate Josh Long (@starbuxman) as he looks at what Spring Boot is, why it's turning heads, why you should consider it for your next application (REST, micro services, web, batch, big data, integration, whatever!) and how to get started.",
+		"description": "Alright, so maybe \"bootiful\" won't ever work, but I tried, and it was worth it too because you're reading this. Spring Boot, the new convention-over-configuration centric framework from the Spring team at Pivotal, marries Spring's flexibility with conventional, common sense defaults to make application development not just fly, but pleasant! Spring Boot aims to make address the common functional and non-functional requirements that gate quickly moving to production.<br><br>Join Spring developer advocate Josh Long for a look at what Spring Boot is, why it's turning heads, why you should consider it for your next application (REST, micro services, web, batch, big data, integration, whatever!) and how to get started.",
+		"audience_level": "All",
+		"time": "2:30 PM",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"Micro services",
+			"Spring Boot",
+			"Architecture",
+			"Integration",
+			"REST",
+			"Server-side Java"
+		],
+		"speakers": [
+			"starbuxman"
+		]
+	},
+
+	"112": {
+		"id": 112,
+		"title": "Dockerizing Java applications with Oracle Cloud",
+		"abstract": "Containerization helps to package applications to be released and updated severals times a day in an easy and fast way. This demo-driven session shows how a Microservice can be developed with Java Technologies, packaged with containerization techniques and deploy on Oracle Kubernetes Engine.",
+		"description": "There are several Java technologies that can be used to create microservices, regardless of which one is chosen, the most effective way to deploy them could be a containerized environment. This session walks through next topics:</p><ul><li>Microservices with Java: Java technologies to develop microservices.<ul><li>The demo application</li></ul></li><li>Packing the application<ul><li>Thin War</li><li>Uber Jar</li></ul></li><li>Building docker images<ul><li>The Dockerfile</li><li>Caching </li><li>Layering</li><li>Docker repository</li></ul></li><li>Deploying on Kubernetes Engine:<ul><li>Create an instance</li><li>Accessing to the instance</li><li>The deployment file</li><li>Deploying, scaling and deleting the service</li></ul></li></ul><p>",
+		"audience_level": "Beginner",
+		"time": "4:30 PM",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+			"cloud",
+			"docker",
+			"kubernetes",
+			"microservices"
+		],
+		"presentations": [
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/HillmerCh/java-on-oke/tree/0.2-SNAPSHOT"
+			}
+		],
+		"speakers": [
+			"hillmer-chona"
+		]
+	},
+
+	"114": {
+		"id": 114,
+		"title": "Java is back to the browser thanks to WebAssembly!",
+		"abstract": "In the past it was very popular to run Java code inside browsers trough Java Applets, but it lost popularity in the past decade.<br><br>But now thanks to WebAssembly (a way to run other languages besides JS on the browser) it's possible to run your Java app in the browser again.<br><br>Learn who you can do it!",
+		"description": "<a href=\"https://webassembly.org/\">WebAssembly</a> is a type of code that can be executed in modern web browsers through a compact binary format that runs at <strong>near-native speed</strong> without any plugins. This have a great impact for the web, because it gives a way to run code from other languages into the web at near native performance, providing client apps with a technology to run high performance applications in such way that was not possible before.<br><br>WebAssembly lets you port your Java code or JVM bytecode to the web. You can compile code written for Java into WASM by using tools like <a href=\"http://teavm.org/\">TeaVM</a> or <a href=\"https://github.com/mirkosertic/Bytecoder\">Bytecoder</a>, so you can reuse your current apps or call part of the code from a JavaScript context and access browser functionalities using the same Web APIs accessible from JavaScript. <em>All without installing any plugins!</em><br><br>This talk will be an introduction on how you can take your Java code to the web with WASM. I will discuss the following topics:</p><ul><li>Small brief about Javascript performance</li><li>Introduction of scenarios where high performance could be required.</li><li>What is WASM, its components and features.</li><li>How can you take your Java or JVM code to WASM. </li><li>Code interaction between JS and Java (and vice-versa) </li><li>Code examples and a brief presentation of demos (video or live).</li><li>Firefox's Dev Tools for working with WASM.</li><li>Where you can get more information about it.</li></ul><p>Attendees will learn the basics of this game-changer web technology, how to start to create high performance apps from scratch or migrate existing ones written in Java to WebAssembly.<br><br>All by using open technologies!",
+
+		"audience_level": "Intermediate",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"time": "5:30 PM",
+		"tags": [
+			"browsers",
+			"java",
+			"webassembly",
+			"wasm"
+		],
+		"presentations": [{
+						"icon": "link",
+						"name": "link",
+						"link": "presentations/wasm-jconfdominicana"
+					}],
+		"speakers": [
+			"migueluseche"
+		]
+	},
+
+	"106": {
+		"id": 106,
+		"title": "Unleashing Kotlin's power: A talk for Java developers",
+		"abstract": "Kotlin is the most trending topic for JVM-related professionals, because of the functional fever and all it has to offer. As per my experience Java devs don't take advantage of it fully, because it's not only about learning a new syntax, but changing the mindset.\n\nThis talk is aimed to solve that.",
+		"description": "Kotlin is a modern programming language which explicit goal is to work an all platforms. It takes full advantage of the functional programming and all the power of the JVM. A lot of java developers are trying kotlin, but they keep coding like it is Java.<br><br> In this workshop we are going to learn the difference between the both, how to unleash the Kotlin's power and how it perfectly interoperate with Java.",
+		"audience_level": "Intermediate",
+		"time": "2:30 PM",
+		"language": "es",
+		"talk_format": "Workshop (\u003e 60 minutes)",
+		"tags": [
+			"Java",
+			"JVM",
+			"Kotlin",
+			"Functional"
+		],
+		"presentations": [
+					{
+						"icon": "slideshare",
+						"name": "Slideshare",
+						"link": "https://www.slideshare.net/euri16/unleashing-kotlins-power?fbclid=IwAR0dowBD8NGgvPOW_SCErhcUDvAhHyjryKH7o2jDv34E_LHdRbBVOO39weY"
+					}
+	],
+		"speakers": [
+			"euryperez"
+		]
+	},
+
+	"118": {
+		"id": 118,
+		"title": "Paralelismo en java para todos",
+		"time": "5:30 PM",
+		"abstract": "Tienes problemas a la hora de programar en paralelo? no sabes como usar de forma eficiente tu CPU? tienes tareas complejas que tardan mucho, pero no sabes como atacarlas? Programas en paralelo, pero te consumes la maquina sin pensar en los demás procesos?",
+		"description": "Esta charla va dirigida a mostrar los factores más incidentes a la hora de programar bajo hilos en java, pues la forma natural de pensar y hacer las cosas para las personas es hacerlas una a una y por lo general no sabemos como trabajar en hilos sin destruir los recursos que la maquina contiene.<br><br>La charla va muy dirigida a la forma de pensar para crear procesos que sean factibles en paralelismo tomando en cuenta: disco duro, memoria, y CPU disponible en el momento.",
+		"audience_level": "All",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"Java",
+			"Parallel",
+			"HPC"
+		],
+		"presentations": [
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/aluismarte/paralelismojconfdominicana2019/tree/master/Documents"
+			}
+		],
+		"speakers": [
+			"aluismarte"
+		]
+	},
+	"108": {
+		"id": 108,
+		"title": "Build - Test - Ship - Repeat: Effective testing and delivery using Continuous Integration",
+		"abstract": "In this talk we are going to explore how we can improve product quality, stability and delivery speed by embracing Continuous Integration and Firebase Test.<br><br>We will also explore which techniques and strategies that you should use to automate your most of the processes that are time consuming and hard to implement manually.",
+		"description": "Android testing is hard and ensuring product quality is even harder. Both of these processes are very time consuming and unfortunately time is a very limited resource. As software engineers we should automate as many processes as possible and let machines do they heavy lifting in a more efficient and faster way.<br><br>In this talk we are going to explore how we can improve product quality, stability and delivery speed by embracing Continuous Integration and Firebase Test Lab. <br><br>We will also explore which techniques and strategies that you should use to automate your most of the processes that are time consuming and hard to implement manually.",
+		"audience_level": "Beginner",
+		"time": "3:30 PM",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+			"Android",
+			"devops",
+			"Continuous Integration"
+		],
+		"speakers": [
+			"carlospaulino"
+		]
+	},
+	"110": {
+		"id": 110,
+		"title": "GraphQL: Creando un webservice rapidamente sin multiples endpoints.",
+		"abstract": "Cansado de desplegar los WebAPI con cada nueva actualización para ajustarse a los cambios?, te presento GraphQL y como comenzar a implementarlo en las empresa y proyectos personales ahorrando tiempo en todas las etapas de desarrollo. Adiós a los WebAPI.",
+		"description": "En esta charla pretendo explicar el concepto de GraphQL, la diferencia con REST, las herramientas disponibles para java, y todas las consideraciones que se deben tener al momento de querer cambiar de paradigma, respuestas a las preguntas básicas que pueden surgir y como superar esa miedo al cambio. ",
+		"audience_level": "Beginner",
+		"time": "4:30 PM",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"webservice",
+			"java",
+			"graphql"
+		],
+		"speakers": [
+			"berroteranlkf"
+		]
+	},
+	"109": {
+		"id": 109,
+		"title": "Continuous code quality in java projects",
+		"abstract": "We use SonarQube as part of our continuous integration pipeline and try to reduce code complexity and debt in each sprint. I hope that  static code analysis will be very helpful for each java project.",
+		"description": "Technical debt management is a crucial metrics of large software system evolution. Development team can increase debt for taking shortcuts or workarounds in technical decisions to gain short-term benefit in time-to-market and earlier software release. And extra development efforts arises on late stages of project growth as a result of short-term speedup on first stages.<br><br>So let's examine how integrate continuous code quality as part of software system development process. We use SonarQube as part of our continuous integration pipeline and try to reduce code complexity and debt in each sprint. I use the same tooling to help popular open source projects manage and reduce tech debt.<br><br>In this report we considering static code analysis, project coding style, unit tests for system architecture validation, automatic documentation generation and automated behavior driven development tests as factors of engineer intention transparency, tech debt management and knowledge sharing.  <br><br>Almost each agile development team should use automated continuous code quality tools as part of software development process to reduce complexity of artifacts changes in time. I hope that also such approach helps other teams to implements new features in predictable time.",
+		"audience_level": "Beginner",
+		"time": "3:30 PM",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+	      "static code analysis",
+	      "sonarqube",
+	      "IntelliJ idea inspection",
+	      "continuous code quality",
+	      "quality gates"
+		],
+		"speakers": [
+			"igorsuhorukov"
+		]
+	},
+	"105": {
+		"id": 105,
+		"title": "RSocket - new Reactive cross-network Protocol",
+		"abstract": "Are you doing microservices? Got exhausted of slow REST? Got mad of unreliable gRPC? An answer is RSocket. RSocket in a new network protocol with reactive streams semantic. It will make your system super fast and resilient. Come and learn why RSocket is the future of any cross-services communication.",
+		"description": "The new generation of cross-service communication is coming and called RSocket. RSocket is a new protocol that embracing Reactive Streams semantic into cross-service messaging. This protocol enables backpressure-control and allows building canonical Reactive-System. Even though the protocol offers asynchronous messages' streaming, there have already been a few competitors in this area by that time. One of those competitors is well-known gRPC.<br><br> In this session, we are going to learn why RSocket is innovation solution for cross-server communication, can we compare it with gRPC at all and if can, what are the key differences between RSocket and gRPC and why we have to start using RSocket today.<br><br>Along with that, He's going to introduce a few additions for RSocket, called RSocket-RPC and then compare to gRPC.<br><br>During the whole talk, He's going to enforce everything with demonstrating code samples, running stress tests, and in this way - explaining the core ideas, features and endless possibilities of the new Protocol.",
+	  "audience_level": "All",
+		"time": "2:30 PM",
+		"language": "en",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"java",
+	      "static code analysis",
+	      "sonarqube",
+	      "IntelliJ idea inspection",
+	      "continuous code quality",
+	      "quality gates"
+		],
+		"presentations": [
+				{
+				"icon": "link",
+				"name": "link",
+				"link": "presentations/Multiplayer_PacMan_With_RSocket_Completed_With_Video_Next_Edition.pdf"
+			}
+		],
+		"speakers": [
+			"olehdokuka"
+		]
+	},
+	"116": {
+		"id": 116,
+		"title": "Emulate Amazon Web Services infrastructure in single JMV process to reduce development cost and improve productivity",
+		"abstract": "I emulated AWS infrastructure to speedup development and testing of complex distributed biomedical data processing application: SQS queues, S3 filesystem, Redshift data warehouse, PostgreSQL RDS service. It is not so hard as expected if you use open source libraries and frameworks. It is more performant and more easy approach to run emulation than use of Localstack.You can know \"secret\" information about Redshift JDBC driver under the hood. Also we will comparare several analitical and column-oriented database as base of warehouse for data science analysis/machine learning purpose",
+		"description": "I emulated AWS infrastructure to speedup development and testing of complex distributed biomedical data processing application: SQS queues, S3 filesystem, Redshift data warehouse, PostgreSQL RDS service. It is not so hard as expected if you use open source libraries and frameworks. It is more performant and more easy approach to run emulation than use of Localstack.You can know \"secret\" information about Redshift JDBC driver under the hood. Also we will comparare several analitical and column-oriented database as base of warehouse for data science analysis/machine learning purpose.",
+		"talk_format": "Talk (~30-45 minutes)",
+		"audience_level": "All",
+		"time": "5:30 PM",
+		"language": "en",
+		"tags": [
+			"cloud computing",
+			"jvm",
+			"amazon web services",
+			"devops",
+			"containers",
+			"microservices"
+		],
+		"speakers": [
+			"igorsuhorukov"
+		]
+	},
+	"115": {
+		"id": 115,
+		"title": "Cloud Native, Service-Meshed Java Enterprise With Istio",
+			"abstract": "This sessions shows how to implement service-meshed applications using Java EE 8 and MicroProfile. We will develop a mesh of microservices, managed by Kubernetes and Istio.",
+			"description": "In enterprise software, we see more and more of the cloud native technologies, especially container orchestration and service meshes, emerging and slowly taking over the market.<br><br>Developers are facing the challenge which technology to choose to implement microservices for a cloud native setting. <br><br> Java Enterprise has been used for software solutions for a long time and its APIs are well-established in the ecosystem. However, is it possible to develop cloud native, service-meshed Java Enterprise applications that fulfill concerns such as scalability, resiliency, and telemetry — in an effective, manageable way?.<br><br>This sessions shows how to implement service-meshed applications using Java EE 8 and MicroProfile. We will develop a mesh of microservices, managed by Kubernetes and Istio. We’ll see why especially the Java Enterprise approach fits the concepts behind container orchestration and service meshes well. <br><br>The session also includes how to integrate the required cross-cutting concerns, such as monitoring, tracing, or resiliency into our applications, where developers have to actively integrate technology themselves and where the platform support us. Especially the cooperation between Java EE and MicroProfile provides a potent technology. <br><br>All of the time will be spent live-coding while explaining the concepts and solutions.",
+
+			"audience_level": "Beginner",
+			"time": "5:30 PM",
+			"language": "en",
+			"talk_format": "Talk (~30-45 minutes)",
+			"tags": [
+				"java",
+				"microservices",
+				"devops",
+				"containers",
+				"kubernetes",
+				"cloud computing"
+			],
+			"presentations": [
+				{
+				"icon": "link",
+				"name": "link",
+				"link": "https://www.sebastian-daschner.com/talks/service-meshed-ee/"
+			}
+		],
+			"speakers": [
+				"sebastian-daschner"
+			]
+	},
+	"113": {
+		"id": 113,
+		"title": "Pruebas de integración para servicios REST usando Rest Assured",
+		"abstract": "El objetivo de ésta sección es mostrar como realizar pruebas integrales sobre los puntos finales (endpoints) de los servicios REST utilizando Assured, una librería Java para la validación de servicios REST.",
+		"description": "Contar con una gran colección de pruebas unitarias para verificar el comportamiento de las clases Java es solo el primer paso para una buena estrategia de prueba. Después de todo, el hecho de que las clases individuales de Java funcionen con éxito de forma aislada no significa que la aplicación en sí misma también funcionará correctamente, cuando todas estas clases se agrupan para formar un solo empaquetado.<br><br>Además de las pruebas unitarias básicas, también necesitamos pruebas de integración (pruebas que se centran en módulos), pruebas funcionales (pruebas de extremo a extremo que usan la aplicación como implementada) e incluso pruebas de aceptación del usuario (pruebas que examinan la GUI, como se ve por el usuario).<br><br>En esta sección vamos a realizar pruebas integrales sobre los métodos de los servicios REST ofrecidos por el servidor de aplicaciones utilizando Rest Assured, una librería Java para la validación de servicios web REST a través de un DSL amigable (lenguajes específicos del dominio) que describe una conexión a un punto final HTTP (Endpoint HTTP) y los resultados esperados.<br><br>Bonus: Adicional a Rest Assured, vamos a mostrar otras herramientas como Arquillian para realizar pruebas integrales en Java EE.",
+	 "audience_level": "All",
+	 	"time": "4:30 PM",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "es",
+		"tags": [
+			"API",
+			"REST",
+			"testing",
+			"rest assured",
+			"arquillian"
+		],
+		"presentations": [
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/ecabrerar/rest-assured-jconf"
+			},
+			{
+				"icon": "slideshare",
+				"name": "Slideshare",
+				"link": "https://www.slideshare.net/eudris/pruebas-de-integracin-para-servicios-rest-usando-rest-assured"
+			}
+		],
+		"speakers": [
+			"ecabrerar"
+		]
+	}
+	,
+	"117": {
+		"id": 117,
+		"title": "Serverless con OpenFaas y Java",
+		"abstract": "Cuando pensamos en Serverless es muy difícil no asociarlo con los servicios Amazon AWS, Google Cloud y Azure functions y podemos creer que fuera de esas plataformas no es posible implementarlas. Existe una solución simple y escalable utilizando Docker que abre los Serverless a todos bajo OpenFaaS.",
+		"description": "OpenFaaS, es una plataforma basada en contenedores Docker y sistemas de automatización de despliegues de aplicaciones (Kubernate o Docker Swarm) que permite en nuestra propia infraestructura poder utilizar la ejecución de nuestras aplicaciones bajo el concepto de la computación sin-servidor (Serverless) delegando el despliegue, asignación de recursos y ciclo de vida de la función a OpenFaas.<br><br>En nuestra presentación estaremos mostrando como subir la plataforma, como publicar servicios bajo la plataforma Java y mostrando una aplicación demo integrada al uso de la computación basada en Serverless bajo OpenFaas.",
+	 "audience_level": "All",
+	 	"time": "3:30 PM",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "es",
+		"tags": [
+			"Java",
+			"Openfaas",
+			"Docker",
+			"Kubernetes",
+			"Serverless"
+		],
+		"speakers": [
+			"ccamachog"
+		]
+	},
+
+	"107": {
+		"id": 107,
+		"title": "Plataformas, herramientas y librerías políglotas en plataformas Java.",
+		"abstract": "Esta charla explicará cómo la plataforma Java se presta para brindar convergencia de distintos lenguajes con plataformas, herramientas y librerías políglotas, como Graal, Gradle, Vertx entre otros.",
+		"description": "Lenguajes que antes no fueron muy populares con el paso del tiempo se han ido especializando en áreas específicas, y ganando popularidad en sus campos de mayor influencia, como lo son Python en machine learning o R en análisis estadístico.<br> Otros nuevos se van creando para tareas puntuales, como lo es Typescript, con su finalidad de llevar tipado estático a Javascript.<br><br> Esta amalgama de lenguajes ha creado retos de arquitectura en sistemas que requieran integrar desarrollos de lenguajes distintos. Esta necesidad ha traído consigo la tendencia de las plataformas políglotas.<br><br> Esta charla explicará cómo la plataforma Java se presta para brindar convergencia de distintos lenguajes con plataformas, herramientas y librerías políglotas, como Graal, Gradle, Vertx entre otros.<br><br> Se mostrarán ejemplos de convergencia, reutilización de código y ejecución de un ecosistema Node.js en una máquina virtual Java.",
+	 "audience_level": "All",
+	 	"time": "2:30 PM",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "es",
+		"tags": [
+			"Java",
+			"jvm",
+			"tools",
+			"vertx"
+		],
+		"speakers": [
+			"eliezer-herrera"
+		]
+	},
+	"119": {
+			"id": 119,
+			"title": "Desarrollar Lenguajes DSL (Domain Specific Language) con Antlr",
+			"time": "3:30 PM",
+			"abstract": "En esta charla, diseñaremos juntos un simple lenguaje DSL con Antlr4 que les permite a nuestros usuarios consultar data desde diferentes fuentes (SQL o NoSQL) de forma transparente usando criterios complejos de forma sencilla y amigable.",
+			"description": "Un DSL es un lenguaje que tiende a resolver un problema bien específico como SQL, HTML, XML entre otros. Y Antlr, por otro lado, es un generador de Parser que hace que la tarea de escribir nuestros propios lenguajes para un sin número de casos sea una experiencia placentera.<br><br>En nuestras aplicaciones, consultar informaciones es una de las operaciones más realizadas. Las combinaciones de esas consultas y posibles respuestas que podemos ofrecer son comúnmente limitadas por soluciones que hacen que esas tareas sean asignadas a un personal técnico con mas habilidades en tecnología que un simple usuario final.<br><br>En esta charla, diseñaremos juntos un simple lenguaje DSL con Antlr4 que les permite a nuestros usuarios consultar data desde diferentes fuentes (SQL o NoSQL) de forma transparente usando criterios complejos de forma sencilla y amigable.<br><br>Como siempre, va a ser divertido :), así que únete a mí y divirtámonos un poco construyendo nuestro propio lenguaje DSL.",
+		 "audience_level": "All",
+			"talk_format": "Talk (~30-45 minutes)",
+			"language": "es",
+			"tags": [
+				"Java",
+				"jvm",
+				"tools",
+				"vertx"
+			],
+			"speakers": [
+				"clivens"
+			]
+		}
+}

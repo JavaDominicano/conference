@@ -441,6 +441,10 @@ var linguJSON = {
     {
       "source" : "Sold out",
       "target_es":"Cerrado"
+    },
+    {
+      "source" : "All the presentations, examples, videos and other resources used by the speakers at JConf Dominicana 2019",
+      "target_es" : "Todas las presentaciones, ejemplos, videos y otros recursos utilizados por los conferencitas en JConf Dominicana 2019"
     }
   ]
 };
