@@ -1,0 +1,680 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Lleva Java a la web gracias a WebAssembly</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moztechspeakers.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="main" data-background="#654ff0">
+					<h2>Java de regreso a la web</h2>
+					<h1>con a WebAssembly</h1>
+					<h3 class="left">Miguel Useche @ JConf Dominicana | Junio | 2019</h3>
+				</section>
+				<section id="speaker" data-background="#654ff0">
+						<h1>¡Hola! Soy Miguel</h1>
+						<br>
+						<div class="third left">
+							<img src="img/yo/migueluseche.jpg" class="avatar left" alt="Miguel Useche" />
+						</div><!--
+						--><div class="twothirds left">
+							<ul>
+								<li>Desarrollador web independiente y profesor universitario.</li>
+								<li>
+									Voluntario en comunidades de código abierto:
+									<img src="img/yo/communities.png" align="Comunidades donde colaboro" class="noborder communities">
+								</li>
+								<li>
+									Mozillero de 
+									<img src="img/yo/ve.png" alt="Bandera de Venezuela" class="noborder emoji">
+									viviendo en 
+									<img src="img/yo/co.png" alt="Bandera de Colombia" class="noborder emoji">
+								</li>
+							</p>
+						</div>
+				</section>
+
+				<section id="venezuela" data-background="img/yo/sc-vzla.png">
+					<div class="fragment dark-bg fragment third center">
+						<img src="img/yo/seriecaribe.jpg" alt="Logo de la serie del caribe">
+						<img src="img/yo/baseballcry.gif" alt="Venezolano llorando">
+					</div>
+				</section>
+
+				<section id="lets-start" data-background="#654ff0">
+					<h1>¡Empecemos!</h1>
+				</section>
+
+				<section id="noventas" data-background="img/90s.png">
+					<aside class="notes">
+						Sandy y Papo fue muy famoso en Venezuela.
+					</aside>
+				</section>
+
+				<section id="java-applers">
+					<h2>Java Applets</h2>
+					<div class="half left">
+						<img src="img/Java_applet.png" class="noborder">
+						<p class="center">
+							<strong>Aplicación matemática</strong>
+						</p>
+					</div><!--
+					--><div class="half">
+						<img src="img/NASA_World_Wind.jpg" class="noborder">
+						<p class="center">
+							<strong>NASA World Wind</strong>
+						</p>
+					</div>
+				</section>
+
+				<section id="por-que-desaparecio-applets">
+					<h2>¿Por qué desaparecieron los Java Applets?</h2>
+					<ul>
+						<li>Requeria instalar Java en tu equipo.</li>
+						<li>Nula integración con la web.</li>
+						<li>Perdió fuerza debido a Flash, Silverlight, HTML5</li>
+						<li>Problemas en dispositivos móviles</li>
+						<li>¿Problemas de seguridad?</li>
+					</ul>
+					<aside class="notes">
+						JAva no estaba presente en Windows por defecto, u otros dispositivos.
+						No era posible interactuar con el resto del sitio.
+						Empezó a surgir Flash, Silverlight y HTML5.
+						No era optimo para dispositivos móviles.
+						Ausente en algunas arquitecturas como Linux de 64bits.
+					</aside>
+				</section>
+
+				<section id="java-muerto" data-background="#654ff0">
+					<img src="img/java-applets.png" alt="Logo de Java Applets">
+					<h1>....los applets de Java fueron desplazados...</h1>
+				</section>
+
+
+				<section id="javascript-rises" data-background="#f7df1d">
+					<p>....ante JavaScript</p>
+					<aside class="notes">
+						Se convirtió en el lenguaje usado para la web debido 
+						a estar optimizado para dispostivos móviles, no requeria instalar
+						cosas adicionales, presente en todas las arqutecturas, entre otors.y
+					</aside>
+				</section>
+
+				<section id="rendimiento" data-background="img/gifs/slow-turtle.gif">
+					<h2 class="white" style="margin-bottom: 40%">Rendimiento</h2>
+					<aside class="notes">
+						Javascript was never designed to be fast and browsers
+						vendors have made an excelent work by improving
+						JS speed over the years, but that's not the correct way
+						to go
+					</aside>
+				</section>
+
+				<section id="como-ejecuta-js"  data-background="#654ff0">
+					<h1>Cómo los navegadores ejecutan JS</h1>
+					<img src="img/js-parsing.png" alt="JS execution">
+					<p>
+						<small>
+							Fuente: <a href="https://www.youtube.com/watch?v=HktWin_LPf4">Lin Clark</a> &copy; 2017.
+						</small>
+					</p>
+					<aside class="notes">
+						Pero no es suficiente
+					</aside>
+				</section>
+
+				<section id="ejemplo-lentitud"  data-background="#654ff0">
+					<h1>Veamos un ejemplo...</h1>
+				</section>
+				
+				<section id="js-addition-example">
+					<h1>Una suma en JS</h1>
+					<pre><code>
+function suma(a, b) {
+    return a + b;
+}
+					</code></pre>
+					<p>Sencillo, ¿no? <br>Debería <strong><em>"ser una única"</em></strong> instrucción del CPU</p>
+					<aside class="notes">
+						Como podemos saber si son 2 números, si quiero concatenar 2 cadenas, si b es un número o queremos
+						unirlo a la cadena de la izquierda. Algo tan simple se vuelve complejo debido a que JS no es tipado.
+					</aside>
+				</section>
+
+
+				<section id="ecma-adicion">
+					<h2>Cómo ECMA-262 <br> define una adición</h2>
+					<blockquote>
+						<ol class="small">
+						    <li>Let lref be the result of evaluating AdditiveExpression.</li>
+						    <li>Let lval be GetValue(lref).</li>
+						    <li>Let rref be the result of evaluating MultiplicativeExpression.</li>
+						    <li>Let rval be GetValue(rref).</li>
+						    <li>Let lprim be ToPrimitive(lval).</li>
+						    <li>Let rprim be ToPrimitive(rval).</li>
+							<li>
+								 If Type(lprim) is String or Type(rprim) is String, then
+								 <ul>
+								 	<li>
+	        							Return the String that is the result of concatenating ToString(lprim) followed by ToString(rprim)
+								 	</li>
+								 	<li>
+	    								Return the result of applying the addition operation to ToNumber(lprim) and ToNumber(rprim).
+								 	</li>
+								 </ul>
+							</li>
+						</ol>
+					</blockquote>
+					<p class="small right">
+						Fuente: 
+						<a href="https://www.ecma-international.org/ecma-262/5.1/" title="ECMAScript Spec">ECMAScript® Language Specification. (Sec. 11.6.1)</a>
+					</p>
+					<aside class="notes">
+						Si metemos este código dentro de un ciclo de 8 iteraciones
+						será 8 veces mas lento.
+					</aside>
+				</section>
+
+				<section id="por-que-lento-2">
+					<h2>¿Por qué?</h2>
+					<p>
+						Hay que hacer sacrificios
+					</p>
+					<div class="half left">
+						<img src="img/programmers.jpg" alt="Programmers">
+						<p class="small center">Entienden lenguajes de programación</p>
+					</div><!--
+					--><div class="half left">
+						<img src="img/devices.jpg" alt="Dispositivos">
+						<p class="small center">Entienden binario o código de bajo nivel</p>
+					</div>
+					<aside class="notes">
+						Para hacer el lenguaje mas cómodo a la gente, tienes que sacrificar rendimiento 
+						porque es mas facil hacer una aplicación fácil de hacer y mantener y usualmente
+						no necesitas ejecutarla al mayor rendimiento todo el tiempo.
+					</aside>
+				</section>
+
+				<section id="como-resolverlo" data-background="#654ff0">
+					<h1>¿Cómo resolver esto?</h1>
+				</section>
+
+				<section id="wasm" data-background="img/WASM-logo.png">
+					<aside class="notes">
+						Es una forma de ejecutar otros lenguajes en tu navegador.
+						Antes solo podias hacerlo con JS ahora hay varios lenguajes que te permiten llevar a la web
+						como C++/Rust/GO y mas tarde veremos en JAVA.
+
+						Ahora puedes alterar tu sitio y trabajar en el con otro lenguaje.
+
+						Es binario, compacto, de carga rapida, puede ejecutarse en cualquier navegador y es seguro.
+
+						No remplaza a JS.
+
+						Escribe aplicaicones de alto rendimiento.
+
+						Se ejecuta alrededor de 1.2 y 1.5 veces mas rápido.
+					</aside>
+				</section>
+
+				<section id="wasm-descripcion">
+					<h2>WebAssembly</h2>
+					<div class="third center left">
+						<img src="img/js-wasm.jpg" alt="JS and WASM" class="noborder">
+					</div><!--
+					--><div class="twothirds left">
+						<ul>
+							<li>Formato binario</li>
+							<li class="fragment"><strong>NO</strong> remplaza JS</li>
+							<li class="fragment">Interface desde/hacia tu lenguaje (Java)</li>
+							<li class="fragment">Integración con WebAPI</li>
+							<li class="fragment">float32,int64, threads, SIMD</li>
+							<li class="fragment">Fácil de compilar, verificar y extensible</li>
+							<li class="fragment">Bloques de memoria de 1 byte</li>
+						</ul>
+					</div>
+				</section>
+
+				<section id="wasm-se-ejecuta"  data-background="#654ff0">
+					<h1>Cómo los navegadores ejecutan WASM</h1>
+					<img src="img/wasm-execute.png" alt="WASM execution" class="half">
+					<p>
+						<small>
+							Fuente: <a href="https://www.youtube.com/watch?v=HktWin_LPf4">Lin Clark</a> &copy; 2017.
+						</small>
+					</p>
+					<aside class="notes">
+						Es mas rápido porque no pierde tiempo en interpretar sino que descarga y ejecuta al mismo tiempo.
+					</aside>
+				</section>
+
+
+				<section id="formatos-wasm" data-background="#654ff0">
+					<h1>Formatos de WASM</h1>
+				</section>
+
+				<section id="wasm-binario">
+					<h2>Formato Binario</h2>
+					<p>
+						<img src="img/wasm7codeexplorer.png" alt="WASM binary explorer" class="center twothirds">
+					</p>
+					<p>
+						Puedes verlo con
+						<a href="https://wasdk.github.io/wasmcodeexplorer/" title="Check tool">
+							WASM Code Explorer
+						</a>
+					</p>
+					<aside class="notes">
+						Los primeros 4 bytes son un número que representa .asm, entonces la version,
+						funciones, memoria, etc.
+					</aside>
+				</section>
+
+				<section id="wast">
+					<h2>WebAssembly Text Format</h2>
+<pre><code>(module
+  (type $type0 (func (param i32)))
+  (type $type1 (func))
+  (import "sys" "print" (func $import0 (param i32)))
+  (memory (;0;) 200 200)
+  (export "memory" (memory 0))
+  (export "main" (func $func1))
+  (func $func1
+    i32.const 0
+    call $import0
+  )
+  (data (i32.const 0)
+    "Hello, world\00"
+  )
+)</code></pre>
+					<p>
+						Hola Mundo en WAT
+					</p>
+					<aside class="notes">
+						Usado para notación humana, algunas firmas trabajan en este nivel porque no 
+						confían en los compiladores, independente de la plataforma, chequeo de tipos, parametros, etc.
+					</aside>
+				</section>
+
+				<section id="fashion" data-background="#654ff0">
+					<h1>Tal vez pienses que es una moda pasajera....</h1>
+					<img src="img/gifs/not-impressed.gif" alt="No impresionado por WASM">
+				</section>
+
+				<section id="browsers" data-background="#654ff0">
+					<h1>¡Pero no! <br> ¡Tiene gran soporte!</h1>
+					<div class="fragment">
+						<img src="img/browser-logos.png" alt="web browsers" class="noborder padding" />
+					</div>
+					<aside class="notes">
+						Creo que primera vez en ver una tecnologías apoyada inicialmente
+						por todas los navegadores. Primero propuesto por FX, luego Edge,
+						Google abandona NaCL y por ultimo Safari. Garantiza interoperatibilidad.
+						Aproximadamente 65% del mercado puede ejecutar WASM
+					</aside>
+				</section>
+
+				<section id="como-se-crea"  data-background="#654ff0">
+					<h1>¿Cómo se crea?</h1>
+				</section>
+
+				<section id="compiler-target">
+					<h2>WebAssembly en Java</h2>
+					<p>
+						Existen 3 proyectos:
+					</p>
+
+					<ul>
+						<li>JWebAssembly</li>
+						<li>TeaVM</li>
+						<li>Bytecoder</li>
+					</ul>
+				</section>
+
+				<section id="compilacion">
+					<h2>WebAssembly en Java</h2>
+					<h3>Compilación</h3>
+					<ul>
+						<li>
+							JWebAssembly y TeaVM
+							<pre><code>Generados con MAVEN</code></pre>
+						</li>
+						<li>
+							Bytecoder:
+							<pre><code>java -jar bytecoder-cli-2019-06-13-executable.jar 
+ -classpath=. -mainclass=TU_PAQUETE.ArchivoPrincipal
+ -builddirectory=. -backend=js -minify=false
+							</code></pre>
+						</li>
+					</ul>
+				</section>
+
+
+				<section id="kotlin" data-background="#654ff0">
+					<h1>¿Kotlin?</h1>
+				</section>
+
+				<section id="kotlin-emscripten">
+					<h2>Kotlin a WASM con Emscripten</h2>
+					<p>
+						Emscripten es conjunto de herramientas para llevar lenguajes de alto nivel
+						a WASM
+					</p>
+					<div class="compile-process">
+						<span class="c">Kotlinsup</span> &rarr;
+						<span class="llvm">LLVM</span> &rarr;
+						<span class="emscripten">Emscripten</span> + <span class="asm">Binaryen</span> &rarr;
+						<span class="wasm">WASM</span>
+					</div>
+					<p class="left">
+						<small>* Todo este proceso se hace automáticamente con un script de Graddle.</small>
+					</p>
+					<aside class="notes">
+						Al igual que ASM nadie escribe en el (aunque es posible), utiliza lenguaje de alto nivel
+						y se compila para generar el archivo binario. Lo mismo es con WASM.
+						Se codifica en C/C++ y RUST, usando este conjunto  de herramientas se obtiene el archivo WASM.
+					</aside>
+				</section>
+
+				<section id="compilation-result" data-background="#654ff0">
+					<h1>¿Qué obtengo con esto?</h1>
+				</section>
+
+				<section id="resulados">
+					<h2>Resultados de la compilación</h2>
+					<p class="left">
+						Vas a obtener 3 archivos:
+					</p>
+					<ol>
+						<li>El archivo <strong>.wasm</strong>.</li>
+						<li>El código de JS para importar el módulo.</li>
+						<li>Una página HTML para ejecutar el módulo.</li>
+					</ol>
+				</section>
+
+				<section id="interaccion-codigo">
+					<h2>Interacción del código</h2>
+					<img src="img/wasm-c.png" class="half noborder" alt="Interacción de Java y JS">
+					<p>
+						<small>Comunica código entre JS y WASM</small>
+					</p>
+				</section>
+
+
+				<section id="interacion-js-java-jwebassembly">
+					<h2>Interacción Java -> JS</h2>
+					<h3>JWebAssembly</h3>
+					<p>Java</p>
+					<pre><code>import de.inetsoftware.jwebassembly.api.annotation.Export;
+
+@Export
+public static int sumaEnJava( int a, int b ) {
+    return a + b;
+}</code></pre>
+
+					<p>JavaScript</p>
+					<pre><code>let funcionJs;
+
+WebAssembly.instantiateStreaming(fetch('simple.wasm'))
+.then(obj => funcionJs = obj.instance.exports.sumaEnJava());</code></pre>
+					<aside class="notes">
+						ccall() calls a function and cwrap() grabs it.
+						Second parameter is the return and last is the type of the parameters:
+						number, string or array.
+					</aside>
+				</section>
+				<section id="interacion-js-java-bytecoder">
+					<h2>Interacción Java → JS</h2>
+					<h3>Bytecoder</h3>
+					<p>Java</p>
+					<pre><code>public class MiClase {
+    @Export("funcionDeJava")
+    public static void funcionDeJava() {
+    }
+}</code></pre>
+					<p>JavaScript</p>
+					<pre><code>bytecoder.exports.funcionDeJava();</code></pre>
+				</section>
+
+				<section id="interaccion-java-js">
+					<h2>Interacción JS → Java</h2>
+					<h3>JWebAssembly</h3>
+					<p>Re-implementación:</p>
+					<pre><code>import de.inetsoftware.jwebassembly.api.annotation.Import;
+
+@Import( module = "global.Math", name = "max" )
+static int max( int a, int b) {
+    return Math.max( a, b );
+}</code></pre>
+					<p>Usando native:</p>
+					<pre><code>import de.inetsoftware.jwebassembly.api.annotation.Import;
+
+@Import( module = "global.Math", name = "max" )
+public static native double max( int a, int b);
+</code></pre>
+					<aside class="notes">
+						El método puede ser tipo nativo para que JVM sepa que viene de afuera
+						o reimplementarse para modificarlo.
+					</aside>
+				</section>
+
+				<section id="interaccion-java-js-bytecoder">
+					<h2>Interacción JS → Java</h2>
+					<h3>Bytecoder</h3>
+					<pre><code>import de.mirkosertic.bytecoder.api.Import;
+
+public class CanvasRenderingContext2D {
+
+  @Import(module = "math", name = "max")
+  public static native long max(long aValue1, long aValue2);
+    
+}
+</code></pre>
+					<aside class="notes">
+						El nombre del módulo está en minúscula.
+					</aside>
+				</section>
+
+				<section id="ejemplo-uso" data-background="#654ff0">
+					<h1>¿Qué puedo hacer con WASM?</h1>
+				</section>
+
+				<section id="zen-garden" data-background-video="img/video/zengarden.mp4">
+					<aside class="notes">
+							Optimización de librerías.
+							Codecs de video.
+							Programas para cifrar mas rápido.
+							Videojuegos.
+							Image treatment
+						</li>
+					</aside>
+				</section>
+
+				<section id="wasm-video-editor">
+					<h2>Editor de vídeo con WASM</h2>
+					<a href="https://d2jta7o2zej4pf.cloudfront.net/">
+						<img src="img/wasm-editor.jpg" alt="WASM Video Editor" class="noborder">
+					</a>
+					<p>Aplica los efectos en tiempo real</p>
+				</section>
+
+				<section id="aprende-c">
+					<h2>Aprende C (Learn C)</h2>
+					<img src="img/AprendeC.png" alt="Learn C with WASM" class="half noborder"> 
+					<p>
+						Un sitio para aprender C que se ejecuta en el navegador.
+					</p>
+				</section>
+
+				<section id="autocad-en-la-web">
+					<h2>AutoCAD en la web</h2>
+					<img src="img/autocad-web.png" alt="AutoCAD web" class="half"> 
+					<p>
+						Fuente: <a href="https://twitter.com/AutoCAD/status/1137142853786886144">Twitter</a>.
+					</p>
+				</section>
+
+				<section id="wp-gutenberg">
+					<h2>Intérprete de <br> WordPress Gutenberg</h2>
+					<img src="img/wp-gutenberg.png" alt="WordPress Gutenberg" class="half"> 
+					<p>
+						El nuevo editor de WordPress utiliza un intérprete escrito en Rust.
+					</p>
+				</section>
+
+				<section id="wp-gutenberg-results" data-background="img/wasm-parser-results.png">
+				</section>
+
+
+				<section id="teavm-demo">
+					<h2>Tea-VM Demo: Java en el navegador</h2>
+					<a href="img/teavm.png" target="_blank" title="Ver demo de TeaVM">
+						<img src="img/teavm.png" alt="PIB: PHP in the browser" class="half">
+					</a>
+					<p>
+						Pruébalo en: 
+						<a href="http://teavm.org/sandbox/index.html" alt="Prueba jave en tu navegador">
+							http://teavm.org/sandbox/index.html
+						</a>
+					</p>
+				</section>
+
+				<section id="full-java-stack">
+					<h2>¡Podemos hacer <br> full-stack con Java!</h2>
+					<p class="fragment">¡Adiós JS! (En parte)</p>
+				</section>
+
+				<section id="falta-ejemplos-de-jvm" data-background="#654ff0">
+					<h1>¿Faltan mas  <br> ejemplos de Java?</h1>
+					<h2 class="fragment">¡Te invitamos a crearlos!</h2>
+				</section>
+
+				<section id="futuro">
+					<h2>Futuras características de WASM</h2>
+					<ul>
+						<li>Multi-threading y Atómicas</li>
+						<li>Manejo de excepciones</li>
+						<li>Recolector de basura</li>
+						<li>Variables globales mutables</li>
+						<li>SIMD.</li>
+						<li>JS BigInt y WebAssembly i64.</li>
+					</ul>
+					<p>
+						<small>
+							Mas en:
+							<a href="https://webassembly.org/docs/future-features/" target="_blank">
+								https://webassembly.org/docs/future-features/
+							</a>
+						</small>
+					</p>
+					<aside class="notes">
+						Atomicos es una operacion donde una vez leida y escrita no puede ser accedida por otro hasta que se escriba, para evitar problemas.
+						Hilos estan siendo implementados con Service Workers y luego con hilos del S.O.
+
+					</aside>
+				</section>
+
+				<section id="limitaciones">
+					<h2>Limitaciones en Java</h2>
+					<ul>
+						<li>
+							No existe un recolector de basura (GC).
+						</li>
+						<li>
+							Soporte limitado de hilos. 
+						</li>
+						<li>
+							No hay un soporte oficial, solo proyectos
+							de terceros.
+						</li>
+					</ul>
+				</section>
+
+				<section id="available" data-background="img/gifs/yes.gif">
+					<div class="dark-bg white">
+						<h2>¡No esperes!</h2>
+						<h1>¡Pruébalo con
+							<a href="https://webassembly.studio/" title="WASM Studio" title="WASM Studio">
+								WebAssembly Studio!
+							</a>
+						</h3>
+					</div>
+				</section>
+
+				<section id="links">
+					<h2 class="title">Enalces recomendados</h2>
+					<ul>
+						<li><a href="https://webassembly.org/">WASM official site</a></li>
+						<li><a href="https://webassembly.studio/">WebAssembly Studio</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/WebAssembly">Web Docs information</a></li>
+						<li><a href="https://blog.mikaellundin.name/2016/06/19/creating-a-webassembly-binary-and-running-it-in-a-browser.html/">WASM Binary Structure</a></li>
+						<li><a href="https://hacks.mozilla.org/?s=webassembly">Mozilla Hacks</a></li>
+						<li><a href="https://github.com/i-net-software/JWebAssembly">JWebAssembly</a></li>
+						<li><a href="https://github.com/konsoletyper/teavm">TeaVM</a></li>
+						<li><a href="https://github.com/mirkosertic/Bytecoder">Bytecoder</a></li>
+					</ul>
+				</section>
+			
+				<section id="social">
+					<div class="right">
+						<video style="width:30%" src="img/gifs/bye-fox.mp4" autoplay loop></video>
+						<h4>Gracias por su atención</h4>
+						<a href="https://migueluseche.com" title="Sitio web personal de Miguel Useche">
+							migueluseche.com
+						</a><br>
+						migueluseche<strong>@mozilla-hispano.org</strong><br>
+						<div class="social">
+							<a href="https://twitter.com/skatox">@skatox</a>  |
+							<a href="https://twitter.com/mozillahispano">@mozillahispano</a>
+						</small>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
