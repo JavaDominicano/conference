@@ -445,6 +445,14 @@ var linguJSON = {
     {
       "source" : "All the presentations, examples, videos and other resources used by the speakers at JConf Dominicana 2019",
       "target_es" : "Todas las presentaciones, ejemplos, videos y otros recursos utilizados por los conferencitas en JConf Dominicana 2019"
+    },
+    {
+      "source" : "Thank you to speakers, sponsors ,attendees and all staff of organizers for joining us in 2019!",
+      "target_es" : "Gracias a los speakers, patrocinadores, asistentes y todo el staff de organizadores por acompañarnos en el 2019!"
+    },
+    {
+      "source" : "See you all again next year!",
+      "target_es":"Nos vemos el próximo año!"
     }
   ]
 };

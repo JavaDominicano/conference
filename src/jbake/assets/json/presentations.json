@@ -262,6 +262,13 @@
 			"devops",
 			"Continuous Integration"
 		],
+		"presentations": [
+			{
+				"icon": "slideshare",
+				"name": "Slideshare",
+				"link": "https://speakerdeck.com/carlospaulino/build-test-ship-repeat-effective-testing-and-delivery-using-continuous-integration"
+			}
+		],
 		"speakers": [
 			"carlospaulino"
 		]
@@ -431,6 +438,13 @@
 			"Docker",
 			"Kubernetes",
 			"Serverless"
+		],
+		"presentations": [
+				{
+				"icon": "link",
+				"name": "link",
+				"link": "presentations/JCONF_2019_Serverless_con_OpenFaaS_y_Java.pdf"
+			}
 		],
 		"speakers": [
 			"ccamachog"
