@@ -308,6 +308,13 @@
 	      "continuous code quality",
 	      "quality gates"
 		],
+		"presentations": [
+			{
+				"icon": "slideshare",
+				"name": "Slideshare",
+				"link": "https://speakerdeck.com/isuhorukov/continuous-code-quality-in-java-projects"
+			}
+		],
 		"speakers": [
 			"igorsuhorukov"
 		]
@@ -356,6 +363,13 @@
 			"devops",
 			"containers",
 			"microservices"
+		],
+		"presentations": [
+			{
+				"icon": "slideshare",
+				"name": "Slideshare",
+				"link": "https://bit.ly/2TiMQzp"
+			}
 		],
 		"speakers": [
 			"igorsuhorukov"
