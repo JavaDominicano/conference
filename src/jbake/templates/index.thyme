@@ -10,12 +10,10 @@
 		============================-->
 		<section id="intro">
 			<div id="intro-container" class="intro-container wow fadeIn">
-        <div style="height:170px"></div>
-					<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
-				<h1 class="mb-4 pb-0 event_title"> JConf Dominicana<br/></h1>
-				<p class="mb-4 pb-0 event_thank_you"> Thank you to speakers, sponsors, attendees and all staff of organizers for joining us in 2019!</p>
-			<p class="mb-4 pb-0 see_you_next_year">See you all again next year!</p>
-      <a class="link_presentations" href="/presentations.html">Presentations and Resources JConf Dominicana 2019<span role="img" aria-label="rocket">🚀</span></a>
+      		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
+					<h1 class="mb-4 pb-0">The Caribbean <span>Java</span> Technologies Conference.</h1>
+			     <p class="mb-4 pb-0">July 17-18, 2020. Dominican Republic.</p>
+					 <p class="mb-4 pb-0">Save the date!</p>
 			</div>
 		</section>
 
@@ -38,8 +36,7 @@
 						</div>
 						<div class="col-lg-3">
 							<h3>When</h3>
-							<p>Saturday 29 June, 2019</p>
-							<p>08:00 AM – 07:00 PM</p>
+							<p>July 17-18, 2020</p>
 						</div>
 					</div>
 				</div>
@@ -48,120 +45,23 @@
 				Gallery Section
 			============================-->
      <div th:replace="gallery.thyme::gallery"/>
-			<!--==========================
+			<!--
+			==========================
 			Speakers Section
-			============================-->
-			<section id="speakers" class="wow fadeInUp">
-				<div class="container">
-					<div class="section-header">
-						<h2>Featured Speakers</h2>
-					</div>
-
-					<div class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="speaker">
-								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/josh-long.jpg'" alt="Josh Long" class="img-fluid">
-								<div class="details">
-									<h3><a href="speaker-details.html?id=starbuxman">Josh Long</a> <span class="flag-icon flag-icon-us flag-icon-squared" title="USA"></span></h3>
-									<p>Spring Developer Advocate @ Pivotal</p>
-									<div class="social">
-										<a href="http://twitter.com/starbuxman" target="_blank"><i class="fa fa-twitter"></i></a>
-										<a href="https://github.com/joshlong" target="_blank"><i class="fa fa-github"></i></a>
-										<a href="https://www.linkedin.com/in/joshlong/" target="_blank"><i class="fa fa-linkedin"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="speaker">
-								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/mark-heckler.jpeg'" alt="Mark Heckler" class="img-fluid">
-								<div class="details">
-									<h3><a href="speaker-details.html?id=markheckler">Mark Heckler</a> <span class="flag-icon flag-icon-us flag-icon-squared" title="USA"></h3>
-									<p>Spring Developer & Advocate @ Pivotal</p>
-									<div class="social">
-										<a href="https://twitter.com/mkheck" target="_blank"><i class="fa fa-twitter"></i></a>
-										<a href="https://github.com/mkheck" target="_blank"><i class="fa fa-github"></i></a>
-										<a href="https://www.linkedin.com/in/markheckler/" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="speaker">
-								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/sebastian-daschner.jpeg'" alt="Sebastian Daschner" class="img-fluid">
-								<div class="details">
-									<h3><a href="speaker-details.html?id=sebastian-daschner">Sebastian Daschner</a> <span title="Germany" class="flag-icon flag-icon-de flag-icon-squared"></span></h3>
-									<p>Lead Java Developer Advocate @ IBM</p>
-									<div class="social">
-										<a href="https://twitter.com/DaschnerS" target="_blank"><i class="fa fa-twitter"></i></a>
-										<a href="https://github.com/sdaschner/" target="_blank"><i class="fa fa-github"></i></a>
-										<a href="https://www.linkedin.com/in/sebastian-daschner-9894bb103" target="_blank"><i class="fa fa-linkedin"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="speaker">
-								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" src="https://secure.gravatar.com/avatar/d8a7b6ff38e865dafa02259ed769eab4?s=500" alt="Oleh Dokuka" class="img-fluid">
-								<div class="details">
-									<h3><a href="speaker-details.html?id=olehdokuka">Oleh Dokuka</a> <span title="Ukraine" class="flag-icon flag-icon-ua flag-icon-squared"></span></h3>
-									<p> Principal Engineer @ Netifi, inc</p>
-									<div class="social">
-										<a href="https://twitter.com/OlehDokuka" target="_blank"><i class="fa fa-twitter"></i></a>
-										<a href="https://github.com/OlegDokuka" target="_blank"><i class="fa fa-github"></i></a>
-										<a href="http://coinen.space/" target="_blank"><i class="fa fa-link"></i></a>
-										<a href="https://ua.linkedin.com/in/olegdokuka" target="_blank"><i class="fa fa-linkedin"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="speaker">
-								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/heathervc.jpg'" alt="Heather VanCura" class="img-fluid">
-								<div class="details">
-									<h3><a href="speaker-details.html?id=heathervc">Heather VanCura</a> <span class="flag-icon flag-icon-us flag-icon-squared" title="USA"></h3>
-									<p>Director and Chairperson @ Java Community Process (JCP)</p>
-									<div class="social">
-										<a href="https://twitter.com/heathervc" target="_blank"><i class="fa fa-twitter"></i></a>
-										<a href="https://jcp.org/en/press/pmo/pmo_profiles/commFocusPMO-vancura" target="_blank"><i class="fa fa-link"></i></a>
-										<a href="https://www.linkedin.com/in/heather-vancura-400395/" target="_blank"><i class="fa fa-linkedin"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="speaker">
-								<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/speakers/hillmer-chona.jpg'" alt="Hillmer Chona" class="img-fluid">
-								<div class="details">
-									<h3><a href="speaker-details.html?id=hillmer-chona">Hillmer Chona</a> <span class="flag-icon flag-icon-co flag-icon-squared" title="Colombia"></h3>
-									<p> MedellinJUG Leader / Oracle Groundbreakers</p>
-									<div class="social">
-										<a href="https://twitter.com/HillmerCh" target="_blank"><i class="fa fa-twitter"></i></a>
-										<a href="https://github.com/HillmerCh" target="_blank"><i class="fa fa-github"></i></a>
-										<a href="https://www.linkedin.com/in/hillmerch/" target="_blank"><i class="fa fa-linkedin"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 col-6">
-							<div class="text-center">
-								<a href="speakers.html" class="all-speakers" title="Speakers">All Speakers</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</section>
+			============================
+	 	 -->
+		 <!--==========================
+		 Tickets Section
+		 ============================-->
+		 <div th:replace="tickets.thyme::tickets"/>
 
 			<!--==========================
 			Sponsors Section
 			============================-->
 		  <div th:replace="sponsors.thyme::sponsors"/>
 
-      <div th:replace="venues.thyme::venues"/>
-			<div th:replace="organizers.thyme::organizers"/>
+
+
 			<div th:replace="supporters.thyme::supporters"/>
 		</main>
      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>

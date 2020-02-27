@@ -1,0 +1,29 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<body>
+	<!--==========================
+	Header
+	============================-->
+	<header id="header" th:fragment="menu-archive" th:remove="tag">
+		<div class="container">
+
+			<div id="logo" class="pull-left">
+				 <!-- <h1><a href="index.html"><span>JConf</span>Dominicana</a></h1>-->
+				<a href="/index.html" class="scrollto"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
+			</div>
+
+			<nav id="nav-menu-container">
+				<ul class="nav-menu">
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/index.html#sponsors">Sponsors</a></li>
+					<li><a href="/past-conferences.html">Past Conferences</a></li>
+					<li>
+						<a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" target="_blank" class="twitter">Announcements</a>
+					</li>
+				</ul>
+			</nav><!-- #nav-menu-container -->
+		</div>
+	</header><!-- #header -->
+</body>
+</html>

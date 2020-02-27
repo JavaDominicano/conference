@@ -1,0 +1,31 @@
+{
+    "id": "markheckler",
+    "name": "Mark Heckler",
+    "photoUrl": "/archive/jconf2019/images/speakers/mark-heckler.jpeg",
+    "title":"Spring Developer & Advocate",
+    "countryFlag": "flag-icon-us",
+    "shortBio": "",
+    "bio": "Mark Heckler es Principal Technologist y Spring Developer Advocate, ponente, y autor centrándose en desarrollo de software para el Internet of Things (IoT) y la nube. Ha trabajado con negocios claves en los campos de fabricación, retail, médico, científico, telecomunicación, y finanzas y también varios organizaciones públicas para desarrollar y entregar habilidades críticas con puntualidad y dentro de presupuesto. Mark es contribuidor de código abierto y autor/curador de un blog para desarrolladores (http://www.losheckler.com) y una cuenta ocasionalmente interesante en Twitter (@mkheck)",
+    "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/mkheck"
+    },
+    {
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/mkheck"
+    },
+    {
+      "icon": "link",
+      "name": "link",
+      "link": "https://thehecklers.com"
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/markheckler/"
+    }
+   ]
+
+}
