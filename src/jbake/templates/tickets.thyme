@@ -11,13 +11,25 @@
     <div class="container">
 
       <div class="section-header">
-        <h2>Buy Tickets</h2>
-        <p>Tickets will be available soon. Sign up now to be notified when registration opens.</p>
+        <h2>Get Ready for JConf Dominicana 2020</h2>
+        <p>Be the first to know when tickets are available! Sign up to be notified when they go on sale</p>
+
   		</div>
 
-			<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-			<script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"2ba9ad3be3e34e937ea55d071","lid":"73f48c7195","uniqueMethods":true}) })</script>
+			<form action="https://jconfdominicana.us20.list-manage.com/subscribe/post?u=2ba9ad3be3e34e937ea55d071&amp;id=73f48c7195" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div style="position: absolute; left: -5000px;" aria-hidden="true">
+					<input type="text" name="b_2ba9ad3be3e34e937ea55d071_73f48c7195" tabindex="-1" value="">
+				</div>
+				<div class="form-row justify-content-center">
+					<div class="col-auto">
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your Email" required>
+					</div>
+					<div class="col-auto">
+						<button type="submit" name="subscribe" id="mc-embedded-subscribe">Get Notified</button>
+					</div>
 
+				</div>
+			</form>
 
     </div>
 

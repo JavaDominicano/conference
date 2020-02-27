@@ -10,12 +10,10 @@
 		============================-->
 		<section id="intro">
 			<div id="intro-container" class="intro-container wow fadeIn">
-        <div style="height:170px"></div>
-					<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
-				<h1 class="mb-4 pb-0 event_title"> JConf Dominicana<br/></h1>
-				<p class="mb-4 pb-0 event_thank_you"> Thank you to speakers, sponsors, attendees and all staff of organizers for joining us in 2019!</p>
-			<p class="mb-4 pb-0 see_you_next_year">See you all again next year!</p>
-      <a class="link_presentations" href="/presentations.html">Presentations and Resources JConf Dominicana 2019<span role="img" aria-label="rocket">🚀</span></a>
+      		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
+					<h1 class="mb-4 pb-0">The Caribbean <span>Java</span> Technologies Conference.</h1>
+			     <p class="mb-4 pb-0">July 17-18, 2020. Dominican Republic.</p>
+					 <p class="mb-4 pb-0">Save the date!</p>
 			</div>
 		</section>
 
@@ -38,7 +36,7 @@
 						</div>
 						<div class="col-lg-3">
 							<h3>When</h3>
-							<p>July 17-18,2020</p>
+							<p>July 17-18, 2020</p>
 						</div>
 					</div>
 				</div>
@@ -47,10 +45,15 @@
 				Gallery Section
 			============================-->
      <div th:replace="gallery.thyme::gallery"/>
-			<!--==========================
+			<!--
+			==========================
 			Speakers Section
-			============================-->
-
+			============================
+	 	 -->
+		 <!--==========================
+		 Tickets Section
+		 ============================-->
+		 <div th:replace="tickets.thyme::tickets"/>
 
 			<!--==========================
 			Sponsors Section
@@ -58,7 +61,7 @@
 		  <div th:replace="sponsors.thyme::sponsors"/>
 
 
-	
+
 			<div th:replace="supporters.thyme::supporters"/>
 		</main>
      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>

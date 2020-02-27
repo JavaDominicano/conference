@@ -40,7 +40,7 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet"/>
 
 <!-- Bootstrap CSS File -->
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/bootstrap/css/bootstrap.min.css'" rel="stylesheet"/>
 
 <!-- Libraries CSS Files -->
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/font-awesome/css/font-awesome.min.css'" rel="stylesheet"/>

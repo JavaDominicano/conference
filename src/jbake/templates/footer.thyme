@@ -104,7 +104,7 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
             });
 
 						$(function() {
-							  $('#intro-container').vegas({
+							  $('#intro-container1').vegas({
 						        slides: [
 						            { src: 'img/homepage/java_dominicana_conference_1.jpg' },
 												{ src: 'img/homepage/campus-pucmm-santiago-0041.jpg' },
