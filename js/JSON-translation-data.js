@@ -35,8 +35,8 @@ var linguJSON = {
       "target_es": "Acerca de",
     },
     {
-      "source": "Saturday, June 29, 2019. PUCMM, Santiago de los Caballeros. Dominican Republic.",
-      "target_es": "Sábado 29 de Junio del 2019. PUCMM, Santiago de los Caballeros. República Dominicana.",
+      "source": "July 17-18, 2020. PUCMM, Santiago de los Caballeros. Dominican Republic.",
+      "target_es": "17-18 de Julio del 2020. PUCMM, Santiago de los Caballeros. República Dominicana.",
     },
     {
       "source": "Featured Speakers",
@@ -55,8 +55,8 @@ var linguJSON = {
       "target_es": "Organizadores",
     },
     {
-      "source": "JConf Dominicana 2019 is organized by the following organizations and developer communities",
-      "target_es": "JConf Dominicana 2019 está organizado por las siguientes organizaciones y comunidades de desarrolladores",
+      "source": "JConf Dominicana 2020 is organized by the following organizations and developer communities",
+      "target_es": "JConf Dominicana 2020 está organizado por las siguientes organizaciones y comunidades de desarrolladores",
     },
     {
       "source": "Santiago de los Caballeros, Dominican Republic.",
@@ -379,8 +379,8 @@ var linguJSON = {
       "target_es":"<strong>Idioma:</strong>Inglés"
     },
     {
-      "source" : "Saturday 29 June, 2019",
-      "target_es": "Sábado 29 de Junio del 2019"
+      "source" : "July 17-18, 2020",
+      "target_es": "17-18 de Julio, 2020"
     },
     {
       "source" : "Dominican Republic",
@@ -452,7 +452,64 @@ var linguJSON = {
     },
     {
       "source" : "See you all again next year!",
-      "target_es":"Nos vemos el próximo año!"
+      "target_es": "Nos vemos el próximo año!"
+    },
+    {
+      "source" : "Have a good idea for a talk? The call for paper will be open soon!",
+      "target_es": "¿Tienes una buena idea para una presentación? ¡La convocatoria se abrirá pronto!"
+    },
+    {
+      "source" : "Conference Info",
+      "target_es": "Sobre la conferencia"
+    },
+    {
+      "source" : "Past Conferences",
+      "target_es": "Conferencias pasadas"
+    },
+    {
+      "source" : "Sign up now to be notified when schedule gets published",
+      "target_es": "Regístrese ahora para recibir una notificación cuando se publique el horario"
+    },
+    {
+      "source" : "Get Ready for JConf Dominicana 2020",
+      "target_es": "Prepárese para JConf Dominicana 2020"
+    },
+    {
+      "source" : "Be the first to know when tickets are available! Sign up to be notified when they go on sale",
+      "target_es": "¡Sé el primero en saber cuándo hay entradas disponibles! Regístrese para recibir una notificación cuando salgan a la venta"
+    },
+    {
+      "source" : "Get Notified",
+      "target_es": "Ser notificado(a)"
+    },
+    {
+      "source" : "Images of JConf Dominicana 2019",
+      "target_es": "Imágenes de Jconf Dominicana 2019"
+    },
+    {
+      "source" : "Presentations",
+      "target_es": "Presentaciones"
+    },
+    {
+      "source" : "Presentation and demo:",
+      "target_es": "Presentación y ejemplos"
+    },
+    {
+      "source" : "The Caribbean <span>Java</span> Technologies Conference.",
+      "target_es": "La Conferencia de Tecnologías <span>Java</span> del Caribe"
+    },
+    {
+      "source" : "July 17-18, 2020. Dominican Republic.",
+      "target_es": "17-18 de Julio del 2020. República Dominicana."
+    },
+    {
+      "source" : "Save the date!",
+      "target_es": "Reserva la fecha!"
+    },
+    {
+      "source" : "Announcements",
+      "target_es": "Anuncios"
     }
+
   ]
 };

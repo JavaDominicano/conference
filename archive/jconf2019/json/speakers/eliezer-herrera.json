@@ -1,0 +1,20 @@
+{
+	"id": "eliezer-herrera",
+	"name": "Eliezer Herrera ",
+	"photoUrl": "/archive/jconf2019/images/speakers/eliezer-herrera.jpg",
+	"title": "Software Developer",
+	"shortBio": "",
+	"countryFlag": "flag-icon-do",
+	"bio": "Es un ingeniero en sistemas apasionado y entusiasta de la tecnología. En sus más de 10 años de experiencia en la industria con tecnologías Java ha trabajado para multinacionales como Verizon Wireless, Indra, Birchman y Next Wireless. Miembro del Grupo de Usuarios Java de República Dominicana. En su tiempo libre escribe artículos sobre tecnologías Java, contribuye a proyectos de código abierto y escribe pequeños frameworks y librerías para su cuenta de github.",
+	"socials": [{
+			"icon": "twitter",
+			"name": "Twitter",
+			"link": "https://twitter.com/eliesongo"
+		},
+		{
+			"icon": "github",
+			"name": "Github",
+			"link": "https://github.com/zerh"
+		}
+	]
+}
