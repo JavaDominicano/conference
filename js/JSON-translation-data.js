@@ -509,6 +509,14 @@ var linguJSON = {
     {
       "source" : "Announcements",
       "target_es": "Anuncios"
+    },
+    {
+      "source" : "Cancellation due to COVID-19",
+      "target_es": "Cancelación por COVID-19"
+    },
+    {
+      "source" : "Over the past few months, we’ve been closely monitoring and evaluating the situation around COVID-19. In the interest of safety of our attendees, speakers, staff, and sponsors, we have decided to cancel JConf Dominicana 2020. We want to thanks to everyone for their support and willingness to participate in the event. We are working to build an online version of JConf Dominicana that delivers as much of the value of  our conference in a safe, accessible fashion.Stay tuned for updates!",
+      "target_es": "En los últimos meses, hemos estado monitoreando y evaluando de cerca la situación en torno a COVID-19. En aras de la seguridad de nuestros asistentes, oradores, personal y patrocinadores, hemos decidido cancelar JConf Dominicana 2020. <br> Nosotros queremos agradecer a todos por su apoyo y disposición para participar en el evento. <br> Estamos trabajando para crear una versión en línea de JConf Dominicana que brinde la mayor parte del valor de nuestra conferencia de una manera segura y accesible. Estén atentos!"
     }
 
   ]
