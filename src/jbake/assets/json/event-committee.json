@@ -26,7 +26,12 @@
 				"icon": "linkedin",
 				"name": "Linkedin",
 				"link": "https://www.linkedin.com/in/ccamachog/"
-			}
+			},
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://ccamachog.medium.com"
+      }
 		]
 	},
 
@@ -50,7 +55,7 @@
 			{
 				"icon": "link",
 				"name": "link",
-				"link": "http://eudriscabrera.com"
+				"link": "https://eudriscabrera.com"
 			},
 			{
 				"icon": "github",

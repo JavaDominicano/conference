@@ -19,7 +19,7 @@ function createMemberCard(memberJson) {
 
     var memberHtml = "<div class=\"col-lg-4 col-md-6\">" +
         "<div class=\"organizer\">" +
-        "<div class=\"organizer-img\">"+
+        "<div class=\"organizer-img image-top\">"+
         "<img src=\"" +memberJson.photoUrl +"\" alt=\"" +memberJson.name +"\" class=\"img-fluid\"/>" +
         "</div>"+
         "<h3><a href=\"speaker-details.html?id=" + memberJson.id + "\">" +memberJson.name +"</a></h3>"+
