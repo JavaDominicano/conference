@@ -379,8 +379,8 @@ var linguJSON = {
       "target_es":"<strong>Idioma:</strong>Inglés"
     },
     {
-      "source" : "July 17-18, 2020",
-      "target_es": "17-18 de Julio, 2020"
+      "source" : "July 31, 2021",
+      "target_es": "31 de Julio del 2021"
     },
     {
       "source" : "Dominican Republic",
@@ -471,8 +471,8 @@ var linguJSON = {
       "target_es": "Regístrese ahora para recibir una notificación cuando se publique el horario"
     },
     {
-      "source" : "Get Ready for JConf Dominicana 2020",
-      "target_es": "Prepárese para JConf Dominicana 2020"
+      "source" : "Get Ready for JConf Dominicana 2021",
+      "target_es": "Prepárese para JConf Dominicana 2021"
     },
     {
       "source" : "Be the first to know when tickets are available! Sign up to be notified when they go on sale",
@@ -495,12 +495,12 @@ var linguJSON = {
       "target_es": "Presentación y ejemplos"
     },
     {
-      "source" : "The Caribbean <span>Java</span> Technologies Conference.",
-      "target_es": "La Conferencia de Tecnologías <span>Java</span> del Caribe"
+      "source" : "The Caribbean Java Technologies Conference.",
+      "target_es": "La Conferencia de Tecnologías Java del Caribe"
     },
     {
-      "source" : "July 17-18, 2020. Dominican Republic.",
-      "target_es": "17-18 de Julio del 2020. República Dominicana."
+      "source" : "July 31, 2021. Virtual Edition.",
+      "target_es": "31 de Julio del 2021. Edición Virtual."
     },
     {
       "source" : "Save the date!",
@@ -511,13 +511,31 @@ var linguJSON = {
       "target_es": "Anuncios"
     },
     {
-      "source" : "Cancellation due to COVID-19",
-      "target_es": "Cancelación por COVID-19"
+      "source" : "JConf Dominicana is a Java technologies conference organized by the Dominican Republic Java Users Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.",
+      "target_es": "La JConf Dominicana es una conferencia sobre tecnologías Java organizada por la comunidad de usuarios y desarrolladores Java de República Dominicana (Aka Java Dominicano). Está diseñada para ayudar a usuarios, desarrolladores, emprendedores y empresas a conocer las nuevas tecnológicas relacionadas con el ecosistema Java, incluidas las alternativas de lenguajes en el JVM, desarrollo web, móvil y las nuevas tendencias en la nube."
+    },
+
+    {
+      "source" : "<strong>Due to covid-19 pandemic the JConf Dominicana 2021 edition will be virtual.</strong>",
+      "target_es": "<strong>Debido a la pandemia de covid-19 la edición JConf Dominicana 2021 será virtual.</strong>"
     },
     {
-      "source" : "Over the past few months, we’ve been closely monitoring and evaluating the situation around COVID-19. In the interest of safety of our attendees, speakers, staff, and sponsors, we have decided to cancel JConf Dominicana 2020. We want to thanks to everyone for their support and willingness to participate in the event. We are working to build an online version of JConf Dominicana that delivers as much of the value of  our conference in a safe, accessible fashion.Stay tuned for updates!",
-      "target_es": "En los últimos meses, hemos estado monitoreando y evaluando de cerca la situación en torno a COVID-19. En aras de la seguridad de nuestros asistentes, oradores, personal y patrocinadores, hemos decidido cancelar JConf Dominicana 2020. <br> Nosotros queremos agradecer a todos por su apoyo y disposición para participar en el evento. <br> Estamos trabajando para crear una versión en línea de JConf Dominicana que brinde la mayor parte del valor de nuestra conferencia de una manera segura y accesible. Estén atentos!"
-    }
+      "source" : "Social Media",
+      "target_es": "Medios de Comunicación Social."
+    },
+    {
+      "source" : "Event Committee",
+      "target_es": "Comité del Evento"
+    },
+    {
+      "source" : "The sessions and keynotes for JConf Dominicana 2021 are chosen by a committee made up of volunteers from Dominican Republic Java Users Group (Aka JavaDominicano).",
+      "target_es": "Las sesiones y paneles para JConf Dominicana 2021 son elegidas por un comité compuesto por voluntarios de la comunidad de usuarios Java de República Dominicana (Aka JavaDominicano)."
+    },
+    {
+    "source" : "JConf Dominicana is a Java technologies conference organized by the Dominican Republic Java Users Group (Aka JavaDominicano).",
+    "target_es": "JConf Dominicana es una conferencia sobre tecnologías Java organizada por la comunidad de usuarios y desarrolladores Java de República Dominicana (Aka Java Dominicano)."
+    },
+
 
   ]
 };
