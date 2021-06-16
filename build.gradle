@@ -1,9 +1,10 @@
 plugins {
-  id 'org.jbake.site' version '1.4.0'
+    id 'org.jbake.site' version '5.4.0'
 }
 
 jbake {
     clearCache = true
+    version  = '2.6.7'
 }
 
 bakePreview {
