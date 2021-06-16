@@ -92,6 +92,35 @@
 				"link": "https://github.com/zerh"
 			}
 		]
+	},
+	"004": {
+		"id": "eugenio-duran",
+		"name": "José Eugenio Duran",
+		"company": "Claro RD",
+		"photoUrl": "/img/organizers/committee-members/eugenio-duran.jpg",
+		"shortBio": "Software Developer who loves Java and likes to learn new technologies, I love books, movies and meet people",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Engineer",
+			"description": "Software Engineer"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eugh_x"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/SiriusDarkz"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/joseeugenioduran"
+			}
+		]
 	}
 
 }
