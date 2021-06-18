@@ -66,13 +66,17 @@
 		          You can delete the links only if you purchased the pro version.
 		          Licensing information: https://bootstrapmade.com/license/
 		        -->
-		     	<p class="muted credit">&copy; 2018 - 2020  | Build with love by
+		     	<p class="muted credit">&copy; 2018 - <span id="year"></span>  | Build with love by
         <a href="https://github.com/JavaDominicano" target="_blank">Java Dominicano</a>
         and
         <a href="https://github.com/JavaDominicano/conference/graphs/contributors" target="_blank">
 Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span th:text='${version}'>version</span> </a> and <a href="https://bootstrapmade.com/buy/?theme=TheEvent" target="_blank">BootstrapMade</a> </p>
 		      </div>
 		    </div>
+				<script type="text/javascript">
+							var today = new Date();
+							document.getElementById('year').innerHTML=today.getFullYear();
+					</script>
 		  </footer><!-- #footer -->
 
 		  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>

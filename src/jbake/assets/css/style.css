@@ -1899,3 +1899,11 @@ a.btn-buy-tickets:hover:before  {
 #intro-container .link_presentations:hover{
     color: white;
 }
+
+.image-top {
+  margin-top: 10px;
+}
+
+.organizer{
+   height: 545px; 
+}
