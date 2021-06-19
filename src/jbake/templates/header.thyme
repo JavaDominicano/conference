@@ -15,8 +15,8 @@
   <meta property="og:type" content="article" />
   <meta property="og:title"  content="JConfDominicana" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}" />
   <meta property="og:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${config.site_description}"/>
-  <meta property="og:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.png"
-  th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.png'))"
+  <meta property="og:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.jpg"
+  th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.jpg'))"
   th:content="|${config.site_host}/${cover}|" />
 
   <!--Twitter card -->
@@ -25,8 +25,8 @@
   <meta name="twitter:title" content="JConfDominicana" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}"/>
   <meta name="twitter:creator" content="@JavaDominicano" th:content="'@'+${config.twitter_username}"/>
   <meta name="twitter:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${config.site_description}"/>
-  <meta name="twitter:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.png"
-  th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.png'))"
+  <meta name="twitter:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.jpg"
+  th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.jpg'))"
   th:content="|${config.site_host}/${cover}|"/>
 </th:block>
 
