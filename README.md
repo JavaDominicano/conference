@@ -22,7 +22,7 @@ top of things.
 Example:
 
 ```bash
-git clone https://github.com/ecabrerar/conference.git
+git clone https://github.com/JavaDominicano/conference.git
 cd conference
 ```
 ### Exploring the project structure
