@@ -359,8 +359,8 @@ var linguJSON = {
       "target_es":  "Si estás sufriendo algún abuso, ha sido testigo de abusos sobre otra persona, o tienes alguna otra preocupación, por favor contacta con algún miembro del personal de la conferencia inmediatamente. El personal de la conferencia puede ser fácilmente identificado, ya que vestirán camisetas del staff del evento."
     },
     {
-      "source" : "If you do not feel comfortable talking to a staff member directly, you can also report harassment at info@jconfdominicana.org.",
-      "target_es":  "Si no se siente cómodo hablando directamente con un miembro del personal de la conferencia, también puede denunciar el acoso escribiendo a info@jconfdominicana.org."
+      "source" : "If you do not feel comfortable talking to a staff member directly, you can also report harassment at <strong>info@jconfdominicana.org</strong>.",
+      "target_es":  "Si no se siente cómodo hablando directamente con un miembro del personal de la conferencia, también puede denunciar el acoso escribiendo a <strong>info@jconfdominicana.org</strong>."
     },
     {
       "source" : "Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.",
