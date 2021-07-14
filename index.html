@@ -84,6 +84,10 @@
 					<h1 class="mb-4 pb-0">The Caribbean Java Technologies Conference.</h1>
 			     <p class="mb-4 pb-0">July 31, 2021. Virtual Edition.</p>
 					 <p class="mb-4 pb-0">Save the date!</p>
+					 <div class="text-uppercase">
+						<p id="countdown" style="font-size:30px;font-family: 'Roboto';"></p>
+				</div>
+
 			</div>
 		</section>
 
@@ -214,17 +218,23 @@
 					<div class="row no-gutters sponsors-wrap clearfix">
 					 <div class="col-lg-3 col-md-4 col-xs-6">
 						 <div class="sponsor-logo">
+							 <a href="https://www.jetbrains.com/"  target="_blank">
 							 <img src="img/sponsors/jetbrains.png" class="img-fluid" alt="jetbrains">
+						 </a>
 						 </div>
 					 </div>
 					 <div class="col-lg-3 col-md-4 col-xs-6">
 						 <div class="sponsor-logo">
-							 <img src="img/sponsors/AvatharTech.png" class="img-fluid" alt="Avathar Tech">
+							 <a href="https://avathartech.com/"  target="_blank">
+							 <img src="img/sponsors/AvatharTech.png" class="img-fluid" alt="Avathar Tech" />
+						 </a>
 						 </div>
 					 </div>
 					 <div class="col-lg-3 col-md-4 col-xs-6">
 						<div class="sponsor-logo">
+							<a href="https://fonoster.com/" target="_blank">
 							<img src="img/sponsors/fonoster.png" class="img-fluid" alt="Fonoster">
+						</a>
 						</div>
 					</div>
 				 </div>
@@ -361,7 +371,7 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span>
 	      gtag('config', googleTrackingID);
 	  </script>
 		 <script type="text/javascript">
-            $('#countdown').countdown('2019/06/29 08:00:00', function (event) {
+            $('#countdown').countdown('2021/07/31 09:00:00', function (event) {
                 $(this).html(event.strftime('%D Days | %-H Hours | %M Minutes | %S Seconds'));
             });
 
