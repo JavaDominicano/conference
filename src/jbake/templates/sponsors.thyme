@@ -19,17 +19,23 @@
 					<div class="row no-gutters sponsors-wrap clearfix">
 					 <div class="col-lg-3 col-md-4 col-xs-6">
 						 <div class="sponsor-logo">
+							 <a href="https://www.jetbrains.com/"  target="_blank">
 							 <img src="img/sponsors/jetbrains.png" class="img-fluid" alt="jetbrains">
+						 </a>
 						 </div>
 					 </div>
 					 <div class="col-lg-3 col-md-4 col-xs-6">
 						 <div class="sponsor-logo">
-							 <img src="img/sponsors/AvatharTech.png" class="img-fluid" alt="Avathar Tech">
+							 <a href="https://avathartech.com/"  target="_blank">
+							 <img src="img/sponsors/AvatharTech.png" class="img-fluid" alt="Avathar Tech" />
+						 </a>
 						 </div>
 					 </div>
 					 <div class="col-lg-3 col-md-4 col-xs-6">
 						<div class="sponsor-logo">
+							<a href="https://fonoster.com/" target="_blank">
 							<img src="img/sponsors/fonoster.png" class="img-fluid" alt="Fonoster">
+						</a>
 						</div>
 					</div>
 				 </div>
