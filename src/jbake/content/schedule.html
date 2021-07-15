@@ -7,30 +7,84 @@ status=published
   Schedule Section
 ============================-->
 <section id="schedule" class="section-with-bg">
-
-
-  <div class="container">
-
+  <div class="container wow fadeInUp">
     <div class="section-header">
       <h2>Event Schedule</h2>
-      <p>Sign up now to be notified when schedule gets published.</p>
+      <p>Here is our event schedule</p>
     </div>
 
-    <form action="https://jconfdominicana.us20.list-manage.com/subscribe/post?u=2ba9ad3be3e34e937ea55d071&amp;id=73f48c7195" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
-        <input type="text" name="b_2ba9ad3be3e34e937ea55d071_73f48c7195" tabindex="-1" value="">
-      </div>
-      <div class="form-row justify-content-center">
-        <div class="col-auto">
-          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your Email" required>
+    <ul class="nav nav-tabs" role="tablist" id="tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#general-agenda" data-target="#general-agenda" role="tab" data-toggle="tab">General Agenda</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sessions" role="tab" data-target="#sessions" data-toggle="tab">Sessions</a>
+      </li>
+    </ul>
+
+    <h3 class="sub-heading">Notice: Agenda topics are subject to change</h3>
+
+    <div class="tab-content row justify-content-center">
+
+      <!-- General Agenda -->
+      <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="general-agenda">
+
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>08:00 AM</time></div>
+          <div class="col-md-10">
+            <h4>Registration / Light breakfast</h4>
+            <p>Present an identification document with photo</p>
+          </div>
         </div>
-        <div class="col-auto">
-          <button type="submit" name="subscribe" id="mc-embedded-subscribe">Get Notified</button>
+
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>09:00 AM</time></div>
+          <div class="col-md-10">
+            <h4>General sessions</h4>
+          </div>
+        </div>
+
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>01:00 PM</time></div>
+          <div class="col-md-10">
+            <h4>Lunch</h4>
+          </div>
+        </div>
+
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>02:30 PM</time></div>
+          <div class="col-md-10">
+            <h4>Technical sesions</h4>
+            <p>Parallel sessions of 50 minutes each one</p>
+          </div>
+        </div>
+
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>02:30 PM</time></div>
+          <div class="col-md-10">
+            <h4>Meet our speakers</h4>
+            <p>Meet and talk with our speakers, bring your questions or just prepare your phone for a selfie</p>
+          </div>
+        </div>
+
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>06:00 PM</time></div>
+          <div class="col-md-10">
+            <h4>Close</h4>
+          </div>
         </div>
 
       </div>
-    </form>
+      <!-- End General Agenda -->
+
+      <!-- Sessions -->
+      <div role="tabpanel" class="col-lg-9  tab-pane fade" id="sessions">
+      </div>
+      <!-- End Sessions -->
+    </div>
 
   </div>
 
 </section>
+
+<script src="js/session.js"></script>
