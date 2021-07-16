@@ -161,11 +161,11 @@ function activeMenu() {
       if (path.substring(0, href.length) === href) {
           $(this).closest('li').addClass('menu-active');
       }
-  
+
   });
 }
 
-// comentando codigo original para poner el subrayado al menú principal 
+// comentando codigo original para poner el subrayado al menú principal
 //$('#nav-menu-container > ul.nav-menu > li:first-child').addClass("menu-active");
 
 $('.nav-tabs > li > a').click(function(event){
@@ -191,4 +191,17 @@ $('.nav-tabs > li > a').click(function(event){
   $(target_tab_selector).addClass('active');
 });
 
+
 });
+
+
+window.getQuerystring = function (key) {
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+    for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+        if (pair[0] == key) {
+            return pair[1];
+        }
+    }
+}

@@ -1,84 +1,114 @@
 {
 
+
 	"101": {
 		"id": 101,
-		"title": "Unleashing Kotlin's power: A talk for Java developers",
-		"abstract": "Kotlin is the most trending topic for JVM-related professionals, because of the functional fever and all it has to offer. As per my experience Java devs don't take advantage of it fully, because it's not only about learning a new syntax, but changing the mindset.\n\nThis talk is aimed to solve that.",
-		"description": "Kotlin is a modern programming language which explicit goal is to work an all platforms. It takes full advantage of the functional programming and all the power of the JVM. A lot of java developers are trying kotlin, but they keep coding like it is Java.<br><br> In this workshop we are going to learn the difference between the both, how to unleash the Kotlin's power and how it perfectly interoperate with Java.",
+		"title": "Introducción a la máquina virtual políglota GraalVM",
+		"abstract": "Esta charla presentará cinco casos de uso para la máquina virtual políglota, GraalVM, que pueden beneficiar a su organización hoy. Desde acelerar sus aplicaciones hasta usar múltiples lenguajes de programación en el mismo proyecto, lenguajes nativos sobre la JVM y más.",
+		"description": "Esta charla presentará cinco casos de uso para la máquina virtual políglota, GraalVM, que pueden beneficiar a su organización hoy. Desde acelerar sus aplicaciones hasta usar múltiples lenguajes de programación en el mismo proyecto, lenguajes nativos sobre la JVM y más.",
 		"audience_level": "Intermediate",
-		"time": "2:30 PM",
+		"time": "TBD",
 		"language": "es",
 		"talk_format": "Workshop (\u003e 60 minutes)",
 		"tags": [
 			"Java",
-			"JVM",
+			"JVM"
+		],
+		"speakers": [
+			"psanders"
+		]
+	},
+
+	"102": {
+		"id": 102,
+		"title": "Clean Threading with Kotlin Coroutines",
+		"abstract": "Async and Threading are words that very often scare the developers. In Android, traditionally we have managed some of those tasks with the now deprecated AsyncTask, but that callback oriented way has some limitations.\n\nLet's learn how we can refactor our legacy background operations using callbacks for a graceful and very optimized way using Kotlin Coroutines.\n\nYou will get started with Kotlin coroutines, learn how to perform multiple operations in parallel or performing sequential operations.",
+		"description": "Async and Threading are words that very often scare the developers. In Android, traditionally we have managed some of those tasks with the now deprecated AsyncTask, but that callback oriented way has some limitations.\n\nLet's learn how we can refactor our legacy background operations using callbacks for a graceful and very optimized way using Kotlin Coroutines.\n\nYou will get started with Kotlin coroutines, learn how to perform multiple operations in parallel or performing sequential operations.",
+		"audience_level": "Intermediate",
+		"time": "TBD",
+		"language": "es",
+		"talk_format": "Workshop (\u003e 60 minutes)",
+		"tags": [
+		 "JVM",
 			"Kotlin",
-			"Functional"
+			"Framework"
 		],
 		"speakers": [
 			"euryperez"
 		]
 	},
 
-	"102": {
-		"id": 102,
-		"title": "Pruebas de integración para servicios REST usando Rest Assured",
-		"abstract": "El objetivo de ésta sección es mostrar como realizar pruebas integrales sobre los puntos finales (endpoints) de los servicios REST utilizando Assured, una librería Java para la validación de servicios REST.",
-		"description": "Contar con una gran colección de pruebas unitarias para verificar el comportamiento de las clases Java es solo el primer paso para una buena estrategia de prueba. Después de todo, el hecho de que las clases individuales de Java funcionen con éxito de forma aislada no significa que la aplicación en sí misma también funcionará correctamente, cuando todas estas clases se agrupan para formar un solo empaquetado.<br><br>Además de las pruebas unitarias básicas, también necesitamos pruebas de integración (pruebas que se centran en módulos), pruebas funcionales (pruebas de extremo a extremo que usan la aplicación como implementada) e incluso pruebas de aceptación del usuario (pruebas que examinan la GUI, como se ve por el usuario).<br><br>En esta sección vamos a realizar pruebas integrales sobre los métodos de los servicios REST ofrecidos por el servidor de aplicaciones utilizando Rest Assured, una librería Java para la validación de servicios web REST a través de un DSL amigable (lenguajes específicos del dominio) que describe una conexión a un punto final HTTP (Endpoint HTTP) y los resultados esperados.<br><br>Bonus: Adicional a Rest Assured, vamos a mostrar otras herramientas como Arquillian para realizar pruebas integrales en Java EE.",
+	"103": {
+		"id": 103,
+		"title": "Mutiny la programación reactiva más sofisticada en Quarkus",
+		"abstract": "En ésta sesión trateremos el tema de programación reactiva utilizando la librería Mutiny.Habrá código en vivo!",
+		"description": "¿Qué es programación reactiva? Cuando buscamos en Wikipedia, tu podrías encontrar la siguiente definición:\n\nReactive programming combines functional programming, the observer pattern, and the iterable programming\n\nEn español\n\nLa programación reactiva combina con la programación funcional, el patrón del observador y la programación iterable.\n\nEs correcta pero no encontramos una definición más útil pero hagamos una definición más sencilla.\n\nReactive programming is about programming with data streams.\n\nEn español\n\nLa programación reactiva se trata de programar con flujos de datos.\n\nMutiny es una nueva librería de programación reactiva.\n\nProporciona un modelo de desarrollo asincrónico simple pero potente que le permite crear aplicaciones reactivas.\n\n¿Fácil de implementar?\n\nEl API no requiere mucho conocimiento avanzado. Esto debería ayudar a diseñar su lógica.\n\nHabrá código en vivo!",
 	 "audience_level": "All",
-	 	"time": "4:30 PM",
+	 	"time": "TBD",
 		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
 		"tags": [
-			"API",
-			"REST",
-			"testing",
-			"rest assured",
-			"arquillian"
+			"Framework",
+			"Java"
 		],
 		"speakers": [
-			"ecabrerar"
+			"juandiegolopezve"
 		]
 	}
 	,
-	"117": {
-		"id": 117,
-		"title": "Serverless con OpenFaas y Java",
-		"abstract": "Cuando pensamos en Serverless es muy difícil no asociarlo con los servicios Amazon AWS, Google Cloud y Azure functions y podemos creer que fuera de esas plataformas no es posible implementarlas. Existe una solución simple y escalable utilizando Docker que abre los Serverless a todos bajo OpenFaaS.",
-		"description": "OpenFaaS, es una plataforma basada en contenedores Docker y sistemas de automatización de despliegues de aplicaciones (Kubernate o Docker Swarm) que permite en nuestra propia infraestructura poder utilizar la ejecución de nuestras aplicaciones bajo el concepto de la computación sin-servidor (Serverless) delegando el despliegue, asignación de recursos y ciclo de vida de la función a OpenFaas.<br><br>En nuestra presentación estaremos mostrando como subir la plataforma, como publicar servicios bajo la plataforma Java y mostrando una aplicación demo integrada al uso de la computación basada en Serverless bajo OpenFaas.",
+	"104": {
+			"id": 104,
+			"title": "Our journey to adopt Kubernetes to create an App like Tinder from start to finish",
+			"time": "TBD",
+			"abstract": "How many questions cross your mind at the time of starting a complex platform-adaptive app like Tinder? Probably many, especially in terms of technology and infrastructure.\n\nIn this talk, we'll discuss our approaches to overcome challenges that could prevent us from reaching our goals to create a viable solution for our users. We'll focus on open source tools that help us achieve the following objectives:\n\n- Have a single source of truth for our environments to support our contingency plan.\n- Reduce developer onboarding overhead and increase productivity.\n
+- Leverage existing technologies to reduce time to market.\n- Increase value for our users by improving service reliability.\n- Support business objectives with metrics, analytics, and platform observability.\nI invite you to join my talk to help you streamline your process of creating complex enterprise applications.",
+			"description": "How many questions cross your mind at the time of starting a complex platform-adaptive app like Tinder? Probably many, especially in terms of technology and infrastructure.\n\nIn this talk, we'll discuss our approaches to overcome challenges that could prevent us from reaching our goals to create a viable solution for our users. We'll focus on open source tools that help us achieve the following objectives:\n\n- Have a single source of truth for our environments to support our contingency plan.\n- Reduce developer onboarding overhead and increase productivity.\n- Leverage existing technologies to reduce time to market.\n- Increase value for our users by improving service reliability.\n- Support business objectives with metrics, analytics, and platform observability.\nI invite you to join my talk to help you streamline your process of creating complex enterprise applications.",
+		 "audience_level": "All",
+			"talk_format": "Talk (~30-45 minutes)",
+			"language": "es",
+			"tags": [
+				"Transformation Case Studies",
+			],
+			"speakers": [
+				"clivens"
+			]
+		},
+
+	"105": {
+		"id": 105,
+		"title": "Implementando servicios gRPC en Java",
+		"abstract": "Con la proliferación de sistemas que implementan la arquitectura de microservicios y los problemas asociados en el intercambios de mensajes bajo REST, surge un nuevo sistema que ayuda en gran medida en el rendimiento del intercambio de los mensajes para sistemas    multiplataformas e independiente del lenguaje de implementación, esa tecnología se llama gRPC (general-purpose Remote Procedure Call ) y estaremos viendo su implementación baja la plataforma Java e integrando en otros lenguajes.",
+		"description": "Con la proliferación de sistemas que implementan la arquitectura de microservicios y los problemas asociados en el intercambios de mensajes bajo REST, surge un nuevo sistema que ayuda en gran medida en el rendimiento del intercambio de los mensajes para sistemas    multiplataformas e independiente del lenguaje de implementación, esa tecnología se llama gRPC (general-purpose Remote Procedure Call ) y estaremos viendo su implementación baja la plataforma Java e integrando en otros  lenguajes.",
 	 "audience_level": "All",
-	 	"time": "3:30 PM",
+	 	"time": "TBD",
 		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
 		"tags": [
-			"Java",
-			"Openfaas",
-			"Docker",
-			"Kubernetes",
-			"Serverless"
+			"Framework",
+			"Java"
 		],
 		"speakers": [
 			"ccamachog"
 		]
 	},
 
-	"119": {
-			"id": 119,
-			"title": "Desarrollar Lenguajes DSL (Domain Specific Language) con Antlr",
-			"time": "3:30 PM",
-			"abstract": "En esta charla, diseñaremos juntos un simple lenguaje DSL con Antlr4 que les permite a nuestros usuarios consultar data desde diferentes fuentes (SQL o NoSQL) de forma transparente usando criterios complejos de forma sencilla y amigable.",
-			"description": "Un DSL es un lenguaje que tiende a resolver un problema bien específico como SQL, HTML, XML entre otros. Y Antlr, por otro lado, es un generador de Parser que hace que la tarea de escribir nuestros propios lenguajes para un sin número de casos sea una experiencia placentera.<br><br>En nuestras aplicaciones, consultar informaciones es una de las operaciones más realizadas. Las combinaciones de esas consultas y posibles respuestas que podemos ofrecer son comúnmente limitadas por soluciones que hacen que esas tareas sean asignadas a un personal técnico con mas habilidades en tecnología que un simple usuario final.<br><br>En esta charla, diseñaremos juntos un simple lenguaje DSL con Antlr4 que les permite a nuestros usuarios consultar data desde diferentes fuentes (SQL o NoSQL) de forma transparente usando criterios complejos de forma sencilla y amigable.<br><br>Como siempre, va a ser divertido :), así que únete a mí y divirtámonos un poco construyendo nuestro propio lenguaje DSL.",
-		 "audience_level": "All",
-			"talk_format": "Talk (~30-45 minutes)",
-			"language": "es",
-			"tags": [
-				"Java",
-				"jvm",
-				"tools",
-				"vertx"
-			],
-			"speakers": [
-				"clivens"
-			]
-		}
+	"106": {
+		"id": 106,
+		"title": "Creando un Web API desde la idea hasta el despliegue de forma ágil",
+		"abstract": "El manejo y administración de API se están generalizando, actualmente es más fácil exponer las APIs de forma segura al mundo. Sin embargo, el ciclo de desarrollo de API tiene algunos casos pendientes que resolver. Todo el ciclo de vida de la API también debería ser ágil para seguir siendo relevante. Por lo tanto, es hora de pensar en una nueva forma de entregar API (simulacros y pruebas incluidas) para simplificar y acelerar el envío de API listas para producción. \n\nEn esta sesión vamos a crear un Web API abarcando diferentes fases del desarrollo de API (Diseño, Simulacro (mock) y pruebas) hasta llegar a producción.",
+		"description": "El manejo y administración de API se están generalizando, actualmente es más fácil exponer las APIs de forma segura al mundo. Sin embargo, el ciclo de desarrollo de API tiene algunos casos pendientes que resolver. Todo el ciclo de vida de la API también debería ser ágil para seguir siendo relevante. Por lo tanto, es hora de pensar en una nueva forma de entregar API (simulacros y pruebas incluidas) para simplificar y acelerar el envío de API listas para producción. \n\nEn esta sesión vamos a crear un Web API abarcando diferentes fases del desarrollo de API (Diseño, Simulacro (mock) y pruebas) hasta llegar a producción.",
+	 "audience_level": "All",
+	 	"time": "TBD",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "es",
+		"tags": [
+			"API",
+			"Java",
+			"Testing"
+		],
+		"speakers": [
+			"ecabrerar"
+		]
+	}
+
 }
