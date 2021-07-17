@@ -1,0 +1,32 @@
+{
+	"id": "ecabrerar",
+	"name": "Eudris Cabrera",
+	"photoUrl": "/img/speakers/ecabrerar.jpg",
+	"title": "Desarrollador Informático",
+	"shortBio": "",
+	"countryFlag": "flag-icon-do",
+	"bio": "Ingeniero Telemático (Egresado de PUCMM). Actualmente Desarrollador Informático en el Ministerio de Hacienda de la República Dominicana. Entusiasta de la tecnología y el software libre, desarrollador Java, instructor ocasional (Java / Linux), aficionado del béisbol/sóftbol y los bailes latinos.\n\nGanador de la beca Linux Training Scholarship 2014 en la categoría Developer Do-Gooder. Miembro asociado del JCP (Java Community Process). Co-fundador / Organizador del grupo de usuarios Java (Java User Group ) de la República Dominicana (aka Java Dominicano) y miembro del staff organizador de JConf Dominicana (https://jconfdominicana.org).\n\n
+      En el tiempo libre, escribe artículos, realiza charlas y ayuda en la revisión de documentación técnica en el mundo Java y el código abierto.",
+	"socials": [{
+			"icon": "twitter",
+			"name": "Twitter",
+			"link": "https://twitter.com/eudriscabrera"
+		},
+		{
+			"icon": "link",
+			"name": "link",
+			"link": "http://eudriscabrera.com"
+		},
+		{
+			"icon": "github",
+			"name": "Github",
+			"link": "https://github.com/ecabrerar"
+		},
+		{
+			"icon": "linkedin",
+			"name": "Linkedin",
+			"link": "https://www.linkedin.com/in/eudriscabrera"
+		}
+	]
+
+}

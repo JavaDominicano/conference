@@ -1,11 +1,7 @@
 
-var lang = getQuerystring("lang");
-var fetchUrl = '../json/event-committee.json';
+import { getUsefulContents } from '/js/util-url.js';
 
-if(lang==='es'){
-  fetchUrl = '../json/event-committee_es.json';
-}
-
+var fetchUrl = getUsefulContents("lang", "../json/event-committee");
 
 fetch(fetchUrl)
     .then(function (response) {
@@ -18,7 +14,7 @@ fetch(fetchUrl)
     .then(function (membersJson) {
         var members = document.getElementById('listMembers');
         // traitement de l'objet
-        for (i in membersJson) {
+        for (let i in membersJson) {
             members.innerHTML += createMemberCard(membersJson[i]);
         }
 });
@@ -36,7 +32,7 @@ function createMemberCard(memberJson) {
         "<p>"+memberJson.shortBio+"</p>" +
         "<div class=\"social\">" ;
 
-        for(i in memberJson.socials){
+        for(let i in memberJson.socials){
              memberHtml += " <a href=\""+memberJson.socials[i].link+"\" target=\"_blank\"><i class=\"fa fa-"+memberJson.socials[i].icon+"\"></i></a> ";
         }
 
@@ -46,15 +42,4 @@ function createMemberCard(memberJson) {
         "</div>";
 
         return memberHtml;
-}
-
-function getQuerystring(key) {
-    var query = window.location.search.substring(1);
-    var vars = query.split("&");
-    for (var i = 0; i < vars.length; i++) {
-        var pair = vars[i].split("=");
-        if (pair[0] == key) {
-            return pair[1];
-        }
-    }
 }

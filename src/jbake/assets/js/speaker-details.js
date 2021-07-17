@@ -4,7 +4,11 @@ function getURLParameter(name) {
 
 var speakerId = getURLParameter("id");
 
-fetch('../json/speakers/'+speakerId+'.json')
+import { getUsefulContents } from '/js/util-url.js';
+
+var fetchUrl = getUsefulContents("lang", "../json/speakers/"+speakerId);
+
+fetch(fetchUrl)
     .then(function (response) {
         if (!response.ok) {
             throw Error(response.statusText);
@@ -20,7 +24,7 @@ fetch('../json/speakers/'+speakerId+'.json')
 
         speakerDetails.innerHTML += createSpeakerDetailsCard(speaker);
 
-        findSessionBySpeakerId(speaker.id);
+        findSessionBySpeakerId(getUsefulContents("lang", "../json/sessions"), speaker.id);
 
 });
 
@@ -35,7 +39,7 @@ function createSpeakerDetailsCard(speakerJson) {
         "<h2>"+speakerJson.name +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></h2>"+
         "<div class=\"social\">" ;
 
-        for(i in speakerJson.socials){
+        for(let i in speakerJson.socials){
              speakerHtml += " <a href=\""+speakerJson.socials[i].link+"\" target=\"_blank\"><i class=\"fa fa-"+speakerJson.socials[i].icon+"\"></i></a> ";
         }
 
@@ -52,8 +56,8 @@ function createSpeakerDetailsCard(speakerJson) {
 }
 
 
-function findSessionBySpeakerId(speakerId){
-   fetch('../json/sessions.json')
+function findSessionBySpeakerId(fetchUrlSpeaker,speakerId){
+   fetch(fetchUrlSpeaker)
       .then(function (response) {
           if (!response.ok) {
               throw Error(response.statusText);
@@ -63,7 +67,7 @@ function findSessionBySpeakerId(speakerId){
       }).then(function (sessionsJson) {
         var sessions = document.getElementById('sessions');
 
-          for (i in sessionsJson) {
+          for (let i in sessionsJson) {
               let speakerSession = sessionsJson[i].speakers[0];
               let title = sessionsJson[i].title;
               let id = sessionsJson[i].id;
@@ -91,7 +95,7 @@ function createSessionCard(id, title, description, tags, language,audienceLevel,
 
         var tagsHtml="";
 
-        for(i in tags){
+        for(let i in tags){
              tagsHtml += tags[i]+",";
         }
 

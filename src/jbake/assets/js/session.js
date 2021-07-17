@@ -1,4 +1,8 @@
-fetch('../json/sessions.json')
+import { getUsefulContents } from '/js/util-url.js';
+
+var fetchUrl = getUsefulContents("lang", "../json/sessions");
+
+fetch(fetchUrl)
     .then(function (response) {
         if (!response.ok) {
             throw Error(response.statusText);
@@ -10,7 +14,7 @@ fetch('../json/sessions.json')
         var sessions = document.getElementById('sessions');
 
         // traitement de l'objet
-        for (i in sessionsJson) {
+        for (let i in sessionsJson) {
           let title = sessionsJson[i].title;
           let id = sessionsJson[i].id;
           let abstract = sessionsJson[i].abstract;
@@ -21,7 +25,7 @@ fetch('../json/sessions.json')
           let talkFormat = sessionsJson[i].talk_format;
           let time = sessionsJson[i].time;
 
-          speakerPromise = getSpeakerById(speakerId);
+        let speakerPromise = getSpeakerById(getUsefulContents("lang", "../json/speakers/"+speakerId));
 
           speakerPromise.then(function(speaker){
              sessions.innerHTML += createSessionCard(id,title,abstract,speaker, tags,language,audienceLevel,talkFormat, time);
@@ -42,7 +46,7 @@ function createSessionCard(id, title,abstract, speaker, tags, language,audienceL
 
         var tagsHtml="";
 
-        for(i in tags){
+        for(let i in tags){
              tagsHtml += tags[i]+",";
         }
 
@@ -59,8 +63,8 @@ function createSessionCard(id, title,abstract, speaker, tags, language,audienceL
         return sessionHtml;
 }
 
-function getSpeakerById(speakerId){
- return fetch('../json/speakers/'+speakerId+'.json')
+function getSpeakerById(fetchUrlSpeaker){
+ return fetch(fetchUrlSpeaker)
       .then(function (response) {
           if (!response.ok) {
               throw Error(response.statusText);

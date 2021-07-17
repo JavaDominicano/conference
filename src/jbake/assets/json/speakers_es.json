@@ -1,0 +1,198 @@
+{
+	"101": {
+		"id": "ccamachog",
+		"name": "Carlos Camacho",
+		"company": "AvatharTech",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/ccamachog.png",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "CTO",
+			"description": "CTO"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/ccamachog"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/vacax"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/ccamachog/"
+			}
+		]
+	},
+
+	"102": {
+		"id": "euryperez",
+		"name": "Eury Perez Beltre",
+		"company": "X-Team (Beachbody project)",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/euryperez.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Android Team Lead",
+			"description": "Android Team Lead"
+		}],
+		"socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/_euryperez"
+    },
+   {
+    "icon": "linkedin",
+    "name": "Linkedin",
+    "link": "https://www.linkedin.com/in/euryperez/"
+  },
+  {
+    "icon": "link",
+    "name": "Personal Site",
+    "link": "https://euryperez.dev"
+  }
+ ]
+	},
+
+	"103": {
+		"id": "ecabrerar",
+		"name": "Eudris Cabrera",
+		"company": "Ministerio de Hacienda",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/ecabrerar.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Desarrollador Informático",
+			"description": "Desarrollador Informático"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eudriscabrera"
+			},
+			{
+				"icon": "link",
+				"name": "link",
+				"link": "https://eudriscabrera.com"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/ecabrerar"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/eudriscabrera"
+			}
+		]
+	},
+
+	"104": {
+		"id": "clivens",
+		"name": "Clivens Petit",
+		"company": "Softrizon",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/peclevens.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "CTO",
+			"description": "CTO"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/peclevens"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/peclevens"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/peclevens"
+			}
+		]
+	},
+	"105": {
+		 "id": "psanders",
+  	 "name": "Pedro Sanders",
+		"company": "Fonoster,LLC",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/psanders.jpeg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Founder",
+			"description": "Founder"
+		}],
+		 "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/sandedro"
+    },
+   {
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/psanders"
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/pedro-sanders-719639111/"
+    }
+    ]
+	},
+	"106": {
+		 "id": "juandiegolopezve",
+     "name": "Juan Diego López",
+		"company": "Net Tech International SRL",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+	    "photoUrl": "/img/speakers/juandiegolopezve.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Full Stack Software Developer",
+			"description": "Full Stack Software Developer"
+		}],
+		 "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/_juandiii"
+    },
+
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/juandiii/"
+    }
+    ]
+	}
+}
