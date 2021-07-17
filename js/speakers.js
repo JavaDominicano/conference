@@ -1,4 +1,8 @@
-fetch('../json/speakers.json')
+import { getUsefulContents } from '/js/util-url.js';
+
+var fetchUrl = getUsefulContents("lang", "../json/speakers");
+
+fetch(fetchUrl)
     .then(function (response) {
         if (!response.ok) {
             throw Error(response.statusText);
@@ -9,7 +13,7 @@ fetch('../json/speakers.json')
     .then(function (speakersJson) {
         var speakers = document.getElementById('listSpeakers');
         // traitement de l'objet
-        for (i in speakersJson) {
+        for (let i in speakersJson) {
             speakers.innerHTML += createSpeakerCard(speakersJson[i]);
         }
 });
@@ -25,7 +29,7 @@ function createSpeakerCard(speakerJson) {
         "<p>" +speakerJson.badges[0].description +" @ " +speakerJson.company +" - " +speakerJson.country +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></p>" +
         "<div class=\"social\">" ;
 
-        for(i in speakerJson.socials){
+        for(let i in speakerJson.socials){
              speakerHtml += " <a href=\""+speakerJson.socials[i].link+"\" target=\"_blank\"><i class=\"fa fa-"+speakerJson.socials[i].icon+"\"></i></a> ";
         }
 

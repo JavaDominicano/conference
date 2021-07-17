@@ -1,0 +1,26 @@
+{
+   "id": "psanders",
+    "name": "Pedro Sanders",
+    "photoUrl": "/img/speakers/psanders.jpeg",
+    "title":"Fundador",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Ingeniero Telemático apasionado con hacer que el código abierto sea más accesible y crear tecnologías para mejorar la vida de las personas. Algunas tecnologías con las que disfruta trabajar incluyen Docker, Kubernetes, NodeJS y Redis. Su interés en VoIP y telefonía lo llevaron a desarrollar Astive Toolkit, Routr I/O y Project Fonos.",
+   "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/sandedro"
+    },
+   {
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/psanders"
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/pedro-sanders-719639111/"
+    }
+    ]
+
+}
