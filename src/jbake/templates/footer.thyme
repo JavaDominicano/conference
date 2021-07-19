@@ -14,10 +14,10 @@
 		            <h4>Site map</h4>
 		            <ul>
 									<li><i class="fa fa-angle-right"></i><a href="/schedule.html">Agenda</a></li>
-		              <li><i class="fa fa-angle-right"></i> <a href="/conference-info.html">Conference Info</a></li>
+
 			     				<li><i class="fa fa-angle-right"></i><a href="/speakers.html">Speakers</a></li>
 			     				<li><i class="fa fa-angle-right"></i><a href="index.html#sponsors">Sponsors</a></li>
-
+									<li> <i class="fa fa-angle-right"></i><a href="https://www.crowdcast.io/e/jconfdominicana2021" target="_blank">Register</a></li>
 		            </ul>
 		          </div>
 
@@ -36,9 +36,10 @@
 							<div class="col-lg-3 col-md-6 footer-links">
 								<h4>JConf Dominicana</h4>
 								<ul>
+									<li><i class="fa fa-angle-right"></i> <a href="/conference-info.html">Conference Info</a></li>
+									<li><i class="fa fa-angle-right"></i><a href="/past-conferences.html">Past Conferences</a></li>
+									<li><i class="fa fa-angle-right"></i><a href="/organizers.html">Organizers</a></li>
 									<li><i class="fa fa-angle-right"></i><a href="/code-of-conduct.html">Code of conduct</a></li>
-								  <li><i class="fa fa-angle-right"></i><a href="/past-conferences.html">Past Conferences</a></li>
-								  <li><i class="fa fa-angle-right"></i><a href="/organizers.html">Organizers</a></li>
 								</ul>
 							</div>
 
