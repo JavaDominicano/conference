@@ -16,15 +16,17 @@
 			<nav id="nav-menu-container">
 				<ul class="nav-menu">
 					<li><a href="/index.html">Home</a></li>
-			<!--		<li><a href="/buy-tickets.html">Tickets</a></li> -->
-				<li><a href="/schedule.html">Agenda</a></li>
+			  <!--	<li><a href="/buy-tickets.html">Tickets</a></li>-->
+				  <li><a href="/schedule.html">Agenda</a></li>
 					<li><a href="/speakers.html">Speakers</a></li>
-				<!--	<li><a href="/presentations.html">Presentations</a></li> -->
-					<li><a href="/code-of-conduct.html">Code of conduct</a></li>
+				<!--	<li><a href="/presentations.html">Presentations</a></li>
+					<li><a href="/code-of-conduct.html">Code of conduct</a></li>	-->
+
 					<li><a href="/index.html#sponsors">Sponsors</a></li>
 					<li><a href="/past-conferences.html">Past Conferences</a></li>
 					<li><a href="/conference-info.html">Conference Info</a></li>
 					<li><a href="/organizers.html">Organizers</a></li>
+					<li class="buy-tickets"> <a href="https://www.crowdcast.io/e/jconfdominicana2021" target="_blank">Register</a></li>
 				</ul>
 			</nav><!-- #nav-menu-container -->
 		</div>

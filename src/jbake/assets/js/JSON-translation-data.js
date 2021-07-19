@@ -544,6 +544,16 @@ var linguJSON = {
     {
       'source': 'Welcome, committee presentation, event format',
       'target_es': 'Bienvenida, presentación del comité, formato del evento'
-    }
+    },
+    {
+      'source': 'Register now',
+      'target_es': 'Registrarse ahora'
+    },
+
+    {
+      'source': 'Register',
+      'target_es': 'Registrarse'
+    },
+
   ]
 }
