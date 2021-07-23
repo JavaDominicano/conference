@@ -1,4 +1,4 @@
-import { getUsefulContents } from '/js/util-url.js';
+import { getUsefulContents, getUsefulLink } from '/js/util-url.js';
 
 var fetchUrl = getUsefulContents("lang", "../json/sessions");
 
@@ -34,13 +34,16 @@ fetch(fetchUrl)
 });
 
 function createSessionCard(id, title,abstract, speaker, tags, language,audienceLevel, talkFormat, time) {
+
+  var speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
+
     var sessionHtml = "<div class=\"row schedule-item\">" +
         "<div class=\"col-md-2\"><time>"+time+"</time></div>" +
         "<div class=\"col-md-10\">" +
         "<div class=\"speaker\">" +
         "  <img src=\"" +speaker.photoUrl +"\" alt=\""+speaker.name+"\">"+
         "</div>" +
-        "<h4>"+title +"<span><a href=\"speaker-details.html?id=" + speaker.id + "\"> "+speaker.name+"</a></span></h4>"+
+        "<h4>"+title +"<span><a href=\"" + speakerUrlDetail + "\"> "+speaker.name+"</a></span></h4>"+
         "<p>"+abstract+"</p>"+
         "<p><strong>Tags:</strong>";
 

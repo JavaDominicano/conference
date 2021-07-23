@@ -17,3 +17,12 @@ export function getUsefulContents(key, fetchUrl) {
     }
     return fetchUrl+".json";
 }
+
+export function getUsefulLink(key, url){
+  var lang = getQuerystring(key);
+
+  if(lang==='es'){
+    url = url+'&lang=es';
+  }
+  return url;
+}

@@ -1,4 +1,4 @@
-import { getUsefulContents } from '/js/util-url.js';
+import { getUsefulContents, getUsefulLink } from '/js/util-url.js';
 
 var fetchUrl = getUsefulContents("lang", "../json/speakers");
 
@@ -21,11 +21,13 @@ fetch(fetchUrl)
 
 function createSpeakerCard(speakerJson) {
 
+  var speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speakerJson.id);
+
     var speakerHtml = "<div class=\"col-lg-4 col-md-6\">" +
         "<div class=\"speaker\">" +
         "<img src=\"" +speakerJson.photoUrl +"\" alt=\"" +speakerJson.name +"\" class=\"img-fluid\"/>" +
         "<div class=\"details\">" +
-        "<h3><a href=\"speaker-details.html?id=" + speakerJson.id + "\">" +speakerJson.name +"</a></h3>"+
+        "<h3><a href=\"" + speakerUrlDetail + "\">" +speakerJson.name +"</a></h3>"+
         "<p>" +speakerJson.badges[0].description +" @ " +speakerJson.company +" - " +speakerJson.country +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></p>" +
         "<div class=\"social\">" ;
 
