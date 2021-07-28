@@ -1,31 +1,12 @@
 {
 
-
 	"101": {
 		"id": 101,
-		"title": "Introduction to the GraalVM polyglot virtual machine",
-		"abstract": "This talk will present five use cases for the multilingual virtual machine, GraalVM, that can benefit your organization today. From speeding up your applications to using multiple programming languages in the same project, native languages on top of the JVM and more.",
-		"description": "This talk will present five use cases for the multilingual virtual machine, GraalVM, that can benefit your organization today. From speeding up your applications to using multiple programming languages in the same project, native languages on top of the JVM and more.",
-		"audience_level": "Intermediate",
-		"time": "TBD",
-		"language": "es",
-		"talk_format": "Talk (~30-45 minutes)",
-		"tags": [
-			"Java",
-			"JVM"
-		],
-		"speakers": [
-			"psanders"
-		]
-	},
-
-	"102": {
-		"id": 102,
 		"title": "Clean Threading with Kotlin Coroutines",
 		"abstract": "Async and Threading are words that very often scare the developers. In Android, traditionally we have managed some of those tasks with the now deprecated AsyncTask, but that callback oriented way has some limitations.\n\nLet's learn how we can refactor our legacy background operations using callbacks for a graceful and very optimized way using Kotlin Coroutines.\n\nYou will get started with Kotlin coroutines, learn how to perform multiple operations in parallel or performing sequential operations.",
 		"description": "Async and Threading are words that very often scare the developers. In Android, traditionally we have managed some of those tasks with the now deprecated AsyncTask, but that callback oriented way has some limitations.\n\nLet's learn how we can refactor our legacy background operations using callbacks for a graceful and very optimized way using Kotlin Coroutines.\n\nYou will get started with Kotlin coroutines, learn how to perform multiple operations in parallel or performing sequential operations.",
 		"audience_level": "Intermediate",
-		"time": "TBD",
+		"time": "10:30 AM",
 		"language": "es",
 		"talk_format": "Talk (~30-45 minutes)",
 		"tags": [
@@ -38,13 +19,31 @@
 		]
 	},
 
+	"102": {
+		"id": 102,
+		"title": "Introduction to the GraalVM polyglot virtual machine",
+		"abstract": "This talk will present five use cases for the multilingual virtual machine, GraalVM, that can benefit your organization today. From speeding up your applications to using multiple programming languages in the same project, native languages on top of the JVM and more.",
+		"description": "This talk will present five use cases for the multilingual virtual machine, GraalVM, that can benefit your organization today. From speeding up your applications to using multiple programming languages in the same project, native languages on top of the JVM and more.",
+		"audience_level": "Intermediate",
+		"time": "11:15 AM",
+		"language": "es",
+		"talk_format": "Talk (~30-45 minutes)",
+		"tags": [
+			"Java",
+			"JVM"
+		],
+		"speakers": [
+			"psanders"
+		]
+	},
+
 	"103": {
 		"id": 103,
 		"title": "Mutiny: the most sophisticated reactive programming in Quarkus",
 		"abstract": "In this session we will deal with the topic of reactive programming using the Mutiny library. There will be live code!",
 		"description": "What is reactive programming? When we search in Wikipedia, you might find the following definition:\n\nReactive programming combines functional programming, the observer pattern, and the iterable programming\n\n.It is correct but we did not find a more useful definition but let's make a simpler definition.\n\nReactive programming is about programming with data streams.\n\nMutiny is a new reactive programming library.\n\nProvides a simple but powerful asynchronous development model that allows you to create reactive applications.\n\nEasy to implement?\n\nThe API does not require much advanced knowledge. This should help design your logic.\n\nThere will be live code!",
 	 "audience_level": "All",
-	 	"time": "TBD",
+	 	"time": "12:00 M",
 		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
 		"tags": [
@@ -59,7 +58,7 @@
 	"104": {
 			"id": 104,
 			"title": "Our journey to adopt Kubernetes to create an App like Tinder from start to finish",
-			"time": "TBD",
+			"time": "12:45 M",
 			"abstract": "How many questions cross your mind at the time of starting a complex platform-adaptive app like Tinder? Probably many, especially in terms of technology and infrastructure.\n\nIn this talk, we'll discuss our approaches to overcome challenges that could prevent us from reaching our goals to create a viable solution for our users. We'll focus on open source tools that help us achieve the following objectives:\n\n- Have a single source of truth for our environments to support our contingency plan.\n- Reduce developer onboarding overhead and increase productivity.\n- Leverage existing technologies to reduce time to market.\n- Increase value for our users by improving service reliability.\n- Support business objectives with metrics, analytics, and platform observability.\nI invite you to join my talk to help you streamline your process of creating complex enterprise applications.",
 			"description": "How many questions cross your mind at the time of starting a complex platform-adaptive app like Tinder? Probably many, especially in terms of technology and infrastructure.\n\nIn this talk, we'll discuss our approaches to overcome challenges that could prevent us from reaching our goals to create a viable solution for our users. We'll focus on open source tools that help us achieve the following objectives:\n\n- Have a single source of truth for our environments to support our contingency plan.\n- Reduce developer onboarding overhead and increase productivity.\n- Leverage existing technologies to reduce time to market.\n- Increase value for our users by improving service reliability.\n- Support business objectives with metrics, analytics, and platform observability.\nI invite you to join my talk to help you streamline your process of creating complex enterprise applications.",
 		 "audience_level": "All",
@@ -79,7 +78,7 @@
 		"abstract": "With the proliferation of systems that implement the microservices architecture and the associated problems in the exchange of messages under REST, a new system arises that greatly helps in the performance of the exchange of messages for multiplatform systems and independent of the implementation language, This technology is called gRPC (general-purpose Remote Procedure Call) and we will be seeing its implementation under the Java platform and integrating into other languages.",
 		"description": "With the proliferation of systems that implement the microservices architecture and the associated problems in the exchange of messages under REST, a new system arises that greatly helps in the performance of the exchange of messages for multiplatform systems and independent of the implementation language, This technology is called gRPC (general-purpose Remote Procedure Call) and we will be seeing its implementation under the Java platform and integrating into other languages.",
 	 "audience_level": "All",
-	 	"time": "TBD",
+	 	"time": "1:30 PM",
 		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
 		"tags": [
@@ -97,7 +96,7 @@
 		"abstract": "The management and administration of APIs are becoming more widespread, today it is easier to expose APIs safely to the world. However, the API development cycle has some pending cases to solve. The entire API lifecycle should also be agile to remain relevant. So it's time to think of a new way to deliver APIs (including mockups and tests) to simplify and speed up the delivery of production-ready APIs.\n\nIn this session we are going to create a Web API covering different phases of API development (Design, Mock up and testing) until we reach to production.",
 		"description": "The management and administration of APIs are becoming more widespread, today it is easier to expose APIs safely to the world. However, the API development cycle has some pending cases to solve. The entire API lifecycle should also be agile to remain relevant. So it's time to think of a new way to deliver APIs (including mockups and tests) to simplify and speed up the delivery of production-ready APIs.\n\nIn this session we are going to create a Web API covering different phases of API development (Design, Mock up and testing) until we reach to production.",
 	 "audience_level": "All",
-	 	"time": "TBD",
+	 	"time": "2:15 PM",
 		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
 		"tags": [
