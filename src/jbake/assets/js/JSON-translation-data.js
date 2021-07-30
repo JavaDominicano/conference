@@ -555,5 +555,9 @@ var linguJSON = {
       'target_es': 'Registrarse'
     },
 
+    {
+      'source': 'Watch on Crowdcast',
+      'target_es': 'Ver en Crowdcast'
+    }
   ]
 }
