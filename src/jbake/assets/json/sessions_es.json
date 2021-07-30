@@ -108,6 +108,24 @@
 		"speakers": [
 			"ecabrerar"
 		]
+	},
+	"107": {
+		"id": 107,
+		"title": "Panel de la Comunidad",
+		"abstract": "Micro frameworks en Java: Casos de Uso.",
+		"description": "Micro frameworks en Java: Casos de Uso",
+	 "audience_level": "Todos",
+	 	"time": "3:00 PM",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "es",
+		"tags": [
+			"API",
+			"Java",
+			"Testing"
+		],
+		"speakers": [
+			"hector-ventura","eliezer-herrera"
+		]
 	}
 
 }
