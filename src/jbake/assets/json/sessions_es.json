@@ -126,6 +126,23 @@
 		"speakers": [
 			"hector-ventura","eliezer-herrera"
 		]
+	},
+	"108": {
+		"id": 108,
+		"title": "Keynote",
+		"abstract": "Java: The Evolution Continues",
+		"description": "Java: The Evolution Continues",
+	 "audience_level": "All",
+		"time": "10:00 AM",
+		"talk_format": "Talk (~30 minutes)",
+		"language": "es",
+		"tags": [
+			"JDK",
+			"Java"
+		],
+		"speakers": [
+			"hillmer-chona"
+		]
 	}
 
 }
