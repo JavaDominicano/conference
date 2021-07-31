@@ -254,5 +254,37 @@
                 "link": "https://github.com/hectorvent"
             }
         ]
+	},
+	"109": {
+		"id": "hillmer-chona",
+		"name": "Hillmer Chona",
+		"company": "MedellinJUG",
+		"companyLogo": "",
+		"country": "Colombia",
+		"countryFlag": "flag-icon-co",
+		"photoUrl": "/img/speakers/hillmer-chona.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "MedellinJUG Leader, Java Champion & Oracle GroundBreaker Ambassador",
+			"description": "MedellinJUG Leader, Java Champion & Oracle GroundBreaker Ambassador"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/HillmerCh"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/HillmerCh"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/hillmerch/"
+			}
+		]
 	}
 }
