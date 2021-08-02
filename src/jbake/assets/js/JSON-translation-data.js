@@ -549,15 +549,21 @@ var linguJSON = {
       'source': 'Register now',
       'target_es': 'Registrarse ahora'
     },
-
     {
       'source': 'Register',
       'target_es': 'Registrarse'
     },
-
     {
       'source': 'Watch on Crowdcast',
       'target_es': 'Ver en Crowdcast'
+    },
+    {
+      "source" : "Thank you to speakers, sponsors, attendees and all staff of organizers for joining us in 2021!",
+      "target_es" : "Gracias a los conferencistas, patrocinadores, asistentes y al comité organizador por acompañarnos en el 2021!"
+    },
+    {
+      "source" : "See you all again next year!",
+      "target_es":"Nos vemos el próximo año!"
     }
   ]
 }
