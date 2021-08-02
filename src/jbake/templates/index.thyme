@@ -12,13 +12,8 @@
 			<div id="intro-container" class="intro-container wow fadeIn">
       		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
 					<h1 class="mb-4 pb-0">The Caribbean Java Technologies Conference.</h1>
-			     <p class="mb-4 pb-0">July 31, 2021. Virtual Edition.</p>
-					 <p class="mb-4 pb-0">Save the date!</p>
-					 <div class="text-uppercase">
-						<p id="countdown" style="font-size:30px;font-family: 'Roboto';"></p>
-				</div>
-				     <a href="https://www.crowdcast.io/e/jconfdominicana2021" class="about-btn scrollto" target="_blank">Register now</a>
-
+				  <p class="mb-4 pb-0">Thank you to speakers, sponsors, attendees and all staff of organizers for joining us in 2021!</p>
+			    <p class="mb-4 pb-0">See you all again next year!</p>
 			</div>
 		</section>
 
