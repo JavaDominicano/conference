@@ -44,7 +44,7 @@
 			<!--==========================
 				Gallery Section
 			============================-->
-     <div th:replace="gallery.thyme::gallery"/>
+     <div th:replace="schedule.thyme::schedule"/>
 			<!--
 			==========================
 			Speakers Section
