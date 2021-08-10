@@ -1905,5 +1905,9 @@ a.btn-buy-tickets:hover:before  {
 }
 
 .organizer{
-   height: 545px; 
+   height: 545px;
+}
+
+.btn-wide {
+    min-width: calc(15% - 20px);
 }
