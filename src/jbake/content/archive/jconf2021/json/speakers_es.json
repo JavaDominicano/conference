@@ -1,0 +1,289 @@
+{
+	"101": {
+		"id": "ccamachog",
+		"name": "Carlos Camacho",
+		"company": "AvatharTech",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/ccamachog.png",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Director de Tecnología",
+			"description": "Director de Tecnología"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/ccamachog"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/vacax"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/ccamachog/"
+			}
+		]
+	},
+
+	"102": {
+		"id": "euryperez",
+		"name": "Eury Perez Beltre",
+		"company": "X-Team (Beachbody project)",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/euryperez.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Líder del equipo de Desarrollo Android",
+			"description": "Líder del equipo de Desarrollo Android"
+		}],
+		"socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/_euryperez"
+    },
+   {
+    "icon": "linkedin",
+    "name": "Linkedin",
+    "link": "https://www.linkedin.com/in/euryperez/"
+  },
+  {
+    "icon": "link",
+    "name": "Sitio personal",
+    "link": "https://euryperez.dev"
+  }
+ ]
+	},
+
+	"103": {
+		"id": "ecabrerar",
+		"name": "Eudris Cabrera",
+		"company": "Ministerio de Hacienda",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/ecabrerar.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Desarrollador Informático",
+			"description": "Desarrollador Informático"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eudriscabrera"
+			},
+			{
+				"icon": "link",
+				"name": "Sitio personal",
+				"link": "https://eudriscabrera.com"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/ecabrerar"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/eudriscabrera"
+			}
+		]
+	},
+
+	"104": {
+		"id": "clivens",
+		"name": "Clivens Petit",
+		"company": "Softrizon",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/peclevens.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Director de Tecnología",
+			"description": "Director de Tecnología"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/peclevens"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/peclevens"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/peclevens"
+			}
+		]
+	},
+	"105": {
+		 "id": "psanders",
+  	 "name": "Pedro Sanders",
+		"company": "Fonoster,LLC",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/psanders.jpeg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Fundador",
+			"description": "Fundador"
+		}],
+		 "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/sandedro"
+    },
+   {
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/psanders"
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/pedro-sanders-719639111/"
+    }
+    ]
+	},
+	"106": {
+		 "id": "juandiegolopezve",
+     "name": "Juan Diego López",
+		"company": "Net Tech International SRL",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/juandiegolopezve.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Desarrollador de Software Full Stack",
+			"description": "Desarrollador de Software Full Stack"
+		}],
+		 "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/_juandiii"
+    },
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/juandiii/"
+    }
+    ]
+	},
+	"107": {
+		 "id": "eliezer-herrera",
+    "name": "Eliezer Herrera",
+		"company": "FreeLancer",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+	    "photoUrl": "/img/organizers/committee-members/eliezer-herrera.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		}],
+		 	"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eliesongo"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/zerh"
+			}
+		]
+	},
+	"108": {
+		"id": "hector-ventura",
+    "name": "Hector Ventura Reyes",
+		"company": "FreeLancer",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+	  "photoUrl": "/img/speakers/hector-ventura.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		}],
+	"socials": [
+            {
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "http://twitter.com/hectorvent"
+            },
+            {
+                "icon": "fab fa-linkedin",
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/hectorvent/"
+            },
+            {
+                "icon": "fab fa-github-alt",
+                "name": "GitHub",
+                "link": "https://github.com/hectorvent"
+            }
+        ]
+	},
+	"109": {
+		"id": "hillmer-chona",
+		"name": "Hillmer Chona",
+		"company": "MedellinJUG",
+		"companyLogo": "",
+		"country": "Colombia",
+		"countryFlag": "flag-icon-co",
+		"photoUrl": "/img/speakers/hillmer-chona.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Líder de la Comunidad de Java Medellin, Java Champion & Oracle GroundBreaker Ambassador",
+			"description": "Líder de la Comunidad de Java Medellin, Java Champion & Oracle GroundBreaker Ambassador"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/HillmerCh"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/HillmerCh"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/hillmerch/"
+			}
+		]
+	}
+}
