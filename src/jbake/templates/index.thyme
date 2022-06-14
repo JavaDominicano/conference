@@ -15,7 +15,7 @@
 					<p class="mb-4 pb-0">July 23, 2022. Virtual Edition.</p>
 
 
-		      <a href="#" class="about-btn scrollto" title="Call For Paper" target="_blank">Apply to become a speaker</a>
+		      <a href="https://www.papercall.io/jconfdominicana2022" class="about-btn scrollto" title="Call For Paper" target="_blank">Apply to become a speaker</a>
 
 			</div>
 		</section>
@@ -47,7 +47,7 @@
 			<!--==========================
 				Gallery Section
 			============================-->
-     
+
 		<!--
 		<div th:replace="schedule.thyme::schedule"/>
 		==========================
