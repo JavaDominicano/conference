@@ -12,8 +12,11 @@
 			<div id="intro-container" class="intro-container wow fadeIn">
       		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
 					<h1 class="mb-4 pb-0">The Caribbean Java Technologies Conference.</h1>
-				  <p class="mb-4 pb-0">Thank you to speakers, sponsors, attendees and all staff of organizers for joining us in 2021!</p>
-			    <p class="mb-4 pb-0">See you all again next year!</p>
+					<p class="mb-4 pb-0">July 23, 2022. Virtual Edition.</p>
+
+
+		      <a href="https://www.papercall.io/jconfdominicana2022" class="about-btn scrollto" title="Call For Paper" target="_blank">Apply to become a speaker</a>
+
 			</div>
 		</section>
 
@@ -32,11 +35,11 @@
 						</div>
 						<div class="col-lg-3">
 							<h3>Where</h3>
-							<p>Edición Virtual</p>
+							<p>Virtual Edition</p>
 						</div>
 						<div class="col-lg-3">
 							 <h3>When</h3>
-							<p>July 31, 2021</p>
+							<p>July 23, 2022</p>
 						</div>
 					</div>
 				</div>
@@ -44,24 +47,22 @@
 			<!--==========================
 				Gallery Section
 			============================-->
-     <div th:replace="schedule.thyme::schedule"/>
-			<!--
-			==========================
+
+		<!--
+		<div th:replace="schedule.thyme::schedule"/>
+		==========================
 			Speakers Section
-			============================
+		============================
 	 	 -->
 		 <!--==========================
-		 Tickets Section
+		 	Tickets Section
 		 ============================-->
 		 <div th:replace="tickets.thyme::tickets"/>
 
-			<!--==========================
+		<!--==========================
 			Sponsors Section
-			============================-->
+		============================-->
 		  <div th:replace="sponsors.thyme::sponsors"/>
-
-
-
 
 		</main>
      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>

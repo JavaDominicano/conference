@@ -1,0 +1,25 @@
+{
+    "id": "euryperez",
+    "name": "Eury Perez Beltre",
+    "photoUrl": "/archive/jconf2021/images/euryperez.jpg",
+    "title":"Android Team Lead",
+    "countryFlag": "flag-icon-do",
+    "shortBio": "",
+    "bio": "Eury is an experienced mobile developer with more than 7 years of experience in the field and more than 10 of general software development experience. He co-organizes the Google Developer Group, Developer Students Club and Women Tech-makers programs in Santo Domingo.\n\nHe's from the Dominican Republic. But has been working with international teams since 2013 when he joined a Canadian startup focused on mobile development. In 2014 he joined Instacarro one of the fastest growing startup in LATAM based in Brazil as a Senior Android Developer.\n\nCurrently, he works for BeachBody, the lead fitness company in the United States through the 100% LA based remote company: X-Team. He also loves to teach and serves as an Android consultant for local companies in the Dominican Republic.",
+   "socials": [{
+     "icon": "twitter",
+     "name": "Twitter",
+     "link": "https://twitter.com/_euryperez"
+   },
+  {
+   "icon": "linkedin",
+   "name": "Linkedin",
+   "link": "https://www.linkedin.com/in/euryperez/"
+ },
+ {
+   "icon": "link",
+   "name": "Personal Site",
+   "link": "https://euryperez.dev"
+ }
+]
+}

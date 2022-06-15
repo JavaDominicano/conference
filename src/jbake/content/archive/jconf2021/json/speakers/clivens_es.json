@@ -1,0 +1,36 @@
+{
+   "id": "clivens",
+    "name": "Clivens Petit",
+    "photoUrl": "/archive/jconf2021/images/peclevens.jpg",
+    "title":"Director de Tecnología",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Clivens tiene más de 10 años de experiencia como desarrollador de software Java con un fuerte enfoque en API y microservicios con Spring Framework. Además de sus habilidades de back-end, ha estado involucrado en muchos desarrollos móviles de clase empresarial con Android que abarcan diferentes industrias como el comercio electrónico, la política y las redes sociales.\n\nActualmente, Clivens es el CEO y co-fundador de Softrizon LLC, una empresa de desarrollo de software nearshore fundada para ayudar a las pequeñas y medianas empresas a acceder a soluciones tecnológicas de las mismas capacidades que disfrutan las grandes organizaciones.",
+   "socials": [{
+       "icon": "twitter",
+       "name": "Twitter",
+       "link": "https://twitter.com/peclevens"
+     },
+     {
+       "icon": "github",
+       "name": "Github",
+       "link": "https://github.com/peclevens"
+     },
+     {
+       "icon": "linkedin",
+       "name": "Linkedin",
+       "link": "https://www.linkedin.com/in/peclevens"
+     },
+     {
+         "icon": "facebook",
+         "name": "Facebook",
+         "link": "https://www.facebook.com/peclevens"
+       },
+       {
+           "icon": "instagram",
+           "name": "Instagram",
+           "link": "https://www.instagram.com/peclevens"
+         }
+    ]
+
+}

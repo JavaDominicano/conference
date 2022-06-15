@@ -121,35 +121,6 @@
 				"link": "https://www.linkedin.com/in/joseeugenioduran"
 			}
 		]
-	},
-	"005": {
-		"id": "angel-mejia",
-		"name": "Angel Mejia",
-		"company": "Utreee",
-		"photoUrl": "/img/organizers/committee-members/angel-mejia.jpg",
-		"shortBio": "Software Developer who loves learn new technologies, I love Kubernetes, open source and meet people",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Software Engineer",
-			"description": "Software Engineer"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/angelmejiabrito"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/angelmejiabrito"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/angelmejiabrito/"
-			}
-		]
 	}
-
+	
 }

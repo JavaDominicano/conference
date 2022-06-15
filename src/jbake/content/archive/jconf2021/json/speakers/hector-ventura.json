@@ -1,0 +1,27 @@
+{
+   "id": "hector-ventura",
+    "name": "Hector Ventura Reyes",
+    "photoUrl": "/archive/jconf2021/images/hector-ventura.jpg",
+    "title":"FreeLancer",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Hector Ventura is a systems engineer with more than 8 experiences in architecture and application development. He was a professor in Linux Systems Administration at Fundación Código Libre Dominicana for 2 years (2008-2010) and a programming professor at ITLA from 2017 to 2020",
+    "socials": [
+            {
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "http://twitter.com/hectorvent"
+            },
+            {
+                "icon": "fab fa-linkedin",
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/hectorvent/"
+            },
+            {
+                "icon": "fab fa-github-alt",
+                "name": "GitHub",
+                "link": "https://github.com/hectorvent"
+            }
+        ]
+
+}

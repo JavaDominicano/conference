@@ -471,8 +471,8 @@ var linguJSON = {
       'target_es': 'Regístrese ahora para recibir una notificación cuando se publique el horario'
     },
     {
-      'source': 'Get Ready for JConf Dominicana 2021',
-      'target_es': 'Prepárese para JConf Dominicana 2021'
+      'source': 'Get Ready for JConf Dominicana 2022',
+      'target_es': 'Prepárese para JConf Dominicana 2022'
     },
     {
       'source': 'Be the first to know when tickets are available! Sign up to be notified when they go on sale',
@@ -499,8 +499,8 @@ var linguJSON = {
       'target_es': 'La Conferencia de Tecnologías Java del Caribe'
     },
     {
-      'source': 'July 31, 2021. Virtual Edition.',
-      'target_es': '31 de Julio del 2021. Edición Virtual.'
+      'source': 'July 23, 2022. Virtual Edition.',
+      'target_es': '23 de Julio del 2022. Edición Virtual.'
     },
     {
       'source': 'Save the date!',
@@ -564,6 +564,25 @@ var linguJSON = {
     {
       "source" : "See you all again next year!",
       "target_es":"Nos vemos el próximo año!"
+    },
+    {
+      "source" : "Apply to become a speaker",
+      "target_es":"¡Envía tu propuesta aquí!"
+    },
+    {
+      "source" : "Virtual Edition",
+      "target_es":"Edición Virtual"
+    },
+    {
+      "source" : "July 23, 2022",
+      "target_es":"23 de Julio, 2022"
     }
+    ,
+    {
+      "source" : "July 23, 2022",
+      "target_es":"23 de Julio, 2022"
+    }
+
+
   ]
 }

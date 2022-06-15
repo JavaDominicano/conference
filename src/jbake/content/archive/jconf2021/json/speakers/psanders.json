@@ -1,0 +1,26 @@
+{
+   "id": "psanders",
+    "name": "Pedro Sanders",
+    "photoUrl": "/archive/jconf2021/images/psanders.jpeg",
+    "title":"Founder",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Telematics Engineer passionate about making open source more accessible and creating technologies to improve people's lives. Some technologies he enjoys working with include Docker, Kubernetes, NodeJS, and Redis. His interest in VoIP and telephony led him to develop Astive Toolkit, Routr I / O and Project Fonos.",
+   "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/sandedro"
+    },
+   {
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/psanders"
+    },
+     {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/pedro-sanders-719639111/"
+    }
+    ]
+
+}
