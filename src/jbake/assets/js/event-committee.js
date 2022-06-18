@@ -27,7 +27,7 @@ function createMemberCard(memberJson) {
         "<div class=\"organizer-img image-top\">"+
         "<img src=\"" +memberJson.photoUrl +"\" alt=\"" +memberJson.name +"\" class=\"img-fluid\"/>" +
         "</div>"+
-        "<h3><a href=\"speaker-details.html?id=" + memberJson.id + "\">" +memberJson.name +"</a></h3>"+
+        "<h3>"+memberJson.name+"</a></h3>"+
         "<p>" +memberJson.badges[0].description +" @ " +memberJson.company+"</p>" +
         "<p>"+memberJson.shortBio+"</p>" +
         "<div class=\"social\">" ;

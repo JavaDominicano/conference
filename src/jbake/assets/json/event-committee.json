@@ -70,30 +70,6 @@
 		]
 	},
 	"003": {
-		"id": "eliezer-herrera",
-		"name": "Eliezer Herrera",
-		"company": "FreeLancer",
-		"photoUrl": "/img/organizers/committee-members/eliezer-herrera.jpg",
-		"shortBio": "Software developer with more than 12 years of experience in the software industry. Enthusiast and lover of technology, especially the Java platform",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Software Engineer",
-			"description": "Software Engineer"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/eliesongo"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/zerh"
-			}
-		]
-	},
-	"004": {
 		"id": "eugenio-duran",
 		"name": "José Eugenio Duran",
 		"company": "Claro RD",
@@ -119,6 +95,86 @@
 				"icon": "linkedin",
 				"name": "Linkedin",
 				"link": "https://www.linkedin.com/in/joseeugenioduran"
+			}
+		]
+	},
+	"004": {
+		"id": "eliezer-herrera",
+		"name": "Eliezer Herrera",
+		"company": "FreeLancer",
+		"photoUrl": "/img/organizers/committee-members/eliezer-herrera.jpg",
+		"shortBio": "Software developer with more than 12 years of experience in the software industry. Enthusiast and lover of technology, especially the Java platform",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Engineer",
+			"description": "Software Engineer"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eliesongo"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/zerh"
+			}
+		]
+	},
+	
+	"005": {
+		"id": "brayan-munoz",
+		"name": "Brayan Muñoz V",
+		"company": "HICX",
+		"photoUrl": "/img/organizers/committee-members/brayan-munoz.jpg",
+		"shortBio": " I'm a Telematics Engineer from PUCMM, with around 2 years of Professional IT & Software Development experience using Java as main language, member of an Open Source organization called Fonoster",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Engineer",
+			"description": "Software Engineer"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/Brayanmnz_"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/brayanmnz"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/brayanmnz"
+			}
+		]
+	}
+	,
+	"006": {
+		"id": "cristal-guerreo",
+		"name": "Cristal Guerrero",
+		"company": "Ministerio de Hacienda, R.D.",
+		"photoUrl": "/img/organizers/committee-members/cristal-guerreo.jpg",
+		"shortBio": "Skilled java developer with a Software Development Technician from ITLA and on the road to becoming a Data Engineer.",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Developer",
+			"description": "Software Developer"
+		}],
+		"socials": [
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/Sahira22"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/cristal-sahira-guerrero-b953a4209"
 			}
 		]
 	}
