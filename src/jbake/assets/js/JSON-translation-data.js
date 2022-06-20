@@ -528,8 +528,8 @@ var linguJSON = {
       'target_es': 'Comité del Evento'
     },
     {
-      'source': 'The sessions and keynotes for JConf Dominicana 2021 are chosen by a committee made up of volunteers from Dominican Republic Java Users Group (Aka JavaDominicano).',
-      'target_es': 'Las sesiones y paneles para JConf Dominicana 2021 son elegidas por un comité compuesto por voluntarios de la comunidad de usuarios Java de República Dominicana (Aka JavaDominicano).'
+      'source': 'The sessions and keynotes for JConf Dominicana 2022 are chosen by a committee made up of volunteers from Dominican Republic Java Users Group (Aka JavaDominicano).',
+      'target_es': 'Las sesiones y paneles para JConf Dominicana 2022 son elegidas por un comité compuesto por voluntarios de la comunidad de usuarios Java de República Dominicana (Aka JavaDominicano).'
     },
     {
       'source': 'JConf Dominicana is a Java technologies conference organized by the Dominican Republic Java Users Group (Aka JavaDominicano).',
