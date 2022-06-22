@@ -1721,6 +1721,7 @@ a.btn-buy-tickets:hover:before  {
   border: 1px solid #e0e5fa;
   background: #fff;
   margin-bottom: 30px;
+  display: grid;
 }
 
 #organizers .organizer:hover .organizer-img img {
@@ -1755,9 +1756,8 @@ a.btn-buy-tickets:hover:before  {
 }
 
 #organizers .social {
-  padding: 0 20px;
-  margin-bottom: 5px;
-  text-align: center;
+  align-self: center;
+  justify-self: center;
 }
 
 #organizers .social i {
