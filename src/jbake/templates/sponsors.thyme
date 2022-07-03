@@ -16,7 +16,7 @@
 						<p> Please contact us if you are interested in becoming a JConf Dominicana sponsor or supporter. <a href="mailto:info@jconfdominicana.org" target="_blank">Click here</a>
 						</p>
 	        </div>
-					<!--
+					
 					<div class="row no-gutters sponsors-wrap clearfix">
 					 <div class="col-lg-3 col-md-4 col-xs-6">
 						 <div class="sponsor-logo">
@@ -32,14 +32,7 @@
 						 </a>
 						 </div>
 					 </div>
-					 <div class="col-lg-3 col-md-4 col-xs-6">
-						<div class="sponsor-logo">
-							<a href="https://fonoster.com/" target="_blank">
-							<img src="img/sponsors/fonoster.png" class="img-fluid" alt="Fonoster">
-						</a>
-						</div>
-					</div>
-				 </div>-->
+				 </div>
 
 	      </div>
 	    </section>
