@@ -1,48 +1,45 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-	<body>
-	<div th:fragment="sponsors" th:remove="tag">
+
+<body>
+      <div th:fragment="sponsors" th:remove="tag">
 
 
-		 <!--==========================
+            <!--==========================
 	      Sponsors Section
 	    ============================-->
-	    <section id="sponsors" class="section-with-bg wow fadeInUp">
+            <section id="sponsors" class="section-with-bg wow fadeInUp">
 
-	      <div class="container">
-	        <div class="section-header">
-	          <h2>Sponsors</h2>
-						<p> Please contact us if you are interested in becoming a JConf Dominicana sponsor or supporter. <a href="mailto:info@jconfdominicana.org" target="_blank">Click here</a>
-						</p>
-	        </div>
-					<!--
-					<div class="row no-gutters sponsors-wrap clearfix">
-					 <div class="col-lg-3 col-md-4 col-xs-6">
-						 <div class="sponsor-logo">
-							 <a href="https://www.jetbrains.com/"  target="_blank">
-							 <img src="img/sponsors/jetbrains.png" class="img-fluid" alt="jetbrains">
-						 </a>
-						 </div>
-					 </div>
-					 <div class="col-lg-3 col-md-4 col-xs-6">
-						 <div class="sponsor-logo">
-							 <a href="https://avathartech.com/"  target="_blank">
-							 <img src="img/sponsors/AvatharTech.png" class="img-fluid" alt="Avathar Tech" />
-						 </a>
-						 </div>
-					 </div>
-					 <div class="col-lg-3 col-md-4 col-xs-6">
-						<div class="sponsor-logo">
-							<a href="https://fonoster.com/" target="_blank">
-							<img src="img/sponsors/fonoster.png" class="img-fluid" alt="Fonoster">
-						</a>
-						</div>
-					</div>
-				 </div>-->
+                  <div class="container">
+                        <div class="section-header">
+                              <h2>Sponsors</h2>
+                              <p> Please contact us if you are interested in becoming a JConf Dominicana sponsor or
+                                    supporter. <a href="mailto:info@jconfdominicana.org" target="_blank">Click here</a>
+                              </p>
+                        </div>
 
-	      </div>
-	    </section>
-	</div>
-  </body>
-  </html>
+                        <div class="row no-gutters sponsors-wrap clearfix">
+                              <div class="col-lg-3 col-md-4 col-xs-6">
+                                    <div class="sponsor-logo">
+                                          <a href="https://www.jetbrains.com/" target="_blank">
+                                                <img src="img/sponsors/jetbrains.png" class="img-fluid" alt="jetbrains">
+                                          </a>
+                                    </div>
+                              </div>
+                              <div class="col-lg-3 col-md-4 col-xs-6">
+                                    <div class="sponsor-logo">
+                                          <a href="https://avathartech.com/" target="_blank">
+                                                <img src="img/sponsors/AvatharTech.png" class="img-fluid"
+                                                      alt="Avathar Tech" />
+                                          </a>
+                                    </div>
+                              </div>
+                        </div>
+
+                  </div>
+            </section>
+      </div>
+</body>
+
+</html>
