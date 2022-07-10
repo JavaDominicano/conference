@@ -17,17 +17,17 @@
 
 			     				<li><i class="fa fa-angle-right"></i><a href="/index.html#speakers">Speakers</a></li>
 			     				<li><i class="fa fa-angle-right"></i><a href="index.html#sponsors">Sponsors</a></li>
-								<li> <i class="fa fa-angle-right"></i><a href="#" target="_blank">Register</a></li>
+								<li> <i class="fa fa-angle-right"></i><a href="#" th:target="_blank">Register</a></li>
 		            </ul>
 		          </div>
 
 		          <div class="col-lg-3 col-md-6 footer-links">
 		            <h4>Useful Links</h4>
 		            <ul>
-		              <li><i class="fa fa-angle-right"></i> <a href="http://jconfcolombia.org/">JConf Colombia</a></li>
-		              <li><i class="fa fa-angle-right"></i> <a href="http://www.jespanol.org/">JEspañol</a></li>
-			      			<li><i class="fa fa-angle-right"></i> <a href="http://www.javaup.org.mx">JavaUP México</a></li>
-									<li><i class="fa fa-angle-right"></i> <a href="http://jconfperu.org">JConf Perú</a></li>
+		              <li><i class="fa fa-angle-right"></i> <a href="http://jconfcolombia.org/" target="_blank">JConf Colombia</a></li>
+		              <li><i class="fa fa-angle-right"></i> <a href="http://www.jespanol.org/" target="_blank">JEspañol</a></li>
+			      			<li><i class="fa fa-angle-right"></i> <a href="https://twitter.com/jconfmexico" target="_blank">JConf Mexico</a></li>
+									<li><i class="fa fa-angle-right"></i> <a href="https://jconf.perujug.org/" target="_blank">JConf Perú</a></li>
 
 
 								</ul>
@@ -50,9 +50,9 @@
 		            </p>
 
 		            <div class="social-links">
-		              <a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
-									<a th:if="${config.instagram_username}" href="#" th:href="|https://www.instagram.com/${config.instagram_username}|" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
-									<a th:if="${config.facebook_username}" href="#" th:href="|https://www.facebook.com/${config.facebook_username}|" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+		              <a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" th:target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+									<a th:if="${config.instagram_username}" href="#" th:href="|https://www.instagram.com/${config.instagram_username}|" th:target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+									<a th:if="${config.facebook_username}" href="#" th:href="|https://www.facebook.com/${config.facebook_username}|" th:target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
 
 		            </div>
 
