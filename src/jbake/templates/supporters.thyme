@@ -14,31 +14,40 @@
 					<h2>Supported By</h2>
 				</div>
 
- 			 <div class="row">
-				 <div class="col-lg-4 col-md-6">
-					 <div class="organizer">
-						 <div class="organizer-img">
-							<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/pucmm.png'" alt="Pontificia Universidad Católica Madre y Maestra" class="img-fluid">
-						 </div>
-						 <div class="social">
-              <a href="https://www.pucmm.edu.do/" target="_blank"><i class="fa fa-link"></i></a>
-             </div>
-					 </div>
-				 </div>
-				 <div class="col-lg-4 col-md-6">
-					 <div class="organizer">
-					  <div class="organizer-img">
-						  <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/medellinJUG.jpg'" title="Medellin Java Users Group" alt="Medellin Java Users Group" class="img-fluid">
-					  </div>
-						<div class="social">
-								 <a href="https://twitter.com/MedellinJug" target="_blank"><i class="fa fa-twitter"></i></a>
-								 <a href="https://medellinjug.org" target="_blank"><i class="fa fa-link"></i></a>
-						</div>
-					 </div>
-				 </div>
-
-
-			</div>
+				<div class="row">
+			 	 <div class="col-lg-4 col-md-6">
+			 		 <div class="organizer">
+			 			 <div class="organizer-img">
+			 				<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/pucmm-ect.png'" alt="Escuela de Computación y Telecomunicaciones" class="img-fluid">
+			 			 </div>
+			 			 <div class="social">
+			 				<a href="https://www.pucmm.edu.do/ingenierias" target="_blank"><i class="fa fa-link"></i></a>
+			 			 </div>
+			 		 </div>
+			 	 </div>
+			 	 <div class="col-lg-4 col-md-6">
+			 		 <div class="organizer">
+			 			<div class="organizer-img">
+			 				<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/cisc-logo.png'" title="Comité Estudiantes de Ingeniería en Sistemas y Computación" alt="Comité Estudiantes de Ingeniería en Sistemas y Computación" class="img-fluid">
+			 			</div>
+			 			 <div class="social">
+			 					 <a href="https://twitter.com/ComitesISC" target="_blank"><i class="fa fa-twitter"></i></a>
+			 					 <a href="https://www.instagram.com/ciscpucmm" target="_blank"><i class="fa fa-instagram"></i></a>
+			 			 </div>
+			 		 </div>
+			 	 </div>
+			 	 <div class="col-lg-4 col-md-6">
+			 		 <div class="organizer">
+			 			<div class="organizer-img">
+			 				<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/jugrd-logo.png'" title="Java Users Group Dominican Republic" alt="Java Users Group Dominican Republic" class="img-fluid">
+			 			</div>
+			 			<div class="social">
+			 					 <a href="https://twitter.com/JavaDominicano" target="_blank"><i class="fa fa-twitter"></i></a>
+			 					 <a href="https://github.com/JavaDominicano" target="_blank"><i class="fa fa-github"></i></a>
+			 			</div>
+			 		 </div>
+			 	 </div>
+			 </div>
 			</div>
 		</section>
   </div>

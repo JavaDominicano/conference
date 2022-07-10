@@ -1904,9 +1904,6 @@ a.btn-buy-tickets:hover:before  {
   margin-top: 10px;
 }
 
-.organizer{
-   height: 545px;
-}
 
 .btn-wide {
     min-width: calc(15% - 20px);
