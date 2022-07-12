@@ -100,11 +100,11 @@
 		]
 	},
 	"004": {
-		"id": "eliezer-herrera",
-		"name": "Eliezer Herrera",
-		"company": "FreeLancer",
-		"photoUrl": "/img/organizers/committee-members/eliezer-herrera.jpg",
-		"shortBio": "Desarrollador de software con más de 12 años de experiencia en la industria del software. Entusiasta y amante de la tecnología, especialmente la plataforma Java",
+		"id": "joser-almomen",
+		"name": "José R. Almonte",
+		"company": "HICX",
+		"photoUrl": "/img/organizers/committee-members/joser-almonte.jpg",
+		"shortBio": "Ingeniero en Desarrollo de Software y Telemática, apasionado por la tecnología y sus dependencias.",
 		"bio": "",
 		"tags": [],
 		"badges": [{
@@ -114,12 +114,17 @@
 		"socials": [{
 				"icon": "twitter",
 				"name": "Twitter",
-				"link": "https://twitter.com/eliesongo"
+				"link": "https://twitter.com/JRAC_2100"
 			},
 			{
 				"icon": "github",
 				"name": "Github",
-				"link": "https://github.com/zerh"
+				"link": "https://github.com/xTryHard"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/jrac/"
 			}
 		]
 	},
