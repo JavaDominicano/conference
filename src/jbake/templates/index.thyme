@@ -13,9 +13,11 @@
       		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
 					<h1 class="mb-4 pb-0">The Caribbean Java Technologies Conference.</h1>
 					<p class="mb-4 pb-0">July 23, 2022. Virtual Edition.</p>
+		      <a href="#" class="about-btn scrollto" title="Tickets will be available soon" target="_blank">Tickets will be available soon</a>
 
+					<p class="mb-4 pb-0">Workshops @ JConf Dominicana 2022</p>
+					<a href="https://www.eventbrite.com/e/workshops-jconf-dominicana-2022-tickets-382732411947" class="about-btn scrollto" title="Workshops @ JConf Dominicana 2022 - 	Buy Tickets" target="_blank">Buy Tickets</a>
 
-		      <a href="https://www.papercall.io/jconfdominicana2022" class="about-btn scrollto" title="Call For Paper" target="_blank">Apply to become a speaker</a>
 
 			</div>
 		</section>
