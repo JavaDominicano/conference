@@ -2,9 +2,9 @@
   "id": "manases-jesus",
   "name": "Manasés Jesús",
   "photoUrl": "/img/speakers/manases-jesus.png",
-  "title": "Software Developer",
+  "title": "Software Architect",
   "shortBio": "",
-  "countryFlag": "flag-icon-de",
+  "countryFlag": "flag-icon-mx",
   "bio": "Manasés Jesús has been developing applications since high school employing different programming languages, tech-stacks and software development methodologies. He has architected and implemented distributed systems, mobile and cloud-native applications, as well as led projects and delivered working software to a range of international corporations in the banking, IT and IoT sectors. He has trained fellow software engineers, published articles, as well as spoken at Google Developer Groups and international conferences. He has also been featured in the O'Reilly's book _\"97 Things Every Cloud Engineer Should Know\"_.",
   "socials": [{
     "icon": "github",
