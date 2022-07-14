@@ -579,10 +579,51 @@ var linguJSON = {
     }
     ,
     {
-      "source" : "July 23, 2022",
-      "target_es":"23 de Julio, 2022"
+      "source" : "July 22, 2022",
+      "target_es":"22 de Julio, 2022"
+    },
+
+    {
+      "source" : "Workshops",
+      "target_es":"Talleres"
+    },
+    {
+
+      "source":"09:00 A.M – 1:00 P.M AST - Workshop: Containers and Orchestrators for Java Developer by",
+      "target_es" : "09:00 A.M – 1:00 P.M AST - Contenedores y Orquestadores de Software Para Javeros por"
+    },
+    {
+      "source" : "09:00 A.M – 1:00 P.M AST - Workshop: New features after Java 8 that make your life easier by",
+      "target_es":"02:00 P.M – 6:00 P.M AST - Novedades después de Java 8 que hacen tu vida más fácil por"
+    },
+
+    {
+      "source" : "Location: PUCMM, Santiago",
+      "target_es":"Lugar: PUCMM, Santiago"
+    },
+
+    {
+      "source" : "Location: PUCMM, Santo Domingo",
+      "target_es":"Lugar: PUCMM, Santo Domingo"
+    },
+
+    {
+      "source" : "The high cost of not upgrading Java in your company.",
+      "target_es":"El alto costo de no actualizar Java en tu empresa."
+    },
+    {
+      "source" : "Women who code Java: Debugging Stereotypes:",
+      "target_es":"Javeras Tricolor: Debuggeando Estereotipos:"
+    },
+
+    {
+      "source" : "Computer Vision with Jupyter, TensorFlow and Java.",
+      "target_es":"Computer Vision con Jupyter, TensorFlow y Java."
+    },
+    {
+      "source" : "July 22, 2022. Workshops @ JConf Dominicana 2022",
+      "target_es":"22 de Julio de 2022. Talleres @ JConf Dominicana 2022"
     }
-
-
+    
   ]
 }

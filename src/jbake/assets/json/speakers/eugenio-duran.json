@@ -2,15 +2,14 @@
   "id": "eugenio-duran",
   "name": "Jose Eugenio Duran",
   "photoUrl": "/img/organizers/committee-members/eugenio-duran.jpg",
-  "title":"Software Developer",
+  "title": "Software Engineer",
   "shortBio": "",
   "countryFlag": "flag-icon-do",
-  "bio":  "",
+  "bio":  "Software Developer who loves Java and likes to learn new technologies, I love books, movies and meet people",
   "socials": [{
     "icon": "twitter",
     "name": "Twitter",
     "link": "https://twitter.com/eugh_x"
-  }
-  ]
+  }]
 
 }

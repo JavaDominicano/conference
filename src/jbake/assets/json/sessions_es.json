@@ -59,17 +59,16 @@
 			"id": 104,
 			"title": "Lucee Framework - \"The Unknown Java Legacy Framework\"",
 			"time": "11:35:00 AM",
-			"abstract": "I'm going to talk about an \"unknown java framework\" called LUCEE which is used to write down legacy business application with the \"rapid-development\" slogan in mind. What it is, why was develop, who use it, advantages, disadvantages, cost, learning curve, design patterns and so much more...",
-			"description": "I'm going to talk about the \u003cb\u003eLUCEE FRAMEWORK\u003c/b\u003e and the most basic features.",
+			"abstract": "Vamos a hablar sobre un \"Framework Java desconocido\" llamado LUCEE que se usa para escribir aplicaciones comerciales legacy con el concepto de \"desarrollo rápido\" en mente. Qué es, por qué se desarrolló, quién lo usa, ventajas, desventajas, costo, curva de aprendizaje, patrones de diseño y mucho más...",
+			"description": "Vamos a conversar sobre el \u003cb\u003eLUCEE FRAMEWORK\u003c/b\u003e y las características más básicas.",
 		 "audience_level": "All",
 			"talk_format": "Talk (~30-45 minutes)",
 			"language": "es",
 			"tags": [
-				"Transformation Case Studies"
+				"lucee","java","framework","coldfusion","programming-language","legacy"
 			],
 			"speakers": [
-				"Framework",
-				"Java"
+				"gustavo-henriquez"
 			]
 		},
 
@@ -101,7 +100,7 @@
 	 "audience_level": "All",
 	 	"time": "12:35:00 PM",
 		"talk_format": "Talk (~30-45 minutes)",
-		"language": "es",
+		"language": "en",
 		"tags": [
 						"Event Streaming",
              "Distributed Messaging",
@@ -117,7 +116,7 @@
 
   "107": {
 		"id": 107,
-		"title": "Community Panel",
+		"title": "Panel de la comunidad",
 		"abstract": "Javeras Tricolor: Debuggeando Estereotipos",
 		"description": "Presencia del género femenino en el multiverso Java.",
 	 "audience_level": "All",
@@ -136,8 +135,8 @@
 	"108": {
 		"id": 108,
 		"title": "Handle errors in your application without tears",
-		"abstract": "Users don't always follow the happy path while using your application. They might enter the wrong values. The database or the API integration might go down. In this workshop, I'll show you how to deal with all 3 without ending up with a spaghetti code and, more importantly, without tears :).",
-		"description": "Things don't always go as planned in our applications. We always need to validate user inputs and handle third-party integration errors. Yet, developers always struggle to find the right way to handle errors and exceptions in codes without ending up with a spaghetti code. Clear error management makes your code more predictable, maintainable, and easy to reason about.\r\n\r\nIn this workshop, you will learn how to create and categorize your error codes so they can serve as up-to-date documentation when you need to integrate with your own API. Additionally, I'll share techniques that can help you translate your error messages to other languages without tears, give users general messages, and log more detailed messages for debugging or audit purposes.\r\n\r\nJoin me to see how we can improve the user experience in our applications and learn how better error handling results in better code.",
+		"abstract": "Los usuarios no siempre siguen el camino feliz mientras usan su aplicación. Es posible que introduzcan valores incorrectos. La base de datos o la integración de la API pueden dejar de funcionar. En esta charla, te mostraré cómo lidiar con los tres sin terminar con un código de espagueti y, lo que es más importante, sin lágrimas :).",
+		"description": "Las cosas no siempre salen según lo planeado en nuestras aplicaciones. Siempre necesitamos validar las entradas de los usuarios y manejar los errores de integración de terceros. Sin embargo, los desarrolladores siempre luchan por encontrar la forma correcta de manejar los errores y las excepciones en los códigos sin terminar con un código espagueti. La gestión clara de errores hace que su código sea más predecible, mantenible y fácil de razonar.\r\n\r\nEn esta charla, aprenderá a crear y categorizar sus códigos de error para que puedan servir como documentación actualizada cuando necesite integrarse con su propia API. Además, compartiré técnicas que pueden ayudarlo a traducir sus mensajes de error a otros idiomas sin lágrimas, dar a los usuarios mensajes generales y registrar mensajes más detallados con fines de depuración o auditoría.\r\n\r\nÚnase a mí para ver cómo puede mejorar la experiencia del usuario en nuestras aplicaciones y aprender cómo un mejor manejo de errores da como resultado un mejor código.",
 	 "audience_level": "All",
 	 	"time": "1:35 PM",
 		"talk_format": "Talk (~30 minutes)",

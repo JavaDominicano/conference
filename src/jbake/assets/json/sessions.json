@@ -21,7 +21,7 @@
 
 	"102": {
 		"id": 102,
-		"title": "El alto costo de no actualizar Java en tu empresa.",
+		"title": "The high cost of not upgrading Java in your company.",
 		"abstract": "Con los nuevos releases de Java sucediendo cada 6 meses y la tecnología avanzando tan rápido, es muy fácil quedarnos atrás y esto supone un costo, a veces muy alto que muchas veces ignoramos y cuando venimos a cuantificarlos es bastante alto para pagarlo.",
 		"description": "Con los nuevos releases de Java sucediendo cada 6 meses y la tecnología avanzando tan rápido, es muy fácil quedarnos atrás y esto supone un costo, a veces muy alto que muchas veces ignoramos y cuando venimos a cuantificarlos es bastante alto para pagarlo.",
 		"audience_level": "Intermediate",
@@ -118,7 +118,7 @@
   "107": {
 		"id": 107,
 		"title": "Community Panel",
-		"abstract": "Javeras Tricolor: Debuggeando Estereotipos",
+		"abstract": "Women who code Java: Debugging Stereotypes",
 		"description": "Presencia del género femenino en el multiverso Java.",
 	 "audience_level": "All",
 	 	"time": "1:05 PM",
@@ -157,7 +157,7 @@
 	},
 		"109": {
 			"id": 109,
-			"title": "Computer Vision con Jupyter, TensorFlow y Java",
+			"title": "Computer Vision with Jupyter, TensorFlow and Java",
 			"abstract": "Jupyter y Python son 2 herramientas que usualmente van de la mano en el desarrollo de modelos de Machine Learning y AI de cualquier tipo, pero ¿qué tal si te digo de que esto es posible en Java? ¿Y mejor aún, usando Tensorflow ?  En esta charla, lo descubriremos.",
 			"description": "En esta charla realizaremos un modelo sencillo de computer vision (o vision computacional) el cual se centrara en enseñar como utilizar las herramientas de Jupyter y Tensorflow (junto con otras librerías mas) en la plataforma Java, con el objetivo de mostrar a los desarrolladores Java que quieran entrar en el campo de la Inteligencia Artificial, Data Science o areas afines, de que es posible también hacer todo esto en Java sin necesidad de cambiar de lenguaje (a Python como es la norma en esta area). Mostraremos el proceso completo de creación y entrenamiento de un modelo en Tensorflow (el cual explicaremos como instalarlo en Java). Como los modelos de computer vision se basan en el Deep Learning, un subset de Machine Learning, también veremos de manera resumida conceptos básicos de Machine Learning y Deep Learning y sobre todo lo que son las Redes Neuronales Convolucionales (CNN en inglés).",
 		 "audience_level": "All",
@@ -179,7 +179,7 @@
 	},
 	"110": {
 		"id": 110,
-		"title": "Taller de Contenedores y Orquestadores de Software Para Javeros",
+		"title": "Workshop: Containers and Orchestrators for Java Developer",
 		"abstract": "Taller para desmitificar el uso de los contenedores y orquestadores de software en aplicaciones Java. Estaremos abordando los conceptos básicos y practicándolos.",
 		"description": "Los contenedores y orquestadores de software son herramientas muy demandas al día de hoy por los beneficios en aislamiento, despliegue y homogeneidad en las fases de desarrollo que nos proporcionan, dicho conocimiento es muy demandado en conjunto con las herramientas que utilizamos para nuestro desarrollo y es importante dominar la creación, despliegue y actualización de nuestras aplicaciones utilizando contenedores de software. Al mismo tiempo, coordinar un grupo de contenedores puede ser una tarea compleja y los orquestadores de software nos ayudan en ese sentido.\r\n\r\nEn nuestro taller estaremos trabajando específicamente con la tecnología Docker para implementar los conceptos de contenedores y Kubernetes como plataforma para orquestar nuestros contenedores.",
 	 "audience_level": "All",
@@ -199,7 +199,7 @@
 },
 "111": {
 	"id": 111,
-	"title": "Novedades después de Java 8 que hacen tu vida más fácil",
+	"title": "Workshop: New features after Java 8 that make your life easier",
 	"abstract": "En este taller vamos a trabajar con las novedades después de Java SE 8, los beneficios que ofrecen y qué cosas emocionantes están por venir. Así como también, abordaremos tus inquietudes sobre los retos que supone el nuevo ciclo de lanzamiento.",
 	"description": "En su nuevo modelo de lanzamiento, cada seis meses liberan una nueva versión de Java. Los lanzamientos que se demoraban varios años son cosas del pasado, Java ha adoptado el espíritu de agilidad para hacer frente a la era de la nueva tecnología. Algunos se preguntan, ¿Qué impacto tendrá este lanzamiento frecuente en Java, su calidad, adopción y desarrollo futuro? Qué intensivos tienen los desarrolladores y las organizaciones para seguir el ritmo de Java. ¿Deberían mantenerse al día o ponerse al día una vez en unos pocos años? Todas son buenas preguntas y preocupaciones razonables.\r\n\r\nA partir de Java SE 8 han sucedido muchos cambios, las actualizaciones a los APIs y las nuevas funcionalidades del lenguaje son realmente geniales y muy útiles en tu trabajo del día a día.\r\n\r\nEn este taller vamos a trabajar con las novedades después de Java SE 8, los beneficios que ofrecen y qué cosas emocionantes están por venir. Así como también, abordaremos tus inquietudes sobre los retos que supone el nuevo ciclo de lanzamiento.",
  "audience_level": "Intermediate",
