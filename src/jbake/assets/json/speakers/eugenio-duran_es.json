@@ -1,0 +1,16 @@
+{
+  "id": "eugenio-duran",
+  "name": "Jose Eugenio Duran",
+  "photoUrl": "/img/organizers/committee-members/eugenio-duran.png",
+  "title":"Desarrollador de Software",
+  "shortBio": "",
+  "countryFlag": "flag-icon-do",
+  "bio":  "",
+  "socials": [{
+    "icon": "twitter",
+    "name": "Twitter",
+    "link": "https://twitter.com/eugh_x"
+  }
+  ]
+
+}
