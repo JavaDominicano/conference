@@ -130,9 +130,19 @@
 			"description": "Software Architect"
 		}],
 		 "socials": [{
-      "icon": "link",
-      "name": "link",
-      "link": "https://sessionize.com/manasesjesus"
+       "icon": "github",
+       "name": "GitHub",
+       "link": "https://github.com/manasesjesus"
+     }, 
+     {
+       "icon": "linkedin",
+       "name": "LinkedIn",
+       "link": "https://www.linkedin.com/in/manasesjesus/"
+     },
+     { 
+       "icon": "link",
+       "name": "link",
+       "link": "https://sessionize.com/manasesjesus"
     }
     ]
 	},
