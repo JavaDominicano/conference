@@ -40,8 +40,8 @@
 	"103": {
 		"id": 103,
 		"title": "Demystifying the Java Flight Recorder API",
-		"abstract": "This talk will be useful for developers who wish to monitor the performance of the applications especially in case of heavy data loads. It will help developers to understand how to use and integrate the JFR APIs in their existing Java based projects seamlessly along with the best practices.",
-		"description": "This session primarily aims at providing details about how to go about using the Java Flight Recorder API. It also explains the reasons to use the JFR API over the conventional Java Logging API by highlighting the key differences between them.",
+		"abstract": "Esta charla será útil para los desarrolladores que deseen monitorear el rendimiento de las aplicaciones, especialmente en caso de grandes cargas de datos. Ayudará a los desarrolladores a comprender cómo usar e integrar el API de JFR en sus proyectos existentes basados en Java sin problemas junto con las mejores prácticas.",
+		"description": "Esta sesión tiene como objetivo principal proporcionar detalles sobre cómo usar el JFR API. También explica las razones para usar el JFR API en lugar del convencional Java Logging API al resaltar las diferencias clave entre ellas.",
 	 "audience_level": "All",
 	 	"time": "11:05:00 AM",
 		"talk_format": "Talk (~30-45 minutes)",
@@ -96,8 +96,8 @@
 	"106": {
 		"id": 106,
 		"title": "Event Streaming and Processing with Apache Pulsar",
-		"abstract": "Apache Pulsar has taken enterprise event-driven messaging and streaming systems to a new height, unifying message streaming, queueing, mediation, and transformation all on the same platform.  It is poised to become the de facto go-to platform for event streaming in the modern cloud native world.",
-		"description": "When it comes to distributed, event-driven messaging systems, we usually see them supporting either one of two types of semantics: streaming, or queueing, and rarely do we find a platform that supports both.  In this presentation, we’ll first get an introduction and some clarifications of event-driven versus message-driven systems, event streams, and stream processing.  We’ll then take a look at Apache Pulsar which offers a very unique capability in modern, cloud-native applications and architecture, in which its platform supports both Pub-Sub and Message Queues, and extends into streams processing as well as performs message mediation \u0026 transformation.  We will look at how it relies on Apache Bookkeeper for its durable, scalable, and performant storage of log streams, and leverages on Apache Zookeeper.  We will also see how Pulsar is meant to bring the best of other systems, such as how it fills the gaps that Kafka has and extends its streaming capability in the complex cloud world.",
+		"abstract": "Apache Pulsar ha llevado los sistemas empresariales  basados en eventos de transmisión y mensajería a un nuevo nivel, unificando la transmisión, la cola, la mediación y la transformación de mensajes, todo en la misma plataforma. Está a punto de convertirse en la plataforma de acceso de facto para la transmisión de eventos en el mundo moderno nativo de la nube.",
+		"description": "Cuando se trata de sistemas de mensajería controlados por eventos distribuidos, generalmente los vemos compatibles con uno de los dos tipos de semántica: streaming o colas, y rara vez encontramos una plataforma que admita ambos. En esta presentación, primero obtendremos una introducción y algunas aclaraciones sobre los sistemas controlados por eventos y los controlados por mensajes, los flujos de eventos y el procesamiento de flujos. Luego, analizaremos Apache Pulsar, que ofrece una capacidad única en arquitectura y aplicaciones modernas y nativas de la nube, en la que su plataforma es compatible con Pub-Sub y Message Queues, y se extiende al streams processing y realiza la mediación de mensajes. Veremos cómo se basa en Apache Bookkeeper para su almacenamiento duradero, escalable y eficaz de flujos de registros, y cómo aprovecha Apache Zookeeper. También veremos cómo Pulsar está destinado a brindar lo mejor de otros sistemas, por ejemplo, cómo llena los vacíos que tiene Kafka y amplía su capacidad de transmisión en el complejo mundo de la nube.",
 	 "audience_level": "All",
 	 	"time": "12:35:00 PM",
 		"talk_format": "Talk (~30-45 minutes)",
