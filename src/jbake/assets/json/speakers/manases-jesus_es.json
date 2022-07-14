@@ -7,6 +7,16 @@
   "countryFlag": "flag-icon-mx",
   "bio": "Manasés Jesús desarrolla aplicaciones desde la escuela secundaria empleando diferentes lenguajes de programación, tech-stacks y metodologías de desarrollo de software. Ha diseñado e implementado sistemas distribuidos, aplicaciones móviles y nativas de la nube, además de liderar proyectos y entregar software de trabajo a una variedad de corporaciones internacionales en los sectores de banca, TI e IoT. Ha formado a otros ingenieros de software, ha publicado artículos y ha hablado en grupos de desarrolladores de Google y en conferencias internacionales. También ha aparecido en el libro de O'Reilly  _\"97 Things Every Cloud Engineer Should Know\"_.",
   "socials": [{
+    "icon": "github",
+    "name": "GitHub",
+    "link": "https://github.com/manasesjesus"
+  }, 
+  {
+    "icon": "linkedin",
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/manasesjesus/"
+  },
+  { 
     "icon": "link",
     "name": "link",
     "link": "https://sessionize.com/manasesjesus"
