@@ -1,38 +1,55 @@
 {
 	"101": {
-		"id": "ccamachog",
-		"name": "Carlos Camacho",
-		"company": "AvatharTech",
+		 "id": "karan-balkar",
+    "name": "Karan Balkar",
+		"company": "LTI",
 		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/ccamachog.png",
+		"country": "India",
+		"countryFlag": "flag-icon-in",
+	  "photoUrl": "/img/speakers/karan-balkar.jpg",
 		"shortBio": "",
 		"bio": "",
 		"tags": [],
 		"badges": [{
-			"name": "CTO",
-			"description": "CTO"
+			"name": "Software Engineer",
+			"description": "Software Engineer"
 		}],
-		"socials": [{
+		 	"socials": [{
 				"icon": "twitter",
 				"name": "Twitter",
-				"link": "https://twitter.com/ccamachog"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/vacax"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/ccamachog/"
+				"link": "https://twitter.com/threadsoflifebg"
 			}
 		]
 	},
-
 	"102": {
+		"id": "mary-grygleski",
+   	"name": "Mary Grygleski",
+		"company": "DataStax",
+		"companyLogo": "",
+		"country": "Chicago, IL",
+		"countryFlag": "flag-icon-us",
+	  "photoUrl": "/img/speakers/mary-grygleski.jpeg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Engineer",
+			"description": "Software Engineer"
+		}],
+	"socials": [
+            {
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "http://twitter.com/mgrygles"
+            },
+            {
+                "icon": "link",
+                "name": "link",
+                "link": "https://dev.to/mgrygles"
+			}
+        ]
+	},
+	"103": {
 		"id": "euryperez",
 		"name": "Eury Perez Beltre",
 		"company": "Citizen",
@@ -65,7 +82,209 @@
  ]
 	},
 
-	"103": {
+	"104": {
+		"id": "clivens",
+		"name": "Clivens Petit",
+		"company": "Softrizon",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/peclevens.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "CTO",
+			"description": "CTO"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/peclevens"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/peclevens"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/peclevens"
+			}
+		]
+	},
+	"105": {
+		 "id": "manases-jesus",
+     "name": "Manasés Jesús",
+		"company": "Cumulocity IoT",
+		"companyLogo": "",
+		"country": "Germany",
+		"countryFlag": "flag-icon-de",
+		"photoUrl": "/img/speakers/manases-jesus.png",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Developer",
+			"description": "Software Developer"
+		}],
+		 "socials": [{
+      "icon": "link",
+      "name": "link",
+      "link": "https://sessionize.com/manasesjesus"
+    }
+    ]
+	},
+	"106": {
+		 "id": "gustavo-henriquez",
+    "name": "Gustavo José Henríquez Contreras",
+		"company": "",
+		"companyLogo": "",
+		"country": "Santiago, Dominican Republic",
+		"countryFlag": "flag-icon-do",
+	    "photoUrl": "/img/speakers/gustavo-henriquez.png",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Developer",
+			"description": "Software Developer"
+		}],
+		 "socials": []
+	},
+
+	"107": {
+		"id": "eugenio-duran",
+		"name": "Jose Eugenio Duran",
+		"company": "",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/organizers/committee-members/eugenio-duran.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Developer",
+			"description": "Software Developer"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eugh_x"
+			}
+		]
+	},
+
+	"108": {
+		"id": "juan-polanco",
+		"name": "Juan Jose Polanco Arias",
+		"company": "Intellisys D. Corp",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/juan-polanco.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Developer",
+			"description": "Software Developer"
+		}],
+		"socials": [
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/juanjpolancoa"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/jpolanco91"
+			}
+		]
+	},
+
+	"109": {
+		"id": "mareubi-garcia",
+		"name": "Mareubi García",
+		"company": "Ministerio de Hacienda",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/mareubi-garcia.jpeg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Programmer",
+			"description": "Programmer"
+		}],
+		"socials": [
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/mareubi-lynette-garc%C3%ADa-espiritusanto-54b3751a0"
+			}
+			]
+	},
+	"110": {
+		"id": "mirna-de-jesus",
+		"name": "Mirna N. De Jesús Cambero",
+		"company": "LTSE",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/mirna-de-jesus.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Engineer",
+			"description": "Software Engineer"
+		}],
+		"socials": [
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/mirnadejesus"
+			}
+			]
+	},
+	"111": {
+		"id": "ccamachog",
+		"name": "Carlos Camacho",
+		"company": "AvatharTech",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/ccamachog.png",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "CTO",
+			"description": "CTO"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/ccamachog"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/vacax"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/ccamachog/"
+			}
+		]
+	},
+	"112": {
 		"id": "ecabrerar",
 		"name": "Eudris Cabrera",
 		"company": "Ministerio de Hacienda",
@@ -103,169 +322,30 @@
 		]
 	},
 
-	"104": {
-		"id": "clivens",
-		"name": "Clivens Petit",
-		"company": "Softrizon",
-		"companyLogo": "",
-		"country": "Dominican Republic",
+	"113": {
+		"id": "cristal-guerrero",
+		"name": "Cristal Guerrero",
+		"company": "Ministerio de Hacienda, R.D.",
+		"photoUrl": "/img/organizers/committee-members/cristal-guerreo.jpg",
 		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/peclevens.jpg",
-		"shortBio": "",
+		"shortBio": "Skilled java developer with a Software Development Technician from ITLA and on the road to becoming a Data Engineer.",
 		"bio": "",
 		"tags": [],
 		"badges": [{
-			"name": "CTO",
-			"description": "CTO"
+			"name": "Software Developer",
+			"description": "Software Developer"
 		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/peclevens"
-			},
+		"socials": [
 			{
 				"icon": "github",
 				"name": "Github",
-				"link": "https://github.com/peclevens"
+				"link": "https://github.com/Sahira22"
 			},
 			{
 				"icon": "linkedin",
 				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/peclevens"
+				"link": "https://www.linkedin.com/in/cristal-sahira-guerrero-b953a4209"
 			}
-		]
-	},
-	"105": {
-		 "id": "manases-jesus",
-  	     "name": "Manasés Jesús",
-		"company": "Cumulocity IoT",
-		"companyLogo": "",
-		"country": "Germany",
-		"countryFlag": "flag-icon-de",
-		"photoUrl": "/img/speakers/manases-jesus.png",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Software Developer",
-			"description": "Software Developer"
-		}],
-		 "socials": [{
-      "icon": "link",
-      "name": "link",
-      "link": "https://sessionize.com/manasesjesus"
-    }
-    ]
-	},
-	"106": {
-		 "id": "gustavo-henriquez",
-    "name": "Gustavo José Henríquez Contreras",
-		"company": "",
-		"companyLogo": "",
-		"country": "Santiago, Dominican Republic",
-		"countryFlag": "flag-icon-do",
-	    "photoUrl": "/img/speakers/gustavo-henriquez.png",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Software Developer",
-			"description": "Software Developer"
-		}],
-		 "socials": []
-	},
-	"107": {
-		 "id": "karan-balkar",
-    "name": "Karan Balkar",
-		"company": "LTI",
-		"companyLogo": "",
-		"country": "India",
-		"countryFlag": "flag-icon-in",
-	  "photoUrl": "/img/speakers/karan-balkar.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Software Engineer",
-			"description": "Software Engineer"
-		}],
-		 	"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/threadsoflifebg"
-			}
-		]
-	},
-	"108": {
-		"id": "mary-grygleski",
-   	"name": "Mary Grygleski",
-		"company": "DataStax",
-		"companyLogo": "",
-		"country": "Chicago, IL",
-		"countryFlag": "flag-icon-us",
-	  "photoUrl": "/img/speakers/mary-grygleski.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Software Engineer",
-			"description": "Software Engineer"
-		}],
-	"socials": [
-            {
-                "icon": "fab fa-twitter",
-                "name": "Twitter",
-                "link": "http://twitter.com/mgrygles"
-            },
-            {
-                "icon": "link",
-                "name": "link",
-                "link": "https://dev.to/mgrygles"
-			}
-        ]
-	},
-	"109": {
-		"id": "eugenio-duran",
-		"name": "Jose Eugenio Duran",
-		"company": "",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/organizers/committee-members/eugenio-duran.png",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Software Developer",
-			"description": "Software Developer"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/eugh_x"
-			}
-		]
-	},
-	"110": {
-		"id": "juan-polanco",
-		"name": "Juan Jose Polanco Arias",
-		"company": "Intellisys D. Corp",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/juan-polanco.png",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Software Developer",
-			"description": "Software Developer"
-		}],
-		"socials": [{
-			"icon": "twitter",
-			"name": "Twitter",
-			"link": "https://twitter.com/eugh_x"
-		}
 		]
 	}
 }

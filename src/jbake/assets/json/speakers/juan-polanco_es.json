@@ -1,11 +1,22 @@
 {
   "id": "juan-polanco",
   "name": "Juan Jose Polanco Arias",
-  "photoUrl": "/img/speakers/juan-polanco.png",
+  "photoUrl": "/img/speakers/juan-polanco.jpg",
   "title":"",
   "shortBio": "",
   "countryFlag": "flag-icon-do",
   "bio": "Ingeniero Telemático, amante del software development, inteligencia artificial, desarrollo de tecnología, investigación y emprendimiento. Fuera de la tecnología, soy Crossfiter, fan de la lucha libre profesional (AEW, WWE, NJPW, AAA), automovilismo (Formula 1, WEC, Formula E), seguidor de anime (Yugioh mi favorito incluyendo el juego de cartas) y el hiking/rapelling. Me gusta viajar y conocer lugares nuevos, el turismo de montaña y aventura y hacer crossfit.",
-  "socials": []
+  "socials": [
+    {
+			"icon": "linkedin",
+			"name": "Linkedin",
+			"link": "https://www.linkedin.com/in/juanjpolancoa"
+		},
+    {
+			"icon": "github",
+			"name": "Github",
+			"link": "https://github.com/jpolanco91"
+		}
+  ]
 
 }

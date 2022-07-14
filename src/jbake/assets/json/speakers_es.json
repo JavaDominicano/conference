@@ -1,43 +1,62 @@
 {
+
 	"101": {
-		"id": "ccamachog",
-		"name": "Carlos Camacho",
-		"company": "AvatharTech",
+		"id": "karan-balkar",
+		"name": "Karan Balkar",
+		"company": "LTI",
 		"companyLogo": "",
-		"country": "Republica Dominicana",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/ccamachog.png",
+		"country": "India",
+		"countryFlag": "flag-icon-in",
+		"photoUrl": "/img/speakers/karan-balkar.jpg",
 		"shortBio": "",
 		"bio": "",
 		"tags": [],
 		"badges": [{
-			"name": "Director de Tecnología",
-			"description": "Director de Tecnología"
+			"name": "Desarrollador de Software",
+			"description": "Desarrollador de Software"
 		}],
 		"socials": [{
 			"icon": "twitter",
 			"name": "Twitter",
-			"link": "https://twitter.com/ccamachog"
-		},
+			"link": "https://twitter.com/threadsoflifebg"
+		}
+		]
+	},
+	"102": {
+		"id": "mary-grygleski",
+		"name": "Mary Grygleski",
+		"company": "DataStax",
+		"companyLogo": "",
+		"country": "Chicago, IL",
+		"countryFlag": "flag-icon-us",
+		"photoUrl": "/img/speakers/mary-grygleski.jpeg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Desarrollador de Software",
+			"description": "Desarrollador de Software"
+		}],
+		"socials": [
 			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/vacax"
+				"icon": "fab fa-twitter",
+				"name": "Twitter",
+				"link": "http://twitter.com/mgrygles"
 			},
 			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/ccamachog/"
+				"icon": "link",
+				"name": "link",
+				"link": "https://dev.to/mgrygles"
 			}
 		]
 	},
 
-	"102": {
+	"103": {
 		"id": "euryperez",
 		"name": "Eury Perez Beltre",
 		"company": "Citizen",
 		"companyLogo": "",
-		"country": "Republica Dominicana",
+		"country": "República Dominicana",
 		"countryFlag": "flag-icon-do",
 		"photoUrl": "/img/speakers/euryperez.jpg",
 		"shortBio": "",
@@ -65,50 +84,12 @@
 		]
 	},
 
-	"103": {
-		"id": "ecabrerar",
-		"name": "Eudris Cabrera",
-		"company": "Ministerio de Hacienda",
-		"companyLogo": "",
-		"country": "Republica Dominicana",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/ecabrerar.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Desarrollador Informático",
-			"description": "Desarrollador Informático"
-		}],
-		"socials": [{
-			"icon": "twitter",
-			"name": "Twitter",
-			"link": "https://twitter.com/eudriscabrera"
-		},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "https://eudriscabrera.com"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/ecabrerar"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/eudriscabrera"
-			}
-		]
-	},
-
 	"104": {
 		"id": "clivens",
 		"name": "Clivens Petit",
 		"company": "Softrizon",
 		"companyLogo": "",
-		"country": "Republica Dominicana",
+		"country": "República Dominicana",
 		"countryFlag": "flag-icon-do",
 		"photoUrl": "/img/speakers/peclevens.jpg",
 		"shortBio": "",
@@ -162,7 +143,7 @@
 		"name": "Gustavo José Henríquez Contreras",
 		"company": "",
 		"companyLogo": "",
-		"country": "Santiago, Republica Dominicana",
+		"country": "República Dominicana",
 		"countryFlag": "flag-icon-do",
 		"photoUrl": "/img/speakers/gustavo-henriquez.png",
 		"shortBio": "",
@@ -174,64 +155,15 @@
 		}],
 		"socials": []
 	},
+
 	"107": {
-		"id": "karan-balkar",
-		"name": "Karan Balkar",
-		"company": "LTI",
-		"companyLogo": "",
-		"country": "India",
-		"countryFlag": "flag-icon-in",
-		"photoUrl": "/img/speakers/karan-balkar.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Desarrollador de Software",
-			"description": "Desarrollador de Software"
-		}],
-		"socials": [{
-			"icon": "twitter",
-			"name": "Twitter",
-			"link": "https://twitter.com/threadsoflifebg"
-		}
-		]
-	},
-	"108": {
-		"id": "mary-grygleski",
-		"name": "Mary Grygleski",
-		"company": "DataStax",
-		"companyLogo": "",
-		"country": "Chicago, IL",
-		"countryFlag": "flag-icon-us",
-		"photoUrl": "/img/speakers/mary-grygleski.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Desarrollador de Software",
-			"description": "Desarrollador de Software"
-		}],
-		"socials": [
-			{
-				"icon": "fab fa-twitter",
-				"name": "Twitter",
-				"link": "http://twitter.com/mgrygles"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "https://dev.to/mgrygles"
-			}
-		]
-	},
-	"109": {
 		"id": "eugenio-duran",
 		"name": "Jose Eugenio Duran",
 		"company": "",
 		"companyLogo": "",
-		"country": "Republica Dominicana",
+		"country": "República Dominicana",
 		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/organizers/committee-members/eugenio-duran.png",
+		"photoUrl": "/img/organizers/committee-members/eugenio-duran.jpg",
 		"shortBio": "",
 		"bio": "",
 		"tags": [],
@@ -246,14 +178,14 @@
 		}
 		]
 	},
-	"110": {
+	"108": {
 		"id": "juan-polanco",
 		"name": "Juan Jose Polanco Arias",
 		"company": "Intellisys D. Corp",
 		"companyLogo": "",
-		"country": "Republica Dominicana",
+		"country": "República Dominicana",
 		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/juan-polanco.png",
+		"photoUrl": "/img/speakers/juan-polanco.jpg",
 		"shortBio": "",
 		"bio": "",
 		"tags": [],
@@ -261,6 +193,158 @@
 			"name": "Desarrollador de Software",
 			"description": "Desarrollador de Software"
 		}],
-		"socials": []
+		"socials": [
+			{
+	      "icon": "linkedin",
+	      "name": "Linkedin",
+	      "link": "https://www.linkedin.com/in/juanjpolancoa"
+	    },
+	    {
+	      "icon": "github",
+	      "name": "Github",
+	      "link": "https://github.com/jpolanco91"
+	    }
+		]
+	},
+	"109": {
+		"id": "mareubi-garcia",
+		"name": "Mareubi García",
+		"company": "Ministerio de Hacienda",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/mareubi-garcia.jpeg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Programadora",
+			"description": "Programadora"
+		}],
+		"socials": [
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/mareubi-lynette-garc%C3%ADa-espiritusanto-54b3751a0"
+			}
+			]
+	},
+	"110": {
+		"id": "mirna-de-jesus",
+		"name": "Mirna N. De Jesús Cambero",
+		"company": "LTSE",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/mirna-de-jesus.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniera de Software",
+			"description": "Ingeniera de Software"
+		}],
+		"socials": [
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/mirnadejesus"
+			}
+			]
+	},
+	"111": {
+		"id": "ccamachog",
+		"name": "Carlos Camacho",
+		"company": "AvatharTech",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/ccamachog.png",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Director de Tecnología",
+			"description": "Director de Tecnología"
+		}],
+		"socials": [{
+			"icon": "twitter",
+			"name": "Twitter",
+			"link": "https://twitter.com/ccamachog"
+		},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/vacax"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/ccamachog/"
+			}
+		]
+	},
+	"112": {
+		"id": "ecabrerar",
+		"name": "Eudris Cabrera",
+		"company": "Ministerio de Hacienda",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/ecabrerar.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Desarrollador Informático",
+			"description": "Desarrollador Informático"
+		}],
+		"socials": [{
+			"icon": "twitter",
+			"name": "Twitter",
+			"link": "https://twitter.com/eudriscabrera"
+		},
+			{
+				"icon": "link",
+				"name": "link",
+				"link": "https://eudriscabrera.com"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/ecabrerar"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/eudriscabrera"
+			}
+		]
+	},
+	"113": {
+		"id": "cristal-guerrero",
+		"name": "Cristal Guerrero",
+		"company": "Ministerio de Hacienda, R.D.",
+		"photoUrl": "/img/organizers/committee-members/cristal-guerreo.jpg",
+		"countryFlag": "flag-icon-do",
+		"shortBio": "Desarrolladora Java con un técnico de desarrollo de software del ITLA y en camino a convertirme en ingeniera de datos.",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Desarrolladora de software",
+			"description": "Desarrolladora de software"
+		}],
+		"socials": [
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/Sahira22"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/cristal-sahira-guerrero-b953a4209"
+			}
+		]
 	}
 }

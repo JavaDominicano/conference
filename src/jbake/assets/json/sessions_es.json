@@ -1,15 +1,14 @@
 {
 
-
 	"101": {
 		"id": 101,
-		"title": "Clean Threading with Kotlin Coroutines",
-		"abstract": "Async y Threading son palabras que a menudo asustan a los desarrolladores. En Android, tradicionalmente hemos administrado algunas de esas tareas con la ahora obsoleta AsyncTask, pero esa forma orientada a la devolución de llamada tiene algunas limitaciones.\n\nAprendamos cómo podemos refactorizar nuestras operaciones en segundo plano heredadas usando devoluciones de llamada de una manera elegante y muy optimizada usando Kotlin Corutinas.\n\nComenzará con las corrutinas de Kotlin, aprenderá a realizar múltiples operaciones en paralelo o realizar operaciones secuenciales.",
-		"description": "Async y Threading son palabras que a menudo asustan a los desarrolladores. En Android, tradicionalmente hemos administrado algunas de esas tareas con la ahora obsoleta AsyncTask, pero esa forma orientada a la devolución de llamada tiene algunas limitaciones.\n\nAprendamos cómo podemos refactorizar nuestras operaciones en segundo plano heredadas usando devoluciones de llamada de una manera elegante y muy optimizada usando Kotlin Corutinas.\n\nComenzará con las corrutinas de Kotlin, aprenderá a realizar múltiples operaciones en paralelo o realizar operaciones secuenciales.",
-		"audience_level": "Intermedio",
-		"time": "10:30 AM",
+		"title": "Go with the Flow: smooth architecture design with Coroutines Flow",
+		"abstract": "Kotlin coroutines resuelve el problema de las tareas en segundo plano de una manera sencilla y conocida: usando suspend functions (async/await). Conozcamos Flow y como usarlo en nuestra arquitectura.",
+		"description": "Una de las tareas más complejas en el desarrollo de software es la concurrencia. Kotlin coroutines resuelve este problema de una manera sencilla y conocida: usando suspend functions (async/await). Dentro de coroutines existe Flow. Flow permite tener streams en nuestra arquitectura desde las capas más abstractas, evitando así depender de feature de la plataforma.\r\n\r\nEn esta charla aprenderás como diseñar tu arquitectura de forma sólida y fluida usando Kotlin Flow.",
+		"audience_level": "Intermediate",
+		"time": "10:00 AM",
 		"language": "es",
-		"talk_format": "Charla (~30-45 minutos)",
+		"talk_format": "Talk (~30-45 minutes)",
 		"tags": [
 		 "JVM",
 			"Kotlin",
@@ -22,127 +21,198 @@
 
 	"102": {
 		"id": 102,
-		"title": "Introducción a la máquina virtual políglota GraalVM",
-		"abstract": "Esta charla presentará cinco casos de uso para la máquina virtual políglota, GraalVM, que pueden beneficiar a su organización hoy. Desde acelerar sus aplicaciones hasta usar múltiples lenguajes de programación en el mismo proyecto, lenguajes nativos sobre la JVM y más.",
-		"description": "Esta charla presentará cinco casos de uso para la máquina virtual políglota, GraalVM, que pueden beneficiar a su organización hoy. Desde acelerar sus aplicaciones hasta usar múltiples lenguajes de programación en el mismo proyecto, lenguajes nativos sobre la JVM y más.",
-		"audience_level": "Intermedio",
-		"time": "11:15 AM",
+		"title": "El alto costo de no actualizar Java en tu empresa.",
+		"abstract": "Con los nuevos releases de Java sucediendo cada 6 meses y la tecnología avanzando tan rápido, es muy fácil quedarnos atrás y esto supone un costo, a veces muy alto que muchas veces ignoramos y cuando venimos a cuantificarlos es bastante alto para pagarlo.",
+		"description": "Con los nuevos releases de Java sucediendo cada 6 meses y la tecnología avanzando tan rápido, es muy fácil quedarnos atrás y esto supone un costo, a veces muy alto que muchas veces ignoramos y cuando venimos a cuantificarlos es bastante alto para pagarlo.",
+		"audience_level": "Intermediate",
+		"time": "10:35 AM",
 		"language": "es",
-		"talk_format": "Charla (~30-45 minutos)",
+		"talk_format": "Talk (~30-45 minutes)",
 		"tags": [
 			"Java",
 			"JVM"
 		],
 		"speakers": [
-			"psanders"
+			"eugenio-duran"
 		]
 	},
 
 	"103": {
 		"id": 103,
-		"title": "Mutiny: la programación reactiva más sofisticada en Quarkus",
-		"abstract": "En ésta sesión trateremos el tema de programación reactiva utilizando la librería Mutiny.Habrá código en vivo!",
-		"description": "¿Qué es programación reactiva? Cuando buscamos en Wikipedia, tu podrías encontrar la siguiente definición:\n\nReactive programming combines functional programming, the observer pattern, and the iterable programming\n\nEn español\n\nLa programación reactiva combina con la programación funcional, el patrón del observador y la programación iterable.\n\nEs correcta pero no encontramos una definición más útil pero hagamos una definición más sencilla.\n\nReactive programming is about programming with data streams.\n\nEn español\n\nLa programación reactiva se trata de programar con flujos de datos.\n\nMutiny es una nueva librería de programación reactiva.\n\nProporciona un modelo de desarrollo asincrónico simple pero potente que le permite crear aplicaciones reactivas.\n\n¿Fácil de implementar?\n\nEl API no requiere mucho conocimiento avanzado. Esto debería ayudar a diseñar su lógica.\n\nHabrá código en vivo!",
-	 "audience_level": "Todos",
-	 	"time": "12:00 M",
-		"talk_format": "Charla (~30-45 minutos)",
-		"language": "es",
+		"title": "Demystifying the Java Flight Recorder API",
+		"abstract": "This talk will be useful for developers who wish to monitor the performance of the applications especially in case of heavy data loads. It will help developers to understand how to use and integrate the JFR APIs in their existing Java based projects seamlessly along with the best practices.",
+		"description": "This session primarily aims at providing details about how to go about using the Java Flight Recorder API. It also explains the reasons to use the JFR API over the conventional Java Logging API by highlighting the key differences between them.",
+	 "audience_level": "All",
+	 	"time": "11:05:00 AM",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "en",
 		"tags": [
 			"Framework",
 			"Java"
 		],
 		"speakers": [
-			"juandiegolopezve"
+			"karan-balkar"
 		]
 	}
 	,
 	"104": {
 			"id": 104,
-			"title": "Our journey to adopt Kubernetes to create an App like Tinder from start to finish",
-			"time": "12:45 M",
-			"abstract": "¿Cuántas preguntas cruzan por su mente al momento de iniciar una aplicación compleja y adaptable a la plataforma como Tinder? Probablemente muchos, especialmente en términos de tecnología e infraestructura.\n\nEn esta charla, discutiremos nuestros enfoques para superar los desafíos que podrían impedirnos alcanzar nuestras metas para crear una solución viable para nuestros usuarios. Nos centraremos en herramientas de código abierto que nos ayuden a lograr los siguientes objetivos:\n\n-Tener una única fuente confiable para nuestros entornos que puedan respaldar nuestro plan de contingencia.\n- Reducir los gastos generales de incorporación de desarrolladores y aumentar la productividad.\n-Aproveche las tecnologías existentes para reducir el tiempo de comercialización.\n- Aumente el valor para nuestros usuarios al mejorar la confiabilidad del servicio.\n- Respalde los objetivos comerciales con métricas, análisis y la capacidad de observación de la plataforma.\nLe invito a unirse a mi charla para ayudarlo a optimizar su proceso de creación de aplicaciones empresariales complejas.",
-			"description":"¿Cuántas preguntas cruzan por su mente al momento de iniciar una aplicación compleja y adaptable a la plataforma como Tinder? Probablemente muchos, especialmente en términos de tecnología e infraestructura.\n\nEn esta charla, discutiremos nuestros enfoques para superar los desafíos que podrían impedirnos alcanzar nuestras metas para crear una solución viable para nuestros usuarios. Nos centraremos en herramientas de código abierto que nos ayuden a lograr los siguientes objetivos:\n\n-Tener una única fuente confiable para nuestros entornos que puedan respaldar nuestro plan de contingencia.\n- Reducir los gastos generales de incorporación de desarrolladores y aumentar la productividad.\n-Aproveche las tecnologías existentes para reducir el tiempo de comercialización.\n- Aumente el valor para nuestros usuarios al mejorar la confiabilidad del servicio.\n- Respalde los objetivos comerciales con métricas, análisis y la capacidad de observación de la plataforma.\nLe invito a unirse a mi charla para ayudarlo a optimizar su proceso de creación de aplicaciones empresariales complejas.",
-		 "audience_level": "Todos",
-			"talk_format": "Charla (~30-45 minutos)",
+			"title": "Lucee Framework - \"The Unknown Java Legacy Framework\"",
+			"time": "11:35:00 AM",
+			"abstract": "I'm going to talk about an \"unknown java framework\" called LUCEE which is used to write down legacy business application with the \"rapid-development\" slogan in mind. What it is, why was develop, who use it, advantages, disadvantages, cost, learning curve, design patterns and so much more...",
+			"description": "I'm going to talk about the \u003cb\u003eLUCEE FRAMEWORK\u003c/b\u003e and the most basic features.",
+		 "audience_level": "All",
+			"talk_format": "Talk (~30-45 minutes)",
 			"language": "es",
 			"tags": [
-				"Caso de Estudio"
+				"Transformation Case Studies"
 			],
 			"speakers": [
-				"clivens"
+				"Framework",
+				"Java"
 			]
 		},
 
 	"105": {
 		"id": 105,
-		"title": "Implementando servicios gRPC en Java",
-		"abstract": "Con la proliferación de sistemas que implementan la arquitectura de microservicios y los problemas asociados en el intercambios de mensajes bajo REST, surge un nuevo sistema que ayuda en gran medida en el rendimiento del intercambio de los mensajes para sistemas    multiplataformas e independiente del lenguaje de implementación, esa tecnología se llama gRPC (general-purpose Remote Procedure Call ) y estaremos viendo su implementación baja la plataforma Java e integrando en otros lenguajes.",
-		"description": "Con la proliferación de sistemas que implementan la arquitectura de microservicios y los problemas asociados en el intercambios de mensajes bajo REST, surge un nuevo sistema que ayuda en gran medida en el rendimiento del intercambio de los mensajes para sistemas    multiplataformas e independiente del lenguaje de implementación, esa tecnología se llama gRPC (general-purpose Remote Procedure Call ) y estaremos viendo su implementación baja la plataforma Java e integrando en otros  lenguajes.",
-	 "audience_level": "Todos",
-	 	"time": "1:30 PM",
-		"talk_format": "Charla (~30-45 minutos)",
+		"title": "Serverless Death Star",
+		"abstract": "La implementación más relevante de Serverless es la de Function-as-a-Service (FaaS), donde solamente hay que desplegar el código de las funciones y elegir qué eventos las activarán. Aunque parece un proceso sencillo, hay que tener en cuenta ciertos aspectos para evitar construir un sistema complejo.",
+		"description": "Serverless significa que no hay aprovisionamiento por adelantado ni gestión de servidores, y una economía de pago por uso para crear aplicaciones. En los últimos años se ha convertido en una palabra de moda que atrae a desarrolladores, y los arquitectos de soluciones adoptan cada vez más las arquitecturas basadas en eventos para desacoplar las aplicaciones distribuidas. Al hacer uso de funciones como servicio (FaaS), los desarrolladores despliegan el código de las funciones y eligen qué eventos las activarán. Aunque parece un proceso sencillo, hay que tener en cuenta ciertos aspectos a la hora de desarrollar aplicaciones serverless.\r\n\r\nEsta charla mostrará cómo construir una arquitectura serverless (multi-nube) y los anti-patrones a evitar.",
+	 "audience_level": "All",
+	 	"time": "12:05:00 PM",
+		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
 		"tags": [
-			"Framework",
-			"Java"
+			"cloud computing",
+					 "serverless",
+					 "architecture",
+					 "java functions"
 		],
 		"speakers": [
-			"ccamachog"
+			"manases-jesus"
 		]
 	},
 
 	"106": {
 		"id": 106,
-		"title": "Creando un Web API desde la idea hasta el despliegue de forma ágil",
-		"abstract": "El manejo y administración de API se están generalizando, actualmente es más fácil exponer las APIs de forma segura al mundo. Sin embargo, el ciclo de desarrollo de API tiene algunos casos pendientes que resolver. Todo el ciclo de vida de la API también debería ser ágil para seguir siendo relevante. Por lo tanto, es hora de pensar en una nueva forma de entregar API (simulacros y pruebas incluidas) para simplificar y acelerar el envío de API listas para producción.\n\nEn esta sesión vamos a crear un Web API abarcando diferentes fases del desarrollo de API (Diseño, Simulacro (mock) y pruebas) hasta llegar a producción.",
-		"description": "El manejo y administración de API se están generalizando, actualmente es más fácil exponer las APIs de forma segura al mundo. Sin embargo, el ciclo de desarrollo de API tiene algunos casos pendientes que resolver. Todo el ciclo de vida de la API también debería ser ágil para seguir siendo relevante. Por lo tanto, es hora de pensar en una nueva forma de entregar API (simulacros y pruebas incluidas) para simplificar y acelerar el envío de API listas para producción.\n\nEn esta sesión vamos a crear un Web API abarcando diferentes fases del desarrollo de API (Diseño, Simulación (mock) y pruebas) hasta llegar a producción.",
-	 "audience_level": "Todos",
-	 	"time": "2:15 PM",
-		"talk_format": "Charla (~30-45 minutos)",
-		"language": "es",
-		"tags": [
-			"API",
-			"Java",
-			"Testing"
-		],
-		"speakers": [
-			"ecabrerar"
-		]
-	},
-	"107": {
-		"id": 107,
-		"title": "Panel de la Comunidad",
-		"abstract": "Micro frameworks en Java: Casos de Uso.",
-		"description": "Micro frameworks en Java: Casos de Uso",
-	 "audience_level": "Todos",
-	 	"time": "3:00 PM",
+		"title": "Event Streaming and Processing with Apache Pulsar",
+		"abstract": "Apache Pulsar has taken enterprise event-driven messaging and streaming systems to a new height, unifying message streaming, queueing, mediation, and transformation all on the same platform.  It is poised to become the de facto go-to platform for event streaming in the modern cloud native world.",
+		"description": "When it comes to distributed, event-driven messaging systems, we usually see them supporting either one of two types of semantics: streaming, or queueing, and rarely do we find a platform that supports both.  In this presentation, we’ll first get an introduction and some clarifications of event-driven versus message-driven systems, event streams, and stream processing.  We’ll then take a look at Apache Pulsar which offers a very unique capability in modern, cloud-native applications and architecture, in which its platform supports both Pub-Sub and Message Queues, and extends into streams processing as well as performs message mediation \u0026 transformation.  We will look at how it relies on Apache Bookkeeper for its durable, scalable, and performant storage of log streams, and leverages on Apache Zookeeper.  We will also see how Pulsar is meant to bring the best of other systems, such as how it fills the gaps that Kafka has and extends its streaming capability in the complex cloud world.",
+	 "audience_level": "All",
+	 	"time": "12:35:00 PM",
 		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
 		"tags": [
-			"API",
-			"Java",
-			"Testing"
+						"Event Streaming",
+             "Distributed Messaging",
+             "Cloud Native",
+             "Open Source",
+             "Real time",
+             "Pub/Sub"
 		],
 		"speakers": [
-			"hector-ventura","eliezer-herrera"
+			"mary-grygleski"
+		]
+	},
+
+  "107": {
+		"id": 107,
+		"title": "Community Panel",
+		"abstract": "Javeras Tricolor: Debuggeando Estereotipos",
+		"description": "Presencia del género femenino en el multiverso Java.",
+	 "audience_level": "All",
+	 	"time": "1:05 PM",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "es",
+		"tags": [
+			"Mujeres TICs",
+			"Java"
+
+		],
+		"speakers": [
+		  "cristal-guerrero",	"mareubi-garcia","mirna-de-jesus"
 		]
 	},
 	"108": {
 		"id": 108,
-		"title": "Keynote",
-		"abstract": "Java: The Evolution Continues",
-		"description": "Java: The Evolution Continues",
+		"title": "Handle errors in your application without tears",
+		"abstract": "Users don't always follow the happy path while using your application. They might enter the wrong values. The database or the API integration might go down. In this workshop, I'll show you how to deal with all 3 without ending up with a spaghetti code and, more importantly, without tears :).",
+		"description": "Things don't always go as planned in our applications. We always need to validate user inputs and handle third-party integration errors. Yet, developers always struggle to find the right way to handle errors and exceptions in codes without ending up with a spaghetti code. Clear error management makes your code more predictable, maintainable, and easy to reason about.\r\n\r\nIn this workshop, you will learn how to create and categorize your error codes so they can serve as up-to-date documentation when you need to integrate with your own API. Additionally, I'll share techniques that can help you translate your error messages to other languages without tears, give users general messages, and log more detailed messages for debugging or audit purposes.\r\n\r\nJoin me to see how we can improve the user experience in our applications and learn how better error handling results in better code.",
 	 "audience_level": "All",
-		"time": "10:00 AM",
+	 	"time": "1:35 PM",
 		"talk_format": "Talk (~30 minutes)",
 		"language": "es",
 		"tags": [
-			"JDK",
-			"Java"
+			"Kotlin",
+					 "Java",
+					 "TypeScript",
+					 "Software Development",
+					 "Software Architecture",
+					 "Exception",
+					 "Error Handling"
 		],
 		"speakers": [
-			"hillmer-chona"
+			"clivens"
 		]
-	}
-
+	},
+		"109": {
+			"id": 109,
+			"title": "Computer Vision con Jupyter, TensorFlow y Java",
+			"abstract": "Jupyter y Python son 2 herramientas que usualmente van de la mano en el desarrollo de modelos de Machine Learning y AI de cualquier tipo, pero ¿qué tal si te digo de que esto es posible en Java? ¿Y mejor aún, usando Tensorflow ?  En esta charla, lo descubriremos.",
+			"description": "En esta charla realizaremos un modelo sencillo de computer vision (o vision computacional) el cual se centrara en enseñar como utilizar las herramientas de Jupyter y Tensorflow (junto con otras librerías mas) en la plataforma Java, con el objetivo de mostrar a los desarrolladores Java que quieran entrar en el campo de la Inteligencia Artificial, Data Science o areas afines, de que es posible también hacer todo esto en Java sin necesidad de cambiar de lenguaje (a Python como es la norma en esta area). Mostraremos el proceso completo de creación y entrenamiento de un modelo en Tensorflow (el cual explicaremos como instalarlo en Java). Como los modelos de computer vision se basan en el Deep Learning, un subset de Machine Learning, también veremos de manera resumida conceptos básicos de Machine Learning y Deep Learning y sobre todo lo que son las Redes Neuronales Convolucionales (CNN en inglés).",
+		 "audience_level": "All",
+			"time": "2:05 PM",
+			"talk_format": "Talk (~30 minutes)",
+			"language": "es",
+			"tags": [
+				"deep learning",
+             "java",
+             "artificial intelligence",
+             "jvm",
+             "jupyter",
+             "ijava",
+             "data science"
+			],
+			"speakers": [
+				"juan-polanco"
+			]
+	},
+	"110": {
+		"id": 110,
+		"title": "Taller de Contenedores y Orquestadores de Software Para Javeros",
+		"abstract": "Taller para desmitificar el uso de los contenedores y orquestadores de software en aplicaciones Java. Estaremos abordando los conceptos básicos y practicándolos.",
+		"description": "Los contenedores y orquestadores de software son herramientas muy demandas al día de hoy por los beneficios en aislamiento, despliegue y homogeneidad en las fases de desarrollo que nos proporcionan, dicho conocimiento es muy demandado en conjunto con las herramientas que utilizamos para nuestro desarrollo y es importante dominar la creación, despliegue y actualización de nuestras aplicaciones utilizando contenedores de software. Al mismo tiempo, coordinar un grupo de contenedores puede ser una tarea compleja y los orquestadores de software nos ayudan en ese sentido.\r\n\r\nEn nuestro taller estaremos trabajando específicamente con la tecnología Docker para implementar los conceptos de contenedores y Kubernetes como plataforma para orquestar nuestros contenedores.",
+	 "audience_level": "All",
+		"time": "9:00 A.M / 22 Julio 2022",
+		"talk_format": "Workshop (\u003e 60 minutes)",
+		"language": "es",
+		"tags": [
+					 "Contenedores",
+            "Docker",
+            "Kubernetes",
+            "Orquestadores",
+            "Java"
+		],
+		"speakers": [
+			"ccamachog"
+		]
+},
+"111": {
+	"id": 111,
+	"title": "Novedades después de Java 8 que hacen tu vida más fácil",
+	"abstract": "En este taller vamos a trabajar con las novedades después de Java SE 8, los beneficios que ofrecen y qué cosas emocionantes están por venir. Así como también, abordaremos tus inquietudes sobre los retos que supone el nuevo ciclo de lanzamiento.",
+	"description": "En su nuevo modelo de lanzamiento, cada seis meses liberan una nueva versión de Java. Los lanzamientos que se demoraban varios años son cosas del pasado, Java ha adoptado el espíritu de agilidad para hacer frente a la era de la nueva tecnología. Algunos se preguntan, ¿Qué impacto tendrá este lanzamiento frecuente en Java, su calidad, adopción y desarrollo futuro? Qué intensivos tienen los desarrolladores y las organizaciones para seguir el ritmo de Java. ¿Deberían mantenerse al día o ponerse al día una vez en unos pocos años? Todas son buenas preguntas y preocupaciones razonables.\r\n\r\nA partir de Java SE 8 han sucedido muchos cambios, las actualizaciones a los APIs y las nuevas funcionalidades del lenguaje son realmente geniales y muy útiles en tu trabajo del día a día.\r\n\r\nEn este taller vamos a trabajar con las novedades después de Java SE 8, los beneficios que ofrecen y qué cosas emocionantes están por venir. Así como también, abordaremos tus inquietudes sobre los retos que supone el nuevo ciclo de lanzamiento.",
+ "audience_level": "Intermediate",
+	"time": "2:00 P.M / 22 Julio 2022",
+	"talk_format": "Workshop (\u003e 60 minutes)",
+	"language": "es",
+	"tags": [
+		"java",
+			"jvm",
+			"jdk"
+	],
+	"speakers": [
+		"ecabrerar"
+	]
+}
 }
