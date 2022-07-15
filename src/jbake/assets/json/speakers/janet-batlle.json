@@ -1,0 +1,16 @@
+{
+ "id": "janet-batlle",
+ "name": "Janet Batlle Lasose",
+ "title":"IT Engineer",
+ "shortBio": "",
+	"photoUrl": "/img/speakers/janet-batlle.jpeg",
+ "countryFlag": "flag-icon-do",
+ "bio": "Graduated in Systems Engineering from UNPHU, with a postgraduate degree in Computer Technology from Intec, she has worked in the technology sector for around 20 years, 15 of which were in Jamaica as an IT Manager. Listening to music, watching movies, fishing and working in his garden are some of his favorite activities.",
+ "socials": [
+   {
+     "icon": "linkedin",
+     "name": "Linkedin",
+     "link": "https://www.linkedin.com/in/janet-batlle-lasose"
+   }
+ ]
+}
