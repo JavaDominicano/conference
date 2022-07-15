@@ -253,6 +253,34 @@
 			]
 	},
 	"111": {
+		"id": "cristal-guerrero",
+		"name": "Cristal Guerrero",
+		"company": "Ministerio de Hacienda, R.D.",
+		"photoUrl": "/img/organizers/committee-members/cristal-guerreo.jpg",
+		"countryFlag": "flag-icon-do",
+		"country": "República Dominicana",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Desarrolladora de software",
+			"description": "Desarrolladora de software"
+		}],
+		"socials": [
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/Sahira22"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/cristal-sahira-guerrero-b953a4209"
+			}
+		]
+	},
+
+	"112": {
 		"id": "ccamachog",
 		"name": "Carlos Camacho",
 		"company": "AvatharTech",
@@ -284,7 +312,31 @@
 			}
 		]
 	},
-	"112": {
+
+	"113": {
+		"id": "janet-batlle",
+		"name": "Janet Batlle Lasose",
+		"company": "Altice",
+		"photoUrl": "/img/speakers/janet-batlle.jpeg",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniero IT",
+			"description": "Ingeniero IT"
+		}],
+		"socials": [
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/janet-batlle-lasose"
+			}
+		]
+	},
+
+	"114": {
 		"id": "ecabrerar",
 		"name": "Eudris Cabrera",
 		"company": "Ministerio de Hacienda",
@@ -320,32 +372,6 @@
 				"link": "https://www.linkedin.com/in/eudriscabrera"
 			}
 		]
-	},
-	"113": {
-		"id": "cristal-guerrero",
-		"name": "Cristal Guerrero",
-		"company": "Ministerio de Hacienda, R.D.",
-		"photoUrl": "/img/organizers/committee-members/cristal-guerreo.jpg",
-		"countryFlag": "flag-icon-do",
-		"country": "República Dominicana",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Desarrolladora de software",
-			"description": "Desarrolladora de software"
-		}],
-		"socials": [
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/Sahira22"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/cristal-sahira-guerrero-b953a4209"
-			}
-		]
 	}
+
 }
