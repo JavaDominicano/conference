@@ -1,0 +1,16 @@
+{
+  "id": "mareubi-garcia",
+  "name": "Mareubi García",
+  "photoUrl": "/img/speakers/mareubi-garcia.jpeg",
+  "title":"Programmer",
+  "shortBio": "",
+  "countryFlag": "flag-icon-do",
+  "bio": "ITLA Software Development Technologist and currently a Software Engineering student with experience in different Java platforms as a Software Developer at the Ministerio de Hacienda. She considers herself a young believer, willing and proactive, with behavioral and technical skills, and a lover of technology.",
+  "socials": [
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/mareubi-lynette-garc%C3%ADa-espiritusanto-54b3751a0"
+    }
+    ]
+}

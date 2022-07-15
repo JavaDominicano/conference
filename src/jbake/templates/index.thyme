@@ -13,10 +13,10 @@
       		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
 					<h1 class="mb-4 pb-0">The Caribbean Java Technologies Conference.</h1>
 					<p class="mb-4 pb-0">July 23, 2022. Virtual Edition.</p>
-		      <a href="#" class="about-btn scrollto" title="Tickets will be available soon" target="_blank">Tickets will be available soon</a>
+		      <a href="https://www.crowdcast.io/e/jconf-dominicana-2022" class="about-btn scrollto" title="Register now" target="_blank">Register now</a>
 
-					<p class="mb-4 pb-0">Workshops @ JConf Dominicana 2022</p>
-					<a href="https://www.eventbrite.com/e/workshops-jconf-dominicana-2022-tickets-382732411947" class="about-btn scrollto" title="Workshops @ JConf Dominicana 2022 - 	Buy Tickets" target="_blank">Buy Tickets</a>
+					<p class="mb-4 pb-0">July 22, 2022. Workshops @ JConf Dominicana 2022</p>
+					<a href="https://www.eventbrite.com/e/workshops-jconf-dominicana-2022-tickets-382732411947" class="about-btn scrollto" title="Workshops @ JConf Dominicana 2022 - Buy Tickets" target="_blank">Buy Tickets</a>
 
 
 			</div>

@@ -1,0 +1,21 @@
+{
+ "id": "cristal-guerrero",
+ "name": "Cristal Guerrero",
+ "title":"Software Developer",
+ "shortBio": "",
+ "photoUrl": "/img/organizers/committee-members/cristal-guerreo.jpg",
+ "countryFlag": "flag-icon-do",
+ "bio": "Skilled java developer with a Software Development Technician from ITLA and on the road to becoming a Data Engineer.",
+ "socials": [
+   {
+     "icon": "github",
+     "name": "Github",
+     "link": "https://github.com/Sahira22"
+   },
+   {
+     "icon": "linkedin",
+     "name": "Linkedin",
+     "link": "https://www.linkedin.com/in/cristal-sahira-guerrero-b953a4209"
+   }
+ ]
+}
