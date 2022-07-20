@@ -65,11 +65,10 @@
 			"talk_format": "Talk (~30-45 minutes)",
 			"language": "es",
 			"tags": [
-				"Transformation Case Studies"
+				"lucee","java","framework","coldfusion","programming-language","legacy"
 			],
 			"speakers": [
-				"Framework",
-				"Java"
+				"gustavo-henriquez"
 			]
 		},
 
@@ -130,7 +129,7 @@
 
 		],
 		"speakers": [
-		  "cristal-guerrero",	"mareubi-garcia","mirna-de-jesus","janet-batlle"
+		  "cristal-guerrero",	"mareubi-garcia","janet-batlle"
 		]
 	},
 	"108": {

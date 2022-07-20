@@ -2,10 +2,16 @@
   "id": "gustavo-henriquez",
   "name": "Gustavo José Henríquez Contreras",
   "photoUrl": "/img/speakers/gustavo-henriquez.png",
-  "title":"",
+  "title":"Software Engineer",
   "shortBio": "",
   "countryFlag": "flag-icon-do",
-  "bio":  "",
-  "socials": []
+  "bio":  "I’m a software engineer with more than 5 years of experience in the software industry. I’ve gathered experience in the whole development ecosystem, starting with the client’s requirements, all the way up to the deployment, production and further support. As of my personal hobbies I can mention Call of Duty, playing basketball, trying out different gastronomies, learn new technologies and stay up to date with development standards and many more.",
+  "socials": [
+    {
+     "icon": "linkedin",
+     "name": "Linkedin",
+     "link": "https://www.linkedin.com/in/gustavojoseh/"
+    }
+  ]
 
 }
