@@ -239,30 +239,8 @@
 			}
 			]
 	},
+
 	"110": {
-		"id": "mirna-de-jesus",
-		"name": "Mirna N. De Jesús Cambero",
-		"company": "LTSE",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/mirna-de-jesus.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Software Engineer",
-			"description": "Software Engineer"
-		}],
-		"socials": [
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/mirnadejesus"
-			}
-			]
-	},
-	"111": {
 		"id": "cristal-guerrero",
 		"name": "Cristal Guerrero",
 		"company": "Ministerio de Hacienda, R.D.",
@@ -289,7 +267,7 @@
 			}
 		]
 	},
-	"112": {
+	"111": {
 		"id": "ccamachog",
 		"name": "Carlos Camacho",
 		"company": "AvatharTech",
@@ -322,7 +300,7 @@
 		]
 	},
 
-		"113": {
+		"112": {
 			"id": "janet-batlle",
 			"name": "Janet Batlle Lasose",
 			"company": "Altice",
@@ -345,7 +323,7 @@
 			]
 		},
 
-	"114": {
+	"113": {
 		"id": "ecabrerar",
 		"name": "Eudris Cabrera",
 		"company": "Ministerio de Hacienda",
