@@ -593,7 +593,7 @@ var linguJSON = {
       "target_es" : "09:00 A.M – 1:00 P.M AST - Contenedores y Orquestadores de Software Para Javeros por"
     },
     {
-      "source" : "09:00 A.M – 1:00 P.M AST - Workshop: New features after Java 8 that make your life easier by",
+      "source" : "02:00 P.M – 6:00 P.M AST - Workshop: New features after Java 8 that make your life easier by",
       "target_es":"02:00 P.M – 6:00 P.M AST - Novedades después de Java 8 que hacen tu vida más fácil por"
     },
 
@@ -624,6 +624,6 @@ var linguJSON = {
       "source" : "July 22, 2022. Workshops @ JConf Dominicana 2022",
       "target_es":"22 de Julio de 2022. Talleres @ JConf Dominicana 2022"
     }
-    
+
   ]
 }
