@@ -100,7 +100,7 @@
 	 "audience_level": "All",
 	 	"time": "12:35:00 PM",
 		"talk_format": "Talk (~30-45 minutes)",
-		"language": "es",
+		"language": "en",
 		"tags": [
 						"Event Streaming",
              "Distributed Messaging",
@@ -213,5 +213,23 @@
 	"speakers": [
 		"ecabrerar"
 	]
-}
+},
+"112": {
+		"id": 112,
+		"title": "Community Panel",
+		"abstract": "Q&A: Technical Leaders",
+		"description": "Q&A: Technical Leaders",
+	 "audience_level": "All",
+	 	"time": "2:40 PM",
+		"talk_format": "Talk (~30-45 minutes)",
+		"language": "es",
+		"tags": [
+			"Technical Leaders",
+			"Senior Developers"
+
+		],
+		"speakers": [
+		  "christian-gomez","carlos-obregon","francisco-contreras"
+		]
+	}
 }

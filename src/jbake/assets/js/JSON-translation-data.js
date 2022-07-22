@@ -623,7 +623,14 @@ var linguJSON = {
     {
       "source" : "July 22, 2022. Workshops @ JConf Dominicana 2022",
       "target_es":"22 de Julio de 2022. Talleres @ JConf Dominicana 2022"
+    },
+    {
+      "source" : "Q&A: Technical Leaders.",
+      "target_es":"Q&A: Especial Líderes Técnicos"
     }
+
+
+
 
   ]
 }

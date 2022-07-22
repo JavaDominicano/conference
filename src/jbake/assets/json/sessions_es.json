@@ -213,5 +213,23 @@
 	"speakers": [
 		"ecabrerar"
 	]
-}
+},
+"112": {
+	 "id": 112,
+	 "title": "Panel de la Comunidad",
+	 "abstract": "Q&A: Especial Líderes Técnicos",
+	 "description": "Q&A: Especial Líderes Técnicos",
+	"audience_level": "All",
+	 "time": "2:40 PM",
+	 "talk_format": "Talk (~30-45 minutes)",
+	 "language": "es",
+	 "tags": [
+		 "Líderes Técnicos",
+		 "Senior Developer"
+
+	 ],
+	 "speakers": [
+		 "christian-gomez","carlos-obregon","francisco-contreras"
+	 ]
+ }
 }
