@@ -122,21 +122,35 @@
 		"company": "Cumulocity IoT",
 		"companyLogo": "",
 		"country": "Alemania",
-		"countryFlag": "flag-icon-de",
+		"countryFlag": "flag-icon-mx",
 		"photoUrl": "/img/speakers/manases-jesus.png",
 		"shortBio": "",
 		"bio": "",
 		"tags": [],
 		"badges": [{
-			"name": "Desarrollador de Software",
-			"description": "Desarrollador de Software"
+			"name": "Arquitecto de Software",
+			"description": "Arquitecto de Software"
 		}],
 		"socials": [{
-			"icon": "link",
-			"name": "link",
-			"link": "https://sessionize.com/manasesjesus"
-		}
-		]
+		  "icon": "github",
+		  "name": "GitHub",
+		  "link": "https://github.com/manasesjesus"
+		},
+		{
+		  "icon": "linkedin",
+		  "name": "LinkedIn",
+		  "link": "https://www.linkedin.com/in/manasesjesus/"
+		},
+		{
+		  "icon": "certificate",
+		  "name": "Credly",
+		  "link": "https://www.credly.com/users/manasesjesus/badges?sort=-state_updated_at&page=1"
+		},
+		{
+		  "icon": "link",
+		  "name": "link",
+		  "link": "https://sessionize.com/manasesjesus"
+		}]
 	},
 	"106": {
 		"id": "gustavo-henriquez",
