@@ -554,8 +554,8 @@ var linguJSON = {
       'target_es': 'Registrarse'
     },
     {
-      'source': 'Watch on Crowdcast',
-      'target_es': 'Ver en Crowdcast'
+      'source': 'Watch on Youtube',
+      'target_es': 'Ver en Youtube'
     },
     {
       "source" : "Thank you to speakers, sponsors, attendees and all staff of organizers for joining us in 2022!",
