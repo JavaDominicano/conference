@@ -1,0 +1,25 @@
+{
+    "id": "euryperez",
+    "name": "Eury Perez Beltre",
+    "photoUrl": "/archive/jconf2022/images/speakers/euryperez.jpg",
+    "title":"Líder del equipo de Desarrollo Android",
+    "countryFlag": "flag-icon-do",
+    "shortBio": "",
+    "bio": "Eury es un desarrollador móvil experimentado y Google Developer Expert en Android con más de 8 años de experiencia en ese campo y más de 11 de experiencia general en desarrollo de software. Coorganiza los programas Developer Group, Developer Students Club y Women Techmakers de Google en Santo Domingo.\\r\\n\\r\\nHa estado trabajando con equipos internacionales desde 2013 cuando se unió a una startup canadiense enfocada en el desarrollo móvil. En 2014 se unió a Instacarro, una de las startups de más rápido crecimiento en LATAM con sede en Brasil, como desarrollador senior de Android. También trabajó para la reconocida empresa de acondicionamiento físico Beachbody de Los Ángeles como Android Team Lead.\\r\\n\\r\\nActualmente trabaja para Citizen, la empresa líder en seguridad en los Estados Unidos. También le encanta enseñar y se desempeña como consultor de Android para empresas locales en la República Dominicana y solía enseñar informática en la escuela más importante de Santo Domingo (Carol Morgan School).",
+   "socials": [{
+     "icon": "twitter",
+     "name": "Twitter",
+     "link": "https://twitter.com/_euryperez"
+   },
+  {
+   "icon": "linkedin",
+   "name": "Linkedin",
+   "link": "https://www.linkedin.com/in/euryperez/"
+ },
+ {
+   "icon": "link",
+   "name": "Personal Site",
+   "link": "https://euryperez.dev"
+ }
+]
+}

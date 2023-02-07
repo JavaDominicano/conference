@@ -13,8 +13,8 @@
       		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
 					<h1 class="mb-4 pb-0">The Caribbean Java Technologies Conference.</h1>
 
-					<p class="mb-4 pb-0">Thank you to speakers, sponsors, attendees and all staff of organizers for joining us in 2022!</p>
-					<p class="mb-4 pb-0">See you all again next year!</p>
+					<p class="mb-4 pb-0">Have a good idea for a talk? The call for paper will be open soon!</p>
+					<!--<p class="mb-4 pb-0">See you all again next year!</p>-->
 
 			</div>
 		</section>
@@ -32,13 +32,14 @@
 
 							</p>
 						</div>
-						<div class="col-lg-3">
+						<!--<div class="col-lg-3">
 							<h3>Where</h3>
 							<p>Virtual Edition</p>
 						</div>
+						-->
 						<div class="col-lg-3">
 							 <h3>When</h3>
-							<p>July 23, 2022</p>
+							<p>July, 2023</p>
 						</div>
 					</div>
 				</div>
@@ -62,7 +63,9 @@
 			Sponsors Section
 		============================-->
 		  <div th:replace="sponsors.thyme::sponsors"/>
+		<!--
 			<div th:replace="supporters.thyme::supporters"/>
+		-->
 
 		</main>
      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>

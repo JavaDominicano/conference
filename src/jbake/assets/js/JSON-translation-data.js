@@ -471,8 +471,8 @@ var linguJSON = {
       'target_es': 'Regístrese ahora para recibir una notificación cuando se publique el horario'
     },
     {
-      'source': 'Get Ready for JConf Dominicana 2022',
-      'target_es': 'Prepárese para JConf Dominicana 2022'
+      'source': 'Get Ready for JConf Dominicana 2023',
+      'target_es': 'Prepárese para JConf Dominicana 2023'
     },
     {
       'source': 'Be the first to know when tickets are available! Sign up to be notified when they go on sale',

@@ -1,0 +1,15 @@
+{
+  "id": "eugenio-duran",
+  "name": "Jose Eugenio Duran",
+  "photoUrl": "/archive/jconf2022/images/speakers/eugenio-duran.jpg",
+  "title": "Software Engineer",
+  "shortBio": "",
+  "countryFlag": "flag-icon-do",
+  "bio":  "Software Developer who loves Java and likes to learn new technologies, I love books, movies and meet people",
+  "socials": [{
+    "icon": "twitter",
+    "name": "Twitter",
+    "link": "https://twitter.com/eugh_x"
+  }]
+
+}
