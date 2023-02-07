@@ -62,9 +62,10 @@
 		<!--==========================
 			Sponsors Section
 		============================-->
-		  <!--<div th:replace="sponsors.thyme::sponsors"/>
+		  <div th:replace="sponsors.thyme::sponsors"/>
+		<!--
 			<div th:replace="supporters.thyme::supporters"/>
-			-->
+		-->
 
 		</main>
      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>
