@@ -1,0 +1,24 @@
+{
+  "id": "mary-grygleski",
+  "name": "Mary Grygleski",
+  "photoUrl": "/archive/jconf2022/images/speakers/mary-grygleski.jpeg",
+  "title":"",
+  "shortBio": "",
+  "countryFlag": "flag-icon-us",
+  "bio":  "Mary es una Java Champion y una apasionada defensora de los desarrolladores sénior en DataStax, una empresa líder en gestión de datos que defiende el software de código abierto y se especializa en sistemas Big Data, DB-as-a-service, Streaming y Cloud-Native. Pasó 3,5 años antes como una defensora muy eficaz en IBM, centrándose en Java, Jakarta EE, OpenJ9, código abierto, nube y sistemas distribuidos. Hizo la transición de Unix/C a Java alrededor de 2000 y nunca ha mirado hacia atrás desde entonces. Se considera una políglota y le encanta seguir aprendiendo nuevas y mejores formas de resolver problemas de la vida real. Es una creadora activa de comunidades tecnológicas fuera de su trabajo diario, y actualmente es presidenta del Grupo de Usuarios de Java de Chicago (CJUG), así como co- organizador de varios grupos de reuniones patrocinados por IBM en el área metropolitana de Chicago.",
+  "socials": [{
+    "icon": "twitter",
+    "name": "Twitter",
+    "link": "https://twitter.com/mgrygles"
+  },
+    {
+      "icon": "link",
+      "name": "link",
+      "link": "https://dev.to/mgrygles"
+    }]
+
+
+
+
+
+}
