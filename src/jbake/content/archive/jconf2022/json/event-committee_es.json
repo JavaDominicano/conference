@@ -1,0 +1,186 @@
+{
+
+	"001": {
+		"id": "ccamachog",
+		"name": "Carlos Camacho",
+		"company": "AvatharTech",
+		"photoUrl": "/img/organizers/committee-members/ccamachog.jpg",
+		"shortBio": "Ingeniero Telemático – Profesor Universitario - Co-fundador y organizador del Java User Group en República Dominicana",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Director de Tecnología",
+			"description": "Director de Tecnología"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/ccamachog"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/vacax"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/ccamachog/"
+			},
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://ccamachog.medium.com"
+      }
+		]
+	},
+
+	"002": {
+		"id": "ecabrerar",
+		"name": "Eudris Cabrera",
+		"company": "Ministerio de Hacienda",
+		"photoUrl": "/img/organizers/committee-members/ecabrerar.jpg",
+		"shortBio": "Desarrollador Informático - Co-fundador y Organizador del Java Users Group de la República Dominicana (aka Java Dominicano) - Instructor ocasional (Java / Linux)",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Desarrollador Informático",
+			"description": "Desarrollador Informático"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eudriscabrera"
+			},
+			{
+				"icon": "link",
+				"name": "link",
+				"link": "https://eudriscabrera.com"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/ecabrerar"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/eudriscabrera"
+			}
+		]
+	},
+	
+	"003": {
+		"id": "eugenio-duran",
+		"name": "José Eugenio Duran",
+		"company": "Claro RD",
+		"photoUrl": "/img/organizers/committee-members/eugenio-duran.jpg",
+		"shortBio": "Desarrollador de software apasionado de la tecnología Java y le gusta aprender nuevas tecnologías, me encantan los libros, las películas y conocer personas.",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eugh_x"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/SiriusDarkz"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/joseeugenioduran"
+			}
+		]
+	},
+	"004": {
+		"id": "joser-almomen",
+		"name": "José R. Almonte",
+		"company": "HICX",
+		"photoUrl": "/img/organizers/committee-members/joser-almonte.jpg",
+		"shortBio": "Ingeniero en Desarrollo de Software y Telemática, apasionado por la tecnología y sus dependencias.",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/JRAC_2100"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/xTryHard"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/jrac/"
+			}
+		]
+	},
+	"005": {
+		"id": "brayan-munoz",
+		"name": "Brayan Muñoz V",
+		"company": "HICX",
+		"photoUrl": "/img/organizers/committee-members/brayan-munoz.jpg",
+		"shortBio": "Desarrollador de Software - Ingeniero Telemático de la PUCMM - Miembro de una organización de código abierto llamada Fonoster.",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/Brayanmnz_"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/brayanmnz"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/brayanmnz"
+			}
+		]
+	},
+	
+	"006": {
+		"id": "cristal-guerreo",
+		"name": "Cristal Guerrero",
+		"company": "Ministerio de Hacienda, R.D.",
+		"photoUrl": "/img/organizers/committee-members/cristal-guerreo.jpg",
+		"shortBio": "Desarrolladora Java con un técnico de desarrollo de software del ITLA y en camino a convertirme en ingeniera de datos.",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Desarrolladora de software",
+			"description": "Desarrolladora de software"
+		}],
+		"socials": [
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/Sahira22"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/cristal-sahira-guerrero-b953a4209"
+			}
+		]
+	}
+}

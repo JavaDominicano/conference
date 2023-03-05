@@ -1,0 +1,155 @@
+{
+
+	"001": {
+		"id": "ccamachog",
+		"name": "Carlos Camacho",
+		"company": "AvatharTech",
+		"photoUrl": "/img/organizers/committee-members/ccamachog.jpg",
+		"shortBio": "Ingeniero Telemático – Profesor Universitario - Co-fundador y organizador del Java User Group en República Dominicana",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Director de Tecnología",
+			"description": "Director de Tecnología"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/ccamachog"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/vacax"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/ccamachog/"
+			},
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://ccamachog.medium.com"
+      }
+		]
+	},
+
+	"002": {
+		"id": "ecabrerar",
+		"name": "Eudris Cabrera",
+		"company": "Ministerio de Hacienda",
+		"photoUrl": "/img/organizers/committee-members/ecabrerar.jpg",
+		"shortBio": "Desarrollador Informático - Co-fundador y Organizador del Java Users Group de la República Dominicana (aka Java Dominicano) - Instructor ocasional (Java / Linux)",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Desarrollador Informático",
+			"description": "Desarrollador Informático"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eudriscabrera"
+			},
+			{
+				"icon": "link",
+				"name": "link",
+				"link": "https://eudriscabrera.com"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/ecabrerar"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/eudriscabrera"
+			}
+		]
+	},
+	"003": {
+		"id": "eliezer-herrera",
+		"name": "Eliezer Herrera",
+		"company": "FreeLancer",
+		"photoUrl": "/img/organizers/committee-members/eliezer-herrera.jpg",
+		"shortBio": "Desarrollador de software con más de 12 años de experiencia en la industria del software. Entusiasta y amante de la tecnología, especialmente la plataforma Java",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eliesongo"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/zerh"
+			}
+		]
+	},
+	"004": {
+		"id": "eugenio-duran",
+		"name": "José Eugenio Duran",
+		"company": "Claro RD",
+		"photoUrl": "/img/organizers/committee-members/eugenio-duran.jpg",
+		"shortBio": "Desarrollador de software apasionado de la tecnología Java y le gusta aprender nuevas tecnologías, me encantan los libros, las películas y conocer personas.",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eugh_x"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/SiriusDarkz"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/joseeugenioduran"
+			}
+		]
+	},
+	"005": {
+		"id": "angel-mejia",
+		"name": "Angel Mejia",
+		"company": "Utreee",
+		"photoUrl": "/img/organizers/committee-members/angel-mejia.jpg",
+		"shortBio": "Desarrollador de software que le gusta aprender nuevas tecnologías, me encanta Kubernetes, el código abierto y conocer personas",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/angelmejiabrito"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/angelmejiabrito"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/angelmejiabrito/"
+			}
+		]
+	}
+
+}
