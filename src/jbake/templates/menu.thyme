@@ -15,17 +15,17 @@
 
 			<nav id="nav-menu-container">
 				<ul class="nav-menu">
-					<li><a href="/index.html">Home</a></li>
-			  <!--	<li><a href="/buy-tickets.html">Tickets</a></li>-->
-				<!--  <li><a href="/schedule.html">Agenda</a></li>-->
-				<!--  <li><a href="/speakers.html">Speakers</a></li>-->
-				<!--	<li><a href="/presentations.html">Presentations</a></li>-->
-					<li><a href="/code-of-conduct.html">Code of conduct</a></li>
+					<li><a href="/index.html" th:text="#{nav.menu.item.home}">Home</a></li>
+			  <!--	<li><a href="/buy-tickets.html" th:text="#{nav.menu.item.tickets}">Tickets</a></li>-->
+				<!--  <li><a href="/schedule.html" th:text="#{nav.menu.item.agenda}">Agenda</a></li>-->
+				<!--  <li><a href="/speakers.html" th:text="#{nav.menu.item.speakers}">Speakers</a></li>-->
+				<!--	<li><a href="/presentations.html" th:text="#{nav.menu.item.presentations}">Presentations</a></li>-->
+					<li><a href="/code-of-conduct.html" th:text="#{nav.menu.item.codeOfConduct}">Code of conduct</a></li>
 
-					<li><a href="/index.html#sponsors">Sponsors</a></li>
-					<li><a href="/past-conferences.html">Past Conferences</a></li>
-					<li><a href="/conference-info.html">Conference Info</a></li>
-					<!--<li><a href="/organizers.html">Organizers</a></li>-->
+					<li><a href="/index.html#sponsors" th:text="#{nav.menu.item.sponsors}">Sponsors</a></li>
+					<li><a href="/past-conferences.html" th:text="#{nav.menu.item.pastConferences}">Past Conferences</a></li>
+					<li><a href="/conference-info.html" th:text="#{nav.menu.item.conferenceInfo}">Conference Info</a></li>
+					<!--<li><a href="/organizers.html" th:text="#{nav.menu.item.organizers}">Organizers</a></li>-->
 				</ul>
 			</nav><!-- #nav-menu-container -->
 		</div>
