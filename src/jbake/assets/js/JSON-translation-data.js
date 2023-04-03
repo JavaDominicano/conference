@@ -627,7 +627,13 @@ var linguJSON = {
     {
       "source" : "Q&A: Technical Leaders.",
       "target_es":"Q&A: Especial Líderes Técnicos"
+    },
+
+    {
+      "source" : "Saturday, July 22, 2023. Santo Domingo. Dominican Republic.",
+      "target_es":"Sábado 22 de Julio de 2023. Santo Domingo. Dominican Republic"
     }
+
 
 
 

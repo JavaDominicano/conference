@@ -12,8 +12,10 @@
 			<div id="intro-container" class="intro-container wow fadeIn">
       		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
 					<h1 class="mb-4 pb-0">The Caribbean Java Technologies Conference.</h1>
+					<p class="mb-4 pb-0">Saturday, July 22, 2023. Santo Domingo. Dominican Republic.</p>
 
-					<p class="mb-4 pb-0">Have a good idea for a talk? The call for paper will be open soon!</p>
+		         <a href="https://bit.ly/40Yv7z4" class="about-btn scrollto" title="Call For Paper" target="_blank">Apply to become a speaker</a>
+					<!--<p class="mb-4 pb-0">Have a good idea for a talk? The call for paper is open now!</p>-->
 					<!--<p class="mb-4 pb-0">See you all again next year!</p>-->
 
 			</div>
