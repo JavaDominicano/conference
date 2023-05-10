@@ -85,27 +85,38 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 		  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
 		  <!-- JavaScript Libraries -->
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/jquery/jquery.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/jquery/jquery-migrate.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/bootstrap/js/bootstrap.bundle.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/easing/easing.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/superfish/hoverIntent.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/superfish/superfish.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/wow/wow.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/venobox/venobox.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/owlcarousel/owl.carousel.min.js'"></script>
-			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/countdown/jquery.countdown.min.js'"></script>
+
+ 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/vendor/modernizr-3.11.7.min.js'"></script>
+       
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/vendor/jquery-1.12.4.min.js'"></script>
+
+		    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/popper.min.js'"></script>
+
+         	<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/bootstrap.min.js'"></script>
+
+   	        <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/swiper-bundle.min.js'"></script>
+
+            <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/all.js'"></script>
+	
+         	<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/back-to-top.js'"></script>
+
+    		<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.magnific-popup.min.js'"></script>
+
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.counterup.min.js'"></script>
+	
+       		<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/waypoints.min.js'"></script>
+
+  		    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/aos.js'"></script>
+
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
 
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/vegas/vegas.min.js'"></script>
 
-		  <!-- Template Main Javascript File -->
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
+	       <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/JSON-translation-data.js'"></script>
 
-      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/JSON-translation-data.js'"></script>
-
- 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/lingumania.min.js'"></script>
+ 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/lingumania.min.js'"></script>
 		  <script th:replace="commons.thyme::googleAnalytics" />
-		 <script type="text/javascript">
+		  <script type="text/javascript">
             $('#countdown').countdown('2021/07/31 09:00:00', function (event) {
                 $(this).html(event.strftime('%D Days | %-H Hours | %M Minutes | %S Seconds'));
             });

@@ -36,21 +36,24 @@
 
 <link  th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'img/apple-icon-180x180.png'"  rel="apple-touch-icon"/>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet"/>
+<!--All Google Fonts-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo:wght@300;400;500;600;700&display=swap">
 
-<!-- Bootstrap CSS File -->
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/bootstrap/css/bootstrap.min.css'" rel="stylesheet"/>
 
 <!-- Libraries CSS Files -->
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/font-awesome/css/font-awesome.min.css'" rel="stylesheet"/>
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/animate/animate.min.css'" rel="stylesheet"/>
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/venobox/venobox.css'" rel="stylesheet"/>
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/owlcarousel/assets/owl.carousel.min.css'" rel="stylesheet"/>
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/vegas/vegas.min.css'" rel="stylesheet"/>
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/flag-icon-css/css/flag-icon.css'" rel="stylesheet" />
+
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/all.min.css'" rel="stylesheet" />
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/flaticon.css'" rel="stylesheet" />
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/bootstrap.min.css'" rel="stylesheet"/>
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/swiper-bundle.min.css'" rel="stylesheet"/>
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/magnific-popup.css'" rel="stylesheet"/>
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/aos.css'" rel="stylesheet"/>
+
 
 <!-- Main Stylesheet File -->
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/style.css'" rel="stylesheet"/>
+        
+
 </head>
 </html>
