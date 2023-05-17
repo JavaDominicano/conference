@@ -3,8 +3,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head th:replace="header.thyme::head"/>
 <body>
-	<div id="wrap">
-		<header th:insert="menu.thyme::menu" id="header"/>
+   <div class="main-wrapper">
+
+        <!-- Preloader start -->
+        <div id="preloader">
+            <div class="preloader">
+                <span></span>
+                <span></span>
+            </div>
+        </div>        
+		<!-- Preloader End -->
+
+		<header th:replace="menu.thyme::menu" />
 		<!--==========================
 		Intro Section
 		============================-->
@@ -70,8 +80,9 @@
 		-->
 
 		</main>
+  </div>
      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>
 		<div th:replace="footer.thyme::footer"/>
-	</div>
+
 </body>
 </html>

@@ -5,7 +5,7 @@
 			<!--==========================
 		    Footer
 		  ============================-->
-		  <footer id="footer">
+		 <!-- <footer id="footer">
 		    <div class="footer-top">
 		      <div class="container">
 		        <div class="row">
@@ -63,13 +63,13 @@
 		    </div>
 
 		    <div class="container">
-		      <div class="credits">
+		      <div class="credits">-->
 		        <!--
 		          All the links in the footer should remain intact.
 		          You can delete the links only if you purchased the pro version.
 		          Licensing information: https://bootstrapmade.com/license/
 		        -->
-		     	<p class="muted credit">&copy; 2018 - <span id="year"></span>  | Build with love by
+		     	 <!--<p class="muted credit">&copy; 2018 - <span id="year"></span>  | Build with love by
         <a href="https://github.com/JavaDominicano" target="_blank">Java Dominicano</a>
         and
         <a href="https://github.com/JavaDominicano/conference/graphs/contributors" target="_blank">
@@ -80,9 +80,109 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 							var today = new Date();
 							document.getElementById('year').innerHTML=today.getFullYear();
 					</script>
-		  </footer><!-- #footer -->
+		  </footer>--><!-- #footer -->
+ <!--
+		  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>-->
 
-		  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+		      <!-- Footer Start -->
+    <div class="meeta-footer-section meeta-footer-2" style="background-image: url(assets/images/bg/footer-bg-2.jpg);">
+
+        <!-- Footer Widget Start -->
+        <div class="footer-widget">
+            <div class="container">
+
+                <div class="footer-wrap">
+                    <div class="row">
+
+                        <div class="col-lg-3">
+                            <!-- Footer Logo Start -->
+                            <div class="footer-logo">
+                               <!-- <a href="index.html"><img src="assets/images/footer-logo-1.png" alt="Logo"></a>-->
+								<a href="/index.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
+
+								
+                            </div>
+                            <!-- Footer Logo End -->
+                        </div>
+
+                        <div class="col-lg-9">
+                            <!-- Footer Newsletter Start -->
+                            <div class="footer-newsletter">
+
+                                <div class="footer-newsletter-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Your Email">
+                                        <button class="btn btn-primary">Subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Footer Newsletter End -->
+
+                            <div class="footer-bottom-wrap">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <!-- Footer Info Start -->
+                                        <div class="footer-info">
+                                            <h3 class="title">Event Details</h3>
+                                            <span class="date">21 - 23 Octobor 2021 </span>
+                                            <p>66 Road Broklyn Street BNG 275 New York. United States of America.</p>
+                                            <div class="footer-widget-social">
+                                               <a th:if="${config.facebook_username}" href="#" th:href="|https://www.facebook.com/${config.facebook_username}|" th:target="_blank"><i class="fab fa-facebook-f"></i></a>
+											   <a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" th:target="_blank"><i class="fab fa-twitter"></i></a>
+
+									<a th:if="${config.instagram_username}" href="#" th:href="|https://www.instagram.com/${config.instagram_username}|" th:target="_blank"><i class="fab fa-instagram"></i></a>
+
+                                                 <!-- <a href="#"><i class="fab fa-dribbble"></i></a>
+                                                <a href="#"><i class="fab fa-behance"></i></a>
+                                                <a href="#"><i class="fab fa-pinterest"></i></a>-->
+                                            </div>
+                                            <!-- Footer Info End -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-7">
+                                        <!-- Footer widget Map Start -->
+                                        <div class="footer-widget-map">
+                                            <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=New%20York%20University%20&t=m&z=10&output=embed&iwloc=near" title="New York University" aria-label="New York University" frameborder="0"></iframe>
+                                        </div>
+                                        <!-- Footer widget Map End -->
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-copyright text-center">
+               <p class="muted credit">&copy; 2018 - <span id="year"></span>  | Build with love by
+        <a href="https://github.com/JavaDominicano" target="_blank">Java Dominicano</a>
+        and
+        <a href="https://github.com/JavaDominicano/conference/graphs/contributors" target="_blank">
+Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span th:text='${version}'>version</span> </a> and <a href="https://themeforest.net/item/meeta-event-conference/35814862" target="_blank"> Meeta - Event Conference </a> </p>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Footer Widget End -->
+
+		<script type="text/javascript">
+							var today = new Date();
+							document.getElementById('year').innerHTML=today.getFullYear();
+					</script>
+
+    </div>
+    <!-- Footer End -->
+
+    <!-- back to top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- back to top end -->
+
 
 		  <!-- JavaScript Libraries -->
 
@@ -107,6 +207,7 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
        		<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/waypoints.min.js'"></script>
 
   		    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/aos.js'"></script>
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.nice-select.min.js'"></script>
 
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
 
@@ -115,6 +216,7 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 	       <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/JSON-translation-data.js'"></script>
 
  		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/lingumania.min.js'"></script>
+		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/countdown/jquery.countdown.min.js'"></script>
 		  <script th:replace="commons.thyme::googleAnalytics" />
 		  <script type="text/javascript">
             $('#countdown').countdown('2021/07/31 09:00:00', function (event) {
