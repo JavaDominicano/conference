@@ -1,6 +1,6 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head th:replace="header.thyme::head"/>
 <body>
    <div class="main-wrapper">
@@ -18,18 +18,47 @@
 		<!--==========================
 		Intro Section
 		============================-->
-		<section id="intro">
+		<!--<section id="intro">
 			<div id="intro-container" class="intro-container wow fadeIn">
-      		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
+      		<div id="langlinks">--><!--this is where we'll output out custom language switcher menu--><!--</div>
 					<h1 class="mb-4 pb-0">The Caribbean Java Technologies Conference.</h1>
-					<p class="mb-4 pb-0">Saturday, July 22, 2023. Santo Domingo. Dominican Republic.</p>
+					<p class="mb-4 pb-0">July 21-22, 2023. Santo Domingo. Dominican Republic.</p>
 
-		         <a href="https://bit.ly/40Yv7z4" class="about-btn scrollto" title="Call For Paper" target="_blank">Apply to become a speaker</a>
+		         <a href="https://bit.ly/40Yv7z4" class="about-btn scrollto" title="Call For Paper" target="_blank">Apply to become a speaker</a>-->
 					<!--<p class="mb-4 pb-0">Have a good idea for a talk? The call for paper is open now!</p>-->
 					<!--<p class="mb-4 pb-0">See you all again next year!</p>-->
 
-			</div>
-		</section>
+			<!--</div>
+		</section>>-->
+
+		       <!-- Slider Section Start  -->
+        <div class="meeta-hero-section-6" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:style="|background-image:url(${rootpath}img/meeta/hero-6.jpg)|" style="background-image: url(assets/images/hero-6.jpg);">
+		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="meeta-hero-content text-center">
+                            <p class="text" data-aos-delay="700" data-aos="fade-up">Saturday, July 22, 2023. Santo Domingo. Dominican Republic.</p>
+                            <h2 class="title" data-aos-delay="800" data-aos="fade-up">The Caribbean Java Technologies  <br> <span>Conference</span></h2>
+							
+                            <div class="header-btn" data-aos-delay="900" data-aos="fade-up">
+                              <!--  <a class="btn-2" href="price.html">Buy Ticket Now</a>-->
+								<a href="https://bit.ly/40Yv7z4" class="btn-2" title="Call For Paper" target="_blank">Apply to become a speaker</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-svg">
+                <svg id="svg" viewbox="0, 0, 400,27.708333333333336">
+                    <g id="svgg">
+                        <path id="path0" d="M0.000 13.854 L 0.000 27.708 200.000 27.708 L 400.000 27.708 400.000 14.216 L 400.000 0.725 395.573 1.822 C 322.012 20.064,241.242 29.243,178.709 26.467 C 123.876 24.033,57.451 14.315,4.123 0.926 C 2.094 0.417,0.336 0.000,0.217 0.000 C 0.069 0.000,0.000 4.399,0.000 13.854" stroke="none" fill="#fff" fill-rule="evenodd"></path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <!-- Slider Section End -->
 
 		<main id="main">
 			<!--==========================

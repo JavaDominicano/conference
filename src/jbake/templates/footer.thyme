@@ -196,7 +196,7 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 
    	        <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/swiper-bundle.min.js'"></script>
 
-            <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/all.js'"></script>
+           <!-- <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/all.js'"></script>-->
 	
          	<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/back-to-top.js'"></script>
 
