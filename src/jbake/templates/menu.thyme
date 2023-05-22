@@ -2,36 +2,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <body>
-	<!--==========================
-	Header
-	============================-->
-	<header id="header" th:fragment="menu" th:remove="tag">
-		<!--<div class="container">
-
-			<div id="logo" class="pull-left">-->
-				 <!-- <h1><a href="index.html"><span>JConf</span>Dominicana</a></h1>-->
-				<!-- <a href="/index.html" class="scrollto"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
-			</div>
-
-			<nav id="nav-menu-container">
-				<ul class="nav-menu">
-					<li><a href="/index.html" th:text="#{nav.menu.item.home}">Home</a></li>-->
-			  <!--	<li><a href="/buy-tickets.html" th:text="#{nav.menu.item.tickets}">Tickets</a></li>-->
-				<!--  <li><a href="/schedule.html" th:text="#{nav.menu.item.agenda}">Agenda</a></li>-->
-				<!--  <li><a href="/speakers.html" th:text="#{nav.menu.item.speakers}">Speakers</a></li>-->
-				<!--	<li><a href="/presentations.html" th:text="#{nav.menu.item.presentations}">Presentations</a></li>-->
-				<!--	<li><a href="/code-of-conduct.html" th:text="#{nav.menu.item.codeOfConduct}">Code of conduct</a></li>
-
-					<li><a href="/index.html#sponsors" th:text="#{nav.menu.item.sponsors}">Sponsors</a></li>
-					<li><a href="/past-conferences.html" th:text="#{nav.menu.item.pastConferences}">Past Conferences</a></li>
-					<li><a href="/conference-info.html" th:text="#{nav.menu.item.conferenceInfo}">Conference Info</a></li>-->
-					<!--<li><a href="/organizers.html" th:text="#{nav.menu.item.organizers}">Organizers</a></li>-->
-				<!--</ul>
-			</nav>--><!-- #nav-menu-container -->
-		<!--</div>-->
-
-
- <!-- Header Start -->
+	<header id="header" th:fragment="menu-index" th:remove="tag">
+	 <!-- Header Start -->
         <div class="meeta-header-section meeta-header-2">
 
             <!-- Header Middle Start -->
@@ -41,7 +13,7 @@
                     <div class="header-wrap">
                         <!-- Header Logo Start -->
                         <div class="header-logo">
-							<a href="/index.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
+							<a href="/index.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo-2.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
 
                         </div>
                         <!-- Header Logo End -->
@@ -50,45 +22,14 @@
                         <div class="header-navigation d-none d-lg-block">
                             <ul class="main-menu">
                                 <li class="active-menu"><a href="/index.html" th:text="#{nav.menu.item.home}">Home</a>
-                                  <!--  <ul class="sub-menu">
-                                        <li><a href="index.html">Home 01</a></li>
-                                        <li><a href="index-2.html">Home 02</a></li>
-                                        <li><a href="index-3.html">Home 03</a></li>
-                                        <li><a href="index-4.html">Home 04</a></li>
-                                        <li><a href="index-5.html">Home 05</a></li>
-                                        <li><a class="active" href="index-6.html">Home 06</a></li>
-                                    </ul>
-									-->
+                                  
                                 </li>
 								 <!--	<li><a href="/buy-tickets.html" th:text="#{nav.menu.item.tickets}">Tickets</a></li>-->
 				<!--  <li><a href="/schedule.html" th:text="#{nav.menu.item.agenda}">Agenda</a></li>-->
 				<!--  <li><a href="/speakers.html" th:text="#{nav.menu.item.speakers}">Speakers</a></li>-->
 				<!--	<li><a href="/presentations.html" th:text="#{nav.menu.item.presentations}">Presentations</a></li>-->
 					<li><a href="/code-of-conduct.html" th:text="#{nav.menu.item.codeOfConduct}">Code of conduct</a></li>
-                                <!-- <li><a href="about.html">About</a></li>
-                                   <li><a href="#">Pages</a>
-                                  <ul class="sub-menu">
-                                        <li><a href="speaker-one.html">Speakers 01</a></li>
-                                        <li><a href="speaker-.html">Speakers 02</a></li>
-                                        <li><a href="speaker-single.html">Speaker Single</a></li>
-                                        <li><a href="event-list.html">Event List</a></li>
-                                        <li><a href="event-single.html">Event Single</a></li>
-                                        <li><a href="schedule.html">Event Schedule</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="price.html">Pricing</a></li>
-                                        <li><a href="faq.html">FAQ's</a></li>
-                                        <li><a href="login-register.html">Login Register</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog Grid</a></li>
-                                        <li><a href="blog-standard.html">Latest News</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-								-->
+                                
 					<li><a href="/index.html#sponsors" th:text="#{nav.menu.item.sponsors}">Sponsors</a></li>
 					<li><a href="/past-conferences.html" th:text="#{nav.menu.item.pastConferences}">Past Conferences</a></li>
 					<li><a href="/conference-info.html" th:text="#{nav.menu.item.conferenceInfo}">Conference Info</a></li>
@@ -98,21 +39,11 @@
                         <!-- Header Navigation End -->
 
                         <!-- Header Meta Start -->
-                        <div class="header-meta">
+                        <div class="header-meta" th:if="${config.layout_display_buytickets_menu_button}">
 
                             <div class="header-btn d-none d-md-block">
                                 <a href="price.html" class="btn btn-primary">Buy Ticket Now</a>
                             </div>
-
-                            <!-- Header Toggle Start -->
-                            <div class="header-toggle d-lg-none">
-                                <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </button>
-                            </div>
-                            <!-- Header Toggle End -->
 
                         </div>
                         <!-- Header Meta End -->
@@ -126,119 +57,70 @@
         </div>
         <!-- Header End -->
 
-        <!-- Mini Cart Start -->
-        <div class="off-canvas">
-            <div class="icon-close"></div>
-
-            <!-- Mini Cart Box Start -->
-            <div class="meeta-mini-cart-box">
-
-                <div class="mini-cart-items">
-
-                    <div class="mini-cart-item">
-                        <div class="mini-cart-item-image">
-                            <a href="#"><img src="assets/images/cart/cart-1.jpg" alt="Cart"></a>
-                        </div>
-                        <div class="mini-cart-item-content">
-                            <h4 class="mini-cart-title"><a href="#">Virtual Event with Protected Content and Hidden Livestream </a></h4>
-                            <p class="mini-cart-quantity">1 × $19.99</p>
-                        </div>
-                        <button class="btn-close"></button>
-                    </div>
-
-                    <div class="mini-cart-item">
-                        <div class="mini-cart-item-image">
-                            <a href="#"><img src="assets/images/cart/cart-2.jpg" alt="Cart"></a>
-                        </div>
-                        <div class="mini-cart-item-content">
-                            <h4 class="mini-cart-title"><a href="#">Virtual Event with Protected Content and Hidden Livestream </a></h4>
-                            <p class="mini-cart-quantity">1 × $19.99</p>
-                        </div>
-                        <button class="btn-close"></button>
-                    </div>
-
-                    <div class="mini-cart-item">
-                        <div class="mini-cart-item-image">
-                            <a href="#"><img src="assets/images/cart/cart-3.jpg" alt="Cart"></a>
-                        </div>
-                        <div class="mini-cart-item-content">
-                            <h4 class="mini-cart-title"><a href="#">Virtual Event with Protected Content and Hidden Livestream </a></h4>
-                            <p class="mini-cart-quantity">1 × $19.99</p>
-                        </div>
-                        <button class="btn-close"></button>
-                    </div>
-
-                </div>
-
-                <div class="mini-cart-sub-total">
-                    <p><strong>Subtotal:</strong> <span class="mini-cart-amount">$99.97</span></p>
-                </div>
-                <div class="mini-cart-sub-btn">
-                    <a class="btn btn-primary" href="#">View cart</a>
-                    <a class="btn btn-white" href="#">Checkout</a>
-                </div>
-            </div>
-            <!-- Mini Cart Box End -->
-
-        </div>
-        <!-- Mini Cart End -->
-
-
-        <!-- Offcanvas Start-->
-        <div class="offcanvas offcanvas-start" id="offcanvasExample">
-            <div class="offcanvas-header">
-                <!-- Offcanvas Logo Start -->
-                <div class="offcanvas-logo">
-                    <a href="index.html"><img src="assets/images/logo-4.png" alt="Logo"></a>
-                </div>
-                <!-- Offcanvas Logo End -->
-                <button type="button" class="close-btn" data-bs-dismiss="offcanvas"><i class="flaticon-close"></i></button>
-            </div>
-
-            <!-- Offcanvas Body Start -->
-            <div class="offcanvas-body">
-                <div class="offcanvas-menu">
-                    <ul class="main-menu">
-                        <li class="active-menu"><a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Home 01</a></li>
-                                <li><a href="index-2.html">Home 02</a></li>
-                                <li><a href="index-3.html">Home 03</a></li>
-                                <li><a href="index-4.html">Home 04</a></li>
-                                <li><a href="index-5.html">Home 05</a></li>
-                                <li><a class="active" href="index-6.html">Home 06</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="speaker-one.html">Speakers 01</a></li>
-                                <li><a href="speaker-.html">Speakers 02</a></li>
-                                <li><a href="speaker-single.html">Speaker Single</a></li>
-                                <li><a href="event-list.html">Event List</a></li>
-                                <li><a href="event-single.html">Event Single</a></li>
-                                <li><a href="schedule.html">Event Schedule</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="price.html">Pricing</a></li>
-                                <li><a href="faq.html">FAQ's</a></li>
-                                <li><a href="login-register.html">Login Register</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html">Blog Grid</a></li>
-                                <li><a href="blog-standard.html">Latest News</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Offcanvas Body End -->
-        </div>
-        <!-- Offcanvas End -->
-
 	</header><!-- #header -->
+    	<header id="header" th:fragment="menu-page" th:remove="tag">
+      <!-- Header Start -->
+        <div class="meeta-header-section meeta-header-4">
+
+            <!-- Header Middle Start -->
+            <div class="header-middle header-sticky">
+                <div class="container-fluid custom-container">
+
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-4">
+
+                            <!-- Header Logo Start -->
+                            <div class="header-logo">
+							<a href="/index.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo-2.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
+
+                            </div>
+                            <!-- Header Logo End -->
+
+                        </div>
+                        <div class="col-lg-6 d-none d-lg-block">
+
+                            <!-- Header Navigation Start -->
+                            <div class="header-navigation">
+                                 <ul class="main-menu">
+                                <li class="active-menu"><a href="/index.html" th:text="#{nav.menu.item.home}">Home</a>
+                                </li>
+								 <!--	<li><a href="/buy-tickets.html" th:text="#{nav.menu.item.tickets}">Tickets</a></li>-->
+				<!--  <li><a href="/schedule.html" th:text="#{nav.menu.item.agenda}">Agenda</a></li>-->
+				<!--  <li><a href="/speakers.html" th:text="#{nav.menu.item.speakers}">Speakers</a></li>-->
+				<!--	<li><a href="/presentations.html" th:text="#{nav.menu.item.presentations}">Presentations</a></li>-->
+					<li><a href="/code-of-conduct.html" th:text="#{nav.menu.item.codeOfConduct}">Code of conduct</a></li>
+                                
+					<li><a href="/index.html#sponsors" th:text="#{nav.menu.item.sponsors}">Sponsors</a></li>
+					<li><a href="/past-conferences.html" th:text="#{nav.menu.item.pastConferences}">Past Conferences</a></li>
+					<li><a href="/conference-info.html" th:text="#{nav.menu.item.conferenceInfo}">Conference Info</a></li>
+					<!--<li><a href="/organizers.html" th:text="#{nav.menu.item.organizers}">Organizers</a></li>-->
+                            </ul>
+                            </div>
+                            <!-- Header Navigation End -->
+
+                        </div>
+                        <div class="col-lg-3 col-8">
+
+                            <!-- Header Meta Start -->
+                            <div class="header-meta">                               
+
+                                <div class="header-btn d-none d-md-block" th:if="${config.layout_display_buytickets_menu_button}">
+                                    <a href="price.html" class="btn btn-3 btn-primary">Buy Ticket Now</a>
+                                </div>                        
+
+                            </div>
+                            <!-- Header Meta End -->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Header Middle End -->
+
+        </div>
+        <!-- Header End -->
+
+        </header>
 </body>
 </html>

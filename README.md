@@ -38,6 +38,25 @@ src
 
 To do any change, you have to explore [JBake](http://www.jbake.org) and [Thymeleaf](https://www.thymeleaf.org) a template engine for Java.
 
+### Layouts configuration
+* layout.display.counter : enable/disable counter section. Default is **true**
+* layout.display.speakers : enable/disable speakers section. Default is **false**
+* layout.display.schedule : enable/disable schedule section. Default is **false**
+* layout.display.tickets : enable/disable tickets section. Default is **false**
+* layout.display.sponsors : enable/disable sponsors section. Default is **false**
+* layout.display.supporters : enable/disable supporters section. Default is **false**
+* layout.display.gallery : enable/disable gallery section. Default is **false**
+
+### Other properties configuration
+* layout.display.cfp : enable/disable cfp button. Default is **false**
+* layout.cfp.close.date : call for paper close date. Ex. **layout.cfp.close.date=2023-05-31 11:55 AST**
+* layout.display.buytickets.menu.button : enable/disable buytickets button in the menu navigation. Default is **false** 
+* layout.display.buytickets.index.button : enable/disable buytickets button in the home page. Default is **false**
+* layout.display.tickets.onsale.soon: enable/disable tickets on sale soon section. Default is **false**
+* layout.display.tickets.sale.startdate: ticket sale start date. Ex: **layout.display.tickets.sale.startdate=2023-05-31 11:55 AST**
+* layout.display.tickets.price:  enable/disable tickets price section. Default is **false**
+* layout.display.tickets.sale.enddate:  ticket sale end date. Ex: **layout.display.tickets.sale.startdate=2023-05-31 11:55 AST**
+* layout.display.tickets.soldout:  enable/disable soldout section. Default is **false**
 
 ### Generating the output
 you can generate the site by running the following command:

@@ -6,24 +6,53 @@
 	Header
 	============================-->
 	<header id="header" th:fragment="menu-archive" th:remove="tag">
-		<div class="container">
+	
+          <!-- Header Start -->
+        <div class="meeta-header-section meeta-header-4">
 
-			<div id="logo" class="pull-left">
-				 <!-- <h1><a href="index.html"><span>JConf</span>Dominicana</a></h1>-->
-				<a href="/index.html" class="scrollto"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
-			</div>
+            <!-- Header Middle Start -->
+            <div class="header-middle header-sticky">
+                <div class="container-fluid custom-container">
 
-			<nav id="nav-menu-container">
-				<ul class="nav-menu">
-					<li><a href="/index.html">Home</a></li>
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-4">
+
+                            <!-- Header Logo Start -->
+                            <div class="header-logo">
+							<a href="/index.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo-2.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
+
+                            </div>
+                            <!-- Header Logo End -->
+
+                        </div>
+                        <div class="col-lg-6 d-none d-lg-block">
+
+                            <!-- Header Navigation Start -->
+                            <div class="header-navigation">
+                                 <ul class="main-menu">
+                                 <li><a href="/index.html">Home</a></li>
 					<li><a href="/index.html#sponsors">Sponsors</a></li>
 					<li><a href="/past-conferences.html">Past Conferences</a></li>
 					<li>
 						<a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" target="_blank" class="twitter">Announcements</a>
-					</li>
-				</ul>
-			</nav><!-- #nav-menu-container -->
-		</div>
+					</li>				 
+                                </ul>
+                            </div>
+                            <!-- Header Navigation End -->
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            <!-- Header Middle End -->
+
+        </div>
+        <!-- Header End -->
+
+
+
 	</header><!-- #header -->
 </body>
 </html>

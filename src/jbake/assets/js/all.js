@@ -21,7 +21,7 @@
   var i = document.querySelector("body"),
       a = document.querySelector(".icon-open-container"),
       u = document.querySelector(".off-canvas");
-  a.addEventListener("click", function () {
+  /*a.addEventListener("click", function () {
     var e = [document.querySelector(".icon-close")];
     (function (e) {
       !function (e) {
@@ -43,6 +43,6 @@
         });
       }
     }(e, u, i);
-  });
+  });*/
 }();
 //# sourceMappingURL=all.js.map
