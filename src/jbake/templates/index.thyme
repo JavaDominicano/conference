@@ -28,8 +28,8 @@
                             <h2 class="title" data-aos-delay="800" data-aos="fade-up">The Caribbean Java Technologies  <br> <span>Conference</span></h2>
 							
                             <div class="header-btn" data-aos-delay="900" data-aos="fade-up">
-                              <a href="price.html" th:if="${config.layout_display_buytickets_index_button}" class="btn-2">Buy Ticket Now</a>
-								<a href="https://bit.ly/40Yv7z4" th:if="${config.layout_display_cfp}" class="btn-2" title="Call For Paper" target="_blank">Apply to become a speaker</a>
+                              <a th:href="${config.layout_buytickets_url}" href="price.html" th:if="${config.layout_display_buytickets_index_button}" class="btn-2">Buy Ticket Now</a>
+								<a th:href="${config.layout_cfp_url}" href="https://bit.ly/40Yv7z4" th:if="${config.layout_display_cfp}" class="btn-2" title="Call For Paper" target="_blank">Apply to become a speaker</a>
 
                             </div>
                         </div>

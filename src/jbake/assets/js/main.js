@@ -1,6 +1,8 @@
 $(function() {
     "use strict";
 
+    activeMenu();
+
     /*--
         preloader
     -----------------------------------*/
@@ -434,6 +436,26 @@ $(function() {
   });
 
     
-    
+    // custom code
+$("ul.main-menu li").click(function() {
+  $("ul.main-menu li").removeClass('active-menu');
+  $(this).addClass("active-menu");
+});
+
+function activeMenu() {
+  var path = window.location.pathname;
+  path = path.replace(/\/$/, "");
+  path = decodeURIComponent(path);
+
+  $(".header-navigation > ul.main-menu a").each(function () {
+      var href = $(this).attr('href');
+
+      if (path.substring(0, href.length) === href) {
+          $(this).closest('li').addClass('active-menu');
+      }
+
+  });
+}
+
     
 });

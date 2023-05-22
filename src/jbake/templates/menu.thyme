@@ -21,19 +21,17 @@
                         <!-- Header Navigation Start -->
                         <div class="header-navigation d-none d-lg-block">
                             <ul class="main-menu">
-                                <li class="active-menu"><a href="/index.html" th:text="#{nav.menu.item.home}">Home</a>
-                                  
-                                </li>
-								 <!--	<li><a href="/buy-tickets.html" th:text="#{nav.menu.item.tickets}">Tickets</a></li>-->
-				<!--  <li><a href="/schedule.html" th:text="#{nav.menu.item.agenda}">Agenda</a></li>-->
-				<!--  <li><a href="/speakers.html" th:text="#{nav.menu.item.speakers}">Speakers</a></li>-->
-				<!--	<li><a href="/presentations.html" th:text="#{nav.menu.item.presentations}">Presentations</a></li>-->
-					<li><a href="/code-of-conduct.html" th:text="#{nav.menu.item.codeOfConduct}">Code of conduct</a></li>
-                                
-					<li><a href="/index.html#sponsors" th:text="#{nav.menu.item.sponsors}">Sponsors</a></li>
-					<li><a href="/past-conferences.html" th:text="#{nav.menu.item.pastConferences}">Past Conferences</a></li>
-					<li><a href="/conference-info.html" th:text="#{nav.menu.item.conferenceInfo}">Conference Info</a></li>
-					<!--<li><a href="/organizers.html" th:text="#{nav.menu.item.organizers}">Organizers</a></li>-->
+                                <li><a href="/index.html" th:text="#{nav.menu.item.home}">Home</a></li>
+                                <li><a th:if="${config.layout_display_tickets}" th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html" th:text="#{nav.menu.item.tickets}">Tickets</a></li>
+                                <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html" th:text="#{nav.menu.item.agenda}">Agenda</a></li>
+                                <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html" th:text="#{nav.menu.item.speakers}">Speakers</a></li>
+                                <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}" th:text="#{nav.menu.item.presentations}">Presentations</a></li>
+                                <li><a href="/code-of-conduct.html" th:text="#{nav.menu.item.codeOfConduct}">Code of conduct</a></li>
+                                    
+                                <li><a href="/index.html#sponsors" th:text="#{nav.menu.item.sponsors}">Sponsors</a></li>
+                                <li><a href="/past-conferences.html" th:text="#{nav.menu.item.pastConferences}">Past Conferences</a></li>
+                                <li><a href="/conference-info.html" th:text="#{nav.menu.item.conferenceInfo}">Conference Info</a></li>
+                                <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}"  th:text="#{nav.menu.item.organizers}">Organizers</a></li>
                             </ul>
                         </div>
                         <!-- Header Navigation End -->
@@ -42,7 +40,7 @@
                         <div class="header-meta" th:if="${config.layout_display_buytickets_menu_button}">
 
                             <div class="header-btn d-none d-md-block">
-                                <a href="price.html" class="btn btn-primary">Buy Ticket Now</a>
+                                <a th:href="${config.layout_buytickets_url}" href="price.html" class="btn btn-primary">Buy Ticket Now</a>
                             </div>
 
                         </div>
@@ -82,18 +80,18 @@
                             <!-- Header Navigation Start -->
                             <div class="header-navigation">
                                  <ul class="main-menu">
-                                <li class="active-menu"><a href="/index.html" th:text="#{nav.menu.item.home}">Home</a>
+                                <li><a href="/index.html" th:text="#{nav.menu.item.home}">Home</a>
                                 </li>
-								 <!--	<li><a href="/buy-tickets.html" th:text="#{nav.menu.item.tickets}">Tickets</a></li>-->
-				<!--  <li><a href="/schedule.html" th:text="#{nav.menu.item.agenda}">Agenda</a></li>-->
-				<!--  <li><a href="/speakers.html" th:text="#{nav.menu.item.speakers}">Speakers</a></li>-->
-				<!--	<li><a href="/presentations.html" th:text="#{nav.menu.item.presentations}">Presentations</a></li>-->
-					<li><a href="/code-of-conduct.html" th:text="#{nav.menu.item.codeOfConduct}">Code of conduct</a></li>
+								 <li><a th:if="${config.layout_display_tickets}" th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html" th:text="#{nav.menu.item.tickets}">Tickets</a></li>
+				                 <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html" th:text="#{nav.menu.item.agenda}">Agenda</a></li>
+				                 <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html" th:text="#{nav.menu.item.speakers}">Speakers</a></li>
+				                 <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}" th:text="#{nav.menu.item.presentations}">Presentations</a></li>
+					             <li><a href="/code-of-conduct.html" th:text="#{nav.menu.item.codeOfConduct}">Code of conduct</a></li>
                                 
-					<li><a href="/index.html#sponsors" th:text="#{nav.menu.item.sponsors}">Sponsors</a></li>
-					<li><a href="/past-conferences.html" th:text="#{nav.menu.item.pastConferences}">Past Conferences</a></li>
-					<li><a href="/conference-info.html" th:text="#{nav.menu.item.conferenceInfo}">Conference Info</a></li>
-					<!--<li><a href="/organizers.html" th:text="#{nav.menu.item.organizers}">Organizers</a></li>-->
+                                <li><a href="/index.html#sponsors" th:text="#{nav.menu.item.sponsors}">Sponsors</a></li>
+                                <li><a href="/past-conferences.html" th:text="#{nav.menu.item.pastConferences}">Past Conferences</a></li>
+                                <li><a href="/conference-info.html" th:text="#{nav.menu.item.conferenceInfo}">Conference Info</a></li>
+                                <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}"  th:text="#{nav.menu.item.organizers}">Organizers</a></li>
                             </ul>
                             </div>
                             <!-- Header Navigation End -->
@@ -105,7 +103,7 @@
                             <div class="header-meta">                               
 
                                 <div class="header-btn d-none d-md-block" th:if="${config.layout_display_buytickets_menu_button}">
-                                    <a href="price.html" class="btn btn-3 btn-primary">Buy Ticket Now</a>
+                                    <a th:href="${config.layout_buytickets_url}" href="price.html" class="btn btn-3 btn-primary">Buy Ticket Now</a>
                                 </div>                        
 
                             </div>
