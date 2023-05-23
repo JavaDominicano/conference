@@ -62,7 +62,7 @@
                                 <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-logo.png'" src="assets/images/about-2.jpg" alt="About">
                             </div>
                             <div class="play-btn">
-                                <a class="popup-video" href="https://www.youtube.com/watch?time_continue=3&v=_X0eYtY8T_U"><i class="fas fa-play"></i></a>
+                                <a class="popup-video" th:href="${config.layout_display_about_home_video_url}" href="https://www.youtube.com/watch?time_continue=3&v=_X0eYtY8T_U"><i class="fas fa-play"></i></a>
                             </div>
                         </div>
                         <!-- About Images End -->
@@ -132,12 +132,12 @@
 
 		<div th:replace="${config.layout_display_counter} ? ~{counter.thyme::counter} : ~{}" />
 
-		<div th:replace="${config.layout_display_speakers} ? ~{speakers.thyme::speakers} : ~{}" />
+		<div th:replace="${config.layout_display_speakers && config.layout_display_page_spa}? ~{speakers.thyme::speakers} : ~{}" />
 
-		<div th:replace="${config.layout_display_schedule} ? ~{schedule.thyme::schedule} : ~{}" />
+		<div th:replace="${config.layout_display_schedule && config.layout_display_page_spa}? ~{schedule.thyme::schedule} : ~{}" />
 
 
-       <div th:replace="${config.layout_display_tickets} ? ~{tickets.thyme::tickets} : ~{}"/>
+       <div th:replace="${config.layout_display_tickets && config.layout_display_page_spa}? ~{tickets.thyme::tickets} : ~{}"/>
 
 
 		<div th:replace="${config.layout_display_sponsors} ? ~{sponsors.thyme::sponsors} : ~{}" />
