@@ -171,7 +171,7 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 		 </div>
 	<div th:fragment="footer-page" th:remove="tag">
 		  <!-- Footer Start -->
-    <div class="meeta-footer-section" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/meeta/bg/footer-bg.jpg)|" style="background-image: url(assets/images/bg/footer-bg.jpg);">
+    <div class="meeta-footer-section" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/venue-gallery/dominican-republic.jpg)|" style="background-image: url(img/venue-gallery/dominican-republic.jpg);">
 
         <!-- Footer Widget Start -->
         <div class="footer-widget text-center">
