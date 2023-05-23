@@ -6,8 +6,7 @@
       <div th:fragment="sponsors" th:remove="tag">
 
        <!-- Event Sponsors Start -->
-        <div id="sponsors" class="meeta-event-sponsors-2 section-padding" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  
-        th:style="|background-image:url(${rootpath}img/meeta/bg/sponsor-bg-2.jpg)|" style="background-image: url(assets/images/bg/sponsor-bg-2.jpg);">
+        <div id="sponsors" class="meeta-event-sponsors-2 section-padding" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')">
             <div class="container">
 
                 <!-- Section Title Start -->
