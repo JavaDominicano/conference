@@ -3,7 +3,7 @@
 
 		<div th:fragment="footer-index" th:remove="tag">
 		      <!-- Footer Start -->
-    <div class="meeta-footer-section meeta-footer-2" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/meeta/bg/footer-bg-2.jpg)|" style="background-image: url(assets/images/bg/footer-bg-2.jpg);">
+    <div class="meeta-footer-section meeta-footer-2" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/venue-gallery/dominican-republic.jpg)|" style="background-image: url(img/venue-gallery/dominican-republic.jpg);">
 
         <!-- Footer Widget Start -->
         <div class="footer-widget">

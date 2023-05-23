@@ -17,7 +17,7 @@
 		<header th:replace="menu.thyme::menu-index" />
 		
 		<!-- Slider Section Start  -->
-        <div id="intro" class="meeta-hero-section-6" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:style="|background-image:url(${rootpath}img/meeta/hero-6.jpg)|" style="background-image: url(assets/images/hero-6.jpg);">
+        <div id="intro" class="meeta-hero-section-6" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:style="|background-image:url(${rootpath}img/gallery/jconf-2019-14.jpg)|" style="background-image: url(img/gallery/jconf-2019-14.jpg);">
 		
             <div class="container">
                 <div class="row">
@@ -59,7 +59,7 @@
                                 <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/about-2-shape.png'" src="assets/images/shape/about-2-shape.png" alt="">
                             </div>
                             <div class="image">
-                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/about-2.jpg'" src="assets/images/about-2.jpg" alt="About">
+                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-logo.png'" src="assets/images/about-2.jpg" alt="About">
                             </div>
                             <div class="play-btn">
                                 <a class="popup-video" href="https://www.youtube.com/watch?time_continue=3&v=_X0eYtY8T_U"><i class="fas fa-play"></i></a>
@@ -86,7 +86,7 @@
                                     <ul>
                                         <li class="about-list-item">
                                             <div class="about-icon">
-                                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/ab-icon-1.png'" src="assets/images/ab-icon-1.png" alt="">
+                                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/live-coding-icon.png'" src="assets/images/ab-icon-1.png" alt="">
                                             </div>
                                             <div class="about-text">
                                                 <h3 class="title">Live Coding</h3>
@@ -102,7 +102,7 @@
                                         </li>
                                         <li class="about-list-item">
                                             <div class="about-icon">
-                                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/ab-icon-3.png'" src="assets/images/ab-icon-3.png" alt="">
+                                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/workshop-icon.png'" src="img/meeta/workshop-icon.png" alt="">
                                             </div>
                                             <div class="about-text">
                                                 <h3 class="title">Workshop</h3>

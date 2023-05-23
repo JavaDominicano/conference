@@ -4,19 +4,7 @@
 	<body>
 	<div th:fragment="counter" th:remove="tag">
     <!-- Counter Start -->
-        <div class="meeta-counter-section section-padding" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/meeta/bg/counter-bg.jpg)|" style="background-image: url(assets/images/bg/counter-bg.jpg);">
-            <div class="shape-1">
-                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/counter-shape-1.png'" src="assets/images/shape/counter-shape-1.png" alt="">
-            </div>
-            <div class="shape-2">
-                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/counter-shape-2.png'" src="assets/images/shape/counter-shape-2.png" alt="">
-            </div>
-            <div class="shape-3">
-                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/hero-sahpe-1.png'" src="assets/images/shape/hero-sahpe-1.png" alt="">
-            </div>
-            <div class="shape-4">
-                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/counter-shape-4.png'" src="assets/images/shape/counter-shape-4.png" alt="">
-            </div>
+        <div class="meeta-counter-section section-padding" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/gallery/jconf-2019-12.jpg)|" style="background-image: url(assets/images/bg/counter-bg.jpg);">
             <div class="container">
                 <div class="counter-wrap">
                     <div class="row">
