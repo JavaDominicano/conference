@@ -1,7 +1,7 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-transitional-thymeleaf-4.dtd">
 <html lang="en">
 
-<head th:fragment="head">
+<head th:fragment="head-index">
   <meta charset="utf-8"/>
   <title th:with="title=(${content.title} ?: ${config.site_title})" th:text="${title}">Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -36,21 +36,85 @@
 
 <link  th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'img/apple-icon-180x180.png'"  rel="apple-touch-icon"/>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet"/>
+<!--All Google Fonts-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo:wght@300;400;500;600;700&display=swap">
 
-<!-- Bootstrap CSS File -->
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/bootstrap/css/bootstrap.min.css'" rel="stylesheet"/>
 
 <!-- Libraries CSS Files -->
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/font-awesome/css/font-awesome.min.css'" rel="stylesheet"/>
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/animate/animate.min.css'" rel="stylesheet"/>
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/venobox/venobox.css'" rel="stylesheet"/>
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/owlcarousel/assets/owl.carousel.min.css'" rel="stylesheet"/>
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/vegas/vegas.min.css'" rel="stylesheet"/>
-<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/flag-icon-css/css/flag-icon.css'" rel="stylesheet" />
+
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/all.min.css'" rel="stylesheet" />
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/flaticon.css'" rel="stylesheet" />
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/bootstrap.min.css'" rel="stylesheet"/>
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/swiper-bundle.min.css'" rel="stylesheet"/>
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/magnific-popup.css'" rel="stylesheet"/>
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/aos.css'" rel="stylesheet"/>
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/nice-select.css'" rel="stylesheet"/>
 
 <!-- Main Stylesheet File -->
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/style.css'" rel="stylesheet"/>
+        
+
+</head>
+<head th:fragment="head-page">
+  <meta charset="utf-8"/>
+  <title th:with="title=(${content.title} ?: ${config.site_title})" th:text="${title}">Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta name="author" content="" th:content="${content.author} ?: ${config.site_author}"/>
+  <meta name="keywords" content=""/>
+  <meta name="generator" content="JBake"/>
+
+
+  <!--Facebook Card-->
+  <meta property="og:type" content="article" />
+  <meta property="og:title"  content="JConfDominicana" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}" />
+  <meta property="og:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta property="og:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.jpg"
+  th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.jpg'))"
+  th:content="|${config.site_host}/${cover}|" />
+
+  <!--Twitter card -->
+  <th:block th:if="${config.twitter_username}">
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="JConfDominicana" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}"/>
+  <meta name="twitter:creator" content="@JavaDominicano" th:content="'@'+${config.twitter_username}"/>
+  <meta name="twitter:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta name="twitter:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.jpg"
+  th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.jpg'))"
+  th:content="|${config.site_host}/${cover}|"/>
+</th:block>
+
+
+<!-- Favicons -->
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'img/favicon-32x32.png'" type="image/png" rel="icon"/>
+
+<link  th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'img/apple-icon-180x180.png'"  rel="apple-touch-icon"/>
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS
+	============================================ -->
+
+    <!-- Icon Font CSS -->
+   <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/all.min.css'" rel="stylesheet" />
+   <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/flaticon.css'" rel="stylesheet" />
+
+
+    <!-- Plugins CSS -->
+    <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/bootstrap.min.css'" rel="stylesheet"/>
+    <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/swiper-bundle.min.css'" rel="stylesheet"/>
+    <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/magnific-popup.css'" rel="stylesheet"/>
+    <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/aos.css'" rel="stylesheet"/>
+    <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/nice-select.css'" rel="stylesheet"/>
+
+    <!-- Main Style CSS -->
+    <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/style.css'" rel="stylesheet"/>
+
 </head>
 </html>

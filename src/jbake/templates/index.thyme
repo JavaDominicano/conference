@@ -1,77 +1,157 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="header.thyme::head"/>
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="header.thyme::head-index"/>
 <body>
-	<div id="wrap">
-		<header th:insert="menu.thyme::menu" id="header"/>
-		<!--==========================
-		Intro Section
-		============================-->
-		<section id="intro">
-			<div id="intro-container" class="intro-container wow fadeIn">
-      		<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
-					<h1 class="mb-4 pb-0">The Caribbean Java Technologies Conference.</h1>
-					<p class="mb-4 pb-0">Saturday, July 22, 2023. Santo Domingo. Dominican Republic.</p>
+   <div class="main-wrapper">
 
-		         <a href="https://bit.ly/40Yv7z4" class="about-btn scrollto" title="Call For Paper" target="_blank">Apply to become a speaker</a>
-					<!--<p class="mb-4 pb-0">Have a good idea for a talk? The call for paper is open now!</p>-->
-					<!--<p class="mb-4 pb-0">See you all again next year!</p>-->
+        <!-- Preloader start -->
+        <div id="preloader">
+            <div class="preloader">
+                <span></span>
+                <span></span>
+            </div>
+        </div>        
+		<!-- Preloader End -->
 
-			</div>
-		</section>
+		<header th:replace="menu.thyme::menu-index" />
+		
+		<!-- Slider Section Start  -->
+        <div id="intro" class="meeta-hero-section-6" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:style="|background-image:url(${rootpath}img/gallery/jconf-2019-14.jpg)|" style="background-image: url(img/gallery/jconf-2019-14.jpg);">
+		
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="meeta-hero-content text-center">
+				<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
+                            <p class="text" data-aos-delay="700" data-aos="fade-up">July 21-22, 2023. Santo Domingo. Dominican Republic.</p>
+                            <h2 class="title" data-aos-delay="800" data-aos="fade-up">The Caribbean Java Technologies  <br> <span>Conference</span></h2>
+							
+                            <div class="header-btn" data-aos-delay="900" data-aos="fade-up">
+                              <a th:href="${config.layout_buytickets_url}" href="price.html" th:if="${config.layout_display_buytickets_index_button}" class="btn-2">Buy Ticket Now</a>
+								<a th:href="${config.layout_cfp_url}" href="https://bit.ly/40Yv7z4" th:if="${config.layout_display_cfp}" class="btn-2" title="Call For Paper" target="_blank">Apply to become a speaker</a>
 
-		<main id="main">
-			<!--==========================
-			About Section
-			============================-->
-			<section id="about">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6">
-							<h3>About</h3>
-							<p>JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.The conference offers a unique networking opportunity for developers, tech companies, and startups and a chance to enjoy the pristine beaches, cloud-forest treks, and the welcoming villages that the island has to offer. Come to the Dominican Republic to learn about latest Java technologies and have fun sightseeing.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-svg">
+                <svg id="svg" viewbox="0, 0, 400,27.708333333333336">
+                    <g id="svgg">
+                        <path id="path0" d="M0.000 13.854 L 0.000 27.708 200.000 27.708 L 400.000 27.708 400.000 14.216 L 400.000 0.725 395.573 1.822 C 322.012 20.064,241.242 29.243,178.709 26.467 C 123.876 24.033,57.451 14.315,4.123 0.926 C 2.094 0.417,0.336 0.000,0.217 0.000 C 0.069 0.000,0.000 4.399,0.000 13.854" stroke="none" fill="#fff" fill-rule="evenodd"></path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <!-- Slider Section End -->			
 
-							</p>
-						</div>
-						<!--<div class="col-lg-3">
-							<h3>Where</h3>
-							<p>Virtual Edition</p>
-						</div>
-						-->
-						<div class="col-lg-3">
-							 <h3>When</h3>
-							<p>July, 2023</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!--==========================
-				Gallery Section
-			============================-->
+        <!-- About Section Start -->
+        <div id="about" class="meeta-about-section-2 section-padding">
+            <div class="container">
 
-		<!--
-		<div th:replace="schedule.thyme::schedule"/>
-		==========================
-			Speakers Section
-		============================
-	 	 -->
-		 <!--==========================
-		 	Tickets Section
-		 ============================-->
-		 <div th:replace="tickets.thyme::tickets"/>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
 
-		<!--==========================
-			Sponsors Section
-		============================-->
-		  <div th:replace="sponsors.thyme::sponsors"/>
-		<!--
-			<div th:replace="supporters.thyme::supporters"/>
-		-->
+                        <!-- About Images Start -->
+                        <div class="meeta-about-images-2">
+                            <div class="shape-1">
+                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/about-2-shape.png'" src="assets/images/shape/about-2-shape.png" alt="">
+                            </div>
+                            <div class="image">
+                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-logo.png'" src="assets/images/about-2.jpg" alt="About">
+                            </div>
+                            <div class="play-btn">
+                                <a class="popup-video" href="https://www.youtube.com/watch?time_continue=3&v=_X0eYtY8T_U"><i class="fas fa-play"></i></a>
+                            </div>
+                        </div>
+                        <!-- About Images End -->
 
-		</main>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-2-content-wrap">
+                            <!-- Section Title Start -->
+                            <div class="meeta-section-title-2">
+                                <h4 class="sub-title">About</h4>
+                                <h2 class="main-title">The Caribbean Java Technologies Conference.</h2>
+                            </div>
+                            <!-- Section Title End -->
+
+                            <!-- About Content Start -->
+                            <div class="meeta-about-content">
+
+                                <p>JConf Dominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.The conference offers a unique networking opportunity for developers, tech companies, and startups and a chance to enjoy the pristine beaches, cloud-forest treks, and the welcoming villages that the island has to offer. Come to the Dominican Republic to learn about latest Java technologies and have fun sightseeing.</p>
+
+                                <div class="about-list">
+                                    <ul>
+                                        <li class="about-list-item">
+                                            <div class="about-icon">
+                                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/live-coding-icon.png'" src="assets/images/ab-icon-1.png" alt="">
+                                            </div>
+                                            <div class="about-text">
+                                                <h3 class="title">Live Coding</h3>
+                                            </div>
+                                        </li>
+                                        <li class="about-list-item">
+                                            <div class="about-icon">
+                                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/ab-icon-2.png'" src="assets/images/ab-icon-2.png" alt="">
+                                            </div>
+                                            <div class="about-text">
+                                                <h3 class="title">Food</h3>
+                                            </div>
+                                        </li>
+                                        <li class="about-list-item">
+                                            <div class="about-icon">
+                                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/workshop-icon.png'" src="img/meeta/workshop-icon.png" alt="">
+                                            </div>
+                                            <div class="about-text">
+                                                <h3 class="title">Workshop</h3>
+                                            </div>
+                                        </li>
+                                        <li class="about-list-item">
+                                            <div class="about-icon">
+                                                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/ab-icon-4.png'" src="assets/images/ab-icon-4.png" alt="">
+                                            </div>
+                                            <div class="about-text">
+                                                <h3 class="title">Gift Items</h3>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <!-- About Content End -->
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- About Section End -->
+
+		<div th:replace="${config.layout_display_counter} ? ~{counter.thyme::counter} : ~{}" />
+
+		<div th:replace="${config.layout_display_speakers} ? ~{speakers.thyme::speakers} : ~{}" />
+
+		<div th:replace="${config.layout_display_schedule} ? ~{schedule.thyme::schedule} : ~{}" />
+
+
+       <div th:replace="${config.layout_display_tickets} ? ~{tickets.thyme::tickets} : ~{}"/>
+
+
+		<div th:replace="${config.layout_display_sponsors} ? ~{sponsors.thyme::sponsors} : ~{}" />
+		
+	
+		<div th:replace="${config.layout_display_supporters} ? ~{supporters.thyme::supporters} : ~{}"/>
+		
+		<div th:replace="${config.layout_display_gallery} ? ~{gallery.thyme::gallery} : ~{}"/>
+	
+
+
+  </div>
      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>
-		<div th:replace="footer.thyme::footer"/>
-	</div>
+		<div th:replace="footer.thyme::footer-index"/>
+
 </body>
 </html>
