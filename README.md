@@ -69,6 +69,7 @@ To do any change, you have to explore [JBake](http://www.jbake.org) and [Thymele
 * layout.display.page.spa: enable/disable spa mode. Default is **true**  
 * layout.display.organizers.page: enable/disable presentations page. Default is **false**
 * layout.display.presentations.page: enable/disable presentations page. Default is **false**
+* layout.display.about.home.video.url: home page about section video url. 
 
 ### Generating the output
 

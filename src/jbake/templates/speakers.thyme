@@ -4,7 +4,7 @@
 	<body>
 	<div th:fragment="speakers" th:remove="tag">
            <!-- Speakers Start -->
-        <div class="meeta-speakers-2 section-padding">
+        <div id="speakers" class="meeta-speakers-2 section-padding">
             <div class="container">
                 <div class="meeta-speakers-wrap">
                     <!-- Section Title Start -->
