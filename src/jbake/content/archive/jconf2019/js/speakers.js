@@ -16,22 +16,16 @@ fetch('/archive/jconf2019/json/speakers.json')
 
 
 function createSpeakerCard(speakerJson) {
-
-    var speakerHtml = "<div class=\"col-lg-4 col-md-6\">" +
-        "<div class=\"speaker\">" +
-        "<img src=\"" +speakerJson.photoUrl +"\" alt=\"" +speakerJson.name +"\" class=\"img-fluid\"/>" +
-        "<div class=\"details\">" +
-        "<h3><a href=\"speaker-details.html?id=" + speakerJson.id + "\">" +speakerJson.name +"</a></h3>"+
-        "<p>" +speakerJson.badges[0].description +" @ " +speakerJson.company +" - " +speakerJson.country +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></p>" +
-        "<div class=\"social\">" ;
-
-        for(i in speakerJson.socials){
-             speakerHtml += " <a href=\""+speakerJson.socials[i].link+"\" target=\"_blank\"><i class=\"fa fa-"+speakerJson.socials[i].icon+"\"></i></a> ";
-        }
-
-    speakerHtml += "</div>" +
-        "</div>" +
-        "</div>" +
+        var speakerHtml = "<div class=\"col-lg-3\">" +
+        "<div class=\"single-speker-3\">" +
+        "<div class=\"speker-img\">" +
+        "<a href=\"speaker-details.html?id=" + speakerJson.id + "\"><img src=\"" +speakerJson.photoUrl +"\" alt=\"" +speakerJson.name +"\" /></a>"+
+        "<div class=\"speker-content text-center\">"+
+           "<h3 class=\"speaker-name\"><a href=\"speaker-details.html?id=" + speakerJson.id + "\">" +speakerJson.name +"</a></h3>"+
+               "<p class=\"speaker-designation\">" +speakerJson.badges[0].description +" @ " +speakerJson.company +" - " +speakerJson.country +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></p>" +        
+        "</div>"+
+        "</div>"+
+        "</div>"+
         "</div>";
 
         return speakerHtml;

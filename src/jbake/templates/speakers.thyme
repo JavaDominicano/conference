@@ -20,14 +20,14 @@
                                 <!-- Single Speakers Start -->
                                 <div class="single-speaker-2 color-1 text-center">
                                     <div class="shape-2">
-                                        <img src="assets/images/shape/sp-shape-2.png" alt="">
+                                        <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-2.png'" src="assets/images/shape/sp-shape-2.png" alt="">
                                     </div>
                                     <div class="speaker-image">
                                         <div class="image">
-                                            <a href="speaker-single.html"><img src="assets/images/speaker/speaker-1.jpg" alt="Speaker"></a>
+                                            <a href="speaker-single.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/speaker/speaker-1.jpg'" src="assets/images/speaker/speaker-1.jpg" alt="Speaker"></a>
                                         </div>
                                         <div class="shape-1">
-                                            <img src="assets/images/shape/sp-shape-1.png" alt="">
+                                            <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-1.png'" src="assets/images/shape/sp-shape-1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="speaker-content">
@@ -41,14 +41,14 @@
                                 <!-- Single Speakers Start -->
                                 <div class="single-speaker-2 color-2 text-center">
                                     <div class="shape-2">
-                                        <img src="assets/images/shape/sp-shape-2.png" alt="">
+                                        <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-2.png'" src="assets/images/shape/sp-shape-2.png" alt="">
                                     </div>
                                     <div class="speaker-image">
                                         <div class="image">
-                                            <a href="speaker-single.html"><img src="assets/images/speaker/speaker-2.jpg" alt="Speaker"></a>
+                                            <a href="speaker-single.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/speaker/speaker-2.jpg'" src="assets/images/speaker/speaker-2.jpg" alt="Speaker"></a>
                                         </div>
                                         <div class="shape-1">
-                                            <img src="assets/images/shape/sp-shape-1.png" alt="">
+                                            <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-1.png'" src="assets/images/shape/sp-shape-1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="speaker-content">
@@ -62,14 +62,14 @@
                                 <!-- Single Speakers Start -->
                                 <div class="single-speaker-2 color-3 text-center">
                                     <div class="shape-2">
-                                        <img src="assets/images/shape/sp-shape-2.png" alt="">
+                                        <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-2.png'" src="assets/images/shape/sp-shape-2.png" alt="">
                                     </div>
                                     <div class="speaker-image">
                                         <div class="image">
-                                            <a href="speaker-single.html"><img src="assets/images/speaker/speaker-3.jpg" alt="Speaker"></a>
+                                            <a href="speaker-single.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/speaker/speaker-3.jpg'" src="assets/images/speaker/speaker-3.jpg" alt="Speaker"></a>
                                         </div>
                                         <div class="shape-1">
-                                            <img src="assets/images/shape/sp-shape-1.png" alt="">
+                                            <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-1.png'" src="assets/images/shape/sp-shape-1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="speaker-content">
@@ -83,14 +83,14 @@
                                 <!-- Single Speakers Start -->
                                 <div class="single-speaker-2 color-4 text-center">
                                     <div class="shape-2">
-                                        <img src="assets/images/shape/sp-shape-2.png" alt="">
+                                        <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-2.png'" src="assets/images/shape/sp-shape-2.png" alt="">
                                     </div>
                                     <div class="speaker-image">
                                         <div class="image">
-                                            <a href="speaker-single.html"><img src="assets/images/speaker/speaker-4.jpg" alt="Speaker"></a>
+                                            <a href="speaker-single.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/speaker/speaker-4.jpg'" src="assets/images/speaker/speaker-4.jpg" alt="Speaker"></a>
                                         </div>
                                         <div class="shape-1">
-                                            <img src="assets/images/shape/sp-shape-1.png" alt="">
+                                            <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-1.png'" src="assets/images/shape/sp-shape-1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="speaker-content">
@@ -104,14 +104,14 @@
                                 <!-- Single Speakers Start -->
                                 <div class="single-speaker-2 color-5 text-center">
                                     <div class="shape-2">
-                                        <img src="assets/images/shape/sp-shape-2.png" alt="">
+                                        <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-2.png'" src="assets/images/shape/sp-shape-2.png" alt="">
                                     </div>
                                     <div class="speaker-image">
                                         <div class="image">
-                                            <a href="speaker-single.html"><img src="assets/images/speaker/speaker-5.jpg" alt="Speaker"></a>
+                                            <a href="speaker-single.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/speaker/speaker-5.jpg'" src="assets/images/speaker/speaker-5.jpg" alt="Speaker"></a>
                                         </div>
                                         <div class="shape-1">
-                                            <img src="assets/images/shape/sp-shape-1.png" alt="">
+                                            <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-1.png'" src="assets/images/shape/sp-shape-1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="speaker-content">
@@ -125,14 +125,14 @@
                                 <!-- Single Speakers Start -->
                                 <div class="single-speaker-2 color-6 text-center">
                                     <div class="shape-2">
-                                        <img src="assets/images/shape/sp-shape-2.png" alt="">
+                                        <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-2.png'" src="assets/images/shape/sp-shape-2.png" alt="">
                                     </div>
                                     <div class="speaker-image">
                                         <div class="image">
-                                            <a href="#"><img src="assets/images/speaker/speaker-6.jpg" alt="Speaker"></a>
+                                            <a href="#"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/speaker/speaker-6.jpg'" src="assets/images/speaker/speaker-6.jpg" alt="Speaker"></a>
                                         </div>
                                         <div class="shape-1">
-                                            <img src="assets/images/shape/sp-shape-1.png" alt="">
+                                            <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/sp-shape-1.png'" src="assets/images/shape/sp-shape-1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="speaker-content">
