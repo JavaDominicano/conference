@@ -21,7 +21,7 @@ function createSpeakerCard(speakerJson) {
         "<div class=\"speker-img\">" +
         "<a href=\"speaker-details.html?id=" + speakerJson.id + "\"><img src=\"" +speakerJson.photoUrl +"\" alt=\"" +speakerJson.name +"\" /></a>"+
         "<div class=\"speker-content text-center\">"+
-           "<h3 class=\"speaker-name\"><a href=\"speaker-details.html?id=" + speakerJson.id + "\">" +speakerJson.name +"</a></h3>"+
+           "<h3 class=\"speaker-name\">" +speakerJson.name +"</h3>"+
                "<p class=\"speaker-designation\">" +speakerJson.badges[0].description +" @ " +speakerJson.company +" - " +speakerJson.country +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></p>" +        
         "</div>"+
         "</div>"+

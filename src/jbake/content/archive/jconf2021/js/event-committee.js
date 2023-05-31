@@ -25,18 +25,10 @@ function createMemberCard(memberJson) {
        var memberHtml = "<div class=\"col-lg-3\">" +
         "<div class=\"single-speker-3\">" +
         "<div class=\"speker-img\">" +
-        "<img src=\"" +memberJson.photoUrl +"\" alt=\"" +memberJson.name +"\" />" +
+        "<a href=\""+memberJson.socials[0].link+"\" target=\"_blank\"><img src=\"" +memberJson.photoUrl +"\" alt=\"" +memberJson.name +"\" /></a>" +
         "<div class=\"speker-content text-center\">"+
         "<h3 class=\"speaker-name\">"+memberJson.name+"</h3>"+
-        "<p>" +memberJson.badges[0].description +" @ " +memberJson.company+"</p>" +
-        "<p>"+memberJson.shortBio+"</p>" +
-        "<div class=\"social\">" ;
-
-        for(let i in memberJson.socials){
-             memberHtml += " <a href=\""+memberJson.socials[i].link+"\" target=\"_blank\"><i class=\"fab fa-"+memberJson.socials[i].icon+"\"></i></a> ";
-        }
-
-       memberHtml += "</div>" +
+        "<span class=\"speaker-designation\">" +memberJson.badges[0].description +" @ " +memberJson.company+"</span>" +
         "</div>"+
         "</div>"+
         "</div>"+
