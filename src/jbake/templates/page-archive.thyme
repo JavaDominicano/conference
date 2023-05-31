@@ -25,7 +25,7 @@
                             <div class="page-banner text-center">
                                 <h2 class="title" th:utext='${content.title}'>Page Title</h2>
                                 <ul class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="/past-conferences.html">Past Conferences</a></li>
                                     <li class="breadcrumb-item active" aria-current="page"><p th:text="${content.title}" th:remove="tag">Page Title</p>
 </li>
                                 </ul>
