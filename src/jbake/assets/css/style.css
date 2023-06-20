@@ -172,6 +172,7 @@ button, input[type="submit"] {
 
 img {
   max-width: 100%;
+  min-width:8rem;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
@@ -10373,4 +10374,43 @@ label {
   opacity: 1;
   visibility: visible;
   transform: translateX(0);
+}
+
+
+.btn-link {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background: #c22035;
+  border-color: transparent;
+  color: #ffffff;
+  border-radius: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Archivo", sans-serif;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 35px;
+  border-width: 0;
+  border-style: solid;
+  box-shadow: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.btn-link:focus, .btn-link:focus:active {
+  box-shadow: none;
+}
+
+.btn-link:hover {
+  color: #c22035;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn-link:hover::before {
+  transform-origin: bottom left;
+  transform: scale(1, 1);
 }

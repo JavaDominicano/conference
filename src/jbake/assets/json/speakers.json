@@ -1,127 +1,130 @@
 {
 	"101": {
-		 "id": "karan-balkar",
-    "name": "Karan Balkar",
-		"company": "LTI",
+		 "id": "solenny-peralta-lopez",
+    "name": "Solenny Peralta Lopez",
+		"company": "",
 		"companyLogo": "",
-		"country": "India",
-		"countryFlag": "flag-icon-in",
-	  "photoUrl": "/img/speakers/karan-balkar.jpg",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+	  "photoUrl": "/img/speakers/solenny-peralta-lopez.jpg",
 		"shortBio": "",
 		"bio": "",
 		"tags": [],
 		"badges": [{
-			"name": "Software Engineer",
-			"description": "Software Engineer"
+			"name": "IT Project Manager",
+			"description": "IT Project Manager"
 		}],
 		 	"socials": [{
 				"icon": "twitter",
 				"name": "Twitter",
-				"link": "https://twitter.com/threadsoflifebg"
+				"link": "https://twitter.com/Psolenny"
+			},
+			{
+                "icon": "link",
+                "name": "link",
+                "link": "https://www.psolenny.com/"
 			}
 		]
 	},
 	"102": {
-		"id": "mary-grygleski",
-   	"name": "Mary Grygleski",
-		"company": "DataStax",
+		"id": "freddy-pena",
+    	"name": "Freddy Peña",
+		"company": "Alphnology",
 		"companyLogo": "",
-		"country": "Chicago, IL",
-		"countryFlag": "flag-icon-us",
-	  "photoUrl": "/img/speakers/mary-grygleski.jpeg",
+		"country": "Santiago, Dominican Republic",
+		"countryFlag": "flag-icon-do",
+	  "photoUrl": "/img/speakers/freddy-pena.jpg",
 		"shortBio": "",
 		"bio": "",
 		"tags": [],
 		"badges": [{
-			"name": "Software Engineer",
-			"description": "Software Engineer"
+			"name": "Founder & Software Developer",
+			"description": "Founder & Software Developer"
 		}],
 	"socials": [
-            {
-                "icon": "fab fa-twitter",
-                "name": "Twitter",
-                "link": "http://twitter.com/mgrygles"
-            },
-            {
-                "icon": "link",
-                "name": "link",
-                "link": "https://dev.to/mgrygles"
-			}
+		{
+			"icon": "twitter",
+			"name": "Twitter",
+			"link": "https://twitter.com/fred_pena"
+		},
+		{
+			"icon": "github",
+			"name": "Github",
+			"link": "https://github.com/fredpena"
+		},
+		{
+			"icon": "linkedin",
+			"name": "Linkedin",
+			"link": "https://www.linkedin.com/in/fantpena/"
+		},
+		{
+			"icon": "link",
+			"name": "link",
+			"link": "https://alphnology.com/"
+		}
         ]
 	},
 	"103": {
-		"id": "euryperez",
-		"name": "Eury Perez Beltre",
-		"company": "Citizen",
+		"id": "yuri-santana",
+		"name": "Yuri Santana",
+		"company": "Supabase",
 		"companyLogo": "",
 		"country": "Dominican Republic",
 		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/euryperez.jpg",
+		"photoUrl": "https://secure.gravatar.com/avatar/91ea3e37cc065eb9ee30267f8651b5c0?s=500",
 		"shortBio": "",
 		"bio": "",
 		"tags": [],
 		"badges": [{
-			"name": "Android Team Lead",
-			"description": "Android Team Lead"
+			"name": "DevRel",
+			"description": "DevRel"
 		}],
-		"socials": [{
-      "icon": "twitter",
-      "name": "Twitter",
-      "link": "https://twitter.com/_euryperez"
-    },
-   {
-    "icon": "linkedin",
-    "name": "Linkedin",
-    "link": "https://www.linkedin.com/in/euryperez/"
-  },
+		"socials": [
   {
     "icon": "link",
-    "name": "Personal Site",
-    "link": "https://euryperez.dev"
+    "name": "Linktr.ee",
+    "link": "https://linktr.ee/YuriCodesBot"
   }
  ]
 	},
 
 	"104": {
-		"id": "clivens",
-		"name": "Clivens Petit",
-		"company": "Softrizon",
+		"id": "juan-polanco",
+		"name": "Juan Jose Polanco Arias",
+		"company": "Intellisys D. Corp",
 		"companyLogo": "",
 		"country": "Dominican Republic",
 		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/peclevens.jpg",
+		"photoUrl": "/img/speakers/juan-polanco.jpg",
 		"shortBio": "",
 		"bio": "",
 		"tags": [],
 		"badges": [{
-			"name": "CTO",
-			"description": "CTO"
+			"name": "Software Developer",
+			"description": "Software Developer"
 		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/peclevens"
+		"socials": [
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/juanjpolancoa"
 			},
 			{
 				"icon": "github",
 				"name": "Github",
-				"link": "https://github.com/peclevens"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/peclevens"
+				"link": "https://github.com/jpolanco91"
 			}
 		]
 	},
+	
 	"105": {
-		 "id": "manases-jesus",
-     "name": "Manasés Jesús",
-		"company": "Cumulocity IoT",
+	 "id": "enrique-zamudio",
+     "name": "Enrique Zamudio",
+		"company": "Bitso",
 		"companyLogo": "",
-		"country": "Germany",
+		"country": "México",
 		"countryFlag": "flag-icon-mx",
-		"photoUrl": "/img/speakers/manases-jesus.png",
+		"photoUrl": "/img/speakers/enrique-zamudio.jpg",
 		"shortBio": "",
 		"bio": "",
 		"tags": [],
@@ -129,26 +132,17 @@
 			"name": "Software Architect",
 			"description": "Software Architect"
 		}],
-		 "socials": [{
-       "icon": "github",
-       "name": "GitHub",
-       "link": "https://github.com/manasesjesus"
-     },
+		 "socials": [
      {
-       "icon": "linkedin",
-       "name": "LinkedIn",
-       "link": "https://www.linkedin.com/in/manasesjesus/"
-     },
-     {
-       "icon": "certificate",
-       "name": "Credly",
-       "link": "https://www.credly.com/users/manasesjesus/badges?sort=-state_updated_at&page=1"
-     },
+		"icon": "twitter",
+		"name": "Twitter",
+		"link": "https://twitter.com/chochosmx"
+	},
      {
        "icon": "link",
        "name": "link",
-       "link": "https://sessionize.com/manasesjesus"
-    }
+       "link": "http://www.javamexico.org/blogs/ezamudio"
+     }
     ]
 	},
 	"106": {
