@@ -499,8 +499,12 @@ var linguJSON = {
       'target_es': 'La Conferencia de Tecnologías Java del Caribe'
     },
     {
-      'source': 'July 23, 2022. Virtual Edition.',
-      'target_es': '23 de Julio del 2022. Edición Virtual.'
+      'source': 'The Caribbean Java Technologies<br><span>Conference</span>',
+      'target_es': 'La <span>Conferencia</span> de Tecnologías<br> Java del Caribe'
+    },
+    {
+      'source': 'July 21-22, 2023. Santo Domingo. Dominican Republic.',
+      'target_es': '21-22 de Julio del 2023. Santo Domingo. República Dominicana'
     },
     {
       'source': 'Save the date!',
@@ -632,8 +636,26 @@ var linguJSON = {
     {
       "source" : "Saturday, July 22, 2023. Santo Domingo. Dominican Republic.",
       "target_es":"Sábado 22 de Julio de 2023. Santo Domingo. Dominican Republic"
-    }
+    },
+    
+    {
+      "source" : "Live Coding",
+      "target_es":"Codificación En Vivo"
+    },
+    {
+      "source" : "Food",
+      "target_es":"Almuerzo"
+    },
 
+    {
+      "source" : "Workshops",
+      "target_es":"Talleres"
+    },
+
+    {
+      "source" : "Gift Items",
+      "target_es":"Regalos"
+    }
 
 
 

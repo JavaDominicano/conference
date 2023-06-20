@@ -278,10 +278,11 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
     <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/aos.js'"></script>
     <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.nice-select.min.js'"></script>
 			
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/JSON-translation-data.js'"></script>
 
     <!-- Main JS -->
     <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
-
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/lingumania.min.js'"></script>
 		
 		
 		</div>
