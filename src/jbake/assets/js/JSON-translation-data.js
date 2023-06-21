@@ -655,7 +655,13 @@ var linguJSON = {
     {
       "source" : "Gift Items",
       "target_es":"Regalos"
+    },
+
+    {
+      "source" : "The sessions and keynotes for JConf Dominicana 2023 are chosen by a committee made up of volunteers from Dominican Republic Java Users Group (Aka JavaDominicano).",
+      "target_es":"Las sesiones y paneles para JConf Dominicana 2023 son elegidas por un comité compuesto por voluntarios de la comunidad de usuarios Java de República Dominicana (Aka JavaDominicano)."
     }
+
 
 
 

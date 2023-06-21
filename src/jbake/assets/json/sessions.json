@@ -2,234 +2,156 @@
 
 	"101": {
 		"id": 101,
-		"title": "Go with the Flow: smooth architecture design with Coroutines Flow",
-		"abstract": "Kotlin coroutines resuelve el problema de las tareas en segundo plano de una manera sencilla y conocida: usando suspend functions (async/await). Conozcamos Flow y como usarlo en nuestra arquitectura.",
-		"description": "Una de las tareas más complejas en el desarrollo de software es la concurrencia. Kotlin coroutines resuelve este problema de una manera sencilla y conocida: usando suspend functions (async/await). Dentro de coroutines existe Flow. Flow permite tener streams en nuestra arquitectura desde las capas más abstractas, evitando así depender de feature de la plataforma.\r\n\r\nEn esta charla aprenderás como diseñar tu arquitectura de forma sólida y fluida usando Kotlin Flow.",
+		"title": "Bienvenidos al fin de la era del siempre lo hicimos así. Lecciones implementando Software...",
+		"abstract": "La mayoría de nosotros ha escuchado las 7 palabras más caras en  los negocios: \"Siempre lo hicimos así\" y podemos ver la resistencia al cambio, y puedes estar seguro de que la solución que ofreces es necesario, pero cómo ser un agente de cambio utilizando la tecnología, ¿es posible lograrlo?",
+		"description": "**\"Bienvenidos al fin de la era del siempre lo hicimos así\"** \r\n*Lecciones implementando software..*\r\n\r\nHoy quiero hablarte sobre la gestión del cambio en  implementaciones de software. En los últimos años, hemos visto una explosión de tecnologías  que han transformado la manera en que trabajamos y colaboramos. Sin embargo, implementar un nuevo software no es solo una cuestión técnica, sino que también implica un cambio cultural y organizacional que puede ser difícil de manejar.\r\n\r\nEn esta charla, te daré las claves para ser un agente de cambio efectivo utilizando la tecnología como puente. Descubrirás por qué la gestión del cambio es crucial en las implementaciones de software, qué habilidades y herramientas necesitas para liderar un cambio exitoso y cómo puedes influir positivamente en el cambio desde cualquier posición.",
 		"audience_level": "Intermediate",
-		"time": "10:00 AM",
+		"time": "09:00 AM",
 		"language": "es",
 		"talk_format": "Talk (~30-45 minutes)",
 		"tags": [
-		 "JVM",
-			"Kotlin",
-			"Framework"
+            "Gestion del cambio",
+            "Agile",
+            "Project Manager",
+            "Implementaciones de software"
 		],
 		"speakers": [
-			"euryperez"
+			"solenny-peralta-lopez"
 		]
 	},
 
 	"102": {
 		"id": 102,
-		"title": "The high cost of not upgrading Java in your company.",
-		"abstract": "Con los nuevos releases de Java sucediendo cada 6 meses y la tecnología avanzando tan rápido, es muy fácil quedarnos atrás y esto supone un costo, a veces muy alto que muchas veces ignoramos y cuando venimos a cuantificarlos es bastante alto para pagarlo.",
-		"description": "Con los nuevos releases de Java sucediendo cada 6 meses y la tecnología avanzando tan rápido, es muy fácil quedarnos atrás y esto supone un costo, a veces muy alto que muchas veces ignoramos y cuando venimos a cuantificarlos es bastante alto para pagarlo.",
+		"title": "Despliegue seguro y escalable de aplicaciones web con Vaadin Flow, Docker y Traefik",
+		"abstract": "Despliega aplicaciones web desarrolladas con Vaadin Flow de manera segura y escalable utilizando las tecnologías Docker y Traefik. Combina estas herramientas para simplifica el proceso de despliegue, garantiza la seguridad y asegura la disponibilidad en entornos de alta demanda.",
+		"description": "Sumérgete en el fascinante mundo del despliegue de aplicaciones web con Vaadin Flow, Docker y Traefik. En esta charla, te guiaremos a través de un viaje emocionante donde descubrirás cómo asegurar y escalar tus aplicaciones web de manera impecable. Aprende a aprovechar al máximo las tecnologías más modernas mientras simplificas el proceso de despliegue. Exploraremos cómo la combinación de Vaadin Flow, Docker y Traefik te permitirá alcanzar niveles superiores de seguridad y garantizar una experiencia fluida incluso en los entornos más exigentes. ¡No te pierdas esta oportunidad de aprender los secretos detrás del éxito del despliegue de aplicaciones web seguras y escalables!",
 		"audience_level": "Intermediate",
-		"time": "10:35 AM",
+		"time": "09:00 AM",
 		"language": "es",
 		"talk_format": "Talk (~30-45 minutes)",
 		"tags": [
 			"Java",
-			"JVM"
+            "JVM",
+            "Cloud Computing",
+            "Vaadin",
+            "Docker",
+            "Traefik"
 		],
 		"speakers": [
-			"eugenio-duran"
+			"freddy-pena"
 		]
 	},
 
 	"103": {
 		"id": 103,
-		"title": "Demystifying the Java Flight Recorder API",
-		"abstract": "This talk will be useful for developers who wish to monitor the performance of the applications especially in case of heavy data loads. It will help developers to understand how to use and integrate the JFR APIs in their existing Java based projects seamlessly along with the best practices.",
-		"description": "This session primarily aims at providing details about how to go about using the Java Flight Recorder API. It also explains the reasons to use the JFR API over the conventional Java Logging API by highlighting the key differences between them.",
-	 "audience_level": "All",
-	 	"time": "11:05:00 AM",
+		"title": "El auge de los DevRels y su importancia en tu organización",
+		"abstract": "¿Por qué vemos un auge en los llamados \"DevRels\"? ¿Qué son? ¿Qué hacen? En esta charla vamos a conversar con Yuri, Developer Relations Advocate(DevRel) en Supabase y aprender sobre la importancia de esta figura en compañías de SAAAS y todas aquellas que tengan como a su customer persona a developers.",
+		"description": "Desde qué son, los tipos, la forma en que los DevRels ayudan a incrementar ventas y el conocimiento de tu producto en la comunidad son algunos de los temas que cubrirá Yuri en su charla sobre \"El auge de los DevRels y su importancia en tu organización\". \r\n\r\nAprenderás sobre la forma en que esta labor se desempeña no sólo de forma externa frente a la comunidad y usuarios pero también cómo se ve en lo interno de la compañía, cómo segmentar tu audiencia para fines de marketing de tu producto y comunidad , la importancia de la creación de contenido para tus metas y muchas cosas más.",
+	    "audience_level": "All",
+	 	"time": "09:00 AM",
 		"talk_format": "Talk (~30-45 minutes)",
-		"language": "en",
+		"language": "es",
 		"tags": [
-			"Framework",
-			"Java"
+			"Software Development",
+            "Developer Relations",
+            "DevRel",
+            "Networking",
+            "Community"
 		],
 		"speakers": [
-			"karan-balkar"
+			"yuri-santana"
 		]
 	}
 	,
 	"104": {
 			"id": 104,
-			"title": "Lucee Framework - \"The Unknown Java Legacy Framework\"",
-			"time": "11:35:00 AM",
-			"abstract": "I'm going to talk about an \"unknown java framework\" called LUCEE which is used to write down legacy business application with the \"rapid-development\" slogan in mind. What it is, why was develop, who use it, advantages, disadvantages, cost, learning curve, design patterns and so much more...",
-			"description": "I'm going to talk about the \u003cb\u003eLUCEE FRAMEWORK\u003c/b\u003e and the most basic features.",
-		 "audience_level": "All",
+			"title": "Unsupervised Learning con Apache Spark Java y MLlib",
+			"time": "09:00 AM",
+			"abstract": "Quieres ver lo que nadie ve en los datos? Quieres encontrar comportamientos ocultos en un determinado problema que manejes con datos? Quieres simplificar tu dataset para utilizarlo mejor en otros modelos? Esta charla es para ti. Aprenderemos como el Unsupervised Learning nos ayuda en estas tareas.",
+			"description": "En esta charla aprenderemos un poco sobre lo que es Unsupervised Learning (aprendizaje no supervisado) el cual es una rama del Machine Learning (aprendizaje automático) que a su vez es una rama de la Inteligencia Artificial (AI en ingles). Utilizaremos Apache Spark un motor unificado de analítica de datos el cual utilizaremos con Java y del cual utilizaremos la librería MLlib para crear y entrenar modelos de Machine Learning basados en estadística, específicamente un modelo de aprendizaje no supervisado o unsupervised learning.",
+		    "audience_level": "All",
 			"talk_format": "Talk (~30-45 minutes)",
 			"language": "es",
-			"tags": [
-				"lucee","java","framework","coldfusion","programming-language","legacy"
+			"tags": [				
 			],
 			"speakers": [
-				"gustavo-henriquez"
+				"juan-polanco"
 			]
 		},
 
 	"105": {
 		"id": 105,
-		"title": "Serverless Death Star",
-		"abstract": "La implementación más relevante de Serverless es la de Function-as-a-Service (FaaS), donde solamente hay que desplegar el código de las funciones y elegir qué eventos las activarán. Aunque parece un proceso sencillo, hay que tener en cuenta ciertos aspectos para evitar construir un sistema complejo.",
-		"description": "Serverless significa que no hay aprovisionamiento por adelantado ni gestión de servidores, y una economía de pago por uso para crear aplicaciones. En los últimos años se ha convertido en una palabra de moda que atrae a desarrolladores, y los arquitectos de soluciones adoptan cada vez más las arquitecturas basadas en eventos para desacoplar las aplicaciones distribuidas. Al hacer uso de funciones como servicio (FaaS), los desarrolladores despliegan el código de las funciones y eligen qué eventos las activarán. Aunque parece un proceso sencillo, hay que tener en cuenta ciertos aspectos a la hora de desarrollar aplicaciones serverless.\r\n\r\nEsta charla mostrará cómo construir una arquitectura serverless (multi-nube) y los anti-patrones a evitar.",
-	 "audience_level": "All",
-	 	"time": "12:05:00 PM",
+		"title": "Focus on Software, not Code",
+		"abstract": "Sounds weird, even crazy. But code and software are very different things. Code is a means to an end. Both software and code change often. But outside of your company's Engineering department, no one cares about your code. Focus on running software instead.",
+		"description": "I will talk about the difference between code and software, and why it's so important to focus on the latter. I will use real-life examples to illustrate when to focus on code vs when to focus on software, such as prioritizing optimizations, improving performance, fixing bugs, etc.",
+	    "audience_level": "All",
+	 	"time": "09:00 AM",
 		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
 		"tags": [
-			"cloud computing",
-					 "serverless",
-					 "architecture",
-					 "java functions"
+			"architecture",
+            "software development",
+            "devops"
 		],
 		"speakers": [
-			"manases-jesus"
+			"enrique-zamudio"
 		]
 	},
 
 	"106": {
 		"id": 106,
-		"title": "Event Streaming and Processing with Apache Pulsar",
-		"abstract": "Apache Pulsar has taken enterprise event-driven messaging and streaming systems to a new height, unifying message streaming, queueing, mediation, and transformation all on the same platform.  It is poised to become the de facto go-to platform for event streaming in the modern cloud native world.",
-		"description": "When it comes to distributed, event-driven messaging systems, we usually see them supporting either one of two types of semantics: streaming, or queueing, and rarely do we find a platform that supports both.  In this presentation, we’ll first get an introduction and some clarifications of event-driven versus message-driven systems, event streams, and stream processing.  We’ll then take a look at Apache Pulsar which offers a very unique capability in modern, cloud-native applications and architecture, in which its platform supports both Pub-Sub and Message Queues, and extends into streams processing as well as performs message mediation \u0026 transformation.  We will look at how it relies on Apache Bookkeeper for its durable, scalable, and performant storage of log streams, and leverages on Apache Zookeeper.  We will also see how Pulsar is meant to bring the best of other systems, such as how it fills the gaps that Kafka has and extends its streaming capability in the complex cloud world.",
-	 "audience_level": "All",
-	 	"time": "12:35:00 PM",
+		"title": "Securing Microservices under 40 minutes with MicroProfile \u0026 Keycloak!",
+		"abstract": "Join me in this talk where I will showcase how you can rely on Keycloack (open-source identity management solution) and the Eclipse MicroProfile API to simplify the security aspects of your applications by doing a live demonstration of securing enterprise Java Microservices under 40 minutes!",
+		"description": "Implementing the correct security patterns is a common challenge that most application developers and consultants can get wrong in even the most common of scenarios. Reinventing the wheel is a common pattern that DevOps engineers do when integrating security solutions inside their applications (authentication, password validation, identity management, correct storage of user data, etc.). Keycloak is an open-source identity management solution that focuses on offloading this burden from DevOps engineers, allowing them to focus on the business aspects of their applications and simplifying their solutions in the long run.\r\n\r\nThis talk will focus on the benefits of using such a service with an enterprise application, with a live demonstration of a small application that uses the Eclipse MicroProfile APIs to correctly integrate it with Keycloak by way of the OpenIDConnect standards.",
+	    "audience_level": "All",
+	 	"time": "09:00 AM",
 		"talk_format": "Talk (~30-45 minutes)",
-		"language": "en",
+		"language": "es",
 		"tags": [
-						"Event Streaming",
-             "Distributed Messaging",
-             "Cloud Native",
-             "Open Source",
-             "Real time",
-             "Pub/Sub"
+			"openid",
+            "jakarta ee",
+            "microprofile",
+            "keycloack"
 		],
 		"speakers": [
-			"mary-grygleski"
+			"fabio-turizo"
 		]
 	},
 
   "107": {
 		"id": 107,
-		"title": "Community Panel",
-		"abstract": "Women who code Java: Debugging Stereotypes",
-		"description": "Presencia del género femenino en el multiverso Java.",
+		"title": "Fallando con estilo: MicroProfile Fault Tolerance \u0026 Metric",
+		"abstract": "Lo que no se puede medir, no se puede mejorar.\nAprende a utilizar las API de MicroProfile para darle super poderes a tu aplicación con tolerancia a fallos y metricas en tiempo real.",
+		"description": "Con las API de MicroProfile Fault Tolerance podemos implementar varias estrategias  para tener un manejo adecuado de errores utilizando unicamente algunas anotaciones.\r\n\r\nAdemás con MicroProfile Metrics podremos obtener algunas métricas de nuestra aplicación, la JVM  o incluso el servidor en donde se ejecuta y en conjunto con herramientas como Prometeus y Grafana poder observar y comparar esas métricas en tiempo real para tomar las desiciones correctas y aplicar las correcciones y mejoras en el momento preciso.",
 	 "audience_level": "All",
-	 	"time": "1:05 PM",
+	 	"time": "09:00 AM",
 		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
 		"tags": [
-			"Mujeres TICs",
-			"Java"
-
+			"MicroProfile",
+            "JakartaEE",
+            "Java"
 		],
 		"speakers": [
-		  "cristal-guerrero",	"mareubi-garcia","janet-batlle"
+			"jorge-cajas"
 		]
 	},
 	"108": {
 		"id": 108,
-		"title": "Handle errors in your application without tears",
-		"abstract": "Users don't always follow the happy path while using your application. They might enter the wrong values. The database or the API integration might go down. In this workshop, I'll show you how to deal with all 3 without ending up with a spaghetti code and, more importantly, without tears :).",
-		"description": "Things don't always go as planned in our applications. We always need to validate user inputs and handle third-party integration errors. Yet, developers always struggle to find the right way to handle errors and exceptions in codes without ending up with a spaghetti code. Clear error management makes your code more predictable, maintainable, and easy to reason about.\r\n\r\nIn this workshop, you will learn how to create and categorize your error codes so they can serve as up-to-date documentation when you need to integrate with your own API. Additionally, I'll share techniques that can help you translate your error messages to other languages without tears, give users general messages, and log more detailed messages for debugging or audit purposes.\r\n\r\nJoin me to see how we can improve the user experience in our applications and learn how better error handling results in better code.",
-	 "audience_level": "All",
-	 	"time": "1:35 PM",
+		"title": "Dependencias de software: prácticas recomendadas para la gestión de dependencias de proyectos Java",
+		"abstract": "En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
+		"description": "Una dependencia de software es una librería o un paquete que se reutiliza en un nuevo software. Mediante el uso de dependencias de software preconstruidas, los desarrolladores pueden entregar software más rápido y en ciclos de lanzamiento más cortos.Las dependencias de software han revolucionado el desarrollo de aplicaciones en las últimas décadas, pero también presentan riesgos que con frecuencia se pasan por alto.En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
+	    "audience_level": "All",
+	 	"time": "09:00 AM",
 		"talk_format": "Talk (~30 minutes)",
 		"language": "es",
 		"tags": [
-			"Kotlin",
-					 "Java",
-					 "TypeScript",
-					 "Software Development",
-					 "Software Architecture",
-					 "Exception",
-					 "Error Handling"
+			"Java",
+            "Maven"
 		],
 		"speakers": [
-			"clivens"
-		]
-	},
-		"109": {
-			"id": 109,
-			"title": "Computer Vision with Jupyter, TensorFlow and Java",
-			"abstract": "Jupyter y Python son 2 herramientas que usualmente van de la mano en el desarrollo de modelos de Machine Learning y AI de cualquier tipo, pero ¿qué tal si te digo de que esto es posible en Java? ¿Y mejor aún, usando Tensorflow ?  En esta charla, lo descubriremos.",
-			"description": "En esta charla realizaremos un modelo sencillo de computer vision (o vision computacional) el cual se centrara en enseñar como utilizar las herramientas de Jupyter y Tensorflow (junto con otras librerías mas) en la plataforma Java, con el objetivo de mostrar a los desarrolladores Java que quieran entrar en el campo de la Inteligencia Artificial, Data Science o areas afines, de que es posible también hacer todo esto en Java sin necesidad de cambiar de lenguaje (a Python como es la norma en esta area). Mostraremos el proceso completo de creación y entrenamiento de un modelo en Tensorflow (el cual explicaremos como instalarlo en Java). Como los modelos de computer vision se basan en el Deep Learning, un subset de Machine Learning, también veremos de manera resumida conceptos básicos de Machine Learning y Deep Learning y sobre todo lo que son las Redes Neuronales Convolucionales (CNN en inglés).",
-		 "audience_level": "All",
-			"time": "2:05 PM",
-			"talk_format": "Talk (~30 minutes)",
-			"language": "es",
-			"tags": [
-				"deep learning",
-             "java",
-             "artificial intelligence",
-             "jvm",
-             "jupyter",
-             "ijava",
-             "data science"
-			],
-			"speakers": [
-				"juan-polanco"
-			]
-	},
-	"110": {
-		"id": 110,
-		"title": "Workshop: Containers and Orchestrators for Java Developer",
-		"abstract": "Taller para desmitificar el uso de los contenedores y orquestadores de software en aplicaciones Java. Estaremos abordando los conceptos básicos y practicándolos.",
-		"description": "Los contenedores y orquestadores de software son herramientas muy demandas al día de hoy por los beneficios en aislamiento, despliegue y homogeneidad en las fases de desarrollo que nos proporcionan, dicho conocimiento es muy demandado en conjunto con las herramientas que utilizamos para nuestro desarrollo y es importante dominar la creación, despliegue y actualización de nuestras aplicaciones utilizando contenedores de software. Al mismo tiempo, coordinar un grupo de contenedores puede ser una tarea compleja y los orquestadores de software nos ayudan en ese sentido.\r\n\r\nEn nuestro taller estaremos trabajando específicamente con la tecnología Docker para implementar los conceptos de contenedores y Kubernetes como plataforma para orquestar nuestros contenedores.",
-	 "audience_level": "All",
-		"time": "9:00 A.M / 22 Julio 2022",
-		"talk_format": "Workshop (\u003e 60 minutes)",
-		"language": "es",
-		"tags": [
-					 "Contenedores",
-            "Docker",
-            "Kubernetes",
-            "Orquestadores",
-            "Java"
-		],
-		"speakers": [
-			"ccamachog"
-		]
-},
-"111": {
-	"id": 111,
-	"title": "Workshop: New features after Java 8 that make your life easier",
-	"abstract": "En este taller vamos a trabajar con las novedades después de Java SE 8, los beneficios que ofrecen y qué cosas emocionantes están por venir. Así como también, abordaremos tus inquietudes sobre los retos que supone el nuevo ciclo de lanzamiento.",
-	"description": "En su nuevo modelo de lanzamiento, cada seis meses liberan una nueva versión de Java. Los lanzamientos que se demoraban varios años son cosas del pasado, Java ha adoptado el espíritu de agilidad para hacer frente a la era de la nueva tecnología. Algunos se preguntan, ¿Qué impacto tendrá este lanzamiento frecuente en Java, su calidad, adopción y desarrollo futuro? Qué intensivos tienen los desarrolladores y las organizaciones para seguir el ritmo de Java. ¿Deberían mantenerse al día o ponerse al día una vez en unos pocos años? Todas son buenas preguntas y preocupaciones razonables.\r\n\r\nA partir de Java SE 8 han sucedido muchos cambios, las actualizaciones a los APIs y las nuevas funcionalidades del lenguaje son realmente geniales y muy útiles en tu trabajo del día a día.\r\n\r\nEn este taller vamos a trabajar con las novedades después de Java SE 8, los beneficios que ofrecen y qué cosas emocionantes están por venir. Así como también, abordaremos tus inquietudes sobre los retos que supone el nuevo ciclo de lanzamiento.",
- "audience_level": "Intermediate",
-	"time": "2:00 P.M / 22 Julio 2022",
-	"talk_format": "Workshop (\u003e 60 minutes)",
-	"language": "es",
-	"tags": [
-		"java",
-			"jvm",
-			"jdk"
-	],
-	"speakers": [
-		"ecabrerar"
-	]
-},
-"112": {
-		"id": 112,
-		"title": "Community Panel",
-		"abstract": "Q&A: Technical Leaders",
-		"description": "Q&A: Technical Leaders",
-	 "audience_level": "All",
-	 	"time": "2:40 PM",
-		"talk_format": "Talk (~30-45 minutes)",
-		"language": "es",
-		"tags": [
-			"Technical Leaders",
-			"Senior Developers"
-
-		],
-		"speakers": [
-		  "christian-gomez","carlos-obregon","francisco-contreras"
+			"ecabrerar"
 		]
 	}
+		
 }
