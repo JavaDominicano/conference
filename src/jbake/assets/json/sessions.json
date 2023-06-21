@@ -2,18 +2,18 @@
 
 	"101": {
 		"id": 101,
-		"title": "Bienvenidos al fin de la era del siempre lo hicimos así. Lecciones implementando Software...",
-		"abstract": "La mayoría de nosotros ha escuchado las 7 palabras más caras en  los negocios: \"Siempre lo hicimos así\" y podemos ver la resistencia al cambio, y puedes estar seguro de que la solución que ofreces es necesario, pero cómo ser un agente de cambio utilizando la tecnología, ¿es posible lograrlo?",
-		"description": "**\"Bienvenidos al fin de la era del siempre lo hicimos así\"** \r\n*Lecciones implementando software..*\r\n\r\nHoy quiero hablarte sobre la gestión del cambio en  implementaciones de software. En los últimos años, hemos visto una explosión de tecnologías  que han transformado la manera en que trabajamos y colaboramos. Sin embargo, implementar un nuevo software no es solo una cuestión técnica, sino que también implica un cambio cultural y organizacional que puede ser difícil de manejar.\r\n\r\nEn esta charla, te daré las claves para ser un agente de cambio efectivo utilizando la tecnología como puente. Descubrirás por qué la gestión del cambio es crucial en las implementaciones de software, qué habilidades y herramientas necesitas para liderar un cambio exitoso y cómo puedes influir positivamente en el cambio desde cualquier posición.",
+		"title": "Welcome to the end of the 'We've always done it this way' era - Lessons learned in Software Implementation",
+		"abstract": "Most of us have heard the seven most expensive words in business: 'We've always done it this way.' We can see the resistance to change, and you can be certain that the solution you offer is necessary, but how can we become change agents using technology? Is it possible to achieve it?",
+		"description": "Welcome to the end of the 'We've always done it this way' era. Lessons learned in software implementation... Today, I want to talk to you about change management in software implementations. In recent years, we have witnessed an explosion of technologies that have transformed the way we work and collaborate. However, implementing new software is not just a technical matter; it also involves cultural and organizational change that can be challenging to handle.In this talk, I will provide you with the keys to becoming an effective change agent using technology as a bridge.You will discover why change management is crucial in software implementations, what skills and tools you need to lead successful change, and how you can positively influence change from any position.",
 		"audience_level": "Intermediate",
 		"time": "09:00 AM",
 		"language": "es",
 		"talk_format": "Talk (~30-45 minutes)",
 		"tags": [
-            "Gestion del cambio",
+            "Change Management",
             "Agile",
             "Project Manager",
-            "Implementaciones de software"
+            "Software Implementation"
 		],
 		"speakers": [
 			"solenny-peralta-lopez"
@@ -22,9 +22,9 @@
 
 	"102": {
 		"id": 102,
-		"title": "Despliegue seguro y escalable de aplicaciones web con Vaadin Flow, Docker y Traefik",
-		"abstract": "Despliega aplicaciones web desarrolladas con Vaadin Flow de manera segura y escalable utilizando las tecnologías Docker y Traefik. Combina estas herramientas para simplifica el proceso de despliegue, garantiza la seguridad y asegura la disponibilidad en entornos de alta demanda.",
-		"description": "Sumérgete en el fascinante mundo del despliegue de aplicaciones web con Vaadin Flow, Docker y Traefik. En esta charla, te guiaremos a través de un viaje emocionante donde descubrirás cómo asegurar y escalar tus aplicaciones web de manera impecable. Aprende a aprovechar al máximo las tecnologías más modernas mientras simplificas el proceso de despliegue. Exploraremos cómo la combinación de Vaadin Flow, Docker y Traefik te permitirá alcanzar niveles superiores de seguridad y garantizar una experiencia fluida incluso en los entornos más exigentes. ¡No te pierdas esta oportunidad de aprender los secretos detrás del éxito del despliegue de aplicaciones web seguras y escalables!",
+		"title": "Secure and Scalable Deployment of Web Applications with Vaadin Flow, Docker, and Traefik",
+		"abstract": "Deploy web applications developed with Vaadin Flow securely and scalably using Docker and Traefik technologies. Combine these tools to simplify the deployment process, ensure security, and guarantee availability in high-demand environments.",
+		"description": "Dive into the fascinating world of web application deployment with Vaadin Flow, Docker, and Traefik. In this talk, we will guide you through an exciting journey where you will discover how to ensure seamless security and scalability for your web applications. Learn how to make the most of the latest technologies while simplifying the deployment process. We will explore how the combination of Vaadin Flow, Docker, and Traefik will enable you to achieve higher levels of security and ensure a smooth experience even in the most demanding environments. Don't miss this opportunity to learn the secrets behind the success of secure and scalable web application deployment!",
 		"audience_level": "Intermediate",
 		"time": "09:00 AM",
 		"language": "es",
@@ -44,9 +44,9 @@
 
 	"103": {
 		"id": 103,
-		"title": "El auge de los DevRels y su importancia en tu organización",
-		"abstract": "¿Por qué vemos un auge en los llamados \"DevRels\"? ¿Qué son? ¿Qué hacen? En esta charla vamos a conversar con Yuri, Developer Relations Advocate(DevRel) en Supabase y aprender sobre la importancia de esta figura en compañías de SAAAS y todas aquellas que tengan como a su customer persona a developers.",
-		"description": "Desde qué son, los tipos, la forma en que los DevRels ayudan a incrementar ventas y el conocimiento de tu producto en la comunidad son algunos de los temas que cubrirá Yuri en su charla sobre \"El auge de los DevRels y su importancia en tu organización\". \r\n\r\nAprenderás sobre la forma en que esta labor se desempeña no sólo de forma externa frente a la comunidad y usuarios pero también cómo se ve en lo interno de la compañía, cómo segmentar tu audiencia para fines de marketing de tu producto y comunidad , la importancia de la creación de contenido para tus metas y muchas cosas más.",
+		"title": "The Rise of DevRels and Their Importance in your organization",
+		"abstract": "Why do we see a rise in the so-called DevRels? What are they? What do they do? In this talk, we will have a conversation with Yuri, a Developer Relations Advocate (DevRel) at Supabase, and learn about the importance of this role in SaaS companies and any organization whose customer persona is developers.",
+		"description": "What they are, the different types, and how DevRels help increase sales and product awareness in the community. These are some of the topics Yuri will cover in his talk on The Rise of DevRels and Their Importance in Your Organization. You will learn about how this role is performed not only externally facing the community and users but also internally within the company, how to segment your audience for product marketing and community purposes, the importance of content creation for your goals, and much more.",
 	    "audience_level": "All",
 	 	"time": "09:00 AM",
 		"talk_format": "Talk (~30-45 minutes)",
@@ -67,8 +67,8 @@
 			"id": 104,
 			"title": "Unsupervised Learning con Apache Spark Java y MLlib",
 			"time": "09:00 AM",
-			"abstract": "Quieres ver lo que nadie ve en los datos? Quieres encontrar comportamientos ocultos en un determinado problema que manejes con datos? Quieres simplificar tu dataset para utilizarlo mejor en otros modelos? Esta charla es para ti. Aprenderemos como el Unsupervised Learning nos ayuda en estas tareas.",
-			"description": "En esta charla aprenderemos un poco sobre lo que es Unsupervised Learning (aprendizaje no supervisado) el cual es una rama del Machine Learning (aprendizaje automático) que a su vez es una rama de la Inteligencia Artificial (AI en ingles). Utilizaremos Apache Spark un motor unificado de analítica de datos el cual utilizaremos con Java y del cual utilizaremos la librería MLlib para crear y entrenar modelos de Machine Learning basados en estadística, específicamente un modelo de aprendizaje no supervisado o unsupervised learning.",
+			"abstract": "Do you want to see what no one else sees in the data? Do you want to find hidden behaviors in a certain problem you handle with data? Do you want to simplify your dataset to better use it in other models? This talk is for you. We will learn how Unsupervised Learning helps us in these tasks.",
+			"description": "In this talk we will learn a bit about Unsupervised Learning which is a branch of Machine Learning which in turn is a branch of Artificial Intelligence (AI). We will use Apache Spark, a unified data analytics engine which we will use with Java and from which we will use the MLlib library to create and train Machine Learning models based on statistics, specifically an unsupervised learning model.",
 		    "audience_level": "All",
 			"talk_format": "Talk (~30-45 minutes)",
 			"language": "es",
@@ -120,10 +120,10 @@
 
   "107": {
 		"id": 107,
-		"title": "Fallando con estilo: MicroProfile Fault Tolerance \u0026 Metric",
-		"abstract": "Lo que no se puede medir, no se puede mejorar.\nAprende a utilizar las API de MicroProfile para darle super poderes a tu aplicación con tolerancia a fallos y metricas en tiempo real.",
-		"description": "Con las API de MicroProfile Fault Tolerance podemos implementar varias estrategias  para tener un manejo adecuado de errores utilizando unicamente algunas anotaciones.\r\n\r\nAdemás con MicroProfile Metrics podremos obtener algunas métricas de nuestra aplicación, la JVM  o incluso el servidor en donde se ejecuta y en conjunto con herramientas como Prometeus y Grafana poder observar y comparar esas métricas en tiempo real para tomar las desiciones correctas y aplicar las correcciones y mejoras en el momento preciso.",
-	 "audience_level": "All",
+		"title": "Failing with Style: MicroProfile Fault Tolerance and Metric",
+		"abstract": "What can't be measured, can't be improved. Learn how to use MicroProfile APIs to super-power your application with fault tolerance and real-time metrics.",
+		"description": "With MicroProfile Fault Tolerance APIs we can implement several strategies to have a proper error handling using only some annotations, and with MicroProfile Metrics we can obtain some metrics of our application, the JVM or even the server where it runs and together with tools like Prometeus and Grafana we can observe and compare those metrics in real time to make the right decisions and apply the corrections and improvements at the right time.",
+	    "audience_level": "All",
 	 	"time": "09:00 AM",
 		"talk_format": "Talk (~30-45 minutes)",
 		"language": "es",
@@ -138,9 +138,9 @@
 	},
 	"108": {
 		"id": 108,
-		"title": "Dependencias de software: prácticas recomendadas para la gestión de dependencias de proyectos Java",
-		"abstract": "En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
-		"description": "Una dependencia de software es una librería o un paquete que se reutiliza en un nuevo software. Mediante el uso de dependencias de software preconstruidas, los desarrolladores pueden entregar software más rápido y en ciclos de lanzamiento más cortos.Las dependencias de software han revolucionado el desarrollo de aplicaciones en las últimas décadas, pero también presentan riesgos que con frecuencia se pasan por alto.En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
+		"title": "Software dependencies: Best practices for Java project dependency management",
+		"abstract": "In this session we will explore how outdated dependencies can affect an application, the reasons that force dependency management, the challenges we face and some recommendations to keep your dependencies up to date.",
+		"description": "A software dependency is a library or package that is reused in new software. By using pre-built software dependencies, developers can deliver software faster and in shorter release cycles.Software dependencies have revolutionized application development over the past few decades, but they also present risks that are often overlooked.In this session we will explore how outdated dependencies can affect an application, the reasons that mandate dependency management, the challenges and pitfalls we face, and some recommendations for keeping your dependencies up to date.",
 	    "audience_level": "All",
 	 	"time": "09:00 AM",
 		"talk_format": "Talk (~30 minutes)",
