@@ -51,6 +51,12 @@ function createSpeakerDetailsCard(speakerJson) {
         case 'facebook':
           icontype = "fab fa-facebook-f";
           break;
+        case 'linkedin':
+          icontype = "fab fa-linkedin";
+          break;
+        case 'github':
+          icontype = "fab fa-github";
+          break;  
         case 'pinterest':
           icontype = "fab fa-pinterest-p";
           break;
