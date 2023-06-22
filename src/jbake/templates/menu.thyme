@@ -27,7 +27,7 @@
                                 <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
                                 <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
                                 <li><a href="/code-of-conduct.html">Code of conduct</a></li>                                    
-                                <li><a href="/index.html#sponsors">Sponsors</a></li>
+                                <li><a th:if="${config.layout_display_sponsors}"  href="/index.html#sponsors">Sponsors</a></li>
                                 <li><a href="/past-conferences.html">Past Conferences</a></li>
                                 <li><a href="/conference-info.html">Conference Info</a></li>
                                 <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}">Organizers</a></li>
@@ -84,7 +84,7 @@
 				                 <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
 				                 <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
 					             <li><a href="/code-of-conduct.html">Code of conduct</a></li>                               
-                                <li><a href="/index.html#sponsors">Sponsors</a></li>
+                                <li><a th:if="${config.layout_display_sponsors}" href="/index.html#sponsors">Sponsors</a></li>
                                 <li><a href="/past-conferences.html">Past Conferences</a></li>
                                 <li><a href="/conference-info.html">Conference Info</a></li>
                                 <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}">Organizers</a></li>

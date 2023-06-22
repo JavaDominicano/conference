@@ -458,6 +458,18 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background: #c22035;
 }
 
+.color-5 {
+  background: #4CAF50;
+}
+
+.color-6 {
+  background: cyan;
+}
+
+.color-7 {
+  background: #e57c2a;
+}
+
 /*--Swiper Pagination--*/
 .swiper-pagination .swiper-pagination-bullet {
   border-radius: 50%;
@@ -5667,13 +5679,15 @@ label {
 }
 
 .single-pricing .pricing-header .price {
-  width: 95px;
-  height: 95px;
+  width: 100%;
+  height: 100%;
   line-height: 95px;
   margin: 0 auto;
   background-color: #ffffff;
   border-radius: 50%;
   text-align: center;
+  min-width: 95px;
+  min-height: 95px;
 }
 
 .single-pricing .pricing-header .price span {
@@ -7455,6 +7469,19 @@ label {
 .meeta-speaker-single .meeta-speaker-single-wrap .speaker-image-box .speaker-content .speaker-social ul li a.share-pinterest {
   background: #d64145;
 }
+
+.meeta-speaker-single .meeta-speaker-single-wrap .speaker-image-box .speaker-content .speaker-social ul li a.share-linkedin {
+  background:374ccb;
+}
+
+.meeta-speaker-single .meeta-speaker-single-wrap .speaker-image-box .speaker-content .speaker-social ul li a.share-github {
+  background:gray;
+}
+
+.meeta-speaker-single .meeta-speaker-single-wrap .speaker-image-box .speaker-content .speaker-social ul li a.share-link {
+  background:gray;
+}
+
 
 .meeta-speaker-single .meeta-speaker-single-wrap .speaker-image-box .speaker-content .speaker-social ul li + li {
   margin-left: 5px;

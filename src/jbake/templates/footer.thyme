@@ -3,7 +3,7 @@
 
 		<div th:fragment="footer-index" th:remove="tag">
 		      <!-- Footer Start -->
-    <div class="meeta-footer-section meeta-footer-2" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/venue-gallery/dominican-republic.jpg)|" style="background-image: url(img/venue-gallery/dominican-republic.jpg);">
+    <div class="meeta-footer-section meeta-footer-2" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/meeta/bg/footer-bg-2.jpg)|" style="background-image: url(/img/meeta/bg/footer-bg-2.jpg);">
 
         <!-- Footer Widget Start -->
         <div class="footer-widget">
@@ -26,12 +26,7 @@
                             <!-- Footer Newsletter Start -->
                             <div class="footer-newsletter">
 
-                                <div class="footer-newsletter-form">
-                                  <!--  <form action="#">
-                                        <input type="text" placeholder="Your Email">
-                                        <button class="btn btn-primary">Subscribe</button>
-                                    </form>
-									-->
+                                <div class="footer-newsletter-form">                                 
 									<form action="https://jconfdominicana.us20.list-manage.com/subscribe/post?u=2ba9ad3be3e34e937ea55d071&amp;id=73f48c7195" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<div style="position: absolute; left: -5000px;" aria-hidden="true">
 					<input type="text" name="b_2ba9ad3be3e34e937ea55d071_73f48c7195" tabindex="-1" value="">
@@ -52,8 +47,8 @@
                                         <!-- Footer Info Start -->
                                         <div class="footer-info">
                                             <h3 class="title">Event Details</h3>
-                                            <span class="date">July 21-22, 2023.</span>
-                                            <p>Santo Domingo,Dominican Republic.</p>
+                                            <span class="date">21 - 22 July 2023</span>
+                                            <p>Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.</p>
                                             <div class="footer-widget-social">
                                                <a th:if="${config.facebook_username}" href="#" th:href="|https://www.facebook.com/${config.facebook_username}|" th:target="_blank"><i class="fab fa-facebook-f"></i></a>
 											   <a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" th:target="_blank"><i class="fab fa-twitter"></i></a>
@@ -171,7 +166,7 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 		 </div>
 	<div th:fragment="footer-page" th:remove="tag">
 		  <!-- Footer Start -->
-    <div class="meeta-footer-section" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/venue-gallery/dominican-republic.jpg)|" style="background-image: url(img/venue-gallery/dominican-republic.jpg);">
+    <div class="meeta-footer-section" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/meeta/bg/footer-bg-2.jpg)|" style="background-image: url(img/venue-gallery/dominican-republic.jpg);">
 
         <!-- Footer Widget Start -->
         <div class="footer-widget text-center">
@@ -187,14 +182,9 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 
                 <!-- Footer Newsletter Start -->
                 <div class="footer-newsletter">
-                    <p>Join our mailing list to stay up to date on all things Expotin</p>
+                    <p>Join our mailing list to stay up to date on all things about our event.</p>
 
-                    <div class="footer-newsletter-form">
-                      <!--  <form action="#">
-                            <input type="text" placeholder="Your Email">
-                            <button class="btn btn-primary">Subscribe</button>
-                        </form>
-                      -->  
+                    <div class="footer-newsletter-form">                    
                         <form action="https://jconfdominicana.us20.list-manage.com/subscribe/post?u=2ba9ad3be3e34e937ea55d071&amp;id=73f48c7195" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<div style="position: absolute; left: -5000px;" aria-hidden="true">
 					<input type="text" name="b_2ba9ad3be3e34e937ea55d071_73f48c7195" tabindex="-1" value="">
@@ -222,6 +212,10 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
                                                 <a href="#"><i class="fab fa-pinterest"></i></a>-->
                 </div>
                 <!-- Footer widget Social End -->
+                <script type="text/javascript">
+							var today = new Date();
+							document.getElementById('year').innerHTML=today.getFullYear();
+					</script>
 
                 <!-- Footer Copyright Start -->
                 <div class="footer-copyright">

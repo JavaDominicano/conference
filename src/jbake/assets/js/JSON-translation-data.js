@@ -655,10 +655,47 @@ var linguJSON = {
     {
       "source" : "Gift Items",
       "target_es":"Regalos"
-    }
+    },
 
+    {
+      "source" : "The sessions and keynotes for JConf Dominicana 2023 are chosen by a committee made up of volunteers from Dominican Republic Java Users Group (Aka JavaDominicano).",
+      "target_es":"Las sesiones y paneles para JConf Dominicana 2023 son elegidas por un comité compuesto por voluntarios de la comunidad de usuarios Java de República Dominicana (Aka JavaDominicano)."
+    },
 
+    {
+      "source":"Biography",
+      "target_es":"Biografía"
+    },
 
+    {
+      "source":"Event Details",
+      "target_es":"Detalles del evento"
+    },
+    {
+      "source":"21 - 22 July 2023",
+      "target_es":"21 - 22  de Julio de 2023"
+    },
+    {
+      "source":"Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.",
+      "target_es":"Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. República Dominicana."
+    },
+    {
+      "source":"Join our mailing list to stay up to date on all things about our event.",
+      "target_es":"Únase a nuestra lista de correo para estar al día de todo lo relacionado con nuestro evento."
+    },
 
+    {
+      "source":"Buy Ticket Now",
+      "target_es":"Comprar Entrada Ahora"
+    },
+    {
+      "source":"Ticket Price",
+      "target_es":"Precio de la Entrada"
+    },
+    {
+      "source":"Get Your Tickets Now",
+      "target_es":"Adquiera sus Entradas Ahora"
+    },
+    
   ]
 }

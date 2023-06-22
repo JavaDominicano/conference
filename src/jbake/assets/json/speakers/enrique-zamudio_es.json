@@ -1,0 +1,21 @@
+{
+    "id": "enrique-zamudio",
+    "name": "Enrique Zamudio",
+    "photoUrl": "/img/speakers/enrique-zamudio.jpg",
+    "title": "Arquitecto de Software",
+    "shortBio": "",
+    "countryFlag": "flag-icon-mx",  
+    "bio": "Enrique Zamudio es programador profesional desde 1994, radicado en la Ciudad de México. Se ha especializado en el desarrollo del lado del servidor con Java desde el año 2000, centrándose en aplicaciones de back-end, como conmutadores transaccionales para plataformas de pago y comercio electrónico. Es autor de los proyectos de código abierto jAlarms, j8583 y ScalaSQL. Enrique se unió al equipo central de desarrollo de Ceylon Language en enero de 2012, donde contribuyó al módulo de lenguaje, el IDE web y el compilador JVM, y es el desarrollador principal del compilador Ceylon-to-JavaScript.",
+    "socials": [
+        {
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "https://twitter.com/chochosmx"
+        },
+        {
+            "icon": "link",
+            "name": "link",
+            "link": "http://www.javamexico.org/blogs/ezamudio"
+        }
+    ]
+}
