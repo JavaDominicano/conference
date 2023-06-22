@@ -4,36 +4,57 @@
 	<body>
 	<div th:fragment="tickets" th:remove="tag">
 
-  <!--==========================
-    Buy Ticket Section
-  ============================-->
-  <section id="buy-tickets" class="section-with-bg wow fadeInUp">
-    <div class="container">
+    <!-- Pricing Start -->
+        <div id="buy-tickets" class="meeta-pricing meeta-pricing-2 meeta-pricing-4 meeta-pricing-5 section-padding">
 
-      <div class="section-header">
-        <h2>Get Ready for JConf Dominicana 2023</h2>
-        <p>Be the first to know when tickets are available! Sign up to be notified when they go on sale</p>
+            <div class="shape-1">
+                <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/price-2-bg.png'" src="assets/images/shape/price-2-bg.png" alt="">
+            </div>
 
-  		</div>
+            <div class="container">
 
-			<form action="https://jconfdominicana.us20.list-manage.com/subscribe/post?u=2ba9ad3be3e34e937ea55d071&amp;id=73f48c7195" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<div style="position: absolute; left: -5000px;" aria-hidden="true">
-					<input type="text" name="b_2ba9ad3be3e34e937ea55d071_73f48c7195" tabindex="-1" value="">
-				</div>
-				<div class="form-row justify-content-center">
-					<div class="col-auto">
-						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your Email" required>
-					</div>
-					<div class="col-auto">
-						<button type="submit" name="subscribe" id="mc-embedded-subscribe">Get Notified</button>
-					</div>
+                <!-- Section Title Start -->
+                <div class="meeta-section-title-2 text-center">
+                    <h4 class="sub-title">Ticket Price</h4>
+                    <h2 class="main-title">Get Your Tickets Now</h2>
+                </div>
+                <!-- Section Title End -->
 
-				</div>
-			</form>
+                <div class="row gy-5 justify-content-center meeta-pricing-row">
+                    <div class="col-lg-4 col-md-8">                   
+                    </div>
+                    <div class="col-lg-4 col-md-8">
 
-    </div>
+                       <!-- Single Pricing Start -->
+						<div class="single-pricing color-1">
+							<div class="pricing-header">
+							<h3 class="price_title">Regular Registration</h3>
+								<div class="price">
+								<span><sup>RD$</sup>$1,200.00</span>
+								</div>
+							</div>
+							<div class="pricing-body">
+							<ul>
+								<li>T-Shirt</li>
+								<li>Conference material</li>
+								<li>Access to the keynote sessions</li>
+								<li>Access to the sessions of the Technical Track
+								</li>
+								<li>Light lunch</li>
+								<li>Snacks</li>
+							</ul>
+							<a class="btn" th:href="${config.layout_buytickets_url}" href="#">Buy your Ticket!</a>
+							</div>
+						</div>
+       				 <!-- Single Pricing End -->
 
-  </section>
+                    </div>
+                    <div class="col-lg-4 col-md-8">                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing End -->
 </div>
 </body>
 </html>
