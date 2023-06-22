@@ -205,15 +205,11 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 									<a th:if="${config.instagram_username}" href="#" th:href="|https://www.instagram.com/${config.instagram_username}|" th:target="_blank"><i class="fab fa-instagram"></i></a>
 
                 </div>
-                <!-- Footer widget Social End -->
-                <script type="text/javascript">
-							var today = new Date();
-							document.getElementById('year').innerHTML=today.getFullYear();
-					</script>
+                <!-- Footer widget Social End -->              
 
                 <!-- Footer Copyright Start -->
                 <div class="footer-copyright">
-                   <p class="muted credit">&copy; 2018 - <span id="year"></span>  | Build with love by
+                   <p class="muted credit">&copy; 2018 - <span id="year-page"></span>  | Build with love by
         <a href="https://github.com/JavaDominicano" target="_blank">Java Dominicano</a>
         and
         <a href="https://github.com/JavaDominicano/conference/graphs/contributors" target="_blank">
@@ -221,6 +217,10 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 
                 </div>
                 <!-- Footer Copyright End -->
+                  <script type="text/javascript">
+							var today = new Date();
+							document.getElementById('year-page').innerHTML=today.getFullYear();
+					</script>
 
             </div>
         </div>
