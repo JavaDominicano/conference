@@ -1,0 +1,21 @@
+{
+    "id": "jorge-cajas",
+    "name": "Jorge Cajas Mota",
+    "photoUrl": "/img/speakers/jorge-cajas.jpg",
+    "title": "Ingeniero de Software",
+    "shortBio": "",
+    "countryFlag": "flag-icon-gt",
+    "bio": "Software engineer at MangoChango, S.A., Winner of Oracle Duke Choice 2016 with Guate JUG. Active member of Guate Jug.Part of the organizing committee of Java Day Guatemala.Java / Android / Web Developer.Speaker at multiple events inside and outside Guatemala during the last 8 years.Experience implementing e-banking solutions and enterprise applications in AWS / Digital Ocean environments using Java technologies.",
+    "socials": [
+        {
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "https://twitter.com/cajasmota"
+        },
+        {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/cajasmota"
+        }
+    ]
+}

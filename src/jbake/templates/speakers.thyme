@@ -1,0 +1,27 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<body>
+	<div th:fragment="speakers" th:remove="tag">
+           <!-- Speakers Start -->
+        <div id="speakers" class="meeta-speakers-2 section-padding">
+            <div class="container">
+                <div class="meeta-speakers-wrap">
+                    <!-- Section Title Start -->
+                    <div class="meeta-section-title-2 text-center">
+                        <h4 class="sub-title">Speakers</h4>
+                        <h2 class="main-title text-white">Here are some of our speakers</h2>
+                    </div>
+                    <!-- Section Title End -->
+                    <div class="meeta-speakers-content-wrap-2">
+                        <div class="row"  id="listSpeakers"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Speakers End -->
+        <script type="module" src="js/speakers.js"></script>
+
+	</div>
+  </body>
+  </html>

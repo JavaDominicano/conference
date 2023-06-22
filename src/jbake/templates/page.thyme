@@ -1,14 +1,49 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="header.thyme::head"/>
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="header.thyme::head-page"/>
 <body>
-  <div id="wrap">
-    <header th:insert="menu.thyme::menu" id="header" class="header-fixed"/>
-    <main id="main" class="main-page">
-      <th:block th:if="${content.body}" th:utext='${content.body}'>body </th:block>
-    </main>
-    <div th:replace="footer.thyme::footer"></div>
-  </div>
+<div class="main-wrapper">
+
+        <!-- Preloader start -->
+        <div id="preloader">
+            <div class="preloader">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- Preloader End -->
+
+   	<header th:replace="menu.thyme::menu-page" />
+        <!-- Page Banner Start -->
+        <div class="section page-banner-section">
+            <div class="shape-2"></div>
+            <div class="container">
+                <div class="page-banner-wrap">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- Page Banner Content Start -->
+                            <div class="page-banner text-center">
+                                <h2 class="title" th:utext='${content.title}'>Page Title</h2>
+                                <ul class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page"><p th:text="${content.title}" th:remove="tag">Page Title</p>
+</li>
+                                </ul>
+                            </div>
+                            <!-- Page Banner Content End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Banner End -->
+   
+       <th:block th:if="${content.body}" th:utext='${content.body}'>body </th:block>
+
+
+    </div>
+    <div th:replace="footer.thyme::footer-page"></div>
+  
 </body>
 </html>

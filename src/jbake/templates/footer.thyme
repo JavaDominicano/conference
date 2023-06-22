@@ -1,112 +1,146 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 	<body>
 
-		<div th:fragment="footer" th:remove="tag">
-			<!--==========================
-		    Footer
-		  ============================-->
-		  <footer id="footer">
-		    <div class="footer-top">
-		      <div class="container">
-		        <div class="row">
+		<div th:fragment="footer-index" th:remove="tag">
+		      <!-- Footer Start -->
+    <div class="meeta-footer-section meeta-footer-2" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/meeta/bg/footer-bg-2.jpg)|" style="background-image: url(/img/meeta/bg/footer-bg-2.jpg);">
 
-		          <div class="col-lg-3 col-md-6 footer-links">
-		            <h4>Site map</h4>
-		            <ul>
-								<li><i class="fa fa-angle-right"></i><a href="#">Agenda</a></li>
+        <!-- Footer Widget Start -->
+        <div class="footer-widget">
+            <div class="container">
 
-			     				<li><i class="fa fa-angle-right"></i><a href="#">Speakers</a></li>
-			     				<li><i class="fa fa-angle-right"></i><a href="index.html#sponsors">Sponsors</a></li>
-								<li> <i class="fa fa-angle-right"></i><a href="#" th:target="_blank">Register</a></li>
-		            </ul>
-		          </div>
+                <div class="footer-wrap">
+                    <div class="row">
 
-		          <div class="col-lg-3 col-md-6 footer-links">
-		            <h4>Useful Links</h4>
-		            <ul>
-		              <li><i class="fa fa-angle-right"></i> <a href="http://jconfcolombia.org/" target="_blank">JConf Colombia</a></li>
-		              <li><i class="fa fa-angle-right"></i> <a href="http://www.jespanol.org/" target="_blank">JEspañol</a></li>
-			      			<li><i class="fa fa-angle-right"></i> <a href="https://twitter.com/jconfmexico" target="_blank">JConf Mexico</a></li>
-									<li><i class="fa fa-angle-right"></i> <a href="https://jconf.perujug.org/" target="_blank">JConf Perú</a></li>
+                        <div class="col-lg-3">
+                            <!-- Footer Logo Start -->
+                            <div class="footer-logo">
+								<a href="/index.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-footer-logo-1.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
 
+								
+                            </div>
+                            <!-- Footer Logo End -->
+                        </div>
 
-								</ul>
-		          </div>
+                        <div class="col-lg-9">
+                            <!-- Footer Newsletter Start -->
+                            <div class="footer-newsletter">
 
-							<div class="col-lg-3 col-md-6 footer-links">
-								<h4>JConf Dominicana</h4>
-								<ul>
-									<li><i class="fa fa-angle-right"></i> <a href="/conference-info.html">Conference Info</a></li>
-									<li><i class="fa fa-angle-right"></i><a href="/past-conferences.html">Past Conferences</a></li>
-									<li><i class="fa fa-angle-right"></i><a href="#">Organizers</a></li>
-									<li><i class="fa fa-angle-right"></i><a href="/code-of-conduct.html">Code of conduct</a></li>
-								</ul>
-							</div>
+                                <div class="footer-newsletter-form">                                 
+									<form action="https://jconfdominicana.us20.list-manage.com/subscribe/post?u=2ba9ad3be3e34e937ea55d071&amp;id=73f48c7195" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div style="position: absolute; left: -5000px;" aria-hidden="true">
+					<input type="text" name="b_2ba9ad3be3e34e937ea55d071_73f48c7195" tabindex="-1" value="">
+				</div>
+				
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your Email" required>
+				<button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button>
+				
+				
+			</form>
+                                </div>
+                            </div>
+                            <!-- Footer Newsletter End -->
 
-		          <div class="col-lg-3 col-md-6 footer-contact">
-		            <h4>Contact Us</h4>
-		            <p>
-				              <strong>Email:</strong>info@jconfdominicana.org<br>
-		            </p>
+                            <div class="footer-bottom-wrap">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <!-- Footer Info Start -->
+                                        <div class="footer-info">
+                                            <h3 class="title">Event Details</h3>
+                                            <span class="date">21 - 22 July 2023</span>
+                                            <p>Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.</p>
+                                            <div class="footer-widget-social">
+                                               <a th:if="${config.facebook_username}" href="#" th:href="|https://www.facebook.com/${config.facebook_username}|" th:target="_blank"><i class="fab fa-facebook-f"></i></a>
+											   <a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" th:target="_blank"><i class="fab fa-twitter"></i></a>
 
-		            <div class="social-links">
-		              <a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" th:target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
-									<a th:if="${config.instagram_username}" href="#" th:href="|https://www.instagram.com/${config.instagram_username}|" th:target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
-									<a th:if="${config.facebook_username}" href="#" th:href="|https://www.facebook.com/${config.facebook_username}|" th:target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+									<a th:if="${config.instagram_username}" href="#" th:href="|https://www.instagram.com/${config.instagram_username}|" th:target="_blank"><i class="fab fa-instagram"></i></a>
 
-		            </div>
+                                                 <!-- <a href="#"><i class="fab fa-dribbble"></i></a>
+                                                <a href="#"><i class="fab fa-behance"></i></a>
+                                                <a href="#"><i class="fab fa-pinterest"></i></a>-->
+                                            </div>
+                                            <!-- Footer Info End -->
+                                        </div>
+                                    </div>
 
-		          </div>
+                                    <div class="col-md-7">
+                                        <!-- Footer widget Map Start -->
+                                        <div class="footer-widget-map">
+											<iframe scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.4657700883313!2d-69.9326994242039!3d18.462549870942812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea56275603eada9%3A0x32384d33d348d145!2sPontificia%20Universidad%20Cat%C3%B3lica%20Madre%20y%20Maestra%20(PUCMM)!5e0!3m2!1sen!2sdo!4v1684608894395!5m2!1sen!2sdo" title="PUCMM, Campus Santo Domingo" aria-label="PUCMM, Campus Santo Domingo" frameborder="0"></iframe>
+                                        </div>
+                                        <!-- Footer widget Map End -->
+                                    </div>
+                                </div>
+                            </div>
 
-		        </div>
-		      </div>
-		    </div>
+                        </div>
+                    </div>
+                </div>
 
-		    <div class="container">
-		      <div class="credits">
-		        <!--
-		          All the links in the footer should remain intact.
-		          You can delete the links only if you purchased the pro version.
-		          Licensing information: https://bootstrapmade.com/license/
-		        -->
-		     	<p class="muted credit">&copy; 2018 - <span id="year"></span>  | Build with love by
+                <div class="footer-copyright text-center">
+               <p class="muted credit">&copy; 2018 - <span id="year"></span>  | Build with love by
         <a href="https://github.com/JavaDominicano" target="_blank">Java Dominicano</a>
         and
         <a href="https://github.com/JavaDominicano/conference/graphs/contributors" target="_blank">
-Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span th:text='${version}'>version</span> </a> and <a href="https://bootstrapmade.com/buy/?theme=TheEvent" target="_blank">BootstrapMade</a> </p>
-		      </div>
-		    </div>
-				<script type="text/javascript">
+Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span th:text='${version}'>version</span> </a> and <a href="https://themeforest.net/item/meeta-event-conference/35814862" target="_blank"> Meeta - Event Conference </a> </p>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Footer Widget End -->
+
+		<script type="text/javascript">
 							var today = new Date();
 							document.getElementById('year').innerHTML=today.getFullYear();
 					</script>
-		  </footer><!-- #footer -->
 
-		  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    </div>
+    <!-- Footer End -->
+
+    <!-- back to top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- back to top end -->
+
 
 		  <!-- JavaScript Libraries -->
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/jquery/jquery.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/jquery/jquery-migrate.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/bootstrap/js/bootstrap.bundle.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/easing/easing.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/superfish/hoverIntent.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/superfish/superfish.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/wow/wow.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/venobox/venobox.min.js'"></script>
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/owlcarousel/owl.carousel.min.js'"></script>
-			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/countdown/jquery.countdown.min.js'"></script>
+
+ 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/vendor/modernizr-3.11.7.min.js'"></script>
+       
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/vendor/jquery-1.12.4.min.js'"></script>
+
+		    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/popper.min.js'"></script>
+
+         	<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/bootstrap.min.js'"></script>
+
+   	        <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/swiper-bundle.min.js'"></script>
+
+         	<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/back-to-top.js'"></script>
+
+    		<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.magnific-popup.min.js'"></script>
+
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.counterup.min.js'"></script>
+	
+       		<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/waypoints.min.js'"></script>
+
+  		    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/aos.js'"></script>
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.nice-select.min.js'"></script>
+
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
 
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/vegas/vegas.min.js'"></script>
 
-		  <!-- Template Main Javascript File -->
-		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
+	       <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/JSON-translation-data.js'"></script>
 
-      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/JSON-translation-data.js'"></script>
-
- 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/lingumania.min.js'"></script>
+ 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/lingumania.min.js'"></script>
+		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'lib/countdown/jquery.countdown.min.js'"></script>
 		  <script th:replace="commons.thyme::googleAnalytics" />
-		 <script type="text/javascript">
-            $('#countdown').countdown('2021/07/31 09:00:00', function (event) {
+		  <script type="text/javascript">
+            $('#countdown').countdown('2023/07/21 09:00:00', function (event) {
                 $(this).html(event.strftime('%D Days | %-H Hours | %M Minutes | %S Seconds'));
             });
 
@@ -130,5 +164,121 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
         </script>
 
 		 </div>
+	<div th:fragment="footer-page" th:remove="tag">
+		  <!-- Footer Start -->
+    <div class="meeta-footer-section" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/meeta/bg/footer-bg-2.jpg)|" style="background-image: url(img/venue-gallery/dominican-republic.jpg);">
+
+        <!-- Footer Widget Start -->
+        <div class="footer-widget text-center">
+            <div class="container">
+
+                <!-- Footer Logo Start -->
+                <div class="footer-logo">
+                    
+                    <a href="/index.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-footer-logo-1.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
+
+                </div>
+                <!-- Footer Logo End -->
+
+                <!-- Footer Newsletter Start -->
+                <div class="footer-newsletter">
+                    <p>Join our mailing list to stay up to date on all things about our event.</p>
+
+                    <div class="footer-newsletter-form">                    
+                        <form action="https://jconfdominicana.us20.list-manage.com/subscribe/post?u=2ba9ad3be3e34e937ea55d071&amp;id=73f48c7195" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div style="position: absolute; left: -5000px;" aria-hidden="true">
+					<input type="text" name="b_2ba9ad3be3e34e937ea55d071_73f48c7195" tabindex="-1" value="">
+				</div>
+				
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your Email" required>
+				<button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button>
+				
+				
+			</form>
+                        
+                    </div>
+                </div>
+                <!-- Footer Newsletter End -->
+
+                <!-- Footer widget Social Start -->
+                <div class="footer-widget-social">
+                   <a th:if="${config.facebook_username}" href="#" th:href="|https://www.facebook.com/${config.facebook_username}|" th:target="_blank"><i class="fab fa-facebook-f"></i></a>
+											   <a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" th:target="_blank"><i class="fab fa-twitter"></i></a>
+
+									<a th:if="${config.instagram_username}" href="#" th:href="|https://www.instagram.com/${config.instagram_username}|" th:target="_blank"><i class="fab fa-instagram"></i></a>
+
+                                                 <!-- <a href="#"><i class="fab fa-dribbble"></i></a>
+                                                <a href="#"><i class="fab fa-behance"></i></a>
+                                                <a href="#"><i class="fab fa-pinterest"></i></a>-->
+                </div>
+                <!-- Footer widget Social End -->
+                <script type="text/javascript">
+							var today = new Date();
+							document.getElementById('year').innerHTML=today.getFullYear();
+					</script>
+
+                <!-- Footer Copyright Start -->
+                <div class="footer-copyright">
+                   <p class="muted credit">&copy; 2018 - <span id="year"></span>  | Build with love by
+        <a href="https://github.com/JavaDominicano" target="_blank">Java Dominicano</a>
+        and
+        <a href="https://github.com/JavaDominicano/conference/graphs/contributors" target="_blank">
+Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span th:text='${version}'>version</span> </a> and <a href="https://themeforest.net/item/meeta-event-conference/35814862" target="_blank"> Meeta - Event Conference </a> </p>
+
+                </div>
+                <!-- Footer Copyright End -->
+
+            </div>
+        </div>
+        <!-- Footer Widget End -->
+
+    </div>
+    <!-- Footer End -->
+
+    <!-- back to top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- back to top end -->
+
+
+
+
+    <!-- JS
+    ============================================ -->
+
+    <!-- Modernizer & jQuery JS -->
+     <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/vendor/modernizr-3.11.7.min.js'"></script>       
+     <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/vendor/jquery-1.12.4.min.js'"></script>
+
+
+    <!-- Bootstrap JS -->
+
+   <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/popper.min.js'"></script>
+   <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/bootstrap.min.js'"></script>
+
+    <!-- Plugins JS -->
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/swiper-bundle.min.js'"></script>
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/all.js'"></script>
+
+    
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/back-to-top.js'"></script>
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.magnific-popup.min.js'"></script>
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.counterup.min.js'"></script>
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/waypoints.min.js'"></script>
+
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/aos.js'"></script>
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.nice-select.min.js'"></script>
+			
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/JSON-translation-data.js'"></script>
+
+    <!-- Main JS -->
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
+    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/lingumania.min.js'"></script>
+		
+		
+		</div>
 	</body>
 </html>

@@ -2,33 +2,119 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <body>
-	<!--==========================
-	Header
-	============================-->
-	<header id="header" th:fragment="menu" th:remove="tag">
-		<div class="container">
+	<header id="header" th:fragment="menu-index" th:remove="tag">
+	 <!-- Header Start -->
+        <div class="meeta-header-section meeta-header-2">
 
-			<div id="logo" class="pull-left">
-				 <!-- <h1><a href="index.html"><span>JConf</span>Dominicana</a></h1>-->
-				<a href="/index.html" class="scrollto"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
-			</div>
+            <!-- Header Middle Start -->
+            <div class="header-middle header-sticky">
+                <div class="container">
 
-			<nav id="nav-menu-container">
-				<ul class="nav-menu">
-					<li><a href="/index.html">Home</a></li>
-			  <!--	<li><a href="/buy-tickets.html">Tickets</a></li>-->
-				<!--  <li><a href="/schedule.html">Agenda</a></li>-->
-				<!--  <li><a href="/speakers.html">Speakers</a></li>-->
-				<!--	<li><a href="/presentations.html">Presentations</a></li>-->
-					<li><a href="/code-of-conduct.html">Code of conduct</a></li>
+                    <div class="header-wrap">
+                        <!-- Header Logo Start -->
+                        <div class="header-logo">
+							<a href="/index.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo-2.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
 
-					<li><a href="/index.html#sponsors">Sponsors</a></li>
-					<li><a href="/past-conferences.html">Past Conferences</a></li>
-					<li><a href="/conference-info.html">Conference Info</a></li>
-					<!--<li><a href="/organizers.html">Organizers</a></li>-->
-				</ul>
-			</nav><!-- #nav-menu-container -->
-		</div>
+                        </div>
+                        <!-- Header Logo End -->
+
+                        <!-- Header Navigation Start -->
+                        <div class="header-navigation d-none d-lg-block">
+                            <ul class="main-menu">
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a th:if="${config.layout_display_tickets}" th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html">Tickets</a></li>
+                                <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
+                                <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
+                                <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
+                                <li><a href="/code-of-conduct.html">Code of conduct</a></li>                                    
+                                <li><a th:if="${config.layout_display_sponsors}"  href="/index.html#sponsors">Sponsors</a></li>
+                                <li><a href="/past-conferences.html">Past Conferences</a></li>
+                                <li><a href="/conference-info.html">Conference Info</a></li>
+                                <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}">Organizers</a></li>
+                            </ul>
+                        </div>
+                        <!-- Header Navigation End -->
+
+                        <!-- Header Meta Start -->
+                        <div class="header-meta" th:if="${config.layout_display_buytickets_menu_button}">
+
+                            <div class="header-btn d-none d-md-block">
+                                <a th:href="${config.layout_buytickets_url}" href="price.html" class="btn btn-primary">Buy Ticket Now</a>
+                            </div>
+
+                        </div>
+                        <!-- Header Meta End -->
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Header Middle End -->
+
+        </div>
+        <!-- Header End -->
+
 	</header><!-- #header -->
+    	<header id="header" th:fragment="menu-page" th:remove="tag">
+      <!-- Header Start -->
+        <div class="meeta-header-section meeta-header-4">
+
+            <!-- Header Middle Start -->
+            <div class="header-middle header-sticky">
+                <div class="container-fluid custom-container">
+
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-4">
+
+                            <!-- Header Logo Start -->
+                            <div class="header-logo">
+						    	<a href="/index.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-sm-logo-2.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
+                            </div>
+                            <!-- Header Logo End -->
+
+                        </div>
+                        <div class="col-lg-6 d-none d-lg-block">
+
+                            <!-- Header Navigation Start -->
+                            <div class="header-navigation">
+                                 <ul class="main-menu">
+                                <li><a href="/index.html">Home</a></li>
+								 <li><a th:if="${config.layout_display_tickets}" th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html">Tickets</a></li>
+				                 <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
+				                 <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
+				                 <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
+					             <li><a href="/code-of-conduct.html">Code of conduct</a></li>                               
+                                <li><a th:if="${config.layout_display_sponsors}" href="/index.html#sponsors">Sponsors</a></li>
+                                <li><a href="/past-conferences.html">Past Conferences</a></li>
+                                <li><a href="/conference-info.html">Conference Info</a></li>
+                                <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}">Organizers</a></li>
+                            </ul>
+                            </div>
+                            <!-- Header Navigation End -->
+
+                        </div>
+                        <div class="col-lg-3 col-8">
+
+                            <!-- Header Meta Start -->
+                            <div class="header-meta">                               
+
+                                <div class="header-btn d-none d-md-block" th:if="${config.layout_display_buytickets_menu_button}">
+                                    <a th:href="${config.layout_buytickets_url}" href="price.html" class="btn btn-3 btn-primary">Buy Ticket Now</a>
+                                </div>                        
+
+                            </div>
+                            <!-- Header Meta End -->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Header Middle End -->
+
+        </div>
+        <!-- Header End -->
+
+        </header>
 </body>
 </html>

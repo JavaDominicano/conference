@@ -143,7 +143,7 @@ var linguJSON = {
       'target_es': 'Algunos de nuestros conferencistas'
     },
     {
-      'source': 'JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.The conference offers a unique networking opportunity for developers, tech companies, and startups and a chance to enjoy the pristine beaches, cloud-forest treks, and the welcoming villages that the island has to offer. Come to the Dominican Republic to learn about latest Java technologies and have fun sightseeing.',
+      'source': 'JConf Dominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.The conference offers a unique networking opportunity for developers, tech companies, and startups and a chance to enjoy the pristine beaches, cloud-forest treks, and the welcoming villages that the island has to offer. Come to the Dominican Republic to learn about latest Java technologies and have fun sightseeing.',
       'target_es': 'La JConf Dominicana es una conferencia de Tecnologías Java sin ánimo de lucro organizada por las comunidades de usuarios y desarrolladores de República Dominicana. Ha sido diseñada para ayudar a usuarios, desarrolladores, emprendedores y empresas a conocer las nuevas tecnologías relacionadas con el ecosistema Java, incluyendo alternativas de lenguajes en el JVM, desarrollo Web y Móvil y  las nuevas tendencias en la nube. Además de los temas técnicos, la conferencia ofrece una oportunidad única para socializar con desarrolladores, empresas de tecnologías, emprendedores y disfrutar de las playas, de los bosques y los pueblos acogedores que ofrece la isla. Ven a la República Dominicana para conocer las últimas tecnologías de Java y divertirte haciendo turismo.'
     },
     {
@@ -291,7 +291,7 @@ var linguJSON = {
       'target_es': 'La conferencia ofrece una oportunidad única para interactuar con profesionales del área y la colaboración entre desarrolladores, empresas de tecnología y emprendedores.'
     },
     {
-      'source': 'We promote the open exchange of ideas and expression. But we expect all participants (including speakers, sponsors and volunteers) to follow our code of conduct.',
+      'source': 'We promote the open exchange of ideas and expression. But we expect all participants (including speakers,sponsors and volunteers) to follow our code of conduct.',
       'target_es': 'Promovemos el intercambio abierto de ideas y expresiones. Pero esperamos que todos los participantes (incluidos conferencistas, patrocinadores y voluntarios) cumplan con nuestro código de conducta.'
     },
     {
@@ -496,11 +496,15 @@ var linguJSON = {
     },
     {
       'source': 'The Caribbean Java Technologies Conference.',
-      'target_es': 'La Conferencia de Tecnologías Java del Caribe'
+      'target_es': 'La Conferencia de Tecnologías Java del Caribe.'
     },
     {
-      'source': 'July 23, 2022. Virtual Edition.',
-      'target_es': '23 de Julio del 2022. Edición Virtual.'
+      'source': 'The Caribbean Java Technologies Conference.',
+      'target_es': 'La Conferencia de Tecnologías Java del Caribe.'
+    },
+    {
+      'source': 'July 21-22, 2023. Santo Domingo. Dominican Republic.',
+      'target_es': '21-22 de Julio del 2023. Santo Domingo. República Dominicana'
     },
     {
       'source': 'Save the date!',
@@ -632,11 +636,66 @@ var linguJSON = {
     {
       "source" : "Saturday, July 22, 2023. Santo Domingo. Dominican Republic.",
       "target_es":"Sábado 22 de Julio de 2023. Santo Domingo. Dominican Republic"
-    }
+    },
+    
+    {
+      "source" : "Live Coding",
+      "target_es":"Codificación En Vivo"
+    },
+    {
+      "source" : "Food",
+      "target_es":"Almuerzo"
+    },
 
+    {
+      "source" : "Workshops",
+      "target_es":"Talleres"
+    },
 
+    {
+      "source" : "Gift Items",
+      "target_es":"Regalos"
+    },
 
+    {
+      "source" : "The sessions and keynotes for JConf Dominicana 2023 are chosen by a committee made up of volunteers from Dominican Republic Java Users Group (Aka JavaDominicano).",
+      "target_es":"Las sesiones y paneles para JConf Dominicana 2023 son elegidas por un comité compuesto por voluntarios de la comunidad de usuarios Java de República Dominicana (Aka JavaDominicano)."
+    },
 
+    {
+      "source":"Biography",
+      "target_es":"Biografía"
+    },
 
+    {
+      "source":"Event Details",
+      "target_es":"Detalles del evento"
+    },
+    {
+      "source":"21 - 22 July 2023",
+      "target_es":"21 - 22  de Julio de 2023"
+    },
+    {
+      "source":"Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.",
+      "target_es":"Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. República Dominicana."
+    },
+    {
+      "source":"Join our mailing list to stay up to date on all things about our event.",
+      "target_es":"Únase a nuestra lista de correo para estar al día de todo lo relacionado con nuestro evento."
+    },
+
+    {
+      "source":"Buy Ticket Now",
+      "target_es":"Comprar Entrada Ahora"
+    },
+    {
+      "source":"Ticket Price",
+      "target_es":"Precio de la Entrada"
+    },
+    {
+      "source":"Get Your Tickets Now",
+      "target_es":"Adquiera sus Entradas Ahora"
+    },
+    
   ]
 }

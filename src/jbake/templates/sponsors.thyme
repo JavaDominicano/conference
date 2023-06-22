@@ -5,55 +5,51 @@
 <body>
       <div th:fragment="sponsors" th:remove="tag">
 
+       <!-- Event Sponsors Start -->
+        <div id="sponsors" class="meeta-event-sponsors-2 section-padding" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')">
+            <div class="container">
 
-            <!--==========================
-	      Sponsors Section
-	    ============================-->
-            <section id="sponsors" class="section-with-bg wow fadeInUp">
+                <!-- Section Title Start -->
+                <div class="meeta-section-title-2 text-center">
+                    <h2 class="main-title">Sponsors</h2>
+                    <p>Please contact us if you are interested in becoming a JConf Dominicana sponsor or supporter. <a href="mailto:info@jconfdominicana.org" target="_blank">Click here</a>
+                    </p>
+                </div>
+                <!-- Section Title End -->
 
-                  <div class="container">
-                        <div class="section-header">
-                              <h2>Sponsors</h2>
-                              <p> Please contact us if you are interested in becoming a JConf Dominicana sponsor or
-                                    supporter. <a href="mailto:info@jconfdominicana.org" target="_blank">Click here</a>
-                              </p>
+                <!-- Sponsor Active Start -->
+                <div class="meeta-sponsor-active">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="meeta-sponsor-logo">
+                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/sponsors-5.png'" src="assets/images/sponsors-5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="meeta-sponsor-logo">
+                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/sponsors-6.png'" src="assets/images/sponsors-6.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="meeta-sponsor-logo">
+                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/sponsors-6.png'"  src="assets/images/sponsors-7.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="meeta-sponsor-logo">
+                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/sponsors-6.png'"  src="assets/images/sponsors-8.png" alt="">
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <!-- Sponsor Active End -->
 
-                        <!--
-                        <div class="row no-gutters sponsors-wrap clearfix">
-                              <div class="col-lg-3 col-md-4 col-xs-6">
-                                    <div class="patrocinadores-logo">
-                                          <a href="https://www.jetbrains.com/" target="_blank">
-                                                <img src="img/sponsors/jetbrains.png" class="img-fluid" alt="jetbrains">
-                                          </a>
-                                    </div>
-                              </div>
-                              <div class="col-lg-3 col-md-4 col-xs-6">
-                                    <div class="patrocinadores-logo">
-                                          <a href="https://avathartech.com/" target="_blank">
-                                                <img src="img/sponsors/AvatharTech.png" class="img-fluid"
-                                                      alt="Avathar Tech" />
-                                          </a>
-                                    </div>
-                              </div>
-                              <div class="col-lg-3 col-md-4 col-xs-6">
-                                    <div class="patrocinadores-logo">
-                                          <a href="https://www.hicx.com/" target="_blank">
-                                                <img src="img/sponsors/hicx.png" class="img-fluid" alt="Hicx">
-                                          </a>
-                                    </div>
-                              </div>
-                              <div class="col-lg-3 col-md-4 col-xs-6">
-                                    <div class="patrocinadores-logo">
-                                          <a href="https://applaudostudios.com/" target="_blank">
-                                                <img src="img/sponsors/Applaudo.png" class="img-fluid" alt="Applaudo">
-                                          </a>
-                                    </div>
-                              </div>
-                        </div>-->
+            </div>
+        </div>
+        <!-- Event Sponsors End -->
 
-                  </div>
-            </section>
       </div>
 </body>
 

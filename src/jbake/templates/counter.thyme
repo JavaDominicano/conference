@@ -1,0 +1,59 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<body>
+	<div th:fragment="counter" th:remove="tag">
+    <!-- Counter Start -->
+        <div class="meeta-counter-section section-padding" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/gallery/jconf-2019-12.jpg)|" style="background-image: url(assets/images/bg/counter-bg.jpg);">
+            <div class="container">
+                <div class="counter-wrap">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Single Counter Start -->
+                            <div class="single-counter counter-item-1 text-center">
+                                <div class="counter-text">
+                                    <span class="counter">24</span>
+                                    <p>Speakers</p>
+                                </div>
+                            </div>
+                            <!-- Single Counter End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Single Counter Start -->
+                            <div class="single-counter counter-item-2 text-center">
+                                <div class="counter-text">
+                                    <span class="counter">1140</span>
+                                    <p>Attendence</p>
+                                </div>
+                            </div>
+                            <!-- Single Counter End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Single Counter Start -->
+                            <div class="single-counter counter-item-3 text-center">
+                                <div class="counter-text">
+                                    <span class="counter">05</span>
+                                    <p>Workshops</p>
+                                </div>
+                            </div>
+                            <!-- Single Counter End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Single Counter Start -->
+                            <div class="single-counter text-center">
+                                <div class="counter-text">
+                                    <span class="counter">205</span>
+                                    <p>Guests</p>
+                                </div>
+                            </div>
+                            <!-- Single Counter End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter End -->
+
+	</div>
+  </body>
+  </html>

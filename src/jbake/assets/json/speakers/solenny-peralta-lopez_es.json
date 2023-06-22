@@ -1,0 +1,21 @@
+{
+    "id": "solenny-peralta-lopez",
+    "name": "Solenny Peralta Lopez",
+    "photoUrl": "/img/speakers/solenny-peralta-lopez.jpg",
+    "title": "Gerente de Proyectos TI",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "IT Project Manager, certificada en metodología scrum y scrum master comencé en TI como analista de servicio al usuario, colaboré activamente en el proyecto Creación de políticas de TI y procedimientos de TI.  Actualmente estoy implementando Odoo como PM. Acepté la desafiante meta de implementar y desplegar N Módulos en N Departamentos en un año, cambié 34 años de \"Siempre lo he hecho así\"; Asegurando el compromiso no solo de operaciones sino también de todas las líneas de mando. Gestión de proyectos, gestión del cambio y transformación digital todo en uno",
+    "socials": [
+        {
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "https://twitter.com/Psolenny"
+        },
+        {
+            "icon": "link",
+            "name": "link",
+            "link": "https://www.psolenny.com/"
+        }
+    ]
+}
