@@ -684,6 +684,18 @@ var linguJSON = {
       "target_es":"Únase a nuestra lista de correo para estar al día de todo lo relacionado con nuestro evento."
     },
 
+    {
+      "source":"Buy Ticket Now",
+      "target_es":"Comprar Entrada Ahora"
+    },
+    {
+      "source":"Ticket Price",
+      "target_es":"Precio de la Entrada"
+    },
+    {
+      "source":"Get Your Tickets Now",
+      "target_es":"Adquiera sus Entradas Ahora"
+    },
     
   ]
 }

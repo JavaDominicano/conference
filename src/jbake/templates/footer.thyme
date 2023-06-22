@@ -206,6 +206,10 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 
                 </div>
                 <!-- Footer widget Social End -->
+                <script type="text/javascript">
+							var today = new Date();
+							document.getElementById('year').innerHTML=today.getFullYear();
+					</script>
 
                 <!-- Footer Copyright Start -->
                 <div class="footer-copyright">
