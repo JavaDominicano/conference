@@ -6,7 +6,7 @@
       <div th:fragment="sponsors" th:remove="tag">
 
    <!-- Event Sponsors Start -->
-        <div class="meeta-event-sponsors-3 section-padding">
+        <div id="sponsors" class="meeta-event-sponsors-3 section-padding">
             <div class="container">
 
                 <!-- Section Title Start -->
