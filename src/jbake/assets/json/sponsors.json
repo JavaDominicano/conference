@@ -1,0 +1,36 @@
+[{
+    "id": "pucmm",
+    "name": "PUCMM",
+    "logoUrl": "/img/sponsors/pucmm.png",
+    "url":"https://sponsors-x.com"	
+    
+},
+ {
+    "id": "nearsure",
+    "name": "Nearsure",
+    "logoUrl": "/img/sponsors/nearsure.png",
+    "url":"https://nearsure.com/careers"	
+    
+},
+{
+    "id": "anuniformes",
+    "name": "AN Uniformes",
+    "logoUrl": "/img/sponsors/an-uniformes.png",
+    "url":"https://www.instagram.com/anuniformes"	
+    
+},
+{
+    "id": "alphnology",
+    "name": "Alphnology",
+    "logoUrl": "/img/sponsors/alphnology.png",
+    "url":"https://alphnology.com/"	
+    
+},
+{
+    "id": "jetbrains",
+    "name": "Jetbrains",
+    "logoUrl": "/img/sponsors/jetbrains.png",
+    "url":"https://www.jetbrains.com/"	
+    
+}
+]
