@@ -1,254 +1,287 @@
 {
-	"101": {
-		"id": "solenny-peralta-lopez",
-		"name": "Solenny Peralta Lopez",
-		"company": "",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/solenny-peralta-lopez.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "IT Project Manager",
-				"description": "IT Project Manager"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/Psolenny"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "https://www.psolenny.com/"
-			}
-		]
-	},
-	"102": {
-		"id": "freddy-pena",
-		"name": "Freddy Peña",
-		"company": "Alphnology",
-		"companyLogo": "",
-		"country": "Santiago, Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/freddy-pena.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Founder & Software Developer",
-				"description": "Founder & Software Developer"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/fred_pena"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/fredpena"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/fantpena/"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "https://alphnology.com/"
-			}
-		]
-	},
-	"103": {
-		"id": "yuri-santana",
-		"name": "Yuri Santana",
-		"company": "Supabase",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/yuri-santana.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "DevRel",
-				"description": "DevRel"
-			}
-		],
-		"socials": [
-			{
-				"icon": "link",
-				"name": "Linktr.ee",
-				"link": "https://linktr.ee/YuriCodesBot"
-			}
-		]
-	},
-	"104": {
-		"id": "juan-polanco",
-		"name": "Juan Jose Polanco Arias",
-		"company": "Intellisys D. Corp",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/juan-polanco.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Software Developer",
-				"description": "Software Developer"
-			}
-		],
-		"socials": [
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/juanjpolancoa"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/jpolanco91"
-			}
-		]
-	},
-	"105": {
-		"id": "enrique-zamudio",
-		"name": "Enrique Zamudio",
-		"company": "Bitso",
-		"companyLogo": "",
-		"country": "México",
-		"countryFlag": "flag-icon-mx",
-		"photoUrl": "/img/speakers/enrique-zamudio.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Software Architect",
-				"description": "Software Architect"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/chochosmx"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "http://www.javamexico.org/blogs/ezamudio"
-			}
-		]
-	},
-	"106": {
-		"id": "fabio-turizo",
-		"name": "Fabio Turizo",
-		"company": "Payara Services Ltd.",
-		"companyLogo": "",
-		"country": "Colombia",
-		"countryFlag": "flag-icon-co",
-		"photoUrl": "/img/speakers/fabio-turizo.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Software Engineer",
-				"description": "Software Engineer"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/fabturizo"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/fturizo"
-			}
-		]
-	},
-	"107": {
-		"id": "jorge-cajas",
-		"name": "Jorge Cajas Mota",
-		"company": "MangoChango",
-		"companyLogo": "",
-		"country": "Guatemala",
-		"countryFlag": "flag-icon-gt",
-		"photoUrl": "/img/speakers/jorge-cajas.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Software Engineer",
-				"description": "Software Engineer"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/cajasmota"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/cajasmota"
-			}
-		]
-	},
-	"108": {
-		"id": "ecabrerar",
-		"name": "Eudris Cabrera",
-		"company": "Ministerio de Hacienda",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/ecabrerar.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Software Developer",
-			"description": "Software Developer"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/eudriscabrera"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "https://eudriscabrera.com"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/ecabrerar"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/eudriscabrera"
-			}
-		]
-	}
+  "101": {
+    "id": "solenny-peralta-lopez",
+    "name": "Solenny Peralta Lopez",
+    "company": "",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/solenny-peralta-lopez.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "IT Project Manager",
+        "description": "IT Project Manager"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/Psolenny"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://www.psolenny.com/"
+      }
+    ]
+  },
+  "102": {
+    "id": "freddy-pena",
+    "name": "Freddy Peña",
+    "company": "Alphnology",
+    "companyLogo": "",
+    "country": "Santiago, Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/freddy-pena.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Founder & Software Developer",
+        "description": "Founder & Software Developer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/fred_pena"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/fredpena"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/fantpena/"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://alphnology.com/"
+      }
+    ]
+  },
+  "103": {
+    "id": "yuri-santana",
+    "name": "Yuri Santana",
+    "company": "Supabase",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/yuri-santana.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "DevRel",
+        "description": "DevRel"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "Linktr.ee",
+        "link": "https://linktr.ee/YuriCodesBot"
+      }
+    ]
+  },
+  "104": {
+    "id": "juan-polanco",
+    "name": "Juan Jose Polanco Arias",
+    "company": "Intellisys D. Corp",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/juan-polanco.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Developer",
+        "description": "Software Developer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/juanjpolancoa"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/jpolanco91"
+      }
+    ]
+  },
+  "105": {
+    "id": "enrique-zamudio",
+    "name": "Enrique Zamudio",
+    "company": "Bitso",
+    "companyLogo": "",
+    "country": "México",
+    "countryFlag": "flag-icon-mx",
+    "photoUrl": "/img/speakers/enrique-zamudio.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Architect",
+        "description": "Software Architect"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/chochosmx"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "http://www.javamexico.org/blogs/ezamudio"
+      }
+    ]
+  },
+  "106": {
+    "id": "fabio-turizo",
+    "name": "Fabio Turizo",
+    "company": "Payara Services Ltd.",
+    "companyLogo": "",
+    "country": "Colombia",
+    "countryFlag": "flag-icon-co",
+    "photoUrl": "/img/speakers/fabio-turizo.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Engineer",
+        "description": "Software Engineer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/fabturizo"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/fturizo"
+      }
+    ]
+  },
+  "107": {
+    "id": "jorge-cajas",
+    "name": "Jorge Cajas Mota",
+    "company": "MangoChango",
+    "companyLogo": "",
+    "country": "Guatemala",
+    "countryFlag": "flag-icon-gt",
+    "photoUrl": "/img/speakers/jorge-cajas.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Engineer",
+        "description": "Software Engineer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/cajasmota"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/cajasmota"
+      }
+    ]
+  },
+  "108": {
+    "id": "ecabrerar",
+    "name": "Eudris Cabrera",
+    "company": "Ministerio de Hacienda",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/ecabrerar.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Developer",
+        "description": "Software Developer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/eudriscabrera"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://eudriscabrera.com"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/ecabrerar"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/eudriscabrera"
+      }
+    ]
+  },
+  "109": {
+    "id": "frank_jcg",
+    "name": "Francisco Contreras",
+    "company": "GInIEm",
+    "companyLogo": "",
+    "country": "Nicaragua",
+    "countryFlag": "flag-icon-ni",
+    "photoUrl": "/archive/jconf2022/images/speakers/francisco-contreras.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Architect",
+        "description": "Software Architect - CTO"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/Frank_JCG"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/fjcontrerasg/"
+      }
+    ]
+  }
 }

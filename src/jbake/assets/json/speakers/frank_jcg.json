@@ -1,0 +1,22 @@
+{
+  "id": "frank_jcg",
+  "name": "Francisco Contreras",
+  "photoUrl": "/archive/jconf2022/images/speakers/francisco-contreras.jpg",
+  "title": "Software Architect - CTO",
+  "shortBio": "",
+  "countryFlag": "flag-icon-ni",
+  "bio": "Senior software architect with more than 12 years of experience. Co-organizer of the Java User Group Nicaragua, Java and mobile tech’s enthusiast, and international speaker. Experienced in working with companies all around the world in the development of business/marketing solutions including, among others, back-end development, front-end web/desktop development, business intelligence, and mobile development. System engineer with a master’s in business informatics. Enjoys the challenges and projects that demand going the extra mile to accomplish extraordinary results.",
+  "tags": [],
+  "socials": [
+    {
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/Frank_JCG"
+    },
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/fjcontrerasg/"
+    }
+  ]
+}

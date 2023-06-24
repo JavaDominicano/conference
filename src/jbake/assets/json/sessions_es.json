@@ -1,157 +1,166 @@
 {
-
-	"101": {
-		"id": 101,
-		"title": "Bienvenidos al fin de la era del siempre lo hicimos así. Lecciones implementando Software...",
-		"abstract": "La mayoría de nosotros ha escuchado las 7 palabras más caras en  los negocios: \"Siempre lo hicimos así\" y podemos ver la resistencia al cambio, y puedes estar seguro de que la solución que ofreces es necesario, pero cómo ser un agente de cambio utilizando la tecnología, ¿es posible lograrlo?",
-		"description": "\"Bienvenidos al fin de la era del siempre lo hicimos así\". Lecciones implementando software...Hoy quiero hablarte sobre la gestión del cambio en  implementaciones de software. En los últimos años, hemos visto una explosión de tecnologías que han transformado la manera en que trabajamos y colaboramos. Sin embargo, implementar un nuevo software no es solo una cuestión técnica, sino que también implica un cambio cultural y organizacional que puede ser difícil de manejar.\r\n\r\nEn esta charla, te daré las claves para ser un agente de cambio efectivo utilizando la tecnología como puente. Descubrirás por qué la gestión del cambio es crucial en las implementaciones de software, qué habilidades y herramientas necesitas para liderar un cambio exitoso y cómo puedes influir positivamente en el cambio desde cualquier posición.",
-		"audience_level": "Intermediate",
-		"time": "09:00 AM",
-		"language": "es",
-		"talk_format": "Talk (~30-45 minutes)",
-		"tags": [
-            "Gestion del cambio",
-            "Agile",
-            "Project Manager",
-            "Implementaciones de software"
-		],
-		"speakers": [
-			"solenny-peralta-lopez"
-		]
-	},
-
-	"102": {
-		"id": 102,
-		"title": "Despliegue seguro y escalable de aplicaciones web con Vaadin Flow, Docker y Traefik",
-		"abstract": "Despliega aplicaciones web desarrolladas con Vaadin Flow de manera segura y escalable utilizando las tecnologías Docker y Traefik. Combina estas herramientas para simplifica el proceso de despliegue, garantiza la seguridad y asegura la disponibilidad en entornos de alta demanda.",
-		"description": "Sumérgete en el fascinante mundo del despliegue de aplicaciones web con Vaadin Flow, Docker y Traefik. En esta charla, te guiaremos a través de un viaje emocionante donde descubrirás cómo asegurar y escalar tus aplicaciones web de manera impecable. Aprende a aprovechar al máximo las tecnologías más modernas mientras simplificas el proceso de despliegue. Exploraremos cómo la combinación de Vaadin Flow, Docker y Traefik te permitirá alcanzar niveles superiores de seguridad y garantizar una experiencia fluida incluso en los entornos más exigentes. ¡No te pierdas esta oportunidad de aprender los secretos detrás del éxito del despliegue de aplicaciones web seguras y escalables!",
-		"audience_level": "Intermediate",
-		"time": "09:00 AM",
-		"language": "es",
-		"talk_format": "Talk (~30-45 minutes)",
-		"tags": [
-			"Java",
-            "JVM",
-            "Cloud Computing",
-            "Vaadin",
-            "Docker",
-            "Traefik"
-		],
-		"speakers": [
-			"freddy-pena"
-		]
-	},
-
-	"103": {
-		"id": 103,
-		"title": "El auge de los DevRels y su importancia en tu organización",
-		"abstract": "¿Por qué vemos un auge en los llamados \"DevRels\"? ¿Qué son? ¿Qué hacen? En esta charla vamos a conversar con Yuri, Developer Relations Advocate(DevRel) en Supabase y aprender sobre la importancia de esta figura en compañías de SAAAS y todas aquellas que tengan como a su customer persona a developers.",
-		"description": "Desde qué son, los tipos, la forma en que los DevRels ayudan a incrementar ventas y el conocimiento de tu producto en la comunidad son algunos de los temas que cubrirá Yuri en su charla sobre \"El auge de los DevRels y su importancia en tu organización\". Aprenderás sobre la forma en que esta labor se desempeña no sólo de forma externa frente a la comunidad y usuarios pero también cómo se ve en lo interno de la compañía, cómo segmentar tu audiencia para fines de marketing de tu producto y comunidad , la importancia de la creación de contenido para tus metas y muchas cosas más.",
-	    "audience_level": "All",
-	 	"time": "09:00 AM",
-		"talk_format": "Talk (~30-45 minutes)",
-		"language": "es",
-		"tags": [
-			"Software Development",
-            "Developer Relations",
-            "DevRel",
-            "Networking",
-            "Community"
-		],
-		"speakers": [
-			"yuri-santana"
-		]
-	}
-	,
-	"104": {
-			"id": 104,
-			"title": "Unsupervised Learning con Apache Spark Java y MLlib",
-			"time": "09:00 AM",
-			"abstract": "Quieres ver lo que nadie ve en los datos? Quieres encontrar comportamientos ocultos en un determinado problema que manejes con datos? Quieres simplificar tu dataset para utilizarlo mejor en otros modelos? Esta charla es para ti. Aprenderemos como el Unsupervised Learning nos ayuda en estas tareas.",
-			"description": "En esta charla aprenderemos un poco sobre lo que es Unsupervised Learning (aprendizaje no supervisado) el cual es una rama del Machine Learning (aprendizaje automático) que a su vez es una rama de la Inteligencia Artificial (AI en ingles). Utilizaremos Apache Spark un motor unificado de analítica de datos el cual utilizaremos con Java y del cual utilizaremos la librería MLlib para crear y entrenar modelos de Machine Learning basados en estadística, específicamente un modelo de aprendizaje no supervisado o unsupervised learning.",
-		    "audience_level": "All",
-			"talk_format": "Talk (~30-45 minutes)",
-			"language": "es",
-			"tags": [				
-			],
-			"speakers": [
-				"juan-polanco"
-			]
-		},
-
-	"105": {
-		"id": 105,
-		"title": "Focus on Software, not Code",
-		"abstract": "Suena raro, incluso loco. Pero el código y el software son cosas muy diferentes. El código es un medio para un fin. Tanto el software como el código cambian con frecuencia. Pero fuera del departamento de ingeniería de su empresa, a nadie le importa su código. Concéntrese en ejecutar software en su lugar.",
-		"description": "Hablaré sobre la diferencia entre código y software, y por qué es tan importante centrarse en este último. Usaré ejemplos de la vida real para ilustrar cuándo enfocarse en el código y cuándo enfocarse en el software, como priorizar optimizaciones, mejorar el rendimiento, corregir errores, etc.",
-	    "audience_level": "All",
-	 	"time": "09:00 AM",
-		"talk_format": "Talk (~30-45 minutes)",
-		"language": "es",
-		"tags": [
-			"architecture",
-            "software development",
-            "devops"
-		],
-		"speakers": [
-			"enrique-zamudio"
-		]
-	},
-
-	"106": {
-		"id": 106,
-		"title": " Asegurando Microservicios en menos de 40 minutos con Microprofile y Keycloak!",
-		"abstract": " Acompáñame en esta charla donde mostraré cómo puede confiar en Keycloack (solución de gestión de identidades de código abierto) y la API Eclipse MicroProfile para simplificar los aspectos de seguridad de sus aplicaciones haciendo una demostración en vivo de la seguridad de microservicios Java empresariales en menos de 40 minutos!",
-		"description": "La implementación de los patrones de seguridad correctos es un desafío común en el que la mayoría de los desarrolladores y consultores de aplicaciones pueden equivocarse incluso en los escenarios más comunes. Reinventar la rueda es un patrón común que hacen los ingenieros de DevOps cuando integran soluciones de seguridad dentro de sus aplicaciones (autenticación, validación de contraseñas, gestión de identidades, almacenamiento correcto de datos de usuarios, etc.). Keycloak es una solución de administración de identidades de código abierto que se enfoca en descargar esta carga de los ingenieros de DevOps, lo que les permite concentrarse en los aspectos comerciales de sus aplicaciones y simplificar sus soluciones a largo plazo.Esta charla se centrará sobre los beneficios de usar dicho servicio con una aplicación empresarial, con una demostración en vivo de una pequeña aplicación que usa las API de Eclipse MicroProfile para integrarse correctamente con Keycloak a través de los estándares OpenIDConnect.",
-	    "audience_level": "All",
-	 	"time": "09:00 AM",
-		"talk_format": "Talk (~30-45 minutes)",
-		"language": "es",
-		"tags": [
-			"openid",
-            "jakarta ee",
-            "microprofile",
-            "keycloack"
-		],
-		"speakers": [
-			"fabio-turizo"
-		]
-	},
-
+  "101": {
+    "id": 101,
+    "title": "Bienvenidos al fin de la era del siempre lo hicimos así. Lecciones implementando Software...",
+    "abstract": "La mayoría de nosotros ha escuchado las 7 palabras más caras en  los negocios: \"Siempre lo hicimos así\" y podemos ver la resistencia al cambio, y puedes estar seguro de que la solución que ofreces es necesario, pero cómo ser un agente de cambio utilizando la tecnología, ¿es posible lograrlo?",
+    "description": "\"Bienvenidos al fin de la era del siempre lo hicimos así\". Lecciones implementando software...Hoy quiero hablarte sobre la gestión del cambio en  implementaciones de software. En los últimos años, hemos visto una explosión de tecnologías que han transformado la manera en que trabajamos y colaboramos. Sin embargo, implementar un nuevo software no es solo una cuestión técnica, sino que también implica un cambio cultural y organizacional que puede ser difícil de manejar.\r\n\r\nEn esta charla, te daré las claves para ser un agente de cambio efectivo utilizando la tecnología como puente. Descubrirás por qué la gestión del cambio es crucial en las implementaciones de software, qué habilidades y herramientas necesitas para liderar un cambio exitoso y cómo puedes influir positivamente en el cambio desde cualquier posición.",
+    "audience_level": "Intermediate",
+    "time": "09:00 AM",
+    "language": "es",
+    "talk_format": "Talk (~30-45 minutes)",
+    "tags": [
+      "Gestion del cambio",
+      "Agile",
+      "Project Manager",
+      "Implementaciones de software"
+    ],
+    "speakers": [
+      "solenny-peralta-lopez"
+    ]
+  },
+  "102": {
+    "id": 102,
+    "title": "Despliegue seguro y escalable de aplicaciones web con Vaadin Flow, Docker y Traefik",
+    "abstract": "Despliega aplicaciones web desarrolladas con Vaadin Flow de manera segura y escalable utilizando las tecnologías Docker y Traefik. Combina estas herramientas para simplifica el proceso de despliegue, garantiza la seguridad y asegura la disponibilidad en entornos de alta demanda.",
+    "description": "Sumérgete en el fascinante mundo del despliegue de aplicaciones web con Vaadin Flow, Docker y Traefik. En esta charla, te guiaremos a través de un viaje emocionante donde descubrirás cómo asegurar y escalar tus aplicaciones web de manera impecable. Aprende a aprovechar al máximo las tecnologías más modernas mientras simplificas el proceso de despliegue. Exploraremos cómo la combinación de Vaadin Flow, Docker y Traefik te permitirá alcanzar niveles superiores de seguridad y garantizar una experiencia fluida incluso en los entornos más exigentes. ¡No te pierdas esta oportunidad de aprender los secretos detrás del éxito del despliegue de aplicaciones web seguras y escalables!",
+    "audience_level": "Intermediate",
+    "time": "09:00 AM",
+    "language": "es",
+    "talk_format": "Talk (~30-45 minutes)",
+    "tags": [
+      "Java",
+      "JVM",
+      "Cloud Computing",
+      "Vaadin",
+      "Docker",
+      "Traefik"
+    ],
+    "speakers": [
+      "freddy-pena"
+    ]
+  },
+  "103": {
+    "id": 103,
+    "title": "El auge de los DevRels y su importancia en tu organización",
+    "abstract": "¿Por qué vemos un auge en los llamados \"DevRels\"? ¿Qué son? ¿Qué hacen? En esta charla vamos a conversar con Yuri, Developer Relations Advocate(DevRel) en Supabase y aprender sobre la importancia de esta figura en compañías de SAAAS y todas aquellas que tengan como a su customer persona a developers.",
+    "description": "Desde qué son, los tipos, la forma en que los DevRels ayudan a incrementar ventas y el conocimiento de tu producto en la comunidad son algunos de los temas que cubrirá Yuri en su charla sobre \"El auge de los DevRels y su importancia en tu organización\". Aprenderás sobre la forma en que esta labor se desempeña no sólo de forma externa frente a la comunidad y usuarios pero también cómo se ve en lo interno de la compañía, cómo segmentar tu audiencia para fines de marketing de tu producto y comunidad , la importancia de la creación de contenido para tus metas y muchas cosas más.",
+    "audience_level": "All",
+    "time": "09:00 AM",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "Software Development",
+      "Developer Relations",
+      "DevRel",
+      "Networking",
+      "Community"
+    ],
+    "speakers": [
+      "yuri-santana"
+    ]
+  },
+  "104": {
+    "id": 104,
+    "title": "Unsupervised Learning con Apache Spark Java y MLlib",
+    "time": "09:00 AM",
+    "abstract": "Quieres ver lo que nadie ve en los datos? Quieres encontrar comportamientos ocultos en un determinado problema que manejes con datos? Quieres simplificar tu dataset para utilizarlo mejor en otros modelos? Esta charla es para ti. Aprenderemos como el Unsupervised Learning nos ayuda en estas tareas.",
+    "description": "En esta charla aprenderemos un poco sobre lo que es Unsupervised Learning (aprendizaje no supervisado) el cual es una rama del Machine Learning (aprendizaje automático) que a su vez es una rama de la Inteligencia Artificial (AI en ingles). Utilizaremos Apache Spark un motor unificado de analítica de datos el cual utilizaremos con Java y del cual utilizaremos la librería MLlib para crear y entrenar modelos de Machine Learning basados en estadística, específicamente un modelo de aprendizaje no supervisado o unsupervised learning.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+    ],
+    "speakers": [
+      "juan-polanco"
+    ]
+  },
+  "105": {
+    "id": 105,
+    "title": "Focus on Software, not Code",
+    "abstract": "Suena raro, incluso loco. Pero el código y el software son cosas muy diferentes. El código es un medio para un fin. Tanto el software como el código cambian con frecuencia. Pero fuera del departamento de ingeniería de su empresa, a nadie le importa su código. Concéntrese en ejecutar software en su lugar.",
+    "description": "Hablaré sobre la diferencia entre código y software, y por qué es tan importante centrarse en este último. Usaré ejemplos de la vida real para ilustrar cuándo enfocarse en el código y cuándo enfocarse en el software, como priorizar optimizaciones, mejorar el rendimiento, corregir errores, etc.",
+    "audience_level": "All",
+    "time": "09:00 AM",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "architecture",
+      "software development",
+      "devops"
+    ],
+    "speakers": [
+      "enrique-zamudio"
+    ]
+  },
+  "106": {
+    "id": 106,
+    "title": " Asegurando Microservicios en menos de 40 minutos con Microprofile y Keycloak!",
+    "abstract": " Acompáñame en esta charla donde mostraré cómo puede confiar en Keycloack (solución de gestión de identidades de código abierto) y la API Eclipse MicroProfile para simplificar los aspectos de seguridad de sus aplicaciones haciendo una demostración en vivo de la seguridad de microservicios Java empresariales en menos de 40 minutos!",
+    "description": "La implementación de los patrones de seguridad correctos es un desafío común en el que la mayoría de los desarrolladores y consultores de aplicaciones pueden equivocarse incluso en los escenarios más comunes. Reinventar la rueda es un patrón común que hacen los ingenieros de DevOps cuando integran soluciones de seguridad dentro de sus aplicaciones (autenticación, validación de contraseñas, gestión de identidades, almacenamiento correcto de datos de usuarios, etc.). Keycloak es una solución de administración de identidades de código abierto que se enfoca en descargar esta carga de los ingenieros de DevOps, lo que les permite concentrarse en los aspectos comerciales de sus aplicaciones y simplificar sus soluciones a largo plazo.Esta charla se centrará sobre los beneficios de usar dicho servicio con una aplicación empresarial, con una demostración en vivo de una pequeña aplicación que usa las API de Eclipse MicroProfile para integrarse correctamente con Keycloak a través de los estándares OpenIDConnect.",
+    "audience_level": "All",
+    "time": "09:00 AM",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "openid",
+      "jakarta ee",
+      "microprofile",
+      "keycloack"
+    ],
+    "speakers": [
+      "fabio-turizo"
+    ]
+  },
   "107": {
-		"id": 107,
-		"title": "Fallando con estilo: MicroProfile Fault Tolerance & Metric",
-		"abstract": "Lo que no se puede medir, no se puede mejorar.Aprende a utilizar las API de MicroProfile para darle super poderes a tu aplicación con tolerancia a fallos y metricas en tiempo real.",
-		"description": "Con las API de MicroProfile Fault Tolerance podemos implementar varias estrategias  para tener un manejo adecuado de errores utilizando unicamente algunas anotaciones.Además con MicroProfile Metrics podremos obtener algunas métricas de nuestra aplicación, la JVM  o incluso el servidor en donde se ejecuta y en conjunto con herramientas como Prometeus y Grafana poder observar y comparar esas métricas en tiempo real para tomar las desiciones correctas y aplicar las correcciones y mejoras en el momento preciso.",
-	 "audience_level": "All",
-	 	"time": "09:00 AM",
-		"talk_format": "Talk (~30-45 minutes)",
-		"language": "es",
-		"tags": [
-			"MicroProfile",
-            "JakartaEE",
-            "Java"
-		],
-		"speakers": [
-			"jorge-cajas"
-		]
-	},
-	"108": {
-		"id": 108,
-		"title": "Dependencias de software: prácticas recomendadas para la gestión de dependencias de proyectos Java",
-		"abstract": "En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
-		"description": "Una dependencia de software es una librería o un paquete que se reutiliza en un nuevo software. Mediante el uso de dependencias de software preconstruidas, los desarrolladores pueden entregar software más rápido y en ciclos de lanzamiento más cortos.Las dependencias de software han revolucionado el desarrollo de aplicaciones en las últimas décadas, pero también presentan riesgos que con frecuencia se pasan por alto.En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
-	    "audience_level": "All",
-	 	"time": "1:35 PM",
-		"talk_format": "Talk (~30 minutes)",
-		"language": "es",
-		"tags": [
-			"Java",
-            "Maven"
-		],
-		"speakers": [
-			"ecabrerar"
-		]
-	}
-		
+    "id": 107,
+    "title": "Fallando con estilo: MicroProfile Fault Tolerance & Metric",
+    "abstract": "Lo que no se puede medir, no se puede mejorar.Aprende a utilizar las API de MicroProfile para darle super poderes a tu aplicación con tolerancia a fallos y metricas en tiempo real.",
+    "description": "Con las API de MicroProfile Fault Tolerance podemos implementar varias estrategias  para tener un manejo adecuado de errores utilizando unicamente algunas anotaciones.Además con MicroProfile Metrics podremos obtener algunas métricas de nuestra aplicación, la JVM  o incluso el servidor en donde se ejecuta y en conjunto con herramientas como Prometeus y Grafana poder observar y comparar esas métricas en tiempo real para tomar las desiciones correctas y aplicar las correcciones y mejoras en el momento preciso.",
+    "audience_level": "All",
+    "time": "09:00 AM",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "MicroProfile",
+      "JakartaEE",
+      "Java"
+    ],
+    "speakers": [
+      "jorge-cajas"
+    ]
+  },
+  "108": {
+    "id": 108,
+    "title": "Dependencias de software: prácticas recomendadas para la gestión de dependencias de proyectos Java",
+    "abstract": "En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
+    "description": "Una dependencia de software es una librería o un paquete que se reutiliza en un nuevo software. Mediante el uso de dependencias de software preconstruidas, los desarrolladores pueden entregar software más rápido y en ciclos de lanzamiento más cortos.Las dependencias de software han revolucionado el desarrollo de aplicaciones en las últimas décadas, pero también presentan riesgos que con frecuencia se pasan por alto.En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
+    "audience_level": "All",
+    "time": "1:35 PM",
+    "talk_format": "Talk (~30 minutes)",
+    "language": "es",
+    "tags": [
+      "Java",
+      "Maven"
+    ],
+    "speakers": [
+      "ecabrerar"
+    ]
+  },
+  "109": {
+    "id": 109,
+    "title": "Manteniendo el barco a flote! SOS Deuda Técnica",
+    "abstract": "La deuda técnica o la podredumbre del software es un concepto que sabemos que existe pero que ignorarlo y acumularlo es la receta para el desastre. Esta sesión cubrirá algunos conceptos técnicos y una guía práctica sobre cómo reducirlo, teniendo en cuenta cuestiones importantes como el presupuesto y los objetivos del proyecto.",
+    "description": "Se discutirán técnicas sobre cómo elegir indicadores relevantes, medir cargas de trabajo, estimar tiempos, priorizar puntos críticos y abordar la resolución de deuda técnica en proyectos pequeños y mediano.",
+    "audience_level": "All",
+    "time": "09:00 AM",
+    "talk_format": "Talk (~60 minutes)",
+    "language": "es",
+    "tags": [
+      "Java",
+      "Technical debt"
+    ],
+    "speakers": [
+      "frank_jcg"
+    ]
+  }
 }

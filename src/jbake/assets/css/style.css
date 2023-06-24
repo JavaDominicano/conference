@@ -4332,7 +4332,7 @@ label {
   background: #fafafa;
   padding: 30px;
   margin-top: 30px;
-  height: 130px;
+  min-height: 130px;
   line-height: 65px;
   text-align: center;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
