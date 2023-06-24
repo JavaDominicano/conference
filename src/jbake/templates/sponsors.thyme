@@ -5,50 +5,29 @@
 <body>
       <div th:fragment="sponsors" th:remove="tag">
 
-       <!-- Event Sponsors Start -->
-        <div id="sponsors" class="meeta-event-sponsors-2 section-padding" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')">
+   <!-- Event Sponsors Start -->
+        <div id="sponsors" class="meeta-event-sponsors-3 section-padding">
             <div class="container">
 
                 <!-- Section Title Start -->
-                <div class="meeta-section-title-2 text-center">
-                    <h2 class="main-title">Sponsors</h2>
-                    <p>Please contact us if you are interested in becoming a JConf Dominicana sponsor or supporter. <a href="mailto:info@jconfdominicana.org" target="_blank">Click here</a>
-                    </p>
+                <div class="meeta-section-title-2 section-title-3 text-center">
+                   <h2 class="main-title">Sponsors</h2>
+                   <p>Please contact us if you are interested in becoming a JConf Dominicana sponsor or supporter. <a href="mailto:info@jconfdominicana.org" target="_blank">Click here</a></p>
                 </div>
                 <!-- Section Title End -->
 
-                <!-- Sponsor Active Start -->
-                <div class="meeta-sponsor-active">
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="meeta-sponsor-logo">
-                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/sponsors-5.png'" src="assets/images/sponsors-5.png" alt="">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="meeta-sponsor-logo">
-                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/sponsors-6.png'" src="assets/images/sponsors-6.png" alt="">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="meeta-sponsor-logo">
-                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/sponsors-6.png'"  src="assets/images/sponsors-7.png" alt="">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="meeta-sponsor-logo">
-                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/sponsors-6.png'"  src="assets/images/sponsors-8.png" alt="">
-                                </div>
-                            </div>
-                        </div>
+                <!-- Sponsor Start -->
+                <div class="meeta-sponsor-wrap">
+                    <div class="row" id="sponsorsList">
+                        
                     </div>
                 </div>
-                <!-- Sponsor Active End -->
+                <!-- Sponsor End -->
 
             </div>
         </div>
         <!-- Event Sponsors End -->
+       <script type="module" src="js/sponsors.js"></script>
 
       </div>
 </body>

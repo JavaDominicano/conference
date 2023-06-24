@@ -250,5 +250,31 @@
 				"link": "https://www.linkedin.com/in/eudriscabrera"
 			}
 		]
+	},
+	"109": {
+		"id": "frank_jcg",
+		"name": "Francisco Contreras",
+		"company": "GInIEm S.A",
+		"companyLogo": "",
+		"country": "Nicaragua",
+		"countryFlag": "flag-icon-ni",
+		"photoUrl": "/archive/jconf2022/images/speakers/francisco-contreras.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "CTO",
+			"description": "CTO"
+		}],
+		"socials": [{
+			"icon": "twitter",
+			"name": "Twitter",
+			"link": "https://twitter.com/Frank_JCG"
+		},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com//in/fjcontrerasg/"
+			}]
 	}
 }
