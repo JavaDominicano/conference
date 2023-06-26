@@ -4356,7 +4356,7 @@ label {
   background: #ebebeb;
   width: 100%;
   margin: auto;
-  height: 1px;
+  height: 0px;
   position: absolute;
   left: 0;
   right: 0;
