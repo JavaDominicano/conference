@@ -4,52 +4,79 @@
 	<body>
 	<div th:fragment="supporters" th:remove="tag">
 
-		<!--==========================
-			Organizers Section
-		============================-->
-		<section id="organizers" class="section-with-bg wow fadeInUp">
-			<div class="container">
+	<!-- Event Supporters Start -->
+        <div class="meeta-event-sponsors-4 meeta-event-sponsors-5 section-padding" 
+		th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/meeta/bg/sponsor-5-bg.jpg)|" style="background-image: url(assets/images/bg/sponsor-5-bg.jpg);">
+            <div class="container">
 
-				<div class="section-header">
-					<h2>Supported By</h2>
-				</div>
+                <!-- Section Title Start -->
+                <div class="meeta-section-title section-title-4 text-center">
+                    <h2 class="main-title"><shape class="title-shape-1">Supported By</shape>
+                    </h2>
+                </div>
+                <!-- Section Title End -->
 
-				<div class="row">
-			 	 <div class="col-lg-4 col-md-6">
-			 		 <div class="organizer">
-			 			 <div class="organizer-img">
-			 				<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/pucmm-ect.png'" alt="Escuela de Computación y Telecomunicaciones" class="img-fluid">
-			 			 </div>
-			 			 <div class="social">
-			 				<a href="https://www.pucmm.edu.do/ingenierias" target="_blank"><i class="fa fa-link"></i></a>
-			 			 </div>
-			 		 </div>
-			 	 </div>
-			 	 <div class="col-lg-4 col-md-6">
-			 		 <div class="organizer">
-			 			<div class="organizer-img">
-			 				<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/cisc-logo.png'" title="Comité Estudiantes de Ingeniería en Sistemas y Computación" alt="Comité Estudiantes de Ingeniería en Sistemas y Computación" class="img-fluid">
-			 			</div>
-			 			 <div class="social">
-			 					 <a href="https://twitter.com/ComitesISC" target="_blank"><i class="fa fa-twitter"></i></a>
-			 					 <a href="https://www.instagram.com/ciscpucmm" target="_blank"><i class="fa fa-instagram"></i></a>
-			 			 </div>
-			 		 </div>
-			 	 </div>
-			 	 <div class="col-lg-4 col-md-6">
-			 		 <div class="organizer">
-			 			<div class="organizer-img">
-			 				<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/jugrd-logo.png'" title="Java Users Group Dominican Republic" alt="Java Users Group Dominican Republic" class="img-fluid">
-			 			</div>
-			 			<div class="social">
-			 					 <a href="https://twitter.com/JavaDominicano" target="_blank"><i class="fa fa-twitter"></i></a>
-			 					 <a href="https://github.com/JavaDominicano" target="_blank"><i class="fa fa-github"></i></a>
-			 			</div>
-			 		 </div>
-			 	 </div>
-			 </div>
-			</div>
-		</section>
+                <!-- Supporter Start -->
+                <div class="meeta-sponsor-wrap">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Supporter Box Start -->
+                            <div class="meeta-sponsor-item-box sponsor-box-1">
+
+                                <div class="meeta-sponsor-logo sponsor-logo-1">
+                                    <a href="https://www.pucmm.edu.do/ingenierias/ciencias-computacion" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/pucmm-ect.png'" alt="Escuela de Computación y Telecomunicaciones" title="Escuela de Computación y Telecomunicaciones" src="assets/images/sponsors-5.png"></a>
+                                </div>
+                                <div class="meeta-sponsor-logo sponsor-logo-2">                                    
+                                </div>
+
+                            </div>
+                            <!-- Supporter Box End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Supporter Box Start -->
+                            <div class="meeta-sponsor-item-box sponsor-box-2">
+
+                                <div class="meeta-sponsor-logo sponsor-logo-3">
+                                    <a href="https://www.instagram.com/ciccpucmm/" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/cicc-logo.png'" title="Comité de Estudiantes de Ingeniería en Ciencias de la Computación" alt="Comité de Estudiantes de Ingeniería en Ciencias de la Computación" src="assets/images/sponsors-9.png"></a>
+                                </div>   
+                                 <div class="meeta-sponsor-logo sponsor-logo-4">
+                                </div>                       
+
+                            </div>
+                            <!-- Supporter Box End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Sponsor Box Start -->
+                            <div class="meeta-sponsor-item-box sponsor-box-3">
+
+                                <div class="meeta-sponsor-logo sponsor-logo-5">
+                                    <a href="https://twitter.com/JavaDominicano" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/jugrd-logo.png'" title="Dominican Republic Java Users Group" alt="Dominican Republic Java Users Group" src="assets/images/sponsors-7.png"></a>
+                                </div> 
+                                 <div class="meeta-sponsor-logo sponsor-logo-6">
+                                </div>                              
+
+                            </div>
+                            <!-- Supporter Box End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Supporter Box Start -->
+                            <div class="meeta-sponsor-item-box sponsor-box-4">
+                                <div class="meeta-sponsor-logo sponsor-logo-7">
+                                    <a href="https://www.jetbrains.com" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/jetbrains.png'" title="Jetbrains" alt="Jetbrains" src="assets/images/sponsors-8.png"></a>
+                                </div>                          
+
+                            </div>
+                            <!-- Supporter Box End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Supporter End -->
+
+            </div>
+        </div>
+        <!-- Event Supporters End -->
+
+
   </div>
   </body>
   </html>
