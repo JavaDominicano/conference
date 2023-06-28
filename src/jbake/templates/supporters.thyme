@@ -68,6 +68,29 @@
                             </div>
                             <!-- Supporter Box End -->
                         </div>
+                         <!-- Section Title Start -->
+                        <div class="meeta-section-title section-title-4 text-center">
+                            <h2 class="main-title">Media<shape class="title-shape-1"> Partners</shape>
+                            </h2>
+                        </div>
+                <!-- Section Title End -->   
+                    <div class="row">
+                     <div class="col col-sm-12">
+                            <!-- Supporter Box Start -->
+                            <div class="meeta-sponsor-item-box sponsor-box-1">
+
+                                <div class="meeta-sponsor-logo sponsor-logo-1">
+                                    <a href="https://www.linkedin.com/in/perla-garc%C3%ADa-s%C3%A1nchez-3312b7277/" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/sponsors/perlagarcia-design.jpg'" alt="Perla García Sánchez - Diseñadora Gráfica" title="Perla García Sánchez - Diseñadora Gráfica" src="assets/images/sponsors-5.png"></a>
+                                </div>
+                                <div class="meeta-sponsor-logo sponsor-logo-2">                                    
+                                </div>
+
+                            </div>
+                            <!-- Supporter Box End -->
+                        </div>
+                    
+                    
+                    </div> 
                     </div>
                 </div>
                 <!-- Supporter End -->
