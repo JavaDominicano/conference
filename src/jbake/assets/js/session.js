@@ -19,7 +19,7 @@ fetch(fetchUrl)
 
       sessionList.sort(function(a, b){return a.id-b.id});
 
-      let sessions = document.getElementById('sessions');
+      let sessions = document.getElementById('sessionsList');
 
       sessionList.forEach((session) => {
            let title = session.title;
@@ -46,7 +46,7 @@ function createSessionCard(id, title,abstract, speaker, tags, language,audienceL
 
   var speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
 
-    var sessionHtml = "<div class=\"row schedule-item\">" +
+   /* var sessionHtml = "<div class=\"row schedule-item\">" +
         "<div class=\"col-md-2\"><time>"+time+"</time></div>" +
         "<div class=\"col-md-10\">" +
         "<div class=\"speaker\">" +
@@ -70,7 +70,38 @@ function createSessionCard(id, title,abstract, speaker, tags, language,audienceL
         "<p><strong>Audience Level:</strong>"+audienceLevel +"</p>"+
         "<p><strong>Talk Format:</strong>"+talkFormat +"</p>"+
         "</div>" +
-        "</div>";
+        "</div>";*/
+
+
+     var sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
+     "<h3 class=\"meeta-event-accordion-toggle\">"+
+     "<div class=\"image\">"+
+     "<img src=\"" +speaker.photoUrl +"\" alt=\""+speaker.name+"\">"+
+     "</div>"+
+     "<div class=\"event-title\">"+
+     "<span class=\"time\">"+time+"</span>"+
+     "<span class=\"title\">"+ title +"<a href=\"" + speakerUrlDetail + "\"> "+speaker.name+"</a></span>"+
+     "</div>"+
+     " </h3>"+
+     "<div class=\"meeta-event-accordion-body open\">"+
+     "<p>"+abstract+"</p>";
+
+     let colorCount = 1;
+
+     for (let i in tags) {
+         sessionHtml += "<span class=\"category color-" + colorCount + "\">" + tags[i] + "</span>";
+         colorCount++;
+     }
+
+    var lang = language==='es'? "Spanish" : "English";
+
+     sessionHtml +="<p><strong>Language:</strong>"+lang +"</p>"+
+     "<p><strong>Audience Level:</strong>"+audienceLevel +"</p>"+
+     "<p><strong>Talk Format:</strong>"+talkFormat +"</p>"+
+
+      "</div>"+
+      "</li>";
+
 
         return sessionHtml;
 }

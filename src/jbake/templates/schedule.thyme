@@ -3,79 +3,87 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 	<body>
 	<div th:fragment="schedule"  th:remove="tag">
-		<!--==========================
-		  Schedule Section
-		============================-->
-		<section id="schedule" class="section-with-bg">
-		  <div class="container wow fadeInUp">
-		    <div class="section-header">
-		      <h2>Sessions</h2>
-		    </div>
-		    <div class="row justify-content-center">
-		      <!-- General Agenda -->
-		      <div class="col-lg-9">
+       <!-- Event Schedule Start -->
+        <div class="meeta-event-schedule meeta-event-schedule-2 section-padding">
+            <div class="container">
 
-		        <div class="row schedule-item">
-		          <div class="col-md-12">
-		            <h4>Warm-up | <a href="https://youtu.be/kKgRFpbBFcc" class="btn btn-primary btn-wide" target="_blank" title="Watch on Youtube"><i class="fa fa-play"></i></a></h4>
-		            <p>Welcome, committee presentation, event format</p>
-		          </div>
-		        </div>
+                <!-- Section Title Start -->
+                <div class="meeta-section-title-2 text-center">
+                    <h4 class="sub-title">Sessions</h4>
+                    <h2 class="main-title">Follow event schedule</h2>
+                </div>
+                <!-- Section Title End -->
 
-		        <div class="row schedule-item">
+                <div class="row gy-5 justify-content-between">
 
-		          <div class="col-md-12">
-		            <h4>Keynote - Hillmer Chona | <a href="https://youtu.be/PYVi3-QPshU" class="btn btn-primary btn-wide" target="_blank" title="Watch on Youtube"><i class="fa fa-play"></i></a></h4>
-		          </div>
-		        </div>
+                    <div class="col-lg-12">
 
+                        <!-- Event Schedule Tabs Start -->
+                        <div class="meeta-event-schedule-tabs">
 
-		        <div class="row schedule-item">
-		           <div class="col-md-12">
-		               <h4>Clean Threading with Kotlin Coroutines - <span>Eury Perez Beltre</span> | <a href="https://youtu.be/J-kFa5BrXOA" class="btn btn-primary btn-wide" target="_blank" title="Watch on Youtube"><i class="fa fa-play"></i></a></h4>
-		             </div>
-		           </div>
+                            <!-- Event Schedule Tabs Menu Start -->
+                            <ul class="meeta-event-schedule-tabs-menu">
+                                <li data-tab-target="#tab1" class="active">
+                                    <div class="meeta-event-schedule-time">
+                                        <h4 class="meeta-event-schedule-day">Day 1</h4>
+                                        <p>July 21, 2023</p>
+                                    </div>
+                                </li>
+                                <li data-tab-target="#tab2" class="tab">
+                                    <div class="meeta-event-schedule-time">
+                                        <h4 class="meeta-event-schedule-day">Day 2</h4>
+                                        <p>July 22, 2023</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Event Schedule Tabs Menu End -->
 
-		           <div class="row schedule-item">
-		              <div class="col-md-12">
-		                  <h4>Introducción a la máquina virtual políglota GraalVM - <span>Pedro Sanders</span> | <a href="https://youtu.be/O_PGV7KlhnI" class="btn btn-primary btn-wide" target="_blank" title="Watch on Youtube"><i class="fa fa-play"></i></a></h4>
-		                </div>
-		              </div>
+                            <!-- Event Schedule Tabs Content Start -->
+                            <div class="meeta-event-schedule-tab-content">
+                                <div id="tab1" class="meeta-event-schedule-tab-pane active">
 
-		              <div class="row schedule-item">
-		                   <div class="col-md-12">
-		                     <h4>Mutiny: la programación reactiva más sofisticada en Quarkus - <span>Juan Diego López</span> | <a href="https://youtu.be/3DsOdjpcKd0" class="btn btn-primary btn-wide" target="_blank" title="Watch on Youtube"><i class="fa fa-play"></i></a></h4>
-		                   </div>
-		                 </div>
+                                    <!-- Event Accordion Start -->
+                                    <ul class="meeta-event-accordion">
+                                        
+                                        <li class="meeta-event-accordion-item">
+                                            <h3 class="meeta-event-accordion-toggle">
+                                                <div class="image">
+                                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/ab-icon-6.png'" alt="">
+                                                </div>
+                                                <div class="event-title">
+                                                    <span class="time">01 PM - 05 PM</span>
+                                                    <span class="title">TBD</span>
+                                                </div>
+                                            </h3>
+                                            <div class="meeta-event-accordion-body">
+                                                <p>To be announced</p>
+                                            </div>
+                                        </li>
 
-		                 <div class="row schedule-item">
-		                      <div class="col-md-12">
-		                        <h4>Our journey to adopt Kubernetes to create an App like Tinder from start to finish - <span>Clivens Petit</span> | <a href="https://youtu.be/_WuJnjEtFcE" class="btn btn-primary btn-wide" target="_blank" title="Watch on Youtube"><i class="fa fa-play"></i></a></h4>
-		                      </div>
-		                    </div>
+                                    </ul>
+                                    <!-- Event Accordion End -->
 
-		                    <div class="row schedule-item">
-		                         <div class="col-md-12">
-		                           <h4>Implementando servicios gRPC en Java. <span>Carlos Camacho</span> | <a href="https://youtu.be/HNGnQ-Ooox4" class="btn btn-primary btn-wide" target="_blank" title="Watch on Youtube"><i class="fa fa-play"></i></a></h4>
-		                         </div>
-		                       </div>
+                                </div>
+                                <div id="tab2" class="meeta-event-schedule-tab-pane">
 
-		                       <div class="row schedule-item">
-		                           <div class="col-md-12">
-		                              <h4>Creando un Web API desde la idea hasta el despliegue de forma ágil - <span>Eudris Cabrera</span> | <a href="https://youtu.be/GrQ62z-SA0M" class="btn btn-primary btn-wide" target="_blank" title="Watch on Youtube"><i class="fa fa-play"></i></a></h4>
-		                            </div>
-		                          </div>
+                                    <!-- Event Accordion Start -->
+                                    <ul class="meeta-event-accordion" id="sessionsList"></ul>
+                                    <!-- Event Accordion End -->
 
-		        <div class="row schedule-item">
-		          <div class="col-md-12">
-		            <h4>Community Panel | <a href="https://youtu.be/eBU7nUWMUL8" class="btn btn-primary btn-wide" target="_blank" title="Watch on Youtube"><i class="fa fa-play"></i></a></h4>
-		            <p>Micro frameworks en Java: Casos de Uso. <span>Carlos Camacho, Hector Ventura, Eliezer Herrera</span></p>
-		          </div>
-		        </div>
+                                </div>
+                               
+                             </div>
+                            <!-- Event Schedule Tabs Content End -->
 
-		      </div>
-		      <!-- End General Agenda -->
-				</div>
+                        </div>
+                        <!-- Event Schedule Tabs End -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Event Schedule End -->
+ <script type="module" src="js/session.js"></script>
   </div>
   </body>
   </html>
