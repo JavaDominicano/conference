@@ -48,7 +48,7 @@
                                         <li class="meeta-event-accordion-item">
                                             <h3 class="meeta-event-accordion-toggle">
                                                 <div class="image">
-                                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/ab-icon-6.png'" alt="">
+                                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/marketing.png'" alt="">
                                                 </div>
                                                 <div class="event-title">
                                                     <span class="time">01 PM - 05 PM</span>
