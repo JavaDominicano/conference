@@ -4731,6 +4731,7 @@ label {
 
 .meeta-event-schedule-2 .meeta-event-schedule-tabs .meeta-event-schedule-tab-content .meeta-event-schedule-tab-pane .meeta-event-accordion .meeta-event-accordion-item .meeta-event-accordion-toggle .image {
   margin-right: 40px;
+  max-width: 88px;
 }
 
 .meeta-event-schedule-2 .meeta-event-schedule-tabs .meeta-event-schedule-tab-content .meeta-event-schedule-tab-pane .meeta-event-accordion .meeta-event-accordion-item .meeta-event-accordion-toggle .image img {
