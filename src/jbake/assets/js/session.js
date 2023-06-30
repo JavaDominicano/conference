@@ -19,58 +19,57 @@ fetch(fetchUrl)
 
       sessionList.sort(function(a, b){return a.id-b.id});
 
-      let sessions = document.getElementById('sessions');
+      let sessions = document.getElementById('sessionsList');
 
       sessionList.forEach((session) => {
            let title = session.title;
-           let id = session.id;
            let abstract = session.abstract;
            let speakerId = session.speakers[0];
-           let language = session.language;
-           let tags = session.tags;
-           let audienceLevel  = session.audience_level;
-           let talkFormat = session.talk_format;
+
            let time = session.time;
 
          let speakerPromise = getSpeakerById(getUsefulContents("lang", "../json/speakers/"+speakerId));
 
            speakerPromise.then(function(speaker){
-              sessions.innerHTML += createSessionCard(id,title,abstract,speaker, tags,language,audienceLevel,talkFormat, time);
+              sessions.innerHTML += createSessionCard(title,abstract,speaker, time);
            });
          });
 
 
 });
 
-function createSessionCard(id, title,abstract, speaker, tags, language,audienceLevel, talkFormat, time) {
+$(document).on('click', '#sessionsList li.meeta-event-accordion-item > .meeta-event-accordion-toggle', function(){
+  if ($(this).hasClass("active")) {
+    $(this).removeClass("active");
+    $(this).siblings(".meeta-event-accordion-body").slideUp(200);
+} else {           
+    $(".meeta-event-accordion-item > .meeta-event-accordion-toggle").removeClass("active");
+    $(this).addClass("active");
+    $(".meeta-event-accordion-body").slideUp(200);
+    $(this).siblings(".meeta-event-accordion-body").slideDown(200);
+}
+});
+
+
+function createSessionCard(title,abstract, speaker,time) {
 
   var speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
 
-    var sessionHtml = "<div class=\"row schedule-item\">" +
-        "<div class=\"col-md-2\"><time>"+time+"</time></div>" +
-        "<div class=\"col-md-10\">" +
-        "<div class=\"speaker\">" +
-        "  <img src=\"" +speaker.photoUrl +"\" alt=\""+speaker.name+"\">"+
-        "</div>" +
-        "<h4>"+title +"<span><a href=\"" + speakerUrlDetail + "\"> "+speaker.name+"</a></span></h4>"+
-        "<p>"+abstract+"</p>"+
-        "<p><strong>Tags:</strong>";
+     var sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
+     "<h3 class=\"meeta-event-accordion-toggle\">"+
+     "<div class=\"image\">"+
+     "<a href=\"" + speakerUrlDetail + "\"><img src=\"" +speaker.photoUrl +"\" alt=\""+speaker.name+"\"></a>"+
+     "</div>"+
+     "<div class=\"event-title\">"+
+     "<span class=\"time\">"+time+"</span>"+
+     "<span class=\"title\">"+ title +"</span>"+
+     "</div>"+
+     " </h3>"+
+     "<div class=\"meeta-event-accordion-body\">"+
+     "<p>"+abstract+"</p>"+
+      "</div>"+
+      "</li>";
 
-        var tagsHtml="";
-
-        for(let i in tags){
-             tagsHtml += tags[i]+",";
-        }
-
-        var tagsFormatted = tagsHtml.substring(0, tagsHtml.length-1);
-        var lang = language==='es'? "Spanish" : "English";
-
-        sessionHtml += tagsFormatted+ "</p>"+
-        "<p><strong>Language:</strong>"+lang +"</p>"+
-        "<p><strong>Audience Level:</strong>"+audienceLevel +"</p>"+
-        "<p><strong>Talk Format:</strong>"+talkFormat +"</p>"+
-        "</div>" +
-        "</div>";
 
         return sessionHtml;
 }
@@ -84,4 +83,5 @@ function getSpeakerById(fetchUrlSpeaker){
 
           return response.json();
       });
+      
 }
