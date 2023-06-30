@@ -13,8 +13,8 @@ $(function() {
     /*--    
         Tabs
     -----------------------------------*/  
-    const tabs = document.querySelectorAll('[data-tab-target]');
-    const tabContents = document.querySelectorAll('.meeta-event-schedule-tab-pane');
+    const tabs = document.querySelectorAll('[data-tab-target]')
+    const tabContents = document.querySelectorAll('.meeta-event-schedule-tab-pane')
 
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
@@ -27,8 +27,8 @@ $(function() {
             })
             tab.classList.add('active')
             target.classList.add('active')
-        });
-    });
+        })
+    })
 
     /*--
 		Header Sticky
@@ -226,6 +226,37 @@ $(function() {
         setInterval(function () {
           makeTimer($endDate, $this, $format);
         }, 0);
+    });
+
+
+    $('.meeta-event-accordion-title').click(function(e) {
+            e.preventDefault();
+        
+        let $this = $(this);
+        
+        if ($this.next().hasClass('show')) {
+            $this.next().removeClass('show');
+            $this.next().slideUp(350);
+        } else {
+            $this.parent().parent().find('meeta-event-accordion-body').removeClass('show');
+            $this.parent().parent().find('meeta-event-accordion-body').slideUp(350);
+            $this.next().toggleClass('show');
+            $this.next().slideToggle(350);
+        }
+    });
+
+
+   
+    $(".meeta-event-accordion-item > .meeta-event-accordion-toggle").on("click", function() {
+        if ($(this).hasClass("active")) {
+            $(this).removeClass("active");
+            $(this).siblings(".meeta-event-accordion-body").slideUp(200);
+        } else {           
+            $(".meeta-event-accordion-item > .meeta-event-accordion-toggle").removeClass("active");
+            $(this).addClass("active");
+            $(".meeta-event-accordion-body").slideUp(200);
+            $(this).siblings(".meeta-event-accordion-body").slideDown(200);
+        }
     });
 
 
