@@ -5,7 +5,7 @@
     "abstract": "Most of us have heard the seven most expensive words in business: 'We've always done it this way.' We can see the resistance to change, and you can be certain that the solution you offer is necessary, but how can we become change agents using technology? Is it possible to achieve it?",
     "description": "Welcome to the end of the 'We've always done it this way' era. Lessons learned in software implementation... Today, I want to talk to you about change management in software implementations. In recent years, we have witnessed an explosion of technologies that have transformed the way we work and collaborate. However, implementing new software is not just a technical matter; it also involves cultural and organizational change that can be challenging to handle.In this talk, I will provide you with the keys to becoming an effective change agent using technology as a bridge.You will discover why change management is crucial in software implementations, what skills and tools you need to lead successful change, and how you can positively influence change from any position.",
     "audience_level": "Intermediate",
-    "time": "09:00 AM",
+    "time": "TBD",
     "language": "es",
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
@@ -24,7 +24,7 @@
     "abstract": "Deploy web applications developed with Vaadin Flow securely and scalably using Docker and Traefik technologies. Combine these tools to simplify the deployment process, ensure security, and guarantee availability in high-demand environments.",
     "description": "Dive into the fascinating world of web application deployment with Vaadin Flow, Docker, and Traefik. In this talk, we will guide you through an exciting journey where you will discover how to ensure seamless security and scalability for your web applications. Learn how to make the most of the latest technologies while simplifying the deployment process. We will explore how the combination of Vaadin Flow, Docker, and Traefik will enable you to achieve higher levels of security and ensure a smooth experience even in the most demanding environments. Don't miss this opportunity to learn the secrets behind the success of secure and scalable web application deployment!",
     "audience_level": "Intermediate",
-    "time": "09:00 AM",
+    "time": "TBD",
     "language": "es",
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
@@ -45,7 +45,7 @@
     "abstract": "Why do we see a rise in the so-called DevRels? What are they? What do they do? In this talk, we will have a conversation with Yuri, a Developer Relations Advocate (DevRel) at Supabase, and learn about the importance of this role in SaaS companies and any organization whose customer persona is developers.",
     "description": "What they are, the different types, and how DevRels help increase sales and product awareness in the community. These are some of the topics Yuri will cover in his talk on The Rise of DevRels and Their Importance in Your Organization. You will learn about how this role is performed not only externally facing the community and users but also internally within the company, how to segment your audience for product marketing and community purposes, the importance of content creation for your goals, and much more.",
     "audience_level": "All",
-    "time": "09:00 AM",
+    "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
@@ -62,7 +62,7 @@
   "104": {
     "id": 104,
     "title": "Unsupervised Learning con Apache Spark Java y MLlib",
-    "time": "09:00 AM",
+    "time": "TBD",
     "abstract": "Do you want to see what no one else sees in the data? Do you want to find hidden behaviors in a certain problem you handle with data? Do you want to simplify your dataset to better use it in other models? This talk is for you. We will learn how Unsupervised Learning helps us in these tasks.",
     "description": "In this talk we will learn a bit about Unsupervised Learning which is a branch of Machine Learning which in turn is a branch of Artificial Intelligence (AI). We will use Apache Spark, a unified data analytics engine which we will use with Java and from which we will use the MLlib library to create and train Machine Learning models based on statistics, specifically an unsupervised learning model.",
     "audience_level": "All",
@@ -80,7 +80,7 @@
     "abstract": "Sounds weird, even crazy. But code and software are very different things. Code is a means to an end. Both software and code change often. But outside of your company's Engineering department, no one cares about your code. Focus on running software instead.",
     "description": "I will talk about the difference between code and software, and why it's so important to focus on the latter. I will use real-life examples to illustrate when to focus on code vs when to focus on software, such as prioritizing optimizations, improving performance, fixing bugs, etc.",
     "audience_level": "All",
-    "time": "09:00 AM",
+    "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
@@ -98,7 +98,7 @@
     "abstract": "Join me in this talk where I will showcase how you can rely on Keycloack (open-source identity management solution) and the Eclipse MicroProfile API to simplify the security aspects of your applications by doing a live demonstration of securing enterprise Java Microservices under 40 minutes!",
     "description": "Implementing the correct security patterns is a common challenge that most application developers and consultants can get wrong in even the most common of scenarios. Reinventing the wheel is a common pattern that DevOps engineers do when integrating security solutions inside their applications (authentication, password validation, identity management, correct storage of user data, etc.). Keycloak is an open-source identity management solution that focuses on offloading this burden from DevOps engineers, allowing them to focus on the business aspects of their applications and simplifying their solutions in the long run.\r\n\r\nThis talk will focus on the benefits of using such a service with an enterprise application, with a live demonstration of a small application that uses the Eclipse MicroProfile APIs to correctly integrate it with Keycloak by way of the OpenIDConnect standards.",
     "audience_level": "All",
-    "time": "09:00 AM",
+    "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
@@ -117,7 +117,7 @@
     "abstract": "What can't be measured, can't be improved. Learn how to use MicroProfile APIs to super-power your application with fault tolerance and real-time metrics.",
     "description": "With MicroProfile Fault Tolerance APIs we can implement several strategies to have a proper error handling using only some annotations, and with MicroProfile Metrics we can obtain some metrics of our application, the JVM or even the server where it runs and together with tools like Prometeus and Grafana we can observe and compare those metrics in real time to make the right decisions and apply the corrections and improvements at the right time.",
     "audience_level": "All",
-    "time": "09:00 AM",
+    "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
@@ -135,7 +135,7 @@
     "abstract": "In this session we will explore how outdated dependencies can affect an application, the reasons that force dependency management, the challenges we face and some recommendations to keep your dependencies up to date.",
     "description": "A software dependency is a library or package that is reused in new software. By using pre-built software dependencies, developers can deliver software faster and in shorter release cycles.Software dependencies have revolutionized application development over the past few decades, but they also present risks that are often overlooked.In this session we will explore how outdated dependencies can affect an application, the reasons that mandate dependency management, the challenges and pitfalls we face, and some recommendations for keeping your dependencies up to date.",
     "audience_level": "All",
-    "time": "09:00 AM",
+    "time": "TBD",
     "talk_format": "Talk (~30 minutes)",
     "language": "es",
     "tags": [
@@ -152,7 +152,7 @@
     "abstract": "Technical Debt or Software rot is a concept that we know exist but tent to ignore, piling it up, is the recipe for disaster. This session will cover some technical concepts and a practical guide on how to reduce it while keeping in mind important matters like your project budget and project goals.",
     "description": "Will be discussing techniques on how to choose relevant indicators, measure workloads, estimate times, prioritize hot spots and approach the resolution of technical debt in small/medium projects",
     "audience_level": "All",
-    "time": "09:00 AM",
+    "time": "TBD",
     "talk_format": "Talk (~60 minutes)",
     "language": "es",
     "tags": [
