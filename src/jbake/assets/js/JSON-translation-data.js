@@ -697,5 +697,15 @@ var linguJSON = {
       "target_es":"Adquiera sus Entradas Ahora"
     },
     
+    {
+      "source":"July 22, 2023",
+      "target_es":"22 de Julio de 2023"
+    },
+
+    {
+      "source":"July 21, 2023",
+      "target_es":"21 de Julio de 2023"
+    },
+
   ]
 }
