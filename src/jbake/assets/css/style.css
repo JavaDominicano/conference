@@ -4338,6 +4338,10 @@ label {
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+.meeta-event-sponsors-3 .meeta-sponsor-wrap .meeta-sponsor-logo a img {
+  height: 5rem;
+}
+
 .meeta-event-sponsors-3 .meeta-sponsor-wrap .meeta-sponsor-logo:hover {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
