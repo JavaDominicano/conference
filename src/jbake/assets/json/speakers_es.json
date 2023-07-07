@@ -155,126 +155,128 @@
 		]
 	},
 	"106": {
-		"id": "fabio-turizo",
-		"name": "Fabio Turizo",
-		"company": "Payara Services Ltd.",
-		"companyLogo": "",
-		"country": "Colombia",
-		"countryFlag": "flag-icon-co",
-		"photoUrl": "/img/speakers/fabio-turizo.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Ingeniero de Software",
-				"description": "Ingeniero de Software"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/fabturizo"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/fturizo"
-			}
-		]
-	},
-	"107": {
-		"id": "jorge-cajas",
-		"name": "Jorge Cajas Mota",
-		"company": "MangoChango",
-		"companyLogo": "",
-		"country": "Guatemala",
-		"countryFlag": "flag-icon-gt",
-		"photoUrl": "/img/speakers/jorge-cajas.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Ingeniero de Software",
-				"description": "Ingeniero de Software"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/cajasmota"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/cajasmota"
-			}
-		]
-	},
-	"108": {
-		"id": "ecabrerar",
-		"name": "Eudris Cabrera",
-		"company": "Ministerio de Hacienda",
-		"companyLogo": "",
-		"country": "República Dominicana",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/archive/jconf2022/images/speakers/ecabrerar.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Desarrollador Informático",
-			"description": "Desarrollador Informático"
-		}],
-		"socials": [{
-			"icon": "twitter",
-			"name": "Twitter",
-			"link": "https://twitter.com/eudriscabrera"
+			"id": "juandiegolopezve",
+			"name": "Juan Diego López",
+			"company": "Qik Banco Digital",
+			"companyLogo": "",
+			"country": "República Dominicana",
+			"countryFlag": "flag-icon-do",
+			"photoUrl": "/img/speakers/juandiegolopezve.jpg",
+			"shortBio": "",
+			"bio": "",
+			"tags": [],
+			"badges": [
+				{
+					"name": "Desarrollador de Software Full Stack",
+					"description": "Desarrollador de Software Full Stack"
+				}
+			],
+			"socials": [
+				{
+					"icon": "twitter",
+					"name": "Twitter",
+					"link": "https://twitter.com/_juandiii"
+				}
+			]
 		},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "https://eudriscabrera.com"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/ecabrerar"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/eudriscabrera"
-			}
-		]
-	},
-	"109": {
-		"id": "frank_jcg",
-		"name": "Francisco Contreras",
-		"company": "GInIEm S.A",
-		"companyLogo": "",
-		"country": "Nicaragua",
-		"countryFlag": "flag-icon-ni",
-		"photoUrl": "/archive/jconf2022/images/speakers/francisco-contreras.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "CTO",
-			"description": "CTO"
-		}],
-		"socials": [{
-			"icon": "twitter",
-			"name": "Twitter",
-			"link": "https://twitter.com/Frank_JCG"
+		"107": {
+			"id": "jorge-cajas",
+			"name": "Jorge Cajas Mota",
+			"company": "MangoChango",
+			"companyLogo": "",
+			"country": "Guatemala",
+			"countryFlag": "flag-icon-gt",
+			"photoUrl": "/img/speakers/jorge-cajas.jpg",
+			"shortBio": "",
+			"bio": "",
+			"tags": [],
+			"badges": [
+				{
+					"name": "Ingeniero de Software",
+					"description": "Ingeniero de Software"
+				}
+			],
+			"socials": [
+				{
+					"icon": "twitter",
+					"name": "Twitter",
+					"link": "https://twitter.com/cajasmota"
+				},
+				{
+					"icon": "linkedin",
+					"name": "Linkedin",
+					"link": "https://www.linkedin.com/in/cajasmota"
+				}
+			]
 		},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com//in/fjcontrerasg/"
-			}]
+		"108": {
+			"id": "ecabrerar",
+			"name": "Eudris Cabrera",
+			"company": "Ministerio de Hacienda",
+			"companyLogo": "",
+			"country": "República Dominicana",
+			"countryFlag": "flag-icon-do",
+			"photoUrl": "/archive/jconf2022/images/speakers/ecabrerar.jpg",
+			"shortBio": "",
+			"bio": "",
+			"tags": [],
+			"badges": [
+				{
+					"name": "Desarrollador Informático",
+					"description": "Desarrollador Informático"
+				}
+			],
+			"socials": [
+				{
+					"icon": "twitter",
+					"name": "Twitter",
+					"link": "https://twitter.com/eudriscabrera"
+				},
+				{
+					"icon": "link",
+					"name": "link",
+					"link": "https://eudriscabrera.com"
+				},
+				{
+					"icon": "github",
+					"name": "Github",
+					"link": "https://github.com/ecabrerar"
+				},
+				{
+					"icon": "linkedin",
+					"name": "Linkedin",
+					"link": "https://www.linkedin.com/in/eudriscabrera"
+				}
+			]
+		},
+		"109": {
+			"id": "frank_jcg",
+			"name": "Francisco Contreras",
+			"company": "GInIEm S.A",
+			"companyLogo": "",
+			"country": "Nicaragua",
+			"countryFlag": "flag-icon-ni",
+			"photoUrl": "/archive/jconf2022/images/speakers/francisco-contreras.jpg",
+			"shortBio": "",
+			"bio": "",
+			"tags": [],
+			"badges": [
+				{
+					"name": "CTO",
+					"description": "CTO"
+				}
+			],
+			"socials": [
+				{
+					"icon": "twitter",
+					"name": "Twitter",
+					"link": "https://twitter.com/Frank_JCG"
+				},
+				{
+					"icon": "linkedin",
+					"name": "Linkedin",
+					"link": "https://www.linkedin.com//in/fjcontrerasg/"
+				}
+			]
+		}
 	}
-}

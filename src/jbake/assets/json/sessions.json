@@ -94,21 +94,23 @@
   },
   "106": {
     "id": 106,
-    "title": "Securing Microservices under 40 minutes with MicroProfile \u0026 Keycloak!",
-    "abstract": "Join me in this talk where I will showcase how you can rely on Keycloack (open-source identity management solution) and the Eclipse MicroProfile API to simplify the security aspects of your applications by doing a live demonstration of securing enterprise Java Microservices under 40 minutes!",
-    "description": "Implementing the correct security patterns is a common challenge that most application developers and consultants can get wrong in even the most common of scenarios. Reinventing the wheel is a common pattern that DevOps engineers do when integrating security solutions inside their applications (authentication, password validation, identity management, correct storage of user data, etc.). Keycloak is an open-source identity management solution that focuses on offloading this burden from DevOps engineers, allowing them to focus on the business aspects of their applications and simplifying their solutions in the long run.\r\n\r\nThis talk will focus on the benefits of using such a service with an enterprise application, with a live demonstration of a small application that uses the Eclipse MicroProfile APIs to correctly integrate it with Keycloak by way of the OpenIDConnect standards.",
+    "title": "Flyway Migration with Quarkus",
+    "abstract": "Hate manually executing SQL files on servers? Flyway with Quarkus simplifies your life by avoiding direct server login and executing SQL files in production. Automate database migration and focus on what's important.",
+    "description": "Flyway with Quarkus is a powerful combination that simplifies the management and migration of databases in Java applications. Flyway is a database migration tool that allows to manage in an orderly and automated way the changes in the database structure throughout the lifecycle of an application. Quarkus, on the other hand, is a Java development framework designed for cloud-native applications. By using Flyway with Quarkus, developers can easily integrate database migration functionality into their applications without having to worry about manually executing SQL scripts or managing changes in production environments. Flyway takes care of applying migrations in an automated manner, maintaining precise control over the database structure. With this combination, developers can guarantee efficient database management, ensuring that changes are applied consistently across different environments. Flyway with Quarkus provides a reliable and robust solution to simplify database migration and maintain the integrity of Java applications.",
     "audience_level": "All",
     "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
-      "openid",
-      "jakarta ee",
-      "microprofile",
-      "keycloack"
+      "Jakarta EE",
+      "Java",
+      "JVM",
+      "Microservices",
+      "Cloud Computing",
+      "Software Development"
     ],
     "speakers": [
-      "fabio-turizo"
+      "juandiegolopezve"
     ]
   },
   "107": {

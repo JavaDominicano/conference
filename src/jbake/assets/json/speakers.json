@@ -155,35 +155,31 @@
     ]
   },
   "106": {
-    "id": "fabio-turizo",
-    "name": "Fabio Turizo",
-    "company": "Payara Services Ltd.",
-    "companyLogo": "",
-    "country": "Colombia",
-    "countryFlag": "flag-icon-co",
-    "photoUrl": "/img/speakers/fabio-turizo.jpg",
-    "shortBio": "",
-    "bio": "",
-    "tags": [],
-    "badges": [
-      {
-        "name": "Software Engineer",
-        "description": "Software Engineer"
+		"id": "juandiegolopezve",
+		"name": "Juan Diego López",
+		"company": "Qik Banco Digital",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		 "photoUrl": "/img/speakers/juandiegolopezve.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Full Stack Software Developer",
+				"description": "Full Stack Software Developer"
+			}
+		],
+		"socials": [
+			{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/_juandiii"
       }
-    ],
-    "socials": [
-      {
-        "icon": "twitter",
-        "name": "Twitter",
-        "link": "https://twitter.com/fabturizo"
-      },
-      {
-        "icon": "linkedin",
-        "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/fturizo"
-      }
-    ]
-  },
+
+		]
+	},
   "107": {
     "id": "jorge-cajas",
     "name": "Jorge Cajas Mota",
