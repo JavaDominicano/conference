@@ -1,0 +1,17 @@
+{
+   "id": "juandiegolopezve",
+    "name": "Juan Diego López",
+    "photoUrl": "/img/speakers/juandiegolopezve.jpg",
+    "title":"Desarrollador de Software Full Stack",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Ingeniero de Sistemas y Computación, Full Stack Software Engineer, actualmente trabaja en Qik Banco Digital. Puede trabajar en varios lenguajes de programación tales cómo: Java, Javascript, Go y en los frameworks: Quarkus,VertX, Spring Boot, React, NodeJS y React Native.",
+   "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/_juandiii"
+      }
+
+    ]
+
+}
