@@ -36,9 +36,9 @@
                         <!-- Header Navigation End -->
 
                         <!-- Header Meta Start -->
-                        <div class="header-meta" th:if="${config.layout_display_buytickets_menu_button}">
+                        <div class="header-meta">
 
-                            <div class="header-btn d-none d-md-block">
+                            <div class="header-btn d-none d-md-block" th:if="${config.layout_display_buytickets_menu_button}">
                                 <a th:href="${config.layout_buytickets_url}" href="price.html" class="btn btn-primary">Buy Ticket Now</a>
                             </div>
 
