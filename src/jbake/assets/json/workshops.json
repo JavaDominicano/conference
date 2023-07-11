@@ -1,0 +1,66 @@
+{
+
+    "101": {
+        "id": 101,
+        "title": "Workshop: Containers and Orchestrators for Java Developer",
+        "photoUrl": "/img/workshops/application-container.png",
+        "abstract": "Taller para desmitificar el uso de los contenedores y orquestadores de software en aplicaciones Java. Estaremos abordando los conceptos básicos y practicándolos.",
+        "description": "Los contenedores y orquestadores de software son herramientas muy demandas al día de hoy por los beneficios en aislamiento, despliegue y homogeneidad en las fases de desarrollo que nos proporcionan, dicho conocimiento es muy demandado en conjunto con las herramientas que utilizamos para nuestro desarrollo y es importante dominar la creación, despliegue y actualización de nuestras aplicaciones utilizando contenedores de software. Al mismo tiempo, coordinar un grupo de contenedores puede ser una tarea compleja y los orquestadores de software nos ayudan en ese sentido.<br><br>En nuestro taller estaremos trabajando específicamente con la tecnología Docker para implementar los conceptos de contenedores y Kubernetes como plataforma para orquestar nuestros contenedores.",
+        "audience_level": "All",
+        "time": "2:00 P.M / 21 Julio 2023",
+        "talk_format": "Workshop (\u003e 60 minutes)",
+        "language": "es",
+        "tags": [
+            "Contenedores",
+            "Docker",
+            "Kubernetes",
+            "Orquestadores",
+            "Java"
+        ],
+        "speakers": [
+            "ccamachog"
+        ]
+    },
+
+    "102": {
+        "id": 102,
+        "title": "Workshop: Modern Web Development with Javalin and JavalinVue",
+        "photoUrl": "/img/workshops/javalin.png",
+        "abstract": "¿Quieres empezar a crear una aplicación fullstack con Java y VueJS? El framework web Javalin te brinda, JavalinVue, un plugin que da soporte para desarrollar frontends con Vue de una manera simplificada en tu mismo proyecto. Junto a Javalin, hacen una combinación interesante que nos ayudarán a empezar a trabajar en nuestro proyecto en cuestión de minutos",
+        "description": "¿Quieres empezar a crear una aplicación fullstack con Java y VueJS? El framework web Javalin te brinda, JavalinVue, un plugin que da soporte para desarrollar frontends con Vue de una manera simplificada en tu mismo proyecto. Junto a Javalin, hacen una combinación interesante que nos ayudarán a empezar a trabajar en nuestro proyecto en cuestión de minutos",
+        "audience_level": "All",
+        "time": "2:00 P.M / 21 Julio 2023",
+        "talk_format": "Workshop (\u003e 60 minutes)",
+        "language": "es",
+        "tags": [
+            "Javalin",
+            "JavalinVue",
+            "Microframeworks",
+            "Java"
+        ],
+        "speakers": [
+            "ivanosevic"
+        ]
+    },
+
+    "103": {
+        "id": 103,
+        "title": "Workshop: Securing apps and services with Keycloak",
+        "photoUrl": "/img/workshops/keycloak.png",
+        "abstract": "En este taller, estudiaremos los conceptos fundamentales sobre autenticación y autorización, plataforma de manejo de identidad y cómo proteger aplicaciones y servicios Java con Keycloak.",
+        "description": "Proteger las aplicaciones y los servicios ya no consiste únicamente en asignar un nombre de usuario y una contraseña. Es necesario gestionar identidades. Necesita integrarse con sistemas de autenticación heredados y externos para proporcionar funciones que están en demanda como los inicios de sesión sociales y el inicio de sesión único (SSO). La lista de requisitos puede ser larga. Pero no quiere ni debe desarrollar todo esto usted mismo.<br><br>Keycloak es una solución de gestión de identidades y accesos de código abierto para aplicaciones y servicios modernos. Keycloak se puede utilizar para proteger aplicaciones monolíticas tradicionales, así como microservicios y aplicaciones basadas en malla de servicios que necesitan autenticación segura de extremo a extremo para todos los servicios front-end y back-end.<br><br>En este taller, estudiaremos los conceptos fundamentales sobre autenticación y autorización, plataforma de manejo de identidad y cómo proteger aplicaciones y servicios Java con Keycloak.",
+        "audience_level": "Intermediate",
+        "time": "2:00 P.M /  21 Julio 2023",
+        "talk_format": "Workshop (\u003e 60 minutes)",
+        "language": "es",
+        "tags": [
+            "keycloak",
+            "java",
+            "sso"           
+        ],
+        "speakers": [
+            "ecabrerar"
+        ]
+    }
+
+}

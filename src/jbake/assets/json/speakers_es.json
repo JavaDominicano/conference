@@ -278,5 +278,37 @@
 					"link": "https://www.linkedin.com//in/fjcontrerasg/"
 				}
 			]
+		},
+		"110": {
+			"id": "ccamachog",
+			"name": "Carlos Camacho",
+			"company": "AvatharTech",
+			"companyLogo": "",
+			"country": "República Dominicana",
+			"countryFlag": "flag-icon-do",
+			"photoUrl": "/img/speakers/ccamachog.jpg",
+			"shortBio": "",
+			"bio": "",
+			"tags": [],
+			"badges": [{
+				"name": "Director de Tecnología",
+				"description": "Director de Tecnología"
+			}],
+			"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/ccamachog"
+			},
+				{
+					"icon": "github",
+					"name": "Github",
+					"link": "https://github.com/vacax"
+				},
+				{
+					"icon": "linkedin",
+					"name": "Linkedin",
+					"link": "https://www.linkedin.com/in/ccamachog/"
+				}
+			]
 		}
 	}
