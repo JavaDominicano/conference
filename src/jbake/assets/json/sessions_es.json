@@ -164,5 +164,25 @@
     "speakers": [
       "frank_jcg"
     ]
+  },
+  "110": {
+    "id": 110,
+    "title": "El camino de desarrollar una aplicación de alta concurrencia y no morir en el intento",
+    "abstract": "A solicitud de un cliente, desarrollamos una aplicación que iba manejar miles de peticiones por minutos, todo el proceso de diseño, desarrollo y prueba funcionaron viento en popa, hasta que salimos a producción. En esta charla presentaremos todos los cambios realizados para pone en punto dicha aplicación.",
+    "description": "La aplicación desarrollada se encarga de enviar mensajes publicitarios a miles de clientes a canales seleccionados (SMS, Correo, Mensajes Instantáneos, entre otros), sin importar el canal, por cada mensaje enviado recibimos tres peticiones a modo de callback a nuestros sistema brindandonos la capacidad de trazabilidad de cada mensaje enviado. Cuando enviamos 10,000 mensajes estamos recibiendo 30,000 mensajes en nuestro servidor, provocando que cada mensaje genere un flujo de procesos internos que consumen recursos del servidor, el problema no es procesar un mensaje, el problema radica la cantidad de mensajes recurrentes.<br><br>En esta charla presentaremos, como no contemplamos algunos detalles y tuvimos que implementar cambios sobre la marcha para preparar nuestra aplicación a ese volumen de peticiones. Nuestro objetivo, es mostrar como identificar esos escenarios y aplicar tecnologías que nos ayuden a resolver el inconveniente. <br><br> En nuestro caso, presentaremos la integración de las siguientes tecnologías:<br>Spring Boot<br>Vaadin<br>Spring Batch<br>Mysql<br>Redis<br>Cola de mensajería<br>Servicios REST.",
+    "audience_level": "All",
+    "time": "TBD",
+    "talk_format": "Talk (~60 minutes)",
+    "language": "es",
+    "tags": [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "Mysql",
+      "Redis"
+    ],
+    "speakers": [
+      "ccamachog"
+    ]
   }
 }

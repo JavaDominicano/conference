@@ -164,5 +164,25 @@
     "speakers": [
       "frank_jcg"
     ]
+  },
+  "110": {
+    "id": 110,
+    "title": "The path to developing a high concurrency application and not die trying",
+    "abstract": "At the request of a customer, we developed an application that would handle thousands of requests per minutes, the whole process of design, development and testing went smoothly, until we went to production. In this talk we will present all the changes made to bring the application up to speed.",
+    "description": "The developed application is responsible for sending advertising messages to thousands of customers to selected channels (SMS, Mail, Instant Messages, among others), regardless of the channel, for each message sent we receive three callback requests to our system giving us the ability to trace each message sent. When we send 10,000 messages we are receiving 30,000 messages on our server, causing each message to generate a flow of internal processes that consume server resources, the problem is not to process a message, the problem lies in the amount of recurring messages, in this talk we will present how we did not contemplate some details and had to implement changes on the fly to prepare our application to that volume of requests.<br><br>Our goal is to show how to identify these scenarios and apply technologies that help us to solve the problem.<br><br>In our case, we will present the integration of the following technologies:<br>Spring Boot<br>Vaadin<br>Spring Batch<br>Mysql<br>Redis<br>Message Queue<br>Servicios REST",
+    "audience_level": "All",
+    "time": "TBD",
+    "talk_format": "Talk (~60 minutes)",
+    "language": "es",
+    "tags": [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "Mysql",
+      "Redis"
+    ],
+    "speakers": [
+      "ccamachog"
+    ]
   }
 }
