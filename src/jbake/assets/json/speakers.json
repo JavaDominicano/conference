@@ -311,5 +311,34 @@
 				"link": "https://www.linkedin.com/in/ccamachog/"
 			}
 		]
-	}
+	},
+  "111":{
+    "id": "ivanosevic",
+    "name": "Ivanosevic García",
+   "company": "Jostens",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+     "photoUrl": "/img/speakers/ivanosevic.jpg",
+     "title":"Java Developer",
+     "shortBio": "",
+     "bio": "",
+     "tags": [],
+     "badges": [{
+       "name": "Java Developer",
+       "description": "Java Developer"
+     }],
+     "socials": [{
+       "icon": "linkedin",
+       "name": "Linkedin",
+       "link": "https://github.com/Ivanosevic"
+     },
+     {
+       "icon": "github",
+       "name": "Github",
+       "link": "https://www.linkedin.com/in/ivanosevic"
+     }
+   ]
+ 
+ }
 }

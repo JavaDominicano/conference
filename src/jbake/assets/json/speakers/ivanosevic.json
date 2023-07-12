@@ -7,9 +7,15 @@
     "countryFlag": "flag-icon-do",
     "bio": "Ivanosevic Garcia is a Java Developer, he has about 3 years of experience in the world of development and software quality assurance. He is passionate about seeing new developments at the language level and new projects based on Java. Regarding Javalin technology, he is creating projects since its 3.9 version, which was released in 2021, and since then, he has been following the project. Apart from having created several projects on this technology, he feels confident that he can transfer his knowledge on this technology and on JavalinVue.",
     "socials": [{
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://github.com/Ivanosevic"
+    },
+    {
       "icon": "github",
       "name": "Github",
-      "link": "https://github.com/Ivanosevic"
-    }]
+      "link": "https://www.linkedin.com/in/ivanosevic"
+    }
+  ]
 
 }
