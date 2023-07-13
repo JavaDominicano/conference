@@ -27,7 +27,7 @@
         "title": "Taller Desarrollo web moderno con Javalin y JavalinVue",
         "photoUrl": "/img/workshops/javalin.png",
         "abstract": "¿Quieres empezar a crear una aplicación fullstack con Java y VueJS? El framework web Javalin te brinda, JavalinVue, un plugin que da soporte para desarrollar frontends con Vue de una manera simplificada en tu mismo proyecto. Junto a Javalin, hacen una combinación interesante que nos ayudarán a empezar a trabajar en nuestro proyecto en cuestión de minutos",
-        "description": "¿Quieres empezar a crear una aplicación fullstack con Java y VueJS? El framework web Javalin te brinda, JavalinVue, un plugin que da soporte para desarrollar frontends con Vue de una manera simplificada en tu mismo proyecto. Junto a Javalin, hacen una combinación interesante que nos ayudarán a empezar a trabajar en nuestro proyecto en cuestión de minutos",
+        "description": "¿Quieres empezar a crear una aplicación fullstack con Java y VueJS? El framework web Javalin te brinda, JavalinVue, un plugin que da soporte para desarrollar frontends con Vue de una manera simplificada en tu mismo proyecto. Junto a Javalin, hacen una combinación interesante que nos ayudarán a empezar a trabajar en nuestro proyecto en cuestión de minutos.<br><br>Los temas que estaremos tratando son:<br><br>1.Introducción al framework Javalin<br>2.Creación de un proyecto con Javalin<br>3.Creación de un Rest API con Javalin<br>4.Configuración Javalin y Plugins<br>5.Integración de Javalin y Vue.Js: JavalinVue<br>6.Creación de un Frontend para nuestro Rest API con JavalinVue<br>7.Asegurar nuestra aplicación con Javalin<br>8.Conclusiones",
         "audience_level": "All",
         "time": "2:00 P.M / 21 Julio 2023",
         "talk_format": "Workshop (\u003e 60 minutes)",
@@ -59,6 +59,25 @@
         ],
         "speakers": [
             "ecabrerar"
+        ]
+    },
+    "104": {
+        "id": 104,
+        "title": "Taller Creación de sus propios modelos de aprendizaje automático en Java, con Java y para Java",
+        "photoUrl": "/img/workshops/ml.png",
+        "abstract": "¿Te has planteado incluir algún tipo de Inteligencia Artiificial a tu APP?, ¿has intentado predecir el resultado de tus usuarios en base a sus comportamientos? Cuando necesitamos hacer cualquier solución de este tipo siempre pensamos en Python, Scala o usando un servicio externo como IBM Watson, Amazon SageMaker, etc... En este caso, vamos a repasar cómo: crear, entrenar y usar modelos ML desde la simple LinearRegression hasta redes de Deep Learning para la Detección de Objetos/Imágenes, todo esto sólo usando JAVA.",
+        "description": "Exploraremos la JSR 381 y la API VisRec que simplifica y estandariza un conjunto de APIs familiares a los desarrolladores Java para clasificar y reconocer objetos en imágenes utilizando aprendizaje automático. Además de clases específicas para tareas de reconocimiento visual, proporciona abstracciones generales para tareas de aprendizaje automático como clasificación y regresión. Revisaremos todas las capacidades de esta API y las veremos ejecutando ejemplos del mundo real con datos del mundo real.",
+        "audience_level": "Intermediate",
+        "time": "2:00 P.M /  21 Julio 2023",
+        "talk_format": "Workshop (\u003e 60 minutes)",
+        "language": "es",
+        "tags": [
+            "ML",
+            "java",
+            "VisRec"           
+        ],
+        "speakers": [
+            "brayan-munoz"
         ]
     }
 }

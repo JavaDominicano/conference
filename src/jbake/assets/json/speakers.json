@@ -315,7 +315,7 @@
   "111":{
     "id": "ivanosevic",
     "name": "Ivanosevic García",
-   "company": "Jostens",
+    "company": "Jostens",
 		"companyLogo": "",
 		"country": "Dominican Republic",
 		"countryFlag": "flag-icon-do",
@@ -338,7 +338,39 @@
        "name": "Github",
        "link": "https://www.linkedin.com/in/ivanosevic"
      }
-   ]
- 
- }
+   ] 
+ },
+ "112": {
+  "id": "brayan-munoz",
+  "name": "Brayan Muñoz V",
+  "company": "HICX",
+  "companyLogo": "",
+  "country": "Dominican Republic",
+  "countryFlag": "flag-icon-do",
+  "photoUrl": "/img/speakers/brayan-munoz.jpg",
+  "title":"Software Engineer",
+  "shortBio": "",
+  "bio": "",
+  "tags": [],
+  "badges": [{
+    "name": "Software Engineer",
+    "description": "Software Engineer"
+  }],
+  "socials": [{
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/Brayanmnz_"
+    },
+    {
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/brayanmnz"
+    },
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/brayanmnz"
+    }
+  ]
+}
 }
