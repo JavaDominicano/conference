@@ -4,7 +4,7 @@
 	<body>
 	<div th:fragment="schedule"  th:remove="tag">
        <!-- Event Schedule Start -->
-        <div class="meeta-event-schedule meeta-event-schedule-2 section-padding">
+        <div class="meeta-event-schedule meeta-event-schedule-2 section-padding" id="schedule">
             <div class="container">
 
                 <!-- Section Title Start -->
@@ -43,24 +43,7 @@
                                 <div id="tab1" class="meeta-event-schedule-tab-pane active">
 
                                     <!-- Event Accordion Start -->
-                                    <ul class="meeta-event-accordion">
-                                        
-                                        <li class="meeta-event-accordion-item">
-                                            <h3 class="meeta-event-accordion-toggle">
-                                                <div class="image">
-                                                    <img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/marketing.png'" alt="">
-                                                </div>
-                                                <div class="event-title">
-                                                    <span class="time">01 PM - 05 PM</span>
-                                                    <span class="title">TBD</span>
-                                                </div>
-                                            </h3>
-                                            <div class="meeta-event-accordion-body">
-                                                <p>To be announced</p>
-                                            </div>
-                                        </li>
-
-                                    </ul>
+                                    <ul class="meeta-event-accordion" id="workshopsList"></ul>
                                     <!-- Event Accordion End -->
 
                                 </div>
@@ -83,6 +66,7 @@
             </div>
         </div>
         <!-- Event Schedule End -->
+ <script type="module" src="js/workshops.js"></script>
  <script type="module" src="js/session.js"></script>
   </div>
   </body>
