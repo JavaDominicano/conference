@@ -1,11 +1,80 @@
-{
-  "101": {
+[{
     "id": 101,
+    "title": "Focus on Software, not Code",
+    "abstract": "Sounds weird, even crazy. But code and software are very different things. Code is a means to an end. Both software and code change often. But outside of your company's Engineering department, no one cares about your code. Focus on running software instead.",
+    "description": "I will talk about the difference between code and software, and why it's so important to focus on the latter. I will use real-life examples to illustrate when to focus on code vs when to focus on software, such as prioritizing optimizations, improving performance, fixing bugs, etc.",
+    "audience_level": "All",
+    "time": "9:15 AM",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "architecture",
+      "software development",
+      "devops"
+    ],
+    "speakers": [
+      "enrique-zamudio"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Failing with Style: MicroProfile Fault Tolerance and Metric",
+    "abstract": "What can't be measured, can't be improved. Learn how to use MicroProfile APIs to super-power your application with fault tolerance and real-time metrics.",
+    "description": "With MicroProfile Fault Tolerance APIs we can implement several strategies to have a proper error handling using only some annotations, and with MicroProfile Metrics we can obtain some metrics of our application, the JVM or even the server where it runs and together with tools like Prometeus and Grafana we can observe and compare those metrics in real time to make the right decisions and apply the corrections and improvements at the right time.",
+    "audience_level": "All",
+    "time": "10:15 AM",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "MicroProfile",
+      "JakartaEE",
+      "Java"
+    ],
+    "speakers": [
+      "jorge-cajas"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "The Rise of DevRels and Their Importance in your organization",
+    "abstract": "Why do we see a rise in the so-called DevRels? What are they? What do they do? In this talk, we will have a conversation with Yuri, a Developer Relations Advocate (DevRel) at Supabase, and learn about the importance of this role in SaaS companies and any organization whose customer persona is developers.",
+    "description": "What they are, the different types, and how DevRels help increase sales and product awareness in the community. These are some of the topics Yuri will cover in his talk on The Rise of DevRels and Their Importance in Your Organization. You will learn about how this role is performed not only externally facing the community and users but also internally within the company, how to segment your audience for product marketing and community purposes, the importance of content creation for your goals, and much more.",
+    "audience_level": "All",
+    "time": "11:00 AM",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "Software Development",
+      "Developer Relations",
+      "DevRel",
+      "Networking",
+      "Community"
+    ],
+    "speakers": [
+      "yuri-santana"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Unsupervised Learning con Apache Spark Java y MLlib",
+    "time": "11:45 AM",
+    "abstract": "Do you want to see what no one else sees in the data? Do you want to find hidden behaviors in a certain problem you handle with data? Do you want to simplify your dataset to better use it in other models? This talk is for you. We will learn how Unsupervised Learning helps us in these tasks.",
+    "description": "In this talk we will learn a bit about Unsupervised Learning which is a branch of Machine Learning which in turn is a branch of Artificial Intelligence (AI). We will use Apache Spark, a unified data analytics engine which we will use with Java and from which we will use the MLlib library to create and train Machine Learning models based on statistics, specifically an unsupervised learning model.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [],
+    "speakers": [
+      "juan-polanco"
+    ]
+  },
+  {
+    "id": 105,
     "title": "Welcome to the end of the 'We've always done it this way' era - Lessons learned in Software Implementation",
     "abstract": "Most of us have heard the seven most expensive words in business: 'We've always done it this way.' We can see the resistance to change, and you can be certain that the solution you offer is necessary, but how can we become change agents using technology? Is it possible to achieve it?",
     "description": "Welcome to the end of the 'We've always done it this way' era. Lessons learned in software implementation... Today, I want to talk to you about change management in software implementations. In recent years, we have witnessed an explosion of technologies that have transformed the way we work and collaborate. However, implementing new software is not just a technical matter; it also involves cultural and organizational change that can be challenging to handle.In this talk, I will provide you with the keys to becoming an effective change agent using technology as a bridge.You will discover why change management is crucial in software implementations, what skills and tools you need to lead successful change, and how you can positively influence change from any position.",
     "audience_level": "Intermediate",
-    "time": "TBD",
+    "time": "1:30 PM",
     "language": "es",
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
@@ -18,13 +87,13 @@
       "solenny-peralta-lopez"
     ]
   },
-  "102": {
-    "id": 102,
+  {
+    "id": 106,
     "title": "Secure and Scalable Deployment of Web Applications with Vaadin Flow, Docker, and Traefik",
     "abstract": "Deploy web applications developed with Vaadin Flow securely and scalably using Docker and Traefik technologies. Combine these tools to simplify the deployment process, ensure security, and guarantee availability in high-demand environments.",
     "description": "Dive into the fascinating world of web application deployment with Vaadin Flow, Docker, and Traefik. In this talk, we will guide you through an exciting journey where you will discover how to ensure seamless security and scalability for your web applications. Learn how to make the most of the latest technologies while simplifying the deployment process. We will explore how the combination of Vaadin Flow, Docker, and Traefik will enable you to achieve higher levels of security and ensure a smooth experience even in the most demanding environments. Don't miss this opportunity to learn the secrets behind the success of secure and scalable web application deployment!",
     "audience_level": "Intermediate",
-    "time": "TBD",
+    "time": "2:15 PM",
     "language": "es",
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
@@ -39,66 +108,30 @@
       "freddy-pena"
     ]
   },
-  "103": {
-    "id": 103,
-    "title": "The Rise of DevRels and Their Importance in your organization",
-    "abstract": "Why do we see a rise in the so-called DevRels? What are they? What do they do? In this talk, we will have a conversation with Yuri, a Developer Relations Advocate (DevRel) at Supabase, and learn about the importance of this role in SaaS companies and any organization whose customer persona is developers.",
-    "description": "What they are, the different types, and how DevRels help increase sales and product awareness in the community. These are some of the topics Yuri will cover in his talk on The Rise of DevRels and Their Importance in Your Organization. You will learn about how this role is performed not only externally facing the community and users but also internally within the company, how to segment your audience for product marketing and community purposes, the importance of content creation for your goals, and much more.",
+  {
+    "id": 107,
+    "title": "Software dependencies: Best practices for Java project dependency management",
+    "abstract": "In this session we will explore how outdated dependencies can affect an application, the reasons that force dependency management, the challenges we face and some recommendations to keep your dependencies up to date.",
+    "description": "A software dependency is a library or package that is reused in new software. By using pre-built software dependencies, developers can deliver software faster and in shorter release cycles.Software dependencies have revolutionized application development over the past few decades, but they also present risks that are often overlooked.In this session we will explore how outdated dependencies can affect an application, the reasons that mandate dependency management, the challenges and pitfalls we face, and some recommendations for keeping your dependencies up to date.",
     "audience_level": "All",
-    "time": "TBD",
-    "talk_format": "Talk (~30-45 minutes)",
+    "time": "3:15 PM",
+    "talk_format": "Talk (~30 minutes)",
     "language": "es",
     "tags": [
-      "Software Development",
-      "Developer Relations",
-      "DevRel",
-      "Networking",
-      "Community"
+      "Java",
+      "Maven"
     ],
     "speakers": [
-      "yuri-santana"
+      "ecabrerar"
     ]
   },
-  "104": {
-    "id": 104,
-    "title": "Unsupervised Learning con Apache Spark Java y MLlib",
-    "time": "TBD",
-    "abstract": "Do you want to see what no one else sees in the data? Do you want to find hidden behaviors in a certain problem you handle with data? Do you want to simplify your dataset to better use it in other models? This talk is for you. We will learn how Unsupervised Learning helps us in these tasks.",
-    "description": "In this talk we will learn a bit about Unsupervised Learning which is a branch of Machine Learning which in turn is a branch of Artificial Intelligence (AI). We will use Apache Spark, a unified data analytics engine which we will use with Java and from which we will use the MLlib library to create and train Machine Learning models based on statistics, specifically an unsupervised learning model.",
-    "audience_level": "All",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "tags": [
-    ],
-    "speakers": [
-      "juan-polanco"
-    ]
-  },
-  "105": {
-    "id": 105,
-    "title": "Focus on Software, not Code",
-    "abstract": "Sounds weird, even crazy. But code and software are very different things. Code is a means to an end. Both software and code change often. But outside of your company's Engineering department, no one cares about your code. Focus on running software instead.",
-    "description": "I will talk about the difference between code and software, and why it's so important to focus on the latter. I will use real-life examples to illustrate when to focus on code vs when to focus on software, such as prioritizing optimizations, improving performance, fixing bugs, etc.",
-    "audience_level": "All",
-    "time": "TBD",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "tags": [
-      "architecture",
-      "software development",
-      "devops"
-    ],
-    "speakers": [
-      "enrique-zamudio"
-    ]
-  },
-  "106": {
-    "id": 106,
+  {
+    "id": 108,
     "title": "Flyway Migration with Quarkus",
     "abstract": "Hate manually executing SQL files on servers? Flyway with Quarkus simplifies your life by avoiding direct server login and executing SQL files in production. Automate database migration and focus on what's important.",
     "description": "Flyway with Quarkus is a powerful combination that simplifies the management and migration of databases in Java applications. Flyway is a database migration tool that allows to manage in an orderly and automated way the changes in the database structure throughout the lifecycle of an application. Quarkus, on the other hand, is a Java development framework designed for cloud-native applications. By using Flyway with Quarkus, developers can easily integrate database migration functionality into their applications without having to worry about manually executing SQL scripts or managing changes in production environments. Flyway takes care of applying migrations in an automated manner, maintaining precise control over the database structure. With this combination, developers can guarantee efficient database management, ensuring that changes are applied consistently across different environments. Flyway with Quarkus provides a reliable and robust solution to simplify database migration and maintain the integrity of Java applications.",
     "audience_level": "All",
-    "time": "TBD",
+    "time": "4:00 PM",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
@@ -113,65 +146,13 @@
       "juandiegolopezve"
     ]
   },
-  "107": {
-    "id": 107,
-    "title": "Failing with Style: MicroProfile Fault Tolerance and Metric",
-    "abstract": "What can't be measured, can't be improved. Learn how to use MicroProfile APIs to super-power your application with fault tolerance and real-time metrics.",
-    "description": "With MicroProfile Fault Tolerance APIs we can implement several strategies to have a proper error handling using only some annotations, and with MicroProfile Metrics we can obtain some metrics of our application, the JVM or even the server where it runs and together with tools like Prometeus and Grafana we can observe and compare those metrics in real time to make the right decisions and apply the corrections and improvements at the right time.",
-    "audience_level": "All",
-    "time": "TBD",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "tags": [
-      "MicroProfile",
-      "JakartaEE",
-      "Java"
-    ],
-    "speakers": [
-      "jorge-cajas"
-    ]
-  },
-  "108": {
-    "id": 108,
-    "title": "Software dependencies: Best practices for Java project dependency management",
-    "abstract": "In this session we will explore how outdated dependencies can affect an application, the reasons that force dependency management, the challenges we face and some recommendations to keep your dependencies up to date.",
-    "description": "A software dependency is a library or package that is reused in new software. By using pre-built software dependencies, developers can deliver software faster and in shorter release cycles.Software dependencies have revolutionized application development over the past few decades, but they also present risks that are often overlooked.In this session we will explore how outdated dependencies can affect an application, the reasons that mandate dependency management, the challenges and pitfalls we face, and some recommendations for keeping your dependencies up to date.",
-    "audience_level": "All",
-    "time": "TBD",
-    "talk_format": "Talk (~30 minutes)",
-    "language": "es",
-    "tags": [
-      "Java",
-      "Maven"
-    ],
-    "speakers": [
-      "ecabrerar"
-    ]
-  },
-  "109": {
+  {
     "id": 109,
-    "title": "Keeping the boat afloat! SOS Technical Debt",
-    "abstract": "Technical Debt or Software Rot is a well-known but often ignored concept. Accumulating it can lead to disaster. In this session, we will explore fundamental concepts and provide a comprehensive guide on how to effectively reduce technical debt. We'll also emphasize the importance of considering factors like project budget and goals. Don't let technical debt undermine your success—join us and gain valuable insights to keep your project on track.",
-    "description": "Are you familiar with the term “Technical Debt” but wondering what it exactly entails and how it can impact your project? This talk is for you! We'll explore the basics of Technical Debt and understand its impact on software development.<br><br>We'll start by discussing the traditional approach to addressing Technical Debt, examining how it's typically overlooked and accumulates, which can have disastrous consequences. But fear not! We'll also explore a strategic way to tackle this debt, allowing us to effectively reduce it without neglecting other crucial aspects of our projects.<br><br>In the second part of the talk, we'll dive into measuring Technical Debt using tools like SonarQube and Git. We'll examine different technical, social, and economic metrics that will help us quantify and evaluate the level of debt in our software. Additionally, we'll create a simple mathematical model that provides a more precise view of the magnitude of technical debt in our projects and identifies potential risks.<br><br>Next, we'll present a possible action plan to effectively address Technical Debt. We'll discuss various strategies and approaches that we can implement proactively to reduce the debt, thereby optimizing the performance and quality of our software.<br><br>Finally, we'll conclude the talk with valuable recommendations and insights based on our experience and industry best practices. You'll be well-prepared to strategically and efficiently tackle Technical Debt, ensuring long-term success for your software development projects.<br><br>Don't miss out on this opportunity to learn how to reduce Technical Debt and take your projects to the next level!",
-    "audience_level": "All",
-    "time": "TBD",
-    "talk_format": "Talk (~60 minutes)",
-    "language": "es",
-    "tags": [
-      "Java",
-      "Technical debt"
-    ],
-    "speakers": [
-      "frank_jcg"
-    ]
-  },
-  "110": {
-    "id": 110,
     "title": "The path to developing a high concurrency application and not die trying",
     "abstract": "At the request of a customer, we developed an application that would handle thousands of requests per minutes, the whole process of design, development and testing went smoothly, until we went to production. In this talk we will present all the changes made to bring the application up to speed.",
     "description": "The developed application is responsible for sending advertising messages to thousands of customers to selected channels (SMS, Mail, Instant Messages, among others), regardless of the channel, for each message sent we receive three callback requests to our system giving us the ability to trace each message sent. When we send 10,000 messages we are receiving 30,000 messages on our server, causing each message to generate a flow of internal processes that consume server resources, the problem is not to process a message, the problem lies in the amount of recurring messages, in this talk we will present how we did not contemplate some details and had to implement changes on the fly to prepare our application to that volume of requests.<br><br>Our goal is to show how to identify these scenarios and apply technologies that help us to solve the problem.<br><br>In our case, we will present the integration of the following technologies:<br>Spring Boot<br>Vaadin<br>Spring Batch<br>Mysql<br>Redis<br>Message Queue<br>Servicios REST",
     "audience_level": "All",
-    "time": "TBD",
+    "time": "4:45 PM",
     "talk_format": "Talk (~60 minutes)",
     "language": "es",
     "tags": [
@@ -184,5 +165,22 @@
     "speakers": [
       "ccamachog"
     ]
+  },
+  {
+    "id": 110,
+    "title": "Keeping the boat afloat! SOS Technical Debt",
+    "abstract": "Technical Debt or Software Rot is a well-known but often ignored concept. Accumulating it can lead to disaster. In this session, we will explore fundamental concepts and provide a comprehensive guide on how to effectively reduce technical debt. We'll also emphasize the importance of considering factors like project budget and goals. Don't let technical debt undermine your success—join us and gain valuable insights to keep your project on track.",
+    "description": "Are you familiar with the term “Technical Debt” but wondering what it exactly entails and how it can impact your project? This talk is for you! We'll explore the basics of Technical Debt and understand its impact on software development.<br><br>We'll start by discussing the traditional approach to addressing Technical Debt, examining how it's typically overlooked and accumulates, which can have disastrous consequences. But fear not! We'll also explore a strategic way to tackle this debt, allowing us to effectively reduce it without neglecting other crucial aspects of our projects.<br><br>In the second part of the talk, we'll dive into measuring Technical Debt using tools like SonarQube and Git. We'll examine different technical, social, and economic metrics that will help us quantify and evaluate the level of debt in our software. Additionally, we'll create a simple mathematical model that provides a more precise view of the magnitude of technical debt in our projects and identifies potential risks.<br><br>Next, we'll present a possible action plan to effectively address Technical Debt. We'll discuss various strategies and approaches that we can implement proactively to reduce the debt, thereby optimizing the performance and quality of our software.<br><br>Finally, we'll conclude the talk with valuable recommendations and insights based on our experience and industry best practices. You'll be well-prepared to strategically and efficiently tackle Technical Debt, ensuring long-term success for your software development projects.<br><br>Don't miss out on this opportunity to learn how to reduce Technical Debt and take your projects to the next level!",
+    "audience_level": "All",
+    "time": "5:30 PM",
+    "talk_format": "Talk (~60 minutes)",
+    "language": "es",
+    "tags": [
+      "Java",
+      "Technical debt"
+    ],
+    "speakers": [
+      "frank_jcg"
+    ]
   }
-}
+]

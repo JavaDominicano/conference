@@ -1,11 +1,81 @@
+[
 {
-  "101": {
     "id": 101,
+    "title": "Focus on Software, not Code",
+    "abstract": "Suena raro, incluso loco. Pero el código y el software son cosas muy diferentes. El código es un medio para un fin. Tanto el software como el código cambian con frecuencia. Pero fuera del departamento de ingeniería de su empresa, a nadie le importa su código. Concéntrese en ejecutar software en su lugar.",
+    "description": "Hablaré sobre la diferencia entre código y software, y por qué es tan importante centrarse en este último. Usaré ejemplos de la vida real para ilustrar cuándo enfocarse en el código y cuándo enfocarse en el software, como priorizar optimizaciones, mejorar el rendimiento, corregir errores, etc.",
+    "audience_level": "All",
+    "time": "9:15 AM",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "architecture",
+      "software development",
+      "devops"
+    ],
+    "speakers": [
+      "enrique-zamudio"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Fallando con estilo: MicroProfile Fault Tolerance & Metric",
+    "abstract": "Lo que no se puede medir, no se puede mejorar.Aprende a utilizar las API de MicroProfile para darle super poderes a tu aplicación con tolerancia a fallos y metricas en tiempo real.",
+    "description": "Con las API de MicroProfile Fault Tolerance podemos implementar varias estrategias  para tener un manejo adecuado de errores utilizando unicamente algunas anotaciones.Además con MicroProfile Metrics podremos obtener algunas métricas de nuestra aplicación, la JVM  o incluso el servidor en donde se ejecuta y en conjunto con herramientas como Prometeus y Grafana poder observar y comparar esas métricas en tiempo real para tomar las desiciones correctas y aplicar las correcciones y mejoras en el momento preciso.",
+    "audience_level": "All",
+    "time": "10:15 AM",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "MicroProfile",
+      "JakartaEE",
+      "Java"
+    ],
+    "speakers": [
+      "jorge-cajas"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "El auge de los DevRels y su importancia en tu organización",
+    "abstract": "¿Por qué vemos un auge en los llamados \"DevRels\"? ¿Qué son? ¿Qué hacen? En esta charla vamos a conversar con Yuri, Developer Relations Advocate(DevRel) en Supabase y aprender sobre la importancia de esta figura en compañías de SAAAS y todas aquellas que tengan como a su customer persona a developers.",
+    "description": "Desde qué son, los tipos, la forma en que los DevRels ayudan a incrementar ventas y el conocimiento de tu producto en la comunidad son algunos de los temas que cubrirá Yuri en su charla sobre \"El auge de los DevRels y su importancia en tu organización\". Aprenderás sobre la forma en que esta labor se desempeña no sólo de forma externa frente a la comunidad y usuarios pero también cómo se ve en lo interno de la compañía, cómo segmentar tu audiencia para fines de marketing de tu producto y comunidad , la importancia de la creación de contenido para tus metas y muchas cosas más.",
+    "audience_level": "All",
+    "time": "11:00 AM",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "Software Development",
+      "Developer Relations",
+      "DevRel",
+      "Networking",
+      "Community"
+    ],
+    "speakers": [
+      "yuri-santana"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Unsupervised Learning con Apache Spark Java y MLlib",
+    "time": "11:45 AM",
+    "abstract": "Quieres ver lo que nadie ve en los datos? Quieres encontrar comportamientos ocultos en un determinado problema que manejes con datos? Quieres simplificar tu dataset para utilizarlo mejor en otros modelos? Esta charla es para ti. Aprenderemos como el Unsupervised Learning nos ayuda en estas tareas.",
+    "description": "En esta charla aprenderemos un poco sobre lo que es Unsupervised Learning (aprendizaje no supervisado) el cual es una rama del Machine Learning (aprendizaje automático) que a su vez es una rama de la Inteligencia Artificial (AI en ingles). Utilizaremos Apache Spark un motor unificado de analítica de datos el cual utilizaremos con Java y del cual utilizaremos la librería MLlib para crear y entrenar modelos de Machine Learning basados en estadística, específicamente un modelo de aprendizaje no supervisado o unsupervised learning.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [],
+    "speakers": [
+      "juan-polanco"
+    ]
+  },
+  {
+    "id": 105,
     "title": "Bienvenidos al fin de la era del siempre lo hicimos así. Lecciones implementando Software...",
     "abstract": "La mayoría de nosotros ha escuchado las 7 palabras más caras en  los negocios: \"Siempre lo hicimos así\" y podemos ver la resistencia al cambio, y puedes estar seguro de que la solución que ofreces es necesario, pero cómo ser un agente de cambio utilizando la tecnología, ¿es posible lograrlo?",
     "description": "\"Bienvenidos al fin de la era del siempre lo hicimos así\". Lecciones implementando software...Hoy quiero hablarte sobre la gestión del cambio en  implementaciones de software. En los últimos años, hemos visto una explosión de tecnologías que han transformado la manera en que trabajamos y colaboramos. Sin embargo, implementar un nuevo software no es solo una cuestión técnica, sino que también implica un cambio cultural y organizacional que puede ser difícil de manejar.\r\n\r\nEn esta charla, te daré las claves para ser un agente de cambio efectivo utilizando la tecnología como puente. Descubrirás por qué la gestión del cambio es crucial en las implementaciones de software, qué habilidades y herramientas necesitas para liderar un cambio exitoso y cómo puedes influir positivamente en el cambio desde cualquier posición.",
     "audience_level": "Intermediate",
-    "time": "TBD",
+    "time": "1:30 PM",
     "language": "es",
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
@@ -18,13 +88,13 @@
       "solenny-peralta-lopez"
     ]
   },
-  "102": {
-    "id": 102,
+  {
+    "id": 106,
     "title": "Despliegue seguro y escalable de aplicaciones web con Vaadin Flow, Docker y Traefik",
     "abstract": "Despliega aplicaciones web desarrolladas con Vaadin Flow de manera segura y escalable utilizando las tecnologías Docker y Traefik. Combina estas herramientas para simplifica el proceso de despliegue, garantiza la seguridad y asegura la disponibilidad en entornos de alta demanda.",
     "description": "Sumérgete en el fascinante mundo del despliegue de aplicaciones web con Vaadin Flow, Docker y Traefik. En esta charla, te guiaremos a través de un viaje emocionante donde descubrirás cómo asegurar y escalar tus aplicaciones web de manera impecable. Aprende a aprovechar al máximo las tecnologías más modernas mientras simplificas el proceso de despliegue. Exploraremos cómo la combinación de Vaadin Flow, Docker y Traefik te permitirá alcanzar niveles superiores de seguridad y garantizar una experiencia fluida incluso en los entornos más exigentes. ¡No te pierdas esta oportunidad de aprender los secretos detrás del éxito del despliegue de aplicaciones web seguras y escalables!",
     "audience_level": "Intermediate",
-    "time": "TBD",
+    "time": "2:15 PM",
     "language": "es",
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
@@ -39,66 +109,30 @@
       "freddy-pena"
     ]
   },
-  "103": {
-    "id": 103,
-    "title": "El auge de los DevRels y su importancia en tu organización",
-    "abstract": "¿Por qué vemos un auge en los llamados \"DevRels\"? ¿Qué son? ¿Qué hacen? En esta charla vamos a conversar con Yuri, Developer Relations Advocate(DevRel) en Supabase y aprender sobre la importancia de esta figura en compañías de SAAAS y todas aquellas que tengan como a su customer persona a developers.",
-    "description": "Desde qué son, los tipos, la forma en que los DevRels ayudan a incrementar ventas y el conocimiento de tu producto en la comunidad son algunos de los temas que cubrirá Yuri en su charla sobre \"El auge de los DevRels y su importancia en tu organización\". Aprenderás sobre la forma en que esta labor se desempeña no sólo de forma externa frente a la comunidad y usuarios pero también cómo se ve en lo interno de la compañía, cómo segmentar tu audiencia para fines de marketing de tu producto y comunidad , la importancia de la creación de contenido para tus metas y muchas cosas más.",
+  {
+    "id": 107,
+    "title": "Dependencias de software: prácticas recomendadas para la gestión de dependencias de proyectos Java",
+    "abstract": "En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
+    "description": "Una dependencia de software es una librería o un paquete que se reutiliza en un nuevo software. Mediante el uso de dependencias de software preconstruidas, los desarrolladores pueden entregar software más rápido y en ciclos de lanzamiento más cortos.Las dependencias de software han revolucionado el desarrollo de aplicaciones en las últimas décadas, pero también presentan riesgos que con frecuencia se pasan por alto.En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
     "audience_level": "All",
-    "time": "TBD",
-    "talk_format": "Talk (~30-45 minutes)",
+    "time": "3:15 PM",
+    "talk_format": "Talk (~30 minutes)",
     "language": "es",
     "tags": [
-      "Software Development",
-      "Developer Relations",
-      "DevRel",
-      "Networking",
-      "Community"
+      "Java",
+      "Maven"
     ],
     "speakers": [
-      "yuri-santana"
+      "ecabrerar"
     ]
   },
-  "104": {
-    "id": 104,
-    "title": "Unsupervised Learning con Apache Spark Java y MLlib",
-    "time": "TBD",
-    "abstract": "Quieres ver lo que nadie ve en los datos? Quieres encontrar comportamientos ocultos en un determinado problema que manejes con datos? Quieres simplificar tu dataset para utilizarlo mejor en otros modelos? Esta charla es para ti. Aprenderemos como el Unsupervised Learning nos ayuda en estas tareas.",
-    "description": "En esta charla aprenderemos un poco sobre lo que es Unsupervised Learning (aprendizaje no supervisado) el cual es una rama del Machine Learning (aprendizaje automático) que a su vez es una rama de la Inteligencia Artificial (AI en ingles). Utilizaremos Apache Spark un motor unificado de analítica de datos el cual utilizaremos con Java y del cual utilizaremos la librería MLlib para crear y entrenar modelos de Machine Learning basados en estadística, específicamente un modelo de aprendizaje no supervisado o unsupervised learning.",
-    "audience_level": "All",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "tags": [
-    ],
-    "speakers": [
-      "juan-polanco"
-    ]
-  },
-  "105": {
-    "id": 105,
-    "title": "Focus on Software, not Code",
-    "abstract": "Suena raro, incluso loco. Pero el código y el software son cosas muy diferentes. El código es un medio para un fin. Tanto el software como el código cambian con frecuencia. Pero fuera del departamento de ingeniería de su empresa, a nadie le importa su código. Concéntrese en ejecutar software en su lugar.",
-    "description": "Hablaré sobre la diferencia entre código y software, y por qué es tan importante centrarse en este último. Usaré ejemplos de la vida real para ilustrar cuándo enfocarse en el código y cuándo enfocarse en el software, como priorizar optimizaciones, mejorar el rendimiento, corregir errores, etc.",
-    "audience_level": "All",
-    "time": "TBD",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "tags": [
-      "architecture",
-      "software development",
-      "devops"
-    ],
-    "speakers": [
-      "enrique-zamudio"
-    ]
-  },
-  "106": {
-    "id": 106,
+  {
+    "id": 108,
     "title": "Migración Flyway con Quarkus",
     "abstract": "¿Odias ejecutar archivos SQL manualmente en servidores? Flyway con Quarkus simplifica tu vida al evitar el ingreso directo al servidor y ejecutar archivos SQL en producción. Automatiza la migración de bases de datos y enfócate en lo importante.",
     "description": "Flyway con Quarkus es una potente combinación que simplifica la gestión y migración de bases de datos en aplicaciones Java. Flyway es una herramienta de migración de bases de datos que permite gestionar de manera ordenada y automatizada los cambios en la estructura de la base de datos a lo largo del ciclo de vida de una aplicación. Quarkus, por su parte, es un framework de desarrollo Java diseñado para aplicaciones nativas en la nube.\r\n\r\nAl utilizar Flyway con Quarkus, los desarrolladores pueden integrar fácilmente la funcionalidad de migración de bases de datos en sus aplicaciones, sin tener que preocuparse por la ejecución manual de scripts SQL o la administración de cambios en entornos de producción. Flyway se encarga de aplicar las migraciones de forma automatizada, manteniendo un control preciso sobre la estructura de la base de datos.\r\n\r\nCon esta combinación, los desarrolladores pueden garantizar una gestión eficiente de la base de datos, asegurando que los cambios se apliquen de manera consistente en diferentes entornos. Flyway con Quarkus proporciona una solución confiable y robusta para simplificar la migración de bases de datos y mantener la integridad de las aplicaciones Java.",
     "audience_level": "All",
-    "time": "TBD",
+    "time": "4:00 PM",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
@@ -113,65 +147,13 @@
       "juandiegolopezve"
     ]
   },
-  "107": {
-    "id": 107,
-    "title": "Fallando con estilo: MicroProfile Fault Tolerance & Metric",
-    "abstract": "Lo que no se puede medir, no se puede mejorar.Aprende a utilizar las API de MicroProfile para darle super poderes a tu aplicación con tolerancia a fallos y metricas en tiempo real.",
-    "description": "Con las API de MicroProfile Fault Tolerance podemos implementar varias estrategias  para tener un manejo adecuado de errores utilizando unicamente algunas anotaciones.Además con MicroProfile Metrics podremos obtener algunas métricas de nuestra aplicación, la JVM  o incluso el servidor en donde se ejecuta y en conjunto con herramientas como Prometeus y Grafana poder observar y comparar esas métricas en tiempo real para tomar las desiciones correctas y aplicar las correcciones y mejoras en el momento preciso.",
-    "audience_level": "All",
-    "time": "TBD",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "tags": [
-      "MicroProfile",
-      "JakartaEE",
-      "Java"
-    ],
-    "speakers": [
-      "jorge-cajas"
-    ]
-  },
-  "108": {
-    "id": 108,
-    "title": "Dependencias de software: prácticas recomendadas para la gestión de dependencias de proyectos Java",
-    "abstract": "En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
-    "description": "Una dependencia de software es una librería o un paquete que se reutiliza en un nuevo software. Mediante el uso de dependencias de software preconstruidas, los desarrolladores pueden entregar software más rápido y en ciclos de lanzamiento más cortos.Las dependencias de software han revolucionado el desarrollo de aplicaciones en las últimas décadas, pero también presentan riesgos que con frecuencia se pasan por alto.En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
-    "audience_level": "All",
-    "time": "TBD",
-    "talk_format": "Talk (~30 minutes)",
-    "language": "es",
-    "tags": [
-      "Java",
-      "Maven"
-    ],
-    "speakers": [
-      "ecabrerar"
-    ]
-  },
-  "109": {
+  {
     "id": 109,
-    "title": "¡Mantén el proyecto a flote! Encarando la Deuda Técnica",
-    "abstract": "La “Deuda Técnica” es un concepto que todos conocemos, pero preferimos ignorar. Pero, ¡cuidado! Dejarla a un lado es una receta para el desastre. En esta sesión, vamos a hablar de conceptos generales y una guía práctica —que seguro convence al jefe— de cómo reducir esa deuda técnica sin descuidar cosas importantes como el presupuesto y los objetivos de tu proyecto. ¡Acompáñanos y mantén tu proyecto a flote!    ",
-    "description": "¿Estás familiarizado con el término “Deuda Técnica” pero te preguntas qué implica exactamente y cómo puede afectar a tu proyecto? ¡Esta charla es para ti! Exploraremos los conceptos básicos de la Deuda Técnica y entenderemos su impacto en el desarrollo de software.<br><br>Comenzaremos discutiendo la forma tradicional de abordar la Deuda Técnica, analizando cómo muchas veces se pasa por alto y se acumula, lo cual puede tener consecuencias desastrosas.Pero no todo está perdido, también exploraremos una forma estratégica de abordar esta deuda, que nos permitirá reducirla de manera efectiva sin descuidar otros aspectos cruciales de nuestros proyectos.br><br>En la segunda parte de la charla, nos sumergiremos en cómo medir la Deuda Técnica utilizando herramientas como SonarQube y GIT. Examinaremos diferentes métricas técnicas, sociales y económicas que nos ayudarán a cuantificar y evaluar el nivel de deuda en nuestro software. Además, crearemos un modelo matemático simple que nos proporcionará una visión más precisa de la magnitud de la deuda técnica en nuestros proyectos y los elementos de riesgo.br><br>Luego, presentaremos un posible plan de trabajo para abordar la Deuda Técnica de manera efectiva. Discutiremos diferentes estrategias y enfoques que podemos implementar para reducir proactivamente la deuda, optimizando así el rendimiento y la calidad de nuestro software.br><br>Finalmente, concluiremos la charla con valiosas recomendaciones y conclusiones basadas en nuestra experiencia y mejores prácticas del sector. Te iremos preparando para enfrentar la Deuda Técnica de manera estratégica y eficiente, asegurando el éxito a largo plazo de tus proyectos de desarrollo de software.br><br>¡No pierdas esta oportunidad de aprender cómo reducir la Deuda Técnica y llevar tus proyectos al siguiente nivel!",
-    "audience_level": "All",
-    "time": "TBD",
-    "talk_format": "Talk (~60 minutes)",
-    "language": "es",
-    "tags": [
-      "Java",
-      "Technical debt"
-    ],
-    "speakers": [
-      "frank_jcg"
-    ]
-  },
-  "110": {
-    "id": 110,
     "title": "El camino de desarrollar una aplicación de alta concurrencia y no morir en el intento",
     "abstract": "A solicitud de un cliente, desarrollamos una aplicación que iba manejar miles de peticiones por minutos, todo el proceso de diseño, desarrollo y prueba funcionaron viento en popa, hasta que salimos a producción. En esta charla presentaremos todos los cambios realizados para pone en punto dicha aplicación.",
     "description": "La aplicación desarrollada se encarga de enviar mensajes publicitarios a miles de clientes a canales seleccionados (SMS, Correo, Mensajes Instantáneos, entre otros), sin importar el canal, por cada mensaje enviado recibimos tres peticiones a modo de callback a nuestros sistema brindandonos la capacidad de trazabilidad de cada mensaje enviado. Cuando enviamos 10,000 mensajes estamos recibiendo 30,000 mensajes en nuestro servidor, provocando que cada mensaje genere un flujo de procesos internos que consumen recursos del servidor, el problema no es procesar un mensaje, el problema radica la cantidad de mensajes recurrentes.<br><br>En esta charla presentaremos, como no contemplamos algunos detalles y tuvimos que implementar cambios sobre la marcha para preparar nuestra aplicación a ese volumen de peticiones. Nuestro objetivo, es mostrar como identificar esos escenarios y aplicar tecnologías que nos ayuden a resolver el inconveniente. <br><br> En nuestro caso, presentaremos la integración de las siguientes tecnologías:<br>Spring Boot<br>Vaadin<br>Spring Batch<br>Mysql<br>Redis<br>Cola de mensajería<br>Servicios REST.",
     "audience_level": "All",
-    "time": "TBD",
+    "time": "4:45 PM",
     "talk_format": "Talk (~60 minutes)",
     "language": "es",
     "tags": [
@@ -184,5 +166,22 @@
     "speakers": [
       "ccamachog"
     ]
+  },
+  {
+    "id": 110,
+    "title": "¡Mantén el proyecto a flote! Encarando la Deuda Técnica",
+    "abstract": "La “Deuda Técnica” es un concepto que todos conocemos, pero preferimos ignorar. Pero, ¡cuidado! Dejarla a un lado es una receta para el desastre. En esta sesión, vamos a hablar de conceptos generales y una guía práctica —que seguro convence al jefe— de cómo reducir esa deuda técnica sin descuidar cosas importantes como el presupuesto y los objetivos de tu proyecto. ¡Acompáñanos y mantén tu proyecto a flote!    ",
+    "description": "¿Estás familiarizado con el término “Deuda Técnica” pero te preguntas qué implica exactamente y cómo puede afectar a tu proyecto? ¡Esta charla es para ti! Exploraremos los conceptos básicos de la Deuda Técnica y entenderemos su impacto en el desarrollo de software.<br><br>Comenzaremos discutiendo la forma tradicional de abordar la Deuda Técnica, analizando cómo muchas veces se pasa por alto y se acumula, lo cual puede tener consecuencias desastrosas.Pero no todo está perdido, también exploraremos una forma estratégica de abordar esta deuda, que nos permitirá reducirla de manera efectiva sin descuidar otros aspectos cruciales de nuestros proyectos.br><br>En la segunda parte de la charla, nos sumergiremos en cómo medir la Deuda Técnica utilizando herramientas como SonarQube y GIT. Examinaremos diferentes métricas técnicas, sociales y económicas que nos ayudarán a cuantificar y evaluar el nivel de deuda en nuestro software. Además, crearemos un modelo matemático simple que nos proporcionará una visión más precisa de la magnitud de la deuda técnica en nuestros proyectos y los elementos de riesgo.br><br>Luego, presentaremos un posible plan de trabajo para abordar la Deuda Técnica de manera efectiva. Discutiremos diferentes estrategias y enfoques que podemos implementar para reducir proactivamente la deuda, optimizando así el rendimiento y la calidad de nuestro software.br><br>Finalmente, concluiremos la charla con valiosas recomendaciones y conclusiones basadas en nuestra experiencia y mejores prácticas del sector. Te iremos preparando para enfrentar la Deuda Técnica de manera estratégica y eficiente, asegurando el éxito a largo plazo de tus proyectos de desarrollo de software.br><br>¡No pierdas esta oportunidad de aprender cómo reducir la Deuda Técnica y llevar tus proyectos al siguiente nivel!",
+    "audience_level": "All",
+    "time": "5:30 PM",
+    "talk_format": "Talk (~60 minutes)",
+    "language": "es",
+    "tags": [
+      "Java",
+      "Technical debt"
+    ],
+    "speakers": [
+      "frank_jcg"
+    ]
   }
-}
+]

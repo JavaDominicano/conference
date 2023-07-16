@@ -74,14 +74,11 @@ function createSessionCard(title,abstract, speaker,time) {
         return sessionHtml;
 }
 
-function getSpeakerById(fetchUrlSpeaker){
- return fetch(fetchUrlSpeaker)
-      .then(function (response) {
-          if (!response.ok) {
-              throw Error(response.statusText);
-          }
-
-          return response.json();
-      });
+async function getSpeakerById(fetchUrlSpeaker){
+ const response = await fetch(fetchUrlSpeaker);
+  if (!response.ok) {
+    throw Error(response.statusText);
+  }
+  return await response.json();
       
 }
