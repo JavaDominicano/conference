@@ -63,7 +63,7 @@
     },
     "104": {
         "id": 104,
-        "title": "Taller Creación de sus propios modelos de aprendizaje automático en Java, con Java y para Java",
+        "title": "Taller Creación de tus propios modelos de Machine Learning en Java, con Java y para Java",
         "photoUrl": "/img/workshops/ml.png",
         "abstract": "¿Te has planteado incluir algún tipo de Inteligencia Artiificial a tu APP?, ¿has intentado predecir el resultado de tus usuarios en base a sus comportamientos? Cuando necesitamos hacer cualquier solución de este tipo siempre pensamos en Python, Scala o usando un servicio externo como IBM Watson, Amazon SageMaker, etc... En este caso, vamos a repasar cómo: crear, entrenar y usar modelos ML desde la simple LinearRegression hasta redes de Deep Learning para la Detección de Objetos/Imágenes, todo esto sólo usando JAVA.",
         "description": "Exploraremos la JSR 381 y la API VisRec que simplifica y estandariza un conjunto de APIs familiares a los desarrolladores Java para clasificar y reconocer objetos en imágenes utilizando aprendizaje automático. Además de clases específicas para tareas de reconocimiento visual, proporciona abstracciones generales para tareas de aprendizaje automático como clasificación y regresión. Revisaremos todas las capacidades de esta API y las veremos ejecutando ejemplos del mundo real con datos del mundo real.",
