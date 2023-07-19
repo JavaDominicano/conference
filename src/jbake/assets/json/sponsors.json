@@ -40,5 +40,11 @@
     "name": "Avathar Tech",
     "logoUrl": "/img/sponsors/AvatharTech.png",
     "url": "https://avathartech.com/"
+  },
+  {
+    "id": "codecrafters",
+    "name": "Code Crafters",
+    "logoUrl": "/img/sponsors/CodeCrafters.png",
+    "url": "https://codecrafters.io/?r=5Dk"
   }
 ]
