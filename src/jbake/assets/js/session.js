@@ -21,22 +21,22 @@ fetch(fetchUrl)
 
       let sessions = document.getElementById('sessionsList');
 
-      sessionList.forEach((session) => {
-           let title = session.title;
-           let abstract = session.abstract;
-           let speakerId = session.speakers[0];
-
-           let time = session.time;
-
-         let speakerPromise = getSpeakerById(getUsefulContents("lang", "../json/speakers/"+speakerId));
-
-           speakerPromise.then(function(speaker){
-              sessions.innerHTML += createSessionCard(title,abstract,speaker, time);
-           });
-         });
-
+      sessionList.forEach((session) => processSession(session, sessions));
 
 });
+
+async function processSession(session, sessions){
+    let title = session.title;
+    let abstract = session.abstract;
+    let speakerId = session.speakers[0];
+
+    let time = session.time;
+
+  let speaker = await getSpeakerById(getUsefulContents("lang", "../json/speakers/"+speakerId));
+
+  sessions.innerHTML += createSessionCard(title,abstract,speaker, time);
+
+}
 
 $(document).on('click', '#sessionsList li.meeta-event-accordion-item > .meeta-event-accordion-toggle', function(){
   if ($(this).hasClass("active")) {
@@ -79,6 +79,6 @@ async function getSpeakerById(fetchUrlSpeaker){
   if (!response.ok) {
     throw Error(response.statusText);
   }
-  return await response.json();
+  return response.json();
       
 }
