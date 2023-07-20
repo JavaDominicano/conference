@@ -46,5 +46,11 @@
     "name": "Code Crafters",
     "logoUrl": "/img/sponsors/CodeCrafters.png",
     "url": "https://codecrafters.io/?r=5Dk"
+  },
+  {
+    "id": "wepsys",
+    "name": "wepsys",
+    "logoUrl": "/img/sponsors/wepsys.jpg",
+    "url": "https://wepsys.net"
   }
 ]
