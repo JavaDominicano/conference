@@ -50,7 +50,13 @@
   {
     "id": "wepsys",
     "name": "wepsys",
-    "logoUrl": "/img/sponsors/wepsys.jpg",
+    "logoUrl": "/img/sponsors/Wepsys.png",
     "url": "https://wepsys.net"
+  },
+    {
+    "id": "leongoma",
+    "name": "leongoma",
+    "logoUrl": "/img/sponsors/DeLeonGoma.png",
+    "url": "https://www.instagram.com/deleongomas"
   }
 ]
