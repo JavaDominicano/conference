@@ -27,11 +27,20 @@
                             <p class="text" data-aos-delay="700" data-aos="fade-up">July 21-22, 2023. Santo Domingo. Dominican Republic.</p>
                             <h2 class="title" data-aos-delay="800" data-aos="fade-up">The Caribbean Java Technologies Conference.</h2>
 							
-                            <div class="header-btn" data-aos-delay="900" data-aos="fade-up">
-                              <a th:href="${config.layout_buytickets_url}" href="price.html" th:if="${config.layout_display_buytickets_index_button}" class="btn-2">Buy Ticket Now</a>
-								<a th:href="${config.layout_cfp_url}" href="https://bit.ly/40Yv7z4" th:if="${config.layout_display_cfp}" class="btn-2" title="Call For Paper" target="_blank">Apply to become a speaker</a>
-
+                            <div class="header-btn" data-aos-delay="900" data-aos="fade-up" th:if="${config.layout_display_buytickets_index_button}">
+                              <a th:href="${config.layout_buytickets_url}" href="price.html" class="btn-2">Buy Ticket Now</a>
                             </div>
+
+                            <div class="header-btn" data-aos-delay="900" data-aos="fade-up" th:if="${config.layout_display_cfp}">
+                             <a th:href="${config.layout_cfp_url}" href="https://bit.ly/40Yv7z4" class="btn-2" title="Call For Paper" target="_blank">Apply to become a speaker</a>
+                            </div>
+
+                            <div th:if="${config.layout_display_event_concluded}" th:remove="tag">
+                                <h4 class="sub-title">The event has now concluded!</h4>
+                                <p class="text" data-aos-delay="700" data-aos="fade-up">Thank you to speakers, sponsors, attendees and organizers for making JConf Dominicana event a success!</p>
+                                <p class="text" data-aos-delay="700" data-aos="fade-up">See you all again next year!</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
