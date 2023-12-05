@@ -24,7 +24,7 @@
                     <div class="col-lg-12">
                         <div class="meeta-hero-content text-center">
 				<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
-                            <p class="text" data-aos-delay="700" data-aos="fade-up">July 21-22, 2023. Santo Domingo. Dominican Republic.</p>
+                            <p class="text" data-aos-delay="700" data-aos="fade-up" th:text="${config.layout_date_and_location_home}" th:if="${config.layout_display_date_and_location_home}">Location</p>
                             <h2 class="title" data-aos-delay="800" data-aos="fade-up">The Caribbean Java Technologies Conference.</h2>
 							
                             <div class="header-btn" data-aos-delay="900" data-aos="fade-up">

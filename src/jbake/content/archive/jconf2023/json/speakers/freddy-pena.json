@@ -1,0 +1,31 @@
+{
+    "id": "freddy-pena",
+    "name": "Freddy Peña",
+    "photoUrl": "/img/speakers/freddy-pena.jpg",
+    "title": "Founder & Software Developer",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Founder of Alphnology and versatile professional, I bring over 10 years of software development experience in the Java ecosystem. With a strong passion for open source and a member of the Dominican Java Community Professor at the School of Computer Engineering and Telecommunications, PUCMM.",
+    "socials": [
+        {
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "https://twitter.com/fred_pena"
+        },
+        {
+            "icon": "github",
+            "name": "Github",
+            "link": "https://github.com/fredpena"
+        },
+        {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/fantpena/"
+        },
+        {
+            "icon": "link",
+            "name": "link",
+            "link": "https://alphnology.com/"
+        }
+    ]
+}

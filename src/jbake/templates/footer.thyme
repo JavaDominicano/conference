@@ -47,13 +47,13 @@
                                         <!-- Footer Info Start -->
                                         <div class="footer-info">
                                             <h3 class="title">Event Details</h3>
-                                            <span class="date">21 - 22 July 2023</span>
-                                            <p>Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.</p>
+                                            <span class="date" th:if="${config.layout_display_event_details_date_footer}" th:text="${config.layout_event_details_date_footer}">21 - 22 July 2023</span>
+                                            <p th:if="${config.layout_display_event_details_venue_address_footer}" th:text="${config.layout_event_details_venue_address_footer}">Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.</p>
                                             <div class="footer-widget-social">
                                                <a th:if="${config.facebook_username}" href="#" th:href="|https://www.facebook.com/${config.facebook_username}|" th:target="_blank"><i class="fab fa-facebook-f"></i></a>
 											   <a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" th:target="_blank"><i class="fab fa-twitter"></i></a>
 
-									<a th:if="${config.instagram_username}" href="#" th:href="|https://www.instagram.com/${config.instagram_username}|" th:target="_blank"><i class="fab fa-instagram"></i></a>
+									           <a th:if="${config.instagram_username}" href="#" th:href="|https://www.instagram.com/${config.instagram_username}|" th:target="_blank"><i class="fab fa-instagram"></i></a>
 
                                             </div>
                                             <!-- Footer Info End -->
@@ -62,8 +62,8 @@
 
                                     <div class="col-md-7">
                                         <!-- Footer widget Map Start -->
-                                        <div class="footer-widget-map">
-											<iframe scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.4657700883313!2d-69.9326994242039!3d18.462549870942812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea56275603eada9%3A0x32384d33d348d145!2sPontificia%20Universidad%20Cat%C3%B3lica%20Madre%20y%20Maestra%20(PUCMM)!5e0!3m2!1sen!2sdo!4v1684608894395!5m2!1sen!2sdo" title="PUCMM, Campus Santo Domingo" aria-label="PUCMM, Campus Santo Domingo" frameborder="0"></iframe>
+                                        <div class="footer-widget-map" th:if="${config.layout_display_event_details_venue_address_mapurl_footer}">
+											<iframe scrolling="no" marginheight="0" marginwidth="0" th:src="${config.layout_event_details_venue_address_mapurl_footer}"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.4657700883313!2d-69.9326994242039!3d18.462549870942812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea56275603eada9%3A0x32384d33d348d145!2sPontificia%20Universidad%20Cat%C3%B3lica%20Madre%20y%20Maestra%20(PUCMM)!5e0!3m2!1sen!2sdo!4v1684608894395!5m2!1sen!2sdo" title="PUCMM, Campus Santo Domingo" aria-label="PUCMM, Campus Santo Domingo" frameborder="0"></iframe>
                                         </div>
                                         <!-- Footer widget Map End -->
                                     </div>

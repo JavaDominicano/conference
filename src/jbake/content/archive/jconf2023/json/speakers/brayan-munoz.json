@@ -1,0 +1,25 @@
+{
+    "id": "brayan-munoz",
+    "name": "Brayan Muñoz V",
+    "photoUrl": "/img/speakers/brayan-munoz.jpg",
+    "title": "Software Developer",
+	"shortBio": "",
+	"countryFlag": "flag-icon-do",
+    "bio": "Software Developer – Telematics Engineer from PUCMM - Member of an Open Source organization called Fonoster. ",
+    "socials": [{
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "https://twitter.com/Brayanmnz_"
+        },
+        {
+            "icon": "github",
+            "name": "Github",
+            "link": "https://github.com/brayanmnz"
+        },
+        {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/brayanmnz"
+        }
+    ]
+}
