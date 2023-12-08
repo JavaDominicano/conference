@@ -4,41 +4,188 @@
 	<body>
 	<div th:fragment="gallery" th:remove="tag">
 
-		<!--==========================
-      Gallery Section
-    ============================-->
-    <section id="gallery" class="wow fadeInUp">
+	<!-- Gallery Start -->
+        <div class="meeta-gallery meeta-gallery-2 section-padding">
+            <div class="container">
 
-      <div class="container">
-        <div class="section-header">
-          <h2>Images of JConf Dominicana 2019</h2>
+
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+
+                        <!-- Single Gallery Start -->
+                        <div class="single-gallery">
+                            <div class="gallery-image">
+                                <img src="img/gallery/jconf-2019-1.jpg" alt="Gallery">
+                            </div>
+                            <div class="gallery-content">
+                                <div class="gallery-content-wrap">
+                                    <a href="img/gallery/jconf-2019-1.jpg" class="gallery-plus image-popup">
+                                        <span></span>
+                                    </a>
+                                    <h4 class="gallery-title"><a href="#">JConf Dominicana 2019</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Gallery End -->
+
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+
+                        <!-- Single Gallery Start -->
+                        <div class="single-gallery">
+                            <div class="gallery-image">
+                                <img src="img/gallery/jconf-2019-2.jpg" alt="Gallery">
+                            </div>
+                            <div class="gallery-content">
+                                <div class="gallery-content-wrap">
+                                    <a href="img/gallery/jconf-2019-2.jpg" class="gallery-plus image-popup">
+                                        <span></span>
+                                    </a>
+                                    <h4 class="gallery-title"><a href="#">JConf Dominicana 2019</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Gallery End -->
+
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+
+                        <!-- Single Gallery Start -->
+                        <div class="single-gallery">
+                            <div class="gallery-image">
+                                <img src="img/gallery/jconf-2019-3.jpg" alt="Gallery">
+                            </div>
+                            <div class="gallery-content">
+                                <div class="gallery-content-wrap">
+                                    <a href="img/gallery/jconf-2019-3.jpg" class="gallery-plus image-popup">
+                                        <span></span>
+                                    </a>
+                                    <h4 class="gallery-title"><a href="#">JConf Dominicana 2019</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Gallery End -->
+
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+
+                        <!-- Single Gallery Start -->
+                        <div class="single-gallery">
+                            <div class="gallery-image">
+                                <img src="img/gallery/jconf-2019-4.jpg" alt="Gallery">
+                            </div>
+                            <div class="gallery-content">
+                                <div class="gallery-content-wrap">
+                                    <a href="img/gallery/jconf-2019-4.jpg" class="gallery-plus image-popup">
+                                        <span></span>
+                                    </a>
+                                    <h4 class="gallery-title"><a href="#">JConf Dominicana 2019</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Gallery End -->
+
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+
+                        <!-- Single Gallery Start -->
+                        <div class="single-gallery">
+                            <div class="gallery-image">
+                                <img src="img/gallery/jconf-2019-5.jpg" alt="Gallery">
+                            </div>
+                            <div class="gallery-content">
+                                <div class="gallery-content-wrap">
+                                    <a href="img/gallery/jconf-2019-5.jpg" class="gallery-plus image-popup">
+                                        <span></span>
+                                    </a>
+                                    <h4 class="gallery-title"><a href="#">JConf Dominicana 2019</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Gallery End -->
+
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+
+                        <!-- Single Gallery Start -->
+                        <div class="single-gallery">
+                            <div class="gallery-image">
+                                <img src="img/gallery/jconf-2019-6.jpg" alt="Gallery">
+                            </div>
+                            <div class="gallery-content">
+                                <div class="gallery-content-wrap">
+                                    <a href="img/gallery/jconf-2019-6.jpg" class="gallery-plus image-popup">
+                                        <span></span>
+                                    </a>
+                                    <h4 class="gallery-title"><a href="#">JConf Dominicana 2019</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Gallery End -->
+
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+
+                        <!-- Single Gallery Start -->
+                        <div class="single-gallery">
+                            <div class="gallery-image">
+                                <img src="img/gallery/jconf-2019-7.jpg" alt="Gallery">
+                            </div>
+                            <div class="gallery-content">
+                                <div class="gallery-content-wrap">
+                                    <a href="img/gallery/jconf-2019-7.jpg" class="gallery-plus image-popup">
+                                        <span></span>
+                                    </a>
+                                    <h4 class="gallery-title"><a href="#">JConf Dominicana 2019</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Gallery End -->
+
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+
+                        <!-- Single Gallery Start -->
+                        <div class="single-gallery">
+                            <div class="gallery-image">
+                                <img src="img/gallery/jconf-2019-8.jpg" alt="Gallery">
+                            </div>
+                            <div class="gallery-content">
+                                <div class="gallery-content-wrap">
+                                    <a href="img/gallery/jconf-2019-8.jpg" class="gallery-plus image-popup">
+                                        <span></span>
+                                    </a>
+                                    <h4 class="gallery-title"><a href="#">JConf Dominicana 2019</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Gallery End -->
+
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+
+                        <!-- Single Gallery Start -->
+                        <div class="single-gallery">
+                            <div class="gallery-image">
+                                <img src="img/gallery/jconf-2019-9.jpg" alt="Gallery">
+                            </div>
+                            <div class="gallery-content">
+                                <div class="gallery-content-wrap">
+                                    <a href="img/gallery/jconf-2019-9.jpg" class="gallery-plus image-popup">
+                                        <span></span>
+                                    </a>
+                                    <h4 class="gallery-title"><a href="#">JConf Dominicana 2019</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Gallery End -->
+
+                    </div>
+                </div>
+
+            </div>
         </div>
-      </div>
-
-      <div class="owl-carousel gallery-carousel">
-        <a href="img/gallery/jconf-2019-1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-1.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-2.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-3.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-4.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-5.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-6.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-7.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-8.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-9.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-9.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-10.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-10.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-11.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-11.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-12.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-12.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-13.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-13.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-14.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-14.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-15.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-15.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-16.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-16.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-17.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-17.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-18.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-18.jpg" alt=""></a>
-      </div>
-
-    </section>
-
-
+        <!-- Gallery End -->
 	</div>
   </body>
   </html>
