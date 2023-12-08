@@ -12,8 +12,11 @@ fetch('/archive/jconf2019/json/gallery.json')
         for (let i in galleryJson.images) {
             gallery.innerHTML += createSingleGallery(galleryJson.event_name,galleryJson.event_url, galleryJson.images[i]);
         }
-    });
 
+       enableGallery();
+    });   
+  
+  
 
 function createSingleGallery(event_name,event_url,image) {
 
@@ -30,4 +33,13 @@ function createSingleGallery(event_name,event_url,image) {
         "</div>" +
         "</div>";
     return galleryHtml;
+}
+
+function enableGallery(){
+    $('.image-popup').magnificPopup({
+        type: 'image',
+        gallery:{
+          enabled:true
+        }
+    });
 }
