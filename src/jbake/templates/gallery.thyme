@@ -4,41 +4,14 @@
 	<body>
 	<div th:fragment="gallery" th:remove="tag">
 
-		<!--==========================
-      Gallery Section
-    ============================-->
-    <section id="gallery" class="wow fadeInUp">
-
-      <div class="container">
-        <div class="section-header">
-          <h2>Images of JConf Dominicana 2019</h2>
+	 <!-- Gallery Start -->
+        <div class="meeta-gallery section-padding-02">
+            <div class="row g-0" id="homeGallery">
+                
+           </div>
         </div>
-      </div>
-
-      <div class="owl-carousel gallery-carousel">
-        <a href="img/gallery/jconf-2019-1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-1.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-2.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-3.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-4.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-5.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-6.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-7.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-8.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-9.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-9.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-10.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-10.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-11.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-11.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-12.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-12.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-13.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-13.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-14.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-14.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-15.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-15.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-16.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-16.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-17.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-17.jpg" alt=""></a>
-        <a href="img/gallery/jconf-2019-18.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/jconf-2019-18.jpg" alt=""></a>
-      </div>
-
-    </section>
-
-
+        <!-- Gallery End -->
+        <script type="module" src="js/gallery.js"></script>
 	</div>
   </body>
   </html>

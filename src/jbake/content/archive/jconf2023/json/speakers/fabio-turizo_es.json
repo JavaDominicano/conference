@@ -1,0 +1,21 @@
+{
+    "id": "fabio-turizo",
+    "name": "Fabio Turizo",
+    "photoUrl": "/img/speakers/fabio-turizo.jpg",
+    "title": "Ingeniero de Software",
+    "shortBio": "",
+    "countryFlag": "flag-icon-co",
+    "bio": "Fabio es un ingeniero de software que ofrece más de 12 años en la industria de TI con un enfoque en arquitectura y desarrollo de software. Profesional Certificado Oracle y Especialista en plataformas Java SE y EE. Actualmente trabajo como gerente de servicio y developer advocate en Payara Services Limited, trabajando en todo lo relacionado con Jakarta EE y MicroProfile. Le gusta presentar charlas sobre temas de tecnología moderna para desarrolladores y arquitectos sobre temas de DevOps, Enterprise Java y microservicios.Le gusta mucho Java, pero Python siempre tendrá un lugar especial en su corazón.",
+    "socials": [
+        {
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "https://twitter.com/fabturizo"
+        },
+        {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/fturizo"
+        }
+    ]
+}

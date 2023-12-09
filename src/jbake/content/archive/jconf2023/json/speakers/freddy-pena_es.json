@@ -1,0 +1,31 @@
+{
+    "id": "freddy-pena",
+    "name": "Freddy Peña",
+    "photoUrl": "/img/speakers/freddy-pena.jpg",
+    "title": "Founder & Software Developer",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Fundador de Alphnology y profesional versátil, aporto más de 10 años de experiencia en desarrollo de software en el ecosistema Java. Con una fuerte pasión por el código abierto y miembro de la Comunidad Dominicana Java Profesor de la Escuela de Ingeniería Informática y Telecomunicaciones, PUCMM.",
+    "socials": [
+        {
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "https://twitter.com/fred_pena"
+        },
+        {
+            "icon": "github",
+            "name": "Github",
+            "link": "https://github.com/fredpena"
+        },
+        {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/fantpena/"
+        },
+        {
+            "icon": "link",
+            "name": "link",
+            "link": "https://alphnology.com/"
+        }
+    ]
+}
