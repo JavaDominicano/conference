@@ -3,76 +3,113 @@
 	"event_name": "JConf Dominicana 2023",
 	"images": [
 		{
-			"title": "Sebastian Daschner - Germany",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-1.jpg"
-		},
-		{
-			"title": "Hillmer Chona - Colombia",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-2.jpg"
-		},
-		{
-			"title": "Event Committee With Java Luminaries Josh Long,Mark Heckler and Sebastian Daschner",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-3.jpg"
-		},
-		{
-			"title": "Eudris Cabrera, Carlos Camacho and Igor Suhorukov",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-4.jpg"
-		},
-		{
-			"title": "Eudris Cabrera, Miguel Useche and Hillmer Chona",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-5.jpg"
-		},
-		{
-			"title": "Miguel Useche - Venezuela",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-6.jpg"
-		},
-		{
-			"title": "¡A Living legend! Josh Long",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-7.jpg"
+			"title": "Attendees",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-1.jpg"
 		},
 		{
 			"title": "Carlos Camacho - Dominican Republic",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-8.jpg"
-		},
-		{
-			"title": "Sebastian Daschner - Germany",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-9.jpg"
-		},
-		{
-			"title": "Sebastian Daschner - Germany",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-10.jpg"
-		},
-		{
-			"title": "Sebastian Daschner - Germany",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-11.jpg"
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-2.jpg"
 		},
 		{
 			"title": "Attendees",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-12.jpg"
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-3.jpg"
 		},
 		{
-			"title": "Sebastian Daschner - Germany",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-13.jpg"
+			"title": "Jorga Cajas Mota - Guatemala",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-4.jpg"
+		},
+		{
+			"title": "Juan José Polanco - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-5.jpg"
+		},
+		{
+			"title": "Enrique Zamudio - Mexico",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-6.jpg"
+		},
+		{
+			"title": "A Raffle Winner!",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-7.jpg"
+		},
+		{
+			"title": "The Caribbean, Central America and  North America: Java community is everywhere!",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-8.jpg"
+		},
+		{
+			"title": "Day 1 - Workshop - Carlos Camacho",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-9.jpg"
+		},
+		{
+			"title": "Day 1 - Workshop",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-10.jpg"
+		},
+		{
+			"title": "Freddy Peña - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-11.jpg"
+		},
+		{
+			"title": "Solenny Peralta López - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-12.jpg"
+		},
+		{
+			"title": "Enrique Zamudio - Mexico",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-13.jpg"
+		},
+		{
+			"title": "Day 1 - Workshop - Brayan Muñoz - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-14.jpg"
+		},
+		{
+			"title": "Day 1 - Workshop - Ivanosevic García - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-15.jpg"
+		},
+		{
+			"title": "Day 1 - Workshop - Brayan Muñoz - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-16.jpg"
+		},
+		{
+			"title": "Carlos Camacho - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-17.jpg"
 		},
 		{
 			"title": "Attendees",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-14.jpg"
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-18.jpg"
 		},
 		{
-			"title": "Attendees",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-15.jpg"
+			"title": "Enrique Zamudio - Mexico",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-19.jpg"
 		},
 		{
-			"title": "Event Committee and Volunteers",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-16.jpg"
+			"title": "Eudris Cabrera - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-20.jpg"
 		},
 		{
-			"title": "Java Luminary, Mark Heckler",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-17.jpg"
+			"title": "Paying close attention to the leader's comments.",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-21.jpg"
 		},
 		{
-			"title": "Java Luminary, Mark Heckler",
-			"image_url": "/archive/jconf2023/images/gallery/jconf-2019-18.jpg"
-		}
+			"title": "Jorga Cajas Mota - Guatemala",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-22.jpg"
+		},
+		{
+			"title": "Francisco Contreras - Nicaragua",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-23.jpg"
+		},
+		{
+			"title": "Dominican Republic, Nicaragua and Mexico",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-24.jpg"
+		},
+		{
+			"title": "Eudris Cabrera - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-25.jpg"
+		},
+		{
+			"title": "Juan Diego López - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-26.jpg"
+		},
+		{
+			"title": "Yuri Santana - Dominican Republic",
+			"image_url": "/archive/jconf2023/images/gallery/jconf-2023-27.jpg"
+		}	
+	
 	]
 }
