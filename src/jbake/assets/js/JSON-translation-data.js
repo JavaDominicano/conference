@@ -562,150 +562,163 @@ var linguJSON = {
       'target_es': 'Ver en Youtube'
     },
     {
-      "source" : "Thank you to speakers, sponsors, attendees and all staff of organizers for joining us in 2022!",
-      "target_es" : "Gracias a los conferencistas, patrocinadores, asistentes y al comité organizador por acompañarnos en el 2022!"
+      "source": "Thank you to speakers, sponsors, attendees and all staff of organizers for joining us in 2022!",
+      "target_es": "Gracias a los conferencistas, patrocinadores, asistentes y al comité organizador por acompañarnos en el 2022!"
     },
     {
-      "source" : "See you all again next year!",
-      "target_es":"Nos vemos el próximo año!"
+      "source": "See you all again next year!",
+      "target_es": "Nos vemos el próximo año!"
     },
     {
-      "source" : "Apply to become a speaker",
-      "target_es":"¡Envía tu propuesta aquí!"
+      "source": "Apply to become a speaker",
+      "target_es": "¡Envía tu propuesta aquí!"
     },
     {
-      "source" : "Virtual Edition",
-      "target_es":"Edición Virtual"
+      "source": "Virtual Edition",
+      "target_es": "Edición Virtual"
     },
     {
-      "source" : "July 23, 2022",
-      "target_es":"23 de Julio, 2022"
+      "source": "July 23, 2022",
+      "target_es": "23 de Julio, 2022"
     }
     ,
     {
-      "source" : "July 22, 2022",
-      "target_es":"22 de Julio, 2022"
+      "source": "July 22, 2022",
+      "target_es": "22 de Julio, 2022"
     },
 
     {
-      "source" : "Workshops",
-      "target_es":"Talleres"
+      "source": "Workshops",
+      "target_es": "Talleres"
     },
     {
 
-      "source":"09:00 A.M – 1:00 P.M AST - Workshop: Containers and Orchestrators for Java Developer by",
-      "target_es" : "09:00 A.M – 1:00 P.M AST - Contenedores y Orquestadores de Software Para Javeros por"
+      "source": "09:00 A.M – 1:00 P.M AST - Workshop: Containers and Orchestrators for Java Developer by",
+      "target_es": "09:00 A.M – 1:00 P.M AST - Contenedores y Orquestadores de Software Para Javeros por"
     },
     {
-      "source" : "02:00 P.M – 6:00 P.M AST - Workshop: New features after Java 8 that make your life easier by",
-      "target_es":"02:00 P.M – 6:00 P.M AST - Novedades después de Java 8 que hacen tu vida más fácil por"
+      "source": "02:00 P.M – 6:00 P.M AST - Workshop: New features after Java 8 that make your life easier by",
+      "target_es": "02:00 P.M – 6:00 P.M AST - Novedades después de Java 8 que hacen tu vida más fácil por"
     },
 
     {
-      "source" : "Location: PUCMM, Santiago",
-      "target_es":"Lugar: PUCMM, Santiago"
+      "source": "Location: PUCMM, Santiago",
+      "target_es": "Lugar: PUCMM, Santiago"
     },
 
     {
-      "source" : "Location: PUCMM, Santo Domingo",
-      "target_es":"Lugar: PUCMM, Santo Domingo"
+      "source": "Location: PUCMM, Santo Domingo",
+      "target_es": "Lugar: PUCMM, Santo Domingo"
     },
 
     {
-      "source" : "The high cost of not upgrading Java in your company.",
-      "target_es":"El alto costo de no actualizar Java en tu empresa."
+      "source": "The high cost of not upgrading Java in your company.",
+      "target_es": "El alto costo de no actualizar Java en tu empresa."
     },
     {
-      "source" : "Women who code Java: Debugging Stereotypes:",
-      "target_es":"Javeras Tricolor: Debuggeando Estereotipos:"
+      "source": "Women who code Java: Debugging Stereotypes:",
+      "target_es": "Javeras Tricolor: Debuggeando Estereotipos:"
     },
 
     {
-      "source" : "Computer Vision with Jupyter, TensorFlow and Java.",
-      "target_es":"Computer Vision con Jupyter, TensorFlow y Java."
+      "source": "Computer Vision with Jupyter, TensorFlow and Java.",
+      "target_es": "Computer Vision con Jupyter, TensorFlow y Java."
     },
     {
-      "source" : "July 22, 2022. Workshops @ JConf Dominicana 2022",
-      "target_es":"22 de Julio de 2022. Talleres @ JConf Dominicana 2022"
+      "source": "July 22, 2022. Workshops @ JConf Dominicana 2022",
+      "target_es": "22 de Julio de 2022. Talleres @ JConf Dominicana 2022"
     },
     {
-      "source" : "Q&A: Technical Leaders.",
-      "target_es":"Q&A: Especial Líderes Técnicos"
+      "source": "Q&A: Technical Leaders.",
+      "target_es": "Q&A: Especial Líderes Técnicos"
     },
 
     {
-      "source" : "Saturday, July 22, 2023. Santo Domingo. Dominican Republic.",
-      "target_es":"Sábado 22 de Julio de 2023. Santo Domingo. Dominican Republic"
-    },
-    
-    {
-      "source" : "Live Coding",
-      "target_es":"Codificación En Vivo"
-    },
-    {
-      "source" : "Food",
-      "target_es":"Almuerzo"
+      "source": "Saturday, July 22, 2023. Santo Domingo. Dominican Republic.",
+      "target_es": "Sábado 22 de Julio de 2023. Santo Domingo. Dominican Republic"
     },
 
     {
-      "source" : "Workshops",
-      "target_es":"Talleres"
+      "source": "Live Coding",
+      "target_es": "Codificación En Vivo"
+    },
+    {
+      "source": "Food",
+      "target_es": "Almuerzo"
     },
 
     {
-      "source" : "Gift Items",
-      "target_es":"Regalos"
+      "source": "Workshops",
+      "target_es": "Talleres"
     },
 
     {
-      "source" : "The sessions and keynotes for JConf Dominicana 2023 are chosen by a committee made up of volunteers from Dominican Republic Java Users Group (Aka JavaDominicano).",
-      "target_es":"Las sesiones y paneles para JConf Dominicana 2023 son elegidas por un comité compuesto por voluntarios de la comunidad de usuarios Java de República Dominicana (Aka JavaDominicano)."
+      "source": "Gift Items",
+      "target_es": "Regalos"
     },
 
     {
-      "source":"Biography",
-      "target_es":"Biografía"
+      "source": "The sessions and keynotes for JConf Dominicana 2023 are chosen by a committee made up of volunteers from Dominican Republic Java Users Group (Aka JavaDominicano).",
+      "target_es": "Las sesiones y paneles para JConf Dominicana 2023 son elegidas por un comité compuesto por voluntarios de la comunidad de usuarios Java de República Dominicana (Aka JavaDominicano)."
     },
 
     {
-      "source":"Event Details",
-      "target_es":"Detalles del evento"
-    },
-    {
-      "source":"21 - 22 July 2023",
-      "target_es":"21 - 22  de Julio de 2023"
-    },
-    {
-      "source":"Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.",
-      "target_es":"Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. República Dominicana."
-    },
-    {
-      "source":"Join our mailing list to stay up to date on all things about our event.",
-      "target_es":"Únase a nuestra lista de correo para estar al día de todo lo relacionado con nuestro evento."
+      "source": "Biography",
+      "target_es": "Biografía"
     },
 
     {
-      "source":"Buy Ticket Now",
-      "target_es":"Comprar Entrada Ahora"
+      "source": "Event Details",
+      "target_es": "Detalles del evento"
     },
     {
-      "source":"Ticket Price",
-      "target_es":"Precio de la Entrada"
+      "source": "21 - 22 July 2023",
+      "target_es": "21 - 22  de Julio de 2023"
     },
     {
-      "source":"Get Your Tickets Now",
-      "target_es":"Adquiera sus Entradas Ahora"
+      "source": "Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.",
+      "target_es": "Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. República Dominicana."
     },
-    
     {
-      "source":"July 22, 2023",
-      "target_es":"22 de Julio de 2023"
+      "source": "Join our mailing list to stay up to date on all things about our event.",
+      "target_es": "Únase a nuestra lista de correo para estar al día de todo lo relacionado con nuestro evento."
     },
 
     {
-      "source":"July 21, 2023",
-      "target_es":"21 de Julio de 2023"
+      "source": "Buy Ticket Now",
+      "target_es": "Comprar Entrada Ahora"
     },
+    {
+      "source": "Ticket Price",
+      "target_es": "Precio de la Entrada"
+    },
+    {
+      "source": "Get Your Tickets Now",
+      "target_es": "Adquiera sus Entradas Ahora"
+    },
+
+    {
+      "source": "July 22, 2023",
+      "target_es": "22 de Julio de 2023"
+    },
+
+    {
+      "source": "July 21, 2023",
+      "target_es": "21 de Julio de 2023"
+    },
+    {
+      "source": "The event has now concluded!",
+      "target_es": "¡El evento ya ha concluido!"
+    },
+
+    {
+      "source": "Thank you to speakers, sponsors, attendees and organizers for making JConf Dominicana event a success!",
+      "target_es": "¡Gracias a los oradores, patrocinadores, asistentes y organizadores por hacer del evento JConf Dominicana un éxito!"
+    },
+    {
+      "source": "See you all again next year!",
+      "target_es": "Nos vemos el próximo año!"
+    }
 
   ]
 }
