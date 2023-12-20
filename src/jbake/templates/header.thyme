@@ -1,11 +1,11 @@
-<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-transitional-thymeleaf-4.dtd">
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head th:fragment="head-index">
   <meta charset="utf-8"/>
   <title th:with="title=(${content.title} ?: ${config.site_title})" th:text="${title}">Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta name="description" content="" th:with="site_description=(${content.description} ?: ${config.site_description})" th:content="${site_description}"/>
   <meta name="author" content="" th:content="${content.author} ?: ${config.site_author}"/>
   <meta name="keywords" content=""/>
   <meta name="generator" content="JBake"/>
@@ -60,7 +60,7 @@
   <meta charset="utf-8"/>
   <title th:with="title=(${content.title} ?: ${config.site_title})" th:text="${title}">Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta name="description" content=""  th:with="site_description=(${content.description} ?: ${config.site_description})" th:content="${site_description}"/>
   <meta name="author" content="" th:content="${content.author} ?: ${config.site_author}"/>
   <meta name="keywords" content=""/>
   <meta name="generator" content="JBake"/>
