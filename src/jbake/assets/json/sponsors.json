@@ -5,58 +5,19 @@
     "logoUrl": "/img/sponsors/pucmm.png",
     "url": "https://www.pucmm.edu.do/"
   },
-  {
-    "id": "nearsure",
-    "name": "Nearsure",
-    "logoUrl": "/img/sponsors/nearsure.png",
-    "url": "https://nearsure.com/careers"
-  },
-  {
-    "id": "anuniformes",
-    "name": "AN Uniformes",
-    "logoUrl": "/img/sponsors/an-uniformes.png",
-    "url": "https://www.instagram.com/anuniformes"
-  },
+  
   {
     "id": "alphnology",
     "name": "Alphnology",
     "logoUrl": "/img/sponsors/alphnology.png",
     "url": "https://alphnology.com/"
-  },
-  {
-    "id": "swisher",
-    "name": "Swisher Dominicana, Inc",
-    "logoUrl": "/img/sponsors/swisher-dominicana.png",
-    "url": "https://www.linkedin.com/company/swisherdominicana/"
-  },
-  {
-    "id": "aracena",
-    "name": "Aracena",
-    "logoUrl": "/img/sponsors/aracena-creaciones.png",
-    "url": "https://www.instagram.com/aracena.rd"
-  },
+  },  
+ 
   {
     "id": "avathartech",
     "name": "Avathar Tech",
     "logoUrl": "/img/sponsors/AvatharTech.png",
     "url": "https://avathartech.com/"
-  },
-  {
-    "id": "codecrafters",
-    "name": "Code Crafters",
-    "logoUrl": "/img/sponsors/CodeCrafters.png",
-    "url": "https://codecrafters.io/?r=5Dk"
-  },
-  {
-    "id": "wepsys",
-    "name": "wepsys",
-    "logoUrl": "/img/sponsors/Wepsys.png",
-    "url": "https://wepsys.net"
-  },
-    {
-    "id": "leongoma",
-    "name": "leongoma",
-    "logoUrl": "/img/sponsors/DeLeonGoma.png",
-    "url": "https://www.instagram.com/deleongomas"
-  }
+  } 
+ 
 ]

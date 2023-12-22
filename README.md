@@ -107,3 +107,11 @@ Browse to http://localhost:8080
 
 * [General GitHub documentation](http://help.github.com/)
 * [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
+
+### Contributors
+
+[Contributors](https://github.com/JavaDominicano/conference/graphs/contributors)
+   
+<a href="https://github.com/JavaDominicano/conference/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=JavaDominicano/conference" />
+</a>

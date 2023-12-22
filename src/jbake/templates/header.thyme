@@ -1,11 +1,11 @@
-<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-transitional-thymeleaf-4.dtd">
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head th:fragment="head-index">
   <meta charset="utf-8"/>
   <title th:with="title=(${content.title} ?: ${config.site_title})" th:text="${title}">Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta name="description" content="" th:with="site_description=(${content.description} ?: ${#strings.arrayJoin(config.site_description,', ')})" th:content="${site_description}"/>
   <meta name="author" content="" th:content="${content.author} ?: ${config.site_author}"/>
   <meta name="keywords" content=""/>
   <meta name="generator" content="JBake"/>
@@ -14,7 +14,7 @@
   <!--Facebook Card-->
   <meta property="og:type" content="article" />
   <meta property="og:title"  content="JConfDominicana" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}" />
-  <meta property="og:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta property="og:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${#strings.arrayJoin(config.site_description,', ')}"/>
   <meta property="og:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.jpg"
   th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.jpg'))"
   th:content="|${config.site_host}/${cover}|" />
@@ -24,7 +24,7 @@
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="JConfDominicana" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}"/>
   <meta name="twitter:creator" content="@JavaDominicano" th:content="'@'+${config.twitter_username}"/>
-  <meta name="twitter:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta name="twitter:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${#strings.arrayJoin(config.site_description,', ')}"/>
   <meta name="twitter:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.jpg"
   th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.jpg'))"
   th:content="|${config.site_host}/${cover}|"/>
@@ -60,7 +60,7 @@
   <meta charset="utf-8"/>
   <title th:with="title=(${content.title} ?: ${config.site_title})" th:text="${title}">Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta name="description" content=""  th:with="site_description=(${content.description} ?: ${#strings.arrayJoin(config.site_description,', ')})" th:content="${site_description}"/>
   <meta name="author" content="" th:content="${content.author} ?: ${config.site_author}"/>
   <meta name="keywords" content=""/>
   <meta name="generator" content="JBake"/>
@@ -69,7 +69,7 @@
   <!--Facebook Card-->
   <meta property="og:type" content="article" />
   <meta property="og:title"  content="JConfDominicana" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}" />
-  <meta property="og:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta property="og:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${#strings.arrayJoin(config.site_description,', ')}"/>
   <meta property="og:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.jpg"
   th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.jpg'))"
   th:content="|${config.site_host}/${cover}|" />
@@ -79,7 +79,7 @@
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="JConfDominicana" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}"/>
   <meta name="twitter:creator" content="@JavaDominicano" th:content="'@'+${config.twitter_username}"/>
-  <meta name="twitter:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${config.site_description}"/>
+  <meta name="twitter:description" content="JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano)" th:content="${content.description} ?: ${#strings.arrayJoin(config.site_description,', ')}"/>
   <meta name="twitter:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.jpg"
   th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.jpg'))"
   th:content="|${config.site_host}/${cover}|"/>
