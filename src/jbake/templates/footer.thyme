@@ -47,8 +47,8 @@
                                         <!-- Footer Info Start -->
                                         <div class="footer-info">
                                             <h3 class="title">Event Details</h3>
-                                            <span class="date" th:if="${config.layout_display_event_details_date_footer}" th:utext="${config.layout_event_details_date_footer}">21 - 22 July 2023</span>
-                                            <p th:if="${config.layout_display_event_details_venue_address_footer}" th:utext="${config.layout_event_details_venue_address_footer}">Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.</p>
+                                            <span class="date" th:if="${config.layout_display_event_details_date_footer}" th:utext="${#strings.arrayJoin(config.layout_event_details_date_footer,', ')}">21 - 22 July 2023</span>
+                                            <p th:if="${config.layout_display_event_details_venue_address_footer}" th:utext="${#strings.arrayJoin(config.layout_event_details_venue_address_footer,', ')}">Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.</p>
                                             <div class="footer-widget-social">
                                                <a th:if="${config.facebook_username}" href="#" th:href="|https://www.facebook.com/${config.facebook_username}|" th:target="_blank"><i class="fab fa-facebook-f"></i></a>
 											   <a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" th:target="_blank"><i class="fab fa-twitter"></i></a>

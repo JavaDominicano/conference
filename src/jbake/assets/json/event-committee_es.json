@@ -136,11 +136,11 @@
 		]
 	},
 	"005": {
-		"id": "eugenio-duran",
-		"name": "José Eugenio Duran",
-		"company": "Claro RD",
-		"photoUrl": "/img/organizers/committee-members/eugenio-duran.jpg",
-		"shortBio": "Desarrollador de software apasionado de la tecnología Java y le gusta aprender nuevas tecnologías, me encantan los libros, las películas y conocer personas.",
+		"id": "eliezer-herrera",
+		"name": "Eliezer Herrera",
+		"company": "FreeLancer",
+		"photoUrl": "/img/organizers/committee-members/eliezer-herrera.jpg",
+		"shortBio": "Desarrollador de software con más de 14 años de experiencia en la industria del software. Entusiasta y amante de la tecnología, especialmente la plataforma Java",
 		"bio": "",
 		"tags": [],
 		"badges": [{
@@ -150,17 +150,12 @@
 		"socials": [{
 				"icon": "twitter",
 				"name": "Twitter",
-				"link": "https://twitter.com/eugh_x"
+				"link": "https://twitter.com/eliesongo"
 			},
 			{
 				"icon": "github",
 				"name": "Github",
-				"link": "https://github.com/SiriusDarkz"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/joseeugenioduran"
+				"link": "https://github.com/zerh"
 			}
 		]
 	}
