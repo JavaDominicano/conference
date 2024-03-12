@@ -495,13 +495,10 @@ var linguJSON = {
       'target_es': 'Presentación y ejemplos'
     },
     {
-      'source': 'The Caribbean Java Technologies Conference.',
-      'target_es': 'La Conferencia de Tecnologías Java del Caribe.'
+      'source': 'The Caribbean Java Technologies Conference',
+      'target_es': 'La Conferencia de Tecnologías Java del Caribe'
     },
-    {
-      'source': 'The Caribbean Java Technologies Conference.',
-      'target_es': 'La Conferencia de Tecnologías Java del Caribe.'
-    },
+
     {
       'source': 'July 21-22, 2023. Santo Domingo. Dominican Republic.',
       'target_es': '21-22 de Julio del 2023. Santo Domingo. República Dominicana'

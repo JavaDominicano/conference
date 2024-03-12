@@ -1,39 +1,63 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-	<body>
-	<div th:fragment="tickets" th:remove="tag">
 
-  <!--==========================
+<body>
+	<div th:fragment="tickets" th:remove="tag">
+		<!--==========================
     Buy Ticket Section
   ============================-->
-  <section id="buy-tickets" class="section-with-bg wow fadeInUp">
-    <div class="container">
 
-      <div class="section-header">
-        <h2>Get Ready for JConf Dominicana 2024</h2>
-        <p>Be the first to know when tickets are available! Sign up to be notified when they go on sale</p>
+		<div id="buy-tickets" class="contact-form-section section-padding">
 
-  		</div>
-
-			<form action="https://jconfdominicana.us20.list-manage.com/subscribe/post?u=2ba9ad3be3e34e937ea55d071&amp;id=73f48c7195" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<div style="position: absolute; left: -5000px;" aria-hidden="true">
-					<input type="text" name="b_2ba9ad3be3e34e937ea55d071_73f48c7195" tabindex="-1" value="">
+			<div class="container">
+				<!-- Section Title Start -->
+				<div class="meeta-section-title-2 text-center">
+					<h2 class="main-title">Get Ready for JConf Dominicana 2024</h2>
+					<h4 class="sub-title">Be the first to know when tickets are available! Sign up to be notified
+						when they go on sale
+					</h4>
 				</div>
-				<div class="form-row justify-content-center">
-					<div class="col-auto">
-						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your Email" required>
+				<!-- Section Title End -->
+				<div class="contact-wrap">
+					<div class="row justify-content-center">
+						<div class="col-lg-10">
+							<div class="contact-form-wrap">
+								<form
+									action="https://jconfdominicana.us20.list-manage.com/subscribe/post?u=2ba9ad3be3e34e937ea55d071&amp;id=73f48c7195"
+									method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+									class="validate" target="_blank" novalidate>
+									<div style="position: absolute; left: -5000px;" aria-hidden="true">
+										<input type="text" name="b_2ba9ad3be3e34e937ea55d071_73f48c7195" tabindex="-1"
+											value="">
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<!-- Single Form Start -->
+											<div class="single-form">
+												<input type="email" value="" name="EMAIL" class="form-control"
+													id="mce-EMAIL" placeholder="Enter your Email" required>
+											</div>
+											<!-- Single Form End -->
+										</div>
+										<div class="col-md-6">
+											<!--  Single Form Start -->
+											<div class="single-form">
+												<button type="submit" class="btn btn-primary" name="subscribe"
+													id="mc-embedded-subscribe">Get
+													Notified</button>
+											</div>
+											<!--  Single Form End -->
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
 					</div>
-					<div class="col-auto">
-						<button type="submit" name="subscribe" id="mc-embedded-subscribe">Get Notified</button>
-					</div>
-
 				</div>
-			</form>
+			</div>
+		</div>
 
-    </div>
-
-  </section>
-</div>
+	</div>
 </body>
 </html>

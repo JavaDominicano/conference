@@ -1,9 +1,10 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-	<body>
-	<div th:fragment="speakers" th:remove="tag">
-           <!-- Speakers Start -->
+
+<body>
+    <div th:fragment="speakers" th:remove="tag">
+        <!-- Speakers Start -->
         <div id="speakers" class="meeta-speakers-2 section-padding">
             <div class="container">
                 <div class="meeta-speakers-wrap">
@@ -14,7 +15,7 @@
                     </div>
                     <!-- Section Title End -->
                     <div class="meeta-speakers-content-wrap-2">
-                        <div class="row"  id="listSpeakers"></div>
+                        <div class="row" id="listSpeakers"></div>
                     </div>
                 </div>
             </div>
@@ -22,6 +23,7 @@
         <!-- Speakers End -->
         <script type="module" src="js/speakers.js"></script>
 
-	</div>
-  </body>
-  </html>
+    </div>
+</body>
+
+</html>
