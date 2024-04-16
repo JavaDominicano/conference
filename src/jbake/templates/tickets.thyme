@@ -21,17 +21,50 @@
                 <!-- Section Title End -->
 
                 <div class="row gy-5 justify-content-center meeta-pricing-row">
-                    <div class="col-lg-4 col-md-8">                   
+                    <div class="col-lg-4 col-md-8">
+                        <!-- Single Pricing Start -->
+                        <div class="single-pricing color-1">
+                            <div class="pricing-header">
+                                <h3 class="price_title">Regular Registration Individual</h3>
+                                <div class="price">
+                                    <span th:class="${config.layout_display_tickets_early_bird_price}? 'line-through-bigger'" th:if="${config.layout_display_tickets_regular_price}" th:utext="${#strings.arrayJoin(config.layout_tickets_regular_price,', ')}"></span>
+                                </div>
+                                <span class="pl-2 font-bold text-red-600" th:if="${config.layout_display_tickets_regular_price && config.layout_display_tickets_early_bird_price}"
+                                      th:utext="${#strings.arrayJoin(config.layout_tickets_early_bird_price,', ')}">
+                                </span>
+                            </div>
+                            <div class="pricing-body">
+                                <ul>
+                                    <li>T-Shirt</li>
+                                    <li>Conference material</li>
+                                    <li>Access to the keynote sessions</li>
+                                    <li>Access to the sessions of the Technical Track
+                                    </li>
+                                    <li>Light lunch</li>
+                                    <li>Snacks</li>
+                                    <li>Access to the workshops</li>
+                                    <li>Workshop Certificates</li>
+                                    <li>Entertainment Activities</li>
+                                </ul>
+                                <a class="btn" th:href="${config.layout_buytickets_url}" href="#">Buy your Ticket!</a>
+                            </div>
+                        </div>
+                        <!-- Single Pricing End -->
+                    </div>
+                    <div class="col-lg-4 col-md-8">
                     </div>
                     <div class="col-lg-4 col-md-8">
 
                        <!-- Single Pricing Start -->
-						<div class="single-pricing color-1">
+						<div class="single-pricing color-3">
 							<div class="pricing-header">
-							<h3 class="price_title">Regular Registration</h3>
+							<h3 class="price_title">Regular Registration Group (5+)</h3>
 								<div class="price">
-								<span><sup>RD$</sup>$1,200.00</span>
-								</div>
+								    <span  th:class="${config.layout_display_tickets_early_bird_group_price}? 'line-through-bigger'"  th:if="${config.layout_display_tickets_regular_group_price}" th:utext="${#strings.arrayJoin(config.layout_tickets_regular_group_price,', ')}"></span>
+    							</div>
+                                <span class="pl-2 font-bold text-black-600" th:if="${config.layout_display_tickets_regular_group_price && config.layout_display_tickets_early_bird_group_price}"
+                                      th:utext="${#strings.arrayJoin(config.layout_tickets_early_bird_group_price,', ')}">
+                                </span>
 							</div>
 							<div class="pricing-body">
 							<ul>
@@ -42,15 +75,18 @@
 								</li>
 								<li>Light lunch</li>
 								<li>Snacks</li>
+                                <li>Access to the workshops</li>
+                                <li>Workshop Certificates</li>
+                                <li>Entertainment Activities</li>
 							</ul>
+                                <p class="font-bold text-white-600">The minimum order quantity is 5 tickets</p>
 							<a class="btn" th:href="${config.layout_buytickets_url}" href="#">Buy your Ticket!</a>
 							</div>
 						</div>
        				 <!-- Single Pricing End -->
 
                     </div>
-                    <div class="col-lg-4 col-md-8">                       
-                    </div>
+
                 </div>
             </div>
         </div>
