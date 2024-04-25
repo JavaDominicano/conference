@@ -1,0 +1,22 @@
+{
+    "id": "berroteranlkf",
+    "name": "Omar Berroterán Silva",    
+    "photoUrl": "/img/speakers/berroteranlkf.jpg",
+    "title": "Senior Java Developer",
+    "countryFlag": "flag-icon-ni",
+    "shortBio": "",
+    "bio": "Senior Java Developer, independent consultant. JVM based technology lover with more than 20 years of experience, contributor of Linux distributions: Fedora and Gentoo, and free and OpenSource applications. He is also promoter and collaborator of the ICARO educational robotics project. Lecturer, trainer and international consultant. Currently Leader of the Java User Group of Nicaragua (JUG NICARAGUA).",
+    "tags": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/berroteranlkf"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/omarberroteransilva"
+      }
+    ]
+  }
