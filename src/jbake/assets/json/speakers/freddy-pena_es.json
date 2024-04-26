@@ -2,10 +2,10 @@
     "id": "freddy-pena",
     "name": "Freddy Peña",
     "photoUrl": "/img/speakers/freddy-pena.jpg",
-    "title": "Founder & Software Developer",
+    "title": "Fundador & Software Developer",
     "shortBio": "",
     "countryFlag": "flag-icon-do",
-    "bio": "Fundador de Alphnology y profesional versátil, aporto más de 10 años de experiencia en desarrollo de software en el ecosistema Java. Con una fuerte pasión por el código abierto y miembro de la Comunidad Dominicana Java Profesor de la Escuela de Ingeniería Informática y Telecomunicaciones, PUCMM.",
+    "bio": "Fundador de Alphnology y apasionado ingeniero de software, que aporta más de 10 años de experiencia en el ámbito del desarrollo de software, con especial atención al ecosistema Java. Miembro activo de la Comunidad Java de República Dominicana y Profesor de la Facultad de Ciencias de la Computación y Telecomunicaciones de la PUCMM, disfruto compartir mis conocimientos y contribuir al crecimiento de la comunidad.<br>Mi experiencia abarca el desarrollo de software basado en Java, utilizando aplicaciones de corte. tecnologías de punta como Spring Boot, Vaadin Flow, Quarkus, Jakarta EE y Vert.x.",
     "socials": [
         {
             "icon": "twitter",

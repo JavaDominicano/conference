@@ -1,0 +1,27 @@
+{
+    "id": "juarez-barbosa-jr",
+    "countryFlag": "flag-icon-ie",
+    "name": "Juarez Barbosa Junior",
+    "photoUrl": "/img/speakers/juarez-barbosa-jr.jpg",
+    "title": "Sr. Principal Java Developer Evangelist",
+    "shortBio": "",
+    "bio": "Soy Juarez Junior, Senior Principal Java Developer Evangelist - DevRel Director en Oracle. Anteriormente, un Azure Developer Relations Lead en Microsoft, un Principal Developer Advocate - Blockchain en Oracle, y un Thought Leader y Technical Evangelist en IBM. Tengo más de 20 años de experiencia profesional en Ingeniería de Software y Relaciones con Desarrolladores, principalmente como Arquitecto de Software, Ingeniero de Software y Defensor de Desarrolladores. Tengo amplia experiencia y conocimientos en Cloud Computing (Oracle OCI, Azure, GCP, IBM Cloud y AWS), DevOps, Infraestructura como Código (IaC), Integración / Entrega Continua (CI/CD) y Cloud Native. Además, soy un Ingeniero de Software políglota con experiencia en Java, Kotlin, Golang, Python, C, C++, y Javascript, y últimamente, he estado aprendiendo Rust.",
+    "tags": [],    
+    "socials": [
+        {
+            "icon": "link",
+            "name": "link",
+            "link": "https://juarezjuniorgithub.github.io"
+        },
+        {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/jujunior"
+        },
+        {
+            "icon": "github",
+            "name": "Github",
+            "link": "https://github.com/juarezjuniorgithub"
+        }
+    ]
+}

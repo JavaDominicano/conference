@@ -7,7 +7,7 @@
         "abstract": "Taller para desmitificar el uso de los contenedores y orquestadores de software en aplicaciones Java. Estaremos abordando los conceptos básicos y practicándolos.",
         "description": "Los contenedores y orquestadores de software son herramientas muy demandas al día de hoy por los beneficios en aislamiento, despliegue y homogeneidad en las fases de desarrollo que nos proporcionan, dicho conocimiento es muy demandado en conjunto con las herramientas que utilizamos para nuestro desarrollo y es importante dominar la creación, despliegue y actualización de nuestras aplicaciones utilizando contenedores de software. Al mismo tiempo, coordinar un grupo de contenedores puede ser una tarea compleja y los orquestadores de software nos ayudan en ese sentido.<br><br>En nuestro taller estaremos trabajando específicamente con la tecnología Docker para implementar los conceptos de contenedores y Kubernetes como plataforma para orquestar nuestros contenedores.",
         "audience_level": "All",
-        "time": "2:00 P.M / 21 Julio 2023",
+        "time": "2:00 P.M / 19 Julio 2024",
         "talk_format": "Workshop (\u003e 60 minutes)",
         "language": "es",
         "tags": [

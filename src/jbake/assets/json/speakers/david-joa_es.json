@@ -1,0 +1,17 @@
+{
+    "id": "david-joa",
+    "name": "David Joa",
+    "photoUrl": "/img/speakers/david-joa.jpg",
+    "title": "Co-Founder - Director and Lead faculty",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Por más de 20 años, David ha estado en el ámbito del desarrollo de software. Ha trabajado en organizaciones del sector de telecomunicaciones y financiero, para empresas como Claro, Banco Popular y APAP. Docente por más de 20 años en INTEC. Recientemente fundó una empresa de desarrollo de software, y una academia para enseñar de Agilidad y mejores prácticas de software.",
+    "tags": [],    
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/david-joa-062250180"
+      }
+    ]
+  }
