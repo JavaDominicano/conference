@@ -1,31 +1,26 @@
 {
   "101": {
-    "id": "solenny-peralta-lopez",
-    "name": "Solenny Peralta Lopez",
-    "company": "",
+    "id": "shabnam-mayel",
+    "name": "Shabnam Mayel",
+    "company": "Eclipse Foundation",
     "companyLogo": "",
-    "country": "Dominican Republic",
-    "countryFlag": "flag-icon-do",
-    "photoUrl": "/img/speakers/solenny-peralta-lopez.jpg",
+    "country": "Canada",
+    "countryFlag": "flag-icon-ca",
+    "photoUrl": "/img/speakers/shabnam-mayel.jpg",
     "shortBio": "",
     "bio": "",
     "tags": [],
     "badges": [
       {
-        "name": "IT Project Manager",
-        "description": "IT Project Manager"
+        "name": "Senior Marketing Manager",
+        "description": "Senior Marketing Manager"
       }
     ],
     "socials": [
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://twitter.com/Psolenny"
-      },
-      {
-        "icon": "link",
-        "name": "link",
-        "link": "https://www.psolenny.com/"
+        "link": "https://twitter.com/MayelShabnam"
       }
     ]
   },
@@ -70,147 +65,231 @@
     ]
   },
   "103": {
-    "id": "yuri-santana",
-    "name": "Yuri Santana",
-    "company": "Supabase",
+    "id": "denis-magda",
+    "name": "Denis Magda",
+    "company": "Yugabyte",
     "companyLogo": "",
-    "country": "Dominican Republic",
-    "countryFlag": "flag-icon-do",
-    "photoUrl": "/img/speakers/yuri-santana.jpg",
+    "country": "USA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/img/speakers/denis-magda.jpg",
     "shortBio": "",
     "bio": "",
     "tags": [],
     "badges": [
       {
-        "name": "DevRel",
-        "description": "DevRel"
+        "name": "Head of DevRel",
+        "description": "Head of DevRel"
       }
     ],
     "socials": [
       {
-        "icon": "link",
-        "name": "Linktr.ee",
-        "link": "https://linktr.ee/YuriCodesBot"
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/denismagda"
       }
     ]
   },
   "104": {
-    "id": "juan-polanco",
-    "name": "Juan Jose Polanco Arias",
-    "company": "Intellisys D. Corp",
+    "id": "frank_jcg",
+    "name": "Francisco Contreras",
+    "company": "GInIEm",
     "companyLogo": "",
-    "country": "Dominican Republic",
-    "countryFlag": "flag-icon-do",
-    "photoUrl": "/img/speakers/juan-polanco.jpg",
-    "shortBio": "",
-    "bio": "",
-    "tags": [],
-    "badges": [
-      {
-        "name": "Software Developer",
-        "description": "Software Developer"
-      }
-    ],
-    "socials": [
-      {
-        "icon": "linkedin",
-        "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/juanjpolancoa"
-      },
-      {
-        "icon": "github",
-        "name": "Github",
-        "link": "https://github.com/jpolanco91"
-      }
-    ]
-  },
-  "105": {
-    "id": "enrique-zamudio",
-    "name": "Enrique Zamudio",
-    "company": "Bitso",
-    "companyLogo": "",
-    "country": "México",
-    "countryFlag": "flag-icon-mx",
-    "photoUrl": "/img/speakers/enrique-zamudio.jpg",
+    "country": "Nicaragua",
+    "countryFlag": "flag-icon-ni",
+    "photoUrl": "/img/speakers/francisco-contreras.jpg",
     "shortBio": "",
     "bio": "",
     "tags": [],
     "badges": [
       {
         "name": "Software Architect",
-        "description": "Software Architect"
+        "description": "Software Architect - CTO"
       }
     ],
     "socials": [
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://twitter.com/chochosmx"
+        "link": "https://twitter.com/Frank_JCG"
       },
       {
-        "icon": "link",
-        "name": "link",
-        "link": "http://www.javamexico.org/blogs/ezamudio"
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/fjcontrerasg/"
       }
     ]
   },
-  "106": {
-		"id": "juandiegolopezve",
-		"name": "Juan Diego López",
-		"company": "Qik Banco Digital",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		 "photoUrl": "/img/speakers/juandiegolopezve.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Full Stack Software Developer",
-				"description": "Full Stack Software Developer"
-			}
-		],
-		"socials": [
-			{
-      "icon": "twitter",
-      "name": "Twitter",
-      "link": "https://twitter.com/_juandiii"
-      }
-
-		]
-	},
-  "107": {
-    "id": "jorge-cajas",
-    "name": "Jorge Cajas Mota",
-    "company": "MangoChango",
+  "105": {
+    "id": "juarez-barbosa-jr",
+    "name": "Juarez Barbosa Junior",
+    "company": "Oracle",
     "companyLogo": "",
-    "country": "Guatemala",
-    "countryFlag": "flag-icon-gt",
-    "photoUrl": "/img/speakers/jorge-cajas.jpg",
+    "country": "Dublin, Ireland",
+    "countryFlag": "flag-icon-ie",
+    "photoUrl": "/img/speakers/juarez-barbosa-jr.jpg",
     "shortBio": "",
     "bio": "",
     "tags": [],
     "badges": [
       {
-        "name": "Software Engineer",
-        "description": "Software Engineer"
+        "name": "Sr. Principal Java Developer Evangelist",
+        "description": "Sr. Principal Java Developer Evangelist"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://juarezjuniorgithub.github.io"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/jujunior"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/juarezjuniorgithub"
+      }
+    ]
+  },
+  "106": {
+    "id": "david-joa",
+    "name": "David Joa",
+    "company": "Bricks Agile Academy",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/david-joa.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Co-Founder - Director and Lead faculty",
+        "description": "Co-Founder - Director and Lead faculty"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/david-joa-062250180"
+      }
+    ]
+  },
+  "107": {
+    "id": "juandiegolopezve",
+    "name": "Juan Diego López",
+    "company": "Medical Quick",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/juandiegolopezve.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Co-Founder",
+        "description": "Co-Founder"
       }
     ],
     "socials": [
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://twitter.com/cajasmota"
-      },
-      {
-        "icon": "linkedin",
-        "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/cajasmota"
+        "link": "https://twitter.com/_juandiii"
       }
     ]
   },
   "108": {
+    "id": "aluis-marte",
+    "name": "Aluis Marte",
+    "company": "Applaudo",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/aluis-marte.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Java Practice Lead",
+        "description": "Java Practice Lead"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/aluismarte"
+      }
+    ]
+  },
+  "109": {
+    "id": "berroteranlkf",
+    "name": "Omar Berroterán Silva",
+    "company": "JUG Nicaragua",
+    "companyLogo": "",
+    "country": "Nicaragua",
+    "countryFlag": "flag-icon-ni",
+    "photoUrl": "/img/speakers/berroteranlkf.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Senior Java Developer",
+        "description": "Senior Java Developer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/berroteranlkf"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/omarberroteransilva"
+      }
+    ]
+  },
+  "110": {
+    "id": "ivar-grimstad",
+    "name": "Ivar Grimstad",
+    "company": "Eclipse Foundation",
+    "companyLogo": "",
+    "country": "Sweden",
+    "countryFlag": "flag-icon-se",
+    "photoUrl": "/img/speakers/ivar-grimstad.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Jakarta EE Developer Advocate",
+        "description": "Jakarta EE Developer Advocate"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/ivar_grimstad"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "http://www.agilejava.eu"
+      }
+    ]
+  },
+  "111": {
     "id": "ecabrerar",
     "name": "Eudris Cabrera",
     "company": "Ministerio de Hacienda",
@@ -250,127 +329,101 @@
       }
     ]
   },
-  "109": {
-    "id": "frank_jcg",
-    "name": "Francisco Contreras",
-    "company": "GInIEm",
+  "112": {
+    "id": "hector-ventura",
+    "name": "Hector Ventura",
+    "company": "Alphnology",
     "companyLogo": "",
-    "country": "Nicaragua",
-    "countryFlag": "flag-icon-ni",
-    "photoUrl": "/archive/jconf2022/images/speakers/francisco-contreras.jpg",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/hector-ventura.jpg",
     "shortBio": "",
     "bio": "",
     "tags": [],
     "badges": [
       {
-        "name": "Software Architect",
-        "description": "Software Architect - CTO"
+        "name": "Co-Founder",
+        "description": "Co-Founder"
       }
     ],
     "socials": [
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://twitter.com/Frank_JCG"
+        "link": "https://twitter.com/hectorvent"
+      }
+     
+    ]
+  },
+  "113": {
+    "id": "ccamachog",
+    "name": "Carlos Camacho",
+    "company": "AvatharTech",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/ccamachog.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "CTO",
+        "description": "CTO"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/ccamachog"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/vacax"
       },
       {
         "icon": "linkedin",
         "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/fjcontrerasg/"
+        "link": "https://www.linkedin.com/in/ccamachog/"
       }
     ]
   },
-  "110": {
-		"id": "ccamachog",
-		"name": "Carlos Camacho",
-		"company": "AvatharTech",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-    "photoUrl": "/img/speakers/ccamachog.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "CTO",
-			"description": "CTO"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/ccamachog"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/vacax"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/ccamachog/"
-			}
-		]
-	},
-  "111":{
-    "id": "ivanosevic",
-    "name": "Ivanosevic García",
-    "company": "Jostens",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-     "photoUrl": "/img/speakers/ivanosevic.jpg",
-     "title":"Java Developer",
-     "shortBio": "",
-     "bio": "",
-     "tags": [],
-     "badges": [{
-       "name": "Java Developer",
-       "description": "Java Developer"
-     }],
-     "socials": [{
-       "icon": "linkedin",
-       "name": "Linkedin",
-       "link": "https://github.com/Ivanosevic"
-     },
-     {
-       "icon": "github",
-       "name": "Github",
-       "link": "https://www.linkedin.com/in/ivanosevic"
-     }
-   ] 
- },
- "112": {
-  "id": "brayan-munoz",
-  "name": "Brayan Muñoz V",
-  "company": "HICX",
-  "companyLogo": "",
-  "country": "Dominican Republic",
-  "countryFlag": "flag-icon-do",
-  "photoUrl": "/img/speakers/brayan-munoz.jpg",
-  "title":"Software Engineer",
-  "shortBio": "",
-  "bio": "",
-  "tags": [],
-  "badges": [{
-    "name": "Software Engineer",
-    "description": "Software Engineer"
-  }],
-  "socials": [{
-      "icon": "twitter",
-      "name": "Twitter",
-      "link": "https://twitter.com/Brayanmnz_"
-    },
-    {
-      "icon": "github",
-      "name": "Github",
-      "link": "https://github.com/brayanmnz"
-    },
-    {
-      "icon": "linkedin",
-      "name": "Linkedin",
-      "link": "https://www.linkedin.com/in/brayanmnz"
-    }
-  ]
-}
+  "114": {
+    "id": "brayan-munoz",
+    "name": "Brayan Muñoz V",
+    "company": "-",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/brayan-munoz.jpg",
+    "title": "Software Engineer",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Engineer",
+        "description": "Software Engineer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/Brayanmnz_"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/brayanmnz"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/brayanmnz"
+      }
+    ]
+  }
 }

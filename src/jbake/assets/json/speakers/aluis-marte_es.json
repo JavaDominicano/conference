@@ -1,0 +1,17 @@
+{
+    "id": "aluis-marte",
+    "name": "Aluis Marte",
+    "photoUrl": "/img/speakers/aluis-marte.jpg",
+    "title": "Líder de Práctica Java",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Aluis es un apasionado Ingeniero con más 9+ años de experiencia desarrollando aplicaciones en Java con Spring Framework y Spring Boot. Me fascina el hecho de afrontar retos bien complejos sin importar la dificultad en temas con alto nivel matemático, algorítmico y código limpio.",
+    "tags": [],    
+    "socials": [      
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/aluismarte"
+      }
+    ]
+  }

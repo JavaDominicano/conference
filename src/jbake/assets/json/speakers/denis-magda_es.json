@@ -1,0 +1,21 @@
+{
+    "id": "denis-magda",
+    "name": "Denis Magda",
+    "photoUrl": "/img/speakers/denis-magda.jpg",
+    "title": "Director de DevRel",
+    "countryFlag": "flag-icon-us",
+    "shortBio": "",
+    "bio": "Denis comenzó su carrera como ingeniero de software en Sun Microsystems y Oracle, donde creó JVM/JDK y dirigió uno de los grupos de desarrollo de Java. Tras aprender Java desde dentro, se incorporó al mundo de los sistemas distribuidos y las bases de datos, donde ha permanecido desde entonces. Su experiencia abarca desde el desarrollo de motores de bases de datos y aplicaciones de alto rendimiento hasta la formación y educación sobre el tema de las aplicaciones distribuidas.",
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/denismagda"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/dmagda"
+    }
+    ]
+  }

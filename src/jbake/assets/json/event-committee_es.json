@@ -73,9 +73,9 @@
 	"003": {
 		"id": "brayan-munoz",
 		"name": "Brayan Muñoz V",
-		"company": "HICX",
+		"company": "-",
 		"photoUrl": "/img/organizers/committee-members/brayan-munoz.jpg",
-		"shortBio": "Desarrollador de Software - Ingeniero Telemático de la PUCMM - Miembro de una organización de código abierto llamada Fonoster.",
+		"shortBio": " SDE | Ingeniero DevOps - Miembro organizador de Java Dominicano - Entusiasta del código libre",
 		"bio": "",
 		"tags": [],
 		"badges": [{
@@ -105,12 +105,12 @@
 		"name": "Freddy Peña",
 		"company": "Alphnology",
 		"photoUrl": "/img/organizers/committee-members/freddy-pena.jpg",
-		"shortBio": "Fundador de Alphnology y profesional versátil, aporto más de 10 años de experiencia en desarrollo de software en el ecosistema Java. Con una fuerte pasión por el código abierto y miembro de la Comunidad Dominicana Java Profesor de la Escuela de Ingeniería Informática y Telecomunicaciones, PUCMM.",
+		"shortBio": "Fundador de Alphnology | SDE | Java ❤️ | Miembro organizador de Java Dominicana | Miembro del staff de JConf Dominicana | Profesor Universitario",
 		"bio": "",
 		"tags": [],
 		"badges": [{
-			"name": "Fundador & Desarrollador de Software",
-			"description": "Fundador & Desarrollador de Software"
+			"name": "Fundador | Ingeniero de Software",
+			"description": "Fundador | Ingeniero de Software"
 		}],
 		"socials": [
 		        {
@@ -131,7 +131,7 @@
 			{
 				"icon": "link",
 				"name": "link",
-				"link": "https://alphnology.com/"
+				"link": "https://fredpena.dev/"
 			}
 		]
 	},

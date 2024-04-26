@@ -1,186 +1,200 @@
-[{
+[
+  {
     "id": 101,
-    "title": "Focus on Software, not Code",
-    "abstract": "Sounds weird, even crazy. But code and software are very different things. Code is a means to an end. Both software and code change often. But outside of your company's Engineering department, no one cares about your code. Focus on running software instead.",
-    "description": "I will talk about the difference between code and software, and why it's so important to focus on the latter. I will use real-life examples to illustrate when to focus on code vs when to focus on software, such as prioritizing optimizations, improving performance, fixing bugs, etc.",
+    "title": "Empowering Innovation: The Open Source Odyssey of Contribution and Collaboration with Jakarta EE",
+    "abstract": "This session highlights the current state of Jakarta EE and key features of the upcoming community-driven Jakarta EE 11 version. Also, it explores key considerations as you embark on your open source journey, and the contributions that open source foundations make to this collaborative ecosystem.",
+    "description": "Enterprise Java application development is poised for a promising future under the guidance of Jakarta EE! The prosperity of any open source project hinges on a vibrant community actively engaged in technological advancements. Join this session to discover the reasons and methods for becoming an integral part of the Jakarta EE and Eclipse Foundation community, and discover the key features of the upcoming Jakarta EE 11 release. The presentation highlights valuable insights into the broad, industry-wide collaboration within the open source realm, dedicated to the modernization of enterprise Java solutions.",
     "audience_level": "All",
-    "time": "9:15 AM",
+    "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
+    "language": "en",
     "tags": [
-      "architecture",
-      "software development",
-      "devops"
+      "JakartaEE",
+      "JavaEE",
+      "OpenSource",
+      "EclipseFoundation"
     ],
     "speakers": [
-      "enrique-zamudio"
+      "shabnam-mayel"
     ]
   },
   {
     "id": 102,
-    "title": "Failing with Style: MicroProfile Fault Tolerance and Metric",
-    "abstract": "What can't be measured, can't be improved. Learn how to use MicroProfile APIs to super-power your application with fault tolerance and real-time metrics.",
-    "description": "With MicroProfile Fault Tolerance APIs we can implement several strategies to have a proper error handling using only some annotations, and with MicroProfile Metrics we can obtain some metrics of our application, the JVM or even the server where it runs and together with tools like Prometeus and Grafana we can observe and compare those metrics in real time to make the right decisions and apply the corrections and improvements at the right time.",
-    "audience_level": "All",
-    "time": "10:15 AM",
-    "talk_format": "Talk (~30-45 minutes)",
+    "title": "Unlocking the Power of Multitenancy (Quarkus and Vaadin Flow)",
+    "abstract": "¿Te has enfrentado a los desafíos de aplicaciones multitenancy? Descubre cómo dominarlo con Quarkus y Vaadin Flow, en este workshop. ¡Aprende estrategias efectivas para gestionar estas estructuras y crear aplicaciones escalables y seguras!",
+    "description": "En la actualidad, el desarrollo de aplicaciones es un terreno complejo y desafiante. Los desarrolladores a menudo se encuentran con la necesidad de crear soluciones multitenancy para permitir intercambiar y compartir los recursos de las soluciones, garantizando la seguridad y la escalabilidad de esta.Este workshop se enfoca en uno de los desafíos más comunes que enfrentan los desarrolladores: cómo integrar Vaadin Flow, una tecnología “stateful” que brinda interfaces de usuario ricas, con una API REST “stateless” en un ambiente Quarkus. Abordaremos los problemas que surgen cuando Vaadin Flow toma el control de la seguridad y cómo esto puede entrar en conflicto con la arquitectura “stateless” de Quarkus.Exploraremos:-<br>Los desafíos específicos que surgen al combinar Vaadin Flow y Quarkus en un ambiente multitenancy.-<br>Soluciones prácticas para garantizar la seguridad y la interoperabilidad.-<br>Diseño de un API para aplicación de terceros.Este workshop es ideal para desarrolladores, arquitectos de software y profesionales interesados en comprender cómo hacer que estas tecnologías puedan coexistir para construir aplicaciones seguras y escalables. Al final de la presentación, los asistentes tendrán una comprensión más sólida de cómo abordar este desafío en sus propios proyectos y lograr una integración exitosa.",
+    "audience_level": "Intermediate",
+    "time": "TBD",
+    "talk_format": "Workshop (\u003e 60 minutes)",
     "language": "es",
     "tags": [
-      "MicroProfile",
-      "JakartaEE",
-      "Java"
+      "Quarkus",
+      "Vaadin",
+      "VaadinFlow",
+      "Java",
+      "API",
+      "Security"
     ],
     "speakers": [
-      "jorge-cajas"
+      "freddy-pena","juandiegolopezve"
     ]
   },
   {
     "id": 103,
-    "title": "The Rise of DevRels and Their Importance in your organization",
-    "abstract": "Why do we see a rise in the so-called DevRels? What are they? What do they do? In this talk, we will have a conversation with Yuri, a Developer Relations Advocate (DevRel) at Supabase, and learn about the importance of this role in SaaS companies and any organization whose customer persona is developers.",
-    "description": "What they are, the different types, and how DevRels help increase sales and product awareness in the community. These are some of the topics Yuri will cover in his talk on The Rise of DevRels and Their Importance in Your Organization. You will learn about how this role is performed not only externally facing the community and users but also internally within the company, how to segment your audience for product marketing and community purposes, the importance of content creation for your goals, and much more.",
+    "title": "Java with OpenAI: Building and Monetizing Generative AI Plugins",
+    "abstract": "Discover how to create generative AI plugins using Java on the OpenAI platform. Begin with the basics of the ChatGPT API and Spring AI, and conclude by launching a fully functional Java plugin on the OpenAI marketplace. Learn strategies to monetize your plugin to millions of users.",
+    "description": "OpenAI's GPT neural network can be enhanced and customized with plugins. For instance, the Expedia plugin arms the AI with current data on lodging prices and availability, allowing users to book their next trip directly through the ChatGPT interface.In this session, you'll gain practical experience with large language models (LLMs) by developing a Java plugin for the OpenAI platform from the ground up. We'll start with the basics, creating a generative AI application that integrates Spring AI with OpenAI APIs for a variety of natural language processing (NLP) tasks. We'll then enhance the application's responsiveness by using the Postgres pgvector extension for vector similarity searches within the database. Finally, you'll discover how to launch and monetize your Java plugin on the OpenAI platform, making it accessible to millions of users.",
     "audience_level": "All",
-    "time": "11:00 AM",
+    "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
+    "language":"en",
     "tags": [
-      "Software Development",
-      "Developer Relations",
-      "DevRel",
-      "Networking",
-      "Community"
+      "Machine Learning with Java",
+      "Machine Learning",
+      "Java"     
     ],
     "speakers": [
-      "yuri-santana"
+      "denis-magda"
     ]
   },
   {
     "id": 104,
-    "title": "Unsupervised Learning con Apache Spark Java y MLlib",
-    "time": "11:45 AM",
-    "abstract": "Do you want to see what no one else sees in the data? Do you want to find hidden behaviors in a certain problem you handle with data? Do you want to simplify your dataset to better use it in other models? This talk is for you. We will learn how Unsupervised Learning helps us in these tasks.",
-    "description": "In this talk we will learn a bit about Unsupervised Learning which is a branch of Machine Learning which in turn is a branch of Artificial Intelligence (AI). We will use Apache Spark, a unified data analytics engine which we will use with Java and from which we will use the MLlib library to create and train Machine Learning models based on statistics, specifically an unsupervised learning model.",
-    "audience_level": "All",
+    "title": "Integración de Java con MQTT para la Automatización del Hogar",
+    "time": "TBD",
+    "abstract": "Esta es una charla diseñada para demostrar el potencial de la domótica utilizando: Java y MQTT. Java nos brinda la robustez y versatilidad necesarias para desarrollar aplicaciones seguras, mientras que MQTT, con su ligereza y eficiencia, se establece como el estándar de comunicación ideal para IoT.",
+    "description": "En esta charla, exploraremos cómo Java se une al versátil protocolo MQTT para crear soluciones de domótica. Comenzaremos introduciendo los conceptos fundamentales de la domótica y la importancia de la comunicación eficiente en los sistemas IoT.Luego, profundizaremos en MQTT, destacando sus características clave como la eficiencia, la fiabilidad y la arquitectura publish/subscribe, que lo hacen ideal para la automatización residencial.A continuación, nos adentraremos en cómo Java, puede ser utilizado para desarrollar aplicaciones de domótica que se comunican con dispositivos IoT a través de MQTT. Cubriremos las <b>bibliotecas Java que facilitan esta integración</b> y proporcionaremos ejemplos de código para ilustrar la interacción entre una aplicación Java y dispositivos IoT mediante MQTT.También discutiremos las <b>mejores prácticas para garantizar la seguridad</b> y la privacidad en las comunicaciones MQTT, abordando el uso de TLS/SSL, autenticación y autorización. Además de consejos sobre cómo manejar la reconexión y asegurar la entrega de mensajes para construir sistemas de domótica fiables y resilientes.Finalmente, se presentará un demo de conexión de una aplicación Java con un broker MQTT para la transferencia de mensajes a dispositivos inteligente",
+    "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
-    "tags": [],
+    "tags": [
+      "IoT",
+      "Java",
+      "MQTT",
+      "Domotica"
+    ],
     "speakers": [
-      "juan-polanco"
+      "frank_jcg"
     ]
   },
   {
     "id": 105,
-    "title": "Welcome to the end of the 'We've always done it this way' era - Lessons learned in Software Implementation",
-    "abstract": "Most of us have heard the seven most expensive words in business: 'We've always done it this way.' We can see the resistance to change, and you can be certain that the solution you offer is necessary, but how can we become change agents using technology? Is it possible to achieve it?",
-    "description": "Welcome to the end of the 'We've always done it this way' era. Lessons learned in software implementation... Today, I want to talk to you about change management in software implementations. In recent years, we have witnessed an explosion of technologies that have transformed the way we work and collaborate. However, implementing new software is not just a technical matter; it also involves cultural and organizational change that can be challenging to handle.In this talk, I will provide you with the keys to becoming an effective change agent using technology as a bridge.You will discover why change management is crucial in software implementations, what skills and tools you need to lead successful change, and how you can positively influence change from any position.",
+    "title": "Revolutionize Java Database App Development with Reactive Streams and Java Virtual Threads",
+    "abstract": "With the advent of Reactive Programming and Virtual Threads, Java developers can scale Java database access using either option.This session explores how they can choose the proper database connectivity strategy per their specific requirements, focusing on performance, scalability, and simplicity.",
+    "description": "This talk will help developers learn how to scale their Java and Java Database Connectivity (JDBC) applications using Reactive Relational Database Connectivity (R2DBC), the Reactive Streams Ingestion Library (RSI), or JDBC with Virtual Threads. Developers will learn about the R2DBC and RSI APIs and how to use JDBC with Java Virtual Threads (Project Loom).",
     "audience_level": "Intermediate",
-    "time": "1:30 PM",
-    "language": "es",
+    "time": "TBD",
+    "language": "en",
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
-      "Change Management",
-      "Agile",
-      "Project Manager",
-      "Software Implementation"
+      "Java",
+      "ReactiveStreams",
+      "OracleDatabase",
+      "ProjectLoom",
+      "VirtualThreads",
+      "Reactive Streams Ingestion Library",
+      "R2DBC",
+      "RSI",
+      "Streaming",
+      "BigData"
     ],
     "speakers": [
-      "solenny-peralta-lopez"
+      "juarez-barbosa-jr"
     ]
   },
   {
     "id": 106,
-    "title": "Secure and Scalable Deployment of Web Applications with Vaadin Flow, Docker, and Traefik",
-    "abstract": "Deploy web applications developed with Vaadin Flow securely and scalably using Docker and Traefik technologies. Combine these tools to simplify the deployment process, ensure security, and guarantee availability in high-demand environments.",
-    "description": "Dive into the fascinating world of web application deployment with Vaadin Flow, Docker, and Traefik. In this talk, we will guide you through an exciting journey where you will discover how to ensure seamless security and scalability for your web applications. Learn how to make the most of the latest technologies while simplifying the deployment process. We will explore how the combination of Vaadin Flow, Docker, and Traefik will enable you to achieve higher levels of security and ensure a smooth experience even in the most demanding environments. Don't miss this opportunity to learn the secrets behind the success of secure and scalable web application deployment!",
+    "title": "Desbloqueando el Potencial de los equipos Desarrollo de Software con Team Topologies",
+    "abstract": "En nuestra charla, exploraremos cómo  revolucionar la forma en como desarrollamos software.Descubre cómo romper los silos organizacionales, fomentar la colaboración y mejorar la calidad del software.",
+    "description": "Team Topologies es más que una simple estructura organizativa; es un enfoque holístico que impulsa la innovación, fomenta la colaboración y mejora la calidad del software.Abordaremos los desafíos comunes en el desarrollo de software, como la falta de comunicación, la complejidad del proceso y la resistencia al cambio, y mostraremos cómo Team Topologies ofrece soluciones prácticas y efectivas para estos problemas.A lo largo de la charla, aprenderás los principios fundamentales de Team Topologies y cómo aplicarlos en tu equipo. Descubrirás cómo identificar roles y responsabilidades, establecer límites evolutivos claros y fomentar una cultura de experimentación y aprendizaje continuo.Además, presentaremos casos de estudio reales de empresas que han implementado con éxito Team Topologies y han experimentado mejoras significativas en la eficiencia, la calidad del software y la satisfacción del equipo.Ya sea que seas un desarrollador, un líder de equipo o un gerente de proyecto, esta charla te proporcionará las herramientas y los conocimientos necesarios para desbloquear el potencial de tu equipo y llevar tu desarrollo de software al siguiente nivel.",
     "audience_level": "Intermediate",
-    "time": "2:15 PM",
-    "language": "es",
+    "time": "TBD",
+    "language": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
-      "Java",
-      "JVM",
-      "Cloud Computing",
-      "Vaadin",
-      "Docker",
-      "Traefik"
+      "Estrategias",
+      "Herramientas",
+      "Metodologías"
     ],
     "speakers": [
-      "freddy-pena"
+      "david-joa"
     ]
   },
   {
     "id": 107,
-    "title": "Software dependencies: Best practices for Java project dependency management",
-    "abstract": "In this session we will explore how outdated dependencies can affect an application, the reasons that force dependency management, the challenges we face and some recommendations to keep your dependencies up to date.",
-    "description": "A software dependency is a library or package that is reused in new software. By using pre-built software dependencies, developers can deliver software faster and in shorter release cycles.Software dependencies have revolutionized application development over the past few decades, but they also present risks that are often overlooked.In this session we will explore how outdated dependencies can affect an application, the reasons that mandate dependency management, the challenges and pitfalls we face, and some recommendations for keeping your dependencies up to date.",
+    "title": "Profundizando en la arquitectura de micro-servicios con Java Spring",
+    "abstract": "¿Has tenido problemas implementando micro servicios? ¿Algunas cosas son más complejas de resolver y sientes que es un desperdicio de recursos? Pues ven a unirte a este charla donde hablaremos del escalado, implementación y uso de esta hermosa arquitectura en las aplicaciones del hoy día",
+    "description": "Realizar una implementación de esta arquitectura es más complejo de lo que se puede imaginar, el hecho de no conocer losconceptos y fundamento que la componen, te lleva a una implementación parcial o incompleta dando paso a problemas que asu vez plantean soluciones que evitan que se aprecien las bondades de esta arquitectura.Entre las características más brillantes de las aplicaciones en micro-servicios; es su escalado (horizontal y vertical),ya que estas aplicaciones escalan de forma automatizada y a demanda, y si el resultado de su implementación no da paso aesta característica en particular entonces estamos frente a un caso de una mala implementación de la misma.<b>El simple hecho de no conocer conceptos fundamentales y/o elementos que componen esta arquitectura, te llevará a un caos y junto a eso a una implementación que brindará más dolores de cabeza que ventajas.</b>Con esta charla, busco hacer que quien decida implementar este tipo de arquitectura orientada al servicio pueda hacerlo de una forma saludable y en los escenarios correctos, puesto que no siempre puedes usarla debido a:- Dimensiones de la aplicación:    - cantidad de usuarios    - Costos- Necesidades del usuario en la aplicación    - Tipo de conexiones    - Restricciones de ley con la data    - Limitaciones de hardware- Otros factores que afectarán el desarrollo:    - Flujo de trabajo del código    - Despliegue del código a los entornos    - Experiencia del equipo (grupal e individual)    - Tiempo de entrenamiento interno del equipo    - Hábitos de documentación    - ...",
     "audience_level": "All",
-    "time": "3:15 PM",
-    "talk_format": "Talk (~30 minutes)",
+    "time": "TBD",
+    "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
       "Java",
-      "Maven"
+      "Spring Framework",
+      "micro-servicios"
     ],
     "speakers": [
-      "ecabrerar"
+      "aluis-marte"
     ]
   },
   {
     "id": 108,
-    "title": "Flyway Migration with Quarkus",
-    "abstract": "Hate manually executing SQL files on servers? Flyway with Quarkus simplifies your life by avoiding direct server login and executing SQL files in production. Automate database migration and focus on what's important.",
-    "description": "Flyway with Quarkus is a powerful combination that simplifies the management and migration of databases in Java applications. Flyway is a database migration tool that allows to manage in an orderly and automated way the changes in the database structure throughout the lifecycle of an application. Quarkus, on the other hand, is a Java development framework designed for cloud-native applications. By using Flyway with Quarkus, developers can easily integrate database migration functionality into their applications without having to worry about manually executing SQL scripts or managing changes in production environments. Flyway takes care of applying migrations in an automated manner, maintaining precise control over the database structure. With this combination, developers can guarantee efficient database management, ensuring that changes are applied consistently across different environments. Flyway with Quarkus provides a reliable and robust solution to simplify database migration and maintain the integrity of Java applications.",
-    "audience_level": "All",
-    "time": "4:00 PM",
+    "title": "Codificación Segura en Java: Prevención y defensa",
+    "abstract": "¿Es Java seguro? ¿Es seguro tu código? ¿Puede ser vulnerada tu aplicación? Exploremos los aspectos esenciales de la seguridad en el desarrollo de aplicaciones Java, las vulnerabilidad más comunes, como identificarlas y cómo mitigarlas.",
+    "description": "En esta conferencia interactiva, exploraremos los aspectos esenciales de la seguridad en el desarrollo de aplicaciones Java, proporcionando un enfoque práctico y orientado a la acción para desarrolladores intermedios. Aprenderás a identificar y mitigar vulnerabilidades comunes, implementar técnicas de seguridad efectivas y proteger tus aplicaciones contra amenazas en constante evolución.",
+    "audience_level": "Intermediate",
+    "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
-      "Jakarta EE",
-      "Java",
-      "JVM",
-      "Microservices",
-      "Cloud Computing",
-      "Software Development"
+      "java",
+      "seguridad",
+      "security",
+      "código seguro"
     ],
     "speakers": [
-      "juandiegolopezve"
+      "berroteranlkf"
     ]
   },
   {
     "id": 109,
-    "title": "The path to developing a high concurrency application and not die trying",
-    "abstract": "At the request of a customer, we developed an application that would handle thousands of requests per minutes, the whole process of design, development and testing went smoothly, until we went to production. In this talk we will present all the changes made to bring the application up to speed.",
-    "description": "The developed application is responsible for sending advertising messages to thousands of customers to selected channels (SMS, Mail, Instant Messages, among others), regardless of the channel, for each message sent we receive three callback requests to our system giving us the ability to trace each message sent. When we send 10,000 messages we are receiving 30,000 messages on our server, causing each message to generate a flow of internal processes that consume server resources, the problem is not to process a message, the problem lies in the amount of recurring messages, in this talk we will present how we did not contemplate some details and had to implement changes on the fly to prepare our application to that volume of requests.<br><br>Our goal is to show how to identify these scenarios and apply technologies that help us to solve the problem.<br><br>In our case, we will present the integration of the following technologies:<br>Spring Boot<br>Vaadin<br>Spring Batch<br>Mysql<br>Redis<br>Message Queue<br>Servicios REST",
-    "audience_level": "All",
-    "time": "4:45 PM",
-    "talk_format": "Talk (~60 minutes)",
-    "language": "es",
+    "title": "Unlock the potential of Jakarta REST to build RESTful Web Services",
+    "abstract": "Leverage the power of Jakarta EE for creating RESTful Web Services",
+    "description": "In this workshop,you will get an introduction to the new and updated APIs of the Jakarta EE 10 Platform. You will get hands-on experience of the Platform with practical exercises of selected Jakarta EE 10 APIs.The focus of the workshop will be to build RESTful Web Services with Jakarta EE. You will learn how to deploy your services to a traditional application server as well as how to create a bootable JAR with the SEBootstrap mechanism provided by Jakarta EE RESTful Web Services.Did you know you don't need an external library like Jackson or Gson for JSON processing?You will learn how to leverage the power of the Jakarta EE APIs for serializing JSON to Java objects and back. All in all everything you need to know to be successful creating RESTful Web Services with Jakarta EE.",
+    "audience_level": "Intermediate",
+    "time": "TBD",
+    "talk_format": "Workshop (\u003e 60 minutes)",
+    "language": "en",
     "tags": [
       "Java",
-      "Spring Boot",
-      "Docker",
-      "Mysql",
-      "Redis"
+      "Jakarta EE",
+      "Jakarta REST",
+      "RESTful Web Services",
+      "Jakarta EE 10"
     ],
     "speakers": [
-      "ccamachog"
+      "ivar-grimstad","ecabrerar"
     ]
   },
   {
     "id": 110,
-    "title": "Keeping the boat afloat! SOS Technical Debt",
-    "abstract": "Technical Debt or Software Rot is a well-known but often ignored concept. Accumulating it can lead to disaster. In this session, we will explore fundamental concepts and provide a comprehensive guide on how to effectively reduce technical debt. We'll also emphasize the importance of considering factors like project budget and goals. Don't let technical debt undermine your success—join us and gain valuable insights to keep your project on track.",
-    "description": "Are you familiar with the term “Technical Debt” but wondering what it exactly entails and how it can impact your project? This talk is for you! We'll explore the basics of Technical Debt and understand its impact on software development.<br><br>We'll start by discussing the traditional approach to addressing Technical Debt, examining how it's typically overlooked and accumulates, which can have disastrous consequences. But fear not! We'll also explore a strategic way to tackle this debt, allowing us to effectively reduce it without neglecting other crucial aspects of our projects.<br><br>In the second part of the talk, we'll dive into measuring Technical Debt using tools like SonarQube and Git. We'll examine different technical, social, and economic metrics that will help us quantify and evaluate the level of debt in our software. Additionally, we'll create a simple mathematical model that provides a more precise view of the magnitude of technical debt in our projects and identifies potential risks.<br><br>Next, we'll present a possible action plan to effectively address Technical Debt. We'll discuss various strategies and approaches that we can implement proactively to reduce the debt, thereby optimizing the performance and quality of our software.<br><br>Finally, we'll conclude the talk with valuable recommendations and insights based on our experience and industry best practices. You'll be well-prepared to strategically and efficiently tackle Technical Debt, ensuring long-term success for your software development projects.<br><br>Don't miss out on this opportunity to learn how to reduce Technical Debt and take your projects to the next level!",
+    "title": "Infraestructura como Código para Todos",
+    "abstract": "Porque repetir la mismas tareas una y otra vez? Porque no invertir un tiempo y resolver esas tareas que siempre repites? Tenemos las herramientas y el conocimiento para no entrar en este loop tareas.",
+    "description": "El taller sobre Infraestructura como Código (IaC) ofrecerá una introducción exhaustiva a los principios, herramientas y mejores prácticas para automatizar la gestión de infraestructura a través de código. Desde los fundamentos conceptuales hasta la implementación práctica, los participantes explorarán cómo IaC mejora la eficiencia operativa, la escalabilidad y la consistencia en entornos de desarrollo, pruebas y producción. Se abordarán temas clave como la creación de plantillas reutilizables, el uso de herramientas como Pulumi, OpenTofu (Terraform) y Ansible, y estrategias para la gestión de cambios y la colaboración en equipos.Nos enfocaremos en Pulumi en versión Java, y Ansible.",
     "audience_level": "All",
-    "time": "5:30 PM",
-    "talk_format": "Talk (~60 minutes)",
+    "time": "TBD",
+    "talk_format": "Workshop (\u003e 60 minutes)",
     "language": "es",
     "tags": [
+      "IaC",
       "Java",
-      "Technical debt"
+      "Ansible",
+      "OpenTofu",
+      "Terraform",
+      "Vagrant"
     ],
     "speakers": [
-      "frank_jcg"
+      "hector-ventura"
     ]
   }
 ]

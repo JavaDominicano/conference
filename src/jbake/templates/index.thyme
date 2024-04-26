@@ -24,7 +24,7 @@
                         <div class="meeta-hero-content text-center">
 				<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
                             <p class="text" data-aos-delay="700" data-aos="fade-up" th:if="${config.layout_display_date_and_location_home}" th:text="${#strings.arrayJoin(config.layout_date_and_location_home,', ')}"></p>
-                            <h2 class="title" data-aos-delay="800" data-aos="fade-up">The Caribbean Java Technologies Conference.</h2>
+                            <h2 class="title" data-aos-delay="800" data-aos="fade-up">The Caribbean Java Technologies Conference</h2>
 							
                             <div class="header-btn" data-aos-delay="900" data-aos="fade-up" th:if="${config.layout_display_buytickets_index_button}">
                               <a th:href="${config.layout_buytickets_url}" href="price.html" class="btn-2">Buy Ticket Now</a>
@@ -148,18 +148,16 @@
 
 		<div th:replace="${config.layout_display_schedule && config.layout_display_page_spa}? ~{schedule.thyme::schedule} : ~{}" />
 
-
        <div th:replace="${config.layout_display_tickets && config.layout_display_page_spa}? ~{tickets.thyme::tickets} : ~{}"/>
 
-
 		<div th:replace="${config.layout_display_sponsors} ? ~{sponsors.thyme::sponsors} : ~{}" />
-		
-	
+			
 		<div th:replace="${config.layout_display_supporters} ? ~{supporters.thyme::supporters} : ~{}"/>
 		
+        <div th:replace="${config.layout_display_tickets_onsale_soon && not config.layout_display_buytickets_index_button} ? ~{tickets-onsale-soon.thyme::tickets} : ~{}" />
+
 		<div th:replace="${config.layout_display_gallery} ? ~{gallery.thyme::gallery} : ~{}"/>
 	
-
 
   </div>
      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>

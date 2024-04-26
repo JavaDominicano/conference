@@ -3,23 +3,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 
 <body>
-      <div th:fragment="sponsors" th:remove="tag">
+    <div th:fragment="sponsors" th:remove="tag">
 
-   <!-- Event Sponsors Start -->
-        <div id="sponsors" class="meeta-event-sponsors-3 section-padding" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/meeta/shape/video-bg.png)|" style="background-image: url(assets/images/shape/video-bg.png);">
+        <!-- Event Sponsors Start -->
+        <div id="sponsors" class="meeta-event-sponsors-3 section-padding"
+            th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+            th:style="|background-image:url(${rootpath}img/meeta/shape/video-bg.png)|"
+            style="background-image: url(assets/images/shape/video-bg.png);">
             <div class="container">
 
                 <!-- Section Title Start -->
                 <div class="meeta-section-title-2 section-title-3 text-center">
-                   <h2 class="main-title">Sponsors</h2>
-                   <p>Please contact us if you are interested in becoming a JConf Dominicana sponsor or supporter. <a href="mailto:info@jconfdominicana.org" target="_blank">Click here</a></p>
+                    <h2 class="main-title">Sponsors</h2>
+                    <p>Please contact us if you are interested in becoming a JConf Dominicana sponsor or supporter. <a
+                            href="mailto:info@jconfdominicana.org" target="_blank">Click here</a></p>
                 </div>
                 <!-- Section Title End -->
 
                 <!-- Sponsor Start -->
                 <div class="meeta-sponsor-wrap">
                     <div class="row" id="sponsorsList">
-                        
+
                     </div>
                 </div>
                 <!-- Sponsor End -->
@@ -27,9 +31,9 @@
             </div>
         </div>
         <!-- Event Sponsors End -->
-       <script type="module" src="js/sponsors.js"></script>
+        <script type="module" src="js/sponsors.js"></script>
 
-      </div>
+    </div>
 </body>
 
 </html>

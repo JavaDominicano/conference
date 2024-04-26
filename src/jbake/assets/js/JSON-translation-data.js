@@ -183,8 +183,8 @@ var linguJSON = {
       'target_es': 'Registro Temprano'
     },
     {
-      'source': 'Regular Registration',
-      'target_es': 'Registro Regular'
+      'source': 'Regular Registration Individual',
+      'target_es': 'Registro Regular Individual'
     },
     {
       'source': 'T-Shirt',
@@ -495,13 +495,10 @@ var linguJSON = {
       'target_es': 'Presentación y ejemplos'
     },
     {
-      'source': 'The Caribbean Java Technologies Conference.',
-      'target_es': 'La Conferencia de Tecnologías Java del Caribe.'
+      'source': 'The Caribbean Java Technologies Conference',
+      'target_es': 'La Conferencia de Tecnologías Java del Caribe'
     },
-    {
-      'source': 'The Caribbean Java Technologies Conference.',
-      'target_es': 'La Conferencia de Tecnologías Java del Caribe.'
-    },
+
     {
       'source': 'July 21-22, 2023. Santo Domingo. Dominican Republic.',
       'target_es': '21-22 de Julio del 2023. Santo Domingo. República Dominicana'
@@ -718,7 +715,26 @@ var linguJSON = {
     {
       "source": "See you all again next year!",
       "target_es": "Nos vemos el próximo año!"
+    },
+    {
+          "source": "Access to the workshops",
+          "target_es": "Acceso a los Talleres"
+    },
+    {
+      "source": "Entertainment Activities",
+      "target_es": "Actividades de Entretenimiento"
+    },
+    {
+         "source": "Workshop Certificates",
+         "target_es": "Certificados de los talleres"
+    },
+    {
+        "source": "Regular Registration Group (5+)",
+        "target_es": "Registro Regular Grupo (5 o más)"
+    },
+    {
+     "source": "The minimum order quantity is 5 tickets",
+     "target_es": "La cantidad mínima para ordenar son 5 entradas"
     }
-
   ]
 }
