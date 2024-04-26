@@ -330,6 +330,32 @@
     ]
   },
   "112": {
+    "id": "hector-ventura",
+    "name": "Hector Ventura",
+    "company": "Alphnology",
+    "companyLogo": "",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/hector-ventura.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Co-Founder",
+        "description": "Co-Founder"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/hectorvent"
+      }
+     
+    ]
+  },
+  "113": {
     "id": "ccamachog",
     "name": "Carlos Camacho",
     "company": "AvatharTech",
@@ -364,7 +390,7 @@
       }
     ]
   },
-  "113": {
+  "114": {
     "id": "brayan-munoz",
     "name": "Brayan Muñoz V",
     "company": "-",

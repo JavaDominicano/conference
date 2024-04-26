@@ -1,187 +1,200 @@
 [
-{
+  {
     "id": 101,
-    "title": "Focus on Software, not Code",
-    "abstract": "Suena raro, incluso loco. Pero el código y el software son cosas muy diferentes. El código es un medio para un fin. Tanto el software como el código cambian con frecuencia. Pero fuera del departamento de ingeniería de su empresa, a nadie le importa su código. Concéntrese en ejecutar software en su lugar.",
-    "description": "Hablaré sobre la diferencia entre código y software, y por qué es tan importante centrarse en este último. Usaré ejemplos de la vida real para ilustrar cuándo enfocarse en el código y cuándo enfocarse en el software, como priorizar optimizaciones, mejorar el rendimiento, corregir errores, etc.",
+    "title": "Empowering Innovation: The Open Source Odyssey of Contribution and Collaboration with Jakarta EE",
+    "abstract": "Esta sesión destaca el estado actual de Jakarta EE y las características clave de la próxima versión Jakarta EE 11 impulsada por la comunidad. Además, explora las consideraciones clave a la hora de embarcarse en el viaje del código abierto, y las contribuciones que las fundaciones de código abierto hacen a este ecosistema de colaboración.",
+    "description": "El desarrollo de aplicaciones Java para empresas se prepara para un futuro prometedor bajo la dirección de Jakarta EE. La prosperidad de cualquier proyecto de código abierto depende de una comunidad dinámica que participe activamente en los avances tecnológicos. Únase a esta sesión para descubrir las razones y los métodos para convertirse en parte integrante de la comunidad de Jakarta EE y Eclipse Foundation, y descubra las características clave de la próxima versión Jakarta EE 11. La presentación pone de relieve valiosos conocimientos sobre la amplia colaboración que existe en todo el sector dentro del ámbito del código abierto, dedicada a la modernización de las soluciones Java empresariales.",
     "audience_level": "All",
-    "time": "9:15 AM",
+    "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
+    "language": "en",
     "tags": [
-      "architecture",
-      "software development",
-      "devops"
+      "JakartaEE",
+      "JavaEE",
+      "OpenSource",
+      "EclipseFoundation"
     ],
     "speakers": [
-      "enrique-zamudio"
+      "shabnam-mayel"
     ]
   },
   {
     "id": 102,
-    "title": "Fallando con estilo: MicroProfile Fault Tolerance & Metric",
-    "abstract": "Lo que no se puede medir, no se puede mejorar.Aprende a utilizar las API de MicroProfile para darle super poderes a tu aplicación con tolerancia a fallos y metricas en tiempo real.",
-    "description": "Con las API de MicroProfile Fault Tolerance podemos implementar varias estrategias  para tener un manejo adecuado de errores utilizando unicamente algunas anotaciones.Además con MicroProfile Metrics podremos obtener algunas métricas de nuestra aplicación, la JVM  o incluso el servidor en donde se ejecuta y en conjunto con herramientas como Prometeus y Grafana poder observar y comparar esas métricas en tiempo real para tomar las desiciones correctas y aplicar las correcciones y mejoras en el momento preciso.",
-    "audience_level": "All",
-    "time": "10:15 AM",
-    "talk_format": "Talk (~30-45 minutes)",
+    "title": "Unlocking the Power of Multitenancy (Quarkus and Vaadin Flow)",
+    "abstract": "¿Te has enfrentado a los desafíos de aplicaciones multitenancy? Descubre cómo dominarlo con Quarkus y Vaadin Flow, en este workshop. ¡Aprende estrategias efectivas para gestionar estas estructuras y crear aplicaciones escalables y seguras!",
+    "description": "En la actualidad, el desarrollo de aplicaciones es un terreno complejo y desafiante. Los desarrolladores a menudo se encuentran con la necesidad de crear soluciones multitenancy para permitir intercambiar y compartir los recursos de las soluciones, garantizando la seguridad y la escalabilidad de esta.<br><br>Este workshop se enfoca en uno de los desafíos más comunes que enfrentan los desarrolladores: cómo integrar Vaadin Flow, una tecnología “stateful” que brinda interfaces de usuario ricas, con una API REST “stateless” en un ambiente Quarkus. Abordaremos los problemas que surgen cuando Vaadin Flow toma el control de la seguridad y cómo esto puede entrar en conflicto con la arquitectura “stateless” de Quarkus.<br><br>Exploraremos:<br>-\tLos desafíos específicos que surgen al combinar Vaadin Flow y Quarkus en un ambiente multitenancy.<br>-\tSoluciones prácticas para garantizar la seguridad y la interoperabilidad.<br>-\tDiseño de un API para aplicación de terceros.<br><br>Este workshop es ideal para desarrolladores, arquitectos de software y profesionales interesados en comprender cómo hacer que estas tecnologías puedan coexistir para construir aplicaciones seguras y escalables. Al final de la presentación, los asistentes tendrán una comprensión más sólida de cómo abordar este desafío en sus propios proyectos y lograr una integración exitosa.<br>",
+    "audience_level": "Intermediate",
+    "time": "TBD",
+    "talk_format": "Workshop (\u003e 60 minutes)",
     "language": "es",
     "tags": [
-      "MicroProfile",
-      "JakartaEE",
-      "Java"
+      "Quarkus",
+      "Vaadin",
+      "VaadinFlow",
+      "Java",
+      "API",
+      "Security"
     ],
     "speakers": [
-      "jorge-cajas"
+      "freddy-pena","juandiegolopezve"
     ]
   },
   {
     "id": 103,
-    "title": "El auge de los DevRels y su importancia en tu organización",
-    "abstract": "¿Por qué vemos un auge en los llamados \"DevRels\"? ¿Qué son? ¿Qué hacen? En esta charla vamos a conversar con Yuri, Developer Relations Advocate(DevRel) en Supabase y aprender sobre la importancia de esta figura en compañías de SAAAS y todas aquellas que tengan como a su customer persona a developers.",
-    "description": "Desde qué son, los tipos, la forma en que los DevRels ayudan a incrementar ventas y el conocimiento de tu producto en la comunidad son algunos de los temas que cubrirá Yuri en su charla sobre \"El auge de los DevRels y su importancia en tu organización\". Aprenderás sobre la forma en que esta labor se desempeña no sólo de forma externa frente a la comunidad y usuarios pero también cómo se ve en lo interno de la compañía, cómo segmentar tu audiencia para fines de marketing de tu producto y comunidad , la importancia de la creación de contenido para tus metas y muchas cosas más.",
+    "title": "Java with OpenAI: Building and Monetizing Generative AI Plugins",
+    "abstract": "Descubra cómo crear plugins de IA generativa utilizando Java en la plataforma OpenAI. Comience con los conceptos básicos de la API ChatGPT y Spring AI, y concluya lanzando un plugin Java completamente funcional en el mercado OpenAI. Aprenda estrategias para monetizar su plugin a millones de usuarios.",
+    "description": "La red neuronal GPT de OpenAI puede mejorarse y personalizarse con plugins. Por ejemplo, el plugin de Expedia proporciona a la IA datos actualizados sobre precios y disponibilidad de alojamiento, permitiendo a los usuarios reservar su próximo viaje directamente a través de la interfaz ChatGPT. En esta sesión, obtendrá experiencia práctica con grandes modelos de lenguaje (LLM) mediante el desarrollo de un plugin Java para la plataforma OpenAI desde cero. Empezaremos por lo básico, creando una aplicación de IA generativa que integre Spring AI con las API de OpenAI para una variedad de tareas de procesamiento del lenguaje natural (PLN). A continuación, mejoraremos la capacidad de respuesta de la aplicación utilizando la extensión pgvector de Postgres para realizar búsquedas de similitud vectorial en la base de datos. Por último, descubrirás cómo lanzar y monetizar tu plugin Java en la plataforma OpenAI, haciéndolo accesible a millones de usuarios.",
     "audience_level": "All",
-    "time": "11:00 AM",
+    "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
+    "language":"en",
     "tags": [
-      "Software Development",
-      "Developer Relations",
-      "DevRel",
-      "Networking",
-      "Community"
+      "Machine Learning with Java",
+      "Machine Learning",
+      "Java"     
     ],
     "speakers": [
-      "yuri-santana"
+      "denis-magda"
     ]
   },
   {
     "id": 104,
-    "title": "Unsupervised Learning con Apache Spark Java y MLlib",
-    "time": "11:45 AM",
-    "abstract": "Quieres ver lo que nadie ve en los datos? Quieres encontrar comportamientos ocultos en un determinado problema que manejes con datos? Quieres simplificar tu dataset para utilizarlo mejor en otros modelos? Esta charla es para ti. Aprenderemos como el Unsupervised Learning nos ayuda en estas tareas.",
-    "description": "En esta charla aprenderemos un poco sobre lo que es Unsupervised Learning (aprendizaje no supervisado) el cual es una rama del Machine Learning (aprendizaje automático) que a su vez es una rama de la Inteligencia Artificial (AI en ingles). Utilizaremos Apache Spark un motor unificado de analítica de datos el cual utilizaremos con Java y del cual utilizaremos la librería MLlib para crear y entrenar modelos de Machine Learning basados en estadística, específicamente un modelo de aprendizaje no supervisado o unsupervised learning.",
-    "audience_level": "All",
+    "title": "Integración de Java con MQTT para la Automatización del Hogar",
+    "time": "TBD",
+    "abstract": "Esta es una charla diseñada para demostrar el potencial de la domótica utilizando: Java y MQTT. Java nos brinda la robustez y versatilidad necesarias para desarrollar aplicaciones seguras, mientras que MQTT, con su ligereza y eficiencia, se establece como el estándar de comunicación ideal para IoT.",
+    "description": "En esta charla, exploraremos cómo Java se une al versátil protocolo MQTT para crear soluciones de domótica. Comenzaremos introduciendo los conceptos fundamentales de la domótica y la importancia de la comunicación eficiente en los sistemas IoT.<br><br>Luego, profundizaremos en MQTT, destacando sus características clave como la eficiencia, la fiabilidad y la arquitectura publish/subscribe, que lo hacen ideal para la automatización residencial.<br><br>A continuación, nos adentraremos en cómo Java, puede ser utilizado para desarrollar aplicaciones de domótica que se comunican con dispositivos IoT a través de MQTT. Cubriremos las **bibliotecas Java que facilitan esta integración** y proporcionaremos ejemplos de código para ilustrar la interacción entre una aplicación Java y dispositivos IoT mediante MQTT.<br><br>También discutiremos las **mejores prácticas para garantizar la seguridad** y la privacidad en las comunicaciones MQTT, abordando el uso de TLS/SSL, autenticación y autorización. Además de consejos sobre cómo manejar la reconexión y asegurar la entrega de mensajes para construir sistemas de domótica fiables y resilientes.<br><br>Finalmente, se presentará un demo de conexión de una aplicación Java con un broker MQTT para la transferencia de mensajes a dispositivos inteligente",
+    "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
-    "tags": [],
+    "tags": [
+      "IoT",
+      "Java",
+      "MQTT",
+      "Domotica"
+    ],
     "speakers": [
-      "juan-polanco"
+      "frank_jcg"
     ]
   },
   {
     "id": 105,
-    "title": "Bienvenidos al fin de la era del siempre lo hicimos así. Lecciones implementando Software...",
-    "abstract": "La mayoría de nosotros ha escuchado las 7 palabras más caras en  los negocios: \"Siempre lo hicimos así\" y podemos ver la resistencia al cambio, y puedes estar seguro de que la solución que ofreces es necesario, pero cómo ser un agente de cambio utilizando la tecnología, ¿es posible lograrlo?",
-    "description": "\"Bienvenidos al fin de la era del siempre lo hicimos así\". Lecciones implementando software...Hoy quiero hablarte sobre la gestión del cambio en  implementaciones de software. En los últimos años, hemos visto una explosión de tecnologías que han transformado la manera en que trabajamos y colaboramos. Sin embargo, implementar un nuevo software no es solo una cuestión técnica, sino que también implica un cambio cultural y organizacional que puede ser difícil de manejar.\r\n\r\nEn esta charla, te daré las claves para ser un agente de cambio efectivo utilizando la tecnología como puente. Descubrirás por qué la gestión del cambio es crucial en las implementaciones de software, qué habilidades y herramientas necesitas para liderar un cambio exitoso y cómo puedes influir positivamente en el cambio desde cualquier posición.",
+    "title": "Revolutionize Java Database App Development with Reactive Streams and Java Virtual Threads",
+    "abstract": "With the advent of Reactive Programming and Virtual Threads, Java developers can scale Java database access using either option.<br>This session explores how they can choose the proper database connectivity strategy per their specific requirements, <br>focusing on performance, scalability, and simplicity.",
+    "description": "Esta charla ayudará a los desarrolladores a aprender a escalar sus aplicaciones Java y Java Database Connectivity (JDBC) utilizando R2DBC (Reactive Relational Database Connectivity), RSI (Reactive Streams Ingestion Library) o JDBC con hilos virtuales. <br>Los desarrolladores aprenderán sobre las API R2DBC y RSI y cómo utilizar JDBC con Java Virtual Threads (Project Loom).",
     "audience_level": "Intermediate",
-    "time": "1:30 PM",
-    "language": "es",
+    "time": "TBD",
+    "language": "en",
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
-      "Gestion del cambio",
-      "Agile",
-      "Project Manager",
-      "Implementaciones de software"
+      "Java",
+      "ReactiveStreams",
+      "OracleDatabase",
+      "ProjectLoom",
+      "VirtualThreads",
+      "Reactive Streams Ingestion Library",
+      "R2DBC",
+      "RSI",
+      "Streaming",
+      "BigData"
     ],
     "speakers": [
-      "solenny-peralta-lopez"
+      "juarez-barbosa-jr"
     ]
   },
   {
     "id": 106,
-    "title": "Despliegue seguro y escalable de aplicaciones web con Vaadin Flow, Docker y Traefik",
-    "abstract": "Despliega aplicaciones web desarrolladas con Vaadin Flow de manera segura y escalable utilizando las tecnologías Docker y Traefik. Combina estas herramientas para simplifica el proceso de despliegue, garantiza la seguridad y asegura la disponibilidad en entornos de alta demanda.",
-    "description": "Sumérgete en el fascinante mundo del despliegue de aplicaciones web con Vaadin Flow, Docker y Traefik. En esta charla, te guiaremos a través de un viaje emocionante donde descubrirás cómo asegurar y escalar tus aplicaciones web de manera impecable. Aprende a aprovechar al máximo las tecnologías más modernas mientras simplificas el proceso de despliegue. Exploraremos cómo la combinación de Vaadin Flow, Docker y Traefik te permitirá alcanzar niveles superiores de seguridad y garantizar una experiencia fluida incluso en los entornos más exigentes. ¡No te pierdas esta oportunidad de aprender los secretos detrás del éxito del despliegue de aplicaciones web seguras y escalables!",
+    "title": "Desbloqueando el Potencial de los equipos Desarrollo de Software con Team Topologies",
+    "abstract": "En nuestra charla, exploraremos cómo  revolucionar la forma en como desarrollamos software.<br><br>Descubre cómo romper los silos organizacionales, fomentar la colaboración y mejorar la calidad del software.",
+    "description": "Team Topologies es más que una simple estructura organizativa; es un enfoque holístico que impulsa la innovación, fomenta la colaboración y mejora la calidad del software.<br><br>Abordaremos los desafíos comunes en el desarrollo de software, como la falta de comunicación, la complejidad del proceso y la resistencia al cambio, y mostraremos cómo Team Topologies ofrece soluciones prácticas y efectivas para estos problemas.<br><br>A lo largo de la charla, aprenderás los principios fundamentales de Team Topologies y cómo aplicarlos en tu equipo. Descubrirás cómo identificar roles y responsabilidades, establecer límites evolutivos claros y fomentar una cultura de experimentación y aprendizaje continuo.<br><br>Además, presentaremos casos de estudio reales de empresas que han implementado con éxito Team Topologies y han experimentado mejoras significativas en la eficiencia, la calidad del software y la satisfacción del equipo.<br><br>Ya sea que seas un desarrollador, un líder de equipo o un gerente de proyecto, esta charla te proporcionará las herramientas y los conocimientos necesarios para desbloquear el potencial de tu equipo y llevar tu desarrollo de software al siguiente nivel.",
     "audience_level": "Intermediate",
-    "time": "2:15 PM",
-    "language": "es",
+    "time": "TBD",
+    "language": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
-      "Java",
-      "JVM",
-      "Cloud Computing",
-      "Vaadin",
-      "Docker",
-      "Traefik"
+      "Estrategias",
+      "Herramientas",
+      "Metodologías"
     ],
     "speakers": [
-      "freddy-pena"
+      "david-joa"
     ]
   },
   {
     "id": 107,
-    "title": "Dependencias de software: prácticas recomendadas para la gestión de dependencias de proyectos Java",
-    "abstract": "En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
-    "description": "Una dependencia de software es una librería o un paquete que se reutiliza en un nuevo software. Mediante el uso de dependencias de software preconstruidas, los desarrolladores pueden entregar software más rápido y en ciclos de lanzamiento más cortos.Las dependencias de software han revolucionado el desarrollo de aplicaciones en las últimas décadas, pero también presentan riesgos que con frecuencia se pasan por alto.En esta sesión vamos a explorar cómo las dependencias desactualizadas pueden afectar una aplicación, las razones que obligan a la gestión de dependencias, los retos y desafios que tenemos que enfrentar y algunas recomendaciones para mantener tus dependencias actualizadas.",
+    "title": "Profundizando en la arquitectura de micro-servicios con Java Spring",
+    "abstract": "¿Has tenido problemas implementando micro servicios? ¿Algunas cosas son más complejas de resolver y sientes que es un desperdicio de recursos? Pues ven a unirte a este charla donde hablaremos del escalado, implementación y uso de esta hermosa arquitectura en las aplicaciones del hoy día",
+    "description": "Realizar una implementación de esta arquitectura es más complejo de lo que se puede imaginar, el hecho de no conocer los<br>conceptos y fundamento que la componen, te lleva a una implementación parcial o incompleta dando paso a problemas que a<br>su vez plantean soluciones que evitan que se aprecien las bondades de esta arquitectura.<br><br>Entre las características más brillantes de las aplicaciones en micro-servicios; es su escalado (horizontal y vertical),<br>ya que estas aplicaciones escalan de forma automatizada y a demanda, y si el resultado de su implementación no da paso a<br>esta característica en particular entonces estamos frente a un caso de una mala implementación de la misma.<br><br>**El simple hecho de no conocer conceptos fundamentales y/o elementos que componen esta arquitectura, te llevará a un<br>caos y junto a eso a una implementación que brindará más dolores de cabeza que ventajas.**<br><br>Con esta charla, busco hacer que quien decida implementar este tipo de arquitectura orientada al servicio pueda hacerlo<br>de una forma saludable y en los escenarios correctos, puesto no siempre puedes usarla debido a:<br><br>- Dimensiones de la aplicación:<br>    - cantidad de usuarios<br>    - Costos<br>- Necesidades del usuario en la aplicación<br>    - Tipo de conexiones<br>    - Restricciones de ley con la data<br>    - Limitaciones de hardware<br>- Otros factores que afectarán el desarrollo:<br>    - Flujo de trabajo del código<br>    - Despliegue del código a los entornos<br>    - Experiencia del equipo (grupal e individual)<br>    - Tiempo de entrenamiento interno del equipo<br>    - Hábitos de documentación<br>    - ...<br>",
     "audience_level": "All",
-    "time": "3:15 PM",
-    "talk_format": "Talk (~30 minutes)",
+    "time": "TBD",
+    "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
       "Java",
-      "Maven"
+      "Spring Framework",
+      "micro-servicios"
     ],
     "speakers": [
-      "ecabrerar"
+      "aluis-marte"
     ]
   },
   {
     "id": 108,
-    "title": "Migración Flyway con Quarkus",
-    "abstract": "¿Odias ejecutar archivos SQL manualmente en servidores? Flyway con Quarkus simplifica tu vida al evitar el ingreso directo al servidor y ejecutar archivos SQL en producción. Automatiza la migración de bases de datos y enfócate en lo importante.",
-    "description": "Flyway con Quarkus es una potente combinación que simplifica la gestión y migración de bases de datos en aplicaciones Java. Flyway es una herramienta de migración de bases de datos que permite gestionar de manera ordenada y automatizada los cambios en la estructura de la base de datos a lo largo del ciclo de vida de una aplicación. Quarkus, por su parte, es un framework de desarrollo Java diseñado para aplicaciones nativas en la nube.\r\n\r\nAl utilizar Flyway con Quarkus, los desarrolladores pueden integrar fácilmente la funcionalidad de migración de bases de datos en sus aplicaciones, sin tener que preocuparse por la ejecución manual de scripts SQL o la administración de cambios en entornos de producción. Flyway se encarga de aplicar las migraciones de forma automatizada, manteniendo un control preciso sobre la estructura de la base de datos.\r\n\r\nCon esta combinación, los desarrolladores pueden garantizar una gestión eficiente de la base de datos, asegurando que los cambios se apliquen de manera consistente en diferentes entornos. Flyway con Quarkus proporciona una solución confiable y robusta para simplificar la migración de bases de datos y mantener la integridad de las aplicaciones Java.",
-    "audience_level": "All",
-    "time": "4:00 PM",
+    "title": "Codificación Segura en Java: Prevención y defensa",
+    "abstract": "¿Es Java seguro? ¿Es seguro tu código? ¿Puede ser vulnerada tu aplicación? Exploremos los aspectos esenciales de la seguridad en el desarrollo de aplicaciones Java, las vulnerabilidad más comunes, como identificarlas y cómo mitigarlas.",
+    "description": "En esta conferencia interactiva, exploraremos los aspectos esenciales de la seguridad en el desarrollo de aplicaciones Java, proporcionando un enfoque práctico y orientado a la acción para desarrolladores intermedios. Aprenderás a identificar y mitigar vulnerabilidades comunes, implementar técnicas de seguridad efectivas y proteger tus aplicaciones contra amenazas en constante evolución.",
+    "audience_level": "Intermediate",
+    "time": "TBD",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
-      "Jakarta EE",
-      "Java",
-      "JVM",
-      "Microservices",
-      "Cloud Computing",
-      "Software Development"
+      "java",
+      "seguridad",
+      "security",
+      "código seguro"
     ],
     "speakers": [
-      "juandiegolopezve"
+      "berroteranlkf"
     ]
   },
   {
     "id": 109,
-    "title": "El camino de desarrollar una aplicación de alta concurrencia y no morir en el intento",
-    "abstract": "A solicitud de un cliente, desarrollamos una aplicación que iba manejar miles de peticiones por minutos, todo el proceso de diseño, desarrollo y prueba funcionaron viento en popa, hasta que salimos a producción. En esta charla presentaremos todos los cambios realizados para pone en punto dicha aplicación.",
-    "description": "La aplicación desarrollada se encarga de enviar mensajes publicitarios a miles de clientes a canales seleccionados (SMS, Correo, Mensajes Instantáneos, entre otros), sin importar el canal, por cada mensaje enviado recibimos tres peticiones a modo de callback a nuestros sistema brindandonos la capacidad de trazabilidad de cada mensaje enviado. Cuando enviamos 10,000 mensajes estamos recibiendo 30,000 mensajes en nuestro servidor, provocando que cada mensaje genere un flujo de procesos internos que consumen recursos del servidor, el problema no es procesar un mensaje, el problema radica la cantidad de mensajes recurrentes.<br><br>En esta charla presentaremos, como no contemplamos algunos detalles y tuvimos que implementar cambios sobre la marcha para preparar nuestra aplicación a ese volumen de peticiones. Nuestro objetivo, es mostrar como identificar esos escenarios y aplicar tecnologías que nos ayuden a resolver el inconveniente. <br><br> En nuestro caso, presentaremos la integración de las siguientes tecnologías:<br>Spring Boot<br>Vaadin<br>Spring Batch<br>Mysql<br>Redis<br>Cola de mensajería<br>Servicios REST.",
-    "audience_level": "All",
-    "time": "4:45 PM",
-    "talk_format": "Talk (~60 minutes)",
-    "language": "es",
+    "title": "Unlock the potential of Jakarta REST to build RESTful Web Services",
+    "abstract": "Aprovechar la potencia de Jakarta EE para crear servicios web RESTful",
+    "description": "En este taller, obtendrás una introducción a las nuevas y actualizadas APIs de la Plataforma Jakarta EE 10. Obtendrás experiencia práctica de la Plataforma con ejercicios prácticos de APIs seleccionadas de Jakarta EE 10. Obtendrás experiencia práctica de la Plataforma con ejercicios prácticos de las APIs seleccionadas de Jakarta EE 10. El enfoque del taller será construir Servicios Web RESTful con Jakarta EE. Usted aprenderá cómo implementar sus servicios a un servidor de aplicaciones tradicionales, así como la forma de crear un JAR de arranque con el mecanismo SEBootstrap proporcionado por Jakarta EE RESTful Web Services.<br>¿Sabía usted que usted no necesita una biblioteca externa como Jackson o Gson para el procesamiento de JSON?<br>Usted aprenderá cómo aprovechar el poder de las APIs de Jakarta EE para serializar JSON a objetos Java y viceversa. Todo lo que necesitas saber para tener éxito en la creación de Servicios Web RESTful con Jakarta EE.",
+    "audience_level": "Intermediate",
+    "time": "TBD",
+    "talk_format": "Workshop (\u003e 60 minutes)",
+    "language": "en",
     "tags": [
       "Java",
-      "Spring Boot",
-      "Docker",
-      "Mysql",
-      "Redis"
+      "Jakarta EE",
+      "Jakarta REST",
+      "RESTful Web Services",
+      "Jakarta EE 10"
     ],
     "speakers": [
-      "ccamachog"
+      "ivar-grimstad","ecabrerar"
     ]
   },
   {
     "id": 110,
-    "title": "¡Mantén el proyecto a flote! Encarando la Deuda Técnica",
-    "abstract": "La “Deuda Técnica” es un concepto que todos conocemos, pero preferimos ignorar. Pero, ¡cuidado! Dejarla a un lado es una receta para el desastre. En esta sesión, vamos a hablar de conceptos generales y una guía práctica —que seguro convence al jefe— de cómo reducir esa deuda técnica sin descuidar cosas importantes como el presupuesto y los objetivos de tu proyecto. ¡Acompáñanos y mantén tu proyecto a flote!    ",
-    "description": "¿Estás familiarizado con el término “Deuda Técnica” pero te preguntas qué implica exactamente y cómo puede afectar a tu proyecto? ¡Esta charla es para ti! Exploraremos los conceptos básicos de la Deuda Técnica y entenderemos su impacto en el desarrollo de software.<br><br>Comenzaremos discutiendo la forma tradicional de abordar la Deuda Técnica, analizando cómo muchas veces se pasa por alto y se acumula, lo cual puede tener consecuencias desastrosas.Pero no todo está perdido, también exploraremos una forma estratégica de abordar esta deuda, que nos permitirá reducirla de manera efectiva sin descuidar otros aspectos cruciales de nuestros proyectos.br><br>En la segunda parte de la charla, nos sumergiremos en cómo medir la Deuda Técnica utilizando herramientas como SonarQube y GIT. Examinaremos diferentes métricas técnicas, sociales y económicas que nos ayudarán a cuantificar y evaluar el nivel de deuda en nuestro software. Además, crearemos un modelo matemático simple que nos proporcionará una visión más precisa de la magnitud de la deuda técnica en nuestros proyectos y los elementos de riesgo.br><br>Luego, presentaremos un posible plan de trabajo para abordar la Deuda Técnica de manera efectiva. Discutiremos diferentes estrategias y enfoques que podemos implementar para reducir proactivamente la deuda, optimizando así el rendimiento y la calidad de nuestro software.br><br>Finalmente, concluiremos la charla con valiosas recomendaciones y conclusiones basadas en nuestra experiencia y mejores prácticas del sector. Te iremos preparando para enfrentar la Deuda Técnica de manera estratégica y eficiente, asegurando el éxito a largo plazo de tus proyectos de desarrollo de software.br><br>¡No pierdas esta oportunidad de aprender cómo reducir la Deuda Técnica y llevar tus proyectos al siguiente nivel!",
+    "title": "Infraestructura como Código para Todos",
+    "abstract": "Porque repetir la mismas tareas una y otra vez? Porque no invertir un tiempo y resolver esas tareas que siempre repites? Tenemos las herramientas y el conocimiento para no entrar en este loop tareas.",
+    "description": "El taller sobre Infraestructura como Código (IaC) ofrecerá una introducción exhaustiva a los principios, herramientas y mejores prácticas para automatizar la gestión de infraestructura a través de código. Desde los fundamentos conceptuales hasta la implementación práctica, los participantes explorarán cómo IaC mejora la eficiencia operativa, la escalabilidad y la consistencia en entornos de desarrollo, pruebas y producción. Se abordarán temas clave como la creación de plantillas reutilizables, el uso de herramientas como Pulumi, OpenTofu (Terraform) y Ansible, y estrategias para la gestión de cambios y la colaboración en equipos.<br><br>Nos enfocaremos en Pulumi en versión Java, y Ansible.",
     "audience_level": "All",
-    "time": "5:30 PM",
-    "talk_format": "Talk (~60 minutes)",
+    "time": "TBD",
+    "talk_format": "Workshop (\u003e 60 minutes)",
     "language": "es",
     "tags": [
+      "IaC",
       "Java",
-      "Technical debt"
+      "Ansible",
+      "OpenTofu",
+      "Terraform",
+      "Vagrant"
     ],
     "speakers": [
-      "frank_jcg"
+      "hector-ventura"
     ]
   }
 ]
