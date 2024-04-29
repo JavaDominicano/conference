@@ -425,5 +425,40 @@
         "link": "https://www.linkedin.com/in/brayanmnz"
       }
     ]
+  },
+  "115": {
+    "id": "eddumelendez",
+    "name": "Eddú Meléndez Gonzales",
+    "company": "Docker",
+    "companyLogo": "",
+    "country": "Perú",
+    "countryFlag": "flag-icon-pe",
+    "photoUrl": "/img/speakers/eddumelendez.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Engineer",
+        "description": "Software Engineer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/eddumelendez"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/eddumelendez"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://eddumelendez.dev"
+      }
+    ]
   }
 }
