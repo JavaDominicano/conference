@@ -196,5 +196,66 @@
     "speakers": [
       "hector-ventura"
     ]
+  },
+  {
+    "id": 111,
+    "title": "¡No más scripts!, Utiliza Apache Nifi para tus flujos de datos",
+    "abstract": "Imagina un flujo constante de datos entre sistemas dispares en tu empresa: registros, transacciones, lecturas, y más. Ahora, piensa en solución que simplifica ese flujo de datos, en una plataforma poderosa para automatizar su movimiento, transformación y entrega en tiempo real. Eso Apache NiFi!.",
+    "description": "Imagina un flujo constante de datos viajando a través de sistemas dispares en tu empresa: registros de servidores, transacciones de clientes, lecturas de sensores, y más. Ahora, visualiza una solución que simplifica radicalmente la gestión de este flujo de datos, ofreciendo una plataforma única y poderosa para automatizar su movimiento, transformación y entrega en tiempo real. Esa solución es Apache NiFi.<br><br>Apache NiFi es la herramienta definitiva para el flujo de datos en tiempo real. Con una interfaz gráfica intuitiva y fácil de usar, NiFi permite a los usuarios diseñar, controlar y monitorear flujos de datos de manera visual, sin necesidad de escribir código. Desde la ingestión de datos hasta su procesamiento y distribución, NiFi simplifica cada paso del proceso, permitiendo a las organizaciones gestionar eficientemente grandes volúmenes de datos de manera confiable y escalable.<br><br>¿Qué hace a Apache NiFi tan especial? En primer lugar, su capacidad para integrar fácilmente una amplia variedad de fuentes y destinos de datos. Desde bases de datos y sistemas de archivos hasta dispositivos IoT y servicios web, NiFi puede conectarse con casi cualquier fuente de datos imaginable. Además, NiFi ofrece potentes capacidades de procesamiento en tiempo real, permitiendo a los usuarios realizar transformaciones, enriquecimientos y análisis de datos sobre la marcha.<br><br>En nuestra presentación estaremos abordando los aspectos básicos de la herramienta y mostrando escenarios de situaciones reales donde Apache Nifi nos ha permitido agilizar nuestro trabajo, sin necesidad de crear scripts o aplicativos específicos para resolver esa situación. Los ejemplos propuestos son:<br><br>- Integración de información entre varias fuentes de datos (SQL, No SQL, Servicios Web, entre otros).<br>- Cambio de fuente de datos entre sistemas (SQL a No SQL).<br>- Implementación de un Change data capture (CDC) desde una base de datos SQL.",
+    "audience_level": "Intermediate",
+    "time": "TBD",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "Java",
+      "Apache Nifi",
+      "ELT",
+      "Data Streaming",
+      "Streaming",
+      "SQL",
+      "NO SQL"
+    ],
+    "speakers": [
+      "ccamachog"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Hablando de basura: Garbage Collector, ¿Qué es?  ¿Cómo funciona? ¿Cuál debería utilizar en mi aplicación?",
+    "abstract": "Aumentar la cantidad de instancias de tu aplicación o la memoria disponible solo esconderá el problema real de esta. <br><br>Hablemos sobre basura, para entender cómo la JVM maneja la memoria de tu aplicación y cómo puedes maximizar el rendimiento de esta con una gestión efectiva de su memoria.",
+    "description": "Hablemos de basura, además de su importancia en recolectarla a tiempo para mantener una aplicación en su punto más óptimo y costo eficiente. <br><br>Hoy en día se ha vuelto una práctica común resolver todos los problemas de rendimiento, aumentando la cantidad de recursos disponibles en el hardware donde alojamos nuestras aplicaciones. <br><br>En esta charla, abordaremos los conceptos envueltos en el funcionamiento del <br>Garbage Collector (GC) en el JVM, la evolución de los algoritmos de Garbage Collection a través de los años y cuál es el más óptimo a utilizar dependiendo de cuáles son los puntos críticos de tu aplicación. Veremos brevemente distintas herramientas de monitoreo y visualización que nos ayudarán a entender en tiempo real, de manera gráfica, el comportamiento de la memoria en nuestra aplicación.",
+    "audience_level": "Intermediate",
+    "time": "TBD",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "Java",
+      "Garbage Collector",
+      "JVM",
+      "Java Platform"
+    ],
+    "speakers": [
+      "brayan-munoz"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "AWSome Testing con LocalStack y Testcontainers",
+    "abstract": "La ejecución de las pruebas deben proveer feedback rápido. Al ejecutar en una infraestructura real están aumentan costos y toman tiempo. LocalStack y Testcontainers permiten realizar pruebas locales y reales sin un ambiente de producción.",
+    "description": "Hoy en día muchas aplicaciones se integran con servicios cloud como AWS, Azure, GCP. Sin embargo, el desarrollo y pruebas de estas aplicaciones puede ser un reto debido a los costos y la velocidad de desarrollo. Esta charla presentará LocalStack para emular los servicios de AWS localmente y Testcontainers para ejecutar LocalStack como contenedor e integrarlo en el ciclo de vida de las pruebas de manera programática.",
+    "audience_level": "Intermediate",
+    "time": "TBD",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "tags": [
+      "java",
+      "testcontainers",
+      "aws",
+      "spring boot",
+      "junit"
+    ],
+    "speakers": [
+      "eddumelendez"
+    ]
   }
 ]
