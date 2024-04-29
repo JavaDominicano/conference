@@ -221,7 +221,7 @@
   },
   {
     "id": 112,
-    "title": "Hablando de basura: Garbage Collector, ¿Qué es?  ¿Cómo funciona? y ¿Cuál debería utilizar en mi aplicación?",
+    "title": "Hablando de basura: Garbage Collector, ¿Qué es?  ¿Cómo funciona? ¿Cuál debería utilizar en mi aplicación?",
     "abstract": "Aumentar la cantidad de instancias de tu aplicación o la memoria disponible solo esconderá el problema real de esta. <br><br>Hablemos sobre basura, para entender cómo la JVM maneja la memoria de tu aplicación y cómo puedes maximizar el rendimiento de esta con una gestión efectiva de su memoria.",
     "description": "Hablemos de basura, además de su importancia en recolectarla a tiempo para mantener una aplicación en su punto más óptimo y costo eficiente. <br><br>Hoy en día se ha vuelto una práctica común resolver todos los problemas de rendimiento, aumentando la cantidad de recursos disponibles en el hardware donde alojamos nuestras aplicaciones. <br><br>En esta charla, abordaremos los conceptos envueltos en el funcionamiento del <br>Garbage Collector (GC) en el JVM, la evolución de los algoritmos de Garbage Collection a través de los años y cuál es el más óptimo a utilizar dependiendo de cuáles son los puntos críticos de tu aplicación. Veremos brevemente distintas herramientas de monitoreo y visualización que nos ayudarán a entender en tiempo real, de manera gráfica, el comportamiento de la memoria en nuestra aplicación.",
     "audience_level": "Intermediate",
