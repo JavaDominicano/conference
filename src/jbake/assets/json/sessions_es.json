@@ -257,5 +257,24 @@
     "speakers": [
       "eddumelendez"
     ]
+  },
+  {
+    "id": 114,
+    "title": "Integración de Spring Boot con PayPal y Buenas Prácticas",
+    "abstract": "Participa en nuestro workshop para dominar la integración de PayPal en tus aplicaciones de Spring Boot. Exploraremos técnicas esenciales como el uso de Spring Cache con Redis y métodos avanzados de pruebas, tanto unitarias como de integración. Este taller es perfecto para desarrolladores que buscan implementar transacciones seguras y mejorar la eficiencia de sus aplicaciones en línea.",
+    "description": "En este taller, explicaremos cómo integrar la pasarela de pagos PayPal con aplicaciones desarrolladas en Spring Boot, facilitando transacciones seguras y eficientes. A través de ejemplos prácticos, aprenderás a configurar y manejar pagos en línea, un componente esencial para cualquier negocio digital.<br><br>Integración de PayPal:<br>Detallaremos paso a paso cómo incorporar PayPal en tus proyectos de Spring Boot, desde la configuración inicial hasta el manejo de transacciones y la seguridad en los pagos.<br><br>Además, el workshop incluirá sesiones sobre:<br>Uso de Spring Cache con Redis:<br>Aprenderemos a implementar caching para mejorar la eficiencia y respuesta de las aplicaciones.<br>Creación y uso de Anotaciones con Spring AOP:<br>Introduciremos cómo crear anotaciones personalizadas para manejar excepciones, utilizando Spring AOP para simplificar la gestión de errores.<br><br>Pruebas en Spring:<br>Profundizaremos en cómo realizar pruebas efectivas en diferentes niveles de la aplicación:<br>Servicios y Componentes<br>Controladores utilizando MockMvc<br>Repositorios con Spring Data JPA<br><br>Únete a nosotros para desarrollar tus habilidades en la creación de aplicaciones comerciales con Spring Boot, donde no solo aprenderás sobre integraciones de pagos, sino también sobre optimización de rendimiento y pruebas rigurosas para garantizar la calidad del software.",
+    "audience_level": "Intermediate",
+    "time": "TBD",
+    "talk_format": "Workshop (\u003e 60 minutes)",
+    "language": "es",
+    "tags": [
+      "java",
+      "Redis",
+      "spring boot",
+      "Spring Cache"
+    ],
+    "speakers": [
+      "geovanny-mendoza"
+    ]
   }
 ]
