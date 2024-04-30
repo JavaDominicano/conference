@@ -455,9 +455,38 @@
         "link": "https://github.com/eddumelendez"
       },
       {
-        "icon": "linkedin",
-        "name": "Linkedin",
+        "icon": "link",
+        "name": "Link",
         "link": "https://eddumelendez.dev"
+      }
+    ]
+  },"116": {
+    "id": "geovanny-mendoza",
+    "name": "Geovanny Mendoza",
+    "company": "JUGBAQ",
+    "companyLogo": "",
+    "country": "Colombia",
+    "countryFlag": "flag-icon-co",
+    "photoUrl": "/img/speakers/geovanny-mendoza.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Engineer",
+        "description": "Software Engineer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/geovanny0401"
+      },
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://www.geovannycode.com"
       }
     ]
   }
