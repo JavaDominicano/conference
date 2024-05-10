@@ -52,8 +52,7 @@
 
                                    <h4>Day 1: July 19, 2024</h4>
                                    <p><b>PUCMM Campus Santiago</b>. Autopista Duarte Km 1 1/2, Santiago de los caballeros, Dominican Republic.</p>
-                                   <div th:if="${config.layout_display_schedule && config.layout_display_page_spa &&  config.layout_display_general_agenda}" th:remove="tag">
-                                    <!-- Event Accordion Start -->
+                                   <div th:if="${config.layout_display_schedule && config.layout_display_page_spa &&  config.layout_display_workshop_agenda}" th:remove="tag">                                    <!-- Event Accordion Start -->
                                     <ul class="meeta-event-accordion">
                                     <li class="meeta-event-accordion-item">
                                             <h3>
@@ -218,13 +217,11 @@ Code</span>
                                    
                                     <h4>Day 1: July 19, 2024</h4>
                                     <p><b>PUCMM Campus Santiago</b>. Autopista Duarte Km 1 1/2, Santiago de los caballeros, Dominican Republic.</p>
- 
-                                    <div th:if="${config.layout_display_schedule && config.layout_display_page_spa &&  config.layout_display_workshop_agenda}" th:remove="tag">
+                                    
                                     <!-- Event Accordion Start -->
                                     <ul class="meeta-event-accordion" id="workshopsList"></ul>
                                     <!-- Event Accordion End -->
-                                    </div>
-
+                                
                                 </div>
                                 <div id="tab3" class="meeta-event-schedule-tab-pane">
 
