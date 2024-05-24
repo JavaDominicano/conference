@@ -22,18 +22,8 @@ fetch(fetchUrl)
       let workshops = document.getElementById('workshopsList');
 
       workshopList.forEach((workshop) => {
-           let title = workshop.title;
-           let description = workshop.description;
-           let speakerId = workshop.speakers[0];
-           let photoUrl = workshop.photoUrl;
-           let time = workshop.time;
-
-         let speakerPromise = getSpeakerById(getUsefulContents("lang", "../json/speakers/"+speakerId));
-
-           speakerPromise.then(function(speaker){
-            workshops.innerHTML += createWorkshopCard(title,description, photoUrl, speaker, time);
-           });
-         });
+            workshops.innerHTML += createWorkshopCard(workshop);
+          });
 
 
 });
@@ -50,17 +40,26 @@ $(document).on('click', '#workshopsList li.meeta-event-accordion-item > .meeta-e
 }
 });
 
-function createWorkshopCard(title,description,photoUrl, speaker,time) {
+function createWorkshopCard(workshop) {
 
-  var speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
+  let title = workshop.title;
+  let description = workshop.description;
+  let speakers = workshop.speakers; 
+  let time = workshop.time;
 
-     var sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
+  var sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
      "<h3 class=\"meeta-event-accordion-toggle\">"+
-     "<div class=\"image\">"+
-     "<a href=\"" + speakerUrlDetail + "\"><img src=\"" + photoUrl +"\" alt=\""+speaker.name+"\"></a>"+
-     "</div>"+
-     "<div class=\"event-title\">"+
-     "<span class=\"time\">"+time+"</span>"+
+     "<div class=\"image\">";
+
+     (async () => {
+     for (let i in speakers) {
+         
+          sessionHtml += await getSpeakerById(getUsefulContents("lang", "../json/speakers/"+speakers[i]));                
+    }
+  })();
+
+    
+     sessionHtml += "</div><div class=\"event-title\"><span class=\"time\">"+time+"</span>"+
      "<span class=\"title\">"+ title +"</span>"+
      "</div>"+
      " </h3>"+
@@ -69,6 +68,8 @@ function createWorkshopCard(title,description,photoUrl, speaker,time) {
       "</div>"+
       "</li>";
 
+
+     
 
         return sessionHtml;
 }
@@ -81,6 +82,11 @@ function getSpeakerById(fetchUrlSpeaker){
           }
 
           return response.json();
-      });
+      }).then(function(speaker){
+             
+        var speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
+          
+        return "<a href=\"" + speakerUrlDetail + "\"><img src=\"" + speaker.photoUrl +"\" alt=\""+speaker.name+"\"></a>";    
+    });
       
 }
