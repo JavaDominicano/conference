@@ -19,9 +19,14 @@ fetch(fetchUrl)
 
       sessionList.sort(function(a, b){return a.id-b.id});
 
+      let filteredSessions = sessionList.filter((session) => {
+
+        return session.talk_format.indexOf("Workshop")==-1;
+    });
+
       let sessions = document.getElementById('sessionsList');
 
-      sessionList.forEach((session) => processSession(session, sessions));
+      filteredSessions.forEach((session) => processSession(session, sessions));
 
 });
 
