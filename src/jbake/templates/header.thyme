@@ -50,6 +50,7 @@
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/magnific-popup.css'" rel="stylesheet"/>
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/aos.css'" rel="stylesheet"/>
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/nice-select.css'" rel="stylesheet"/>
+<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'lib/flag-icon-css/css/flag-icon.css'" rel="stylesheet" />
 
 <!-- Main Stylesheet File -->
 <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/style.css'" rel="stylesheet"/>
