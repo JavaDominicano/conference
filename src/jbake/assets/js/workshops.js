@@ -82,7 +82,7 @@ function getSpeakerById(fetchUrlSpeaker, workshopId){
          
         let instructors = document.getElementById("instructors"+"-"+workshopId);
 
-        instructors.innerHTML +=  "<div class=\"image\"><a href=\"" + speakerUrlDetail + "\"><img src=\"" + speaker.photoUrl +"\" alt=\""+speaker.name+"\"></a></div><h3 class=\"speaker-name\">" + speaker.name + " <span class=\"flag-icon " + speaker.countryFlag + "\"></span></h3>" +
+        instructors.innerHTML +=  "<div class=\"col-lg-3\"><a href=\"" + speakerUrlDetail + "\"><img src=\"" + speaker.photoUrl +"\" style=\"border-radius: 5px;\"  alt=\""+speaker.name+"\"></a></div><h3 class=\"speaker-name\">" + speaker.name + " <span class=\"flag-icon " + speaker.countryFlag + "\"></span></h3>" +
         "<p class=\"speaker-designation\">" + speaker.title + "</p>" ;
          
     });
