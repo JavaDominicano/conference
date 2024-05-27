@@ -22,18 +22,8 @@ fetch(fetchUrl)
       let workshops = document.getElementById('workshopsList');
 
       workshopList.forEach((workshop) => {
-           let title = workshop.title;
-           let description = workshop.description;
-           let speakerId = workshop.speakers[0];
-           let photoUrl = workshop.photoUrl;
-           let time = workshop.time;
-
-         let speakerPromise = getSpeakerById(getUsefulContents("lang", "../json/speakers/"+speakerId));
-
-           speakerPromise.then(function(speaker){
-            workshops.innerHTML += createWorkshopCard(title,description, photoUrl, speaker, time);
-           });
-         });
+            workshops.innerHTML += createWorkshopCard(workshop);
+     });
 
 
 });
@@ -50,30 +40,35 @@ $(document).on('click', '#workshopsList li.meeta-event-accordion-item > .meeta-e
 }
 });
 
-function createWorkshopCard(title,description,photoUrl, speaker,time) {
+function createWorkshopCard(workshop) {
 
-  var speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
+  let workshopId = workshop.id;
+  let title = workshop.title;
+  let description = workshop.description;
+  let speakers = workshop.speakers; 
+  let time = workshop.time;
 
-     var sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
+  var sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
      "<h3 class=\"meeta-event-accordion-toggle\">"+
-     "<div class=\"image\">"+
-     "<a href=\"" + speakerUrlDetail + "\"><img src=\"" + photoUrl +"\" alt=\""+speaker.name+"\"></a>"+
-     "</div>"+
-     "<div class=\"event-title\">"+
-     "<span class=\"time\">"+time+"</span>"+
+     "<div class=\"event-title\"><span class=\"time\">"+time+"</span>"+
      "<span class=\"title\">"+ title +"</span>"+
      "</div>"+
      " </h3>"+
-     "<div class=\"meeta-event-accordion-body\">"+
+     "<div class=\"meeta-event-accordion-body\" style=\"padding-left: 0px;\">"+
      "<p>"+description+"</p>"+
+     "<br><br><h3>Instructor(s)</h3>"+
+     "<div id=\"instructors-"+ workshopId  +"\"></div>"+
       "</div>"+
       "</li>";
 
+      for (let i in speakers) {
+         getSpeakerById(getUsefulContents("lang", "../json/speakers/"+speakers[i]),workshopId);                
+     }
 
         return sessionHtml;
 }
 
-function getSpeakerById(fetchUrlSpeaker){
+function getSpeakerById(fetchUrlSpeaker, workshopId){
  return fetch(fetchUrlSpeaker)
       .then(function (response) {
           if (!response.ok) {
@@ -81,6 +76,15 @@ function getSpeakerById(fetchUrlSpeaker){
           }
 
           return response.json();
-      });
+      }).then(function(speaker){
+             
+        let speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
+         
+        let instructors = document.getElementById("instructors"+"-"+workshopId);
+
+        instructors.innerHTML +=  "<div class=\"col-lg-3\"><a href=\"" + speakerUrlDetail + "\"><img src=\"" + speaker.photoUrl +"\" style=\"border-radius: 5px;\"  alt=\""+speaker.name+"\"></a></div><h3 class=\"speaker-name\">" + speaker.name + " <span class=\"flag-icon " + speaker.countryFlag + "\"></span></h3>" +
+        "<p class=\"speaker-designation\">" + speaker.title + "</p>" ;
+         
+    });
       
 }

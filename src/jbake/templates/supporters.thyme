@@ -73,7 +73,63 @@
                             </div>
                             <!-- Supporter Box End -->
                         </div>
-                     
+
+                         <div class="col-lg-3 col-sm-6">
+                            <!-- Supporter Box Start -->
+                            <div class="meeta-sponsor-item-box sponsor-box-2">
+
+                                <div class="meeta-sponsor-logo sponsor-logo-3">
+                                    <a href="https://www.instagram.com/ciccpucmm/" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/cicc-logo.png'" title="Comité de Estudiantes de Ingeniería en Ciencias de la Computación" alt="Comité de Estudiantes de Ingeniería en Ciencias de la Computación" src="assets/images/sponsors-9.png"></a>
+                                </div>   
+                                 <div class="meeta-sponsor-logo sponsor-logo-4">
+                                </div>                       
+
+                            </div>
+                            <!-- Supporter Box End -->
+                        </div>
+                     <div class="col-lg-3 col-sm-6">
+                            <!-- Supporter Box Start -->
+                            <div class="meeta-sponsor-item-box sponsor-box-2">
+
+                                <div class="meeta-sponsor-logo sponsor-logo-3">
+                                    <a href="https://giniem.com" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/giniem-logo-es-sqr.png'" title="GInIEm - Consultoria, Desarrollo de Software y Staffing" alt="GInIEm - Consultoria, Desarrollo de Software y Staffing" src="assets/images/sponsors-9.png"></a>
+                                </div>   
+                                 <div class="meeta-sponsor-logo sponsor-logo-4">
+                                </div>                       
+
+                            </div>
+                            <!-- Supporter Box End -->
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Supporter Box Start -->
+                            <div class="meeta-sponsor-item-box sponsor-box-2">
+
+                                <div class="meeta-sponsor-logo sponsor-logo-3">
+                                    <a href="http://www.jugbaq.org" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/jugbaq.jpg'" title="Jug de Barranquilla" alt="Jug de Barranquilla" src="assets/images/sponsors-9.png"></a>
+                                </div>   
+                                 <div class="meeta-sponsor-logo sponsor-logo-4">
+                                </div>                       
+
+                            </div>
+                            <!-- Supporter Box End -->
+                        </div>
+                        
+                         <div class="col-lg-3 col-sm-6">
+                            <!-- Supporter Box Start -->
+                            <div class="meeta-sponsor-item-box sponsor-box-2">
+
+                                <div class="meeta-sponsor-logo sponsor-logo-3">
+                                    <a href="
+https://twitter.com/jugnicaragua" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/nicaraguaJUG.jpg'" title="Jug Nicaragua" alt="Jug Nicaragua" src="assets/images/sponsors-9.png"></a>
+                                </div>   
+                                 <div class="meeta-sponsor-logo sponsor-logo-4">
+                                </div>                       
+
+                            </div>
+                            <!-- Supporter Box End -->
+                        </div>
+
                     </div>
                 </div>
                 <!-- Supporter End -->

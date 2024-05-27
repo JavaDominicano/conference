@@ -65,6 +65,11 @@
                                 <span class="pl-2 font-bold text-black-600" th:if="${config.layout_display_tickets_regular_group_price && config.layout_display_tickets_early_bird_group_price}"
                                       th:utext="${#strings.arrayJoin(config.layout_tickets_early_bird_group_price,', ')}">
                                 </span>
+
+                                 <span class="pl-2 font-bold text-black-600" th:if="${config.layout_display_tickets_regular_group_price && not config.layout_display_tickets_early_bird_group_price}"
+                                      th:utext="${#strings.arrayJoin(config.layout_tickets_group_discount,', ')}">
+                                </span>
+
 							</div>
 							<div class="pricing-body">
 							<ul>
