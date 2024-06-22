@@ -481,12 +481,17 @@
 		  {
 			"icon": "twitter",
 			"name": "Twitter",
-			"link": "https://twitter.com/geovanny0401"
+			"link": "https://x.com/geovannycode"
 		  },
 		  {
 			"icon": "link",
 			"name": "Link",
 			"link": "https://www.geovannycode.com"
+		  },
+		   {
+			"icon": "github",
+			"name": "Github",
+			"link": "https://github.com/geovannymcode"
 		  }
 		]
 	  }
