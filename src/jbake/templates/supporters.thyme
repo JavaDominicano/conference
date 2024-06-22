@@ -106,7 +106,7 @@
                             <div class="meeta-sponsor-item-box sponsor-box-2">
 
                                 <div class="meeta-sponsor-logo sponsor-logo-3">
-                                    <a href="http://www.jugbaq.org" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/jugbaq.jpg'" title="Jug de Barranquilla" alt="Jug de Barranquilla" src="assets/images/sponsors-9.png"></a>
+                                    <a href="http://www.jugbaq.org" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/jugbaq.png'" title="Jug de Barranquilla" alt="Jug de Barranquilla" src="assets/images/sponsors-9.png"></a>
                                 </div>   
                                  <div class="meeta-sponsor-logo sponsor-logo-4">
                                 </div>                       
@@ -121,7 +121,7 @@
 
                                 <div class="meeta-sponsor-logo sponsor-logo-3">
                                     <a href="
-https://twitter.com/jugnicaragua" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/nicaraguaJUG.jpg'" title="Jug Nicaragua" alt="Jug Nicaragua" src="assets/images/sponsors-9.png"></a>
+https://twitter.com/jugnicaragua" target="_blank"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/supporters/nicaraguaJUG.png'" title="Jug Nicaragua" alt="Jug Nicaragua" src="assets/images/sponsors-9.png"></a>
                                 </div>   
                                  <div class="meeta-sponsor-logo sponsor-logo-4">
                                 </div>                       
