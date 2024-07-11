@@ -120,40 +120,32 @@
     ]
   },
   "105": {
-    "id": "juarez-barbosa-jr",
-    "name": "Juarez Barbosa Junior",
-    "company": "Oracle",
-    "companyLogo": "",
-    "country": "Dublin, Ireland",
-    "countryFlag": "flag-icon-ie",
-    "photoUrl": "/img/speakers/juarez-barbosa-jr.jpg",
-    "shortBio": "",
-    "bio": "",
-    "tags": [],
-    "badges": [
-      {
-        "name": "Sr. Principal Java Developer Evangelist",
-        "description": "Sr. Principal Java Developer Evangelist"
-      }
-    ],
-    "socials": [
-      {
-        "icon": "link",
-        "name": "link",
-        "link": "https://juarezjuniorgithub.github.io"
-      },
-      {
-        "icon": "linkedin",
-        "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/jujunior"
-      },
-      {
-        "icon": "github",
-        "name": "Github",
-        "link": "https://github.com/juarezjuniorgithub"
-      }
-    ]
-  },
+		"id": "eliezer-herrera",
+		"name": "Eliezer Herrera",
+		"company": "FreeLancer",
+		"companyLogo": "",
+		"country": "Dominican Republic",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/organizers/committee-members/eliezer-herrera.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Software Engineer",
+			"description": "Software Engineer"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eliesongo"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/zerh"
+			}
+		]
+	},
   "106": {
     "id": "david-joa",
     "name": "David Joa",
@@ -494,5 +486,40 @@
         "link": "https://github.com/geovannymcode"
       }
     ]
-  }
+  },
+  "117": {
+		"id": "yesser-miranda",
+		"name": "Yesser Miranda",
+		"company": "JUG Nicaragua",
+		"companyLogo": "",
+		"country": "Nicaragua",
+		"countryFlag": "flag-icon-ni",
+		"photoUrl": "/img/speakers/yesser-miranda.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Software Developer",
+				"description": "Software Developer"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://www.twitter.com/yessermiranda97"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/yessermiranda97"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/yesserm"
+			  }
+		]
+	}
 }
