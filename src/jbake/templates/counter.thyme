@@ -12,7 +12,7 @@
                             <!-- Single Counter Start -->
                             <div class="single-counter counter-item-1 text-center">
                                 <div class="counter-text">
-                                    <span class="counter">24</span>
+                                    <span class="counter">18</span>
                                     <p>Speakers</p>
                                 </div>
                             </div>
@@ -22,7 +22,7 @@
                             <!-- Single Counter Start -->
                             <div class="single-counter counter-item-2 text-center">
                                 <div class="counter-text">
-                                    <span class="counter">1140</span>
+                                    <span class="counter">250</span>
                                     <p>Attendence</p>
                                 </div>
                             </div>
@@ -32,7 +32,7 @@
                             <!-- Single Counter Start -->
                             <div class="single-counter counter-item-3 text-center">
                                 <div class="counter-text">
-                                    <span class="counter">05</span>
+                                    <span class="counter">04</span>
                                     <p>Workshops</p>
                                 </div>
                             </div>

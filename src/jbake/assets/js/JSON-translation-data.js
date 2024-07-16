@@ -735,6 +735,30 @@ var linguJSON = {
     {
      "source": "The minimum order quantity is 5 tickets",
      "target_es": "La cantidad mínima para ordenar son 5 entradas"
-    }
+    },
+    {
+      "source": "Event Activities",
+      "target_es": "Actividades del Evento"
+     },
+     {
+      "source": "Download Schedule",
+      "target_es": "Descargar Horario"
+     },
+     {
+      "source": "Download Schedule",
+      "target_es": "Descargar Horario"
+     },
+     {
+      "source": "Follow the event schedule here",
+      "target_es": "Sigue el calendario del evento aquí"
+     },
+     {
+      "source": "Attendence",
+      "target_es": "Asistentes"
+     },
+     {
+      "source": "Attendence",
+      "target_es": "Asistentes"
+     }
   ]
 }
