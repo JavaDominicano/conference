@@ -1,9 +1,10 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-	<body>
-	<div th:fragment="schedule"  th:remove="tag">
-       <!-- Event Schedule Start -->
+
+<body>
+    <div th:fragment="schedule" th:remove="tag">
+        <!-- Event Schedule Start -->
         <div class="meeta-event-schedule meeta-event-schedule-2 section-padding" id="schedule">
             <div class="container">
 
@@ -23,10 +24,10 @@
 
                             <!-- Event Schedule Tabs Menu Start -->
                             <ul class="meeta-event-schedule-tabs-menu">
-                             <li data-tab-target="#tab1" class="active">
+                                <li data-tab-target="#tab1" class="active">
                                     <div class="meeta-event-schedule-time">
                                         <h4 class="meeta-event-schedule-day">General Agenda</h4>
-                                         <p>19 - 20 July 2024</p>
+                                        <p>19 - 20 July 2024</p>
                                     </div>
                                 </li>
                                 <li data-tab-target="#tab2" class="tab">
@@ -46,182 +47,347 @@
 
                             <!-- Event Schedule Tabs Content Start -->
                             <div class="meeta-event-schedule-tab-content">
-                             <div id="tab1" class="meeta-event-schedule-tab-pane active">
-                                     <h2>Workshops</h2>
-                                     <p>Notice: Agenda topics are subject to change</p>
+                                <div id="tab1" class="meeta-event-schedule-tab-pane active">
+                                    <div class="row gy-5 justify-content-between">
+                                        <div class="col-lg-4">
 
-                                   <h4>Day 1: July 19, 2024</h4>
-                                   <p><b>PUCMM Campus Santiago</b>. Autopista Duarte Km 1 1/2, Santiago de los caballeros, Dominican Republic.</p>
-                                   <div th:if="${config.layout_display_schedule && config.layout_display_page_spa &&  config.layout_display_workshop_agenda}" th:remove="tag">                                    <!-- Event Accordion Start -->
-                                    <ul class="meeta-event-accordion">
-                                    <li class="meeta-event-accordion-item">
-                                            <h3>
-                                                <div class="event-title">
-                                                    <span class="time">01:30 PM - 2:00 PM</span>
-                                                    <span class="title">Registration for opening workshop</span>
-                                                   
+                                            <!-- Event Schedule Banner Start -->
+                                            <div class="meeta-event-schedule-banner"
+                                                th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+                                                th:style="|background-image:url(${rootpath}img/meeta/event-schedule.jpg)|"
+                                                style="background-image: url(img/meeta/event-schedule.jpg);">
+                                                <!-- Section Title Start -->
+                                                <div class="meeta-section-title">
+                                                    <h4 class="sub-title">Event Activities</h4>
+                                                    <h2 class="main-title text-white">Follow the event schedule here
+                                                    </h2>
                                                 </div>
-                                            </h3>
-                                        </li>
-                                        
-                                        <li class="meeta-event-accordion-item">
-                                            <h3 class="meeta-event-accordion-toggle">
-                                                <div class="event-title">
-                                                    <span class="time">2:00 PM - 6:00 PM</span>
-                                                    <span class="title">Contenedores y Orquestadores de Software Para Javeros</span>
-                                                    <span class="location">Location: PUCMM, Santo Domingo</span>
-                                                </div>
-                                            </h3>
-                                            <div class="meeta-event-accordion-body">
-                                                <p>Taller para desmitificar el uso de los contenedores y orquestadores de software en aplicaciones Java. Estaremos abordando los conceptos básicos y practicándolos.</p>
+                                                <!-- Section Title End -->
+                                                <a href="https://www.canva.com/design/DAGLFVFnwJg/shtviQ3RqwshEcl5-VACMw/view?utm_content=DAGLFVFnwJg&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="btn btn-3 btn-primary">Download
+                                                    Schedule<i class="fa fa-download"></i></a>
                                             </div>
-                                        </li>
-                                    <li class="meeta-event-accordion-item">
-                                            <h3 class="meeta-event-accordion-toggle">
-                                                <div class="event-title">
-                                                    <span class="time">2:00 PM - 6:00 PM</span>
-                                                    <span class="title">Modern Web Development with Javalin and JavalinVue</span>
-                                                    <span class="location">Location: PUCMM, Santo Domingo</span>
-                                                </div>
-                                            </h3>
-                                            <div class="meeta-event-accordion-body">
-                                                <p>¿Quieres empezar a crear una aplicación fullstack con Java y VueJS? El framework web Javalin te brinda, JavalinVue, un plugin que da soporte para desarrollar frontends con Vue de una manera simplificada en tu mismo proyecto. Junto a Javalin, hacen una combinación interesante que nos ayudarán a empezar a trabajar en nuestro proyecto en cuestión de minutos</p>
-                                            </div>
-                                        </li>
-                                    <li class="meeta-event-accordion-item">
-                                            <h3 class="meeta-event-accordion-toggle">
-                                                <div class="event-title">
-                                                    <span class="time">2:00 PM - 6:00 PM</span>
-                                                    <span class="title">Seguridad para aplicaciones y servicios Java con Keycloak</span>
-                                                    <span class="location">Location: PUCMM, Santo Domingo</span>
-                                                </div>
-                                            </h3>
-                                            <div class="meeta-event-accordion-body">
-                                                <p>En este taller, estudiaremos los conceptos fundamentales sobre autenticación y autorización, plataforma de manejo de identidad y cómo proteger aplicaciones y servicios Java con Keycloak.</p>
-                                            </div>
-                                        </li>
-                                         <li class="meeta-event-accordion-item">
-                                            <h3 class="meeta-event-accordion-toggle">
-                                                <div class="event-title">
-                                                    <span class="time">2:00 PM - 6:00 PM</span>
-                                                    <span class="title">Creating your own Machine Learning models in Java, with Java and for Java</span>
-                                                    <span class="location">Location: PUCMM, Santo Domingo</span>
-                                                </div>
-                                            </h3>
-                                            <div class="meeta-event-accordion-body">
-                                                <p>¿Te has planteado incluir algún tipo de Inteligencia Artiificial a tu APP?, ¿has intentado predecir el resultado de tus usuarios en base a sus comportamientos? Cuando necesitamos hacer cualquier solución de este tipo siempre pensamos en Python, Scala o usando un servicio externo como IBM Watson, Amazon SageMaker, etc... En este caso, vamos a repasar cómo: crear, entrenar y usar modelos ML desde la simple LinearRegression hasta redes de Deep Learning para la Detección de Objetos/Imágenes, todo esto sólo usando JAVA.</p>
-                                            </div>
-                                        </li>                                     
-                                    </ul>
-                                    <!-- Event Accordion End -->
-                                   </div>
+                                            <!-- Event Schedule Banner End -->
 
-                                     <h2>Sessions</h2>
-                                     <h4>Day 2: July 20, 2024</h4>
-                                     <p><b>PUCMM Campus Santiago</b>. Autopista Duarte Km 1 1/2, Santiago de los caballeros, Dominican Republic.</p>
-                                     <div th:if="${config.layout_display_schedule && config.layout_display_page_spa &&  config.layout_display_general_agenda}" th:remove="tag">
+                                        </div>
+                                        <div class="col-xl-7 col-lg-8">
+                                            <h2>Day 1: July 19, 2024</h2>
+                                            <p><b>Location:</b>PUCMM Campus Santiago. Autopista Duarte Km 1 1/2,
+                                                Santiago de los caballeros, Dominican Republic.</p>
+                                            <h3>Workshops</h3>
+                                            <h4>Venue:</h2>
+                                                <p><a href="https://maps.app.goo.gl/3towqFnScNkMitQF9"
+                                                        target="_blank"><i class="fa fa-map"></i> Postgrado PUCMM</a>
+                                                </p>
+                                                <p>Notice: Agenda topics are subject to change</p>
+                                                <div th:if="${config.layout_display_schedule && config.layout_display_page_spa &&  config.layout_display_workshop_agenda}"
+                                                    th:remove="tag"> <!-- Event Accordion Start -->
+                                                    <ul class="meeta-event-accordion">
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">01:00 PM - 2:00 PM</span>
+                                                                    <span class="title">Registration for opening
+                                                                        workshop</span>
 
-                                     <ul class="meeta-event-accordion">
-                                    <li class="meeta-event-accordion-item">
-                                            <h3>
-                                                <div class="event-title">
-                                                    <span class="time">07:30 AM - 9:00 AM</span>
-                                                    <span class="title">Registration</span>
-                                                   </div>
-                                            </h3>
-                                        </li>
-                                        <li class="meeta-event-accordion-item">
-                                            <h3 class="meeta-event-accordion-toggle">
-                                                <div class="event-title">
-                                                    <span class="time">09:00 AM</span>
-                                                    <span class="title">Warm-up</span>
-                                                </div>
-                                            </h3>
-                                            <div class="meeta-event-accordion-body">
-                                                  <p>Welcome, committee presentation, event format</p>
-                                            </div>
-                                        </li>
-                                        <li class="meeta-event-accordion-item">
-                                            <h3>
-                                                <div class="event-title">
-                                                    <span class="time">09:15 AM</span>
-                                                    <span class="title">Keynote:Focus on Software, not
+                                                                </div>
+                                                            </h3>
+                                                        </li>
 
-Code</span>
-                                                </div>
-                                            </h3>                                           
-                                        </li>
-                                         <li class="meeta-event-accordion-item">
-                                            <h3>
-                                                <div class="event-title">
-                                                    <span class="time">10:00 AM</span>
-                                                    <span class="title">Coffee Break</span>
-                                                </div>
-                                            </h3>
-                                        </li>
-                                        <li class="meeta-event-accordion-item">
-                                            <h3>
-                                                <div class="event-title">
-                                                    <span class="time">10:15 AM</span>
-                                                    <span class="title">Technical Sessions</span>
-                                                </div>
-                                            </h3>
-                                        </li>
-                                         <li class="meeta-event-accordion-item">
-                                            <h3>
-                                                <div class="event-title">
-                                                    <span class="time">12:30 PM</span>
-                                                    <span class="title">Lunch Break </span>
-                                                </div>
-                                            </h3>
-                                        </li>
-                                      
-                                        <li class="meeta-event-accordion-item">
-                                            <h3>
-                                                <div class="event-title">
-                                                    <span class="time">01:30 PM</span>
-                                                    <span class="title">Technical Sessions</span>
-                                                </div>
-                                            </h3>
-                                        </li>
-                                         <li class="meeta-event-accordion-item">
-                                            <h3>
-                                                <div class="event-title">
-                                                    <span class="time">3:00 PM</span>
-                                                    <span class="title">Coffee Break</span>
-                                                </div>
-                                            </h3>
-                                        </li>
-                                         <li class="meeta-event-accordion-item">
-                                            <h3>
-                                                <div class="event-title">
-                                                    <span class="time">3:15 PM</span>
-                                                    <span class="title">Technical Sessions</span>
-                                                </div>
-                                            </h3>
-                                        </li>
-                                          <li class="meeta-event-accordion-item">
-                                            <h3>
-                                                <div class="event-title">
-                                                    <span class="time">6:15 PM</span>
-                                                    <span class="title">Close session by staff</span>
-                                                </div>
-                                            </h3>
-                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3 class="meeta-event-accordion-toggle">
+                                                                <div class="event-title">
+                                                                    <span class="time">2:00 PM - 6:00 PM</span>
+                                                                    <span class="title">Infraestructura como código para
+                                                                        todos</span>
+                                                                    <span class="location">Room: VP-OC11</span>
+                                                                </div>
+                                                            </h3>
+                                                            <div class="meeta-event-accordion-body"
+                                                                style="padding-left:1px;">
+                                                                <p>Porque repetir la mismas tareas una y otra vez?
+                                                                    Porque no invertir un tiempo y resolver esas tareas
+                                                                    que siempre repites? Tenemos las herramientas y el
+                                                                    conocimiento para no entrar en este loop tareas.</p>
 
-                                        </ul>
+                                                                <h3>Instructor(s)</h3>
+                                                               
+                                                                    <div class="col-lg-3"><a
+                                                                            href="speaker-details.html?id=hector-ventura"><img
+                                                                                src="/img/speakers/hector-ventura.jpg"
+                                                                                style="border-radius: 5px;"
+                                                                                alt="Hector Ventura"></a></div>
+                                                                    <h3 class="speaker-name">Hector Ventura <span
+                                                                            class="flag-icon flag-icon-do"></span></h3>                                                                    
+                                                                
+                                                            </div>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3 class="meeta-event-accordion-toggle">
+                                                                <div class="event-title">
+                                                                    <span class="time">2:00 PM - 6:00 PM</span>
+                                                                    <span class="title">Unlocking the Power of
+                                                                        Multitenancy (Quarkus and Vaadin Flow)</span>
+                                                                    <span class="location">Room: VP-OC12</span>
+                                                                </div>
+                                                            </h3>
+                                                            <div class="meeta-event-accordion-body"
+                                                                style="padding-left:1px;">
+                                                                <p>¿Te has enfrentado a los desafíos de aplicaciones
+                                                                    multitenancy? Descubre cómo dominarlo con Quarkus y
+                                                                    Vaadin Flow, en este workshop. ¡Aprende estrategias
+                                                                    efectivas para gestionar estas estructuras y crear
+                                                                    aplicaciones escalables y seguras!</p>
+                                                                <h3>Instructor(s)</h3>
+                                                                
+                                                                    <div class="col-lg-3"><a
+                                                                            href="speaker-details.html?id=freddy-pena"><img
+                                                                                src="/img/speakers/freddy-pena.jpg"
+                                                                                style="border-radius: 5px;"
+                                                                                alt="Freddy Peña"></a></div>
+                                                                    <h3 class="speaker-name">Freddy Peña <span
+                                                                            class="flag-icon flag-icon-do"></span></h3>
+                                                                    
+                                                                    <div class="col-lg-3"><a
+                                                                            href="speaker-details.html?id=juandiegolopezve"><img
+                                                                                src="/img/speakers/juandiegolopezve.jpg"
+                                                                                style="border-radius: 5px;"
+                                                                                alt="Juan Diego López"></a></div>
+                                                                    <h3 class="speaker-name">Juan Diego López <span
+                                                                            class="flag-icon flag-icon-do"></span></h3>                                                                    
+                                                               
+                                                            </div>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3 class="meeta-event-accordion-toggle">
+                                                                <div class="event-title">
+                                                                    <span class="time">2:00 PM - 6:00 PM</span>
+                                                                    <span class="title">Unlock the potential of Jakarta
+                                                                        REST to build RESTful Web Services</span>
+                                                                    <span class="location">Room: VP-OC21</span>
+                                                                </div>
+                                                            </h3>
+                                                            <div class="meeta-event-accordion-body"
+                                                                style="padding-left:1px;">
+                                                                <p>En este taller, obtendrás una introducción a las
+                                                                    nuevas y actualizadas APIs de la Plataforma Jakarta
+                                                                    EE 10. Obtendrás experiencia práctica de la
+                                                                    Plataforma con ejercicios prácticos de APIs
+                                                                    seleccionadas de Jakarta EE 10. Obtendrás
+                                                                    experiencia práctica de la Plataforma con ejercicios
+                                                                    prácticos de las APIs seleccionadas de Jakarta EE
+                                                                    10. El enfoque del taller será construir Servicios
+                                                                    Web RESTful con Jakarta EE. Usted aprenderá cómo
+                                                                    implementar sus servicios a un servidor de
+                                                                    aplicaciones tradicionales, así como la forma de
+                                                                    crear un JAR de arranque con el mecanismo
+                                                                    SEBootstrap proporcionado por Jakarta EE RESTful Web
+                                                                    Services.<br><br>¿Sabía usted que usted no necesita
+                                                                    una
+                                                                    biblioteca externa como Jackson o Gson para el
+                                                                    procesamiento de JSON?<br><br>Usted aprenderá cómo
+                                                                    aprovechar el poder de las APIs de Jakarta EE para
+                                                                    serializar JSON a objetos Java y viceversa. Todo lo
+                                                                    que necesitas saber para tener éxito en la creación
+                                                                    de Servicios Web RESTful con Jakarta EE.</p>
+
+                                                                <h3>Instructor(s)</h3>
+                                                               
+                                                                    <div class="col-lg-3"><a
+                                                                            href="speaker-details.html?id=ivar-grimstad"><img
+                                                                                src="/img/speakers/ivar-grimstad.jpg"
+                                                                                style="border-radius: 5px;"
+                                                                                alt="Ivar Grimstad"></a></div>
+                                                                    <h3 class="speaker-name">Ivar Grimstad <span
+                                                                            class="flag-icon flag-icon-se"></span></h3>
+                                                                    
+                                                                    <div class="col-lg-3"><a
+                                                                            href="speaker-details.html?id=ecabrerar"><img
+                                                                                src="/img/speakers/ecabrerar.jpg"
+                                                                                style="border-radius: 5px;"
+                                                                                alt="Eudris Cabrera"></a></div>
+                                                                    <h3 class="speaker-name">Eudris Cabrera <span
+                                                                            class="flag-icon flag-icon-do"></span></h3>
+                                                                   
+                                                                
+                                                            </div>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3 class="meeta-event-accordion-toggle">
+                                                                <div class="event-title">
+                                                                    <span class="time">2:00 PM - 6:00 PM</span>
+                                                                    <span class="title">Integración de Spring Boot con
+                                                                        PayPal y Buenas Prácticas</span>
+                                                                    <span class="location">Room: TBA</span>
+                                                                </div>
+                                                            </h3>
+                                                            <div class="meeta-event-accordion-body"
+                                                                style="padding-left:1px;">
+                                                                <p>Participa en nuestro workshop para dominar la
+                                                                    integración de PayPal en tus aplicaciones de Spring
+                                                                    Boot. Exploraremos técnicas esenciales como el uso
+                                                                    de Spring Cache con Redis y métodos avanzados de
+                                                                    pruebas, tanto unitarias como de integración. Este
+                                                                    taller es perfecto para desarrolladores que buscan
+                                                                    implementar transacciones seguras y mejorar la
+                                                                    eficiencia de sus aplicaciones en línea.</p>
+                                                                <h3>Instructor(s)</h3>
+                                                               
+                                                                    <div class="col-lg-3"><a
+                                                                            href="speaker-details.html?id=geovanny-mendoza"><img
+                                                                                src="/img/speakers/geovanny-mendoza.jpg"
+                                                                                style="border-radius: 5px;"
+                                                                                alt="Geovanny Mendoza"></a></div>
+                                                                    <h3 class="speaker-name">Geovanny Mendoza <span
+                                                                            class="flag-icon flag-icon-co"></span></h3>
+                                                                    
+                                                                </div>
+
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- Event Accordion End -->
+                                               
+
+                                               
+                                                <h2>Day 2: July 20, 2024</h2>                                        
+                                                <p><b>Location:</b>PUCMM Campus Santiago. Autopista Duarte Km 1 1/2,
+                                                        Santiago de los caballeros, Dominican Republic.</p>
+                                                    <h3>Sessions</h3>
+                                                    <h4>Venue:</h2>
+                                                        <p><a href="https://www.google.com/maps/place/Teatro+PUCMM/@19.442119,-70.685138,14z/data=!4m5!3m4!1s0x0:0xce54b0bb0d6eac79!8m2!3d19.4421187!4d-70.685138?hl=en"
+                                                            target="_blank"><i class="fa fa-map"></i> PUCMM, Teatro</a></p>
+                                                            <p><a href="https://maps.app.goo.gl/52P9Yu46RcrAaHh79"
+                                                                target="_blank"><i class="fa fa-map"></i> Edificio Padre Arroyo</a>
+                                                    </p>
+                                                <div th:if="${config.layout_display_schedule && config.layout_display_page_spa &&  config.layout_display_general_agenda}"
+                                                    th:remove="tag">
+
+                                                    <ul class="meeta-event-accordion">
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">07:45 AM - 9:00 AM</span>
+                                                                    <span class="title">Registration</span>
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3 class="meeta-event-accordion-toggle">
+                                                                <div class="event-title">
+                                                                    <span class="time">09:00 AM</span>
+                                                                    <span class="title">Warm-up</span>
+                                                                </div>
+                                                            </h3>
+                                                            <div class="meeta-event-accordion-body" style="padding-left:1px;">
+                                                                <p>Welcome, committee presentation, event format</p>
+                                                            </div>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">09:15 AM</span>
+                                                                    <span class="title"><b>Keynote:</b>Empowering Innovation: The Open Source Odyssey of Contribution and Collaboration with Jakarta EE</span>
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">10:00 AM</span>
+                                                                    <span class="title">Technical Sessions</span>                                                                   
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">10:45 AM</span>
+                                                                    <span class="title">Coffee Break</span>
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">11:00 AM</span>
+                                                                    <span class="title">Technical Sessions</span>                                                                   
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">12:30 PM</span>
+                                                                    <span class="title">Lunch Break </span>
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">02:00 PM</span>
+                                                                    <span class="title"><b>Keynote:</b>Desbloqueando el Potencial de los equipos Desarrollo de Software con Team Topologies</span>
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">02:45 PM</span>
+                                                                    <span class="title">Coffee Break</span>
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">03:00 PM</span>
+                                                                    <span class="title">Technical Sessions</span>
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                       
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">4:30 PM</span>
+                                                                    <span class="title">Panel</span>
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">5:15 PM</span>
+                                                                    <span class="title">Close session by staff / Raffle </span>
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+                                                        <li class="meeta-event-accordion-item">
+                                                            <h3>
+                                                                <div class="event-title">
+                                                                    <span class="time">6:00 PM</span>
+                                                                    <span class="title">Connect.Learn.Evolve: Social Hour</span>
+                                                                    <p>Live Music,beverages, etc. </p>
+                                                                </div>
+                                                            </h3>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                        </div>
                                     </div>
-
                                 </div>
                                 <div id="tab2" class="meeta-event-schedule-tab-pane">
-                                   
+
                                     <h4>Day 1: July 19, 2024</h4>
-                                    <p><b>PUCMM Campus Santiago</b>. Autopista Duarte Km 1 1/2, Santiago de los caballeros, Dominican Republic.</p>
-                                    
+                                    <p><b>PUCMM Campus Santiago</b>. Autopista Duarte Km 1 1/2, Santiago de los
+                                        caballeros, Dominican Republic.</p>
+
                                     <!-- Event Accordion Start -->
                                     <ul class="meeta-event-accordion" id="workshopsList"></ul>
                                     <!-- Event Accordion End -->
-                                
+
                                 </div>
                                 <div id="tab3" class="meeta-event-schedule-tab-pane">
 
@@ -230,8 +396,8 @@ Code</span>
                                     <!-- Event Accordion End -->
 
                                 </div>
-                               
-                             </div>
+
+                            </div>
                             <!-- Event Schedule Tabs Content End -->
 
                         </div>
@@ -242,8 +408,9 @@ Code</span>
             </div>
         </div>
         <!-- Event Schedule End -->
- <script type="module" src="js/workshops.js"></script>
- <script type="module" src="js/session.js"></script>
-  </div>
-  </body>
-  </html>
+        <script type="module" src="js/workshops.js"></script>
+        <script type="module" src="js/session.js"></script>
+    </div>
+</body>
+
+</html>
