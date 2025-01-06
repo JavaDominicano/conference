@@ -1,0 +1,27 @@
+{
+    "id": "yesser-miranda",
+	"name": "Yesser Miranda",    
+	"photoUrl": "/img/speakers/yesser-miranda.jpg",
+    "title": "Software Developer",
+    "countryFlag": "flag-icon-ni",
+    "shortBio": "",
+    "bio": "Information systems engineer and web-oriented software developer, university teacher in technologies with languages such as: C#, Java, PHP, JavaScript and Python. Passionate about devops and Java culture.",
+    "tags": [],
+    "socials": [
+      {
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://www.twitter.com/yessermiranda97"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/yessermiranda97"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/yesserm"
+			  }
+    ]
+  }

@@ -1,0 +1,26 @@
+{
+    "id": "eddumelendez",
+    "name": "Eddú Meléndez Gonzales",
+    "photoUrl": "/img/speakers/eddumelendez.jpg",
+    "title": "Software Engineer",
+    "countryFlag": "flag-icon-pe",
+    "shortBio": "",
+    "bio": "Eddú Meléndez is a Software Engineer at Docker and is currently one of the members of the Testcontainers team, contributing to the Spring ecosystem and other Open Source projects since 2015. During his free time, he likes to research about new trends and contribute to Open Source projects.",
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/eddumelendez"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/eddumelendez"
+      },
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://eddumelendez.dev"
+      }
+    ]
+  }

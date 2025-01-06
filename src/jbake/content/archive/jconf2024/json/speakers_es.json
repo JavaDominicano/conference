@@ -1,0 +1,525 @@
+{
+	"101": {
+		"id": "shabnam-mayel",
+		"name": "Shabnam Mayel",
+		"company": "Eclipse Foundation",
+		"companyLogo": "",
+		"country": "Canadá",
+		"countryFlag": "flag-icon-ca",
+		"photoUrl": "/img/speakers/shabnam-mayel.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Directora Senior de Marketing",
+				"description": "Directora Senior de Marketing"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/MayelShabnam"
+			}
+		]
+	},
+	"102": {
+		"id": "freddy-pena",
+		"name": "Freddy Peña",
+		"company": "Alphnology",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/freddy-pena.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Fundador & Software Developer",
+				"description": "Fundador & Software Developer"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/fred_pena"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/fredpena"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/fantpena/"
+			},
+			{
+				"icon": "link",
+				"name": "link",
+				"link": "https://alphnology.com/"
+			}
+		]
+	},
+	"103": {
+		"id": "denis-magda",
+		"name": "Denis Magda",
+		"company": "Yugabyte",
+		"companyLogo": "",
+		"country": "EUA",
+		"countryFlag": "flag-icon-us",
+		"photoUrl": "/img/speakers/denis-magda.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Director de DevRel",
+				"description": "Director de DevRel"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/denismagda"
+			}
+		]
+	},
+	"104": {
+		"id": "frank_jcg",
+		"name": "Francisco Contreras",
+		"company": "GInIEm",
+		"companyLogo": "",
+		"country": "Nicaragua",
+		"countryFlag": "flag-icon-ni",
+		"photoUrl": "/img/speakers/francisco-contreras.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Software Architect",
+				"description": "Software Architect - CTO"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/Frank_JCG"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/fjcontrerasg/"
+			}
+		]
+	},
+	"105": {
+		"id": "eliezer-herrera",
+		"name": "Eliezer Herrera",
+		"company": "FreeLancer",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/organizers/committee-members/eliezer-herrera.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [{
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		}],
+		"socials": [{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eliesongo"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/zerh"
+			}
+		]
+	},
+	"106": {
+		"id": "david-joa",
+		"name": "David Joa",
+		"company": "Bricks Agile Academy",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/david-joa.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Co-Founder - Director and Lead faculty",
+				"description": "Co-Founder - Director and Lead faculty"
+			}
+		],
+		"socials": [
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/david-joa-062250180"
+			}
+		]
+	},
+	"107": {
+		"id": "juandiegolopezve",
+		"name": "Juan Diego López",
+		"company": "Medical Quick",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/juandiegolopezve.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Co-Fundador",
+				"description": "Co-Fundador"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/_juandiii"
+			}
+		]
+	},
+	"108": {
+		"id": "aluis-marte",
+		"name": "Aluis Marte",
+		"company": "Applaudo",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/aluis-marte.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Líder de Práctica Java",
+				"description": "Líder de Práctica Java"
+			}
+		],
+		"socials": [
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/aluismarte"
+			}
+		]
+	},
+	"109": {
+		"id": "berroteranlkf",
+		"name": "Omar Berroterán Silva",
+		"company": "JUG Nicaragua",
+		"companyLogo": "",
+		"country": "Nicaragua",
+		"countryFlag": "flag-icon-ni",
+		"photoUrl": "/img/speakers/berroteranlkf.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Senior Java Developer",
+				"description": "Senior Java Developer"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/berroteranlkf"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/omarberroteransilva"
+			}
+		]
+	},
+	"110": {
+		"id": "ivar-grimstad",
+		"name": "Ivar Grimstad",
+		"company": "Eclipse Foundation",
+		"companyLogo": "",
+		"country": "Suecia",
+		"countryFlag": "flag-icon-se",
+		"photoUrl": "/img/speakers/ivar-grimstad.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Jakarta EE Developer Advocate",
+				"description": "Jakarta EE Developer Advocate"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/ivar_grimstad"
+			},
+			{
+				"icon": "link",
+				"name": "link",
+				"link": "http://www.agilejava.eu"
+			}
+		]
+	},
+	"111": {
+		"id": "ecabrerar",
+		"name": "Eudris Cabrera",
+		"company": "Ministerio de Hacienda",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/ecabrerar.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Software Developer",
+				"description": "Software Developer"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/eudriscabrera"
+			},
+			{
+				"icon": "link",
+				"name": "link",
+				"link": "https://eudriscabrera.com"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/ecabrerar"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/eudriscabrera"
+			}
+		]
+	},
+	"112": {
+		"id": "hector-ventura",
+		"name": "Hector Ventura",
+		"company": "Alphnology",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/hector-ventura.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Co-Fundador",
+				"description": "Co-Fundador"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/hectorvent"
+			}
+		]
+	},
+	"113": {
+		"id": "ccamachog",
+		"name": "Carlos Camacho",
+		"company": "AvatharTech",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/ccamachog.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "CTO",
+				"description": "CTO"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/ccamachog"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/vacax"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/ccamachog/"
+			}
+		]
+	},
+	"114": {
+		"id": "brayan-munoz",
+		"name": "Brayan Muñoz V",
+		"company": "Dominican Republic JUG",
+		"companyLogo": "",
+		"country": "República Dominicana",
+		"countryFlag": "flag-icon-do",
+		"photoUrl": "/img/speakers/brayan-munoz.jpg",
+		"title": "Java SDE | DevOps Engineer",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Software Engineer",
+				"description": "Software Engineer"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://twitter.com/Brayanmnz_"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/brayanmnz"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/brayanmnz"
+			}
+		]
+	},
+	"115": {
+		"id": "eddumelendez",
+		"name": "Eddú Meléndez Gonzales",
+		"company": "Docker",
+		"companyLogo": "",
+		"country": "Perú",
+		"countryFlag": "flag-icon-pe",
+		"photoUrl": "/img/speakers/eddumelendez.jpg",
+		"shortBio": "",
+		"bio": "Eddú Meléndez es Software Engineer en Docker y actualmente es uno de los miembros del equipo de Testcontainers, contribuye en el ecosistema de Spring y otros proyectos Open Source desde el 2015. Durante su tiempo libre, le gusta investigar sobre las nuevas tendencias y contribuir a proyectos Open Source.",
+		"tags": [],
+		"badges": [
+		  {
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		  }
+		],
+		"socials": [
+		  {
+			"icon": "twitter",
+			"name": "Twitter",
+			"link": "https://twitter.com/eddumelendez"
+		  },
+		  {
+			"icon": "github",
+			"name": "Github",
+			"link": "https://github.com/eddumelendez"
+		  },
+		  {
+			"icon": "link",
+			"name": "Link",
+			"link": "https://eddumelendez.dev"
+		  }
+		]
+	  },
+	 "116": {
+		"id": "geovanny-mendoza",
+		"name": "Geovanny Mendoza",
+		"company": "JUGBAQ",
+		"companyLogo": "",
+		"country": "Colombia",
+		"countryFlag": "flag-icon-co",
+		"photoUrl": "/img/speakers/geovanny-mendoza.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+		  {
+			"name": "Ingeniero de Software",
+			"description": "Ingeniero de Software"
+		  }
+		],
+		"socials": [
+		  {
+			"icon": "twitter",
+			"name": "Twitter",
+			"link": "https://x.com/geovannycode"
+		  },
+		  {
+			"icon": "link",
+			"name": "Link",
+			"link": "https://www.geovannycode.com"
+		  },
+		   {
+			"icon": "github",
+			"name": "Github",
+			"link": "https://github.com/geovannymcode"
+		  }
+		]
+	  },
+	  "117": {
+		"id": "yesser-miranda",
+		"name": "Yesser Miranda",
+		"company": "JUG Nicaragua",
+		"companyLogo": "",
+		"country": "Nicaragua",
+		"countryFlag": "flag-icon-ni",
+		"photoUrl": "/img/speakers/yesser-miranda.jpg",
+		"shortBio": "",
+		"bio": "",
+		"tags": [],
+		"badges": [
+			{
+				"name": "Software Developer",
+				"description": "Software Developer"
+			}
+		],
+		"socials": [
+			{
+				"icon": "twitter",
+				"name": "Twitter",
+				"link": "https://www.twitter.com/yessermiranda97"
+			},
+			{
+				"icon": "linkedin",
+				"name": "Linkedin",
+				"link": "https://www.linkedin.com/in/yessermiranda97"
+			},
+			{
+				"icon": "github",
+				"name": "Github",
+				"link": "https://github.com/yesserm"
+			  }
+		]
+	}
+}
