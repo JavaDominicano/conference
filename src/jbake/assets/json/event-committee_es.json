@@ -134,29 +134,5 @@
 				"link": "https://fredpena.dev/"
 			}
 		]
-	},
-	"005": {
-		"id": "eliezer-herrera",
-		"name": "Eliezer Herrera",
-		"company": "FreeLancer",
-		"photoUrl": "/img/organizers/committee-members/eliezer-herrera.jpg",
-		"shortBio": "Desarrollador de software con más de 14 años de experiencia en la industria del software. Entusiasta y amante de la tecnología, especialmente la plataforma Java",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Ingeniero de Software",
-			"description": "Ingeniero de Software"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/eliesongo"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/zerh"
-			}
-		]
 	}
 }
