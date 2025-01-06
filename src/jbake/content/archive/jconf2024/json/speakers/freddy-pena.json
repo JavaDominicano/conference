@@ -1,0 +1,31 @@
+{
+    "id": "freddy-pena",
+    "name": "Freddy Peña",
+    "photoUrl": "/img/speakers/freddy-pena.jpg",
+    "title": "Founder & Software Developer",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "Founder of Alphnology and a passionate software engineer, bringing over 10 years of experience in the software development realm, with a focus on the Java ecosystem. An active member of the Dominican Republic Java Community and a Professor at the School of Computer Science and Telecommunications at PUCMM, I enjoy sharing my knowledge and contributing to the community’s growth.<br>My expertise spans Java-based software development, using cutting-edge technologies such as Spring Boot, Vaadin Flow, Quarkus, Jakarta EE, and Vert.x.",
+    "socials": [
+        {
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "https://twitter.com/fred_pena"
+        },
+        {
+            "icon": "github",
+            "name": "Github",
+            "link": "https://github.com/fredpena"
+        },
+        {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/fantpena/"
+        },
+        {
+            "icon": "link",
+            "name": "link",
+            "link": "https://alphnology.com/"
+        }
+    ]
+}

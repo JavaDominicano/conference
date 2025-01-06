@@ -1,0 +1,26 @@
+{
+    "id": "geovanny-mendoza",
+    "name": "Geovanny Mendoza",
+    "photoUrl": "/img/speakers/geovanny-mendoza.jpg",
+    "title": "Software Engineer",
+    "countryFlag": "flag-icon-co",
+    "shortBio": "",
+    "bio": "Software Engineer with experience in medium scale projects, from monolithic architectures to microservices. Specialized in Java and Kotlin, with skills in backend development, CI/CD, databases (SQL and NoSQL), AWS and Spring technologies. Self-managing, proactive and skilled in presentations.",
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://x.com/geovannycode"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://www.geovannycode.com"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/geovannymcode"
+      }
+    ]
+  }

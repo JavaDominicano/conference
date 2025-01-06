@@ -1,0 +1,85 @@
+{
+    "101": {
+        "id": 101,
+        "title": "Unlocking the Power of Multitenancy (Quarkus and Vaadin Flow)",
+        "abstract": "¿Te has enfrentado a los desafíos de aplicaciones multitenancy? Descubre cómo dominarlo con Quarkus y Vaadin Flow, en este workshop. ¡Aprende estrategias efectivas para gestionar estas estructuras y crear aplicaciones escalables y seguras!",
+        "description": "En la actualidad, el desarrollo de aplicaciones es un terreno complejo y desafiante. Los desarrolladores a menudo se encuentran con la necesidad de crear soluciones multitenancy para permitir intercambiar y compartir los recursos de las soluciones, garantizando la seguridad y la escalabilidad de esta.<br><br>Este workshop se enfoca en uno de los desafíos más comunes que enfrentan los desarrolladores: cómo integrar Vaadin Flow, una tecnología “stateful” que brinda interfaces de usuario ricas, con una API REST “stateless” en un ambiente Quarkus. Abordaremos los problemas que surgen cuando Vaadin Flow toma el control de la seguridad y cómo esto puede entrar en conflicto con la arquitectura “stateless” de Quarkus.<br><br>Exploraremos:<br>-\tLos desafíos específicos que surgen al combinar Vaadin Flow y Quarkus en un ambiente multitenancy.<br>-\tSoluciones prácticas para garantizar la seguridad y la interoperabilidad.<br>-\tDiseño de un API para aplicación de terceros.<br><br>Este workshop es ideal para desarrolladores, arquitectos de software y profesionales interesados en comprender cómo hacer que estas tecnologías puedan coexistir para construir aplicaciones seguras y escalables. Al final de la presentación, los asistentes tendrán una comprensión más sólida de cómo abordar este desafío en sus propios proyectos y lograr una integración exitosa.<br>",
+        "audience_level": "Intermediate",
+        "time": "2:00 P.M / 19 Julio 2024",
+        "talk_format": "Workshop (\u003e 60 minutes)",
+        "language": "es",
+        "tags": [
+            "Quarkus",
+            "Vaadin",
+            "VaadinFlow",
+            "Java",
+            "API",
+            "Security"
+        ],
+        "speakers": [
+            "freddy-pena",
+            "juandiegolopezve"
+        ]
+    },
+    "102": {
+        "id": 102,
+        "title": "Infraestructura como Código para Todos",
+        "abstract": "Porque repetir la mismas tareas una y otra vez? Porque no invertir un tiempo y resolver esas tareas que siempre repites? Tenemos las herramientas y el conocimiento para no entrar en este loop tareas.",
+        "description": "El taller sobre Infraestructura como Código (IaC) ofrecerá una introducción exhaustiva a los principios, herramientas y mejores prácticas para automatizar la gestión de infraestructura a través de código. Desde los fundamentos conceptuales hasta la implementación práctica, los participantes explorarán cómo IaC mejora la eficiencia operativa, la escalabilidad y la consistencia en entornos de desarrollo, pruebas y producción. Se abordarán temas clave como la creación de plantillas reutilizables, el uso de herramientas como Pulumi, OpenTofu (Terraform) y Ansible, y estrategias para la gestión de cambios y la colaboración en equipos.<br><br>Nos enfocaremos en Pulumi en versión Java, y Ansible.",
+        "audience_level": "All",
+        "time": "2:00 P.M / 19 Julio 2024",
+        "talk_format": "Workshop (\u003e 60 minutes)",
+        "language": "es",
+        "tags": [
+            "IaC",
+            "Java",
+            "Ansible",
+            "OpenTofu",
+            "Terraform",
+            "Vagrant"
+        ],
+        "speakers": [
+            "hector-ventura"
+        ]
+    },
+    "103": {
+        "id": 103,
+        "title": "Unlock the potential of Jakarta REST to build RESTful Web Services",
+        "abstract": "Aprovechar la potencia de Jakarta EE para crear servicios web RESTful",
+        "description": "En este taller, obtendrás una introducción a las nuevas y actualizadas APIs de la Plataforma Jakarta EE 10. Obtendrás experiencia práctica de la Plataforma con ejercicios prácticos de APIs seleccionadas de Jakarta EE 10. Obtendrás experiencia práctica de la Plataforma con ejercicios prácticos de las APIs seleccionadas de Jakarta EE 10. El enfoque del taller será construir Servicios Web RESTful con Jakarta EE. Usted aprenderá cómo implementar sus servicios a un servidor de aplicaciones tradicionales, así como la forma de crear un JAR de arranque con el mecanismo SEBootstrap proporcionado por Jakarta EE RESTful Web Services.<br>¿Sabía usted que usted no necesita una biblioteca externa como Jackson o Gson para el procesamiento de JSON?<br>Usted aprenderá cómo aprovechar el poder de las APIs de Jakarta EE para serializar JSON a objetos Java y viceversa. Todo lo que necesitas saber para tener éxito en la creación de Servicios Web RESTful con Jakarta EE.",
+        "audience_level": "Intermediate",
+        "time": "2:00 P.M / 19 Julio 2024",
+        "talk_format": "Workshop (\u003e 60 minutes)",
+        "language": "en",
+        "tags": [
+            "Java",
+            "Jakarta EE",
+            "Jakarta REST",
+            "RESTful Web Services",
+            "Jakarta EE 10"
+        ],
+        "speakers": [
+            "ivar-grimstad",
+            "ecabrerar"
+        ]
+    },
+    "104": {
+        "id": 104,
+        "title": "Integración de Spring Boot con PayPal y Buenas Prácticas",
+        "abstract": "Participa en nuestro workshop para dominar la integración de PayPal en tus aplicaciones de Spring Boot. Exploraremos técnicas esenciales como el uso de Spring Cache con Redis y métodos avanzados de pruebas, tanto unitarias como de integración. Este taller es perfecto para desarrolladores que buscan implementar transacciones seguras y mejorar la eficiencia de sus aplicaciones en línea.",
+        "description": "En este taller, explicaremos cómo integrar la pasarela de pagos PayPal con aplicaciones desarrolladas en Spring Boot, facilitando transacciones seguras y eficientes. A través de ejemplos prácticos, aprenderás a configurar y manejar pagos en línea, un componente esencial para cualquier negocio digital.<br><br>Integración de PayPal:<br>Detallaremos paso a paso cómo incorporar PayPal en tus proyectos de Spring Boot, desde la configuración inicial hasta el manejo de transacciones y la seguridad en los pagos.<br><br>Además, el workshop incluirá sesiones sobre:<br>Uso de Spring Cache con Redis:<br>Aprenderemos a implementar caching para mejorar la eficiencia y respuesta de las aplicaciones.<br>Creación y uso de Anotaciones con Spring AOP:<br>Introduciremos cómo crear anotaciones personalizadas para manejar excepciones, utilizando Spring AOP para simplificar la gestión de errores.<br><br>Pruebas en Spring:<br>Profundizaremos en cómo realizar pruebas efectivas en diferentes niveles de la aplicación:<br>Servicios y Componentes<br>Controladores utilizando MockMvc<br>Repositorios con Spring Data JPA<br><br>Únete a nosotros para desarrollar tus habilidades en la creación de aplicaciones comerciales con Spring Boot, donde no solo aprenderás sobre integraciones de pagos, sino también sobre optimización de rendimiento y pruebas rigurosas para garantizar la calidad del software.",
+        "audience_level": "Intermediate",
+        "time": "2:00 P.M / 19 Julio 2024",
+        "talk_format": "Workshop (\u003e 60 minutes)",
+        "language": "es",
+        "tags": [
+            "java",
+            "Redis",
+            "spring boot",
+            "Spring Cache"
+        ],
+        "speakers": [
+            "geovanny-mendoza"
+        ]
+    }
+}

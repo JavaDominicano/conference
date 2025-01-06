@@ -1,0 +1,17 @@
+{
+    "id": "david-joa",
+    "name": "David Joa",
+    "photoUrl": "/img/speakers/david-joa.jpg",
+    "title": "Co-Founder - Director and Lead faculty",
+    "shortBio": "",
+    "countryFlag": "flag-icon-do",
+    "bio": "For over 20 years, David has been in the software development field. He has worked in organizations in the telecommunications and financial sector, for companies such as Claro, Banco Popular and APAP. He has taught for over 20 years at INTEC. He recently founded a software development company, and an academy to teach Agile and software best practices.",
+    "tags": [],    
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/david-joa-062250180"
+      }
+    ]
+  }

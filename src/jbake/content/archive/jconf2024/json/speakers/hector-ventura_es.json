@@ -1,0 +1,17 @@
+{
+    "id": "hector-ventura",
+    "name": "Hector Ventura",
+    "photoUrl": "/img/speakers/hector-ventura.jpg",
+    "title": "Co-Fundador",
+    "countryFlag": "flag-icon-do",
+    "shortBio": "",
+    "bio": "Hola, <br><br>Soy Hector Ventura, ingeniero en sistemas con más de 13 de experiencias en arquitectura y desarrollo de aplicaciones. Co-fundador de Alphnology y actualmente trabajo con Consensus Cloud Solutins, una empresa que reside en EEUU y ofrece una variedad de servicios como Faxes, Firma electronicas de documentos, etc. Fuí profesor en Administración de Sistemas Linux en la Fundación Código Libre Dominicana (FCLD) durante 2008-2010, y profesor de programación en el Instituto Tecnológico de las Américas (ITLA) durante 2017-2020.",
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/hectorvent"
+      }
+     
+    ]
+  }
