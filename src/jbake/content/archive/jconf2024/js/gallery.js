@@ -7,7 +7,7 @@ fetch('/archive/jconf2024/json/gallery.json')
         return response.json();
     })
     .then(function (galleryJson) {
-        var gallery = document.getElementById('homeGallery');
+        var gallery = document.getElementById('listGallery');
         // traitement de l'objet
         for (let i in galleryJson.images) {
             gallery.innerHTML += createSingleGallery(galleryJson.event_name,galleryJson.event_url, galleryJson.images[i]);
