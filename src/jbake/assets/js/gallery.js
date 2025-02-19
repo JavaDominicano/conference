@@ -1,4 +1,4 @@
-fetch('/archive/jconf2023/json/gallery.json')
+fetch('/archive/jconf2024/json/gallery.json')
     .then(function (response) {
         if (!response.ok) {
             throw Error(response.statusText);
