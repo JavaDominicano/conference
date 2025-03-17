@@ -3,16 +3,94 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 	<body>
 	<div th:fragment="counter" th:remove="tag">
-    <!-- Counter Start -->
-        <div class="meeta-counter-section section-padding" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/gallery/jconf-2019-12.jpg)|" style="background-image: url(assets/images/bg/counter-bg.jpg);">
+   
+     <!-- Register & Countdown Section Start -->
+     <div class="meeta-register-countdown conference-info">
+        <div class="container position-relative">
+
+            <!-- Register & Countdown Wrapper Start -->
+            <div class="meeta-register-countdown-wrapper">
+
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-8">
+
+                        <!-- Register Start -->
+                        <div class="meeta-register">
+                            <h2 class="register-title">JConf Dominicana 2025</h2>
+                            <h4>The first conference specialized on Java technologies in the Caribbean</h4>
+                        </div>
+                        <!-- Register End -->
+                        <p>The conference offers a unique networking opportunity for Java leaders, developers, companies, and startups and a chance to enjoy the pristine beaches, cloud-forest treks, and the welcoming villages that the island has to offer.</p>
+                        <p>This is a non-profit event organized by the Java community of the Dominican Republic (Dominican Republic Java User Group) and its members who kindly collaborate in the organization.</p>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h4>What?</h4>
+                                <p>1 day and a half of conferences and workshops</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>When?</h4>
+                                <p>July 18th - 19th 2025</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>Where?</h4>
+                                <p>Pontificia Universidad Católica Madre y Maestra (PUCMM)</p>
+                                <p>Av. Abraham Lincoln, Santo Domingo. Dominican Republic</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+
+                        <!-- Countdown Start -->
+                        <div class="meeta-countdown countdown" data-countdown="2025/7/18" data-format="short">
+                          
+                                <div class="single-countdown">
+                                    <span class="count countdown__time daysLeft"></span>
+                                    <span class="value countdown__time daysText"></span>
+                                </div>
+                                <div class="single-countdown">
+                                    <span class="count countdown__time hoursLeft"></span>
+                                    <span class="value countdown__time hoursText"></span>
+                                </div>
+                           
+                                <div class="single-countdown">
+                                    <span class="count countdown__time minsLeft"></span>
+                                    <span class="value countdown__time minsText"></span>
+                                </div>
+                                <div class="single-countdown">
+                                    <span class="count countdown__time secsLeft"></span>
+                                    <span class="value countdown__time secsText"></span>
+                                </div>
+                            
+                        </div>
+                        <!-- Countdown End -->
+
+                    </div>
+
+                </div>
+                <!-- Register & Countdown Wrapper End -->
+            </div>
+
+            <img class="register-countdown-shape" 
+            th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/shape-5.png'"
+            src="assets/images/shape/shape-5.png" alt="Shape">
+
+        </div>
+    </div>
+    <!-- Register & Countdown Section End -->   
+
+        <!-- Counter Start -->
+        <div class="meeta-counter-section section-padding" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/gallery/jconf-2024-021.jpg)|" style="background-image: url(assets/images/bg/counter-bg.jpg);">
+                        
             <div class="container">
-                <div class="counter-wrap">
+           
+              <div class="counter-wrap">
                     <div class="row">
                         <div class="col-lg-3 col-sm-6">
                             <!-- Single Counter Start -->
                             <div class="single-counter counter-item-1 text-center">
                                 <div class="counter-text">
-                                    <span class="counter">18</span>
+                                    <span class="counter">20</span>
                                     <p>Speakers</p>
                                 </div>
                             </div>
@@ -22,8 +100,8 @@
                             <!-- Single Counter Start -->
                             <div class="single-counter counter-item-2 text-center">
                                 <div class="counter-text">
-                                    <span class="counter">250</span>
-                                    <p>Attendence</p>
+                                    <span class="counter">275</span>
+                                    <p>Attendees</p>
                                 </div>
                             </div>
                             <!-- Single Counter End -->
@@ -38,16 +116,7 @@
                             </div>
                             <!-- Single Counter End -->
                         </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <!-- Single Counter Start -->
-                            <div class="single-counter text-center">
-                                <div class="counter-text">
-                                    <span class="counter">205</span>
-                                    <p>Guests</p>
-                                </div>
-                            </div>
-                            <!-- Single Counter End -->
-                        </div>
+                
                     </div>
                 </div>
             </div>

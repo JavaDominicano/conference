@@ -155,8 +155,8 @@ var linguJSON = {
       'target_es': 'Pulsar aquí'
     },
     {
-      'source': 'JConfDominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.',
-      'target_es': 'La JConf Dominicana es una conferencia de Tecnologías Java sin ánimo de lucro organizada por las comunidades de usuarios y desarrolladores de República Dominicana. Ha sido diseñada para ayudar a usuarios, desarrolladores, emprendedores y empresas a conocer las nuevas tecnologías relacionadas con el ecosistema Java, incluyendo alternativas de lenguajes en el JVM, desarrollo Web y Móvil y las nuevas tendencias en la nube.'
+      'source': 'JConf Dominicana is an annual Java technologies conference organized by the Dominican Republic Java User Group (Aka JavaDominicano).It is created to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web, Mobile development, and most trending Cloud technologies',
+      'target_es': 'JConf Dominicana es una conferencia anual sobre tecnologías Java organizada por la comunidad de usuarios y desarrolladores Java de República Dominicana (JUG Dominicana).Ha sido creada para ayudar a usuarios, desarrolladores, emprendedores y empresas a conocer las nuevas tendencias relacionadas con el ecosistema Java, incluidas las alternativas de lenguajes en el JVM, desarrollo web, móvil y la nube'
     },
     {
       'source': '%D Days | %-H Hours | %M Minutes | %S Seconds',
@@ -753,12 +753,45 @@ var linguJSON = {
       "target_es": "Sigue el calendario del evento aquí"
      },
      {
-      "source": "Attendence",
+      "source": "Attendees",
       "target_es": "Asistentes"
      },
      {
-      "source": "Attendence",
-      "target_es": "Asistentes"
+      "source": "The first conference specialized on Java technologies in the Caribbean",
+      "target_es": "La primera conferencia especializada en tecnologías Java en el Caribe"
+     },
+     {
+      "source": "The conference offers a unique networking opportunity for Java leaders, developers, companies, and startups and a chance to enjoy the pristine beaches, cloud-forest treks, and the welcoming villages that the island has to offer.",
+      "target_es": "La conferencia ofrece una oportunidad única para interactuar con líderes de comunidades Java, desarrolladores, compañías, emprendedores, y la oportunidad de disfrutar de hermosas playas, de nuestros bosques y los pueblos acogedores que ofrece la isla."
+     },
+     {
+      "source": "This is a non-profit event organized by the Java community of the Dominican Republic (Dominican Republic Java User Group) and its members who kindly collaborate in the organization.",
+      "target_es": "Este es un evento sin ánimo de lucro organizado por la comunidad de usuarios y desarrolladores Java de República Dominicana (JUG Dominicana) y sus miembros que gentilmente colaboran en la organización."
+     },
+     {
+      "source": "What?",
+      "target_es": "¿Qué es?"
+     },
+     {
+      "source": "1 day and a half of conferences and workshops",
+      "target_es": "Un día y medio de conferencias y talleres"
+     },
+     {
+      "source": "When?",
+      "target_es": "¿Cuándo?"
+     },
+     {
+      "source": "July 18th - 19th 2025",
+      "target_es": "18 y 19 de julio de 2025"
+     },
+     {
+      "source": "Where?",
+      "target_es": "¿Dónde?"
+     },
+     {
+      "source": "Av. Abraham Lincoln, Santo Domingo. Dominican Republic",
+      "target_es": "Av. Abraham Lincoln, Santo Domingo. República Dominicana"
      }
+     
   ]
 }
