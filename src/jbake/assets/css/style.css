@@ -3468,7 +3468,7 @@ label {
 
 .meeta-countdown {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -3476,7 +3476,7 @@ label {
   text-align: center;
   position: relative;
 }
-
+/*
 .meeta-countdown .single-countdown::before {
   content: ':';
   font-size: 58px;
@@ -3487,7 +3487,7 @@ label {
   right: -34.5%;
   top: 14px;
 }
-
+*/
 @media only screen and (max-width: 767px) {
   .meeta-countdown .single-countdown::before {
     font-size: 40px;
@@ -6453,6 +6453,7 @@ label {
   position: relative;
 }
 
+/*
 .single-counter::before {
   content: "";
   position: absolute;
@@ -6463,6 +6464,7 @@ label {
   height: 410px;
   transform: translateY(-50%);
 }
+*/
 
 @media only screen and (max-width: 991px) {
   .single-counter::before {
@@ -6470,6 +6472,7 @@ label {
   }
 }
 
+/*
 .single-counter.counter-item-1::after {
   content: "";
   position: absolute;
@@ -6480,6 +6483,7 @@ label {
   height: 410px;
   transform: translateY(-50%);
 }
+*/
 
 @media only screen and (max-width: 991px) {
   .single-counter.counter-item-1::after {
@@ -10491,4 +10495,11 @@ label {
 
 .font-bold {
   font-weight:700
+}
+
+.conference-info {
+  z-index: 15;
+  margin-bottom: -120px;
+  position: relative;
+  margin-top: 20px;
 }

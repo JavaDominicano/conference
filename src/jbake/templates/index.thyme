@@ -24,7 +24,7 @@
                         <div class="meeta-hero-content text-center">
 				<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
                             <p class="text" data-aos-delay="700" data-aos="fade-up" th:if="${config.layout_display_date_and_location_home}" th:text="${#strings.arrayJoin(config.layout_date_and_location_home,', ')}"></p>
-                            <h2 class="title" data-aos-delay="800" data-aos="fade-up">The Caribbean Java Technologies Conference</h2>
+                            <h2 class="title" data-aos-delay="800" data-aos="fade-up">JConf Dominicana</h2>
 							
                             <div class="header-btn" data-aos-delay="900" data-aos="fade-up" th:if="${config.layout_display_buytickets_index_button}">
                               <a th:href="${config.layout_buytickets_url}" href="price.html" class="btn-2">Buy Ticket Now</a>
@@ -85,14 +85,14 @@
                             <!-- Section Title Start -->
                             <div class="meeta-section-title-2">
                                 <h4 class="sub-title">About</h4>
-                                <h2 class="main-title">The Caribbean Java Technologies Conference.</h2>
+                                <h2 class="main-title">The Caribbean Java Technologies Conference</h2>
                             </div>
                             <!-- Section Title End -->
 
                             <!-- About Content Start -->
                             <div class="meeta-about-content">
 
-                                <p>JConf Dominicana is a community-driven conference organized by the Dominican Republic Java User Group (Aka JavaDominicano). It is designed to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web and Mobile development, and newest Cloud tendencies.The conference offers a unique networking opportunity for developers, tech companies, and startups and a chance to enjoy the pristine beaches, cloud-forest treks, and the welcoming villages that the island has to offer. Come to the Dominican Republic to learn about latest Java technologies and have fun sightseeing.</p>
+                                <p>JConf Dominicana is an annual Java technologies conference organized by the Dominican Republic Java User Group (Aka JavaDominicano).It is created to discuss the latest about the Java ecosystem, including alternatives JVM languages, Web, Mobile development, and most trending Cloud technologies</p>
                                 
                                 <div class="about-list">
                                     <ul>

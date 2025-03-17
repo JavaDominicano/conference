@@ -13,7 +13,7 @@
 			<div class="container">
 				<!-- Section Title Start -->
 				<div class="meeta-section-title-2 text-center">
-					<h2 class="main-title">Get Ready for JConf Dominicana 2024</h2>
+					<h2 class="main-title">Get Ready for <b th:utext='${config.site_title}'></b></h2>
 					<h4 class="sub-title">Be the first to know when tickets are available! Sign up to be notified
 						when they go on sale
 					</h4>
