@@ -3678,6 +3678,10 @@ label {
     height: 62px;
     line-height: 82px;
   }
+
+  .meeta-counter-section {
+    top: 70px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -4069,6 +4073,10 @@ label {
   .meeta-about-section-3 .about-content-3-wrap {
     padding-left: 0px;
     margin-top: 50px;
+  }
+
+  .meeta-counter-section {
+    top: 70px;
   }
 }
 
