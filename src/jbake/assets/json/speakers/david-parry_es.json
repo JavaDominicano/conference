@@ -1,0 +1,17 @@
+{
+  "id": "david-parry",
+  "name": "David Parry",
+  "photoUrl": "/img/speakers/david-parry.jpeg",
+  "title": "Developer Advocate",
+  "shortBio": "",
+  "countryFlag": "flag-icon-us",
+  "bio": "David Parry es un consumado Director de Arquitectura con más de 20 años de experiencia en desarrollo Java. Todo empezó en 1996, cuando descubrió el fascinante mundo de la programación, con especial atención a los applets de Java. A lo largo de su ilustre carrera, David Parry ha participado en varios proyectos dignos de mención. Ha creado e implantado con éxito sistemas de gestión de contenidos para una amplia gama de clientes, entre ellos la estimada Johny Walker y su célebre keepwalking.com. Además, como consultor en una empresa Big 4, David desempeñó un papel fundamental en la resolución de problemas críticos para numerosos clientes, lo que demuestra su experiencia en el manejo de plataformas web complejas y de alto tráfico.<br>Sin miedo a la innovación, David Parry ha ampliado sus habilidades para trabajar en tecnologías de vanguardia como sistemas móviles y sistemas Android TV integrados. Gracias a su experiencia, ha proporcionado servicios de streaming de primera categoría a los clientes, garantizándoles una experiencia visual excepcional.<br>En la actualidad, David ocupa el cargo de Consultor y Defensor del Desarrollador, supervisando la planificación estratégica y la ejecución de diseños arquitectónicos para los clientes. Con un profundo conocimiento de los principios de desarrollo de software y una amplia experiencia en programación Java, destaca por proporcionar valiosos conocimientos y orientación a su equipo.<br>Habiendo sido testigo de la evolución del desarrollo Java desde sus inicios hasta su estado actual, la gran experiencia y perspectiva estratégica de David Parry, combinadas con su trabajo de consultoría en una empresa Big 4, lo convierten en un activo inestimable en cualquier proyecto u organización de la que forme parte.",
+  "tags": [],
+  "socials": [
+    {
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/daviddryparry"
+    }
+  ]
+}

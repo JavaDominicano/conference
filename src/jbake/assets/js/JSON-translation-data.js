@@ -791,7 +791,31 @@ var linguJSON = {
      {
       "source": "Av. Abraham Lincoln, Santo Domingo. Dominican Republic",
       "target_es": "Av. Abraham Lincoln, Santo Domingo. República Dominicana"
-     }
-     
+     },
+
+     {
+           "source": "Organized By",
+           "target_es": "Organizado por"
+      },
+      {
+                 "source": "Photos of previous",
+                 "target_es": "Fotos de anteriores"
+       },
+       {
+                 "source": "Editions",
+                 "target_es": "Ediciones"
+       },
+       {   "source": "Gallery",
+           "target_es": "Galería"
+       },
+        {
+            "source": "See Photos of Previous Editions",
+            "target_es": "Ver las Fotos de las Ediciones Anteriores"
+         },
+         {
+             "source": "See previous speakers",
+             "target_es": "Ver Conferencistas Anteriores"
+          }
+
   ]
 }

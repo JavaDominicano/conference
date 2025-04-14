@@ -71,6 +71,7 @@ To do any change, you have to explore [JBake](http://www.jbake.org) and [Thymele
 * layout.display.presentations.page: enable/disable presentations page. Default is **false**
 * layout.display.about.index.video.url: enable/disable home page about section video. Default is **false**
 * layout.about.index.video.url: home page about section video url. 
+* layout.display.past.speakers: enable/disable past speakers
 
 ### Generating the output
 
