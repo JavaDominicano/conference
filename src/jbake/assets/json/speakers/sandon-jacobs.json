@@ -1,0 +1,17 @@
+{
+  "id": "sandon-jacobs",
+  "name": "Sandon Jacobs",
+  "photoUrl": "/img/speakers/sandon-jacobs.jpeg",
+  "title": "Senior Developer Advocate",
+  "shortBio": "",
+  "countryFlag": "flag-icon-us",
+  "bio": "Sandon Jacobs is a Senior Developer Advocate at Confluent based in North Carolina. Sandon has built microservices and event streaming applications in several industries - including television media, energy, mobile advertising, rail freight logistics, and healthcare. This experience spans multiple JVM languages - Java, Scala, Kotlin, Groovy - with smatterings of Python and JavaScript along the way.Sandon lives in Raleigh, NC, with his wife and 2 daughters. He is an enrolled citizen of the Waccamaw-Siouan Tribe of North Carolina, and can frequently be found at powwows around North America as a singer and speaker. Sandon is the Chairman of the Board of the Commissioners for the North Carolina American Indian Heritage Commission. Fun fact: an avid golfer since the age of 5, he was once mistaken for Tiger Woods at a teen golf event in the early 1990s. Check out his writings at https://medium.com/indigitech-blog and https://dev.to/sandonjacobs.",
+  "tags": [],
+  "socials": [
+    {
+      "icon": "link",
+      "name": "Link",
+      "link": "https://medium.com/indigitech-blog"
+    }
+  ]
+}

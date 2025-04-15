@@ -1,0 +1,17 @@
+{
+  "id": "jesus-aguirre",
+  "name": "Jesús Aguirre",
+  "photoUrl": "/img/speakers/jesus-aguirre.jpg",
+  "title": "Ingeniero Sr de Sistemas",
+  "shortBio": "",
+  "countryFlag": "flag-icon-pa",
+  "bio": "Profesional apasionado por la creación y el crecimiento a través de comunidades tecnológicas colaborativas, con un enfoque en la optimización de la experiencia del desarrollador y el escalado de plataformas. Participa activamente en el ecosistema CNCF y se compromete a impulsar la innovación a través de soluciones prácticas en el espacio nativo de la nube.",
+  "tags": [],
+  "socials": [
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://linkedin.com/in/info-aguirre-jesus"
+    }
+  ]
+}

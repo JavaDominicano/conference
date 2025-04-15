@@ -26,6 +26,7 @@
                                 <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
                                 <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
                                 <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
+                                <li><a href="/gallery.html" th:if="${config.layout_display_gallery}">Gallery</a></li>
                                 <li><a href="/code-of-conduct.html">Code of conduct</a></li>                                    
                                 <li><a th:if="${config.layout_display_sponsors}"  href="/index.html#sponsors">Sponsors</a></li>
                                 <li><a href="/past-conferences.html">Past Conferences</a></li>
@@ -92,6 +93,7 @@
                         <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
                         <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
                         <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
+                          <li><a href="/gallery.html" th:if="${config.layout_display_gallery}">Gallery</a></li>
                         <li><a th:if="${config.layout_display_sponsors}"  href="/index.html#sponsors">Sponsors</a></li>
                        
                     </ul>
@@ -130,6 +132,7 @@
 				                 <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
 				                 <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
 				                 <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
+				                 <li><a href="/gallery.html" th:if="${config.layout_display_gallery}">Gallery</a></li>
 					             <li><a href="/code-of-conduct.html">Code of conduct</a></li>                               
                                 <li><a th:if="${config.layout_display_sponsors}" href="/index.html#sponsors">Sponsors</a></li>
                                 <li><a href="/past-conferences.html">Past Conferences</a></li>

@@ -13,13 +13,30 @@
                     <div class="row">
 
                         <div class="col-lg-3">
-                            <!-- Footer Logo Start -->
-                            <div class="footer-logo">
-								<a href="/index.html"><img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/jconf-footer-logo-1.png'" alt="JConf Dominicana" title="JConf Dominicana"></a>
 
-								
+                             <!-- Footer Widget Start -->
+                            <div class="footer-widget">
+                                <h4 class="widget-title">Organized By</h4>
+
+                                	<a class="footer-logo" href="https://site.javadominicano.org" target="_blank">
+                                	<img th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'/img/supporters/jugrd-logo.png'" alt="Dominicana JUG" title="Dominican Republic Java User Group"></a>
+
+
+
                             </div>
-                            <!-- Footer Logo End -->
+                            <!-- Footer Widget End -->
+
+                            <div class="footer-menu">
+                             <h4 class="footer-menu-title">Past Conferences</h4>
+                             <hr>
+                             <ul>
+                                <li><a href="/past-conferences.html#jconfdominicana-2024">2024</a></li>
+                                <li><a href="/past-conferences.html#jconfdominicana-2023">2023</a></li>
+                                <li><a href="/past-conferences.html#jconfdominicana-2022">2022</a></li>
+                                <li><a href="/past-conferences.html#jconfdominicana-2021">2021</a></li>
+                                <li><a href="/past-conferences.html#jconfdominicana-20219">2019</a></li>
+                             </ul>
+                            </div>
                         </div>
 
                         <div class="col-lg-9">

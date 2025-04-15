@@ -156,7 +156,7 @@
 		
         <div th:replace="${config.layout_display_tickets_onsale_soon && not config.layout_display_buytickets_index_button} ? ~{tickets-onsale-soon.thyme::tickets} : ~{}" />
 
-		<div th:replace="${config.layout_display_gallery} ? ~{gallery.thyme::gallery} : ~{}"/>
+
 	
 
   </div>

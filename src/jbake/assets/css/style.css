@@ -5136,12 +5136,12 @@ label {
   background-color: #ffffff;
   padding-bottom: 10px;
   padding-top: 10px;
-  max-width: 120px;
+  max-width: 150px;
+  min-height: 115px;
   margin: 0 auto;
 }
 
 .single-speaker .speaker-content .speaker-content-box .speaker-name {
-  font-size: 22px;
   font-weight: 700;
   line-height: 1.1;
 }
@@ -10510,4 +10510,19 @@ label {
   margin-bottom: -120px;
   position: relative;
   margin-top: 20px;
+}
+
+.footer-widget .widget-title {
+  color: white;
+  font-size: 22pt;
+}
+
+.footer-menu .footer-menu-title {
+  color: white;
+  font-size: 22pt;
+}
+
+.see-previous {
+  margin-top: 5px;
+  padding-top: 10px;
 }

@@ -1,297 +1,161 @@
 [
   {
     "id": 101,
-    "title": "Empowering Innovation: The Open Source Odyssey of Contribution and Collaboration with Jakarta EE",
-    "abstract": "This session highlights the current state of Jakarta EE and key features of the upcoming community-driven Jakarta EE 11 version. Also, it explores key considerations as you embark on your open source journey, and the contributions that open source foundations make to this collaborative ecosystem.",
-    "description": "Enterprise Java application development is poised for a promising future under the guidance of Jakarta EE! The prosperity of any open source project hinges on a vibrant community actively engaged in technological advancements. Join this session to discover the reasons and methods for becoming an integral part of the Jakarta EE and Eclipse Foundation community, and discover the key features of the upcoming Jakarta EE 11 release. The presentation highlights valuable insights into the broad, industry-wide collaboration within the open source realm, dedicated to the modernization of enterprise Java solutions.",
+    "title": "Jakarta EE Meets AI",
+    "abstract": "Why learn new languages? Java has all you need for integrating Large Language Models (LLMs) into enterprise apps. Join me for live demos with LangChain4J, Spring AI, and Jakarta EE, and see how easily Java can be used for AI in your applications!",
+    "description": "Most of us are not writing our own Large Language Models (LLMs). We are consuming them, and integrating them into our enterprise applications. Ang guess what? Java is the perfect language for this! You don't have to learn Python or any other language for your AI integrations.<br><br>This session will explore different options there are for Java developers and how to integrate them into your enterprise Java applications. There will be live demos using libraries and tools such as LangChain4J, Spring AI, and Jakarta EE.",
     "audience_level": "All",
-    "time": "9:15 A.M / July 20, 2024",
-    "talk_format": "Keynote (~30-45 minutes)",
+    "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
     "tags": [
-      "JakartaEE",
-      "JavaEE",
-      "OpenSource",
-      "EclipseFoundation"
+      "AI",
+      "Java",
+      "Architecture",
+      "Jakarta EE"
     ],
     "speakers": [
-      "shabnam-mayel"
+      "ivar-grimstad"
     ]
   },
   {
     "id": 102,
-    "title": "Unlocking the Power of Multitenancy (Quarkus and Vaadin Flow)",
-    "abstract": "¿Te has enfrentado a los desafíos de aplicaciones multitenancy? Descubre cómo dominarlo con Quarkus y Vaadin Flow, en este workshop. ¡Aprende estrategias efectivas para gestionar estas estructuras y crear aplicaciones escalables y seguras!",
-    "description": "En la actualidad, el desarrollo de aplicaciones es un terreno complejo y desafiante. Los desarrolladores a menudo se encuentran con la necesidad de crear soluciones multitenancy para permitir intercambiar y compartir los recursos de las soluciones, garantizando la seguridad y la escalabilidad de esta.Este workshop se enfoca en uno de los desafíos más comunes que enfrentan los desarrolladores: cómo integrar Vaadin Flow, una tecnología “stateful” que brinda interfaces de usuario ricas, con una API REST “stateless” en un ambiente Quarkus. Abordaremos los problemas que surgen cuando Vaadin Flow toma el control de la seguridad y cómo esto puede entrar en conflicto con la arquitectura “stateless” de Quarkus.Exploraremos:-<br>Los desafíos específicos que surgen al combinar Vaadin Flow y Quarkus en un ambiente multitenancy.-<br>Soluciones prácticas para garantizar la seguridad y la interoperabilidad.-<br>Diseño de un API para aplicación de terceros.Este workshop es ideal para desarrolladores, arquitectos de software y profesionales interesados en comprender cómo hacer que estas tecnologías puedan coexistir para construir aplicaciones seguras y escalables. Al final de la presentación, los asistentes tendrán una comprensión más sólida de cómo abordar este desafío en sus propios proyectos y lograr una integración exitosa.",
-    "audience_level": "Intermediate",
-    "time": "2:00 P.M / July 19, 2024",
-    "talk_format": "Workshop (\u003e 60 minutes)",
+    "title": "Java y grafos. Iniciemos con Neo4j",
+    "abstract": "Los NoSQL ya son el día a día de nuestras aplicaciones, de entre los distintos tipos, existe uno que a veces no exploramos para nuestras soluciones: las orientadas a grafos.<br>En esta charla veremos por qué son importantes y cómo podemos usarlas en nuestros proyectos con Java.",
+    "description": "Las bases de datos orientadas a grafos siguen avanzando de manera discreta en el día a día de las soluciones informáticas.<br>La intención de esta charla es:<br><br>Recordar la importancia de una bbdd orientada a grafos.<br>Ver algunos casos de uso.<br>Saber por dónde empezar usando recursos gratuitos (conoceremos un servicio gratuito de neo4j).<br>Como conectarnos usando java (springboot, quarkus, helidon, micronaut).",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
-      "Quarkus",
-      "Vaadin",
-      "VaadinFlow",
-      "Java",
-      "API",
-      "Security"
+      "Java Platform",
+      "nosql",
+      "neo4j",
+      "graph",
+      "databases"
     ],
     "speakers": [
-      "freddy-pena","juandiegolopezve"
+      "isaac-ruiz"
     ]
   },
   {
     "id": 103,
-    "title": "Java with OpenAI: Building and Monetizing Generative AI Plugins",
-    "abstract": "Discover how to create generative AI plugins using Java on the OpenAI platform. Begin with the basics of the ChatGPT API and Spring AI, and conclude by launching a fully functional Java plugin on the OpenAI marketplace. Learn strategies to monetize your plugin to millions of users.",
-    "description": "OpenAI's GPT neural network can be enhanced and customized with plugins. For instance, the Expedia plugin arms the AI with current data on lodging prices and availability, allowing users to book their next trip directly through the ChatGPT interface.In this session, you'll gain practical experience with large language models (LLMs) by developing a Java plugin for the OpenAI platform from the ground up. We'll start with the basics, creating a generative AI application that integrates Spring AI with OpenAI APIs for a variety of natural language processing (NLP) tasks. We'll then enhance the application's responsiveness by using the Postgres pgvector extension for vector similarity searches within the database. Finally, you'll discover how to launch and monetize your Java plugin on the OpenAI platform, making it accessible to millions of users.",
-    "audience_level": "All",
-    "time": "11:45 AM / July 20, 2024",
+    "title": "Helidon 4 en Kubernetes: Lecciones Reales, Retos y Casos de Uso en Producción",
+    "abstract": "Descubre cómo llevar Helidon 4 a producción en Kubernetes. Exploraremos lecciones aprendidas, retos enfrentados y casos de uso reales con Eclipse MicroProfile, bases de datos y servicios externos. Una charla con insights clave para optimizar distintas cargas de trabajo en el mundo real.",
+    "description": "Helidon 4, basado en Eclipse MicroProfile, es una opción poderosa para micro servicios en Kubernetes. En esta charla, compartiré lecciones aprendidas, retos enfrentados y casos de uso reales en producción, desde integración con bases de datos hasta consumo de APIs externas. Una sesión práctica con insights clave para optimizar distintas cargas de trabajo.",
+    "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
-    "language":"en",
+    "language":"es",
     "tags": [
-      "Machine Learning with Java",
-      "Machine Learning",
-      "Java"     
+      "Java Platform",
+      "Server side development"
     ],
     "speakers": [
-      "denis-magda"
+      "jesus-aguirre"
     ]
   },
   {
     "id": 104,
-    "title": "Integración de Java con MQTT para la Automatización del Hogar",
-    "time": "3:00 PM / July 20, 2024",
-    "abstract": "Esta es una charla diseñada para demostrar el potencial de la domótica utilizando: Java y MQTT. Java nos brinda la robustez y versatilidad necesarias para desarrollar aplicaciones seguras, mientras que MQTT, con su ligereza y eficiencia, se establece como el estándar de comunicación ideal para IoT.",
-    "description": "En esta charla, exploraremos cómo Java se une al versátil protocolo MQTT para crear soluciones de domótica. Comenzaremos introduciendo los conceptos fundamentales de la domótica y la importancia de la comunicación eficiente en los sistemas IoT.Luego, profundizaremos en MQTT, destacando sus características clave como la eficiencia, la fiabilidad y la arquitectura publish/subscribe, que lo hacen ideal para la automatización residencial.A continuación, nos adentraremos en cómo Java, puede ser utilizado para desarrollar aplicaciones de domótica que se comunican con dispositivos IoT a través de MQTT. Cubriremos las <b>bibliotecas Java que facilitan esta integración</b> y proporcionaremos ejemplos de código para ilustrar la interacción entre una aplicación Java y dispositivos IoT mediante MQTT.También discutiremos las <b>mejores prácticas para garantizar la seguridad</b> y la privacidad en las comunicaciones MQTT, abordando el uso de TLS/SSL, autenticación y autorización. Además de consejos sobre cómo manejar la reconexión y asegurar la entrega de mensajes para construir sistemas de domótica fiables y resilientes.Finalmente, se presentará un demo de conexión de una aplicación Java con un broker MQTT para la transferencia de mensajes a dispositivos inteligente",
+    "title": "De las Trincheras a Producción: Dominando GraalVM con Spring Boot",
+    "abstract": "Sumérgete en experiencias reales con GraalVM y Spring Boot. Aprende a reducir uso de memoria, CPU y tiempos de arranque, creando contenedores más pequeños y manejando altas cargas. Esta charla ofrece soluciones prácticas para builds nativos, configuración de plugins y automation con  github action.",
+    "description": "Aunque GraalVM promete arranques rápidos, menor consumo de recursos y capacidades políglotas, el camino a producción no siempre es simple. En esta sesión compartiré lecciones aprendidas trabajando con clientes que usan Spring Boot y GraalVM, enfocándome en modos JIT y Nativo. Cubriremos la configuración de plugins Maven como bootRun, bootBuildImage y graalvmNative, el manejo de reflexión y proxies dinámicos, y la automatización de generación de metadatos usando el repositorio de reachability de GraalVM. Esta no es solo otra demo: es un recorrido detallado desde la perspectiva de un programador, resaltando desafíos y soluciones al llevar aplicaciones reales a producción con GraalVM. También mostraremos despliegues con GitHub Actions y ejemplos de programación políglota práctica.",
     "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
-      "IoT",
-      "Java",
-      "MQTT",
-      "Domotica"
+      "Java Platform"
     ],
     "speakers": [
-      "frank_jcg"
+      "josediaz"
     ]
   },
   {
     "id": 105,
-    "title": "Desbloqueando el Potencial de los equipos Desarrollo de Software con Team Topologies",
-    "abstract": "En nuestra charla, exploraremos cómo  revolucionar la forma en como desarrollamos software.Descubre cómo romper los silos organizacionales, fomentar la colaboración y mejorar la calidad del software.",
-    "description": "Team Topologies es más que una simple estructura organizativa; es un enfoque holístico que impulsa la innovación, fomenta la colaboración y mejora la calidad del software.Abordaremos los desafíos comunes en el desarrollo de software, como la falta de comunicación, la complejidad del proceso y la resistencia al cambio, y mostraremos cómo Team Topologies ofrece soluciones prácticas y efectivas para estos problemas.A lo largo de la charla, aprenderás los principios fundamentales de Team Topologies y cómo aplicarlos en tu equipo. Descubrirás cómo identificar roles y responsabilidades, establecer límites evolutivos claros y fomentar una cultura de experimentación y aprendizaje continuo.Además, presentaremos casos de estudio reales de empresas que han implementado con éxito Team Topologies y han experimentado mejoras significativas en la eficiencia, la calidad del software y la satisfacción del equipo.Ya sea que seas un desarrollador, un líder de equipo o un gerente de proyecto, esta charla te proporcionará las herramientas y los conocimientos necesarios para desbloquear el potencial de tu equipo y llevar tu desarrollo de software al siguiente nivel.",
+    "title": "30 years programming: Lessons learned",
+    "abstract": "I have been programming for 30 years now. During this time I have learned many lessons about work, code, software, tech in general that I'd like to share with you.<br>I want to talk about cyclic patterns I've noticed throughout all these years, in the hopes we can stop making the same mistakes",
+    "description": "I want to talk about what programming was 30 years ago, and what it has become today. Look at the trendy things that have come and gone, and come back again. Not in a \"get off my lawn\" tone, but rather to show how this industry is not that different from others; the good, the bad, the ugly. How Open Source changed the industry, and how the industry changed Open Source. What's in store for the newer generations.",
     "audience_level": "Intermediate",
-    "time": "2:00 PM / July 20, 2024",
-    "language": "All",
-    "talk_format": "Keynote (~30-45 minutes)",
+    "language": "es",
+    "talk_format": "Talk (~30-45 minutes)",
     "tags": [
-      "Estrategias",
-      "Herramientas",
-      "Metodologías"
+      "software development",
+      "programming",
+      "cloud",
+      "Server side development",
+      "Java Platform",
+      "web development",
+      "client-side development"
     ],
     "speakers": [
-      "david-joa"
+      "enrique-zamudio"
     ]
   },
   {
     "id": 106,
-    "title": "Profundizando en la arquitectura de micro-servicios con Java Spring",
-    "abstract": "¿Has tenido problemas implementando micro servicios? ¿Algunas cosas son más complejas de resolver y sientes que es un desperdicio de recursos? Pues ven a unirte a este charla donde hablaremos del escalado, implementación y uso de esta hermosa arquitectura en las aplicaciones del hoy día",
-    "description": "Realizar una implementación de esta arquitectura es más complejo de lo que se puede imaginar, el hecho de no conocer losconceptos y fundamento que la componen, te lleva a una implementación parcial o incompleta dando paso a problemas que asu vez plantean soluciones que evitan que se aprecien las bondades de esta arquitectura.Entre las características más brillantes de las aplicaciones en micro-servicios; es su escalado (horizontal y vertical),ya que estas aplicaciones escalan de forma automatizada y a demanda, y si el resultado de su implementación no da paso aesta característica en particular entonces estamos frente a un caso de una mala implementación de la misma.<b>El simple hecho de no conocer conceptos fundamentales y/o elementos que componen esta arquitectura, te llevará a un caos y junto a eso a una implementación que brindará más dolores de cabeza que ventajas.</b>Con esta charla, busco hacer que quien decida implementar este tipo de arquitectura orientada al servicio pueda hacerlo de una forma saludable y en los escenarios correctos, puesto que no siempre puedes usarla debido a:- Dimensiones de la aplicación:    - cantidad de usuarios    - Costos- Necesidades del usuario en la aplicación    - Tipo de conexiones    - Restricciones de ley con la data    - Limitaciones de hardware- Otros factores que afectarán el desarrollo:    - Flujo de trabajo del código    - Despliegue del código a los entornos    - Experiencia del equipo (grupal e individual)    - Tiempo de entrenamiento interno del equipo    - Hábitos de documentación    - ...",
+    "title": "Building a real-time collaborative editor",
+    "abstract": "This presentation represents a step by step approach of building a complex functionality, starting from operational needs, architectural decisions and algorithmic solution description. It's a real scenario of designing a collaborative text editor solution.",
+    "description": "Have you ever wondered what it takes to develop a solution similar to Google Docs and then build on top of it with extra layers of security and functionality?<br><br>During the planning phase of a military operation, there are multiple text documents that need to be updated simultaneously by multiple users. At the same time, there is a requirement to provide security in air-gapped deployments.<br><br>As such, a solution that follows high standards for security, performance and quality is required.<br><br>Within my presentation, I will be describing an embedded solution based on advanced operational transformation algorithms which allows real-time secure collaborative editing, as well as several challenges that we have faced during development and how we managed to overcome each of them.",
     "audience_level": "All",
-    "time": "11:00 A.M / July 20, 2024",
     "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
+    "language": "en",
     "tags": [
-      "Java",
-      "Spring Framework",
-      "micro-servicios"
+      "Server side development",
+      "client-side development",
+      "java",
+      "angular",
+      "frameworks",
+      "algorithms",
+      "notifications",
+      "collaborative"
     ],
     "speakers": [
-      "aluis-marte"
+      "mihaela-gheorghe-roman"
     ]
   },
   {
     "id": 107,
-    "title": "Codificación Segura en Java: Prevención y defensa",
-    "abstract": "¿Es Java seguro? ¿Es seguro tu código? ¿Puede ser vulnerada tu aplicación? Exploremos los aspectos esenciales de la seguridad en el desarrollo de aplicaciones Java, las vulnerabilidad más comunes, como identificarlas y cómo mitigarlas.",
-    "description": "En esta conferencia interactiva, exploraremos los aspectos esenciales de la seguridad en el desarrollo de aplicaciones Java, proporcionando un enfoque práctico y orientado a la acción para desarrolladores intermedios. Aprenderás a identificar y mitigar vulnerabilidades comunes, implementar técnicas de seguridad efectivas y proteger tus aplicaciones contra amenazas en constante evolución.",
+    "title": "At Long Last, Queues for Apache Kafka - Unpacking Shared Groups (KIP-932)",
+    "abstract": "Shared groups (KIP-932) brings \\\"queues\\\" to the Apache KafkaⓇ ecosystem. The guarantees of durability, scalability, and high throughput we’ve always touted in Kafka, all while scaling consumption beyond the partition count and better support for transactional workloads. Let’s unpack it together.",
+    "description": "Apache KafkaⓇ powers 80 percent of the Fortune 500 as a highly scalable event-streaming platform. Consumer groups assign partitions to members of the group, providing a powerful combination of ordering and scalability. But how can we scale the consumers in a group beyond the number of partitions of a topic?<br><br>Enter KIP-932 - aka “Queues for Kafka” - enabling multiple consumers in the group to process from the same topic-partition. In this session we’ll explore how shared groups provide better support for transactional workloads, load balancing, and event ordering, all while leveraging Kafka’s scalability and durability features. We’ll discuss how shared groups differ from classic consumer groups and when to use them. What better way to do this than actually looking at code? Let’s do that.<br><br>Shared groups make Kafka an even stronger alternative to traditional message brokers. Kafka veterans and beginners alike will find this session of interest, prompting you to rethink event processing.<br>",
     "audience_level": "Intermediate",
-    "time": "3:45 PM / July 20, 2024",
     "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
+    "language": "en",
     "tags": [
-      "java",
-      "seguridad",
-      "security",
-      "código seguro"
+      "Server side development",
+      "Java Platform"
     ],
     "speakers": [
-      "berroteranlkf"
+      "sandon-jacobs"
     ]
   },
   {
     "id": 108,
-    "title": "Unlock the potential of Jakarta REST to build RESTful Web Services",
-    "abstract": "Leverage the power of Jakarta EE for creating RESTful Web Services",
-    "description": "In this workshop,you will get an introduction to the new and updated APIs of the Jakarta EE 10 Platform. You will get hands-on experience of the Platform with practical exercises of selected Jakarta EE 10 APIs.The focus of the workshop will be to build RESTful Web Services with Jakarta EE. You will learn how to deploy your services to a traditional application server as well as how to create a bootable JAR with the SEBootstrap mechanism provided by Jakarta EE RESTful Web Services.Did you know you don't need an external library like Jackson or Gson for JSON processing?You will learn how to leverage the power of the Jakarta EE APIs for serializing JSON to Java objects and back. All in all everything you need to know to be successful creating RESTful Web Services with Jakarta EE.",
-    "audience_level": "Intermediate",
-    "time": "2:00 P.M / July 19, 2024",
-    "talk_format": "Workshop (\u003e 60 minutes)",
+    "title": "Getting Groovy: AI-Powered Spock Testing",
+    "abstract": "Spock is a powerful testing framework for Java and Groovy, offering an expressive, efficient way to write tests. Imagine combining Spock with AI to supercharge your testing process. In this talk, see live coding that demonstrates how AI enhances test creation!",
+    "description": "Spock is a testing framework for Java and Groovy applications known for its expressive specification language. With a JUnit runner, it integrates seamlessly with IDEs, build tools, and CI servers. Inspired by JUnit, RSpec, Groovy, Scala, and Vulcans, Spock brings a unique and efficient approach to testing. It utilizes Groovy’s Abstract Syntax Tree (AST) to eliminate boilerplate, enabling a fluid domain-specific language for tests.<br><br>Now, imagine taking Spock to the next level with AI. By integrating AI into testing, we can enhance efficiency and intelligence.<br><br>In this talk, I’ll minimize slides and focus on live coding to demonstrate the power of Spock with AI assistance. You’ll learn how AI tools can help write robust tests and elevate your testing skills. Join me to explore Spock and discover how AI can transform your testing approach.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
     "tags": [
-      "Java",
-      "Jakarta EE",
-      "Jakarta REST",
-      "RESTful Web Services",
-      "Jakarta EE 10"
+      "Java Platform",
+      "unit testing"
     ],
     "speakers": [
-      "ivar-grimstad","ecabrerar"
+      "david-parry"
     ]
   },
   {
     "id": 109,
-    "title": "Infraestructura como Código para Todos",
-    "abstract": "Porque repetir la mismas tareas una y otra vez? Porque no invertir un tiempo y resolver esas tareas que siempre repites? Tenemos las herramientas y el conocimiento para no entrar en este loop tareas.",
-    "description": "El taller sobre Infraestructura como Código (IaC) ofrecerá una introducción exhaustiva a los principios, herramientas y mejores prácticas para automatizar la gestión de infraestructura a través de código. Desde los fundamentos conceptuales hasta la implementación práctica, los participantes explorarán cómo IaC mejora la eficiencia operativa, la escalabilidad y la consistencia en entornos de desarrollo, pruebas y producción. Se abordarán temas clave como la creación de plantillas reutilizables, el uso de herramientas como Pulumi, OpenTofu (Terraform) y Ansible, y estrategias para la gestión de cambios y la colaboración en equipos.Nos enfocaremos en Pulumi en versión Java, y Ansible.",
+    "title": "Agilidad para Desarrolladores: Creando Software de Calidad de Forma Continua",
+    "abstract": "La agilidad no es solo seguir marcos de trabajo, sino desarrollar software de calidad de forma continua y sostenible. En esta charla, aprenderás cómo aplicar Agilidad para entregar valor, construir buen software y usar Scrum, Kanban y XP para un flujo eficiente sin comprometer la calidad.",
+    "description": "En el mundo del desarrollo de software, la rapidez y la calidad a menudo parecen estar en conflicto. Sin embargo, con un enfoque ágil bien aplicado, es posible entregar software de alto valor de manera continua sin sacrificar la estabilidad ni la excelencia técnica.<br><br>En esta charla, exploraremos cómo los desarrolladores pueden aprovechar la agilidad para mejorar su proceso de construcción de software. Abordaremos temas clave como:<br>El ciclo de vida del desarrollo ágil: Cómo gestionar desde la idea hasta la entrega de valor de manera iterativa y eficiente.<br>Planificación ágil: Estrategias para planificar el trabajo sin caer en la burocracia ni en la falta de previsión.<br>Scrum, Kanban y XP: Cómo elegir y combinar estos marcos de trabajo para optimizar el flujo de desarrollo.<br>Entrega continua y calidad del código: Prácticas que aseguran que el software se mantenga en producción sin interrupciones ni regresiones.<br>Colaboración y mejora continua: Cómo fomentar la comunicación efectiva dentro del equipo y adaptarse al cambio de manera fluida.<br><br>Si eres desarrollador y quieres construir software de calidad de forma sostenible, esta charla te dará las herramientas y enfoques necesarios para lograrlo con agilidad.",
     "audience_level": "All",
-    "time": "2:00 P.M / July 19, 2024",
-    "talk_format": "Workshop (\u003e 60 minutes)",
-    "language": "es",
-    "tags": [
-      "IaC",
-      "Java",
-      "Ansible",
-      "OpenTofu",
-      "Terraform",
-      "Vagrant"
-    ],
-    "speakers": [
-      "hector-ventura"
-    ]
-  },
-  {
-    "id": 110,
-    "title": "¡No más scripts!, Utiliza Apache Nifi para tus flujos de datos",
-    "abstract": "Imagina un flujo constante de datos entre sistemas dispares en tu empresa: registros, transacciones, lecturas, y más. Ahora, piensa en solución que simplifica ese flujo de datos, en una plataforma poderosa para automatizar su movimiento, transformación y entrega en tiempo real. Eso Apache NiFi!.",
-    "description": "Imagina un flujo constante de datos viajando a través de sistemas dispares en tu empresa: registros de servidores, transacciones de clientes, lecturas de sensores, y más. Ahora, visualiza una solución que simplifica radicalmente la gestión de este flujo de datos, ofreciendo una plataforma única y poderosa para automatizar su movimiento, transformación y entrega en tiempo real. Esa solución es Apache NiFi.<br><br>Apache NiFi es la herramienta definitiva para el flujo de datos en tiempo real. Con una interfaz gráfica intuitiva y fácil de usar, NiFi permite a los usuarios diseñar, controlar y monitorear flujos de datos de manera visual, sin necesidad de escribir código. Desde la ingestión de datos hasta su procesamiento y distribución, NiFi simplifica cada paso del proceso, permitiendo a las organizaciones gestionar eficientemente grandes volúmenes de datos de manera confiable y escalable.<br><br>¿Qué hace a Apache NiFi tan especial? En primer lugar, su capacidad para integrar fácilmente una amplia variedad de fuentes y destinos de datos. Desde bases de datos y sistemas de archivos hasta dispositivos IoT y servicios web, NiFi puede conectarse con casi cualquier fuente de datos imaginable. Además, NiFi ofrece potentes capacidades de procesamiento en tiempo real, permitiendo a los usuarios realizar transformaciones, enriquecimientos y análisis de datos sobre la marcha.<br><br>En nuestra presentación estaremos abordando los aspectos básicos de la herramienta y mostrando escenarios de situaciones reales donde Apache Nifi nos ha permitido agilizar nuestro trabajo, sin necesidad de crear scripts o aplicativos específicos para resolver esa situación. Los ejemplos propuestos son:<br><br>- Integración de información entre varias fuentes de datos (SQL, No SQL, Servicios Web, entre otros).<br>- Cambio de fuente de datos entre sistemas (SQL a No SQL).<br>- Implementación de un Change data capture (CDC) desde una base de datos SQL.",
-    "audience_level": "Intermediate",
-    "time": "3:45 PM / July 20, 2024",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "tags": [
-      "Java",
-      "Apache Nifi",
-      "ELT",
-      "Data Streaming",
-      "Streaming",
-      "SQL",
-      "NO SQL"
+      "Proceso de desarrollo de Software",
+      "Metodología"
     ],
     "speakers": [
-      "ccamachog"
-    ]
-  },
-  {
-    "id": 111,
-    "title": "Hablando de basura: Garbage Collector, ¿Qué es?  ¿Cómo funciona? ¿Cuál debería utilizar en mi aplicación?",
-    "abstract": "Aumentar la cantidad de instancias de tu aplicación o la memoria disponible solo esconderá el problema real de esta. <br><br>Hablemos sobre basura, para entender cómo la JVM maneja la memoria de tu aplicación y cómo puedes maximizar el rendimiento de esta con una gestión efectiva de su memoria.",
-    "description": "Hablemos de basura, además de su importancia en recolectarla a tiempo para mantener una aplicación en su punto más óptimo y costo eficiente. <br><br>Hoy en día se ha vuelto una práctica común resolver todos los problemas de rendimiento, aumentando la cantidad de recursos disponibles en el hardware donde alojamos nuestras aplicaciones. <br><br>En esta charla, abordaremos los conceptos envueltos en el funcionamiento del <br>Garbage Collector (GC) en el JVM, la evolución de los algoritmos de Garbage Collection a través de los años y cuál es el más óptimo a utilizar dependiendo de cuáles son los puntos críticos de tu aplicación. Veremos brevemente distintas herramientas de monitoreo y visualización que nos ayudarán a entender en tiempo real, de manera gráfica, el comportamiento de la memoria en nuestra aplicación.",
-    "audience_level": "Intermediate",
-    "time": "3:00 PM / July 20, 2024",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "tags": [
-      "Java",
-      "Garbage Collector",
-      "JVM",
-      "Java Platform"
-    ],
-    "speakers": [
-      "brayan-munoz"
-    ]
-  },
-  {
-    "id": 112,
-    "title": "AWSome Testing con LocalStack y Testcontainers",
-    "abstract": "La ejecución de las pruebas deben proveer feedback rápido. Al ejecutar en una infraestructura real están aumentan costos y toman tiempo. LocalStack y Testcontainers permiten realizar pruebas locales y reales sin un ambiente de producción.",
-    "description": "Hoy en día muchas aplicaciones se integran con servicios cloud como AWS, Azure, GCP. Sin embargo, el desarrollo y pruebas de estas aplicaciones puede ser un reto debido a los costos y la velocidad de desarrollo. Esta charla presentará LocalStack para emular los servicios de AWS localmente y Testcontainers para ejecutar LocalStack como contenedor e integrarlo en el ciclo de vida de las pruebas de manera programática.",
-    "audience_level": "Intermediate",
-    "time": "10:00 A.M / July 20, 2024",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "tags": [
-      "java",
-      "testcontainers",
-      "aws",
-      "spring boot",
-      "junit"
-    ],
-    "speakers": [
-      "eddumelendez"
-    ]
-  },
-  {
-    "id": 113,
-    "title": "Integración de Spring Boot con PayPal y Buenas Prácticas",
-    "abstract": "Participa en nuestro workshop para dominar la integración de PayPal en tus aplicaciones de Spring Boot. Exploraremos técnicas esenciales como el uso de Spring Cache con Redis y métodos avanzados de pruebas, tanto unitarias como de integración. Este taller es perfecto para desarrolladores que buscan implementar transacciones seguras y mejorar la eficiencia de sus aplicaciones en línea.",
-    "description": "En este taller, explicaremos cómo integrar la pasarela de pagos PayPal con aplicaciones desarrolladas en Spring Boot, facilitando transacciones seguras y eficientes. A través de ejemplos prácticos, aprenderás a configurar y manejar pagos en línea, un componente esencial para cualquier negocio digital.<br><br>Integración de PayPal:<br>Detallaremos paso a paso cómo incorporar PayPal en tus proyectos de Spring Boot, desde la configuración inicial hasta el manejo de transacciones y la seguridad en los pagos.<br><br>Además, el workshop incluirá sesiones sobre:<br>Uso de Spring Cache con Redis:<br>Aprenderemos a implementar caching para mejorar la eficiencia y respuesta de las aplicaciones.<br>Creación y uso de Anotaciones con Spring AOP:<br>Introduciremos cómo crear anotaciones personalizadas para manejar excepciones, utilizando Spring AOP para simplificar la gestión de errores.<br><br>Pruebas en Spring:<br>Profundizaremos en cómo realizar pruebas efectivas en diferentes niveles de la aplicación:<br>Servicios y Componentes<br>Controladores utilizando MockMvc<br>Repositorios con Spring Data JPA<br><br>Únete a nosotros para desarrollar tus habilidades en la creación de aplicaciones comerciales con Spring Boot, donde no solo aprenderás sobre integraciones de pagos, sino también sobre optimización de rendimiento y pruebas rigurosas para garantizar la calidad del software.",
-    "audience_level": "Intermediate",
-    "time": "2:00 P.M / July 19, 2024",
-    "talk_format": "Workshop (\u003e 60 minutes)",
-    "language": "es",
-    "tags": [
-      "java",
-      "Redis",
-      "spring boot",
-      "Spring Cache"
-    ],
-    "speakers": [
-      "geovanny-mendoza"
-    ]
-  },
-  {
-    "id": 114,
-    "title": "JPA, Hibernate or JOOQ or Maybe all of them?",
-    "abstract": "Descubre JPA, Hibernate y JOOQ en Java para optimizar la persistencia de datos. Aprende consultas tipo-safe y mapeo objeto-relacional. Mejora tus estrategias de manejo de datos en 45 minutos, ya seas nuevo o experimentado en Java.",
-    "description": "En esta charla exploraremos las opciones avanzadas para la persistencia de datos en aplicaciones Java. Desde el estándar JPA hasta las potentes implementaciones como Hibernate y JOOQ, descubrirás cómo cada una simplifica y potencia el manejo de datos. <br><br>A través de ejemplos prácticos y comparaciones detalladas, aprenderás a elegir la tecnología adecuada según los requisitos de tu proyecto.<br><br> Únete para profundizar en la eficiencia y flexibilidad de la persistencia de datos en Java.",
-    "audience_level": "All",
-    "time": "3:45 PM / July 20, 2024",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "tags": [
-      "SQL",
-      "JPA",
-      "Hibernate",
-      "JDBC",
-      "JOOQ",
-      "JDBI",
-      "SQL2O",
-      "Apache Delta Spike",
-      "Spring Data",
-      "Quarkus Panache"
-    ],
-    "speakers": [
-      "eliezer-herrera"
-    ]
-  },
-  {
-    "id": 115,
-    "title": "Creando una aplicación con JavaFx y Hibernate",
-    "abstract": "¿Te gustaría aprender a combinar la potencia de JavaFX con la eficiencia de Hibernate y PostgreSQL? En esta charla, te mostraré cómo desarrollar una aplicación de escritorio con interfaces gráficas de usuario (GUI) en Java utilizando JavaFX integrando un framework ORM como Hibernate.",
-    "description": "JavaFX es un conjunto de herramientas y bibliotecas de software que se utiliza para desarrollar aplicaciones de escritorio con interfaces gráficas de usuario (GUI) en Java.<br><br> Por otro lado, Hibernate es un framework de mapeo objeto-relacional (ORM) diseñado para Java, lo que permite a los desarrolladores mapear objetos Java a las tablas de una base de datos relacional. <br><br> Durante esta charla, exploraremos la integración de JavaFX con Hibernate, lo que implica la creación de una aplicación que se conecta a una base de datos PostgreSQL utilizando Hibernate. Esta aplicación permitirá realizar operaciones CRUD (crear, leer, actualizar y eliminar) en la base de datos y mostrar los datos en componentes JavaFX",
-    "audience_level": "All",
-    "time": "3:00 PM / July 20, 2024",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "tags": [
-      "JavaFX",
-      "Hibernate"
-    ],
-    "speakers": [
-      "yesser-miranda"
+      "david-joa"
     ]
   }
 ]

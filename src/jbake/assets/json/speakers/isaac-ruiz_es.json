@@ -1,0 +1,22 @@
+{
+  "id": "isaac-ruiz",
+  "name": "Isaac Ruiz Guerra",
+  "photoUrl": "/img/speakers/isaac-ruiz.jpg",
+  "title": "Arquitecto de soluciones",
+  "shortBio": "",
+  "countryFlag": "flag-icon-mx",
+  "bio": "Isaac es egresado del Instituto Tecnológico del Istmo en Oaxaca, México.<br>Comenzó a utilizar Java en su versión 1.2 (2000) al realizar sus prácticas profesionales en el laboratorio de inteligencia artificial del Centro de Investigación en Computación (CIC), del Instituto Politécnico Nacional en México. <br>Es consultor de software desde 2003, está especializado en Integración de aplicaciones y ha participado en proyectos relacionados principalmente con el sector financiero.<br>Desde hace más de 10 años ha trabajado con diferentes servidores de aplicaciones para el mundo java y ahora trata de adaptar estos conocimientos a las nuevas arquitecturas de despliegue. <br><br>Isaac es un promotor del lenguaje java y ha participado en diferentes comunidades como javaHispano y javaMéxico.<br>Como parte del staff de la comunidad javaMéxico, Isaac promueve el uso de Java y tecnologías relacionadas con Java escribiendo en su blog y como ponente en eventos JUG. <br>Isaac ha publicado varios artículos sobre el ecosistema java en diferentes sitios web, incluyendo OTN y es ponente frecuente en eventos LAOUC/ORAMEX.<br>Recientemente fue nombrado parte del programa Neo4j Ninja: https://neo4j.com/ninjas-program/",
+  "tags": [],
+  "socials": [
+    {
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/rugi"
+    },
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/newsletters/6931281718834335744/"
+    }
+  ]
+}

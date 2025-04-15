@@ -10,18 +10,27 @@
                 <div class="meeta-speakers-wrap">
                     <!-- Section Title Start -->
                     <div class="meeta-section-title-2 text-center">
-                        <h4 class="sub-title">Speakers</h4>
-                        <h2 class="main-title text-white">Here are some of our speakers</h2>
+                        <h2 class="main-title text-white">Speakers</h2>
+                        <h4 class="sub-title" th:if="${config.layout_display_past_speakers && config.layout_display_past_speakers_home_page}">They were speakers at JConf Dominicana</h4>
+                        <h4 class="sub-title" th:if="${ not config.layout_display_past_speakers && not config.layout_display_past_speakers_home_page}">Here are some of our speakers</h4>
                     </div>
                     <!-- Section Title End -->
                     <div class="meeta-speakers-content-wrap-2">
-                        <div class="row" id="listSpeakers"></div>
+                        <div class="row gy-5 meeta-speakers-row" id="listSpeakers"></div>
                     </div>
+                    <div class="row" th:if="${ not config.layout_display_past_speakers && not config.layout_display_past_speakers_home_page}">
+                          <div class="col-lg-12">
+                             <div class="see-previous text-center">
+                                 <a class="btn-2" href="/past-speakers.html">See previous speakers</a>
+                             </div>
+                         </div>
+                      </div>
                 </div>
             </div>
         </div>
         <!-- Speakers End -->
-        <script type="module" src="js/speakers.js"></script>
+        <script type="module" th:if="${config.layout_display_past_speakers && config.layout_display_past_speakers_home_page}" src="js/past-speakers.js"></script>
+        <script type="module"  th:if="${ not config.layout_display_past_speakers && not config.layout_display_past_speakers_home_page}" src="js/speakers.js"></script>
 
     </div>
 </body>

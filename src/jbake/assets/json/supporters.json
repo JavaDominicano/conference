@@ -1,0 +1,29 @@
+[
+  {
+    "id": "eict",
+    "name": "Escuela de Computación y Telecomunicaciones",
+    "logoUrl": "/img/supporters/pucmm-ect.png",
+    "url": "https://eict.pucmm.edu.do/"
+  },
+
+  {
+    "id": "dominicana-jug",
+    "name": "Dominican Republic Java Users Group",
+    "logoUrl": "/img/supporters/jugrd-logo.png",
+    "url": "https://twitter.com/JavaDominicano"
+  },
+
+  {
+    "id": "jetbrains",
+    "name": "Jetbrains",
+    "logoUrl": "/img/supporters/jetbrains.png",
+    "url": "https://www.jetbrains.com"
+  },
+  {
+    "id": "ciccpucmm",
+    "name": "Comité de Estudiantes de Ingeniería en Ciencias de la Computación",
+    "logoUrl": "/img/supporters/cicc-logo.png",
+    "url": "https://www.instagram.com/ciccpucmm"
+  }
+
+]

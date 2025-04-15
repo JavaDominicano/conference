@@ -1,0 +1,17 @@
+{
+  "id": "david-parry",
+  "name": "David Parry",
+  "photoUrl": "/img/speakers/david-parry.jpeg",
+  "title": "Developer Advocate",
+  "shortBio": "",
+  "countryFlag": "flag-icon-us",
+  "bio": "David Parry is an accomplished Director of Architecture with over 20 years of experience in Java development. It all began in 1996 when he discovered the fascinating world of programming, with a particular focus on Java applets.<br>Throughout his illustrious career, David Parry has been involved in various noteworthy projects. He has successfully built and implemented content management systems for a wide range of clients, including the esteemed Johny Walker and its renowned keepwalking.com. Additionally, as a consultant at a Big 4 firm, David played a pivotal role in solving critical issues for numerous customers, demonstrating his expertise in handling complex and high-traffic web platforms.<br>Never one to shy away from innovation, David Parry has expanded his skills to work on cutting-edge technologies such as mobile and embedded Android TV systems. Leveraging his expertise, he has delivered top-notch streaming services to customers, ensuring they have an exceptional viewing experience.<br>Currently, David holds the position of Developer Advocate and Consultant overseeing strategic planning and execution of architectural designs for customers. With a deep understanding of software development principles and extensive experience in Java programming, he excels at providing valuable insights and guidance to his team.<br>Having witnessed the evolution of Java development from its early days to its current state, David Parry's wealth of experience and strategic perspective, combined with his consulting work at a Big 4 firm, make him an invaluable asset in any project or organization he is a part of.",
+  "tags": [],
+  "socials": [
+    {
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/daviddryparry"
+    }
+  ]
+}

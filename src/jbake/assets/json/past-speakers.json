@@ -1,0 +1,339 @@
+{
+  "001": {
+    "id": "shabnam-mayel",
+    "name": "Shabnam Mayel",
+    "company": "Eclipse Foundation",
+    "companyLogo": "",
+    "country": "Canada",
+    "countryFlag": "flag-icon-ca",
+    "photoUrl": "/archive/jconf2024/images/speakers/shabnam-mayel.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2024,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/MayelShabnam"
+      }
+    ]
+  },
+  "002": {
+    "id": "denis-magda",
+    "name": "Denis Magda",
+    "company": "Yugabyte",
+    "companyLogo": "",
+    "country": "USA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/archive/jconf2024/images/speakers/denis-magda.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2024,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/denismagda"
+      }
+    ]
+  },
+  "003": {
+    "id": "ivar-grimstad",
+    "name": "Ivar Grimstad",
+    "company": "Eclipse Foundation",
+    "companyLogo": "",
+    "country": "Sweden",
+    "countryFlag": "flag-icon-se",
+    "photoUrl": "/archive/jconf2024/images/speakers/ivar-grimstad.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2024,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/ivar_grimstad"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "http://www.agilejava.eu"
+      }
+    ]
+  },
+  "004": {
+    "id": "eddumelendez",
+    "name": "Eddú Meléndez",
+    "company": "Docker",
+    "companyLogo": "",
+    "country": "Peru",
+    "countryFlag": "flag-icon-pe",
+    "photoUrl": "/archive/jconf2024/images/speakers/eddumelendez.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2024,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/eddumelendez"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/eddumelendez"
+      },
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://eddumelendez.dev"
+      }
+    ]
+  },
+  "005": {
+    "id": "enrique-zamudio",
+    "name": "Enrique Zamudio",
+    "company": "Bitso",
+    "companyLogo": "",
+    "country": "Mexico",
+    "countryFlag": "flag-icon-mx",
+    "photoUrl": "/archive/jconf2023/images/speakers/enrique-zamudio.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2023,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/chochosmx"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "http://www.javamexico.org/blogs/ezamudio"
+      }
+    ]
+  },
+  "006": {
+    "id": "frank_jcg",
+    "name": "Francisco Contreras",
+    "company": "GInIEm",
+    "companyLogo": "",
+    "country": "Nicaragua",
+    "countryFlag": "flag-icon-ni",
+    "photoUrl": "/archive/jconf2022/images/speakers/francisco-contreras.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [ ],
+    "year": 2023,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/Frank_JCG"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/fjcontrerasg/"
+      }
+    ]
+  },
+  "007": {
+    "id": "starbuxman",
+    "name": "Josh Long",
+    "company": "Pivotal",
+    "companyLogo": "",
+    "country": "USA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/archive/jconf2019/images/speakers/josh-long.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2019,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "http://twitter.com/starbuxman"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/joshlong"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/joshlong/"
+      }
+    ]
+  },
+  "008": {
+    "id": "markheckler",
+    "name": "Mark Heckler",
+    "company": "Pivotal",
+    "companyLogo": "",
+    "country": "USA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/archive/jconf2019/images/speakers/mark-heckler.jpeg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2019,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/mkheck"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/mkheck"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/markheckler/"
+      }
+    ]
+  },
+  "009": {
+    "id": "sebastian-daschner",
+    "name": "Sebastian Daschner",
+    "company": "IBM",
+    "companyLogo": "",
+    "country": "Germany",
+    "countryFlag": "flag-icon-de",
+    "photoUrl": "/archive/jconf2019/images/speakers/sebastian-daschner.jpeg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2019,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/DaschnerS"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/sdaschner/"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/sebastian-daschner-9894bb103"
+      }
+    ]
+  },
+  "010": {
+    "id": "heathervc",
+    "name": "Heather VanCura",
+    "company": "Java Community Process",
+    "companyLogo": "",
+    "country": "USA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/archive/jconf2019/images/speakers/heathervc.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2019,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/heathervc"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://jcp.org/en/press/pmo/pmo_profiles/commFocusPMO-vancura"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://jcp.org/en/press/pmo/pmo_profiles/commFocusPMO-vancura"
+      }
+    ]
+  },
+  "011": {
+    "id": "igorsuhorukov",
+    "name": "Igor Suhorukov",
+    "company": "Align Technology",
+    "companyLogo": "",
+    "country": "Moscow",
+    "countryFlag": "flag-icon-ru",
+    "photoUrl": "https://secure.gravatar.com/avatar/8d667808737bbdcd2d7152d10276d42c?s=500",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2019,
+    "socials": [
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/igor-suhorukov"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/suhorukov"
+      }
+    ]
+  },
+  "012": {
+    "id": "olehdokuka",
+    "name": "Oleh Dokuka",
+    "company": "Netifi, inc",
+    "companyLogo": "",
+    "country": "Ukraine",
+    "countryFlag": "flag-icon-ua",
+    "photoUrl": "https://secure.gravatar.com/avatar/d8a7b6ff38e865dafa02259ed769eab4?s=500",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2019,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/OlehDokuka"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "http://coinen.space/"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/OlegDokuka"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://ua.linkedin.com/in/olegdokuka"
+      }
+    ]
+  }
+}
