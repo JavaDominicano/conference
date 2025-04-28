@@ -1,0 +1,22 @@
+{
+  "id": "mirna-de-jesus-cambero",
+  "name": "Mirna De Jesus Cambero",
+  "photoUrl": "/img/speakers/mirna-de-jesus-cambero.jpg",
+  "title": "Senior Java Developer",
+  "shortBio": "",
+  "countryFlag": "flag-icon-do",
+  "bio": "Mirna es una ingeniera de software con más de una década de experiencia en desarrollo backend, especializada en tecnologías Java. A lo largo de su carrera, ha trabajado en industrias como telecomunicaciones, salud, tecnología financiera y, más recientemente, en el sector gubernamental, construyendo sistemas escalables y confiables mientras fomenta una cultura de colaboración efectiva.<br><br>Uno de sus logros más destacados fue su contribución en la creación de un mercado de valores desde cero en el Long Term Stock Exchange (LTSE), donde diseñó y mantuvo microservicios críticos, optimizó el rendimiento del sistema con estrategias de baja latencia e integró la plataforma con entidades financieras clave como DTCC y SIPs.<br><br>En los inicios de su carrera, Mirna fue reconocida en múltiples ocasiones por sus logros como joven desarrolladora en la República Dominicana. A través de su trabajo, busca generar un impacto positivo en la sociedad e inspirar a más mujeres a incursionar en la tecnología. Es egresada del Tecnólogo en Desarrollo de Software en el ITLA y posee una Ingeniería en Sistemas de Información de UNAPEC.",
+  "tags": [],
+  "socials": [
+    {
+      "icon": "link",
+      "name": "link",
+      "link": "https://code-like-a-woman.hashnode.dev"
+    },
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/mirnadejesus"
+    }
+  ]
+  }
