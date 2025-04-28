@@ -1,6 +1,6 @@
-{
-  "001": {
-    "id": "shabnam-mayel",
+[
+  {
+    "speakerId": "shabnam-mayel",
     "name": "Shabnam Mayel",
     "company": "Eclipse Foundation",
     "companyLogo": "",
@@ -20,8 +20,8 @@
       }
     ]
   },
-  "002": {
-    "id": "denis-magda",
+  {
+    "speakerId": "denis-magda",
     "name": "Denis Magda",
     "company": "Yugabyte",
     "companyLogo": "",
@@ -41,8 +41,8 @@
       }
     ]
   },
-  "003": {
-    "id": "ivar-grimstad",
+  {
+    "speakerId": "ivar-grimstad",
     "name": "Ivar Grimstad",
     "company": "Eclipse Foundation",
     "companyLogo": "",
@@ -67,8 +67,8 @@
       }
     ]
   },
-  "004": {
-    "id": "eddumelendez",
+  {
+    "speakerId": "eddumelendez",
     "name": "Eddú Meléndez",
     "company": "Docker",
     "companyLogo": "",
@@ -98,8 +98,8 @@
       }
     ]
   },
-  "005": {
-    "id": "enrique-zamudio",
+  {
+    "speakerId": "enrique-zamudio",
     "name": "Enrique Zamudio",
     "company": "Bitso",
     "companyLogo": "",
@@ -124,8 +124,8 @@
       }
     ]
   },
-  "006": {
-    "id": "frank_jcg",
+  {
+    "speakerId": "frank_jcg",
     "name": "Francisco Contreras",
     "company": "GInIEm",
     "companyLogo": "",
@@ -135,7 +135,7 @@
     "shortBio": "",
     "bio": "",
     "tags": [],
-    "badges": [ ],
+    "badges": [],
     "year": 2023,
     "socials": [
       {
@@ -150,8 +150,8 @@
       }
     ]
   },
-  "007": {
-    "id": "starbuxman",
+  {
+    "speakerId": "starbuxman",
     "name": "Josh Long",
     "company": "Pivotal",
     "companyLogo": "",
@@ -181,8 +181,8 @@
       }
     ]
   },
-  "008": {
-    "id": "markheckler",
+  {
+    "speakerId": "markheckler",
     "name": "Mark Heckler",
     "company": "Pivotal",
     "companyLogo": "",
@@ -212,8 +212,8 @@
       }
     ]
   },
-  "009": {
-    "id": "sebastian-daschner",
+  {
+    "speakerId": "sebastian-daschner",
     "name": "Sebastian Daschner",
     "company": "IBM",
     "companyLogo": "",
@@ -243,8 +243,8 @@
       }
     ]
   },
-  "010": {
-    "id": "heathervc",
+  {
+    "speakerId": "heathervc",
     "name": "Heather VanCura",
     "company": "Java Community Process",
     "companyLogo": "",
@@ -274,8 +274,8 @@
       }
     ]
   },
-  "011": {
-    "id": "igorsuhorukov",
+  {
+    "speakerId": "igorsuhorukov",
     "name": "Igor Suhorukov",
     "company": "Align Technology",
     "companyLogo": "",
@@ -300,8 +300,8 @@
       }
     ]
   },
-  "012": {
-    "id": "olehdokuka",
+  {
+    "speakerId": "olehdokuka",
     "name": "Oleh Dokuka",
     "company": "Netifi, inc",
     "companyLogo": "",
@@ -336,4 +336,4 @@
       }
     ]
   }
-}
+]

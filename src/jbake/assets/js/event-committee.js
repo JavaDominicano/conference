@@ -1,26 +1,11 @@
 import { getUsefulContents } from '/js/util-url.js';
+import {fetchData} from '/js/fetch-util.js';
 
-var fetchUrl = getUsefulContents("lang", "../json/event-committee");
-
-fetch(fetchUrl)
-    .then(function (response) {
-        if (!response.ok) {
-            throw Error(response.statusText);
-        }
-
-        return response.json();
-    })
-    .then(function (membersJson) {
-        var members = document.getElementById('listMembers');
-        // traitement de l'objet
-        for (let i in membersJson) {
-            members.innerHTML += createMemberCard(membersJson[i]);
-        }
-});
+let fetchEventCommitteeUrl = getUsefulContents("lang", "../json/event-committee");
 
 function createMemberCard(memberJson) {
 
-    var memberHtml = "<div class=\"col-lg-3\">" +
+    let memberHtml = "<div class=\"col-lg-3\">" +
      "<div class=\"single-speker-3\">" +
      "<div class=\"speker-img\">" +
      "<a href=\""+memberJson.socials[0].link+"\" target=\"_blank\"><img src=\"" +memberJson.photoUrl +"\" alt=\"" +memberJson.name +"\" title=\""+memberJson.shortBio +"\"/></a>" +
@@ -35,3 +20,13 @@ function createMemberCard(memberJson) {
      return memberHtml;
 }
 
+let renderEventCommittee = function(eventCommitteeJson){
+
+      let members = document.getElementById('listMembers');
+
+      eventCommitteeJson.forEach(membersJson => members.innerHTML += createMemberCard(membersJson));
+}
+
+let jsonData = await fetchData(fetchEventCommitteeUrl);
+
+renderEventCommittee(jsonData);

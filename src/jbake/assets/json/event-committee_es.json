@@ -1,138 +1,145 @@
-{
-
-	"001": {
-		"id": "ccamachog",
-		"name": "Carlos Camacho",
-		"company": "AvatharTech",
-		"photoUrl": "/img/organizers/committee-members/ccamachog.jpg",
-		"shortBio": "Ingeniero Telemático – Profesor Universitario - Co-fundador y organizador del Java User Group en República Dominicana",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Director de Tecnología",
-			"description": "Director de Tecnología"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/ccamachog"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/vacax"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/ccamachog/"
-			},
+[
+  {
+    "id": "ccamachog",
+    "name": "Carlos Camacho",
+    "company": "AvatharTech",
+    "photoUrl": "/img/organizers/committee-members/ccamachog.jpg",
+    "shortBio": "Ingeniero Telemático – Profesor Universitario - Co-fundador y organizador del Java User Group en República Dominicana",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Director de Tecnología",
+        "description": "Director de Tecnología"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/ccamachog"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/vacax"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/ccamachog/"
+      },
       {
         "icon": "link",
         "name": "link",
         "link": "https://ccamachog.medium.com"
       }
-		]
-	},
-
-	"002": {
-		"id": "ecabrerar",
-		"name": "Eudris Cabrera",
-		"company": "Ministerio de Hacienda",
-		"photoUrl": "/img/organizers/committee-members/ecabrerar.jpg",
-		"shortBio": "Desarrollador Informático - Co-fundador y Organizador del Java Users Group de la República Dominicana (aka Java Dominicano) - Instructor ocasional (Java / Linux)",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Desarrollador Informático",
-			"description": "Desarrollador Informático"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/eudriscabrera"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "https://eudriscabrera.com"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/ecabrerar"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/eudriscabrera"
-			}
-		]
-	},	
-		
-	"003": {
-		"id": "brayan-munoz",
-		"name": "Brayan Muñoz V",
-		"company": "Dominican Republic JUC",
-		"photoUrl": "/img/organizers/committee-members/brayan-munoz.jpg",
-		"shortBio": " Java SDE | Ingeniero DevOps - Miembro organizador de Java Dominicano - Entusiasta del código libre",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Ingeniero de Software",
-			"description": "Ingeniero de Software"
-		}],
-		"socials": [{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/Brayanmnz_"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/brayanmnz"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/brayanmnz"
-			}
-		]
-	},
-	
-	"004": {
-		"id": "freddy-pena",
-		"name": "Freddy Peña",
-		"company": "Alphnology",
-		"photoUrl": "/img/organizers/committee-members/freddy-pena.jpg",
-		"shortBio": "Fundador de Alphnology | SDE | Java ❤️ | Miembro organizador de Java Dominicana | Miembro del staff de JConf Dominicana | Profesor Universitario",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Fundador | Ingeniero de Software",
-			"description": "Fundador | Ingeniero de Software"
-		}],
-		"socials": [
-		        {
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/fred_pena"
-			},
-			{
-				"icon": "github",
-				"name": "Github",
-				"link": "https://github.com/fredpena"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/fantpena/"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "https://fredpena.dev/"
-			}
-		]
-	}
-}
+    ]
+  },
+  {
+    "id": "ecabrerar",
+    "name": "Eudris Cabrera",
+    "company": "Dominicana JUG",
+    "photoUrl": "/img/organizers/committee-members/ecabrerar.jpg",
+    "shortBio": "Desarrollador Informático - Co-fundador y Organizador del Java Users Group de la República Dominicana (aka Java Dominicano) - Instructor ocasional (Java / Linux)",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Desarrollador Informático",
+        "description": "Desarrollador Informático"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/eudriscabrera"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://eudriscabrera.com"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/ecabrerar"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/eudriscabrera"
+      }
+    ]
+  },
+  {
+    "id": "brayan-munoz",
+    "name": "Brayan Muñoz V",
+    "company": "Dominican Republic JUC",
+    "photoUrl": "/img/organizers/committee-members/brayan-munoz.jpeg",
+    "shortBio": " Java SDE | Ingeniero DevOps - Miembro organizador de Java Dominicano - Entusiasta del código libre",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Ingeniero de Software",
+        "description": "Ingeniero de Software"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/Brayanmnz_"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/brayanmnz"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/brayanmnz"
+      }
+    ]
+  },
+  {
+    "id": "freddy-pena",
+    "name": "Freddy Peña",
+    "company": "Alphnology",
+    "photoUrl": "/img/organizers/committee-members/freddy-pena.jpg",
+    "shortBio": "Fundador de Alphnology | SDE | Java ❤️ | Miembro organizador de Java Dominicana | Miembro del staff de JConf Dominicana | Profesor Universitario",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Fundador | Ingeniero de Software",
+        "description": "Fundador | Ingeniero de Software"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/fred_pena"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/fredpena"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/fantpena/"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://fredpena.dev/"
+      }
+    ]
+  }
+]

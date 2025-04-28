@@ -5,34 +5,36 @@ function getURLParameter(name) {
 let speakerId = getURLParameter("id");
 
 import {getUsefulContents} from '/js/util-url.js';
+import {fetchData} from '/js/fetch-util.js';
 
-let fetchUrl = getUsefulContents("lang", "../json/speakers/" + speakerId);
+function createSessionCard(id, title, description, tags, language, audienceLevel, talkFormat) {
+    let sessionHtml = "<div class=\"col-md-12\">" +
+        "<div class=\"single-item\">" +
+        "<div class=\"featured-content\">";
 
-fetch(fetchUrl)
-    .then(function (response) {
-        if (!response.ok) {
-            throw Error(response.statusText);
+    let colorCount = 1;
+
+      for (let i in tags) {
+            sessionHtml += "<span class=\"category color-" + colorCount + "\">" + tags[i] + "</span>";
+            colorCount++;
         }
 
-        return response.json();
-    })
-    .then(function (speakerJson) {
-        let speakerDetails = document.getElementById('speakeDetails');
-        // traitement de l'objet
+        sessionHtml += "<h3>" + title + "</h3>" +
+        "<p>" + description + "</p>";
 
-        let speaker = speakerJson;
+        let lang = language === 'es' ? "Spanish" : "English";
 
-        speakerDetails.innerHTML += createSpeakerDetailsCard(speaker);
+        sessionHtml += "<p><strong>Language: </strong>" + lang + "</p>" +
+        "<p><strong>Audience Level: </strong>" + audienceLevel + "</p>" +
+        "<p><strong>Talk Format: </strong>" + talkFormat + "</p>" +
+        "</div>" +
+        "</div>" +
+        "</div>";
 
-        findSessionBySpeakerId(getUsefulContents("lang", "../json/sessions"), speaker.id);
-
-    }).catch((error) => {
-    console.log(error);
-});
-
+    return sessionHtml;
+}
 
 function createSpeakerDetailsCard(speakerJson) {
-
     let speakerHtml = "<div class=\"col-lg-4\">" +
         "<div class=\"speaker-image-box text-center\">" +
         "<div class=\"speaker-image\">" +
@@ -96,17 +98,9 @@ function createSpeakerDetailsCard(speakerJson) {
     return speakerHtml;
 }
 
+function renderSessionBySpeakerId(sessionsJson) {
 
-function findSessionBySpeakerId(fetchUrlSpeaker, speakerId) {
-    fetch(fetchUrlSpeaker)
-        .then(function (response) {
-            if (!response.ok) {
-                throw Error(response.statusText);
-            }
-
-            return response.json();
-        }).then(function (sessionsJson) {
-        let sessions = document.getElementById('sessions');
+     let sessions = document.getElementById('sessions');
 
         for (let i in sessionsJson) {
 
@@ -118,39 +112,40 @@ function findSessionBySpeakerId(fetchUrlSpeaker, speakerId) {
             let audienceLevel = sessionsJson[i].audience_level;
             let talkFormat = sessionsJson[i].talk_format;
 
-            if (sessionsJson[i].speakers.includes(speakerId)) {
-                sessions.innerHTML += createSessionCard(id, title, description, tags, language, audienceLevel, talkFormat);
-            }
-        }
-
-    }).catch((error) => {
-        console.log(error);
-    });
+            sessions.innerHTML += createSessionCard(id, title, description, tags, language, audienceLevel, talkFormat);
+      }
 }
 
+let renderSpeakerDetails = function(speakerJson, sessionsBySpeaker){
 
-function createSessionCard(id, title, description, tags, language, audienceLevel, talkFormat) {
-    let sessionHtml = "<div class=\"col-md-12\">" +
-        "<div class=\"single-item\">" +
-        "<div class=\"featured-content\">";
-    let colorCount = 1;
+   let speakerDetails = document.getElementById('speakerDetails');
+   speakerDetails.innerHTML += createSpeakerDetailsCard(speakerJson);
 
-    for (let i in tags) {
-        sessionHtml += "<span class=\"category color-" + colorCount + "\">" + tags[i] + "</span>";
-        colorCount++;
-    }
-
-    sessionHtml += "<h3>" + title + "</h3>" +
-        "<p>" + description + "</p>";
-
-    let lang = language === 'es' ? "Spanish" : "English";
-
-    sessionHtml += "<p><strong>Language: </strong>" + lang + "</p>" +
-        "<p><strong>Audience Level: </strong>" + audienceLevel + "</p>" +
-        "<p><strong>Talk Format: </strong>" + talkFormat + "</p>" +
-        "</div>" +
-        "</div>" +
-        "</div>";
-
-    return sessionHtml;
+   renderSessionBySpeakerId(sessionsBySpeaker);
 }
+
+let filterSessionBySpeaker = function(sessionsJson,speakerId){
+
+     let sessionsList = [];
+     sessionsJson.forEach(sessionObj => sessionsList.push(sessionObj));
+
+      return sessionsList.filter(session => session.speakers.includes(speakerId));
+}
+
+let filterSpeakerById = function(speakersJson,speakerId){
+
+    let speakersList = [];
+    speakersJson.forEach(speakerObj => speakersList.push(speakerObj));
+
+    return speakersList.filter(speaker => speaker.speakerId===speakerId);
+}
+
+let sessionsJson = await fetchData(getUsefulContents("lang", "../json/sessions"));
+
+let sessionsBySpeaker = filterSessionBySpeaker(sessionsJson, speakerId);
+
+let speakersData = await fetchData(getUsefulContents("lang", "../json/speakers"));
+
+let speakerDetailsList =  filterSpeakerById(speakersData,speakerId);
+
+renderSpeakerDetails(speakerDetailsList[0], sessionsBySpeaker);

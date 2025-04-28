@@ -1,27 +1,10 @@
 import { getUsefulContents, getUsefulLink } from '/js/util-url.js';
+import {fetchData} from '/js/fetch-util.js';
 
-var fetchUrl = getUsefulContents("lang", "../json/past-speakers");
-
-fetch(fetchUrl)
-    .then(function (response) {
-        if (!response.ok) {
-            throw Error(response.statusText);
-        }
-
-        return response.json();
-    })
-    .then(function (speakersJson) {
-        var speakers = document.getElementById('listSpeakers');
-        // traitement de l'objet
-        for (let i in speakersJson) {
-            speakers.innerHTML += createSpeakerCard(speakersJson[i]);
-        }
-});
-
+let pastSpeakersUrl = getUsefulContents("lang", "../json/past-speakers");
 
 function createSpeakerCard(speakerJson) {
-
-      var speakerHtml = "<div class=\"col-lg-3 col-sm-6\">" +
+      let speakerHtml = "<div class=\"col-lg-3 col-sm-6\">" +
       "<div class=\"single-speaker\">" +
       "<div class=\"speaker-image\">" +
       "<img src=\"" +speakerJson.photoUrl +"\" alt=\"" +speakerJson.name +"\" />"+
@@ -37,6 +20,23 @@ function createSpeakerCard(speakerJson) {
       "</div>"+
       "</div>"+
       "</div>";
-  
-          return speakerHtml;
+
+      return speakerHtml;
   }
+
+let renderPastSpeakerList = function(speakersList){
+    let speakers = document.getElementById('listSpeakers');
+    speakersList.forEach(speakerJson => speakers.innerHTML += createSpeakerCard(speakerJson));
+}
+
+let sortSpeakerList = function(speakerJson) {
+    let speakersList = [];
+    speakerJson.forEach(speakerObj => speakersList.push(speakerObj));
+    speakersList.sort(function(a, b){return b.year-a.year});
+
+    return speakersList;
+}
+
+let jsonData = await fetchData(pastSpeakersUrl);
+
+renderPastSpeakerList(sortSpeakerList(jsonData));

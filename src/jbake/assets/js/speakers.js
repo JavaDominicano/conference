@@ -1,39 +1,40 @@
 import { getUsefulContents, getUsefulLink } from '/js/util-url.js';
+import {fetchData} from '/js/fetch-util.js';
 
-var fetchUrl = getUsefulContents("lang", "../json/speakers");
+let fetchUrl = getUsefulContents("lang", "../json/speakers");
 
-fetch(fetchUrl)
-    .then(function (response) {
-        if (!response.ok) {
-            throw Error(response.statusText);
-        }
+let createSpeakerCard = function(speakerJson) {
 
-        return response.json();
-    })
-    .then(function (speakersJson) {
-        var speakers = document.getElementById('listSpeakers');
-        // traitement de l'objet
-        for (let i in speakersJson) {
-            speakers.innerHTML += createSpeakerCard(speakersJson[i]);
-        }
-});
+    var speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speakerJson.speakerId);
 
-
-function createSpeakerCard(speakerJson) {
-
-    var speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speakerJson.id);
-  
       var speakerHtml = "<div class=\"col-lg-3\">" +
       "<div class=\"single-speker-3\">" +
       "<div class=\"speker-img\">" +
       "<a href=\"" + speakerUrlDetail + "\"><img src=\"" +speakerJson.photoUrl +"\" alt=\"" +speakerJson.name +"\" /></a>"+
       "<div class=\"speker-content text-center\">"+
          "<h3 class=\"name\">" +speakerJson.name +"</h3>"+
-             "<p class=\"designation\">" +speakerJson.badges[0].description +" @ " +speakerJson.company +" - " +speakerJson.country +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></p>" +        
+             "<p class=\"designation\">" +speakerJson.title +" @ " +speakerJson.company +" - " +speakerJson.country +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></p>" +
       "</div>"+
       "</div>"+
       "</div>"+
       "</div>";
-  
-          return speakerHtml;
-  }
+
+     return speakerHtml;
+}
+
+let renderSpeakerList = function(speakersList){
+         let speakers = document.getElementById('listSpeakers');
+         speakersList.sort(function(a, b){return a.numOrder-b.numOrder});
+         speakersList.forEach(speakerJson => speakers.innerHTML += createSpeakerCard(speakerJson));
+}
+
+let filterConfirmedSpeakers = function(speakersJson) {
+  let speakersList = [];
+  speakersJson.forEach(speakerObj => speakersList.push(speakerObj));
+  return speakersList.filter(item => item.display === true);
+}
+
+let jsonData = await fetchData(fetchUrl);
+let filteredSpeakersList = filterConfirmedSpeakers(jsonData);
+
+renderSpeakerList(filteredSpeakersList);
