@@ -1,0 +1,28 @@
+{
+  "id": "jorge-morla",
+  "name": "Jorge L. Morla",
+  "photoUrl": "/img/speakers/jorge-morla.jpeg",
+  "title": "Senior Software Engineer",
+  "shortBio": "",
+  "countryFlag": "flag-icon-do",
+  "bio": "Soy Jorge Morla un ingeniero de  26 años graduado de la O&M Dominicana con más de 8 años de experiencia en Java. Mi pasión por la programación se refleja en mi entusiasmo por enfrentar retos que pongan a prueba mis habilidades y me impulsen a buscar soluciones innovadoras.<br><br> Cuento con una sólida formación en desarrollo de software, he trabajado en diversos proyectos que abarcan desde aplicaciones empresariales hasta soluciones específicas de la industria. <br><br>Mi experiencia me ha permitido no solo perfeccionar mis habilidades técnicas en Java, sino también desarrollar un enfoque práctico para abordar los desafíos del desarrollo de software.<br><br>Me apasiona explorar nuevas tecnologías y adoptar enfoques innovadores en el diseño y la implementación de software. La resolución de problemas y la creación de soluciones prácticas son el núcleo de mi enfoque, y siempre estoy ansioso por aprender y aplicar nuevas ideas en mis proyectos.",
+  "tags": [],
+  "socials": [
+    {
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://twitter.com/unreachablehost"
+    },
+    {
+      "icon": "link",
+      "name": "link",
+      "link": "https://github.com/jmorla"
+    },
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/jorge-l-morla"
+    }
+  ]
+}
+

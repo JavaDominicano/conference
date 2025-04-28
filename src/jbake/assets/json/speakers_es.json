@@ -1,247 +1,451 @@
-{
-	"101": {
-		"id": "ivar-grimstad",
-		"name": "Ivar Grimstad",
-		"company": "Eclipse Foundation",
-		"companyLogo": "",
-		"country": "Sweden",
-		"countryFlag": "flag-icon-se",
-		"photoUrl": "/img/speakers/ivar-grimstad.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Jakarta EE Developer Advocate",
-				"description": "Jakarta EE Developer Advocate"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/ivar_grimstad"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "http://www.agilejava.eu"
-			}
-		]
-	},
-
-	"102": {
-		"id": "isaac-ruiz",
-		"name": "Isaac Ruiz Guerra",
-		"company": "JavaMexico",
-		"companyLogo": "",
-		"country": "Mexico",
-		"countryFlag": "flag-icon-mx",
-		"photoUrl": "/img/speakers/isaac-ruiz.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Arquitecto de soluciones",
-				"description": "Arquitecto de soluciones"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/rugi"
-			},
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/newsletters/6931281718834335744/"
-			}
-		]
-	},
-	"103": {
-		"id": "jesus-aguirre",
-		"name": "Jesús Aguirre",
-		"company": "Indra Minsait",
-		"companyLogo": "",
-		"country": "Panamá",
-		"countryFlag": "flag-icon-pa",
-		"photoUrl": "/img/speakers/jesus-aguirre.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Ingeniero Sr de Sistemas",
-				"description": "Ingeniero Sr de Sistemas"
-			}
-		],
-		"socials": [
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://linkedin.com/in/info-aguirre-jesus"
-			}
-		]
-	},
-	"104": {
-		"id": "josediaz",
-		"name": "José Díaz",
-		"company": "JoeDayz",
-		"companyLogo": "",
-		"country": "Peru",
-		"countryFlag": "flag-icon-pe",
-		"photoUrl": "/img/speakers/josediaz.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Arquitecto de software",
-				"description": "Arquitecto de software"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/jamdiazdiaz"
-			},
-			{
-				"icon": "link",
-				"name": "Link",
-				"link": "http://blog.joedayz.pe"
-			}
-		]
-	},
-	"105": {
-		"id": "enrique-zamudio",
-		"name": "Enrique Zamudio",
-		"company": "Bitso",
-		"companyLogo": "",
-		"country": "Mexico",
-		"countryFlag": "flag-icon-mx",
-		"photoUrl": "/img/speakers/enrique-zamudio.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Ingeniero Principal",
-				"description": "Ingeniero Principal"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/chochosmx"
-			},
-			{
-				"icon": "link",
-				"name": "link",
-				"link": "http://www.javamexico.org/blogs/ezamudio"
-			}
-		]
-	},
-	"106": {
-		"id": "mihaela-gheorghe-roman",
-		"name": "Mihaela Gheorghe-Roman",
-		"company": "Systematic",
-		"companyLogo": "",
-		"country": "Romania",
-		"countryFlag": "flag-icon-ro",
-		"photoUrl": "/img/speakers/mihaela-gheorghe-roman.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [{
-			"name": "Arquitecta de software",
-			"description": "Arquitecta de software"
-		}],
-		"socials": [{
-			"icon": "link",
-			"name": "Link",
-			"link": "https://sessionize.com/mihaela-gheorghe/"
-		}
-		]
-	},
-	"107": {
-		"id": "sandon-jacobs",
-		"name": "Sandon Jacobs",
-		"company": "Confluent",
-		"companyLogo": "",
-		"country": "USA",
-		"countryFlag": "flag-icon-us",
-		"photoUrl": "/img/speakers/sandon-jacobs.jpeg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Senior Developer Advocate",
-				"description": "Senior Developer Advocate"
-			}
-		],
-		"socials": [
-			{
-				"icon": "link",
-				"name": "Link",
-				"link": "https://medium.com/indigitech-blog"
-			}
-		]
-	},
-	"108": {
-		"id": "david-parry",
-		"name": "David Parry",
-		"company": "Qodo",
-		"companyLogo": "",
-		"country": "USA",
-		"countryFlag": "flag-icon-us",
-		"photoUrl": "/img/speakers/david-parry.jpeg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Developer Advocate",
-				"description": "Developer Advocate"
-			}
-		],
-		"socials": [
-			{
-				"icon": "twitter",
-				"name": "Twitter",
-				"link": "https://twitter.com/daviddryparry"
-			}
-		]
-	},
-	"109": {
-		"id": "david-joa",
-		"name": "David Joa",
-		"company": "Techcode",
-		"companyLogo": "",
-		"country": "Dominican Republic",
-		"countryFlag": "flag-icon-do",
-		"photoUrl": "/img/speakers/david-joa.jpg",
-		"shortBio": "",
-		"bio": "",
-		"tags": [],
-		"badges": [
-			{
-				"name": "Co-Fundador",
-				"description": "Co-Fundador"
-			}
-		],
-		"socials": [
-			{
-				"icon": "linkedin",
-				"name": "Linkedin",
-				"link": "https://www.linkedin.com/in/david-joa-062250180"
-			}
-		]
-	}
-
-
-}
+[
+  {
+    "numOrder": 101,
+    "speakerId": "ivar-grimstad",
+    "name": "Ivar Grimstad",
+    "company": "Eclipse Foundation",
+    "companyLogo": "",
+    "title": "Jakarta EE Developer Advocate",
+    "country": "Suecia",
+    "countryFlag": "flag-icon-se",
+    "photoUrl": "/img/speakers/ivar-grimstad.jpg",
+    "shortBio": "",
+    "bio": "Ivar Grimstad es el Jakarta EE Developer Advocate en la Fundación Eclipse. Es Java Champion y JUG Leader en Suecia. Además de promover las tecnologías Jakarta EE, Ivar contribuye a las especificaciones de Jakarta EE y es el PMC Lead de Eclipse Enterprise para Java (EE4J). También es uno de los responsables de las especificaciones de Jakarta MVC y representa a la Fundación Eclipse en el Comité Ejecutivo del JCP. Ivar también participa en otros proyectos y comunidades de código abierto. Es ponente habitual en conferencias internacionales de desarrolladores.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Jakarta EE Developer Advocate",
+        "description": "Jakarta EE Developer Advocate"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/ivar_grimstad"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "http://www.agilejava.eu"
+      }
+    ]
+  },
+  {
+    "numOrder": 102,
+    "speakerId": "isaac-ruiz",
+    "name": "Isaac Ruiz Guerra",
+    "company": "JavaMexico",
+    "companyLogo": "",
+    "title": "Arquitecto de soluciones",
+    "country": "Mexico",
+    "countryFlag": "flag-icon-mx",
+    "photoUrl": "/img/speakers/isaac-ruiz.jpg",
+    "shortBio": "",
+    "bio": "Isaac es egresado del Instituto Tecnológico del Istmo en Oaxaca, México.<br>Comenzó a utilizar Java en su versión 1.2 (2000) al realizar sus prácticas profesionales en el laboratorio de inteligencia artificial del Centro de Investigación en Computación (CIC), del Instituto Politécnico Nacional en México. <br>Es consultor de software desde 2003, está especializado en Integración de aplicaciones y ha participado en proyectos relacionados principalmente con el sector financiero.<br>Desde hace más de 10 años ha trabajado con diferentes servidores de aplicaciones para el mundo java y ahora trata de adaptar estos conocimientos a las nuevas arquitecturas de despliegue. <br><br>Isaac es un promotor del lenguaje java y ha participado en diferentes comunidades como javaHispano y javaMéxico.<br>Como parte del staff de la comunidad javaMéxico, Isaac promueve el uso de Java y tecnologías relacionadas con Java escribiendo en su blog y como ponente en eventos JUG. <br>Isaac ha publicado varios artículos sobre el ecosistema java en diferentes sitios web, incluyendo OTN y es ponente frecuente en eventos LAOUC/ORAMEX.<br>Recientemente fue nombrado parte del programa Neo4j Ninja: https://neo4j.com/ninjas-program/",
+    "display": true,
+    "badges": [
+      {
+        "name": "Arquitecto de soluciones",
+        "description": "Arquitecto de soluciones"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/rugi"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/newsletters/6931281718834335744/"
+      }
+    ]
+  },
+  {
+    "numOrder": 103,
+    "speakerId": "jesus-aguirre",
+    "name": "Jesús Aguirre",
+    "company": "Indra Minsait",
+    "companyLogo": "",
+    "title": "Ingeniero Sr de Sistemas",
+    "country": "Panamá",
+    "countryFlag": "flag-icon-pa",
+    "photoUrl": "/img/speakers/jesus-aguirre.jpg",
+    "shortBio": "",
+    "bio": "Profesional apasionado por la creación y el crecimiento a través de comunidades tecnológicas colaborativas, con un enfoque en la optimización de la experiencia del desarrollador y el escalado de plataformas. Participa activamente en el ecosistema CNCF y se compromete a impulsar la innovación a través de soluciones prácticas en el espacio nativo de la nube.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Ingeniero Sr de Sistemas",
+        "description": "Ingeniero Sr de Sistemas"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://linkedin.com/in/info-aguirre-jesus"
+      }
+    ]
+  },
+  {
+    "numOrder": 104,
+    "speakerId": "jose-diaz",
+    "name": "José Díaz",
+    "company": "JoeDayz",
+    "companyLogo": "",
+    "title": "Arquitecto de software",
+    "country": "Perú",
+    "countryFlag": "flag-icon-pe",
+    "photoUrl": "/img/speakers/josediaz.jpg",
+    "shortBio": "",
+    "bio": "Ingeniero Informático titulado de la Pontificia Universidad Católica del Perú. Arquitecto de Software con amplia experiencia en análisis, diseño e implementación de soluciones SOA y Microservicios bajo la arquitectura Java EE, uso de metodologías ágiles y marcos de trabajo como Scrum. Experiencia en proyectos de logística, farmaceuticas, telecomunicaciones por más de 25 años en Perú, México y USA.<br><br>Co-fundador de JoeDayz.pe empresa reconocida en el mercado peruano por sus cursos de entrenamiento en desarrollo de software fron-end, backend y móvil.<br><br>Actualmente me desempeño desde  Septiembre 2024 como Arquitecto cloud en Oracle.<br><br>JUG Leader of PERU JUG.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Arquitecto de software",
+        "description": "Arquitecto de software"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/jamdiazdiaz"
+      },
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "http://blog.joedayz.pe"
+      }
+    ]
+  },
+  {
+    "numOrder": 105,
+    "speakerId": "enrique-zamudio",
+    "name": "Enrique Zamudio",
+    "company": "Bitso",
+    "companyLogo": "",
+    "title": "Ingeniero Principal",
+    "country": "México",
+    "countryFlag": "flag-icon-mx",
+    "photoUrl": "/img/speakers/enrique-zamudio.jpg",
+    "shortBio": "",
+    "bio": "Enrique Zamudio es programador profesional desde 1994, con sede en Ciudad de México. Se ha especializado en el desarrollo del lado del servidor con Java desde el año 2000, centrándose en aplicaciones backend, como conmutadores transaccionales para comercio electrónico y plataformas de pago. Es autor de los proyectos de código abierto jAlarms, j8583 y ScalaSQL. Enrique se unió al equipo central de desarrollo de Ceylon Language en enero de 2012, donde ha contribuido al módulo de lenguaje, el IDE web y el compilador JVM, y es el desarrollador principal del compilador Ceylon-to-JavaScript.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Ingeniero Principal",
+        "description": "Ingeniero Principal"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/chochosmx"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "http://www.javamexico.org/blogs/ezamudio"
+      }
+    ]
+  },
+  {
+    "numOrder": 106,
+    "speakerId": "mihaela-gheorghe-roman",
+    "name": "Mihaela Gheorghe-Roman",
+    "company": "Systematic",
+    "companyLogo": "",
+    "title": "Arquitecta de software",
+    "country": "Rumania",
+    "countryFlag": "flag-icon-ro",
+    "photoUrl": "/img/speakers/mihaela-gheorghe-roman.jpg",
+    "shortBio": "",
+    "bio": "Mihaela es arquitecta de software en Systematic, Rumanía. Doctora en algoritmos de redes neuronales artificiales, profesora asistente en la Universidad de Cibernética e Informática de Bucarest, es una dedicada desarrolladora y arquitecta que disfruta compartiendo sus conocimientos.<br><br>En su carrera profesional, que abarca más de 12 años, ha trabajado para los sectores de telecomunicaciones y defensa, centrándose en Java, Spring Boot, C, C#, Scala y Angular.<br><br>Aparte de su pasión por la programación, le encantan los loros, le entusiasma viajar por el mundo y hacer mucho deporte, desde correr en maratones, artes marciales y hasta diferentes entrenamientos aeróbicos.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Arquitecta de software",
+        "description": "Arquitecta de software"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://sessionize.com/mihaela-gheorghe/"
+      }
+    ]
+  },
+  {
+    "numOrder": 107,
+    "speakerId": "sandon-jacobs",
+    "name": "Sandon Jacobs",
+    "company": "Confluent",
+    "companyLogo": "",
+    "title": "Senior Developer Advocate",
+    "country": "EUA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/img/speakers/sandon-jacobs.jpeg",
+    "shortBio": "",
+    "bio": "Sandon Jacobs es un promotor de desarrollo sénior en Confluent con sede en Carolina del Norte. Sandon ha creado microservicios y aplicaciones de transmisión de eventos en varios sectores, como medios de televisión, energía, publicidad móvil, logística de transporte ferroviario y sanidad. Esta experiencia abarca múltiples lenguajes JVM - Java, Scala, Kotlin, Groovy - con salpicaduras de Python y JavaScript en el camino.\\r\\n\\r\\nSandon vive en Raleigh, Carolina del Norte, con su esposa y 2 hijas. Pertenece a la tribu Waccamaw-Siouan de Carolina del Norte y suele participar en powwows por toda Norteamérica como cantante y orador. Sandon es Presidente de la Junta de Comisionados de la Comisión del Patrimonio Indígena Americano de Carolina del Norte. Dato curioso: ávido jugador de golf desde los 5 años, una vez le confundieron con Tiger Woods en un evento de golf para adolescentes a principios de los 90.\\r\\n\\r\\nVisite sus escritos en https://medium.com/indigitech-blog y https://dev.to/sandonjacobs.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Senior Developer Advocate",
+        "description": "Senior Developer Advocate"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://medium.com/indigitech-blog"
+      }
+    ]
+  },
+  {
+    "numOrder": 108,
+    "speakerId": "david-parry",
+    "name": "David Parry",
+    "company": "Qodo",
+    "companyLogo": "",
+    "title": "Developer Advocate",
+    "country": "EUA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/img/speakers/david-parry.jpeg",
+    "shortBio": "",
+    "bio": "David Parry es un consumado Director de Arquitectura con más de 20 años de experiencia en desarrollo Java. Todo empezó en 1996, cuando descubrió el fascinante mundo de la programación, con especial atención a los applets de Java. A lo largo de su ilustre carrera, David Parry ha participado en varios proyectos dignos de mención. Ha creado e implantado con éxito sistemas de gestión de contenidos para una amplia gama de clientes, entre ellos la estimada Johny Walker y su célebre keepwalking.com. Además, como consultor en una empresa Big 4, David desempeñó un papel fundamental en la resolución de problemas críticos para numerosos clientes, lo que demuestra su experiencia en el manejo de plataformas web complejas y de alto tráfico.<br>Sin miedo a la innovación, David Parry ha ampliado sus habilidades para trabajar en tecnologías de vanguardia como sistemas móviles y sistemas Android TV integrados. Gracias a su experiencia, ha proporcionado servicios de streaming de primera categoría a los clientes, garantizándoles una experiencia visual excepcional.<br>En la actualidad, David ocupa el cargo de Consultor y Defensor del Desarrollador, supervisando la planificación estratégica y la ejecución de diseños arquitectónicos para los clientes. Con un profundo conocimiento de los principios de desarrollo de software y una amplia experiencia en programación Java, destaca por proporcionar valiosos conocimientos y orientación a su equipo.<br>Habiendo sido testigo de la evolución del desarrollo Java desde sus inicios hasta su estado actual, la gran experiencia y perspectiva estratégica de David Parry, combinadas con su trabajo de consultoría en una empresa Big 4, lo convierten en un activo inestimable en cualquier proyecto u organización de la que forme parte.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Developer Advocate",
+        "description": "Developer Advocate"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/daviddryparry"
+      }
+    ]
+  },
+  {
+    "numOrder": 109,
+    "speakerId": "david-joa",
+    "name": "David Joa",
+    "company": "Techcode",
+    "companyLogo": "",
+    "title": "Co-Fundador",
+    "country": "República Dominicana",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/david-joa.jpg",
+    "shortBio": "",
+    "bio": "Por más de 20 años, David ha estado en el ámbito del desarrollo de software. Ha trabajado en organizaciones del sector de telecomunicaciones y financiero, para empresas como Claro, Banco Popular y APAP. Docente por más de 20 años en INTEC. Recientemente fundó una empresa de desarrollo de software, y una academia para enseñar de Agilidad y mejores prácticas de software.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Co-Fundador",
+        "description": "Co-Fundador"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/david-joa-062250180"
+      }
+    ]
+  },
+  {
+    "numOrder": 110,
+    "speakerId": "jorge-morla",
+    "name": "Jorge L. Morla",
+    "company": "Applaudo",
+    "companyLogo": "",
+    "title": "Senior Software Engineer",
+    "country": "República Dominicana",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/jorge-morla.jpeg",
+    "shortBio": "",
+    "bio": "Soy Jorge Morla un ingeniero de  26 años graduado de la O&M Dominicana con más de 8 años de experiencia en Java. Mi pasión por la programación se refleja en mi entusiasmo por enfrentar retos que pongan a prueba mis habilidades y me impulsen a buscar soluciones innovadoras.<br><br> Cuento con una sólida formación en desarrollo de software, he trabajado en diversos proyectos que abarcan desde aplicaciones empresariales hasta soluciones específicas de la industria. <br><br>Mi experiencia me ha permitido no solo perfeccionar mis habilidades técnicas en Java, sino también desarrollar un enfoque práctico para abordar los desafíos del desarrollo de software.<br><br>Me apasiona explorar nuevas tecnologías y adoptar enfoques innovadores en el diseño y la implementación de software. La resolución de problemas y la creación de soluciones prácticas son el núcleo de mi enfoque, y siempre estoy ansioso por aprender y aplicar nuevas ideas en mis proyectos.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Senior Software Engineer",
+        "description": "Senior Software Engineer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/unreachablehost"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://github.com/jmorla"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/jorge-l-morla"
+      }
+    ]
+  },
+  {
+    "numOrder": 111,
+    "speakerId": "mirna-de-jesus-cambero",
+    "name": "Mirna De Jesus Cambero",
+    "company": "Consultora Independiente",
+    "title": "Senior Java Developer",
+    "companyLogo": "",
+    "country": "República Dominicana",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/mirna-de-jesus-cambero.jpg",
+    "shortBio": "",
+    "bio": "Mirna es una ingeniera de software con más de una década de experiencia en desarrollo backend, especializada en tecnologías Java. A lo largo de su carrera, ha trabajado en industrias como telecomunicaciones, salud, tecnología financiera y, más recientemente, en el sector gubernamental, construyendo sistemas escalables y confiables mientras fomenta una cultura de colaboración efectiva.<br><br>Uno de sus logros más destacados fue su contribución en la creación de un mercado de valores desde cero en el Long Term Stock Exchange (LTSE), donde diseñó y mantuvo microservicios críticos, optimizó el rendimiento del sistema con estrategias de baja latencia e integró la plataforma con entidades financieras clave como DTCC y SIPs.<br><br>En los inicios de su carrera, Mirna fue reconocida en múltiples ocasiones por sus logros como joven desarrolladora en la República Dominicana. A través de su trabajo, busca generar un impacto positivo en la sociedad e inspirar a más mujeres a incursionar en la tecnología. Es egresada del Tecnólogo en Desarrollo de Software en el ITLA y posee una Ingeniería en Sistemas de Información de UNAPEC.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Senior Java Developer",
+        "description": "Senior Java Developer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://code-like-a-woman.hashnode.dev"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/mirnadejesus"
+      }
+    ]
+  },
+  {
+    "numOrder": 112,
+    "speakerId": "aneudy-vargas",
+    "name": "Aneudy Vargas",
+    "company": "Consultor Independiente",
+    "companyLogo": "",
+    "title": "Sr. Android Developer",
+    "country": "República Dominicana",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/aneudy-vargas.jpeg",
+    "shortBio": "",
+    "bio": "Soy un entusiasta del software y me gusta compartir mi experiencia y como a lo largo de los años he podido ver en diferentes proyectos, presentar siempre mejores prácticas y un foco optimista, pero fuera del software soy una persona que le gusta la música , toco guitarra, me gustan los viajes y conocer lugares nuevos, comer bueno \uD83D\uDE05, conocer personas nuevas y aprender de ellas.",
+    "display": true,
+    "badges": [
+      {
+        "name": "Sr. Android Developer",
+        "description": "Sr. Android Developer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/aneudyvargas/"
+      }
+    ]
+  },
+  {
+    "numOrder": 113,
+    "speakerId": "rafael-almonte",
+    "name": "José Rafael Almonte Cabrera",
+    "company": "Franklin Covey",
+    "title": "Ingeniero de Software",
+    "companyLogo": "",
+    "country": "República Dominicana",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/rafael-almonte.jpg",
+    "shortBio": "",
+    "bio": "",
+    "display": false,
+    "badges": [
+      {
+        "name": "Software Engineer",
+        "description": "Software Engineer"
+      }
+    ],
+    "socials": []
+  },
+  {
+    "numOrder": 114,
+    "speakerId": "brayan-munoz",
+    "name": "Brayan Muñoz V",
+    "company": "Dominican Republic JUG",
+    "title": "Ingeniero de Software",
+    "companyLogo": "",
+    "country": "República Dominicana",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/archive/jconf2024/images/speakers/brayan-munoz.jpg",
+    "shortBio": "",
+    "bio": "SDE | Ingeniero DevOps - Miembro organizador de Java Dominicano - Entusiasta del código libre",
+    "display": false,
+    "badges": [
+      {
+        "name": "Ingeniero de Software",
+        "description": "Ingeniero de Software"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/Brayanmnz_"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/brayanmnz"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/brayanmnz"
+      }
+    ]
+  },
+  {
+    "numOrder": 115,
+    "speakerId": "alfonso-valdez",
+    "name": "Alfonso Valdez Altamirano",
+    "company": "Payara",
+    "companyLogo": "",
+    "title": "Desarrollador de Software Senior",
+    "country": "México",
+    "countryFlag": "flag-icon-mx",
+    "photoUrl": "/img/speakers/alfonso-valdez.jpeg",
+    "shortBio": "",
+    "bio": "Soy desarrollador Senior de Software Java con 20 años de experiencia en el mercado, actualmente trabajo con Payara para proporcionar una muy buena herramienta para el desarrollo empresarial. También soy miembro de los grupos de trabajo Jakarta y microprofile donde trabajo activamente para contribuir con las últimas versiones de las especificaciones.",
+    "display": false,
+    "badges": [
+      {
+        "name": "Ingeniero de Software",
+        "description": "Ingeniero de Software"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/breakponchito"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/alfonso-valdez-altamirano-dev/"
+      }
+    ]
+  }
+]

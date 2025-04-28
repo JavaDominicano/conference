@@ -7,6 +7,7 @@
     "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
+    "display": true,
     "tags": [
       "AI",
       "Java",
@@ -25,6 +26,7 @@
     "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
+    "display": true,
     "tags": [
       "Java Platform",
       "nosql",
@@ -43,7 +45,8 @@
     "description": "Helidon 4, basado en Eclipse MicroProfile, es una opción poderosa para microservicios en Kubernetes. En esta charla, compartiré lecciones aprendidas, retos enfrentados y casos de uso reales en producción, desde integración con bases de datos hasta consumo de APIs externas. Una sesión práctica con insights clave para optimizar distintas cargas de trabajo.",
     "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
-    "language":"es",
+    "language": "es",
+    "display": true,
     "tags": [
       "Java Platform",
       "Server side development"
@@ -60,6 +63,7 @@
     "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
+    "display": true,
     "tags": [
       "Java Platform"
     ],
@@ -74,6 +78,7 @@
     "description": "Quiero hablar de lo que era la programación hace 30 años y en lo que se ha convertido hoy. Mirar las cosas de moda que han ido y venido, y han vuelto otra vez. No en un tono de «get off my lawn», sino más bien para mostrar cómo esta industria no es tan diferente de otras; lo bueno, lo malo, lo feo. Cómo el código abierto cambió la industria, y cómo la industria cambió el código abierto. Qué les espera a las nuevas generaciones.",
     "audience_level": "Intermediate",
     "language": "es",
+    "display": true,
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
       "software development",
@@ -96,6 +101,7 @@
     "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
+    "display": true,
     "tags": [
       "Server side development",
       "client-side development",
@@ -118,6 +124,7 @@
     "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
+    "display": true,
     "tags": [
       "Server side development",
       "Java Platform"
@@ -134,6 +141,7 @@
     "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
+    "display": true,
     "tags": [
       "Java Platform",
       "unit testing"
@@ -150,12 +158,109 @@
     "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
+    "display": true,
     "tags": [
       "Proceso de desarrollo de Software",
       "Metodología"
     ],
     "speakers": [
       "david-joa"
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Destripando la JVM: Instrumentación y Bytecode de Java",
+    "abstract": "¿Te gustaría saber cómo frameworks como Mockito, Spring y Hibernate modifican clases en tiempo de ejecución? Aprende a interceptar y redefinir código sin tocar el fuente usando Java Agents e instrumentación. Desde profiling hasta auditoría, descubre cómo estas técnicas se aplican en el mundo real.",
+    "description": "Aunque GraalVM promete arranques rápidos, menor consumo de recursos y capacidades políglotas, el camino a producción no siempre es simple. En esta sesión compartiré lecciones aprendidas trabajando con clientes que usan Spring Boot y GraalVM, enfocándome en modos JIT y Nativo. Cubriremos la configuración de plugins Maven como bootRun, bootBuildImage y graalvmNative, el manejo de reflexión y proxies dinámicos, y la automatización de generación de metadatos usando el repositorio de reachability de GraalVM. Esta no es solo otra demo: es un recorrido detallado desde la perspectiva de un programador, resaltando desafíos y soluciones al llevar aplicaciones reales a producción con GraalVM. También mostraremos despliegues con GitHub Actions y ejemplos de programación políglota práctica.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "tags": [
+      "Java Platform"
+    ],
+    "speakers": [
+      "jorge-morla"
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Trabajando de Manera Sostenible en un Mundo Acelerado",
+    "abstract": "El equilibrio entre el rendimiento profesional y el bienestar es clave para una carrera sostenible en tecnología. Esta charla aportará herramientas prácticas para que los desarrolladores puedan trabajar con mayor enfoque, salud y motivación a largo plazo.",
+    "description": "El desarrollo de software es una industria dinámica y desafiante, con ritmos acelerados, altas expectativas y entornos demandantes. Esta charla explorará estrategias para trabajar de manera sostenible sin comprometer el bienestar. Se abordarán aspectos como el trabajo remoto sostenible, la adopción de hábitos saludables, y cómo desarrollar resiliencia emocional para afrontar los retos laborales con una mentalidad equilibrada.<br>También se discutirán estrategias como el mindfulness para el manejo del estrés, la mentalidad de crecimiento para asumir retos de manera curiosa, y la importancia de mantenerse actualizado sin caer en el agotamiento. La charla estará respaldada por investigaciones, datos y experiencias del sector.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "tags": [
+      "Trabajo Sostenible",
+      "Trabajo Remoto"
+    ],
+    "speakers": [
+      "mirna-de-jesus-cambero"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Kotlin Coroutines: Más Allá del async/await",
+    "abstract": "La concurrencia en Kotlin es poderosa, pero usar coroutines de manera eficiente puede ser un reto. En esta charla veremos cómo manejarlas correctamente, ejecutar tareas en paralelo y aprovecharlas para procesamiento asíncrono, además de compartir errores comunes y mejores prácticas.",
+    "description": "Kotlin Coroutines: Más Allá del async/await.<br><br>Kotlin ha revolucionado la programación asíncrona con <b>coroutines</b>, pero su verdadero potencial va mucho más allá de `async/await`. En esta charla, exploraremos:  <br><br> 1-<b>Ejecución en paralelo</b> y estrategias eficientes.<br> 2-<b>Flows y Streams</b> para manejar datos asíncronos.<br> 3- <b>Errores comunes</b> y cómo evitarlos. <br> 4- <b>Patrones avanzados</b> para maximizar rendimiento y seguridad.<br><br>Si quieres dominar la concurrencia en Kotlin y escribir código más limpio y eficiente, esta sesión es para ti.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "tags": [
+      "Kotlin",
+      "Coroutines",
+      "Flows",
+      "Streams",
+      "Threads"
+    ],
+    "speakers": [
+      "aneudy-vargas"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Optimización de las respuestas LLM con la generación mejorada por recuperación (Retrieval-Augmented Generation (RAG)) en Java",
+    "abstract": "Los LLMs (Large Language Models) son potentes, pero tienen dificultades con el conocimiento en tiempo real y alucinan con las respuestas. En este taller práctico, aprenderá a potenciar su chatbot basado en LLM con generación mejorada por recuperación (Retrieval-Augmented Generation (RAG)) utilizando Java y SpringAI.",
+    "description": "Los LLM no bastan por sí solos. Sin recuperación en tiempo real, generan respuestas obsoletas o incorrectas, ya sea porque sus conocimientos son limitados o porque carecen de acceso a la información pertinente. Esto podría hacerlos poco fiables para aplicaciones críticas para el negocio. Este taller se adentra en la generación mejorada por recuperación (Retrieval-Augmented Generation (RAG)), una técnica que permite a la IA acceder a información actualizada del mundo real para ofrecer respuestas precisas y ricas en contexto.<br><br>\nTe guiaremos a través de la construcción de un chatbot AI desde cero usando Java y SpringAI con una base de datos vectorial (por ejemplo, PGVector o Neo4j). Aprenderás cómo:<br><br>\nIntegrar SpringAI para construir un chatbot robusto<br>✔Implementar RAG para mejorar la precisión del chatbot y evitar alucinaciones<br>✔Almacenar y recuperar datos de productos en tiempo real de una base de datos vectorial<br>✔Probar en vivo y comparar resultados con y sin RAG.<br><br>Este taller es perfecto para desarrolladores, e ingenieros de IA que buscan implementar soluciones de IA prácticas y de nivel empresarial.No se pierda esta oportunidad de dominar RAG y transformar el modo en que las aplicaciones basadas en IA interactúan con los datos.",
+    "audience_level": "Intermediate",
+    "talk_format": "Workshop (\\u003e 60 minutes)",
+    "language": "es",
+    "display": false,
+    "tags": [
+      "AI",
+      "machine-learning",
+      "llm",
+      "java",
+      "SpringAI",
+      "chatbot",
+      "vector-database",
+      "retrieval-augmented-generation",
+      "enterprise-ai",
+      "Machine Learning with Java",
+      "Java Platform"
+    ],
+    "speakers": [
+      "rafael-almonte",
+      "brayan-munoz"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Cómo utilizar Jakarta 11 con Payara 7",
+    "abstract": "La intención de la charla es mostrar las novedades de Jakarta 11 y su uso con Payara 7.",
+    "description": "Jakarta 11 es la última versión de la especificación y está cerca de ser entregada al mercado, es por eso que necesitamos saber qué servidores de aplicaciones en el mercado soportan y para esta charla voy a mostrar cómo utilizar con Payara 7.",
+    "audience_level": "Intermediate",
+    "talk_format": "Workshop (\\u003e 60 minutes)",
+    "language": "es",
+    "display": false,
+    "tags": [
+      "Server side development"
+    ],
+    "speakers": [
+      "alfonso-valdez"
     ]
   }
 ]
