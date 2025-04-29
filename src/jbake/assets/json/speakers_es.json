@@ -369,8 +369,8 @@
     "countryFlag": "flag-icon-do",
     "photoUrl": "/img/speakers/rafael-almonte.jpg",
     "shortBio": "",
-    "bio": "",
-    "display": false,
+    "bio": "Soy Ingeniero en Telemática de formación, con un Máster en Ciencia de Datos, y actualmente me desempeño como Ingeniero de Software especializado en desarrollo backend. Me apasiona construir soluciones innovadoras que conecten sistemas complejos y generen impacto real, trabajando con lenguajes como Java, Kotlin, Node.js y Python, además de otras tecnologías complementarias. Actualmente estoy profundizando en áreas de Inteligencia Artificial y Analítica Deportiva, aplicando el análisis de datos y el desarrollo de modelos predictivos para generar soluciones prácticas y de alto impacto. Más allá del mundo de la tecnología, soy un gran fanático de los deportes (fútbol, básquetbol y béisbol, principalmente) y de la música. Me apasiona el piano —aunque todavía estoy aprendiendo a tocarlo— y disfruto explorando nuevas formas de conectar la creatividad con la ingeniería.",
+    "display": true,
     "badges": [
       {
         "name": "Software Engineer",
