@@ -253,7 +253,7 @@
     "abstract": "The intention of the talk is to show what's new with Jakarta 11 and how to use with Payara 7.",
     "description": "Jakarta 11 is the latest version of the specification and is near to be delivered to the market, that is why we need to know which application servers on the market supported and for this talk I will show how to use with Payara 7.",
     "audience_level": "Intermediate",
-    "talk_format": "Workshop (\\u003e 60 minutes)",
+    "talk_format": "Workshop (\u003e 60 minutes)",
     "language": "es",
     "display": false,
     "tags": [
