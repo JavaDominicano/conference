@@ -369,8 +369,8 @@
     "countryFlag": "flag-icon-do",
     "photoUrl": "/img/speakers/rafael-almonte.jpg",
     "shortBio": "",
-    "bio": "",
-    "display": false,
+    "bio": "Soy Ingeniero en Telemática de formación, con un Máster en Ciencia de Datos, y actualmente me desempeño como Ingeniero de Software especializado en desarrollo backend. Me apasiona construir soluciones innovadoras que conecten sistemas complejos y generen impacto real, trabajando con lenguajes como Java, Kotlin, Node.js y Python, además de otras tecnologías complementarias. Actualmente estoy profundizando en áreas de Inteligencia Artificial y Analítica Deportiva, aplicando el análisis de datos y el desarrollo de modelos predictivos para generar soluciones prácticas y de alto impacto. Más allá del mundo de la tecnología, soy un gran fanático de los deportes (fútbol, básquetbol y béisbol, principalmente) y de la música. Me apasiona el piano —aunque todavía estoy aprendiendo a tocarlo— y disfruto explorando nuevas formas de conectar la creatividad con la ingeniería.",
+    "display": true,
     "badges": [
       {
         "name": "Software Engineer",
@@ -390,8 +390,8 @@
     "countryFlag": "flag-icon-do",
     "photoUrl": "/archive/jconf2024/images/speakers/brayan-munoz.jpg",
     "shortBio": "",
-    "bio": "SDE | Ingeniero DevOps - Miembro organizador de Java Dominicano - Entusiasta del código libre",
-    "display": false,
+    "bio": "Soy Científico de Datos e Ingeniero de Software con una Maestría en Ciencias de Datos (UCJC) y una licenciatura en Ingeniería Telemática (PUCMM). Con más de 5 años de experiencia en desarrollo de software y 2 años trabajando en proyectos de IA y Ciencia de Datos, también soy miembro de la junta del Java User Group de la República Dominicana (@JavaDominicano), donde doy charlas sobre Java y Machine Learning. Además, soy docente en PUCMM en áreas como Programación e Inteligencia Artificial, y contribuyo activamente a proyectos de open source.",
+    "display": true,
     "badges": [
       {
         "name": "Ingeniero de Software",

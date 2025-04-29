@@ -226,9 +226,9 @@
     "abstract": "Large Language Models (LLMs) are powerful, but they struggle with real-time knowledge and hallucinate answers. In this hands-on workshop, learn how to supercharge your LLM-powered chatbot with Retrieval-Augmented Generation (RAG) using Java, and SpringAI.",
     "description": "LLMs alone are not enough. Without real-time retrieval, they generate outdated or incorrect responses, either because their knowledge is limited or because they lack access to pertinent information. This could make them unreliable for business-critical applications. This workshop dives into Retrieval-Augmented Generation (RAG)—a technique that enables AI to access real-world, up-to-date information to deliver accurate, context-rich responses.<br><br>We'll guide you through building an AI chatbot from scratch using Java and SpringAI with a vector database (PGVector or Neo4j, for example) . You'll learn how to:<br><br>✔ Integrate SpringAI to build a robust chatbot<br>✔ Implement RAG to enhance chatbot accuracy and avoid hallucinations<br>✔ Store and retrieve real-time product data from a vector database<br>✔ Live test and compare results with vs. without RAG<br><br>This workshop is perfect for developers, and AI engineers looking to implement practical, enterprise-grade AI solutions. Don't miss this opportunity to master RAG and transform how AI-powered applications interact with data.",
     "audience_level": "Intermediate",
-    "talk_format": "Workshop (\\u003e 60 minutes)",
+    "talk_format": "Workshop (\u003e 60 minutes)",
     "language": "es",
-    "display": false,
+    "display": true,
     "tags": [
       "AI",
       "machine-learning",
@@ -253,7 +253,7 @@
     "abstract": "The intention of the talk is to show what's new with Jakarta 11 and how to use with Payara 7.",
     "description": "Jakarta 11 is the latest version of the specification and is near to be delivered to the market, that is why we need to know which application servers on the market supported and for this talk I will show how to use with Payara 7.",
     "audience_level": "Intermediate",
-    "talk_format": "Workshop (\\u003e 60 minutes)",
+    "talk_format": "Workshop (\u003e 60 minutes)",
     "language": "es",
     "display": false,
     "tags": [

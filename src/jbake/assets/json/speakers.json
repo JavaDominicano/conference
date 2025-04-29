@@ -369,8 +369,8 @@
     "countryFlag": "flag-icon-do",
     "photoUrl": "/img/speakers/rafael-almonte.jpg",
     "shortBio": "",
-    "bio": "",
-    "display": false,
+    "bio": "I am a Telematics Engineer, with a Master's degree in Data Science, and I currently work as a Software Engineer specializing in backend development. I am passionate about building innovative solutions that connect complex systems and create real impact, working with languages such as Java, Kotlin, Node.js, and Python, along with other complementary technologies. I am currently delving deeper into the fields of Artificial Intelligence and Sports Analytics, applying data analysis and the development of predictive models to generate practical, high-impact solutions. Beyond the world of technology, I’m a big fan of sports (mainly soccer, basketball, and baseball) and music. I'm passionate about the piano —though I'm still learning to play— and I enjoy exploring new ways to connect creativity with engineering.",
+    "display": true,
     "badges": [
       {
         "name": "Software Engineer",
@@ -390,8 +390,8 @@
     "countryFlag": "flag-icon-do",
     "photoUrl": "/img/speakers/brayan-munoz.jpeg",
     "shortBio": "",
-    "bio": "SDE | DevOps Engineer – Dominican Republic JUG Board Member - Professor - Open Source enthusiast",
-    "display": false,
+    "bio": "I'm a Software Engineer and Data Scientist with an MSc in Data Science (UCJC) and a degree in Telematics Engineering (PUCMM). With over 5 years of software development experience and 2 years focused on AI and Data Science, I’m also a board member of the Dominican Republic Java User Group (@JavaDominicano), where I speak on topics like Java and Machine Learning. Additionally, I teach at PUCMM in areas such as Programming and AI, and actively contribute to open-source projects.",
+    "display": true,
     "badges": [
       {
         "name": "Software Engineer",
