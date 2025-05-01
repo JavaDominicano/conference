@@ -808,14 +808,22 @@ var linguJSON = {
        {   "source": "Gallery",
            "target_es": "Galería"
        },
-        {
-            "source": "See Photos of Previous Editions",
-            "target_es": "Ver las Fotos de las Ediciones Anteriores"
-         },
-         {
-             "source": "See previous speakers",
-             "target_es": "Ver Conferencistas Anteriores"
-          }
+      {
+        "source": "See Photos of Previous Editions",
+        "target_es": "Ver las Fotos de las Ediciones Anteriores"
+      },
+      {
+         "source": "See previous speakers",
+         "target_es": "Ver Conferencistas Anteriores"
+      },
+       {
+           "source": "Meet the confirmed sessions",
+           "target_es": "Sesiones confirmadas"
+       },
+       {
+         'source': 'Notice:Here are some confirmed sessions. More will be posted in the near future',
+         'target_es': 'Aviso:Estas son algunas de las sesiones confirmadas. Próximamente se publicarán más'
+       }
 
   ]
 }
