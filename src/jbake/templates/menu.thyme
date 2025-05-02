@@ -22,16 +22,15 @@
                         <div class="header-navigation d-none d-lg-block">
                             <ul class="main-menu">
                                 <li><a href="/index.html">Home</a></li>
-                                <li><a th:if="${config.layout_display_tickets}" th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html">Tickets</a></li>
-                                <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
-                                <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
-                                <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
-                                <li><a href="/gallery.html" th:if="${config.layout_display_gallery}">Gallery</a></li>
-                                <li><a href="/code-of-conduct.html">Code of conduct</a></li>                                    
-                                <li><a th:if="${config.layout_display_sponsors}"  href="/index.html#sponsors">Sponsors</a></li>
-                                <li><a href="/past-conferences.html">Past Conferences</a></li>
+                                <li th:if="${config.layout_display_tickets}"><a th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html">Tickets</a></li>
+                                <li th:if="${config.layout_display_schedule}"><a th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
+                                <li th:if="${config.layout_display_speakers}"><a th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
+                                <li th:if="${config.layout_display_sessions}"><a href="/sessions.html">Sessions</a></li>
+                                <li th:if="${config.layout_display_presentations_page}"><a href="/presentations.html">Presentations</a></li>
+                                <li th:if="${config.layout_display_sponsors}"><a href="/index.html#sponsors">Sponsors</a></li>
                                 <li><a href="/conference-info.html">Conference Info</a></li>
-                                <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}">Organizers</a></li>
+                                <li th:if="${config.layout_display_organizers_page}"><a href="/organizers.html">Organizers</a></li>
+                                <li th:if="${config.layout_display_gallery}"><a href="/gallery.html">Gallery</a></li>
                             </ul>
                         </div>
                         <!-- Header Navigation End -->
@@ -81,21 +80,22 @@
                 <div class="offcanvas-menu">
                     <ul class="main-menu">
                         <li><a href="/index.html">Home</a></li>
-                        <li><a href="/code-of-conduct.html">Code of conduct</a></li> 
+                        <li th:if="${config.layout_display_tickets}"><a  th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html">Tickets</a></li>
+                        <li th:if="${config.layout_display_schedule}"><a th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
+                        <li th:if="${config.layout_display_speakers}"><a th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
+                        <li th:if="${config.layout_display_sessions}"><a href="/sessions.html">Sessions</a></li>
+                        <li th:if="${config.layout_display_presentations_page}"><a href="/presentations.html">Presentations</a></li>
+                        <li th:if="${config.layout_display_sponsors}"><a th:href="${config.layout_display_page_spa}?'/index.html#sponsors':'/sponsors.html'" href="/index.html#sponsors">Sponsors</a></li>
                         <li><a href="#">About</a>
                             <ul class="sub-menu">
-                                <li><a href="/conference-info.html">Conference Info</a></li>
                                 <li><a href="/past-conferences.html">Past Conferences</a></li>
-                                <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}">Organizers</a></li>                               
+                                <li th:if="${config.layout_display_organizers_page}"><a href="/organizers.html">Organizers</a></li>
+                                <li><a href="/conference-info.html">Conference Info</a></li>
+                                <li th:if="${config.layout_display_gallery}"><a href="/gallery.html">Gallery</a></li>
+                                <li><a href="/code-of-conduct.html">Code of conduct</a></li>
                             </ul>
                         </li>
-                        <li><a th:if="${config.layout_display_tickets}" th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html">Tickets</a></li>
-                        <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
-                        <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
-                        <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
-                          <li><a href="/gallery.html" th:if="${config.layout_display_gallery}">Gallery</a></li>
-                        <li><a th:if="${config.layout_display_sponsors}"  href="/index.html#sponsors">Sponsors</a></li>
-                       
+
                     </ul>
                 </div>
             </div>
@@ -131,13 +131,12 @@
 								 <li><a th:if="${config.layout_display_tickets}" th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html">Tickets</a></li>
 				                 <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
 				                 <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
+				                 <li th:if="${config.layout_display_sessions}"><a href="/sessions.html">Sessions</a></li>
 				                 <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
-				                 <li><a href="/gallery.html" th:if="${config.layout_display_gallery}">Gallery</a></li>
-					             <li><a href="/code-of-conduct.html">Code of conduct</a></li>                               
                                 <li><a th:if="${config.layout_display_sponsors}" href="/index.html#sponsors">Sponsors</a></li>
-                                <li><a href="/past-conferences.html">Past Conferences</a></li>
                                 <li><a href="/conference-info.html">Conference Info</a></li>
                                 <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}">Organizers</a></li>
+				                 <li><a href="/gallery.html" th:if="${config.layout_display_gallery}">Gallery</a></li>
                             </ul>
                             </div>
                             <!-- Header Navigation End -->
@@ -191,20 +190,21 @@
                 <div class="offcanvas-menu">
                     <ul class="main-menu">
                         <li><a href="/index.html">Home</a></li>
-                        <li><a href="/code-of-conduct.html">Code of conduct</a></li> 
+                        <li><a th:if="${config.layout_display_tickets}" th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html">Tickets</a></li>
+                        <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
+                        <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
+                         <li th:if="${config.layout_display_sessions}"><a href="/sessions.html">Sessions</a></li>
+                        <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
+                        <li><a th:if="${config.layout_display_sponsors}"  href="/index.html#sponsors">Sponsors</a></li>
                         <li><a href="#">About</a>
                             <ul class="sub-menu">
                                 <li><a href="/conference-info.html">Conference Info</a></li>
                                 <li><a href="/past-conferences.html">Past Conferences</a></li>
-                                <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}">Organizers</a></li>                               
+                                <li><a href="/organizers.html" th:if="${config.layout_display_organizers_page}">Organizers</a></li>
+                                <li th:if="${config.layout_display_gallery}"><a href="/gallery.html">Gallery</a></li>
+                                <li><a href="/code-of-conduct.html">Code of conduct</a></li>
                             </ul>
                         </li>
-                        <li><a th:if="${config.layout_display_tickets}" th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html">Tickets</a></li>
-                        <li><a th:if="${config.layout_display_schedule}" th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
-                        <li><a th:if="${config.layout_display_speakers}" th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
-                        <li><a href="/presentations.html" th:if="${config.layout_display_presentations_page}">Presentations</a></li>
-                        <li><a th:if="${config.layout_display_sponsors}"  href="/index.html#sponsors">Sponsors</a></li>
-                       
                     </ul>
                 </div>
             </div>

@@ -68,7 +68,7 @@
       "Java Platform"
     ],
     "speakers": [
-      "josediaz"
+      "jose-diaz"
     ]
   },
   {
@@ -228,7 +228,7 @@
     "audience_level": "Intermediate",
     "talk_format": "Workshop (\u003e 60 minutes)",
     "language": "es",
-    "display": false,
+    "display": true,
     "tags": [
       "AI",
       "machine-learning",

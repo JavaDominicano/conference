@@ -61,8 +61,17 @@
                             <div class="footer-bottom-wrap">
                                 <div class="row">
                                     <div class="col-md-5">
+
                                         <!-- Footer Info Start -->
                                         <div class="footer-info">
+                                          <h3 class="title">About us</h3>
+                                            <ul>
+                                             <li><a href="/conference-info.html">Conference Info</a></li>
+                                              <li th:if="${config.layout_display_organizers_page}"><a href="/organizers.html">Organizers</a></li>
+                                              <li><a href="/past-conferences.html">Past Conferences</a></li>
+                                              <li><a href="/code-of-conduct.html">Code of conduct</a></li>
+                                            </ul>
+                                            <br>
                                             <h3 class="title">Event Details</h3>
                                             <span class="date" th:if="${config.layout_display_event_details_date_footer}" th:utext="${#strings.arrayJoin(config.layout_event_details_date_footer,', ')}">21 - 22 July 2023</span>
                                             <p th:if="${config.layout_display_event_details_venue_address_footer}" th:utext="${#strings.arrayJoin(config.layout_event_details_venue_address_footer,', ')}">Av. Abraham Lincoln esq. Simón Bolívar, Campus PUCMM, Santo Domingo. Dominican Republic.</p>
@@ -179,7 +188,7 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
 
 		 </div>
 	<div th:fragment="footer-page" th:remove="tag">
-		  <!-- Footer Start -->
+    <!-- Footer Start -->
     <div class="meeta-footer-section" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:style="|background-image:url(${rootpath}img/meeta/bg/footer-bg-2.jpg)|" style="background-image: url(img/venue-gallery/dominican-republic.jpg);">
 
         <!-- Footer Widget Start -->
@@ -194,22 +203,34 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
                 </div>
                 <!-- Footer Logo End -->
 
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/conference-info.html">Conference Info</a></li>
+                    <li><a href="/past-conferences.html">Past Conferences</a></li>
+                    <li th:if="${config.layout_display_organizers_page}"><a href="/organizers.html">Organizers</a></li>
+                    <li th:if="${config.layout_display_gallery}"><a href="/gallery.html">Gallery</a></li>
+                    <li><a href="/code-of-conduct.html">Code of conduct</a></li>
+                </ul>
+
+            </div>
+
                 <!-- Footer Newsletter Start -->
                 <div class="footer-newsletter">
                     <p>Join our mailing list to stay up to date on all things about our event.</p>
 
-                    <div class="footer-newsletter-form">                    
+                    <div class="footer-newsletter-form">
                         <form action="https://jconfdominicana.us20.list-manage.com/subscribe/post?u=2ba9ad3be3e34e937ea55d071&amp;id=73f48c7195" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<div style="position: absolute; left: -5000px;" aria-hidden="true">
 					<input type="text" name="b_2ba9ad3be3e34e937ea55d071_73f48c7195" tabindex="-1" value="">
 				</div>
-				
+
 				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your Email" required>
 				<button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button>
-				
-				
+
+
 			</form>
-                        
+
                     </div>
                 </div>
                 <!-- Footer Newsletter End -->

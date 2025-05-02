@@ -8,3 +8,11 @@ export async function fetchData(fetchUrl) {
       console.log("Error:", error);
     }
 }
+
+export let filterSpeakerById = function(speakersJson,speakerId){
+
+    let speakersList = [];
+    speakersJson.forEach(speakerObj => speakersList.push(speakerObj));
+
+    return speakersList.filter(speaker => speaker.speakerId===speakerId);
+}

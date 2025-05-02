@@ -10526,3 +10526,16 @@ label {
   margin-top: 5px;
   padding-top: 10px;
 }
+
+.icon-img-override{
+   min-width:40px;
+}
+
+.meeta-footer-2 .footer-bottom-wrap .footer-info a {
+  font-weight: 400;
+  color: #ffffff;
+}
+.meeta-footer-2 .footer-bottom-wrap .footer-info a:hover {
+ color: #c22035;
+  border-color: #c22035;
+}

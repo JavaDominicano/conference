@@ -5,7 +5,7 @@ function getURLParameter(name) {
 let speakerId = getURLParameter("id");
 
 import {getUsefulContents} from '/js/util-url.js';
-import {fetchData} from '/js/fetch-util.js';
+import {fetchData, filterSpeakerById} from '/js/fetch-util.js';
 
 function createSessionCard(id, title, description, tags, language, audienceLevel, talkFormat) {
     let sessionHtml = "<div class=\"col-md-12\">" +
@@ -106,13 +106,13 @@ function renderSessionBySpeakerId(sessionsJson) {
 
             let title = sessionsJson[i].title;
             let id = sessionsJson[i].id;
-            let description = sessionsJson[i].description;
+            let abstract = sessionsJson[i].abstract;
             let language = sessionsJson[i].language;
             let tags = sessionsJson[i].tags;
             let audienceLevel = sessionsJson[i].audience_level;
             let talkFormat = sessionsJson[i].talk_format;
 
-            sessions.innerHTML += createSessionCard(id, title, description, tags, language, audienceLevel, talkFormat);
+            sessions.innerHTML += createSessionCard(id, title, abstract, tags, language, audienceLevel, talkFormat);
       }
 }
 
@@ -132,13 +132,6 @@ let filterSessionBySpeaker = function(sessionsJson,speakerId){
       return sessionsList.filter(session => session.speakers.includes(speakerId));
 }
 
-let filterSpeakerById = function(speakersJson,speakerId){
-
-    let speakersList = [];
-    speakersJson.forEach(speakerObj => speakersList.push(speakerObj));
-
-    return speakersList.filter(speaker => speaker.speakerId===speakerId);
-}
 
 let sessionsJson = await fetchData(getUsefulContents("lang", "../json/sessions"));
 

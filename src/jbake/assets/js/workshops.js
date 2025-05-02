@@ -1,32 +1,37 @@
 import { getUsefulContents, getUsefulLink } from '/js/util-url.js';
 
-var fetchUrl = getUsefulContents("lang", "../json/workshops");
+import {fetchData, filterSpeakerById} from '/js/fetch-util.js';
 
-fetch(fetchUrl)
-    .then(function (response) {
-        if (!response.ok) {
-            throw Error(response.statusText);
-        }
+let filterConfirmedWorkshop = function(sessionsJson) {
 
-        return response.json();
-    })
-    .then(function (workshopJson) {
+      let workshopList = [];
 
-      var workshopList = [];
-      for(let y in workshopJson){
-        workshopList.push(workshopJson[y]);
-      }
+      sessionsJson.forEach(sessionObj => workshopList.push(sessionObj));
 
       workshopList.sort(function(a, b){return a.id-b.id});
 
+      let filteredWorkshops = workshopList.filter((session) => {
+            return session.talk_format.indexOf("Talk")==-1;
+      });
+
+    return filteredWorkshops.filter(item => item.display === true);
+}
+
+
+let renderWorkshopsList = function(sessionJson) {
       let workshops = document.getElementById('workshopsList');
 
-      workshopList.forEach((workshop) => {
-            workshops.innerHTML += createWorkshopCard(workshop);
-     });
+     sessionJson.forEach((workshop) => workshops.innerHTML += createWorkshopCard(workshop));
+
+}
 
 
-});
+let sessionUrl = getUsefulContents("lang", "../json/sessions");
+let jsonData = await fetchData(sessionUrl);
+
+let filteredWorkshopList = filterConfirmedWorkshop(jsonData);
+renderWorkshopsList(filteredWorkshopList);
+
 
 $(document).on('click', '#workshopsList li.meeta-event-accordion-item > .meeta-event-accordion-toggle', function(){
   if ($(this).hasClass("active")) {
@@ -46,11 +51,10 @@ function createWorkshopCard(workshop) {
   let title = workshop.title;
   let description = workshop.description;
   let speakers = workshop.speakers; 
-  let time = workshop.time;
+
 
   var sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
      "<h3 class=\"meeta-event-accordion-toggle\">"+
-     "<div class=\"event-title\"><span class=\"time\">"+time+"</span>"+
      "<span class=\"title\">"+ title +"</span>"+
      "</div>"+
      " </h3>"+
@@ -62,29 +66,23 @@ function createWorkshopCard(workshop) {
       "</li>";
 
       for (let i in speakers) {
-         getSpeakerById(getUsefulContents("lang", "../json/speakers/"+speakers[i]),workshopId);                
+         renderWorkshopInstructors(getUsefulContents("lang", "../json/speakers"),speakers[i],workshopId)
      }
 
         return sessionHtml;
 }
 
-function getSpeakerById(fetchUrlSpeaker, workshopId){
- return fetch(fetchUrlSpeaker)
-      .then(function (response) {
-          if (!response.ok) {
-              throw Error(response.statusText);
-          }
+async function renderWorkshopInstructors(fetchUrlSpeaker,speakerId, workshopId){
 
-          return response.json();
-      }).then(function(speaker){
-             
+        let speakersData = await fetchData(fetchUrlSpeaker);
+        let speakerDetailsList = filterSpeakerById(speakersData,speakerId);
+        let speaker = speakerDetailsList[0];
+
         let speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
          
         let instructors = document.getElementById("instructors"+"-"+workshopId);
 
         instructors.innerHTML +=  "<div class=\"col-lg-3\"><a href=\"" + speakerUrlDetail + "\"><img src=\"" + speaker.photoUrl +"\" style=\"border-radius: 5px;\"  alt=\""+speaker.name+"\"></a></div><h3 class=\"speaker-name\">" + speaker.name + " <span class=\"flag-icon " + speaker.countryFlag + "\"></span></h3>" +
         "<p class=\"speaker-designation\">" + speaker.title + "</p>" ;
-         
-    });
-      
+
 }
