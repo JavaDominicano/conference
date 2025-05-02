@@ -200,7 +200,7 @@ var linguJSON = {
     },
     {
       'source': 'Access to the sessions of the Technical Track',
-      'target_es': 'Acceso a las secciones técnicas'
+      'target_es': 'Acceso a las sesiones técnicas'
     },
     {
       'source': 'Light lunch',
