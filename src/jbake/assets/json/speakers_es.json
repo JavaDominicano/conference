@@ -428,7 +428,7 @@
     "photoUrl": "/img/speakers/alfonso-valdez.jpeg",
     "shortBio": "",
     "bio": "Soy desarrollador Senior de Software Java con 20 años de experiencia en el mercado, actualmente trabajo con Payara para proporcionar una muy buena herramienta para el desarrollo empresarial. También soy miembro de los grupos de trabajo Jakarta y microprofile donde trabajo activamente para contribuir con las últimas versiones de las especificaciones.",
-    "display": false,
+    "display": true,
     "badges": [
       {
         "name": "Ingeniero de Software",

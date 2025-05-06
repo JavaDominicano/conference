@@ -428,7 +428,7 @@
     "photoUrl": "/img/speakers/alfonso-valdez.jpeg",
     "shortBio": "",
     "bio": "I'm a Senior Java Software Developer with 20 years of experience on the market, currently working with Payara to provide a very good tool for enterprise development. Also I'm a member of Jakarta and microprofile working groups where I work actively to contribute with the latest versions of the specifications.",
-    "display": false,
+    "display": true,
     "socials": [
       {
         "icon": "twitter",

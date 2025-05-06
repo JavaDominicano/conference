@@ -250,12 +250,12 @@
   {
     "id": 114,
     "title": "Cómo utilizar Jakarta 11 con Payara 7",
-    "abstract": "La intención de la charla es mostrar las novedades de Jakarta 11 y su uso con Payara 7.",
-    "description": "Jakarta 11 es la última versión de la especificación y está cerca de ser entregada al mercado, es por eso que necesitamos saber qué servidores de aplicaciones en el mercado soportan y para esta charla voy a mostrar cómo utilizar con Payara 7.",
+    "abstract": "La intención de este taller es mostrar las novedades de Jakarta 11 y su uso con Payara 7.",
+    "description": "Jakarta 11 es la última versión de la especificación y está cerca de ser entregada al mercado, es por eso que necesitamos saber qué servidores de aplicaciones en el mercado soportan y para este taller voy a mostrar cómo utilizar con Payara 7.<br><b>Temas a tratar:</b><br>1.Introducción a Payara.<br>2.Cómo instalar y utilizar Payara 7.<br>3.Crear una aplicación MVC con Payara 7.<br>4.Habilitar Jakarta Data con Payara 7.<br>5.Utilizar la seguridad con Payara 7.<br>6.Otras actualizaciones importantes para Jakarta 11 disponibles en Payara 7.",
     "audience_level": "Intermediate",
     "talk_format": "Workshop (\\u003e 60 minutes)",
     "language": "es",
-    "display": false,
+    "display": true,
     "tags": [
       "Server side development"
     ],
