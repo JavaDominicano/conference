@@ -26,10 +26,17 @@ status=published
 
 						<li data-tab-target="#tab1" class="active">
 							<div class="meeta-event-schedule-time">
+								<h4 class="meeta-event-schedule-day">Keynotes</h4>
+							</div>
+						</li>
+
+						<li data-tab-target="#tab2" class="tab">
+							<div class="meeta-event-schedule-time">
 								<h4 class="meeta-event-schedule-day">Workshops</h4>
 							</div>
 						</li>
-						<li data-tab-target="#tab2" class="tab">
+
+						<li data-tab-target="#tab3" class="tab">
 							<div class="meeta-event-schedule-time">
 								<h4 class="meeta-event-schedule-day">Sessions</h4>
 							</div>
@@ -39,7 +46,16 @@ status=published
 
 					<!-- Event Schedule Tabs Content Start -->
 					<div class="meeta-event-schedule-tab-content">
+
 						<div id="tab1" class="meeta-event-schedule-tab-pane active">
+							<p>Notice:Here are some confirmed sessions. More will be posted in the near future</p>
+
+							<!-- Event Accordion Start -->
+							<ul class="meeta-event-accordion" id="keynotesList"></ul>
+							<!-- Event Accordion End -->
+
+						</div>
+						<div id="tab2" class="meeta-event-schedule-tab-pane">
 							<p>Notice:Here are some confirmed sessions. More will be posted in the near future</p>
 
 							<!-- Event Accordion Start -->
@@ -47,7 +63,7 @@ status=published
 							<!-- Event Accordion End -->
 
 						</div>
-						<div id="tab2" class="meeta-event-schedule-tab-pane">
+						<div id="tab3" class="meeta-event-schedule-tab-pane">
 							<p>Notice:Here are some confirmed sessions. More will be posted in the near future</p>
 
 							<!-- Event Accordion Start -->
@@ -68,4 +84,5 @@ status=published
 </div>
 <!-- Event Schedule End -->
 <script type="module" src="js/workshops.js"></script>
+<script type="module" src="js/keynotes.js"></script>
 <script type="module" src="js/session.js"></script>

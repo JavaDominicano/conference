@@ -8,6 +8,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
     "display": true,
+    "featured": true,
     "tags": [
       "AI",
       "Java",
@@ -27,6 +28,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
+    "featured": false,
     "tags": [
       "Java Platform",
       "nosql",
@@ -47,6 +49,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
+    "featured": false,
     "tags": [
       "Java Platform",
       "Server side development"
@@ -64,6 +67,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
+    "featured": false,
     "tags": [
       "Java Platform"
     ],
@@ -79,6 +83,7 @@
     "audience_level": "Intermediate",
     "language": "es",
     "display": true,
+    "featured": false,
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
       "software development",
@@ -102,6 +107,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
     "display": true,
+    "featured": true,
     "tags": [
       "Server side development",
       "client-side development",
@@ -125,6 +131,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
     "display": true,
+    "featured": false,
     "tags": [
       "Server side development",
       "Java Platform"
@@ -142,6 +149,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
     "display": true,
+    "featured": false,
     "tags": [
       "Java Platform",
       "unit testing"
@@ -159,6 +167,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
+    "featured": false,
     "tags": [
       "Proceso de desarrollo de Software",
       "Metodología"
@@ -176,6 +185,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
+    "featured": false,
     "tags": [
       "Java Platform"
     ],
@@ -192,6 +202,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
+    "featured": false,
     "tags": [
       "Trabajo Sostenible",
       "Trabajo Remoto"
@@ -209,6 +220,7 @@
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
+    "featured": false,
     "tags": [
       "Kotlin",
       "Coroutines",
@@ -229,6 +241,7 @@
     "talk_format": "Workshop (\u003e 60 minutes)",
     "language": "es",
     "display": true,
+    "featured": false,
     "tags": [
       "AI",
       "machine-learning",
@@ -256,11 +269,79 @@
     "talk_format": "Workshop (\\u003e 60 minutes)",
     "language": "es",
     "display": true,
+    "featured": false,
     "tags": [
       "Server side development"
     ],
     "speakers": [
       "alfonso-valdez"
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Gestión de cambios de bases de datos para desarrolladores de Java",
+    "abstract": "Domina la gestión de cambios en bases de datos con Flyway. Aprende a versionar esquemas, aplicar rollbacks y automatizar migraciones en pipelines CI/CD. Asegura despliegues controlados, minimiza riesgos y mantén la integridad de tus datos en entornos empresariales.",
+    "description": "<h2>Objetivo General</h2><p>Capacitar a los participantes en la gestión de cambios de bases de datos mediante herramientas modernas, automatizando despliegues y aplicando buenas prácticas de migración en entornos empresariales, incluyendo arquitecturas multitenancy.</p><h2>MÓDULO 1: Fundamentos de Database Change Management</h2><h3>Introducción</h3><ul><li>¿Qué es Database Change Management (DCM)?</li><li>Retos comunes en la gestión de cambios de bases de datos.</li><li>¿Por qué es clave en entornos DevOps y CI/CD?</li></ul>\n<h3>Conceptos Clave </h3><ul><li>State-Based vs Migration-Based Approaches.</li><li>Versionado de esquemas y control de cambios.</li><li>Rollbacks: ¿Cuándo y cómo aplicarlos?</li><li>Importancia de los entornos sincronizados (Dev, QA, Prod).</li></ul><h3>Herramientas en el Ecosistema Java</h3><ul><li><strong>Flyway</strong>: Filosofía <em>Convention Over Configuration</em>.</li><li><strong>Liquibase</strong>: Definición declarativa de cambios.</li><li>¿Cuándo usar cada herramienta? Casos prácticos.</li></ul><h2>MÓDULO 2: Creación de Proyecto en Distinta Tecnología</h2><h3>Preparando el Entorno con Flyway</h3><ul><li>Java</li><li>Jakarta EE</li><li>Quarkus</li><li>Spring Boot</li></ul><h3>Primeras Migraciones</h3><ul><li>Creación de la primera versión de esquema: <code>V1__init.sql</code>.</li><li>Migraciones de datos iniciales.</li><li>Organización de archivos de migración.</li></ul><h2>MÓDULO 3: Flyway Avanzado y Rollbacks</h2><h3>Características Avanzadas de Flyway</h3><ul><li>Versioned Migrations vs Repeatable Migrations.</li><li>Control de checksums y validaciones.<h3>Implementación de Rollbacks</h3></li><li>Estrategias de rollback en Flyway.</li><li>Creación de scripts de reversión.</li><li>Simulación de fallos y recuperación controlada.<h2>MÓDULO 4: CI/CD Pipeline con GitHub Actions</h2><h3>Automatización de Migraciones</h3></li><li>Principios de Integración y Despliegue Continuo.</li><li>¿Por qué automatizar migraciones en el pipeline?<h3>Creación del Pipeline</h3></li><li>Configurar GitHub Actions para ejecutar:<ul><li>Build del proyecto.</li><li>Ejecución de migraciones con Flyway.</li><li>Simulación de despliegue a <em>staging</em>.</li></ul></li></ul><h2>MÓDULO 5: Migraciones en Ambientes Multitenancy y Escalabilidad con Vaadin Flow</h2><h3>Estrategias de Multitenancy</h3><ul><li>Base de datos por cliente (<em>Solo para explicar concepto</em>).</li><li>Esquema por cliente (<em>Se utilizará para hacer la demo</em>).</li><li>Filtro por columna (<em>Solo para explicar concepto</em>).<h3>Implementación en Vaadin Flow</h3></li><li>Cargar dinámicamente configuraciones de bases de datos.</li><li>Crear un servicio de migración dinámico con Flyway.</li></ul><h2>Cierre y Ronda de Preguntas</h2><hr><h2>Materiales Incluidos</h2><ul><li>Repositorio de los distintos proyectos y migraciones.</li><li>Plantilla de pipeline de GitHub Actions.</li><li>Scripts de migración y rollback.</li><li>Estrategia multitenancy con código de ejemplo.</li><li>Cheatsheet de comandos Flyway y buenas prácticas.</li></ul>",
+    "audience_level": "Intermediate",
+    "talk_format": "Workshop (\u003e 60 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Java",
+      "Database",
+      "DCM",
+      "DevOps",
+      "CI/CD",
+      "Flyway",
+      "Liquibase",
+      "Jakarta EE",
+      "Spring Boot",
+      "Quarkus",
+      "GitHub Actions",
+      "Pipeline",
+      "Multitenancy",
+      "Vaadin Flow"
+    ],
+    "speakers": [
+      "freddy-pena"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "AI: It AI-n't What You Think!",
+    "abstract": "Las innovaciones han transformado la vida de los seres humanos de un modo que nos resulta imposible imaginar cómo sobrevivían antes. Sin embargo, no abrazamos las innovaciones con facilidad y no deberíamos hacerlo en la mayoría de los casos. Nuestro tiempo en este mundo se yuxtapone con otra gran innovación en nuestro campo. ¿Se apoderará la IA del mundo, de nuestros trabajos, de nuestro modo de vida...? y muchas otras son las preguntas que nos hacemos con frecuencia estos días. Asista a esta conferencia y aprenda a subirse a la nueva ola en lugar de ser arrastrado por ella.",
+    "description": "Las innovaciones han transformado la vida de los seres humanos de un modo que nos resulta imposible imaginar cómo sobrevivían antes. Sin embargo, no abrazamos las innovaciones con facilidad y no deberíamos hacerlo en la mayoría de los casos. Nuestro tiempo en este mundo se yuxtapone con otra gran innovación en nuestro campo. ¿Se apoderará la IA del mundo, de nuestros trabajos, de nuestro modo de vida...? y muchas otras son las preguntas que nos hacemos con frecuencia estos días. Asista a esta conferencia y aprenda a subirse a la nueva ola en lugar de ser arrastrado por ella.",
+    "audience_level": "All",
+    "talk_format": "Keynote (~30-45 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "AI",
+      "Innovation"
+    ],
+    "speakers": [
+      "venkat-subramaniam"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Java: This Ain't Your Parent's Java",
+    "abstract": "Antes, Java era un lenguaje que avanzaba a paso de tortuga. Afortunadamente, ya no es así. En los últimos años el ritmo de desarrollo se ha acelerado, tanto en las características del lenguaje como en las mejoras del JDK. Acompáñenos para sumergirnos en algunos de los cambios recientes de Java que son a la vez divertidos y potentes de utilizar, para aprender cómo puede beneficiarse de ellos, y también hablaremos de hacia dónde se dirige el lenguaje en un futuro próximo.",
+    "description": "Antes, Java era un lenguaje que avanzaba a paso de tortuga. Afortunadamente, ya no es así. En los últimos años el ritmo de desarrollo se ha acelerado, tanto en las características del lenguaje como en las mejoras del JDK. Acompáñenos para sumergirnos en algunos de los cambios recientes de Java que son a la vez divertidos y potentes de utilizar, para aprender cómo puede beneficiarse de ellos, y también hablaremos de hacia dónde se dirige el lenguaje en un futuro próximo.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "Java",
+      "JDK",
+      "JVM"
+    ],
+    "speakers": [
+      "venkat-subramaniam"
     ]
   }
 ]

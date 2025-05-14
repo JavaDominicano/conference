@@ -45,10 +45,10 @@ let filterConfirmedSessions = function(sessionsJson) {
 
       sessionsJson.forEach(sessionObj => sessionList.push(sessionObj));
 
-      sessionList.sort(function(a, b){return a.id-b.id});
+      sessionList.sort(function(a, b){return a.id-b.id && b.featured - a.featured});
 
       let filteredSessions = sessionList.filter((session) => {
-            return session.talk_format.indexOf("Workshop")==-1;
+            return session.talk_format.indexOf("Workshop")==-1 && session.talk_format.indexOf("Keynote")==-1;
       });
 
     return filteredSessions.filter(item => item.display === true);

@@ -12,6 +12,7 @@
     "shortBio": "",
     "bio": "Ivar Grimstad is the Jakarta EE Developer Advocate at Eclipse Foundation. He is a Java Champion and JUG Leader based in Sweden. Besides advocating the Jakarta EE technologies, Ivar is contributing to the Jakarta EE specifications as well as being the PMC Lead for Eclipse Enterprise for Java (EE4J). He is also one of the specification leads for Jakarta MVC and represents Eclipse Foundation on the JCP Executive Committee. Ivar is also involved in various other open-source projects and communities. He is a frequent speaker at International developer conferences.",
     "display": true,
+     "featured": true,
     "badges": [
       {
         "name": "Jakarta EE Developer Advocate",
@@ -44,6 +45,7 @@
     "shortBio": "",
     "bio": "Isaac is a graduate of the Technological Institute of the Isthmus in Oaxaca, México.<br><br>He began to use Java in its 1.2 version (2000) when doing his professional practices in the artificial intelligence laboratory of the Center for Research in Computing (CIC), of the National Polytechnic Institute in Mexico.<br>He is a software consultant since 2003, is specialized in applications Integration and has participated in projects related mainly to the financial sector.<br><br>For more than 10 years he has worked with different application servers for the java world and now he is trying to adapt this knowledge to the new deployment architectures.<br><br>Isaac is a promoter of the java language and has participated in different communities such as javaHispano and javaMéxico.<br>As part of the staff of the javaMexico community, Isaac promotes the use of Java and Java-related technologies by writing on his blog and as a speaker at JUG events.<br><br>Isaac has published several articles about the java ecosystem on different websites, including OTN and is frequent Speaker at LAOUC/ORAMEX events.<br>He was recently named part of the Neo4j Ninja program: https://neo4j.com/ninjas-program/",
     "display": true,
+     "featured": false,
     "badges": [
       {
         "name": "Solution Architect",
@@ -76,6 +78,7 @@
     "shortBio": "",
     "bio": "Professional passionate about creating and growing through collaborative tech communities, with a focus on optimizing developer experience and scaling platforms. Actively involved in the CNCF ecosystem and committed to driving innovation through practical solutions in the cloud-native space.",
     "display": true,
+    "featured": false,
     "badges": [
       {
         "name": "Sr System Engineer",
@@ -103,6 +106,7 @@
     "shortBio": "",
     "bio": "Computer Engineer graduated from Pontificia Universidad Católica del Perú. Software Architect with extensive experience in analysis, design and implementation of SOA and Microservices solutions under Java EE architecture, using agile methodologies and frameworks such as Scrum. Experience in logistics projects, pharmaceuticals, telecommunications for over 25 years in Peru, Mexico and USA. Founder of JoeDayz.pe company recognized in the Peruvian market for its training courses in front-end, backend and mobile software development.Since September 2024, he has been working as a Cloud Architect at Oracle.<br><br>JUG Leader of PERU JUG.",
     "display": true,
+     "featured": false,
     "badges": [
       {
         "name": "Software Architect",
@@ -135,6 +139,7 @@
     "shortBio": "",
     "bio": "Enrique Zamudio is a professional programmer since 1994, based in Mexico City. He has specialized in server-side development with Java since 2000, focusing on backend applications, such as transactional switches for e-commerce and payment platforms. He is the author of the open source projects jAlarms, j8583 and ScalaSQL. Enrique joined the Ceylon Language development core team on January 2012, where he's contributed to the language module, the web IDE and the JVM compiler, and is the lead developer of the Ceylon-to-JavaScript compiler.<br>He's currently Principal Engineer at Bitso.",
     "display": true,
+    "featured": false,
     "badges": [
       {
         "name": "Principal Engineer",
@@ -167,6 +172,7 @@
     "shortBio": "",
     "bio": "Mihaela is a Software Architect at Systematic, Romania. Ph.D in artificial neural network algorithms, Assistant Professor at the University of Cybernetics and Informatics in Bucharest, she is a dedicated lead developer and architect who enjoys sharing her knowledge.<br><br>In her professional career, spanning over 12+ years, she worked for telecom and defence domains with a focus on Java, Spring Boot, C, C#, Scala and Angular.<br><br>Apart from her passion for programming, she loves parrots, she is enthusiastic about traveling the world and doing a lot of sports, from running at marathons, martial arts and to different aerobic trainings.",
     "display": true,
+     "featured": true,
     "badges": [
       {
         "name": "Software Architect",
@@ -194,6 +200,7 @@
     "shortBio": "",
     "bio": "Sandon Jacobs is a Senior Developer Advocate at Confluent based in North Carolina. Sandon has built microservices and event streaming applications in several industries - including television media, energy, mobile advertising, rail freight logistics, and healthcare. This experience spans multiple JVM languages - Java, Scala, Kotlin, Groovy - with smatterings of Python and JavaScript along the way.Sandon lives in Raleigh, NC, with his wife and 2 daughters. He is an enrolled citizen of the Waccamaw-Siouan Tribe of North Carolina, and can frequently be found at powwows around North America as a singer and speaker. Sandon is the Chairman of the Board of the Commissioners for the North Carolina American Indian Heritage Commission. Fun fact: an avid golfer since the age of 5, he was once mistaken for Tiger Woods at a teen golf event in the early 1990s. Check out his writings at https://medium.com/indigitech-blog and https://dev.to/sandonjacobs.",
     "display": true,
+    "featured": true,
     "badges": [
       {
         "name": "Senior Developer Advocate",
@@ -221,6 +228,7 @@
     "shortBio": "",
     "bio": "David Parry is an accomplished Director of Architecture with over 20 years of experience in Java development. It all began in 1996 when he discovered the fascinating world of programming, with a particular focus on Java applets.<br>Throughout his illustrious career, David Parry has been involved in various noteworthy projects. He has successfully built and implemented content management systems for a wide range of clients, including the esteemed Johny Walker and its renowned keepwalking.com. Additionally, as a consultant at a Big 4 firm, David played a pivotal role in solving critical issues for numerous customers, demonstrating his expertise in handling complex and high-traffic web platforms.<br>Never one to shy away from innovation, David Parry has expanded his skills to work on cutting-edge technologies such as mobile and embedded Android TV systems. Leveraging his expertise, he has delivered top-notch streaming services to customers, ensuring they have an exceptional viewing experience.<br>Currently, David holds the position of Developer Advocate and Consultant overseeing strategic planning and execution of architectural designs for customers. With a deep understanding of software development principles and extensive experience in Java programming, he excels at providing valuable insights and guidance to his team.<br>Having witnessed the evolution of Java development from its early days to its current state, David Parry's wealth of experience and strategic perspective, combined with his consulting work at a Big 4 firm, make him an invaluable asset in any project or organization he is a part of.",
     "display": true,
+    "featured": false,
     "badges": [
       {
         "name": "Developer Advocate",
@@ -248,6 +256,7 @@
     "shortBio": "",
     "bio": "For over 20 years, David has been in the software development field. He has worked in organizations in the telecommunications and financial sector, for companies such as Claro, Banco Popular and APAP. He has taught for over 20 years at INTEC. He recently founded a software development company, and an academy to teach Agile and software best practices.",
     "display": true,
+    "featured": false,
     "badges": [
       {
         "name": "Co-Founder",
@@ -275,6 +284,8 @@
     "shortBio": "",
     "bio": "I am Jorge Morla a 26 year old engineer graduated from O&M Dominicana with more than 8 years of experience in Java. My passion for programming is reflected in my enthusiasm to face challenges that test my skills and push me to find innovative solutions.<br><br>I have a strong background in software development, I have worked on various projects ranging from enterprise applications to industry specific solutions.<br><br>My experience has allowed me to not only hone my technical skills in Java, but also develop a hands-on approach to tackling software development challenges.I am passionate about exploring new technologies and taking innovative approaches to software design and implementation. Problem solving and creating practical solutions are at the core of my approach, and I am always eager to learn and apply new ideas in my projects.",
     "display": true,
+    "featured": false,
+
     "badges": [
       {
         "name": "Senior Software Engineer",
@@ -312,6 +323,7 @@
     "shortBio": "",
     "bio": "Mirna is a software engineer with over a decade of experience in backend development, specializing in Java technologies. Throughout her career, she has worked in industries such as telecommunications, healthcare, financial technology and more recently in the public sector, building scalable and reliable systems while fostering a culture of effective collaboration.<br><br>One of her most notable achievements was her contribution in building a stock market from scratch at the Long Term Stock Exchange (LTSE), where she designed and maintained critical microservices, optimized system performance with low latency strategies and integrated the platform with key financial entities such as DTCC and SIPs.<br><br>Early in her career, Mirna was recognized multiple times for her achievements as a young developer in the Dominican Republic. Through her work, she seeks to make a positive impact on society and inspire more women to get into technology. She graduated as a Software Development Technologist from ITLA and holds a degree in Information Systems Engineering from UNAPEC.",
     "display": true,
+    "featured": false,
     "badges": [
       {
         "name": "Senior Java Developer",
@@ -344,6 +356,7 @@
     "shortBio": "",
     "bio": "I am a software enthusiast and I like to share my experience and as over the years I have been able to see in different projects, always present best practices and an optimistic focus, but outside of software I am a person who likes music , I play guitar, I like traveling and meeting new places, good food \uD83D\uDE05, meeting new people and learning from them.",
     "display": true,
+    "featured": false,
     "badges": [
       {
         "name": "Sr. Android Developer",
@@ -371,6 +384,7 @@
     "shortBio": "",
     "bio": "I am a Telematics Engineer, with a Master's degree in Data Science, and I currently work as a Software Engineer specializing in backend development. I am passionate about building innovative solutions that connect complex systems and create real impact, working with languages such as Java, Kotlin, Node.js, and Python, along with other complementary technologies. I am currently delving deeper into the fields of Artificial Intelligence and Sports Analytics, applying data analysis and the development of predictive models to generate practical, high-impact solutions. Beyond the world of technology, I’m a big fan of sports (mainly soccer, basketball, and baseball) and music. I'm passionate about the piano —though I'm still learning to play— and I enjoy exploring new ways to connect creativity with engineering.",
     "display": true,
+    "featured": false,
     "badges": [
       {
         "name": "Software Engineer",
@@ -392,6 +406,7 @@
     "shortBio": "",
     "bio": "I'm a Software Engineer and Data Scientist with an MSc in Data Science (UCJC) and a degree in Telematics Engineering (PUCMM). With over 5 years of software development experience and 2 years focused on AI and Data Science, I’m also a board member of the Dominican Republic Java User Group (@JavaDominicano), where I speak on topics like Java and Machine Learning. Additionally, I teach at PUCMM in areas such as Programming and AI, and actively contribute to open-source projects.",
     "display": true,
+    "featured": false,
     "badges": [
       {
         "name": "Software Engineer",
@@ -429,6 +444,7 @@
     "shortBio": "",
     "bio": "I'm a Senior Java Software Developer with 20 years of experience on the market, currently working with Payara to provide a very good tool for enterprise development. Also I'm a member of Jakarta and microprofile working groups where I work actively to contribute with the latest versions of the specifications.",
     "display": true,
+    "featured": false,
     "socials": [
       {
         "icon": "twitter",
@@ -439,6 +455,87 @@
         "icon": "linkedin",
         "name": "Linkedin",
         "link": "https://www.linkedin.com/in/alfonso-valdez-altamirano-dev/"
+      }
+    ]
+  },
+  {
+    "numOrder": 116,
+    "speakerId": "freddy-pena",
+    "name": "Freddy Peña",
+    "company": "Alphnology",
+    "companyLogo": "",
+    "title": "Founder & Software Engineer",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/freddy-pena.jpg",
+    "shortBio": "",
+    "bio": "<b>Founder of Alphnology</b>, <b>Technical Consultant</b>, and a passionate <b>Software Engineer</b> with over 12 years of expertise in Java development and 8+ years of experience managing and implementing SAP B1 projects. Holding a Master's degree in Web Engineering, I am also a dedicated educator currently teaching at PUCMM and an active member of the Dominican Java Community. I am skilled in designing, developing, and deploying high-performance, scalable applications using Java and various modern frameworks like Spring Boot, Vaadin Flow, Quarkus, Jakarta EE, Vert.x, and Hibernate. I am also an enthusiast of open-source projects.<br><br>With proven experience in integrating enterprise-level software, providing expert technical consulting, and managing end-to-end development lifecycles, I focus on code quality, system optimization, and scalability.<br><br>My approach spans from developing enterprise applications to implementing cloud solutions, always adhering to best practices and maintaining high code quality. I am always learning about the latest emerging technologies and staying up-to-date with new trends in the software development world.",
+    "display": true,
+    "featured": false,
+    "badges": [
+      {
+        "name": "Founder & Software Developer",
+        "description": "Founder & Software Developer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/fred_pena"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/fredpena"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/fantpena/"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://alphnology.com/"
+      }
+    ]
+  },
+  {
+    "numOrder": 117,
+    "speakerId": "venkat-subramaniam",
+    "name": "Dr. Venkat Subramaniam",
+    "company": "Agile Developer, Inc",
+    "companyLogo": "",
+    "title": "Founder",
+    "country": "USA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/img/speakers/venkat-subramaniam.jpg",
+    "shortBio": "",
+    "bio": "Dr. Venkat Subramaniam is an internationally renowned speaker, award-winning author, founder of Agile Developer, Inc., and an instructional professor at the University of Houston. With a career spanning decades, he has delivered talks on software development, programming languages, and sustainable agile practices, inspiring tens of thousands of developers across the globe.<br><br>Venkat has authored multiple best-selling books, including Functional Programming in Java, Programming Kotlin, and Rediscovering JavaScript. His engaging style, deep insights, and practical advice have made him one of the most sought-after educators in the tech industry.",
+    "display": true,
+    "featured": true,
+    "badges": [
+      {
+        "name": "Founder",
+        "description": "Founder"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://x.com/venkat_s"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/vsubramaniam/"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://agiledeveloper.com"
       }
     ]
   }
