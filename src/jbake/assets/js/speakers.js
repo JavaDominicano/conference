@@ -24,7 +24,7 @@ let createSpeakerCard = function(speakerJson) {
 
 let renderSpeakerList = function(speakersList){
          let speakers = document.getElementById('listSpeakers');
-         speakersList.sort(function(a, b){return a.numOrder-b.numOrder});
+         speakersList.sort(function(a, b){return a.numOrder-b.numOrder && b.featured - a.featured});
          speakersList.forEach(speakerJson => speakers.innerHTML += createSpeakerCard(speakerJson));
 }
 

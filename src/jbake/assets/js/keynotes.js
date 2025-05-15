@@ -2,26 +2,26 @@ import { getUsefulContents, getUsefulLink } from '/js/util-url.js';
 
 import {fetchData, filterSpeakerById} from '/js/fetch-util.js';
 
-let filterConfirmedWorkshop = function(sessionsJson) {
+let filterConfirmedKeynote = function(sessionsJson) {
 
-      let workshopList = [];
+      let keynoteList = [];
 
-      sessionsJson.forEach(sessionObj => workshopList.push(sessionObj));
+      sessionsJson.forEach(sessionObj => keynoteList.push(sessionObj));
 
-      workshopList.sort(function(a, b){return a.id-b.id});
+      keynoteList.sort(function(a, b){return a.id-b.id});
 
-      let filteredWorkshops = workshopList.filter((session) => {
-            return session.talk_format.indexOf("Talk")==-1 && session.talk_format.indexOf("Keynote")==-1;
+      let filteredKeynotes = keynoteList.filter((session) => {
+            return session.talk_format.indexOf("Talk")==-1 && session.talk_format.indexOf("Workshop")==-1;
       });
 
-    return filteredWorkshops.filter(item => item.display === true);
+    return filteredKeynotes.filter(item => item.display === true);
 }
 
 
-let renderWorkshopsList = function(sessionJson) {
-      let workshops = document.getElementById('workshopsList');
+let renderKeynotesList = function(sessionJson) {
+      let keynotes = document.getElementById('keynotesList');
 
-     sessionJson.forEach((workshop) => workshops.innerHTML += createWorkshopCard(workshop));
+     sessionJson.forEach((keynote) => keynotes.innerHTML += createKeynoteCard(keynote));
 
 }
 
@@ -29,11 +29,11 @@ let renderWorkshopsList = function(sessionJson) {
 let sessionUrl = getUsefulContents("lang", "../json/sessions");
 let jsonData = await fetchData(sessionUrl);
 
-let filteredWorkshopList = filterConfirmedWorkshop(jsonData);
-renderWorkshopsList(filteredWorkshopList);
+let filteredKeynoteList = filterConfirmedKeynote(jsonData);
+renderKeynotesList(filteredKeynoteList);
 
 
-$(document).on('click', '#workshopsList li.meeta-event-accordion-item > .meeta-event-accordion-toggle', function(){
+$(document).on('click', '#keynotesList li.meeta-event-accordion-item > .meeta-event-accordion-toggle', function(){
   if ($(this).hasClass("active")) {
     $(this).removeClass("active");
     $(this).siblings(".meeta-event-accordion-body").slideUp(200);
@@ -45,12 +45,12 @@ $(document).on('click', '#workshopsList li.meeta-event-accordion-item > .meeta-e
 }
 });
 
-function createWorkshopCard(workshop) {
+function createKeynoteCard(keynote) {
 
-  let workshopId = workshop.id;
-  let title = workshop.title;
-  let description = workshop.description;
-  let speakers = workshop.speakers; 
+  let keynoteId = keynote.id;
+  let title = keynote.title;
+  let description = keynote.description;
+  let speakers = keynote.speakers; 
 
 
   var sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
@@ -61,18 +61,18 @@ function createWorkshopCard(workshop) {
      "<div class=\"meeta-event-accordion-body\" style=\"padding-left: 0px;\">"+
      "<p>"+description+"</p>"+
      "<br><br><h3>Instructor(s)</h3>"+
-     "<div id=\"instructors-"+ workshopId  +"\"></div>"+
+     "<div id=\"instructors-"+ keynoteId  +"\"></div>"+
       "</div>"+
       "</li>";
 
       for (let i in speakers) {
-         renderWorkshopInstructors(getUsefulContents("lang", "../json/speakers"),speakers[i],workshopId)
+         renderKeynoteInstructors(getUsefulContents("lang", "../json/speakers"),speakers[i],keynoteId)
      }
 
         return sessionHtml;
 }
 
-async function renderWorkshopInstructors(fetchUrlSpeaker,speakerId, workshopId){
+async function renderKeynoteInstructors(fetchUrlSpeaker,speakerId, keynoteId){
 
         let speakersData = await fetchData(fetchUrlSpeaker);
         let speakerDetailsList = filterSpeakerById(speakersData,speakerId);
@@ -80,7 +80,7 @@ async function renderWorkshopInstructors(fetchUrlSpeaker,speakerId, workshopId){
 
         let speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
          
-        let instructors = document.getElementById("instructors"+"-"+workshopId);
+        let instructors = document.getElementById("instructors"+"-"+keynoteId);
 
         instructors.innerHTML +=  "<div class=\"col-lg-3\"><a href=\"" + speakerUrlDetail + "\"><img src=\"" + speaker.photoUrl +"\" style=\"border-radius: 5px;\"  alt=\""+speaker.name+"\"></a></div><h3 class=\"speaker-name\">" + speaker.name + " <span class=\"flag-icon " + speaker.countryFlag + "\"></span></h3>" +
         "<p class=\"speaker-designation\">" + speaker.title + "</p>" ;
