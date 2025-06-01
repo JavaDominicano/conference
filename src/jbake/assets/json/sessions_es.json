@@ -106,7 +106,7 @@
     "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
-    "display": true,
+    "display": false,
     "featured": true,
     "tags": [
       "Server side development",

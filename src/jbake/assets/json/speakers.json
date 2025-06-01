@@ -171,7 +171,7 @@
     "photoUrl": "/img/speakers/mihaela-gheorghe-roman.jpg",
     "shortBio": "",
     "bio": "Mihaela is a Software Architect at Systematic, Romania. Ph.D in artificial neural network algorithms, Assistant Professor at the University of Cybernetics and Informatics in Bucharest, she is a dedicated lead developer and architect who enjoys sharing her knowledge.<br><br>In her professional career, spanning over 12+ years, she worked for telecom and defence domains with a focus on Java, Spring Boot, C, C#, Scala and Angular.<br><br>Apart from her passion for programming, she loves parrots, she is enthusiastic about traveling the world and doing a lot of sports, from running at marathons, martial arts and to different aerobic trainings.",
-    "display": true,
+    "display": false,
      "featured": true,
     "badges": [
       {
