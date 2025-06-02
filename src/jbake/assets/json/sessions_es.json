@@ -100,26 +100,19 @@
   },
   {
     "id": 106,
-    "title": "Building a real-time collaborative editor",
-    "abstract": "Esta presentación representa un enfoque paso a paso de la construcción de una funcionalidad compleja, a partir de las necesidades operativas, las decisiones arquitectónicas y la descripción algorítmica de la solución. Se trata de un escenario real de diseño de una solución de editor de texto colaborativo.",
-    "description": "¿Alguna vez te has preguntado lo que se necesita para desarrollar una solución similar a Google Docs y luego construir sobre ella con capas adicionales de seguridad y funcionalidad?<br><br> Durante la fase de planificación de una operación militar, hay múltiples documentos de texto que necesitan ser actualizados simultáneamente por varios usuarios. Al mismo tiempo, es necesario garantizar la seguridad en los despliegues aéreos.<br><br>Por tanto, se necesita una solución que cumpla normas estrictas de seguridad, rendimiento y calidad.<br><br>En mi presentación, describiré una solución integrada basada en algoritmos avanzados de transformación operativa que permite la edición colaborativa segura en tiempo real, así como varios retos a los que nos hemos enfrentado durante el desarrollo y cómo hemos conseguido superarlos.",
+    "title": "How and why to participate in the future of the Java Platform",
+    "abstract": "Descubra cómo participar en la evolución y cómo impulsar y desarrollar la próxima generación de desarrolladores de Java, cómo trabajamos para impulsar la adopción de nuevas versiones de Java en el ecosistema y cómo estamos evolucionando Java para convertirlo en la plataforma predilecta para las cargas de trabajo de IA.",
+    "description": "Gran parte del éxito del lenguaje de programación Java se puede atribuir a cómo el lenguaje evoluciona y cómo la comunidad mundial de #Javadevelopers colabora en esa evolución. Son ustedes, los miembros de la comunidad Java, quienes hacen realidad esa posibilidad. El Programa Java Community Process (JCP) es el proceso mediante el cual la comunidad internacional de Java estandariza y ratifica las especificaciones para las tecnologías Java. ¡Celebramos 30 años de Java en 2025! La colaboración de la comunidad en el programa JCP es esencial para Java. Aprenda cómo participar en la evolución y cómo crecer y construir la próxima generación de desarrolladores de Java, cómo estamos trabajando para avanzar en la adopción de nuevas versiones de Java en el ecosistema. También cómo estamos evolucionando Java para que sea la plataforma preferida para cargas de trabajo de IA. Esperamos futuras innovaciones y la colaboración de la comunidad en los próximos años. Conozca las novedades en la plataforma en Java 25 y posteriores, y cómo participar en la comunidad.",
     "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
-    "display": false,
+    "display": true,
     "featured": true,
     "tags": [
-      "Server side development",
-      "client-side development",
-      "java",
-      "angular",
-      "frameworks",
-      "algorithms",
-      "notifications",
-      "collaborative"
+      "java"
     ],
     "speakers": [
-      "mihaela-gheorghe-roman"
+      "heather-vancura"
     ]
   },
   {
