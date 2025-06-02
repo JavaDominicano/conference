@@ -171,7 +171,7 @@
     "photoUrl": "/img/speakers/mihaela-gheorghe-roman.jpg",
     "shortBio": "",
     "bio": "Mihaela es arquitecta de software en Systematic, Rumanía. Doctora en algoritmos de redes neuronales artificiales, profesora asistente en la Universidad de Cibernética e Informática de Bucarest, es una dedicada desarrolladora y arquitecta que disfruta compartiendo sus conocimientos.<br><br>En su carrera profesional, que abarca más de 12 años, ha trabajado para los sectores de telecomunicaciones y defensa, centrándose en Java, Spring Boot, C, C#, Scala y Angular.<br><br>Aparte de su pasión por la programación, le encantan los loros, le entusiasma viajar por el mundo y hacer mucho deporte, desde correr en maratones, artes marciales y hasta diferentes entrenamientos aeróbicos.",
-    "display": true,
+    "display": false,
     "featured": true,
     "badges": [
       {
