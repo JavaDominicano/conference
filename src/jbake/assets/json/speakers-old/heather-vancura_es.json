@@ -1,0 +1,22 @@
+{
+  "id": "heather-vancura",
+  "name": "Heather VanCura",
+  "photoUrl": "/img/speakers/heather-vancura.jpeg",
+  "title": "Director & Chairperson",
+  "shortBio": "Vicepresidente de Participación Comunitaria @Oracle, Director y Presidente del Programa Java Community Process (JCP), MySQL Community/DevRel y Miembro de la Junta",
+  "countryFlag": "flag-icon-us",
+  "bio": "Heather VanCura es vicepresidenta de Participación Comunitaria en Oracle y lidera el programa Java Community Process (JCP) y el equipo de Difusión Comunitaria MySQL. Con más de 20 años de experiencia en Oracle y Sun Microsystems, colabora activamente con la comunidad de desarrolladores como ponente internacional, organizadora de eventos y mentora. Ha visitado seis continentes y más de cincuenta países, donde se ha reunido con desarrolladores y les ha ayudado a participar en proyectos relacionados con estándares y código abierto. A Heather le apasiona promover la diversidad en la tecnología y colabora como voluntaria con organizaciones como Women Who Code e IEEE Women in Engineering. Su amplia participación incluye su participación en las juntas directivas de Dress for Success y FIRST LEGO League NorCal. Su dedicación a empoderar a los desarrolladores y a promover la diversidad la convierte en una líder respetada en el sector.",
+  "tags": [],
+  "socials": [
+    {
+      "icon": "twitter",
+      "name": "Twitter",
+      "link": "https://x.com/heathervc"
+    },
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/heather-vancura-400395/"
+    }
+  ]
+}

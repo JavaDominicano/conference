@@ -159,31 +159,36 @@
       }
     ]
   },
-   {
+  {
     "numOrder": 106,
-    "speakerId": "mihaela-gheorghe-roman",
-    "name": "Mihaela Gheorghe-Roman",
-    "company": "Systematic",
+    "speakerId": "heather-vancura",
+    "name": "Heather VanCura",
+    "company": "Oracle",
     "companyLogo": "",
-    "title": "Software Architect",
-    "country": "Romania",
-    "countryFlag": "flag-icon-ro",
-    "photoUrl": "/img/speakers/mihaela-gheorghe-roman.jpg",
-    "shortBio": "",
-    "bio": "Mihaela is a Software Architect at Systematic, Romania. Ph.D in artificial neural network algorithms, Assistant Professor at the University of Cybernetics and Informatics in Bucharest, she is a dedicated lead developer and architect who enjoys sharing her knowledge.<br><br>In her professional career, spanning over 12+ years, she worked for telecom and defence domains with a focus on Java, Spring Boot, C, C#, Scala and Angular.<br><br>Apart from her passion for programming, she loves parrots, she is enthusiastic about traveling the world and doing a lot of sports, from running at marathons, martial arts and to different aerobic trainings.",
-    "display": false,
-     "featured": true,
+    "title": "Director & Chairperson",
+    "country": "United States",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/img/speakers/heather-vancura.jpeg",
+    "shortBio": "Vice President, Community Engagement @Oracle, Director & Chairperson at Java Community Process (JCP) Program, MySQL Community/DevRel, and Board Member",
+    "bio": "Heather VanCura is a Vice President, Community Engagement at Oracle, leading the Java Community Process (JCP) program and MySQL Community Outreach team. With 20+ years of experience at Oracle and Sun Microsystems, she actively engages with the developer community as an international speaker, event organizer, and mentor. She has visited six continents and over fifty countries meeting developers and helping them to engage in standards-related and open source projects. Heather is passionate about promoting diversity in technology and volunteers with organizations like Women Who Code and IEEE Women in Engineering. Her extensive involvement includes serving on the boards of Dress for Success and FIRST LEGO League NorCal. Heather's dedication to empowering developers and advocating for diversity makes her a respected leader in the industry.",
+    "display": true,
+    "featured": true,
     "badges": [
       {
-        "name": "Software Architect",
-        "description": "Software Architect"
+        "name": "Director & Chairperson",
+        "description": "Director & Chairperson"
       }
     ],
     "socials": [
       {
-        "icon": "link",
-        "name": "Link",
-        "link": "https://sessionize.com/mihaela-gheorghe/"
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://x.com/heathervc"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/heather-vancura-400395/"
       }
     ]
   },
