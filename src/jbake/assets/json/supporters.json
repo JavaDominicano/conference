@@ -24,6 +24,18 @@
     "name": "Comité de Estudiantes de Ingeniería en Ciencias de la Computación",
     "logoUrl": "/img/supporters/cicc-logo.png",
     "url": "https://www.instagram.com/ciccpucmm"
+  },
+  {
+    "id": "GInIEm",
+    "name": "GInIEm - Consultoria, Desarrollo de Software y Staffing",
+    "logoUrl": "/img/supporters/giniem-logo-es-sqr.png",
+    "url": "https://giniem.com"
+  },
+  {
+    "id": "JugNicaragua",
+    "name": "Jug Nicaragua",
+    "logoUrl": "/img/supporters/nicaraguaJUG.png",
+    "url": "https://x.com/jugnicaragua"
   }
 
 ]

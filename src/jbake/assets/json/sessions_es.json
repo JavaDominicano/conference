@@ -336,5 +336,24 @@
     "speakers": [
       "venkat-subramaniam"
     ]
+  },
+  {
+    "id": 118,
+    "title": "OpenTelemetry para todos",
+    "abstract": "OpenTelemetry es un framework para implementar observabilidad, en este taller queremos mostrar las  ventajas y el porqué es importante adoptar OpenTelemetry.",
+    "description": "OpenTelemetry es un proyecto de la CNCF(Cloud Native Computing Foundation), en concreto es un framework para implementar observabilidad.<br><br>El hecho de que sea: <b>Vendor- and tool- agnostic</b> a veces en lugar de ayudar a adoptarlo confunde y crea cierta resistencia innecesaria a su difusión.<br><br>Está formado por varios componentes, y la intención de este taller es mostrar un repaso didáctico de todos estos componentes.<br><br><h2>Temario</h2><ol><li>Introducción.<ol><li> ¿Por qué es necesario?.</li><li> Metricas.</li><li> Logs.</li><li> Traces.</li><li> ¿MELT?</li><li> OpenTelemetry Framework<ul><li>OTLP. OpenTelemetry Protocol.</li><li>Signals.</li><li>Documentación de Referencia.</li></ul></li></ol></li><li>Componentes Clave.</li><li>Referencias.</li><li>Dónde seguir.</li><li>Laboratorios. <ol><li>Instrumentación</li><li> Instrumentación Automática.</li><li> Instrumentación con librerías.</li><li> Instrumentación Manual.</li></ol></li><li>Troubleshooting.</li></ol>",
+    "audience_level": "All",
+    "talk_format": "Workshop (\u003e 60 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "java",
+      "openTelemetry",
+      "observability"
+    ],
+    "speakers": [
+      "isaac-ruiz"
+    ]
   }
 ]
