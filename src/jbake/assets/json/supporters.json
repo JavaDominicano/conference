@@ -36,6 +36,12 @@
     "name": "Jug Nicaragua",
     "logoUrl": "/img/supporters/nicaraguaJUG.png",
     "url": "https://x.com/jugnicaragua"
+  },
+  {
+    "id": "JavaMexico",
+    "name": "Java México",
+    "logoUrl": "/img/supporters/java-mexico.png",
+    "url": "https://x.com/javamexico"
   }
 
 ]

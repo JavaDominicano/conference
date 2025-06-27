@@ -21,10 +21,8 @@
                 <!-- Section Title End -->
 
                 <!-- Sponsor Start -->
-                <div class="meeta-sponsor-wrap">
-                    <div class="row" id="sponsorsList">
+                <div class="meeta-sponsor-wrap" style="text-align: center;" id="sponsorsList">
 
-                    </div>
                 </div>
                 <!-- Sponsor End -->
 
