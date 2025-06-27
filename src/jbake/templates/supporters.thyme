@@ -21,7 +21,7 @@
 
                 <!-- Supporter Start -->
                 <div class="meeta-sponsor-wrap">
-                    <div class="row" id="supportersList"></div>
+                    <div class="row" id="supportersList justify-content-center"></div>
                 </div>
                 <!-- Supporter End -->
             </div>

@@ -1,21 +1,19 @@
-fetch("../json/sponsors.json")
-    .then(function (response) {
-        if (!response.ok) {
-            throw Error(response.statusText);
-        }
 
-        return response.json();
-    })
-    .then(function (sponsorsJson) {
-        let sponsors = document.getElementById('sponsorsList');
-        // traitement de l'objet
-        for (let i in sponsorsJson) {
-            sponsors.innerHTML += createSponsorCard(sponsorsJson[i]);
-        }
-    }).catch((error) => {
-    console.error(error);
-});
+import { getUsefulContents, getUsefulLink } from '/js/util-url.js';
+import {fetchData} from '/js/fetch-util.js';
 
+
+function createSponsorCardRow(sponsorJson) {
+
+    let rowHtml = "<h2>"+sponsorJson.packageName+"</h2>"+
+            "<div class=\"row justify-content-center\">";
+
+      sponsorJson.sponsors.forEach((sponsor) => rowHtml += createSponsorCard(sponsor));
+
+      rowHtml +=  "</div>";
+
+      return rowHtml;
+}
 
 function createSponsorCard(sponsorJson) {
 
@@ -25,3 +23,29 @@ function createSponsorCard(sponsorJson) {
         "</div>" +
         "</div>";
 }
+
+
+let sponsorList = function(sponsorsJson) {
+
+      let sponsorsList = [];
+
+      sponsorsJson.forEach(sponsorObj => sponsorsList.push(sponsorObj));
+
+
+    return sponsorsList;
+}
+
+let renderSponsorList = function(sponsorsList) {
+       let sponsorsHtml = document.getElementById('sponsorsList');
+
+       sponsorsList.forEach(sponsor => sponsorsHtml.innerHTML += createSponsorCardRow(sponsor));
+
+}
+
+
+let sponsorUrl = "../json/sponsors.json";
+let jsonData = await fetchData(sponsorUrl);
+let geekSponsorList = sponsorList(jsonData);
+
+renderSponsorList(geekSponsorList);
+

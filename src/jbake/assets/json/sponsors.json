@@ -1,23 +1,44 @@
 [
-  {
-    "id": "pucmm",
-    "name": "PUCMM",
-    "logoUrl": "/img/sponsors/pucmm.png",
-    "url": "https://www.pucmm.edu.do/"
-  },
-  
-  {
-    "id": "alphnology",
-    "name": "Alphnology",
-    "logoUrl": "/img/sponsors/alphnology.png",
-    "url": "https://alphnology.com/"
-  },  
- 
-  {
-    "id": "avathartech",
-    "name": "Avathar Tech",
-    "logoUrl": "/img/sponsors/AvatharTech.png",
-    "url": "https://avathartech.com/"
-  }
 
+  {
+    "id": "geekTitanium",
+    "packageName": "Geek Titanium",
+    "sponsors": [
+      {
+        "id": "pucmm",
+        "name": "PUCMM",
+        "logoUrl": "/img/sponsors/pucmm.png",
+        "url": "https://www.pucmm.edu.do/",
+        "packageType": "Geek Titanium"
+      },
+      {
+        "id": "oriontek",
+        "name": "OrionTek",
+        "logoUrl": "/img/sponsors/oriontek.png",
+        "url": "http://www.oriontek.do/",
+        "packageType": "Geek Titanium"
+      }
+    ]
+  },
+
+  {
+    "id": "geek",
+    "packageName": "Geek",
+    "sponsors" : [
+      {
+        "id": "alphnology",
+        "name": "Alphnology",
+        "logoUrl": "/img/sponsors/alphnology.png",
+        "url": "https://alphnology.com/",
+        "packageType": "Geek"
+      },
+      {
+        "id": "avathartech",
+        "name": "Avathar Tech",
+        "logoUrl": "/img/sponsors/AvatharTech.png",
+        "url": "https://avathartech.com/",
+        "packageType": "Geek"
+      }
+    ]
+  }
 ]
