@@ -41,11 +41,11 @@
 
                         </div>
                         <div class="row">
-                        <div class="col-lg-8">
-                         <div class="see-previous text-center">
-                             <a class="btn-2" href="/gallery.html">See Photos of Previous Editions</a>
-                         </div>
-                         </div>
+                            <div class="col-lg-8">
+                             <div class="see-previous text-center">
+                                 <a class="btn-2" href="/gallery.html">See Photos of Previous Editions</a>
+                             </div>
+                           </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -78,7 +78,6 @@
 
                 </div>
                 <!-- Register & Countdown Wrapper End -->
-            </div>
 
             <img class="register-countdown-shape" 
             th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'img/meeta/shape/shape-5.png'"

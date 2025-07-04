@@ -23,7 +23,7 @@
                             <ul class="main-menu">
                                 <li><a href="/index.html">Home</a></li>
                                 <li th:if="${config.layout_display_tickets}"><a th:href="${config.layout_display_page_spa}?'/index.html#buy-tickets':'/buy-tickets.html'" href="/buy-tickets.html">Tickets</a></li>
-                                <li th:if="${config.layout_display_schedule}"><a th:href="${config.layout_display_page_spa}?'/index.html#schedule':'/schedule.html'" href="/schedule.html">Agenda</a></li>
+                                <li th:if="${config.layout_display_schedule}"><a href="/index.html#schedule">Agenda</a></li>
                                 <li th:if="${config.layout_display_speakers}"><a th:href="${config.layout_display_page_spa}?'/index.html#speakers':'/speakers.html'" href="/speakers.html">Speakers</a></li>
                                 <li th:if="${config.layout_display_sessions}"><a href="/sessions.html">Sessions</a></li>
                                 <li th:if="${config.layout_display_presentations_page}"><a href="/presentations.html">Presentations</a></li>
