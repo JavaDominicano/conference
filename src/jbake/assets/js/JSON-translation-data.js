@@ -823,7 +823,28 @@ var linguJSON = {
        {
          'source': 'Notice:Here are some confirmed sessions. More will be posted in the near future',
          'target_es': 'Aviso:Estas son algunas de las sesiones confirmadas. Próximamente se publicarán más'
-       }
+       },
+       {
+                'source': 'Schedule at a Glance',
+                'target_es': 'Agenda General'
+       },
+       {
+               'source': 'Browse the event schedule',
+               'target_es': 'Explorar la agenda'
+        },
+        {
+                   'source': 'Location',
+                   'target_es': 'Ubicación'
+            },
 
+            {
+                   'source': 'Day 1: Workshops | July 18, 2025',
+                   'target_es': 'Día 1: Talleres | 18 de Julio, 2025'
+            },
+
+            {
+                   'source': 'Day 2: Conference Day | July 19, 2025',
+                   'target_es': 'Día 2: Día de la conferencia | 19 de Julio, 2025'
+            },
   ]
 }
