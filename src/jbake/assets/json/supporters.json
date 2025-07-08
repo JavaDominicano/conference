@@ -42,6 +42,23 @@
     "name": "Java México",
     "logoUrl": "/img/supporters/java-mexico.png",
     "url": "https://x.com/javamexico"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "logoUrl": "/img/supporters/MongoDB.png",
+    "url": "https://www.mongodb.com"
+  },
+  {
+    "id": "PeruJUG",
+    "name": "PeruJUG",
+    "logoUrl": "/img/supporters/perujug.png",
+    "url": "https://perujug.org"
+  },
+  {
+    "id": "itsmrd",
+    "name": "Comunidad ITSM RD",
+    "logoUrl": "/img/supporters/itsmrd.png",
+    "url": "https://www.itsmrd.org.do/"
   }
-
 ]
