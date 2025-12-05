@@ -1,0 +1,359 @@
+[
+  {
+    "id": 101,
+    "title": "Jakarta EE Meets AI",
+    "abstract": "¿Por qué aprender nuevos lenguajes? Java tiene todo lo que necesita para integrar grandes modelos lingüísticos (LLM) en aplicaciones empresariales. Únase a mí para demostraciones en vivo con LangChain4J, Spring AI, y Jakarta EE, y ver lo fácil que Java se puede utilizar para la IA en sus aplicaciones.!",
+    "description": "La mayoría de nosotros no estamos escribiendo nuestros propios modelos de grandes lenguajes (LLM). Los consumimos y los integramos en nuestras aplicaciones empresariales. ¿Y adivina qué? Java es el lenguaje perfecto para esto. Usted no tiene que aprender Python o cualquier otro lenguaje para sus integraciones de IA.<br><br>Esta sesión explorará las diferentes opciones que hay para los desarrolladores de Java y cómo integrarlas en sus aplicaciones Java empresariales. Habrá demostraciones en vivo utilizando bibliotecas y herramientas como LangChain4J, Spring AI, y Jakarta EE.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "AI",
+      "Java",
+      "Architecture",
+      "Jakarta EE"
+    ],
+    "speakers": [
+      "ivar-grimstad"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Java y grafos. Iniciemos con Neo4j",
+    "abstract": "Los NoSQL ya son el día a día de nuestras aplicaciones, de entre los distintos tipos, existe uno que a veces no exploramos para nuestras soluciones: las orientadas a grafos.<br>En esta charla veremos por qué son importantes y cómo podemos usarlas en nuestros proyectos con Java.",
+    "description": "Las bases de datos orientadas a grafos siguen avanzando de manera discreta en el día a día de las soluciones informáticas.<br>La intención de esta charla es:<br><br>Recordar la importancia de una bbdd orientada a grafos.<br>Ver algunos casos de uso.<br>Saber por dónde empezar usando recursos gratuitos (conoceremos un servicio gratuito de neo4j).<br>Como conectarnos usando java (springboot, quarkus, helidon, micronaut).",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Java Platform",
+      "nosql",
+      "neo4j",
+      "graph",
+      "databases"
+    ],
+    "speakers": [
+      "isaac-ruiz"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Helidon 4 en Kubernetes: Lecciones Reales, Retos y Casos de Uso en Producción",
+    "abstract": "Descubre cómo llevar Helidon 4 a producción en Kubernetes. Exploraremos lecciones aprendidas, retos enfrentados y casos de uso reales con Eclipse MicroProfile, bases de datos y servicios externos. Una charla con insights clave para optimizar distintas cargas de trabajo en el mundo real.",
+    "description": "Helidon 4, basado en Eclipse MicroProfile, es una opción poderosa para microservicios en Kubernetes. En esta charla, compartiré lecciones aprendidas, retos enfrentados y casos de uso reales en producción, desde integración con bases de datos hasta consumo de APIs externas. Una sesión práctica con insights clave para optimizar distintas cargas de trabajo.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Java Platform",
+      "Server side development"
+    ],
+    "speakers": [
+      "jesus-aguirre"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "De las Trincheras a Producción: Dominando GraalVM con Spring Boot",
+    "abstract": "Sumérgete en experiencias reales con GraalVM y Spring Boot. Aprende a reducir uso de memoria, CPU y tiempos de arranque, creando contenedores más pequeños y manejando altas cargas. Esta charla ofrece soluciones prácticas para builds nativos, configuración de plugins y automation con  github action.",
+    "description": "Aunque GraalVM promete arranques rápidos, menor consumo de recursos y capacidades políglotas, el camino a producción no siempre es simple. En esta sesión compartiré lecciones aprendidas trabajando con clientes que usan Spring Boot y GraalVM, enfocándome en modos JIT y Nativo. Cubriremos la configuración de plugins Maven como bootRun, bootBuildImage y graalvmNative, el manejo de reflexión y proxies dinámicos, y la automatización de generación de metadatos usando el repositorio de reachability de GraalVM. Esta no es solo otra demo: es un recorrido detallado desde la perspectiva de un programador, resaltando desafíos y soluciones al llevar aplicaciones reales a producción con GraalVM. También mostraremos despliegues con GitHub Actions y ejemplos de programación políglota práctica.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Java Platform"
+    ],
+    "speakers": [
+      "jose-diaz"
+    ]
+  },
+  {
+    "id": 105,
+    "title": "30 años programando: lecciones aprendidas",
+    "abstract": "Llevo 30 años programando. Durante este tiempo he aprendido muchas lecciones sobre el trabajo, el código, el software, la tecnología en general que me gustaría compartir contigo.<br>Quiero hablar de patrones cíclicos que he notado a lo largo de todos estos años, con la esperanza de que podamos dejar de cometer los mismos errores.",
+    "description": "Quiero hablar de lo que era la programación hace 30 años y en lo que se ha convertido hoy. Mirar las cosas de moda que han ido y venido, y han vuelto otra vez. No en un tono de «get off my lawn», sino más bien para mostrar cómo esta industria no es tan diferente de otras; lo bueno, lo malo, lo feo. Cómo el código abierto cambió la industria, y cómo la industria cambió el código abierto. Qué les espera a las nuevas generaciones.",
+    "audience_level": "Intermediate",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "talk_format": "Talk (~30-45 minutes)",
+    "tags": [
+      "software development",
+      "programming",
+      "cloud",
+      "Server side development",
+      "Java Platform",
+      "web development",
+      "client-side development"
+    ],
+    "speakers": [
+      "enrique-zamudio"
+    ]
+  },
+  {
+    "id": 106,
+    "title": "How and why to participate in the future of the Java Platform",
+    "abstract": "Descubra cómo participar en la evolución y cómo impulsar y desarrollar la próxima generación de desarrolladores de Java, cómo trabajamos para impulsar la adopción de nuevas versiones de Java en el ecosistema y cómo estamos evolucionando Java para convertirlo en la plataforma predilecta para las cargas de trabajo de IA.",
+    "description": "Gran parte del éxito del lenguaje de programación Java se puede atribuir a cómo el lenguaje evoluciona y cómo la comunidad mundial de #Javadevelopers colabora en esa evolución. Son ustedes, los miembros de la comunidad Java, quienes hacen realidad esa posibilidad. El Programa Java Community Process (JCP) es el proceso mediante el cual la comunidad internacional de Java estandariza y ratifica las especificaciones para las tecnologías Java. ¡Celebramos 30 años de Java en 2025! La colaboración de la comunidad en el programa JCP es esencial para Java. Aprenda cómo participar en la evolución y cómo crecer y construir la próxima generación de desarrolladores de Java, cómo estamos trabajando para avanzar en la adopción de nuevas versiones de Java en el ecosistema. También cómo estamos evolucionando Java para que sea la plataforma preferida para cargas de trabajo de IA. Esperamos futuras innovaciones y la colaboración de la comunidad en los próximos años. Conozca las novedades en la plataforma en Java 25 y posteriores, y cómo participar en la comunidad.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "java"
+    ],
+    "speakers": [
+      "heather-vancura"
+    ]
+  },
+  {
+    "id": 107,
+    "title": "At Long Last, Queues for Apache Kafka - Unpacking Shared Groups (KIP-932)",
+    "abstract": "Los grupos compartidos (KIP-932) aportan «colas» al ecosistema de Apache KafkaⓇ. Las garantías de durabilidad, escalabilidad y alto rendimiento que siempre hemos promocionado en Kafka, todo ello escalando el consumo más allá del recuento de particiones y con un mejor soporte para cargas de trabajo transaccionales. Desempaquemos juntos",
+    "description": "Apache KafkaⓇ impulsa al 80 por ciento de Fortune 500 como plataforma de flujo de eventos altamente escalable. Los grupos de consumidores asignan particiones a los miembros del grupo, lo que proporciona una potente combinación de ordenación y escalabilidad. Pero, ¿cómo podemos escalar los consumidores de un grupo más allá del número de particiones de un tema? <br><br>Aparece KIP-932, también conocido como «Colas para Kafka», que permite a varios consumidores del grupo procesar desde la misma partición de tema. En esta sesión exploraremos cómo los grupos compartidos proporcionan un mejor soporte para cargas de trabajo transaccionales, equilibrio de carga y ordenación de eventos, todo ello aprovechando las características de escalabilidad y durabilidad de Kafka. Discutiremos en qué se diferencian los grupos compartidos de los grupos de consumidores clásicos y cuándo utilizarlos. ¿Qué mejor manera de hacerlo que mirando el código?<br><br>Los grupos compartidos convierten a Kafka en una alternativa aún más sólida a los corredores de mensajes tradicionales. Tanto los veteranos de Kafka como los principiantes encontrarán esta sesión de interés, que le hará replantearse el procesamiento de eventos.<br>",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Server side development",
+      "Java Platform"
+    ],
+    "speakers": [
+      "sandon-jacobs"
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Getting Groovy: AI-Powered Spock Testing",
+    "abstract": "Spock es un potente framework de pruebas para Java y Groovy, que ofrece una forma expresiva y eficiente de escribir pruebas. Imagine combinar Spock con IA para potenciar su proceso de pruebas. En esta charla, verá codificación en vivo que demuestra cómo la IA mejora la creación de pruebas!",
+    "description": "Spock es un framework de pruebas para aplicaciones Java y Groovy conocido por su expresivo lenguaje de especificación. Con un ejecutor JUnit, se integra perfectamente con IDEs, herramientas de construcción y servidores CI. Inspirado en JUnit, RSpec, Groovy, Scala y Vulcans, Spock aporta un enfoque único y eficiente a las pruebas. Utiliza el árbol de sintaxis abstracta (AST) de Groovy para eliminar la repetición de tareas, lo que permite un lenguaje fluido específico del dominio para las pruebas.<br><br>En esta charla, minimizaré las diapositivas y me centraré en la codificación en vivo para demostrar la potencia de Spock con la ayuda de la IA. Usted aprenderá cómo las herramientas de IA pueden ayudar a escribir pruebas robustas y elevar sus habilidades de prueba. Únase a mí para explorar Spock y descubrir cómo la IA puede transformar su enfoque de pruebas.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Java Platform",
+      "unit testing"
+    ],
+    "speakers": [
+      "david-parry"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Agilidad para Desarrolladores: Creando Software de Calidad de Forma Continua",
+    "abstract": "La agilidad no es solo seguir marcos de trabajo, sino desarrollar software de calidad de forma continua y sostenible. En esta charla, aprenderás cómo aplicar Agilidad para entregar valor, construir buen software y usar Scrum, Kanban y XP para un flujo eficiente sin comprometer la calidad.",
+    "description": "En el mundo del desarrollo de software, la rapidez y la calidad a menudo parecen estar en conflicto. Sin embargo, con un enfoque ágil bien aplicado, es posible entregar software de alto valor de manera continua sin sacrificar la estabilidad ni la excelencia técnica.<br><br>En esta charla, exploraremos cómo los desarrolladores pueden aprovechar la agilidad para mejorar su proceso de construcción de software. Abordaremos temas clave como:<br>El ciclo de vida del desarrollo ágil: Cómo gestionar desde la idea hasta la entrega de valor de manera iterativa y eficiente.<br>Planificación ágil: Estrategias para planificar el trabajo sin caer en la burocracia ni en la falta de previsión.<br>Scrum, Kanban y XP: Cómo elegir y combinar estos marcos de trabajo para optimizar el flujo de desarrollo.<br>Entrega continua y calidad del código: Prácticas que aseguran que el software se mantenga en producción sin interrupciones ni regresiones.<br>Colaboración y mejora continua: Cómo fomentar la comunicación efectiva dentro del equipo y adaptarse al cambio de manera fluida.<br><br>Si eres desarrollador y quieres construir software de calidad de forma sostenible, esta charla te dará las herramientas y enfoques necesarios para lograrlo con agilidad.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Proceso de desarrollo de Software",
+      "Metodología"
+    ],
+    "speakers": [
+      "david-joa"
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Destripando la JVM: Instrumentación y Bytecode de Java",
+    "abstract": "¿Te gustaría saber cómo frameworks como Mockito, Spring y Hibernate modifican clases en tiempo de ejecución? Aprende a interceptar y redefinir código sin tocar el fuente usando Java Agents e instrumentación. Desde profiling hasta auditoría, descubre cómo estas técnicas se aplican en el mundo real.",
+    "description": "Aunque GraalVM promete arranques rápidos, menor consumo de recursos y capacidades políglotas, el camino a producción no siempre es simple. En esta sesión compartiré lecciones aprendidas trabajando con clientes que usan Spring Boot y GraalVM, enfocándome en modos JIT y Nativo. Cubriremos la configuración de plugins Maven como bootRun, bootBuildImage y graalvmNative, el manejo de reflexión y proxies dinámicos, y la automatización de generación de metadatos usando el repositorio de reachability de GraalVM. Esta no es solo otra demo: es un recorrido detallado desde la perspectiva de un programador, resaltando desafíos y soluciones al llevar aplicaciones reales a producción con GraalVM. También mostraremos despliegues con GitHub Actions y ejemplos de programación políglota práctica.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Java Platform"
+    ],
+    "speakers": [
+      "jorge-morla"
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Trabajando de Manera Sostenible en un Mundo Acelerado",
+    "abstract": "El equilibrio entre el rendimiento profesional y el bienestar es clave para una carrera sostenible en tecnología. Esta charla aportará herramientas prácticas para que los desarrolladores puedan trabajar con mayor enfoque, salud y motivación a largo plazo.",
+    "description": "El desarrollo de software es una industria dinámica y desafiante, con ritmos acelerados, altas expectativas y entornos demandantes. Esta charla explorará estrategias para trabajar de manera sostenible sin comprometer el bienestar. Se abordarán aspectos como el trabajo remoto sostenible, la adopción de hábitos saludables, y cómo desarrollar resiliencia emocional para afrontar los retos laborales con una mentalidad equilibrada.<br>También se discutirán estrategias como el mindfulness para el manejo del estrés, la mentalidad de crecimiento para asumir retos de manera curiosa, y la importancia de mantenerse actualizado sin caer en el agotamiento. La charla estará respaldada por investigaciones, datos y experiencias del sector.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Trabajo Sostenible",
+      "Trabajo Remoto"
+    ],
+    "speakers": [
+      "mirna-de-jesus-cambero"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Kotlin Coroutines: Más Allá del async/await",
+    "abstract": "La concurrencia en Kotlin es poderosa, pero usar coroutines de manera eficiente puede ser un reto. En esta charla veremos cómo manejarlas correctamente, ejecutar tareas en paralelo y aprovecharlas para procesamiento asíncrono, además de compartir errores comunes y mejores prácticas.",
+    "description": "Kotlin Coroutines: Más Allá del async/await.<br><br>Kotlin ha revolucionado la programación asíncrona con <b>coroutines</b>, pero su verdadero potencial va mucho más allá de `async/await`. En esta charla, exploraremos:  <br><br> 1-<b>Ejecución en paralelo</b> y estrategias eficientes.<br> 2-<b>Flows y Streams</b> para manejar datos asíncronos.<br> 3- <b>Errores comunes</b> y cómo evitarlos. <br> 4- <b>Patrones avanzados</b> para maximizar rendimiento y seguridad.<br><br>Si quieres dominar la concurrencia en Kotlin y escribir código más limpio y eficiente, esta sesión es para ti.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Kotlin",
+      "Coroutines",
+      "Flows",
+      "Streams",
+      "Threads"
+    ],
+    "speakers": [
+      "aneudy-vargas"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Optimización de las respuestas LLM con la generación mejorada por recuperación (Retrieval-Augmented Generation (RAG)) en Java",
+    "abstract": "Los LLMs (Large Language Models) son potentes, pero tienen dificultades con el conocimiento en tiempo real y alucinan con las respuestas. En este taller práctico, aprenderá a potenciar su chatbot basado en LLM con generación mejorada por recuperación (Retrieval-Augmented Generation (RAG)) utilizando Java y SpringAI.",
+    "description": "Los LLM no bastan por sí solos. Sin recuperación en tiempo real, generan respuestas obsoletas o incorrectas, ya sea porque sus conocimientos son limitados o porque carecen de acceso a la información pertinente. Esto podría hacerlos poco fiables para aplicaciones críticas para el negocio. Este taller se adentra en la generación mejorada por recuperación (Retrieval-Augmented Generation (RAG)), una técnica que permite a la IA acceder a información actualizada del mundo real para ofrecer respuestas precisas y ricas en contexto.<br><br>\nTe guiaremos a través de la construcción de un chatbot AI desde cero usando Java y SpringAI con una base de datos vectorial (por ejemplo, PGVector o Neo4j). Aprenderás cómo:<br><br>\nIntegrar SpringAI para construir un chatbot robusto<br>✔Implementar RAG para mejorar la precisión del chatbot y evitar alucinaciones<br>✔Almacenar y recuperar datos de productos en tiempo real de una base de datos vectorial<br>✔Probar en vivo y comparar resultados con y sin RAG.<br><br>Este taller es perfecto para desarrolladores, e ingenieros de IA que buscan implementar soluciones de IA prácticas y de nivel empresarial.No se pierda esta oportunidad de dominar RAG y transformar el modo en que las aplicaciones basadas en IA interactúan con los datos.",
+    "audience_level": "Intermediate",
+    "talk_format": "Workshop (\u003e 60 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "AI",
+      "machine-learning",
+      "llm",
+      "java",
+      "SpringAI",
+      "chatbot",
+      "vector-database",
+      "retrieval-augmented-generation",
+      "enterprise-ai",
+      "Machine Learning with Java",
+      "Java Platform"
+    ],
+    "speakers": [
+      "rafael-almonte",
+      "brayan-munoz"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Cómo utilizar Jakarta 11 con Payara 7",
+    "abstract": "La intención de este taller es mostrar las novedades de Jakarta 11 y su uso con Payara 7.",
+    "description": "Jakarta 11 es la última versión de la especificación y está cerca de ser entregada al mercado, es por eso que necesitamos saber qué servidores de aplicaciones en el mercado soportan y para este taller voy a mostrar cómo utilizar con Payara 7.<br><b>Temas a tratar:</b><br>1.Introducción a Payara.<br>2.Cómo instalar y utilizar Payara 7.<br>3.Crear una aplicación MVC con Payara 7.<br>4.Habilitar Jakarta Data con Payara 7.<br>5.Utilizar la seguridad con Payara 7.<br>6.Otras actualizaciones importantes para Jakarta 11 disponibles en Payara 7.",
+    "audience_level": "Intermediate",
+    "talk_format": "Workshop (\\u003e 60 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Server side development"
+    ],
+    "speakers": [
+      "alfonso-valdez"
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Gestión de cambios de bases de datos para desarrolladores de Java",
+    "abstract": "Domina la gestión de cambios en bases de datos con Flyway. Aprende a versionar esquemas, aplicar rollbacks y automatizar migraciones en pipelines CI/CD. Asegura despliegues controlados, minimiza riesgos y mantén la integridad de tus datos en entornos empresariales.",
+    "description": "<h2>Objetivo General</h2><p>Capacitar a los participantes en la gestión de cambios de bases de datos mediante herramientas modernas, automatizando despliegues y aplicando buenas prácticas de migración en entornos empresariales, incluyendo arquitecturas multitenancy.</p><h2>MÓDULO 1: Fundamentos de Database Change Management</h2><h3>Introducción</h3><ul><li>¿Qué es Database Change Management (DCM)?</li><li>Retos comunes en la gestión de cambios de bases de datos.</li><li>¿Por qué es clave en entornos DevOps y CI/CD?</li></ul>\n<h3>Conceptos Clave </h3><ul><li>State-Based vs Migration-Based Approaches.</li><li>Versionado de esquemas y control de cambios.</li><li>Rollbacks: ¿Cuándo y cómo aplicarlos?</li><li>Importancia de los entornos sincronizados (Dev, QA, Prod).</li></ul><h3>Herramientas en el Ecosistema Java</h3><ul><li><strong>Flyway</strong>: Filosofía <em>Convention Over Configuration</em>.</li><li><strong>Liquibase</strong>: Definición declarativa de cambios.</li><li>¿Cuándo usar cada herramienta? Casos prácticos.</li></ul><h2>MÓDULO 2: Creación de Proyecto en Distinta Tecnología</h2><h3>Preparando el Entorno con Flyway</h3><ul><li>Java</li><li>Jakarta EE</li><li>Quarkus</li><li>Spring Boot</li></ul><h3>Primeras Migraciones</h3><ul><li>Creación de la primera versión de esquema: <code>V1__init.sql</code>.</li><li>Migraciones de datos iniciales.</li><li>Organización de archivos de migración.</li></ul><h2>MÓDULO 3: Flyway Avanzado y Rollbacks</h2><h3>Características Avanzadas de Flyway</h3><ul><li>Versioned Migrations vs Repeatable Migrations.</li><li>Control de checksums y validaciones.<h3>Implementación de Rollbacks</h3></li><li>Estrategias de rollback en Flyway.</li><li>Creación de scripts de reversión.</li><li>Simulación de fallos y recuperación controlada.<h2>MÓDULO 4: CI/CD Pipeline con GitHub Actions</h2><h3>Automatización de Migraciones</h3></li><li>Principios de Integración y Despliegue Continuo.</li><li>¿Por qué automatizar migraciones en el pipeline?<h3>Creación del Pipeline</h3></li><li>Configurar GitHub Actions para ejecutar:<ul><li>Build del proyecto.</li><li>Ejecución de migraciones con Flyway.</li><li>Simulación de despliegue a <em>staging</em>.</li></ul></li></ul><h2>MÓDULO 5: Migraciones en Ambientes Multitenancy y Escalabilidad con Vaadin Flow</h2><h3>Estrategias de Multitenancy</h3><ul><li>Base de datos por cliente (<em>Solo para explicar concepto</em>).</li><li>Esquema por cliente (<em>Se utilizará para hacer la demo</em>).</li><li>Filtro por columna (<em>Solo para explicar concepto</em>).<h3>Implementación en Vaadin Flow</h3></li><li>Cargar dinámicamente configuraciones de bases de datos.</li><li>Crear un servicio de migración dinámico con Flyway.</li></ul><h2>Cierre y Ronda de Preguntas</h2><hr><h2>Materiales Incluidos</h2><ul><li>Repositorio de los distintos proyectos y migraciones.</li><li>Plantilla de pipeline de GitHub Actions.</li><li>Scripts de migración y rollback.</li><li>Estrategia multitenancy con código de ejemplo.</li><li>Cheatsheet de comandos Flyway y buenas prácticas.</li></ul>",
+    "audience_level": "Intermediate",
+    "talk_format": "Workshop (\u003e 60 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Java",
+      "Database",
+      "DCM",
+      "DevOps",
+      "CI/CD",
+      "Flyway",
+      "Liquibase",
+      "Jakarta EE",
+      "Spring Boot",
+      "Quarkus",
+      "GitHub Actions",
+      "Pipeline",
+      "Multitenancy",
+      "Vaadin Flow"
+    ],
+    "speakers": [
+      "freddy-pena"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "AI: It AI-n't What You Think!",
+    "abstract": "Las innovaciones han transformado la vida de los seres humanos de un modo que nos resulta imposible imaginar cómo sobrevivían antes. Sin embargo, no abrazamos las innovaciones con facilidad y no deberíamos hacerlo en la mayoría de los casos. Nuestro tiempo en este mundo se yuxtapone con otra gran innovación en nuestro campo. ¿Se apoderará la IA del mundo, de nuestros trabajos, de nuestro modo de vida...? y muchas otras son las preguntas que nos hacemos con frecuencia estos días. Asista a esta conferencia y aprenda a subirse a la nueva ola en lugar de ser arrastrado por ella.",
+    "description": "Las innovaciones han transformado la vida de los seres humanos de un modo que nos resulta imposible imaginar cómo sobrevivían antes. Sin embargo, no abrazamos las innovaciones con facilidad y no deberíamos hacerlo en la mayoría de los casos. Nuestro tiempo en este mundo se yuxtapone con otra gran innovación en nuestro campo. ¿Se apoderará la IA del mundo, de nuestros trabajos, de nuestro modo de vida...? y muchas otras son las preguntas que nos hacemos con frecuencia estos días. Asista a esta conferencia y aprenda a subirse a la nueva ola en lugar de ser arrastrado por ella.",
+    "audience_level": "All",
+    "talk_format": "Keynote (~30-45 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "AI",
+      "Innovation"
+    ],
+    "speakers": [
+      "venkat-subramaniam"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Java: This Ain't Your Parent's Java",
+    "abstract": "Antes, Java era un lenguaje que avanzaba a paso de tortuga. Afortunadamente, ya no es así. En los últimos años el ritmo de desarrollo se ha acelerado, tanto en las características del lenguaje como en las mejoras del JDK. Acompáñenos para sumergirnos en algunos de los cambios recientes de Java que son a la vez divertidos y potentes de utilizar, para aprender cómo puede beneficiarse de ellos, y también hablaremos de hacia dónde se dirige el lenguaje en un futuro próximo.",
+    "description": "Antes, Java era un lenguaje que avanzaba a paso de tortuga. Afortunadamente, ya no es así. En los últimos años el ritmo de desarrollo se ha acelerado, tanto en las características del lenguaje como en las mejoras del JDK. Acompáñenos para sumergirnos en algunos de los cambios recientes de Java que son a la vez divertidos y potentes de utilizar, para aprender cómo puede beneficiarse de ellos, y también hablaremos de hacia dónde se dirige el lenguaje en un futuro próximo.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "Java",
+      "JDK",
+      "JVM"
+    ],
+    "speakers": [
+      "venkat-subramaniam"
+    ]
+  },
+  {
+    "id": 118,
+    "title": "OpenTelemetry para todos",
+    "abstract": "OpenTelemetry es un framework para implementar observabilidad, en este taller queremos mostrar las  ventajas y el porqué es importante adoptar OpenTelemetry.",
+    "description": "OpenTelemetry es un proyecto de la CNCF(Cloud Native Computing Foundation), en concreto es un framework para implementar observabilidad.<br><br>El hecho de que sea: <b>Vendor- and tool- agnostic</b> a veces en lugar de ayudar a adoptarlo confunde y crea cierta resistencia innecesaria a su difusión.<br><br>Está formado por varios componentes, y la intención de este taller es mostrar un repaso didáctico de todos estos componentes.<br><br><h2>Temario</h2><ol><li>Introducción.<ol><li> ¿Por qué es necesario?.</li><li> Metricas.</li><li> Logs.</li><li> Traces.</li><li> ¿MELT?</li><li> OpenTelemetry Framework<ul><li>OTLP. OpenTelemetry Protocol.</li><li>Signals.</li><li>Documentación de Referencia.</li></ul></li></ol></li><li>Componentes Clave.</li><li>Referencias.</li><li>Dónde seguir.</li><li>Laboratorios. <ol><li>Instrumentación</li><li> Instrumentación Automática.</li><li> Instrumentación con librerías.</li><li> Instrumentación Manual.</li></ol></li><li>Troubleshooting.</li></ol>",
+    "audience_level": "All",
+    "talk_format": "Workshop (\u003e 60 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "java",
+      "openTelemetry",
+      "observability"
+    ],
+    "speakers": [
+      "isaac-ruiz"
+    ]
+  }
+]

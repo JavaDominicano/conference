@@ -1,0 +1,145 @@
+[
+  {
+    "id": "ccamachog",
+    "name": "Carlos Camacho",
+    "company": "AvatharTech",
+    "photoUrl": "/archive/jconf2025/images/committee-members/ccamachog.jpg",
+    "shortBio": "Software Developer – University professor - Dominican Republic JUG Co-Leader",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "CTO",
+        "description": "CTO"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/ccamachog"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/vacax"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/ccamachog/"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://ccamachog.medium.com"
+      }
+    ]
+  },
+  {
+    "id": "ecabrerar",
+    "name": "Eudris Cabrera",
+    "company": "Dominicana JUG",
+    "photoUrl": "/archive/jconf2025/images/committee-members/ecabrerar.jpg",
+    "shortBio": "Software Developer - Dominican Republic JUG Co-Leader - Java and Linux Trainer / Lecturer",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Developer",
+        "description": "Software Developer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/eudriscabrera"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://eudriscabrera.com"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/ecabrerar"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/eudriscabrera"
+      }
+    ]
+  },
+  {
+    "id": "brayan-munoz",
+    "name": "Brayan Muñoz V",
+    "company": "Dominican Republic JUG",
+    "photoUrl": "/archive/jconf2025/images/committee-members/brayan-munoz.jpeg",
+    "shortBio": "Java SDE | Data Scientist – Dominican Republic JUG Board Member - Professor - Open Source enthusiast ",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Software Engineer",
+        "description": "Software Engineer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/Brayanmnz_"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/brayanmnz"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/brayanmnz"
+      }
+    ]
+  },
+  {
+    "id": "freddy-pena",
+    "name": "Freddy Peña",
+    "company": "Alphnology",
+    "photoUrl": "/archive/jconf2025/images/committee-members/freddy-pena.jpg",
+    "shortBio": "Founder of Alphnology | SDE | Java ❤️ | Organizing member of Dominican Java | JConf Dominican staff member | College Professor",
+    "bio": "",
+    "tags": [],
+    "badges": [
+      {
+        "name": "Founder | Software Engineer",
+        "description": "Founder | Software Engineer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/fred_pena"
+      },
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/fredpena"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/fantpena/"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://fredpena.dev/"
+      }
+    ]
+  }
+]
