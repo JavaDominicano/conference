@@ -8,7 +8,7 @@ function createSponsorCardRow(sponsorJson) {
     let rowHtml = "<h2>"+sponsorJson.packageName+"</h2>"+
             "<div class=\"row justify-content-center\">";
 
-      sponsorJson.sponsors.forEach((sponsor) => rowHtml += createSponsorCard(sponsor));
+      sponsorJson.sponsors.filter(sponsor => sponsor.display === true).forEach((sponsor) => rowHtml += createSponsorCard(sponsor));
 
       rowHtml +=  "</div>";
 

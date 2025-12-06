@@ -1,5 +1,191 @@
 [
   {
+    "speakerId": "venkat-subramaniam",
+    "name": "Dr. Venkat Subramaniam",
+    "company": "Agile Developer, Inc",
+    "companyLogo": "",
+    "title": "Fundador",
+    "country": "USA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/img/speakers/venkat-subramaniam.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2025,
+    "latestYear": 2025,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://x.com/venkat_s"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/vsubramaniam/"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://agiledeveloper.com"
+      }
+    ]
+  },
+  {
+    "speakerId": "sandon-jacobs",
+    "name": "Sandon Jacobs",
+    "company": "Confluent",
+    "companyLogo": "",
+    "title": "Senior Developer Advocate",
+    "country": "EUA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/img/speakers/sandon-jacobs.jpeg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2025,
+    "latestYear": 2025,
+    "socials": [
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://medium.com/indigitech-blog"
+      }
+    ]
+  },
+  {
+    "speakerId": "david-parry",
+    "name": "David Parry",
+    "company": "Qodo",
+    "companyLogo": "",
+    "title": "Developer Advocate",
+    "country": "EUA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/img/speakers/david-parry.jpeg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2025,
+    "latestYear": 2025,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/daviddryparry"
+      }
+    ]
+  },
+  {
+    "speakerId": "alfonso-valdez",
+    "name": "Alfonso Valdez Altamirano",
+    "company": "Payara",
+    "companyLogo": "",
+    "title": "Desarrollador de Software Senior",
+    "country": "México",
+    "countryFlag": "flag-icon-mx",
+    "photoUrl": "/img/speakers/alfonso-valdez.jpeg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2025,
+    "latestYear": 2025,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/breakponchito"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/alfonso-valdez-altamirano-dev/"
+      }
+    ]
+  },
+  {
+    "speakerId": "isaac-ruiz",
+    "name": "Isaac Ruiz Guerra",
+    "company": "JavaMexico",
+    "companyLogo": "",
+    "title": "Arquitecto de soluciones / Neo4j Ninja",
+    "country": "Mexico",
+    "countryFlag": "flag-icon-mx",
+    "photoUrl": "/img/speakers/isaac-ruiz.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2025,
+    "latestYear": 2025,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/rugi"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/newsletters/6931281718834335744/"
+      }
+    ]
+  },
+  {
+    "speakerId": "jesus-aguirre",
+    "name": "Jesús Aguirre",
+    "company": "Indra Minsait",
+    "companyLogo": "",
+    "title": "Ingeniero Sr de Sistemas",
+    "country": "Panamá",
+    "countryFlag": "flag-icon-pa",
+    "photoUrl": "/img/speakers/jesus-aguirre.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2025,
+    "latestYear": 2025,
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://linkedin.com/in/info-aguirre-jesus"
+      }
+    ]
+  },
+  {
+    "speakerId": "jose-diaz",
+    "name": "José Díaz",
+    "company": "JoeDayz",
+    "companyLogo": "",
+    "title": "Arquitecto de software",
+    "country": "Perú",
+    "countryFlag": "flag-icon-pe",
+    "photoUrl": "/img/speakers/josediaz.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [],
+    "badges": [],
+    "year": 2025,
+    "latestYear": 2025,
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/jamdiazdiaz"
+      },
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "http://blog.joedayz.pe"
+      }
+    ]
+  },
+  {
     "speakerId": "shabnam-mayel",
     "name": "Shabnam Mayel",
     "company": "Eclipse Foundation",
@@ -12,6 +198,7 @@
     "tags": [],
     "badges": [],
     "year": 2024,
+    "latestYear": 2024,
     "socials": [
       {
         "icon": "twitter",
@@ -33,6 +220,7 @@
     "tags": [],
     "badges": [],
     "year": 2024,
+    "latestYear": 2024,
     "socials": [
       {
         "icon": "twitter",
@@ -54,6 +242,7 @@
     "tags": [],
     "badges": [],
     "year": 2024,
+    "latestYear": 2025,
     "socials": [
       {
         "icon": "twitter",
@@ -80,6 +269,7 @@
     "tags": [],
     "badges": [],
     "year": 2024,
+    "latestYear": 2024,
     "socials": [
       {
         "icon": "twitter",
@@ -111,6 +301,7 @@
     "tags": [],
     "badges": [],
     "year": 2023,
+    "latestYear": 2025,
     "socials": [
       {
         "icon": "twitter",
@@ -137,6 +328,7 @@
     "tags": [],
     "badges": [],
     "year": 2023,
+    "latestYear": 2024,
     "socials": [
       {
         "icon": "twitter",
@@ -163,6 +355,7 @@
     "tags": [],
     "badges": [],
     "year": 2019,
+    "latestYear": 2019,
     "socials": [
       {
         "icon": "twitter",
@@ -194,6 +387,7 @@
     "tags": [],
     "badges": [],
     "year": 2019,
+    "latestYear": 2019,
     "socials": [
       {
         "icon": "twitter",
@@ -225,6 +419,7 @@
     "tags": [],
     "badges": [],
     "year": 2019,
+    "latestYear": 2019,
     "socials": [
       {
         "icon": "twitter",
@@ -256,6 +451,7 @@
     "tags": [],
     "badges": [],
     "year": 2019,
+    "latestYear": 2025,
     "socials": [
       {
         "icon": "twitter",
@@ -287,6 +483,7 @@
     "tags": [],
     "badges": [],
     "year": 2019,
+    "latestYear": 2019,
     "socials": [
       {
         "icon": "github",
@@ -313,6 +510,7 @@
     "tags": [],
     "badges": [],
     "year": 2019,
+    "latestYear": 2019,
     "socials": [
       {
         "icon": "twitter",

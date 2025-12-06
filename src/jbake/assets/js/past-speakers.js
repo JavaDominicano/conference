@@ -12,7 +12,7 @@ function createSpeakerCard(speakerJson) {
       "<div class=\"speaker-content\">"+
       "<div class=\"speaker-content-box\">"+
          "<h4 class=\"speaker-name\">"+ speakerJson.name +" <span class=\"flag-icon "+speakerJson.countryFlag+"\"></span></h4>"+
-          "<p class=\"speaker-designation\">"+speakerJson.company +"<br>"+ speakerJson.year +"</p>" +
+          "<p class=\"speaker-designation\">"+speakerJson.company +"<br>"+ speakerJson.latestYear +"</p>" +
       "</div>"+
       "<img class=\"speaker-shape-1\" src=\"/img/meeta/shape/shape-8.png\">"+
       "<div class=\"speaker-shape-2\"></div>"+
@@ -32,7 +32,7 @@ let renderPastSpeakerList = function(speakersList){
 let sortSpeakerList = function(speakerJson) {
     let speakersList = [];
     speakerJson.forEach(speakerObj => speakersList.push(speakerObj));
-    speakersList.sort(function(a, b){return b.year-a.year});
+    speakersList.sort(function(a, b){return b.latestYear-a.latestYear});
 
     return speakersList;
 }
