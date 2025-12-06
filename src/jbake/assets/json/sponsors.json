@@ -9,14 +9,16 @@
         "name": "PUCMM",
         "logoUrl": "/img/sponsors/pucmm.png",
         "url": "https://www.pucmm.edu.do/",
-        "packageType": "Geek Titanium"
+        "packageType": "Geek Titanium",
+        "display": true
       },
       {
         "id": "oriontek",
         "name": "OrionTek",
         "logoUrl": "/img/sponsors/oriontek.png",
         "url": "http://www.oriontek.do/",
-        "packageType": "Geek Titanium"
+        "packageType": "Geek Titanium",
+        "display": false
       }
     ]
   },
@@ -30,14 +32,16 @@
         "name": "Alphnology",
         "logoUrl": "/img/sponsors/alphnology.png",
         "url": "https://alphnology.com/",
-        "packageType": "Geek"
+        "packageType": "Geek",
+        "display": true
       },
       {
         "id": "avathartech",
         "name": "Avathar Tech",
         "logoUrl": "/img/sponsors/AvatharTech.png",
         "url": "https://avathartech.com/",
-        "packageType": "Geek"
+        "packageType": "Geek",
+        "display": true
       }
     ]
   }

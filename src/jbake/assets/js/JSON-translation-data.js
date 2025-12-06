@@ -846,5 +846,9 @@ var linguJSON = {
                    'source': 'Day 2: Conference Day | July 19, 2025',
                    'target_es': 'Día 2: Día de la conferencia | 19 de Julio, 2025'
             },
+            {
+            'source': 'They were speakers at JConf Dominicana',
+             'target_es': 'Ellos han estado en JConf Dominicana'
+            }
   ]
 }

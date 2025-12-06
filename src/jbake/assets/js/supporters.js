@@ -7,11 +7,10 @@ fetch("../json/supporters.json")
         return response.json();
     })
     .then(function (supportersJson) {
-        let supporters = document.getElementById('supportersList');
-        // traitement de l'objet
-        for (let i in supportersJson) {
-            supporters.innerHTML += createSupporterCard(supportersJson[i]);
-        }
+        let supportersHtml = document.getElementById('supportersList');
+
+        supportersJson.filter(item => item.display === true).forEach(supporter => supportersHtml.innerHTML += createSupporterCard(supporter));
+
     }).catch((error) => {
     console.error(error);
 });
