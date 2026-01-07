@@ -16,7 +16,7 @@
 
                         <!-- Register Start -->
                         <div class="meeta-register">
-                            <h2 class="register-title">JConf Dominicana 2025</h2>
+                            <h2 class="register-title" th:utext='${config.site_title}'>JConf Dominicana</h2>
                             <h4>The first conference specialized on Java technologies in the Caribbean</h4>
                         </div>
                         <!-- Register End -->
@@ -30,13 +30,13 @@
                             <div class="col-lg-4">
                                 <img src="/img/meeta/ab-icon-6.png" class="icon-img-override" alt="">
                                 <h4>When?</h4>
-                                <p>July 18th - 19th 2025</p>
+                                <p th:utext="${#strings.arrayJoin(config.layout_event_details_date_footer,', ')}">July 18th - 19th 2025</p>
                             </div>
                             <div class="col-lg-4">
                                 <img src="/img/meeta/ab-icon-5.png" class="icon-img-override" alt="">
                                 <h4>Where?</h4>
                                 <p>Pontificia Universidad Católica Madre y Maestra (PUCMM)</p>
-                                <p>Av. Abraham Lincoln, Santo Domingo. Dominican Republic</p>
+                                <p th:utext="${#strings.arrayJoin(config.layout_event_details_venue_address_footer,', ')}">Dominican Republic</p>
                             </div>
 
                         </div>
@@ -51,7 +51,7 @@
                     <div class="col-lg-4">
 
                         <!-- Countdown Start -->
-                        <div class="meeta-countdown countdown" data-countdown="2025/7/18" data-format="short">
+                        <div class="meeta-countdown countdown" data-countdown="2026/7/17" data-format="short">
                           
                                 <div class="single-countdown">
                                     <span class="count countdown__time daysLeft"></span>
