@@ -11,7 +11,7 @@ let filterConfirmedKeynote = function(sessionsJson) {
       keynoteList.sort(function(a, b){return a.id-b.id});
 
       let filteredKeynotes = keynoteList.filter((session) => {
-            return session.talk_format.indexOf("Talk")==-1 && session.talk_format.indexOf("Workshop")==-1;
+            return session.talk_format.indexOf("Keynote") !== -1;
       });
 
     return filteredKeynotes.filter(item => item.display === true);

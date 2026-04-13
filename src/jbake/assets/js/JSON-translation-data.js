@@ -471,10 +471,6 @@ var linguJSON = {
       'target_es': 'Regístrese ahora para recibir una notificación cuando se publique el horario'
     },
     {
-      'source': 'Get Ready for JConf Dominicana 2023',
-      'target_es': 'Prepárese para JConf Dominicana 2023'
-    },
-    {
       'source': 'Be the first to know when tickets are available! Sign up to be notified when they go on sale',
       'target_es': '¡Sé el primero en saber cuándo hay entradas disponibles! Regístrese para recibir una notificación cuando salgan a la venta'
     },
@@ -846,9 +842,28 @@ var linguJSON = {
                    'source': 'Day 2: Conference Day | July 19, 2025',
                    'target_es': 'Día 2: Día de la conferencia | 19 de Julio, 2025'
             },
+
             {
-            'source': 'They were speakers at JConf Dominicana',
-             'target_es': 'Ellos han estado en JConf Dominicana'
+              'source': 'They were speakers at JConf Dominicana',
+              'target_es': 'Ellos han estado en JConf Dominicana'
+            },
+
+            {
+               'source': 'Tickets for JConf Dominicana go on sale soon!',
+               'target_es': '¡Las entradas para JConf Dominicana estarán a la venta muy pronto!'
+            },
+            {
+                 'source': 'Notify Me',
+                 'target_es': 'Notificarme'
+            },
+            {
+                'source': 'Get Ready for ',
+                'target_es': 'Prepárate para '
+            },
+
+            {
+               'source': 'Be the first to know when tickets are available! Sign up to be notified when they go on sale',
+               'target_es': '¡Sé el primero en enterarte cuando las entradas estén disponibles! Regístrate para recibir una notificación cuando salgan a la venta'
             }
   ]
 }

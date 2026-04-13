@@ -10,7 +10,7 @@
     "countryFlag": "flag-icon-se",
     "photoUrl": "/img/speakers/ivar-grimstad.jpg",
     "shortBio": "",
-    "bio": "Ivar Grimstad is the Jakarta EE Developer Advocate at Eclipse Foundation. He is a Java Champion and JUG Leader based in Sweden. Besides advocating the Jakarta EE technologies, Ivar is contributing to the Jakarta EE specifications as well as being the PMC Lead for Eclipse Enterprise for Java (EE4J). He is also one of the specification leads for Jakarta MVC and represents Eclipse Foundation on the JCP Executive Committee. Ivar is also involved in various other open-source projects and communities. He is a frequent speaker at International developer conferences.",
+    "bio": "Ivar Grimstad is the Jakarta EE Developer Advocate at Eclipse Foundation. He is a Norwegian Java Champion and JUG Leader based in Sweden. Besides advocating the Jakarta EE technologies, Ivar contributes to the Jakarta EE specifications and is the PMC Lead for Eclipse Enterprise for Java (EE4J). He is also one of the specification leads for Jakarta MVC and represents Eclipse Foundation on the JCP Executive Committee. Ivar is also involved in various other open-source projects and communities. He is a frequent speaker at International developer conferences.",
     "display": true,
      "featured": true,
     "badges": [
@@ -29,67 +29,77 @@
         "icon": "link",
         "name": "link",
         "link": "http://www.agilejava.eu"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://jakarta.ee/community/developer-advocate"
       }
     ]
   },
    {
     "numOrder": 102,
-     "speakerId" : "isaac-ruiz",
-    "name": "Isaac Ruiz Guerra",
-    "company": "JavaMexico",
+    "speakerId" : "ronald-vargas",
+    "name": "Ronald Francisco Vargas Quesada",
+    "company": "Oracle ACE Program",
     "companyLogo": "",
-    "title" : "Solution Architect / Neo4j Ninja",
-    "country" : "Mexico",
-    "countryFlag": "flag-icon-mx",
-    "photoUrl": "/img/speakers/isaac-ruiz.jpg",
+    "title" : "Information Architect",
+    "country" : "Costa Rica",
+    "countryFlag": "flag-icon-cr",
+    "photoUrl": "/img/speakers/ronald-vargas.jpg",
     "shortBio": "",
-    "bio": "Isaac is a graduate of the Technological Institute of the Isthmus in Oaxaca, México.<br><br>He began to use Java in its 1.2 version (2000) when doing his professional practices in the artificial intelligence laboratory of the Center for Research in Computing (CIC), of the National Polytechnic Institute in Mexico.<br>He is a software consultant since 2003, is specialized in applications Integration and has participated in projects related mainly to the financial sector.<br><br>For more than 10 years he has worked with different application servers for the java world and now he is trying to adapt this knowledge to the new deployment architectures.<br><br>Isaac is a promoter of the java language and has participated in different communities such as javaHispano and javaMéxico.<br>As part of the staff of the javaMexico community, Isaac promotes the use of Java and Java-related technologies by writing on his blog and as a speaker at JUG events.<br><br>Isaac has published several articles about the java ecosystem on different websites, including OTN and is frequent Speaker at LAOUC/ORAMEX events.<br>He was recently named part of the Neo4j Ninja program: https://neo4j.com/ninjas-program/",
+    "bio": "Ronald Vargas brings over 35 years of Oracle DBA expertise, with a career rooted in Costa Rica. He played a key role in founding the Oracle User Group in Costa Rica and co-founded user groups in Guatemala, Honduras, El Salvador, and Panama. Ronald has been a frequent international speaker across Latin America and Spain, sharing his deep technical knowledge and leadership experience. As a university professor for more than 12 years and a former Oracle University instructor for over a decade, he delivered more than 200 courses and was recognized among the top 15 instructors in Latin America by Oracle University. Highly active across social media platforms including X, Facebook, YouTube, and Blogspot.Ronald continuously shares insights and provides webinars for educational institutions and professional organizations. He served as Technology Director for LAOUC for three years and has been a key contributor to the organization of the annual Latin America Oracle User Group Tour since 2010.",
     "display": true,
-     "featured": false,
+    "featured": false,
     "badges": [
       {
-        "name": "Solution Architect",
-        "description": "Solution Architect"
+        "name": "Oracle DBA",
+        "description": "Oracle DBA"
       }
     ],
     "socials": [
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://twitter.com/rugi"
+        "link": "https://x.com/rovaque"
       },
       {
         "icon": "linkedin",
         "name": "Linkedin",
-        "link": "https://www.linkedin.com/newsletters/6931281718834335744/"
+        "link": "https://www.linkedin.com/in/ronaldvargasquesada/"
+      },
+      {
+        "icon": "link",
+        "name": "link",
+        "link": "https://oracledbacr.blogspot.com"
       }
     ]
   },
   {
   "numOrder": 103,
-   "speakerId" : "jesus-aguirre",
-    "name": "Jesús Aguirre",
-    "company": "Indra Minsait",
+   "speakerId" : "daniel-pelaez",
+    "name": "Daniel Andres Pelaez Lopez",
+    "company": "Genius Sports",
     "companyLogo": "",
-    "title": "Sr System Engineer",
-    "country": "Panamá",
-    "countryFlag": "flag-icon-pa",
-    "photoUrl": "/img/speakers/jesus-aguirre.jpg",
+    "title": "Senior Staff Software Engineer",
+    "country": "Colombia",
+    "countryFlag": "flag-icon-co",
+    "photoUrl": "/img/speakers/daniel-pelaez.jpg",
     "shortBio": "",
-    "bio": "Professional passionate about creating and growing through collaborative tech communities, with a focus on optimizing developer experience and scaling platforms. Actively involved in the CNCF ecosystem and committed to driving innovation through practical solutions in the cloud-native space.",
+    "bio": "Passionate about IT architectures and software development at all levels, from solution design to software implementation. I like to solve difficult problems using high technology, applying not common solutions.<br><br>Love typed languages and compilers; I believe we create better software with them. Also, I believe decoupling design and automated testing as first citizens on the development cycle.<br><br>Have over 15 years of experience working in the software industry in the financial, aircraft, entertainment, and government sectors in national and international companies.<br><br>Writer. Created https://coderstower.com as a way to share and improve our software engineering bases in our technology community.",
     "display": true,
     "featured": false,
     "badges": [
       {
-        "name": "Sr System Engineer",
-        "description": "Sr System Engineer"
+        "name": "Senior Staff Software Engineer",
+        "description": "Senior Staff Software Engineer"
       }
     ],
     "socials": [
       {
-        "icon": "linkedin",
-        "name": "Linkedin",
-        "link": "https://linkedin.com/in/info-aguirre-jesus"
+        "icon": "link",
+        "name": "link",
+        "link": "https://coderstower.com/"
       }
     ]
   },
@@ -97,16 +107,16 @@
     "numOrder": 104,
     "speakerId": "jose-diaz",
     "name": "José Díaz",
-    "company": "JoeDayz",
+    "company": "Perú JUG",
     "companyLogo": "",
     "title": "Software Architect",
     "country": "Peru",
     "countryFlag": "flag-icon-pe",
-    "photoUrl": "/img/speakers/josediaz.jpg",
+    "photoUrl": "/img/speakers/jose-diaz.jpg",
     "shortBio": "",
-    "bio": "Computer Engineer graduated from Pontificia Universidad Católica del Perú. Software Architect with extensive experience in analysis, design and implementation of SOA and Microservices solutions under Java EE architecture, using agile methodologies and frameworks such as Scrum. Experience in logistics projects, pharmaceuticals, telecommunications for over 25 years in Peru, Mexico and USA. Founder of JoeDayz.pe company recognized in the Peruvian market for its training courses in front-end, backend and mobile software development.Since September 2024, he has been working as a Cloud Architect at Oracle.<br><br>JUG Leader of PERU JUG.",
+    "bio": "Java Architect and Technology Leader with over 20 years of experience designing, modernizing, and scaling enterprise platforms. Specialist in Java architecture, cloud-native microservices, CI/CD pipelines, and solutions based on LLMs, RAG, and AI/ML services.<br><br>I have led Java Chapters, technical communities, and high-performing teams, promoting quality standards, modern engineering practices, architectural patterns, automation, documentation, and the adoption of new technologies.<br><br>I have extensive experience with Spring Boot, Quarkus, Java 8–21, serverless computing, containers, and distributed architectures on Oracle Cloud, AWS, and GCP. <br><br>My focus is on building resilient, scalable, and observable systems, guiding teams toward enterprise-level engineering practices.",
     "display": true,
-     "featured": false,
+    "featured": false,
     "badges": [
       {
         "name": "Software Architect",
@@ -132,140 +142,74 @@
     "name": "Enrique Zamudio",
     "company": "Bitso",
     "companyLogo": "",
-    "title": "Principal Engineer",
+    "title": "Principal Software Engineer",
     "country": "Mexico",
     "countryFlag": "flag-icon-mx",
     "photoUrl": "/img/speakers/enrique-zamudio.jpg",
     "shortBio": "",
-    "bio": "Enrique Zamudio is a professional programmer since 1994, based in Mexico City. He has specialized in server-side development with Java since 2000, focusing on backend applications, such as transactional switches for e-commerce and payment platforms. He is the author of the open source projects jAlarms, j8583 and ScalaSQL. Enrique joined the Ceylon Language development core team on January 2012, where he's contributed to the language module, the web IDE and the JVM compiler, and is the lead developer of the Ceylon-to-JavaScript compiler.<br>He's currently Principal Engineer at Bitso.",
+    "bio": "Enrique Zamudio is a professional programmer since 1994, based in Mexico City. He has specialized in server-side development with Java since 2000, focusing on backend applications, such as transactional switches for e-commerce and payment platforms. He is the author of the open source projects jAlarms, j8583 and ScalaSQL. Enrique joined the Ceylon Language development core team on January 2012, where he's contributed to the language module, the web IDE and the JVM compiler, and is the lead developer of the Ceylon-to-JavaScript compiler.<br>He's currently Principal Software Engineer at Bitso.",
     "display": true,
     "featured": false,
     "badges": [
       {
-        "name": "Principal Engineer",
-        "description": "Principal Engineer"
+        "name": "Principal Software Engineer",
+        "description": "Principal Software Engineer"
       }
     ],
     "socials": [
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://twitter.com/chochosmx"
-      },
-      {
-        "icon": "link",
-        "name": "link",
-        "link": "http://www.javamexico.org/blogs/ezamudio"
+        "link": "https://bsky.app/profile/chochosmx.bsky.social"
       }
     ]
   },
   {
-    "numOrder": 106,
-    "speakerId": "heather-vancura",
-    "name": "Heather VanCura",
-    "company": "Oracle",
+  "numOrder": 106,
+    "speakerId": "lorenzo-solano",
+    "name": "Lorenzo Solano Martinez",
+    "company": "Self-Employed",
     "companyLogo": "",
-    "title": "Director & Chairperson",
-    "country": "United States",
-    "countryFlag": "flag-icon-us",
-    "photoUrl": "/img/speakers/heather-vancura.jpeg",
-    "shortBio": "Vice President, Community Engagement @Oracle, Director & Chairperson at Java Community Process (JCP) Program, MySQL Community/DevRel, and Board Member",
-    "bio": "Heather VanCura is a Vice President, Community Engagement at Oracle, leading the Java Community Process (JCP) program and MySQL Community Outreach team. With 20+ years of experience at Oracle and Sun Microsystems, she actively engages with the developer community as an international speaker, event organizer, and mentor. She has visited six continents and over fifty countries meeting developers and helping them to engage in standards-related and open source projects. Heather is passionate about promoting diversity in technology and volunteers with organizations like Women Who Code and IEEE Women in Engineering. Her extensive involvement includes serving on the boards of Dress for Success and FIRST LEGO League NorCal. Heather's dedication to empowering developers and advocating for diversity makes her a respected leader in the industry.",
+    "title": "Software Architect",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/lorenzo-solano.jpg",
+    "shortBio": "",
+    "bio": "Software Architect with +15 years of experience with .NET (from 4.x to 10.0), Java, and JavaScript and TypeScript. I have experience in the Telecommunication and ISV industries. Strong focus on software products ROI and quality both internal (structural) and external (functional). Versed in Clean Architecture, SOLID Principles, Test Driven Development, Test Automation, DevSecOps, Agile Engineering Practices, and Agile Methodologies. I have practical experience with Object Oriented Analysis and Design, using well-known principles such as SOLID, Domain Driven Design (DDD), and Design Patterns. Also, I can combine OOP with Functional Programming principles.<br><br><br> Education and Certifications<br><br>. Master in Project Management.<br> Software engineer.<br>Certified Scrum Master.<br>Certified Scrum Product Owner.<br>Certified Scrum Developer.<br>Registered Education Provider from Scrum Alliance (Trainer).<br>Agile Certified Practitioner (PMI-ACP)<br><br> Current Practice<br><br>.Software Architect.<br>Consultant",
     "display": true,
-    "featured": true,
+    "featured": false,
     "badges": [
       {
-        "name": "Director & Chairperson",
-        "description": "Director & Chairperson"
+        "name": "Software Architect",
+        "description": "Software Architect"
       }
     ],
     "socials": [
       {
-        "icon": "twitter",
-        "name": "Twitter",
-        "link": "https://x.com/heathervc"
-      },
-      {
         "icon": "linkedin",
         "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/heather-vancura-400395/"
+        "link": "https://www.linkedin.com/in/lorenzo-solano-martinez/"
       }
     ]
   },
   {
   "numOrder": 107,
-    "speakerId": "sandon-jacobs",
-    "name": "Sandon Jacobs",
-    "company": "Confluent",
-    "companyLogo": "",
-    "title": "Senior Developer Advocate",
-    "country": "USA",
-    "countryFlag": "flag-icon-us",
-    "photoUrl": "/img/speakers/sandon-jacobs.jpeg",
-    "shortBio": "",
-    "bio": "Sandon Jacobs is a Senior Developer Advocate at Confluent based in North Carolina. Sandon has built microservices and event streaming applications in several industries - including television media, energy, mobile advertising, rail freight logistics, and healthcare. This experience spans multiple JVM languages - Java, Scala, Kotlin, Groovy - with smatterings of Python and JavaScript along the way.Sandon lives in Raleigh, NC, with his wife and 2 daughters. He is an enrolled citizen of the Waccamaw-Siouan Tribe of North Carolina, and can frequently be found at powwows around North America as a singer and speaker. Sandon is the Chairman of the Board of the Commissioners for the North Carolina American Indian Heritage Commission. Fun fact: an avid golfer since the age of 5, he was once mistaken for Tiger Woods at a teen golf event in the early 1990s. Check out his writings at https://medium.com/indigitech-blog and https://dev.to/sandonjacobs.",
-    "display": true,
-    "featured": true,
-    "badges": [
-      {
-        "name": "Senior Developer Advocate",
-        "description": "Senior Developer Advocate"
-      }
-    ],
-    "socials": [
-      {
-        "icon": "link",
-        "name": "Link",
-        "link": "https://medium.com/indigitech-blog"
-      }
-    ]
-  },
-  {
-    "numOrder": 108,
-    "speakerId": "david-parry",
-    "name": "David Parry",
-    "company": "Qodo",
-    "companyLogo": "",
-    "title": "Developer Advocate",
-    "country": "USA",
-    "countryFlag": "flag-icon-us",
-    "photoUrl": "/img/speakers/david-parry.jpeg",
-    "shortBio": "",
-    "bio": "David Parry is an accomplished Director of Architecture with over 20 years of experience in Java development. It all began in 1996 when he discovered the fascinating world of programming, with a particular focus on Java applets.<br>Throughout his illustrious career, David Parry has been involved in various noteworthy projects. He has successfully built and implemented content management systems for a wide range of clients, including the esteemed Johny Walker and its renowned keepwalking.com. Additionally, as a consultant at a Big 4 firm, David played a pivotal role in solving critical issues for numerous customers, demonstrating his expertise in handling complex and high-traffic web platforms.<br>Never one to shy away from innovation, David Parry has expanded his skills to work on cutting-edge technologies such as mobile and embedded Android TV systems. Leveraging his expertise, he has delivered top-notch streaming services to customers, ensuring they have an exceptional viewing experience.<br>Currently, David holds the position of Developer Advocate and Consultant overseeing strategic planning and execution of architectural designs for customers. With a deep understanding of software development principles and extensive experience in Java programming, he excels at providing valuable insights and guidance to his team.<br>Having witnessed the evolution of Java development from its early days to its current state, David Parry's wealth of experience and strategic perspective, combined with his consulting work at a Big 4 firm, make him an invaluable asset in any project or organization he is a part of.",
-    "display": true,
-    "featured": false,
-    "badges": [
-      {
-        "name": "Developer Advocate",
-        "description": "Developer Advocate"
-      }
-    ],
-    "socials": [
-      {
-        "icon": "twitter",
-        "name": "Twitter",
-        "link": "https://twitter.com/daviddryparry"
-      }
-    ]
-  },
-  {
-  "numOrder": 109,
     "speakerId": "david-joa",
     "name": "David Joa",
-    "company": "Techcode",
+    "company": "Techcode & Bricks Agile Academy",
     "companyLogo": "",
-    "title": "Co-Founder",
+    "title": "Founder",
     "country": "Dominican Republic",
     "countryFlag": "flag-icon-do",
     "photoUrl": "/img/speakers/david-joa.jpg",
     "shortBio": "",
-    "bio": "For over 20 years, David has been in the software development field. He has worked in organizations in the telecommunications and financial sector, for companies such as Claro, Banco Popular and APAP. He has taught for over 20 years at INTEC. He recently founded a software development company, and an academy to teach Agile and software best practices.",
+    "bio": "David Joa Morales is a technology consultant, Senior Agile Coach, and founder of Techcode, where he promotes agility practices, DevOps, and software development modernization. He has led transformations in the financial and telecommunications sectors and heads agility training at Bricks Agile Academy. With over 20 years of experience as a professor at INTEC, he combines practical expertise and academic training to strengthen digital capabilities in organizations.",
     "display": true,
     "featured": false,
     "badges": [
       {
-        "name": "Co-Founder",
-        "description": "Co-Founder"
+        "name": "Founder",
+        "description": "Founder"
       }
     ],
     "socials": [
@@ -277,20 +221,47 @@
     ]
   },
   {
-    "numOrder": 110,
-    "speakerId": "jorge-morla",
-    "name": "Jorge L. Morla",
-    "company": "Applaudo",
+    "numOrder": 108,
+    "speakerId": "juan-thomas-montilla",
+    "name": "Juan Thomas Angel Montilla",
+    "company": "Creativa Studios",
     "companyLogo": "",
-    "title": "Senior Software Engineer",
+    "title": "Software Engineer",
     "country": "Dominican Republic",
     "countryFlag": "flag-icon-do",
     "photoUrl": "/img/speakers/jorge-morla.jpeg",
     "shortBio": "",
-    "bio": "I am Jorge Morla a 26 year old engineer graduated from O&M Dominicana with more than 8 years of experience in Java. My passion for programming is reflected in my enthusiasm to face challenges that test my skills and push me to find innovative solutions.<br><br>I have a strong background in software development, I have worked on various projects ranging from enterprise applications to industry specific solutions.<br><br>My experience has allowed me to not only hone my technical skills in Java, but also develop a hands-on approach to tackling software development challenges.I am passionate about exploring new technologies and taking innovative approaches to software design and implementation. Problem solving and creating practical solutions are at the core of my approach, and I am always eager to learn and apply new ideas in my projects.",
-    "display": true,
+    "bio": "Juan Thomás Ángel Montilla is a Software Engineer with 7 years of experience in the information technology industry. He specializes in the Java ecosystem and has expert-level mastery of the entire Software Development Life Cycle (SDLC), covering everything from requirements analysis and design to development, debugging, and testing.",
+    "display": false,
     "featured": false,
-
+    "badges": [
+      {
+        "name": "Software Engineer",
+        "description": "Software Engineer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/juan-thomas-angel-montilla-ab8676b7"
+      }
+    ]
+  },
+  {
+    "numOrder": 109,
+    "speakerId": "priamo-germosen",
+    "name": "Priamo germosen",
+    "company": "Intive",
+    "companyLogo": "",
+    "title": "Senior Software Engineer",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/priamo-germosen.jpg",
+    "shortBio": "",
+    "bio": "Software engineer with over 20 years of experience in Java and distributed systems. He currently works on AdTech platforms for CTV, focusing on backend architecture and high-scale systems",
+    "display": false,
+    "featured": false,
     "badges": [
       {
         "name": "Senior Software Engineer",
@@ -299,57 +270,14 @@
     ],
     "socials": [
       {
-        "icon": "twitter",
-        "name": "Twitter",
-        "link": "https://twitter.com/unreachablehost"
-      },
-      {
-        "icon": "link",
-        "name": "link",
-        "link": "https://github.com/jmorla"
-      },
-      {
         "icon": "linkedin",
         "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/jorge-l-morla"
+        "link": "https://www.linkedin.com/in/priamogermosen/"
       }
     ]
   },
   {
-    "numOrder": 111,
-    "speakerId": "mirna-de-jesus-cambero",
-    "name": "Mirna De Jesus Cambero",
-    "company": "Independent Consultant",
-    "companyLogo": "",
-    "title": "Senior Java Developer",
-    "country": "Dominican Republic",
-    "countryFlag": "flag-icon-do",
-    "photoUrl": "/img/speakers/mirna-de-jesus-cambero.jpg",
-    "shortBio": "",
-    "bio": "Mirna is a software engineer with over a decade of experience in backend development, specializing in Java technologies. Throughout her career, she has worked in industries such as telecommunications, healthcare, financial technology and more recently in the public sector, building scalable and reliable systems while fostering a culture of effective collaboration.<br><br>One of her most notable achievements was her contribution in building a stock market from scratch at the Long Term Stock Exchange (LTSE), where she designed and maintained critical microservices, optimized system performance with low latency strategies and integrated the platform with key financial entities such as DTCC and SIPs.<br><br>Early in her career, Mirna was recognized multiple times for her achievements as a young developer in the Dominican Republic. Through her work, she seeks to make a positive impact on society and inspire more women to get into technology. She graduated as a Software Development Technologist from ITLA and holds a degree in Information Systems Engineering from UNAPEC.",
-    "display": true,
-    "featured": false,
-    "badges": [
-      {
-        "name": "Senior Java Developer",
-        "description": "Senior Java Developer"
-      }
-    ],
-    "socials": [
-      {
-        "icon": "link",
-        "name": "link",
-        "link": "https://code-like-a-woman.hashnode.dev"
-      },
-      {
-        "icon": "linkedin",
-        "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/mirnadejesus"
-      }
-    ]
-  },
-  {
-  "numOrder": 112,
+  "numOrder": 110,
     "speakerId": "aneudy-vargas",
     "name": "Aneudy Vargas",
     "company": "Independent Consultant",
@@ -359,7 +287,7 @@
     "countryFlag": "flag-icon-do",
     "photoUrl": "/img/speakers/aneudy-vargas.jpeg",
     "shortBio": "",
-    "bio": "I am a software enthusiast and I like to share my experience and as over the years I have been able to see in different projects, always present best practices and an optimistic focus, but outside of software I am a person who likes music , I play guitar, I like traveling and meeting new places, good food \uD83D\uDE05, meeting new people and learning from them.",
+    "bio": "Software developer with over 9 years of experience, specializing in Android development with a strong focus on architecture, concurrency, and scalable application development. He has extensive experience with Kotlin, coroutines, and modern development patterns, building robust and maintainable solutions. Currently focused on Kotlin Multiplatform and creating efficient shared architectures across platforms.",
     "display": true,
     "featured": false,
     "badges": [
@@ -377,7 +305,7 @@
     ]
   },
   {
-    "numOrder": 113,
+    "numOrder": 111,
     "speakerId": "rafael-almonte",
     "name": "José Rafael Almonte Cabrera",
     "company": "Franklin Covey",
@@ -387,7 +315,7 @@
     "countryFlag": "flag-icon-do",
     "photoUrl": "/img/speakers/rafael-almonte.jpg",
     "shortBio": "",
-    "bio": "I am a Telematics Engineer, with a Master's degree in Data Science, and I currently work as a Software Engineer specializing in backend development. I am passionate about building innovative solutions that connect complex systems and create real impact, working with languages such as Java, Kotlin, Node.js, and Python, along with other complementary technologies. I am currently delving deeper into the fields of Artificial Intelligence and Sports Analytics, applying data analysis and the development of predictive models to generate practical, high-impact solutions. Beyond the world of technology, I’m a big fan of sports (mainly soccer, basketball, and baseball) and music. I'm passionate about the piano —though I'm still learning to play— and I enjoy exploring new ways to connect creativity with engineering.",
+    "bio": "He is a Telematics & Software Engineer and Data Science graduate with 4 years of experience building solutions in FinTech and E-learning platforms. His work is driven by responsibility, teamwork, and continuous learning, and he is passionate about advancing in Software Engineering, AI/ML, Data Science, Sports Analytics, and Finance.<br><br>Outside of work, he enjoys traveling and exploring new cultures, following the NBA, MLB, NFL, and European soccer, playing padel, experimenting with new recipes, reading, and practicing piano.",
     "display": true,
     "featured": false,
     "badges": [
@@ -396,10 +324,16 @@
         "description": "Software Engineer"
       }
     ],
-    "socials": []
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/jrac/"
+      }
+    ]
   },
   {
-    "numOrder": 114,
+    "numOrder": 112,
     "speakerId": "brayan-munoz",
     "name": "Brayan Muñoz V",
     "company": "Dominican Republic JUG",
@@ -410,7 +344,7 @@
     "photoUrl": "/img/speakers/brayan-munoz.jpeg",
     "shortBio": "",
     "bio": "I'm a Software Engineer and Data Scientist with an MSc in Data Science (UCJC) and a degree in Telematics Engineering (PUCMM). With over 5 years of software development experience and 2 years focused on AI and Data Science, I’m also a board member of the Dominican Republic Java User Group (@JavaDominicano), where I speak on topics like Java and Machine Learning. Additionally, I teach at PUCMM in areas such as Programming and AI, and actively contribute to open-source projects.",
-    "display": true,
+    "display": false,
     "featured": false,
     "badges": [
       {
@@ -437,34 +371,40 @@
     ]
   },
   {
-    "numOrder": 115,
-    "speakerId": "alfonso-valdez",
-    "name": "Alfonso Valdez Altamirano",
-    "company": "Payara",
+    "numOrder": 113,
+    "speakerId": "gilson-martins",
+    "name": "Gilson Martins",
+    "company": "GGBR Solutions",
     "companyLogo": "",
-    "title": "Senior Java Software Developer",
-    "country": "Mexico",
-    "countryFlag": "flag-icon-mx",
-    "photoUrl": "/img/speakers/alfonso-valdez.jpeg",
+    "title": "Oracle DBA",
+    "country": "Brazil",
+    "countryFlag": "flag-icon-br",
+    "photoUrl": "/img/speakers/gilson-martins.jpeg",
     "shortBio": "",
-    "bio": "I'm a Senior Java Software Developer with 20 years of experience on the market, currently working with Payara to provide a very good tool for enterprise development. Also I'm a member of Jakarta and microprofile working groups where I work actively to contribute with the latest versions of the specifications.",
+    "bio": "Teacher / Instructor / Speaker <br><br>With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 26ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 26ai.",
     "display": true,
-    "featured": false,
+    "featured": true,
+    "badges": [
+      {
+        "name": "Oracle DBA",
+        "description": "Oracle DBA"
+      }
+    ],
     "socials": [
       {
-        "icon": "twitter",
-        "name": "Twitter",
-        "link": "https://twitter.com/breakponchito"
+        "icon": "link",
+        "name": "Link",
+        "link": "https://www.ggbrsolutions.com.br/blog"
       },
       {
         "icon": "linkedin",
         "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/alfonso-valdez-altamirano-dev/"
+        "link": "https://www.linkedin.com/in/gilsonmartins"
       }
     ]
   },
   {
-    "numOrder": 116,
+    "numOrder": 114,
     "speakerId": "freddy-pena",
     "name": "Freddy Peña",
     "company": "Alphnology",
@@ -475,7 +415,7 @@
     "photoUrl": "/img/speakers/freddy-pena.jpg",
     "shortBio": "",
     "bio": "<b>Founder of Alphnology</b>, <b>Technical Consultant</b>, and a passionate <b>Software Engineer</b> with over 12 years of expertise in Java development and 8+ years of experience managing and implementing SAP B1 projects. Holding a Master's degree in Web Engineering, I am also a dedicated educator currently teaching at PUCMM and an active member of the Dominican Java Community. I am skilled in designing, developing, and deploying high-performance, scalable applications using Java and various modern frameworks like Spring Boot, Vaadin Flow, Quarkus, Jakarta EE, Vert.x, and Hibernate. I am also an enthusiast of open-source projects.<br><br>With proven experience in integrating enterprise-level software, providing expert technical consulting, and managing end-to-end development lifecycles, I focus on code quality, system optimization, and scalability.<br><br>My approach spans from developing enterprise applications to implementing cloud solutions, always adhering to best practices and maintaining high code quality. I am always learning about the latest emerging technologies and staying up-to-date with new trends in the software development world.",
-    "display": true,
+    "display": false,
     "featured": false,
     "badges": [
       {
@@ -507,40 +447,395 @@
     ]
   },
   {
-    "numOrder": 117,
-    "speakerId": "venkat-subramaniam",
-    "name": "Dr. Venkat Subramaniam",
-    "company": "Agile Developer, Inc",
+    "numOrder": 115,
+    "speakerId": "francisco-alvarez",
+    "name": "Francisco Munoz Alvarez",
+    "company": "Oracle Corporation",
     "companyLogo": "",
-    "title": "Founder",
-    "country": "USA",
-    "countryFlag": "flag-icon-us",
-    "photoUrl": "/img/speakers/venkat-subramaniam.jpg",
+    "title": "Distinguished Product Manager",
+    "country": "Australia",
+    "countryFlag": "flag-icon-au",
+    "photoUrl": "/img/speakers/francisco-alvarez.jpg",
     "shortBio": "",
-    "bio": "Dr. Venkat Subramaniam is an internationally renowned speaker, award-winning author, founder of Agile Developer, Inc., and an instructional professor at the University of Houston. With a career spanning decades, he has delivered talks on software development, programming languages, and sustainable agile practices, inspiring tens of thousands of developers across the globe.<br><br>Venkat has authored multiple best-selling books, including Functional Programming in Java, Programming Kotlin, and Rediscovering JavaScript. His engaging style, deep insights, and practical advice have made him one of the most sought-after educators in the tech industry.",
+    "bio": "Francisco Munoz Alvarez is an author and popular speaker at many Oracle conferences around the world. He was also the founder and past President of LAOUC (Latin American Oracle User Groups Community), CLOUG (Chilean Oracle Users Group), APACOUC (APAC Oracle Users Group Community, which is the umbrella organization for all of APAC), IAOUG (Independent Australian Oracle Users Group), SGOUG (Singapore Oracle Users Group), and NZOUG (New Zealand Oracle Users Group).<br><br> He also worked in the first team to introduce Oracle to South America (Oracle 6 and the beta version of Oracle 7). He was also the first Master Oracle 7 Database Administrator in South America, as well as the first Latin American Oracle professional to be awarded a double ACE (ACE in 2008 and ACE Director in 2009) by Oracle HQ. <br><br>In 2010, he had the privilege to receive a prestigious Oracle Magazine Editor’s Choice Award as the Oracle Evangelist of the Year–a huge recognition for his outstanding achievements in the Oracle world including the creation and organization of the already famous OTN Tours that are the biggest Oracle evangelist events in the world.<br><br> Currently, Francisco works for Oracle, as a Distinguished Product Manager for Maximum Availability Architecture (MAA) and Competitive Intelligence, responsible for driving Oracle MAA adoption across the globe.<br><br>Outside his technological life, Francisco is a retired US first responder and paramedic. He is also an elite international athlete representing his country as part of the Australian dragon boat national team, the Auroras.",
     "display": true,
     "featured": true,
     "badges": [
       {
-        "name": "Founder",
-        "description": "Founder"
+        "name": "Distinguished Product Manager",
+        "description": "Distinguished Product Manager"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://www.oraclemaa.com"
+      }
+    ]
+  },
+  {
+    "numOrder": 116,
+    "speakerId": "diego-silva",
+    "name": "Diego Silva Limaco",
+    "company": "Apuntes de Java",
+    "companyLogo": "",
+    "title": "Software Architect",
+    "country": "Peru",
+    "countryFlag": "flag-icon-pe",
+    "photoUrl": "/img/speakers/diego-silva.jpg",
+    "shortBio": "",
+    "bio": "Java Architect and Technology Leader with over 20 years of experience designing, modernizing, and scaling enterprise platforms. Specialist in Java architecture, cloud-native microservices, CI/CD pipelines, and solutions based on LLMs, RAG, and AI/ML services.<br><br>I have led Java Chapters, technical communities, and high-performing teams, promoting quality standards, modern engineering practices, architectural patterns, automation, documentation, and the adoption of new technologies.<br><br>I have extensive experience with Spring Boot, Quarkus, Java 8–21, serverless computing, containers, and distributed architectures on Oracle Cloud, AWS, and GCP. <br><br>My focus is on building resilient, scalable, and observable systems, guiding teams toward enterprise-level engineering practices.",
+    "display": true,
+    "featured": false,
+    "badges": [
+      {
+        "name": "Software Architect",
+        "description": "Software Architect"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://apuntesdejava.com"
+      }
+    ]
+  },
+  {
+    "numOrder": 117,
+    "speakerId": "vicente-suc",
+    "name": "Vicente Suc",
+    "company": "CSN",
+    "companyLogo": "",
+    "title": "Co-Founder",
+    "country": "Guatemala",
+    "countryFlag": "flag-icon-gt",
+    "photoUrl": "/img/speakers/vicente-suc.jpg",
+    "shortBio": "",
+    "bio": "Systems Engineer, Co-founder of CSN and Proticket.io, Co-Leader of the Java User Group and Leader of the AWS User Group Guatemala, specializing in creating secure and scalable solutions on the AWS cloud. I have led projects in the healthcare, education, BPO, concert, and digital platform sectors, combining artificial intelligence, serverless services, and business acumen. I am currently driving technology initiatives that optimize processes and enhance the user experience.",
+    "display": true,
+    "featured": false,
+    "badges": [
+      {
+        "name": "Co-Founder",
+        "description": "Co-Founder"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://sessionize.com/vicente-suc"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/vicentex360/"
+      }
+    ]
+  },
+  {
+
+  "numOrder": 118,
+  "speakerId": "aluis-marte",
+  "name": "Aluis Marte",
+  "company": "Applaudo",
+  "title": "Java Application Architect",
+  "companyLogo": "",
+  "country": "Dominican Republic",
+  "countryFlag": "flag-icon-do",
+  "photoUrl": "/archive/jconf2024/images/speakers/aluis-marte.jpg",
+   "shortBio": "",
+   "bio": "Java Spring Boot developer and cat lover with over 12 years of experience working in various industries, including: Lottery, Casino, Fiber Optics Engineering, and Credit Reporting. With a deep-seated hatred for warnings",
+   "display": true,
+   "featured": false,
+  "badges": [
+    {
+      "name": "Java Application Architect",
+      "description": "Java Application Architect"
+    }
+  ],
+  "socials": [
+    {
+      "icon": "github",
+      "name": "Github",
+      "link": "https://github.com/AlsJava"
+    },
+    {
+      "icon": "linkedin",
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/aluis-marte-5159b267/"
+    }
+  ]
+ },
+  {
+
+    "numOrder": 119,
+    "speakerId": "cedric-clyburn",
+    "name": "Cedric Clyburn",
+    "company": "Red Hat",
+    "companyLogo": "",
+    "title": "Senior Developer Advocate",
+    "country": "USA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/img/speakers/cedric-clyburn.jpg",
+    "shortBio": "",
+    "bio": "Cedric Clyburn (@cedricclyburn), Senior Developer Advocate at Red Hat, is an enthusiastic software developer with a background in Kubernetes, DevOps, and container tools. Focused on open-source software, he both contributes (e.g., Podman, vLLM) and enjoys speaking, with prior experience at Devoxx, WeAreDevelopers, The Linux Foundation, and more.<br><br> Cedric also spends (too much) time creating video and written content helping developers learn new topics in emerging technologies, with over 2M+ views online. He's based in New York City and is an organizer of the local Kubernetes Community Day.",
+    "display": true,
+    "featured": true,
+    "badges": [
+      {
+        "name": "Senior Developer Advocate",
+        "description": "Senior Developer Advocate"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://www.cedricclyburn.com"
+      }
+    ]
+  },
+  {
+
+    "numOrder": 120,
+    "speakerId": "oscar-trejo",
+    "name": "Oscar Trejo",
+    "company": "Personal",
+    "companyLogo": "",
+    "title": "QA Chapter Lead",
+    "country": "Argentina",
+    "countryFlag": "flag-icon-ar",
+    "photoUrl": "/img/speakers/oscar-trejo.jpg",
+    "shortBio": "",
+    "bio": "Oscar Trejo is specialized in QA and software engineering. Known for automating workflows, building scalable tools, and developing QA and software engineers with a strategic vision. Actively engaged in sharing insights and mentoring QA professionals, with a strong reputation as a mentor and leader in the field. Currently is Chapter Lead at Personal, Argentina.",
+    "display": true,
+    "featured": true,
+    "badges": [
+      {
+        "name": "QA Chapter Lead",
+        "description": "QA Chapter Lead"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/oscartrejom/"
+      }
+    ]
+  },
+  {
+    "numOrder": 121,
+    "speakerId": "bryam-vega",
+    "name": "Bryam Vega",
+    "company": "Thoughtworks",
+    "companyLogo": "",
+    "title": "Senior Consultant Developer",
+    "country": "Ecuador",
+    "countryFlag": "flag-icon-ec",
+    "photoUrl": "/img/speakers/bryam-vega.jpg",
+    "shortBio": "",
+    "bio": "Soy un ingeniero de software apasionado y versátil, con más de 7 años de experiencia especializado en Java, enfocado en desarrollar soluciones escalables y de alta calidad. He liderado equipos utilizando metodologías ágiles y me he consolidado como una autoridad técnica en el diseño e implementación de diversas arquitecturas, incluidas microservicios, orientadas a eventos y sistemas monolíticos.<br><br> Mi profundo conocimiento de los patrones de diseño y las mejores prácticas en el desarrollo de software me permite entregar soluciones robustas y escalables que superan las expectativas de los clientes. Actualmente, desempeño un rol destacado como tech lead, dedicándome a crear soluciones de alta calidad que reflejan mi amor por la tecnología y la innovación.",
+    "display": true,
+    "featured": false,
+    "badges": [
+      {
+        "name": "Senior Consultant Developer",
+        "description": "Senior Consultant Developer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/bryam-vega/?locale=en"
+      }
+    ]
+  },
+  {
+    "numOrder": 122,
+    "speakerId": "betzabe-salas",
+    "name": "Betzabe Maria Salas Vergara",
+    "company": "Banco de Crédito del Perú",
+    "companyLogo": "",
+    "title": "Team Leader",
+    "country": "Colombia",
+    "countryFlag": "flag-icon-co",
+    "photoUrl": "/img/speakers/betzabe-salas.jpg",
+    "shortBio": "",
+    "bio": "I am a Systems Engineer, specializing in Software Engineering. I have over 10 years of experience developing and designing applications for the financial sector. Excellence, passion, continuous learning, teamwork, respect, tolerance, assertive communication, eagerness to keep learning, and humility are some of the words that define me. I am a passionate person who fully commits to what I set out to do; I give my heart to projects and never give up until I successfully complete them. I seek solutions to any challenges that arise and always strive to do so with the highest quality and attention to detail, ensuring the result is flawless and of great value to stakeholders.",
+    "display": true,
+    "featured": false,
+    "badges": [
+      {
+        "name": "Team Leader",
+        "description": "Team Leader"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/betzabe-maria-salas-vergara-4a3053176"
+      }
+    ]
+  },
+  {
+    "numOrder": 123,
+    "speakerId": "karvin-jimenez",
+    "name": "Karvin Jiménez",
+    "company": "Alterna",
+    "companyLogo": "",
+    "title": "Web Developer Fullstack",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/karvin-jimenez.jpg",
+    "shortBio": "",
+    "bio": "Game development is something I’ve always been passionate about—it’s the area of programming that inspired me to study systems engineering. I have significant experience in game programming using graphics libraries.<br><br>Why did I decide to learn graphics libraries? Well, unfortunately, game engines like Unity or Unreal don’t provide support for developing games on older consoles. As a result, game development for these classic consoles would be lost if we only relied on game engines.",
+    "display": true,
+    "featured": false,
+    "badges": [
+      {
+        "name": "game development",
+        "description": "game development"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://nameless-knight.itch.io/"
+      }
+    ]
+  },
+  {
+    "numOrder": 124,
+    "speakerId": "zkozina",
+    "name": "Željko Kozina",
+    "company": "Chronomill Ltd",
+    "companyLogo": "",
+    "title": "Technical Architect",
+    "country": "Ireland",
+    "countryFlag": "flag-icon-ie",
+    "photoUrl": "/img/speakers/zkozina.jpg",
+    "shortBio": "",
+    "bio": "Željko has spent over 15 years in IT, mostly consulting for banks and insurance companies, with a focus on modernising legacy systems. Along the way, he developed deep expertise in JVM-based technologies and has become a go-to voice on topics such as API design.<br><br> When he's not untangling someone else's technical debt, he's happily creating his own through a growing collection of personal projects he enthusiastically starts and occasionally finishes. Željko is passionate about sharing knowledge in a way that actually sticks, which usually means keeping things practical, a little entertaining, and free of unnecessary jargon.",
+    "display": true,
+    "featured": true,
+    "badges": [
+      {
+        "name": "Technical Architect",
+        "description": "Technical Architect"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "link",
+        "name": "Link",
+        "link": "https://graphqlguy.com/"
+      },
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/zkozina"
+      }
+    ]
+  },
+  {
+    "numOrder": 125,
+    "speakerId": "franklin-castillo",
+    "name": "Franklin Castillo",
+    "company": "Freelancer",
+    "companyLogo": "",
+    "title": "Full-Stack Developer",
+    "country": "Dominican Republic",
+    "countryFlag": "flag-icon-do",
+    "photoUrl": "/img/speakers/franklin-castillo.jpg",
+    "shortBio": "",
+    "bio": "I’m Franklin Castillo, a Java Backend and Full-Stack Developer driven by a passion for building scalable, efficient, and secure applications. With hands-on experience in Java, Spring Boot, and React, I specialize in designing end-to-end solutions that combine strong backend performance with seamless user experiences.<br><br> My expertise covers microservices architecture, RESTful and GraphQL APIs, cloud deployment, and database management, enabling the development of reliable, high-performing enterprise systems.",
+    "display": true,
+    "featured": false,
+    "badges": [
+      {
+        "name": "Full-Stack Developer",
+        "description": "Full-Stack Developer"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/fcastilloramos18/"
+      }
+    ]
+  },
+  {
+    "numOrder": 126,
+    "speakerId": "eddumelendez",
+    "name": "Eddú Meléndez Gonzales",
+    "company": "Docker",
+    "companyLogo": "",
+    "country": "Perú",
+    "title": "Staff Software Engineer",
+    "countryFlag": "flag-icon-pe",
+    "photoUrl": "/archive/jconf2024/images/speakers/eddumelendez.jpg",
+    "shortBio": "",
+    "bio": "Eddú Meléndez is a Staff Software Engineer at Docker and is currently one of the members of the Testcontainers team, contributing to the Spring ecosystem and other Open Source projects since 2015. During his free time, he likes to research about new trends and contribute to Open Source projects.",
+    "display": false,
+    "featured": false,
+    "badges": [
+      {
+        "name": "Staff Software Engineer",
+        "description": "Staff Software Engineer"
       }
     ],
     "socials": [
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://x.com/venkat_s"
+        "link": "https://twitter.com/eddumelendez"
       },
       {
-        "icon": "linkedin",
-        "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/vsubramaniam/"
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/eddumelendez"
       },
       {
         "icon": "link",
-        "name": "link",
-        "link": "https://agiledeveloper.com"
+        "name": "Link",
+        "link": "https://eddumelendez.dev"
+      }
+    ]
+  },
+  {
+
+    "numOrder": 127,
+    "speakerId": "grace-ableidinger",
+    "name": "Grace Ableidinger",
+    "company": "Red Hat",
+    "companyLogo": "",
+    "title": "AI Developer Advocate",
+    "country": "USA",
+    "countryFlag": "flag-icon-us",
+    "photoUrl": "/img/speakers/grace-ableidinger.jpg",
+    "shortBio": "",
+    "bio": "Grace Ableidinger is an AI Engineer and Developer Advocate at Red Hat based in Raleigh, NC. She is passionate about making AI accessible to everyone and exploring how open-source technology can drive real-world impact. She is dedicated to building communities and resources that empower people to use AI to build a better world.",
+    "display": true,
+    "featured": true,
+    "badges": [
+      {
+        "name": "AI Developer Advocate",
+        "description": "AI Developer Advocate"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/grace-ableidinger/"
       }
     ]
   }

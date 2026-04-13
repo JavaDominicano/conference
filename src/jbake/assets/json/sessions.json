@@ -1,18 +1,17 @@
 [
   {
     "id": 101,
-    "title": "Jakarta EE Meets AI",
-    "abstract": "Why learn new languages? Java has all you need for integrating Large Language Models (LLMs) into enterprise apps. Join me for live demos with LangChain4J, Spring AI, and Jakarta EE, and see how easily Java can be used for AI in your applications!",
-    "description": "Most of us are not writing our own Large Language Models (LLMs). We are consuming them, and integrating them into our enterprise applications. Ang guess what? Java is the perfect language for this! You don't have to learn Python or any other language for your AI integrations.<br><br>This session will explore different options there are for Java developers and how to integrate them into your enterprise Java applications. There will be live demos using libraries and tools such as LangChain4J, Spring AI, and Jakarta EE.",
-    "audience_level": "All",
+    "title": "The Past, Present, and Future of Enterprise Java",
+    "abstract": "This session will give you a history lesson of Enterprise Java as well as an overview of everything brought to you by Jakarta EE 11 with lots of code demos. We will also look forward and check out what's in the pipeline for Jakarta EE 12 and how enterprises can cope with the ever increasing presence of AI",
+    "description": "Over the last 30 years, Java has been the preferred technology for developing enterprise applications. Frameworks and approaches such as J2EE, Spring Framework, Java EE, Spring Boot, and Jakarta EE all contribute to this success story.<br><br>The Jakarta EE 11, with features for increasing performance and developer productivity, such as support for virtual threads and the new Jakarta Data specification.<br><br>This session will give you a history lesson of Enterprise Java as well as an overview of everything brought to you by Jakarta EE 11 with lots of code demos. We will also look forward and check out what's in the pipeline for Jakarta EE 12 and how enterprises can cope with the ever increasing presence of AI.",
+    "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
     "display": true,
     "featured": true,
     "tags": [
-      "AI",
-      "Java",
-      "Architecture",
+      "Java EE",
+      "Enterprise Java",
       "Jakarta EE"
     ],
     "speakers": [
@@ -21,52 +20,50 @@
   },
   {
     "id": 102,
-    "title": "Java y grafos. Iniciemos con Neo4j",
-    "abstract": "Los NoSQL ya son el día a día de nuestras aplicaciones, de entre los distintos tipos, existe uno que a veces no exploramos para nuestras soluciones: las orientadas a grafos.<br>En esta charla veremos por qué son importantes y cómo podemos usarlas en nuestros proyectos con Java.",
-    "description": "Las bases de datos orientadas a grafos siguen avanzando de manera discreta en el día a día de las soluciones informáticas.<br>La intención de esta charla es:<br><br>Recordar la importancia de una bbdd orientada a grafos.<br>Ver algunos casos de uso.<br>Saber por dónde empezar usando recursos gratuitos (conoceremos un servicio gratuito de neo4j).<br>Como conectarnos usando java (springboot, quarkus, helidon, micronaut).",
+    "title": "El Caballo de Troya Digital: ¿Estás Invitando a Hackers a tu Base de Datos?",
+    "abstract": "Cada consulta SQL que permites en tu aplicación puede ser un soldado oculto dentro de un Caballo de Troya. La inyección de código SQL es una de las amenazas más letales para las bases de datos Oracle, permitiendo que atacantes tomen el control, roben información o incluso destruyan datos críticos. Pero aquí está la clave: este ataque solo funciona si le abrimos la puerta. En esta charla, descubrirás cómo desinfectar y blindar la ejecución de sentencias SQL en la base de datos para que los hackers no puedan infiltrarse. ¿Estás listo para cerrar la brecha antes de que sea demasiado tarde?",
+    "description": "Cada consulta SQL que permites en tu aplicación puede ser un soldado oculto dentro de un Caballo de Troya. La inyección de código SQL es una de las amenazas más letales para las bases de datos Oracle, permitiendo que atacantes tomen el control, roben información o incluso destruyan datos críticos. Pero aquí está la clave: este ataque solo funciona si le abrimos la puerta. En esta charla, descubrirás cómo desinfectar y blindar la ejecución de sentencias SQL en la base de datos para que los hackers no puedan infiltrarse. ¿Estás listo para cerrar la brecha antes de que sea demasiado tarde?",
     "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
     "featured": false,
     "tags": [
-      "Java Platform",
-      "nosql",
-      "neo4j",
-      "graph",
+      "Security and DevSecOps",
       "databases"
     ],
     "speakers": [
-      "isaac-ruiz"
+      "ronald-vargas"
     ]
   },
   {
     "id": 103,
-    "title": "Helidon 4 en Kubernetes: Lecciones Reales, Retos y Casos de Uso en Producción",
-    "abstract": "Descubre cómo llevar Helidon 4 a producción en Kubernetes. Exploraremos lecciones aprendidas, retos enfrentados y casos de uso reales con Eclipse MicroProfile, bases de datos y servicios externos. Una charla con insights clave para optimizar distintas cargas de trabajo en el mundo real.",
-    "description": "Helidon 4, basado en Eclipse MicroProfile, es una opción poderosa para micro servicios en Kubernetes. En esta charla, compartiré lecciones aprendidas, retos enfrentados y casos de uso reales en producción, desde integración con bases de datos hasta consumo de APIs externas. Una sesión práctica con insights clave para optimizar distintas cargas de trabajo.",
+    "title": "Escalando aplicaciones en la JVM con virtual threads para video streaming",
+    "abstract": "Mostraré casos de uso donde usamos la JVM para hacer video streaming en Genius Sports, en los cuales tuvimos problemas de escalabilidad antes de la aparición de virtual threads, y cómo estos problemas de escalabilidad fueron solucionados usando virtual threads.",
+    "description": "Mostraré casos de uso donde usamos la JVM para hacer video streaming en Genius Sports, en los cuales tuvimos problemas de escalabilidad antes de la aparición de virtual threads, y cómo estos problemas de escalabilidad fueron solucionados usando virtual threads.<br><br>Arrancamos con un resumen de cómo funciona la concurrencia en la JVM, mostramos casos de uso con problemas de escalabilidad, que es Project Loom y Virtual Threads, los mismos casos de uso pero usando Virtual Threads, una pequeña demo que compara Platform Threads y Virtual Threads, y finalmente una opinión de cómo el futuro luce para la programación reactiva",
     "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
-    "featured": false,
+    "featured": true,
     "tags": [
       "Java Platform",
       "Server side development"
     ],
     "speakers": [
-      "jesus-aguirre"
+      "daniel-pelaez"
     ]
   },
   {
     "id": 104,
-    "title": "De las Trincheras a Producción: Dominando GraalVM con Spring Boot",
-    "abstract": "Sumérgete en experiencias reales con GraalVM y Spring Boot. Aprende a reducir uso de memoria, CPU y tiempos de arranque, creando contenedores más pequeños y manejando altas cargas. Esta charla ofrece soluciones prácticas para builds nativos, configuración de plugins y automation con  github action.",
-    "description": "Aunque GraalVM promete arranques rápidos, menor consumo de recursos y capacidades políglotas, el camino a producción no siempre es simple. En esta sesión compartiré lecciones aprendidas trabajando con clientes que usan Spring Boot y GraalVM, enfocándome en modos JIT y Nativo. Cubriremos la configuración de plugins Maven como bootRun, bootBuildImage y graalvmNative, el manejo de reflexión y proxies dinámicos, y la automatización de generación de metadatos usando el repositorio de reachability de GraalVM. Esta no es solo otra demo: es un recorrido detallado desde la perspectiva de un programador, resaltando desafíos y soluciones al llevar aplicaciones reales a producción con GraalVM. También mostraremos despliegues con GitHub Actions y ejemplos de programación políglota práctica.",
+    "title": "De Spec-Driven a Skill-Driven: la evolución del CI/CD con agentes en Java",
+    "abstract": "El desarrollo moderno en Java está evolucionando más allá de la automatización hacia sistemas inteligentes impulsados por agentes.<br><br>Durante años, Spec-Driven Development (SDD) ha permitido a los equipos construir sistemas distribuidos de forma controlada mediante contratos como OpenAPI y AsyncAPI. Sin embargo, en la era de los agentes de IA, las especificaciones por sí solas ya no son suficientes.<br><br>En esta charla exploramos la transición hacia Skill-Driven Development, donde el enfoque cambia de definir APIs a capturar conocimiento reusable que los agentes pueden aplicar y mejorar con el tiempo.<br><br>A través de una demo real basada en microservicios con Spring Boot, mostraremos cómo los agentes pueden:<br>-Interpretar y validar especificaciones de APIs<br>-Generar y mejorar servicios Java<br>-Aplicar contratos y detectar inconsistencias<br>-Ejecutar tareas dentro de un pipeline de CI/CD<br><br>También introduciremos el concepto de <b>skills</b> como una forma de persistir decisiones arquitectónicas, convenciones de código y reglas de validación, permitiendo que los agentes evolucionen en lugar de empezar desde cero en cada interacción.<br><br>Al finalizar la sesión, entenderás cómo combinar Java, especificaciones y agentes de IA para construir pipelines de entrega más inteligentes que mejoran continuamente.",
+    "description": "<b>Aprendizajes clave</b><br>-Cómo funciona Spec-Driven Development en arquitecturas modernas Java<br>-Qué significa Skill-Driven Development en la práctica<br>-Cómo integrar agentes de IA en pipelines de CI/CD<br>-Demo real con Spring Boot y microservicios<br>-Consideraciones prácticas para adoptar este enfoque<br><br><b>Audiencia</b><br><br>-Desarrolladores Java (Spring Boot, microservicios)<br>-Ingenieros DevOps / Platform<br>-Arquitectos de software<br>-Equipos interesados en aplicar IA en el SDLC",
     "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
+    "featured": false,
     "tags": [
       "Java Platform"
     ],
@@ -76,22 +73,17 @@
   },
   {
     "id": 105,
-    "title": "30 years programming: Lessons learned",
-    "abstract": "I have been programming for 30 years now. During this time I have learned many lessons about work, code, software, tech in general that I'd like to share with you.<br>I want to talk about cyclic patterns I've noticed throughout all these years, in the hopes we can stop making the same mistakes",
-    "description": "I want to talk about what programming was 30 years ago, and what it has become today. Look at the trendy things that have come and gone, and come back again. Not in a \"get off my lawn\" tone, but rather to show how this industry is not that different from others; the good, the bad, the ugly. How Open Source changed the industry, and how the industry changed Open Source. What's in store for the newer generations.",
-    "audience_level": "Intermediate",
+    "title": "La nave de Teseo en software",
+    "abstract": "El software es algo que está en constante cambio, ya que debe adaptarse a las necesidades cambiantes del negocio que sostiene. Estos cambios deben realizarse sin afectar la operación tanto como sea posible.<br>Esta charla describe las dificultades de hacer modificaciones a software para realizar migraciones de datos sin interrumpir la operación de los sistemas afectados.",
+    "description": "Migrar datos es una de las tareas más difíciles en la operación de un sistema. Realizar una migración sin interrumpir la operación de los sistemas afectados es aúan más difícil y complejo. En esta charla se narran a detalle algunas migraciones de datos que se realizaron en un sistema que estaba en constante cambio, sin interrumpir la operación del mismo, y sin que los usuarios supieran que esto estaba ocurriendo.",
+    "audience_level": "All",
     "language": "es",
     "display": true,
     "featured": false,
     "talk_format": "Talk (~30-45 minutes)",
     "tags": [
       "software development",
-      "programming",
-      "cloud",
-      "Server side development",
-      "Java Platform",
-      "web development",
-      "client-side development"
+      "Server side development"
     ],
     "speakers": [
       "enrique-zamudio"
@@ -99,59 +91,24 @@
   },
   {
     "id": 106,
-    "title": "How and why to participate in the future of the Java Platform",
-    "abstract": "Learn about how to participate in the evolution and how to grow and build the next generation of Java developers, how we are working to advance of adoption of new versions of Java in the ecosystem. Also how we are evolving Java to be the platform of choice for AI workloads",
-    "description": "Much of the success of the Java programming language can be attributed to how the language evolves and how the worldwide community of #Javadevelopers collaborates in that evolution. It is you— members of the Java community who make that possibility a reality. The Java Community Process (JCP) Program is the process by which the international Java community standardizes and ratifies the specifications for Java technologies. We are celebrating 30 years of Java in 2025! The community collaboration in the JCP program is essential to Java.  Learn about how to participate in the evolution and how to grow and build the next generation of Java developers, how we are working to advance of adoption of new versions of Java in the ecosystem. Also how we are evolving Java to be the platform of choice for AI workloads, We are looking forward to future innovations and community collaboration in the years to come. Learn what’s new in the platform in Java 25 and beyond, and how to participate in the community.",
+    "title": "System Design: Paying attention to Requirements for better Coding and Testing",
+    "abstract": "This hands-on workshop connects <b>system design</b>, <b>requirements</b>, and <b>testing</b> into a single, practical workflow. Participants will learn how to use <b>Event Storming</b> as a fast, collaborative way to discover business behavior, clarify scope, and surface assumptions early—before they become defects. From that shared understanding, we shift into a <b>Test First mindset</b> (TDD as a practice, plus test planning and test-case discovery techniques) to define \"success\" before implementation and improve quality through <b>prevention over remediation</b>.<br><br>A core theme is <b>Single Source of Truth</b>: teams should not treat \"what developers say\" as the only input for QA, nor should developers rely on QA to \"find everything.\" Instead, both roles derive their plans from the <b>business needs and requirements</b>, using the same artifacts and language. By the end, participants will have practiced mapping <b>processes, events, commands, aggregates, and policies within a bounded context</b>, and extracting high-value test cases using proven techniques such as equivalence partitioning, boundary analysis, decision tables, and state transitions.",
+    "description": "\"System Design: Paying attention to Requirements for better Coding and Testing\" is an interactive 4-hour workshop designed for mixed audiences of <b>developers and QA professionals</b> who want a shared, requirements-driven approach to building and validating software.<br><br>We start with <b>Event Storming basics</b> to turn requirements into a visible model of business behavior. Using a lightweight domain scenario, participants will identify <b>Domain Events, Commands, Policies, Aggregates, Read Models, Entities and Value Types, and Bounded Context boundaries</b>. The goal is not to produce a perfect DDD model, but to quickly align on what must happen, why it matters, and where the system's responsibilities begin and end.<br><br>Next, we translate that understanding into a <b>Test First mindset</b>. This includes TDD fundamentals (where it fits and where it does not), plus practical <b>test planning</b> and <b>test case discovery</b>. Participants will practice extracting test cases directly from requirements and business rules, and will apply structured techniques:<br>- Equivalence Partitioning and Boundary Value Analysis<br>- Positive/Negative testing<br>- Decision Tables<br>- State Transitions<br>- Basic risk-based prioritization (what to test first and why)<br><br>Finally, we tie everything together with a <b>Single Source of Truth</b>: how to ensure developers and QA derive actions from the same requirements, rather than from informal conversations or role-based assumptions. You'll leave with a repeatable approach that improves clarity, reduces rework, and makes testing more purposeful.<br><br><b>Outcomes / artifacts produced during the workshop</b><br>- A bounded-context Event Storming map (events, commands, policies, aggregates, read models)<br>- A requirements-to-tests trace: a prioritized set of test cases derived from business needs<br>- A practical checklist for aligning dev + QA around requirements and success criteria",
     "audience_level": "All",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "en",
+    "talk_format": "Workshop (> 60 minutes)",
+    "language": "es",
     "display": true,
-    "featured": true,
+    "featured": false,
     "tags": [
-      "java"
+      "System Design",
+      "Best Practices"
     ],
     "speakers": [
-      "heather-vancura"
+      "lorenzo-solano"
     ]
   },
   {
     "id": 107,
-    "title": "At Long Last, Queues for Apache Kafka - Unpacking Shared Groups (KIP-932)",
-    "abstract": "Shared groups (KIP-932) brings \\\"queues\\\" to the Apache KafkaⓇ ecosystem. The guarantees of durability, scalability, and high throughput we’ve always touted in Kafka, all while scaling consumption beyond the partition count and better support for transactional workloads. Let’s unpack it together.",
-    "description": "Apache KafkaⓇ powers 80 percent of the Fortune 500 as a highly scalable event-streaming platform. Consumer groups assign partitions to members of the group, providing a powerful combination of ordering and scalability. But how can we scale the consumers in a group beyond the number of partitions of a topic?<br><br>Enter KIP-932 - aka “Queues for Kafka” - enabling multiple consumers in the group to process from the same topic-partition. In this session we’ll explore how shared groups provide better support for transactional workloads, load balancing, and event ordering, all while leveraging Kafka’s scalability and durability features. We’ll discuss how shared groups differ from classic consumer groups and when to use them. What better way to do this than actually looking at code? Let’s do that.<br><br>Shared groups make Kafka an even stronger alternative to traditional message brokers. Kafka veterans and beginners alike will find this session of interest, prompting you to rethink event processing.<br>",
-    "audience_level": "Intermediate",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "en",
-    "display": true,
-    "featured": false,
-    "tags": [
-      "Server side development",
-      "Java Platform"
-    ],
-    "speakers": [
-      "sandon-jacobs"
-    ]
-  },
-  {
-    "id": 108,
-    "title": "Getting Groovy: AI-Powered Spock Testing",
-    "abstract": "Spock is a powerful testing framework for Java and Groovy, offering an expressive, efficient way to write tests. Imagine combining Spock with AI to supercharge your testing process. In this talk, see live coding that demonstrates how AI enhances test creation!",
-    "description": "Spock is a testing framework for Java and Groovy applications known for its expressive specification language. With a JUnit runner, it integrates seamlessly with IDEs, build tools, and CI servers. Inspired by JUnit, RSpec, Groovy, Scala, and Vulcans, Spock brings a unique and efficient approach to testing. It utilizes Groovy’s Abstract Syntax Tree (AST) to eliminate boilerplate, enabling a fluid domain-specific language for tests.<br><br>Now, imagine taking Spock to the next level with AI. By integrating AI into testing, we can enhance efficiency and intelligence.<br><br>In this talk, I’ll minimize slides and focus on live coding to demonstrate the power of Spock with AI assistance. You’ll learn how AI tools can help write robust tests and elevate your testing skills. Join me to explore Spock and discover how AI can transform your testing approach.",
-    "audience_level": "All",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "en",
-    "display": true,
-    "featured": false,
-    "tags": [
-      "Java Platform",
-      "unit testing"
-    ],
-    "speakers": [
-      "david-parry"
-    ]
-  },
-  {
-    "id": 109,
     "title": "Agilidad para Desarrolladores: Creando Software de Calidad de Forma Continua",
     "abstract": "La agilidad no es solo seguir marcos de trabajo, sino desarrollar software de calidad de forma continua y sostenible. En esta charla, aprenderás cómo aplicar Agilidad para entregar valor, construir buen software y usar Scrum, Kanban y XP para un flujo eficiente sin comprometer la calidad.",
     "description": "En el mundo del desarrollo de software, la rapidez y la calidad a menudo parecen estar en conflicto. Sin embargo, con un enfoque ágil bien aplicado, es posible entregar software de alto valor de manera continua sin sacrificar la estabilidad ni la excelencia técnica.<br><br>En esta charla, exploraremos cómo los desarrolladores pueden aprovechar la agilidad para mejorar su proceso de construcción de software. Abordaremos temas clave como:<br>El ciclo de vida del desarrollo ágil: Cómo gestionar desde la idea hasta la entrega de valor de manera iterativa y eficiente.<br>Planificación ágil: Estrategias para planificar el trabajo sin caer en la burocracia ni en la falta de previsión.<br>Scrum, Kanban y XP: Cómo elegir y combinar estos marcos de trabajo para optimizar el flujo de desarrollo.<br>Entrega continua y calidad del código: Prácticas que aseguran que el software se mantenga en producción sin interrupciones ni regresiones.<br>Colaboración y mejora continua: Cómo fomentar la comunicación efectiva dentro del equipo y adaptarse al cambio de manera fluida.<br><br>Si eres desarrollador y quieres construir software de calidad de forma sostenible, esta charla te dará las herramientas y enfoques necesarios para lograrlo con agilidad.",
@@ -169,190 +126,366 @@
     ]
   },
   {
+    "id": 108,
+    "title": "Desarrollo de Videojuegos Multiplataforma / Ecosistema Java",
+    "abstract": "A menudo encasillamos a Java en el desarrollo empresarial, microservicios y backend, olvidando que es una de las herramientas más potentes para el desarrollo multimedia interactivo. En esta charla, romperemos el mito de que \\\"Java es lento para juegos\\\" y exploraremos LibGDX, el framework que impulsa juegos con millones de descargas como Slay the Spire o Mindustry.<br><br>Veremos cómo configurar un proyecto moderno (usando Gradle y Kotlin/Java 21+), gestionaremos el ciclo de vida de una aplicación gráfica y, lo más importante, demostraremos la magia del \\\"Write Once, Run Anywhere\\\" real: desplegando el mismo código en Desktop, Android y navegadores Web (vía TeaVM/GWT) en vivo.<br><br>Ya seas un desarrollador backend curioso por los gráficos, o un estudiante queriendo lanzar su primer indie game, saldrás de esta sesión entendiendo cómo tu conocimiento actual de Java puede abrirte las puertas a la industria del videojuego.",
+    "description": "A menudo encasillamos a Java en el desarrollo empresarial, microservicios y backend, olvidando que es una de las herramientas más potentes para el desarrollo multimedia interactivo. En esta charla, romperemos el mito de que \\\"Java es lento para juegos\\\" y exploraremos LibGDX, el framework que impulsa juegos con millones de descargas como Slay the Spire o Mindustry.<br><br>Veremos cómo configurar un proyecto moderno (usando Gradle y Kotlin/Java 21+), gestionaremos el ciclo de vida de una aplicación gráfica y, lo más importante, demostraremos la magia del \\\"Write Once, Run Anywhere\\\" real: desplegando el mismo código en Desktop, Android y navegadores Web (vía TeaVM/GWT) en vivo.<br><br>Ya seas un desarrollador backend curioso por los gráficos, o un estudiante queriendo lanzar su primer indie game, saldrás de esta sesión entendiendo cómo tu conocimiento actual de Java puede abrirte las puertas a la industria del videojuego.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": false,
+    "featured": false,
+    "tags": [
+      "Java Platform",
+      "Emerging trends"
+    ],
+    "speakers": [
+      "juan-thomas-montilla"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Sobreviviendo al Hiper-Scale: de 5B a 10B transacciones diarias en una plataforma CTV",
+    "abstract": "En esta charla exploramos cómo escalar una plataforma de AdTech para CTV desde 5 mil millones hasta 10 mil millones de transacciones diarias, manteniendo latencias estrictas y alta disponibilidad.<br><br>El sistema principal está construido en Java (Java 25) y opera en un entorno altamente distribuido. Analizaremos su arquitectura, los retos constantes de operar a esta escala y cómo tomamos decisiones técnicas bajo presión real de producción.<br><br>Además, discutiremos brevemente cómo evoluciona el proceso de desarrollo en sistemas de alto volumen: desde testing y releases hasta manejo de incidentes y validación en producción.<br><br>Cubriremos:<br><br>Diseño del sistema principal y sistemas relacionados.<br>Patrones de escalabilidad y bottlenecks comunes<br>Estrategias de optimización en runtime (GC, memoria, threading)<br>Stack tecnológico: Jetty, Aerospike, Caffeine, Spring, Kafka, Flink, Protobuf, Spark, Druid<br>Trade-offs reales entre consistencia, latencia y costo<br>Lecciones aprendidas (lo que funcionó y lo que no)",
+    "description": "En esta charla exploramos cómo escalar una plataforma de AdTech para CTV desde 5 mil millones hasta 10 mil millones de transacciones diarias, manteniendo latencias estrictas y alta disponibilidad.<br><br>El sistema principal está construido en Java (Java 25) y opera en un entorno altamente distribuido. Analizaremos su arquitectura, los retos constantes de operar a esta escala y cómo tomamos decisiones técnicas bajo presión real de producción.<br><br>Además, discutiremos brevemente cómo evoluciona el proceso de desarrollo en sistemas de alto volumen: desde testing y releases hasta manejo de incidentes y validación en producción.<br><br>Cubriremos:<br><br>Diseño del sistema principal y sistemas relacionados.<br>Patrones de escalabilidad y bottlenecks comunes<br>Estrategias de optimización en runtime (GC, memoria, threading)<br>Stack tecnológico: Jetty, Aerospike, Caffeine, Spring, Kafka, Flink, Protobuf, Spark, Druid<br>Trade-offs reales entre consistencia, latencia y costo<br>Lecciones aprendidas (lo que funcionó y lo que no)",
+    "audience_level": "Advanced",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": false,
+    "featured": false,
+    "tags": [
+      "Server side development"
+    ],
+    "speakers": [
+      "priamo-germosen"
+    ]
+  },
+  {
     "id": 110,
-    "title": "Destripando la JVM: Instrumentación y Bytecode de Java",
-    "abstract": "¿Te gustaría saber cómo frameworks como Mockito, Spring y Hibernate modifican clases en tiempo de ejecución? Aprende a interceptar y redefinir código sin tocar el fuente usando Java Agents e instrumentación. Desde profiling hasta auditoría, descubre cómo estas técnicas se aplican en el mundo real.",
-    "description": "Aunque GraalVM promete arranques rápidos, menor consumo de recursos y capacidades políglotas, el camino a producción no siempre es simple. En esta sesión compartiré lecciones aprendidas trabajando con clientes que usan Spring Boot y GraalVM, enfocándome en modos JIT y Nativo. Cubriremos la configuración de plugins Maven como bootRun, bootBuildImage y graalvmNative, el manejo de reflexión y proxies dinámicos, y la automatización de generación de metadatos usando el repositorio de reachability de GraalVM. Esta no es solo otra demo: es un recorrido detallado desde la perspectiva de un programador, resaltando desafíos y soluciones al llevar aplicaciones reales a producción con GraalVM. También mostraremos despliegues con GitHub Actions y ejemplos de programación políglota práctica.",
+    "title": "KMP sin humo: qué sí compartir y qué no",
+    "abstract": "KMP no es magia: es decisión.",
+    "description": "Kotlin Multiplatform promete compartir código entre Android e iOS... pero, ¿qué tanto deberías compartir realmente?<br>En esta charla veremos sin filtros qué funciona, qué no, y cómo tomar decisiones inteligentes para evitar errores costosos en producción.",
     "audience_level": "Intermediate",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
     "featured": false,
     "tags": [
-      "Java Platform"
-    ],
-    "speakers": [
-      "jorge-morla"
-    ]
-  },
-  {
-    "id": 111,
-    "title": "Trabajando de Manera Sostenible en un Mundo Acelerado",
-    "abstract": "El equilibrio entre el rendimiento profesional y el bienestar es clave para una carrera sostenible en tecnología. Esta charla aportará herramientas prácticas para que los desarrolladores puedan trabajar con mayor enfoque, salud y motivación a largo plazo.",
-    "description": "El desarrollo de software es una industria dinámica y desafiante, con ritmos acelerados, altas expectativas y entornos demandantes. Esta charla explorará estrategias para trabajar de manera sostenible sin comprometer el bienestar. Se abordarán aspectos como el trabajo remoto sostenible, la adopción de hábitos saludables, y cómo desarrollar resiliencia emocional para afrontar los retos laborales con una mentalidad equilibrada.<br>También se discutirán estrategias como el mindfulness para el manejo del estrés, la mentalidad de crecimiento para asumir retos de manera curiosa, y la importancia de mantenerse actualizado sin caer en el agotamiento. La charla estará respaldada por investigaciones, datos y experiencias del sector.",
-    "audience_level": "All",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "display": true,
-    "featured": false,
-    "tags": [
-      "Trabajo Sostenible",
-      "Trabajo Remoto"
-    ],
-    "speakers": [
-      "mirna-de-jesus-cambero"
-    ]
-  },
-  {
-    "id": 112,
-    "title": "Kotlin Coroutines: Más Allá del async/await",
-    "abstract": "La concurrencia en Kotlin es poderosa, pero usar coroutines de manera eficiente puede ser un reto. En esta charla veremos cómo manejarlas correctamente, ejecutar tareas en paralelo y aprovecharlas para procesamiento asíncrono, además de compartir errores comunes y mejores prácticas.",
-    "description": "Kotlin Coroutines: Más Allá del async/await.<br><br>Kotlin ha revolucionado la programación asíncrona con <b>coroutines</b>, pero su verdadero potencial va mucho más allá de `async/await`. En esta charla, exploraremos:  <br><br> 1-<b>Ejecución en paralelo</b> y estrategias eficientes.<br> 2-<b>Flows y Streams</b> para manejar datos asíncronos.<br> 3- <b>Errores comunes</b> y cómo evitarlos. <br> 4- <b>Patrones avanzados</b> para maximizar rendimiento y seguridad.<br><br>Si quieres dominar la concurrencia en Kotlin y escribir código más limpio y eficiente, esta sesión es para ti.",
-    "audience_level": "Intermediate",
-    "talk_format": "Talk (~30-45 minutes)",
-    "language": "es",
-    "display": true,
-    "featured": false,
-    "tags": [
-      "Kotlin",
-      "Coroutines",
-      "Flows",
-      "Streams",
-      "Threads"
+      "Client side development",
+      "Emerging trends"
     ],
     "speakers": [
       "aneudy-vargas"
     ]
   },
   {
-    "id": 113,
-    "title": "Optimizing LLM Responses with Retrieval-Augmented Generation (RAG) in Java",
-    "abstract": "Large Language Models (LLMs) are powerful, but they struggle with real-time knowledge and hallucinate answers. In this hands-on workshop, learn how to supercharge your LLM-powered chatbot with Retrieval-Augmented Generation (RAG) using Java, and SpringAI.",
-    "description": "LLMs alone are not enough. Without real-time retrieval, they generate outdated or incorrect responses, either because their knowledge is limited or because they lack access to pertinent information. This could make them unreliable for business-critical applications. This workshop dives into Retrieval-Augmented Generation (RAG)—a technique that enables AI to access real-world, up-to-date information to deliver accurate, context-rich responses.<br><br>We'll guide you through building an AI chatbot from scratch using Java and SpringAI with a vector database (PGVector or Neo4j, for example) . You'll learn how to:<br><br>✔ Integrate SpringAI to build a robust chatbot<br>✔ Implement RAG to enhance chatbot accuracy and avoid hallucinations<br>✔ Store and retrieve real-time product data from a vector database<br>✔ Live test and compare results with vs. without RAG<br><br>This workshop is perfect for developers, and AI engineers looking to implement practical, enterprise-grade AI solutions. Don't miss this opportunity to master RAG and transform how AI-powered applications interact with data.",
+    "id": 111,
+    "title": "Let AI Query Your Graph: Building Safe NLP-Driven Data Access with Java and Neo4j",
+    "abstract": "Modern applications are built around relationships: users, transactions, recommendations, and knowledge networks. Graph databases like Neo4j excel at modeling these connections, but querying them requires specialized languages such as Cypher, creating a barrier for developers and domain experts.<br><br>Recent advances in AI enable a new possibility: interacting with complex graph data using natural language. However, integrating AI into production systems introduces significant engineering challenges around safety, reliability, and architectural control.<br><br>In this session, we explore the evolution of AI-driven graph query architectures: from naive text-to-query generation approaches to robust, production-ready designs built with Java. Using Neo4j and modern AI tooling, we demonstrate how Java can act as the orchestration and validation layer that transforms natural language into safe, structured graph operations.<br><br>Rather than focusing on AI hype, this talk emphasizes real software engineering lessons, including schema grounding, query validation, architectural trade-offs, and patterns for safely integrating AI into enterprise Java systems.",
+    "description": "Graph databases provide a powerful way to model complex relationships in modern applications, enabling developers to represent connections between entities such as users, transactions, recommendations, and knowledge networks. However, interacting with graph data typically requires knowledge of specialized query languages like Cypher, which creates a barrier for both developers and domain experts.<br><br>At the same time, recent advances in large language models have introduced the possibility of using natural language as an interface for complex data systems. While this capability is compelling, integrating AI-driven query generation into production environments presents significant engineering challenges, particularly within enterprise Java ecosystems where safety, reliability, and maintainability are critical.<br><br>This session explores how Java can serve as the architectural foundation for safely integrating natural language interfaces with graph databases. Using Neo4j as a case study, we examine how AI can be used to interpret user intent while Java remains responsible for validation, orchestration, and controlled execution of graph operations.<br><br>The talk focuses on real-world software engineering concerns rather than AI theory, including:<br>Providing schema context to ensure accurate interpretation of natural language queries<br>Designing validation layers that prevent unsafe or incorrect database operations<br>Balancing flexibility and control when integrating AI into data access layers<br>Structuring maintainable Java architectures for AI-assisted systems<br>Managing performance, cost, and reliability in AI-driven applications<br><br>Through practical examples and a live demonstration built on a knowledge graph, attendees will gain insight into how natural language interfaces can be safely incorporated into Java applications without compromising the architectural rigor expected in enterprise environments.<br><br>By the end of the session, participants will understand how to leverage AI to enhance data accessibility while maintaining the strong guarantees provided by the Java ecosystem.",
     "audience_level": "Intermediate",
-    "talk_format": "Workshop (\u003e 60 minutes)",
+    "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
     "featured": false,
     "tags": [
-      "AI",
-      "machine-learning",
-      "llm",
-      "java",
-      "SpringAI",
-      "chatbot",
-      "vector-database",
-      "retrieval-augmented-generation",
-      "enterprise-ai",
-      "Machine Learning with Java",
-      "Java Platform"
+      "Emerging trends"
     ],
     "speakers": [
-      "rafael-almonte",
-      "brayan-munoz"
+      "rafael-almonte"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Powering RAG and LLM with Real-Time Vector Data Replication using Oracle GoldenGate 26ai",
+    "abstract": "Discover how Oracle GoldenGate 26ai enables real-time vector data replication for Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs). Learn how to stream and transform structured data into embeddings, building AI-ready pipelines and intelligent applications.",
+    "description": "Discover how Oracle GoldenGate 26ai enables real-time vector data replication for Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs). Learn how to stream and transform structured data into embeddings, building AI-ready pipelines and intelligent applications.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Databases"
+    ],
+    "speakers": [
+      "gilson-martins"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Is PostgreSQL catching up with the oracle Database?",
+    "abstract": "PostgreSQL has seen a remarkable expansion thanks to many cloud vendors integrating it into their database as a service offering. That led to a steadily growing customer base trying or adopting the open-source database. Are we at a crossroads? Probably not. When considering immediate money savings, PostgreSQL is an appealing platform. But as the projects keep increasing in size and complexity, PostgreSQL users face several challenges that require complex re-architecture and migrations to specialized services to cope with performance, scalability, and compliance problems. The total cost of ownership is far from meeting expectations, and in many cases, companies abandon the migration projects or migrate back to the Oracle Database. In this session, we'll debunk some myths about PostgreSQL, explain the architectural limitations, and the challenges of an ecosystem that is steering away from the initial promises.",
+    "description": "PostgreSQL has seen a remarkable expansion thanks to many cloud vendors integrating it into their database as a service offering. That led to a steadily growing customer base trying or adopting the open-source database. Are we at a crossroads? Probably not. When considering immediate money savings, PostgreSQL is an appealing platform. But as the projects keep increasing in size and complexity, PostgreSQL users face several challenges that require complex re-architecture and migrations to specialized services to cope with performance, scalability, and compliance problems. The total cost of ownership is far from meeting expectations, and in many cases, companies abandon the migration projects or migrate back to the Oracle Database. In this session, we'll debunk some myths about PostgreSQL, explain the architectural limitations, and the challenges of an ecosystem that is steering away from the initial promises.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Database"
+    ],
+    "speakers": [
+      "francisco-alvarez"
     ]
   },
   {
     "id": 114,
-    "title": "How to use Jakarta 11 with Payara 7",
-    "abstract": "The intention of this workshop will be to review how to use Payara 7 and how Payara 7 is supporting Jakarta 11",
-    "description": "Jakarta 11 is the latest version of the specification and is near to be delivered to the market, that is why we need to know which application servers on the market supported and for this workshop, I will show you how to use with Payara 7.<br><b>Topic to be covered:</b><br> 1.Payara Introduction.<br>2.How to install and use Payara 7.<br>3.Create an MVC application with Payara 7.<br>4.Enable Jakarta Data with Payara 7.<br>5.Use Security with Payara 7. <br>6.Other important updates for Jakarta 11 available on Payara 7.",
-    "audience_level": "Intermediate",
-    "talk_format": "Workshop (\u003e 60 minutes)",
+    "title": "Del \"Localhost\" a la Nube en un Clic: Dominando el \"Stack Prohibido\" (Nomad + Consul) para Java",
+    "abstract": "¿Es Kubernetes siempre la respuesta? Para muchos desarrolladores Java, la complejidad de K8s puede sentirse como usar un tanque para ir a la esquina. Existe una alternativa potente, ligera y sorprendentemente sencilla que a menudo ignoramos: el stack de HashiCorp (Nomad, Consul y Fabio).<br><br>En esta sesión práctica, romperemos el mito de que la orquestación es difícil. <br><br>Empezaremos desde cero en un entorno Windows nativo (sin las complicaciones de WSL), levantando un cluster local para nuestras aplicaciones JVM. El momento \"eureka\" llegará cuando demostremos la portabilidad extrema de este stack: tomaremos lo que funciona en nuestra laptop y, con un flujo de \"copiar y pegar\", lo desplegaremos en la nube (Azure) en segundos.<br><br>¿Qué veremos?<br>- <b>Consul</b>: Service Discovery dinámico y salud de servicios sin configurar IPs.<br>- <b>Nomad</b>: Orquestación de archivos .jar (Java Driver) de forma eficiente y económica.<br>- <b>Fabio</b>: Balanceo de carga automático que \"simplemente funciona\".<br>- <b>El Salto a la Nube</b>: Cómo pasar de local a Azure manteniendo la consistencia.<br><br>Si buscas una arquitectura que priorice la velocidad de entrega y la simplicidad operativa sin sacrificar el poder de la nube, ¡esta charla es para ti!",
+    "description": "Objetivos de presentación:<br>1. Demostración orquestador ligero (Nomad) de forma nativa en WSL.<br>2. Demostración Service Discovery para microservicios Java usando Consul.<br>3. Despliegue de \"Local-to-Cloud\" y entendiendo cómo es más rentable y ágil que K8s para muchos proyectos.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
     "featured": false,
     "tags": [
-      "Server side development"
+      "Cloud and Containers"
     ],
     "speakers": [
-      "alfonso-valdez"
+      "diego-silva"
     ]
   },
   {
     "id": 115,
-    "title": "Database Change Management for Java Developers",
-    "abstract": "Domina la gestión de cambios en bases de datos con Flyway. Aprende a versionar esquemas, aplicar rollbacks y automatizar migraciones en pipelines CI/CD. Asegura despliegues controlados, minimiza riesgos y mantén la integridad de tus datos en entornos empresariales.",
-    "description": "<h2>Objetivo General</h2><p>Capacitar a los participantes en la gestión de cambios de bases de datos mediante herramientas modernas, automatizando despliegues y aplicando buenas prácticas de migración en entornos empresariales, incluyendo arquitecturas multitenancy.</p><h2>MÓDULO 1: Fundamentos de Database Change Management</h2><h3>Introducción</h3><ul><li>¿Qué es Database Change Management (DCM)?</li><li>Retos comunes en la gestión de cambios de bases de datos.</li><li>¿Por qué es clave en entornos DevOps y CI/CD?</li></ul>\n<h3>Conceptos Clave </h3><ul><li>State-Based vs Migration-Based Approaches.</li><li>Versionado de esquemas y control de cambios.</li><li>Rollbacks: ¿Cuándo y cómo aplicarlos?</li><li>Importancia de los entornos sincronizados (Dev, QA, Prod).</li></ul><h3>Herramientas en el Ecosistema Java</h3><ul><li><strong>Flyway</strong>: Filosofía <em>Convention Over Configuration</em>.</li><li><strong>Liquibase</strong>: Definición declarativa de cambios.</li><li>¿Cuándo usar cada herramienta? Casos prácticos.</li></ul><h2>MÓDULO 2: Creación de Proyecto en Distinta Tecnología</h2><h3>Preparando el Entorno con Flyway</h3><ul><li>Java</li><li>Jakarta EE</li><li>Quarkus</li><li>Spring Boot</li></ul><h3>Primeras Migraciones</h3><ul><li>Creación de la primera versión de esquema: <code>V1__init.sql</code>.</li><li>Migraciones de datos iniciales.</li><li>Organización de archivos de migración.</li></ul><h2>MÓDULO 3: Flyway Avanzado y Rollbacks</h2><h3>Características Avanzadas de Flyway</h3><ul><li>Versioned Migrations vs Repeatable Migrations.</li><li>Control de checksums y validaciones.<h3>Implementación de Rollbacks</h3></li><li>Estrategias de rollback en Flyway.</li><li>Creación de scripts de reversión.</li><li>Simulación de fallos y recuperación controlada.<h2>MÓDULO 4: CI/CD Pipeline con GitHub Actions</h2><h3>Automatización de Migraciones</h3></li><li>Principios de Integración y Despliegue Continuo.</li><li>¿Por qué automatizar migraciones en el pipeline?<h3>Creación del Pipeline</h3></li><li>Configurar GitHub Actions para ejecutar:<ul><li>Build del proyecto.</li><li>Ejecución de migraciones con Flyway.</li><li>Simulación de despliegue a <em>staging</em>.</li></ul></li></ul><h2>MÓDULO 5: Migraciones en Ambientes Multitenancy y Escalabilidad con Vaadin Flow</h2><h3>Estrategias de Multitenancy</h3><ul><li>Base de datos por cliente (<em>Solo para explicar concepto</em>).</li><li>Esquema por cliente (<em>Se utilizará para hacer la demo</em>).</li><li>Filtro por columna (<em>Solo para explicar concepto</em>).<h3>Implementación en Vaadin Flow</h3></li><li>Cargar dinámicamente configuraciones de bases de datos.</li><li>Crear un servicio de migración dinámico con Flyway.</li></ul><h2>Cierre y Ronda de Preguntas</h2><hr><h2>Materiales Incluidos</h2><ul><li>Repositorio de los distintos proyectos y migraciones.</li><li>Plantilla de pipeline de GitHub Actions.</li><li>Scripts de migración y rollback.</li><li>Estrategia multitenancy con código de ejemplo.</li><li>Cheatsheet de comandos Flyway y buenas prácticas.</li></ul>",
-    "audience_level": "Intermediate",
-    "talk_format": "Workshop (\u003e 60 minutes)",
+    "title": "Mejorando la Seguridad de Identidades Personales con AWS, S3, Rekonigtion y Java",
+    "abstract": "En muchos sistemas de registro aúan se manejan documentos personales (DPI, pasaportes) mediante fotocopias, correos o validaciones manuales, aumentando riesgos de seguridad y fricción para el usuario.<br>En esta charla comparto una implementación real usando Amazon S3, AWS Rekognition y AWS Lambda en Quarkus, desplegada con AWS SAM, para automatizar la verificación de documentos personales.<br>Veremos la arquitectura, decisiones de seguridad para PII, patrones serverless en Java, y lecciones aprendidas en producción: escalabilidad, costos, idempotencia y experiencia de usuario.",
+    "description": "Automatizar la gestión de identidades personales permite reducir riesgos de seguridad, eliminar procesos manuales como fotocopias y mejorar la experiencia del usuario, mientras el negocio escala de forma segura y eficiente con costos controlados.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
-    "featured": false,
+    "featured": true,
     "tags": [
-      "Java",
-      "Database",
-      "DCM",
-      "DevOps",
-      "CI/CD",
-      "Flyway",
-      "Liquibase",
-      "Jakarta EE",
-      "Spring Boot",
-      "Quarkus",
-      "GitHub Actions",
-      "Pipeline",
-      "Multitenancy",
-      "Vaadin Flow"
+      "Security and DevSecOps"
     ],
     "speakers": [
-      "freddy-pena"
+      "vicente-suc"
     ]
   },
   {
     "id": 116,
-    "title": "AI: It AI-n't What You Think!",
-    "abstract": "Innovations have transformed human lives, in ways that we can't imagine how people survived before. Yet, we do not embrace innovations readily and we shouldn't in most cases. Our time in this world is juxtaposed with yet another major innovation in our field. Is AI going to take over the world, our jobs, our way of life...and more are questions that are asked frequently these days. Come to this keynote to learn how to ride the new wave instead of being swept under.",
-    "description": "Innovations have transformed human lives, in ways that we can't imagine how people survived before. Yet, we do not embrace innovations readily and we shouldn't in most cases. Our time in this world is juxtaposed with yet another major innovation in our field. Is AI going to take over the world, our jobs, our way of life...and more are questions that are asked frequently these days. Come to this keynote to learn how to ride the new wave instead of being swept under.",
+    "title": "Arquitectura, Ingeniería y Desarrollo de micro-servicios con Spring Boot",
+    "abstract": "Damos por hecho muchas cosas cuando usamos términos como <strong>Ingeniería o Arquitectura</strong>, pero estos tienen propósitos muy explícitos y visiones del negocio desde un entendimiento diferente. Hablar de una arquitectura de micro-servicios es muy ambiguo, porque tenemos múaltiples formas de la misma (por ejemplo: <strong>orientada a eventos, Gateway, serveless, mixta</strong>, etc). Esto deja muchas preguntas, pero la información es la pieza fundamental y <strong> te ayudaré a tomar decisiones efectivas en los 3 niveles.</strong><br><br>Porque la arquitectura de micro-servicios llegó para quedarse, pero tiene retos importantes y con esta pequeña charla busco que veas como ingeniero las soluciones de micro-servicios y no solo como un desarrollador, que solo usa tecnologías sin un criterio de los elementos de relevancia para el negocio.",
+    "description": "Cada solución tiene sus virtudes y problemas. por lo que una <strong>mala decisión</strong> impacta fuertemente en ámbitos como:<br><br>- Desarrollo en equipos grandes o muti-equipo<br>- Rendimiento de la solución<br>- Costos operativos de la solución<br>- Mantenibilidad del Código en el tiempo<br>- Complejidad del Código para nuevos recursos<br>- y muchos otros aspectos más<br><br>Ahora, <strong>¿que implica la ingeniería en este punto?</strong> pues es en pocas palabras la construcción logística de la arquitectura, es decir, podemos hablar de micro-servicios por eventos, pero con que se hará? Kafka?, RabbitMQ?, Cloud Native Option? y encima a esto, también debemos entender en que framework, técnica  de implementación y/o patrón que usaremos en la solución afectarán todos los aspectos. Tenemos muchas decisiones técnicas que tomar y cada una de ellas tiene un peso importante en la dirección que queremos llevar nuestra solución.",
     "audience_level": "All",
-    "talk_format": "Keynote (~30-45 minutes)",
-    "language": "en",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
     "display": true,
     "featured": true,
     "tags": [
-      "AI",
-      "Innovation"
+      "Server side development"
     ],
     "speakers": [
-      "venkat-subramaniam"
+      "aluis-marte"
     ]
   },
   {
     "id": 117,
-    "title": "Java: This Ain't Your Parent's Java",
-    "abstract": "Java was once a language that dragged along at snail's pace. Thankfully, that's no longer the case. In the recent years the pace of development has accelerated, both in language features and in the JDK improvements. Come along to dive into some of the recent changes of Java that are both fun and powerful to use, to learn how you can benefit from these, and we'll also discuss where the language is heading in the near future.",
-    "description": "Java was once a language that dragged along at snail's pace. Thankfully, that's no longer the case. In the recent years the pace of development has accelerated, both in language features and in the JDK improvements. Come along to dive into some of the recent changes of Java that are both fun and powerful to use, to learn how you can benefit from these, and we'll also discuss where the language is heading in the near future.",
+    "title": "Building with Open Source AI: A Crash Course",
+    "abstract": "Thanks to open source, in the past year, we've seen a fundamental change: developers and enterprises are moving away from proprietary, closed-source models. To save costs, prioritize privacy, and allow for customization, they are building, testing, and deploying their own open models. However, this journey can feel overwhelming. Which foundation model should I use? How do I connect my model to existing data sources or build agentic capabilities to start seeing real value with AI, especially in an already existing Java application?<br><br>The key to navigating this emerging path is adopting the flexibility, transparency, and collaboration of open source that many of us are familiar with. This workshop provides hands on experience with the critical aspects of AI feature implementation using LangChain4J, also showing observability (OpenTelemetry), testing (Promptfoo), CI/CD (Tekton), and more. Join us as we get hands-on with language models and use open technologies to control our own AI journey.",
+    "description": "Hi! As most developers now have used Ollama, LM Studio, or another similar and local AI solution, the big question is: \"How do I get this off my laptop, and into dev/staging/prod?\". Unfortunately, the answer might not be easy, as some of these tools don't have a clear path, or \"lock\" you into a solution to scale things up.<br><br>Thankfully, open source provides us with the freedom of choice, and we'll explore in this workshop specifically how to:<br><br>1) Deploy foundational models on enterprise-grade inference servers, specifically with vLLM<br>2) Measure and benchmark LLM systems for production readiness<br>3) Maximize inference performance through tuning, configuration, and quantization<br>4) Build AI capabilities in our app with RAG or Agentic (MCP) functionality<br><br>This is a big workshop, but we'll be providing the Kubernetes infrastructure (thanks to our nice Red Hat hosts)",
+    "audience_level": "All",
+    "talk_format": "Workshop (> 60 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "Emerging trends"
+    ],
+    "speakers": [
+      "cedric-clyburn"
+    ]
+  },
+  {
+    "id": 118,
+    "title": "El Manifiesto del Nuevo Líder de QA: Cómo Transformar la Cultura de Calidad en tu Equipo",
+    "abstract": "En la carrera actual por la entrega continua, la velocidad se ha vuelto la moneda de cambio, pero muchos equipos se ven frenados por una visión de calidad obsoleta. Esta sesión explora cómo romper con el estancamiento profesional y organizacional al pasar del rol reactivo de \"Buscador de Bugs\" al socio estratégico \"Preventor de Fracasos\". Compartiré un mapa de ruta basado en experiencias reales para convertir la calidad en un motor de negocio y no en un filtro final, permitiendo que el equipo escale con confianza y propósito.",
+    "description": "Esta charla ofrece una mirada profunda a la transformación cultural necesaria para que la ingeniería de software moderna sea exitosa. No hablaremos de herramientas, sino del \"sistema operativo mental\" desde el cual ejecutamos nuestra carrera y lideramos nuestros equipos.<br>1) La Identidad Obsoleta: Analizaremos por qué enfocarse úanicamente en detectar errores condena al equipo a la irrelevancia y genera silos de comunicación. Veremos el costo financiero y moral de ver el testing como una fase aislada al final del proceso.<br><br>2) El Mindset Digital: Presentaré los pilares del \"Preventor de Fracasos\". Explicando cómo la calidad integrada (Shift-Left) acelera el desarrollo en lugar de frenarlo, enfocándose en mitigar riesgos de negocio antes de que se escriba la primera línea de código.<br><br>Los asistentes se llevarán estrategias prácticas para liderar conversaciones difíciles, alinear incentivos entre Desarrolladores y QA, y redefinir el éxito del equipo basándose en el valor entregado y no en tickets cerrados.",
+    "audience_level": "Advanced",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "Soft skills",
+      "Software development leadership"
+    ],
+    "speakers": [
+      "oscar-trejo"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "API-First Flowline: OpenAPI Integrado al Ciclo de Construcción en Spring Boot",
+    "abstract": "API-First no falla por teoría. Falla porque el contrato no participa en el build.<br><br>Muchos equipos diseñan sus APIs en <b>OpenAPI</b>, pero al implementar en <b>Spring Boot</b> el contrato deja de ser la fuente de verdad. El código evoluciona por su cuenta, aparecen DTO duplicados, validaciones inconsistentes y cambios incompatibles que nadie detecta hasta producción.<br><br>El problema no es OpenAPI.<br>El problema es que no está integrado al proceso de construcción.<br><br>En esta sesión presentaré <b>API-First Flowline, un modelo reproducible que convierte el contrato OpenAPI en una pieza activa del ciclo de build</b>.<br><br>Construiremos un pipeline donde:<br><br>- El contrato se valida automáticamente en cada Pull Request.<br>- Las reglas de gobernanza se aplican con Spectral.<br>- Los cambios incompatibles detienen el build antes de compilar.<br>- Se generan interfaces tipadas de Spring Boot, DTOs como `records` y anotaciones de Bean Validation.<br>- La implementación se desacopla del contrato, preservando arquitectura limpia.<br><br>El código siempre compila alineado con la especificación.<br><br>Durante la demo veremos cómo un cambio incompatible en el OpenAPI rompe el build en tiempo real, cómo se regeneran los artefactos Java y cómo el proyecto queda listo para ejecutarse sin escribir código repetitivo.<br><br>API-First deja de ser un principio arquitectónico y se convierte en una disciplina técnica automatizada.",
+    "description": "API-First no falla por teoría. Falla porque el contrato no participa en el build.<br><br>Muchos equipos diseñan sus APIs en <b>OpenAPI</b>, pero al implementar en <b>Spring Boot</b> el contrato deja de ser la fuente de verdad. El código evoluciona por su cuenta, aparecen DTO duplicados, validaciones inconsistentes y cambios incompatibles que nadie detecta hasta producción.<br><br>El problema no es OpenAPI.<br>El problema es que no está integrado al proceso de construcción.<br><br>En esta sesión presentaré <b>API-First Flowline, un modelo reproducible que convierte el contrato OpenAPI en una pieza activa del ciclo de build</b>.<br><br>Construiremos un pipeline donde:<br><br>- El contrato se valida automáticamente en cada Pull Request.<br>- Las reglas de gobernanza se aplican con Spectral.<br>- Los cambios incompatibles detienen el build antes de compilar.<br>- Se generan interfaces tipadas de Spring Boot, DTOs como `records` y anotaciones de Bean Validation.<br>- La implementación se desacopla del contrato, preservando arquitectura limpia.<br><br>El código siempre compila alineado con la especificación.<br><br>Durante la demo veremos cómo un cambio incompatible en el OpenAPI rompe el build en tiempo real, cómo se regeneran los artefactos Java y cómo el proyecto queda listo para ejecutarse sin escribir código repetitivo.<br><br>API-First deja de ser un principio arquitectónico y se convierte en una disciplina técnica automatizada.",
     "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Java Platform"
+    ],
+    "speakers": [
+      "bryam-vega"
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Construyendo Asistentes Empresariales con RAG y Spring AI: IA Generativa real en Java",
+    "abstract": "La inteligencia artificial generativa no es solo para chatbots púablicos.<br>En entornos empresariales, el verdadero valor surge cuando los modelos de lenguaje se combinan con conocimiento interno mediante el patrón Retrieval-Augmented Generation (RAG).<br><br>En esta charla construiremos un asistente interno en Java con Spring AI capaz de responder preguntas sobre documentos empresariales (políticas, procedimientos, manuales), citando fuentes reales y evitando alucinaciones.",
+    "description": "La inteligencia artificial generativa no es solo para chatbots púablicos.<br>En entornos empresariales, el verdadero valor surge cuando los modelos de lenguaje se combinan con conocimiento interno mediante el patrón Retrieval-Augmented Generation (RAG).<br><br>En esta charla construiremos un asistente interno en Java con Spring AI capaz de responder preguntas sobre documentos empresariales (políticas, procedimientos, manuales), citando fuentes reales y evitando alucinaciones.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Java Platform"
+    ],
+    "speakers": [
+      "betzabe-salas"
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Java Cross-Platform Game Development",
+    "abstract": "¿En Java se pueden crear videojuegos? Esta y muchas otras preguntas son las que me han hecho cuando digo que utilizo Java para desarrollar videojuegos, y sí, aunque suene difícil de creer Java además de estar presente en el desarrollo web, también ha estado presente en el desarrollo de videojuegos por mucho tiempo, con un ecosistema bastante amplio y sin nada que envidiar a otros lenguajes de programación. Ven y Acompáñanos en esta charla donde aprenderás sobre la historia de Java y los videojuegos y también sobre las tecnologías dominantes en esta área, además de como crear tu primer videojuego en Java.",
+    "description": "Si alguna vez tuviste el deseo de aprender a programar videojuegos. Ven y úanete a esta charla y aprende a desarrollar videojuegos de una vez por todas. En nuestra charla abordaremos distintas herramientas disponibles para desarrollar videojuegos en Java, también como instalar dichas herramientas, ejecutar ejemplos prácticos y una guía paso a paso sobre cómo ir de una ventana vacía hasta tener nuestro primer juego.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Java Platform"
+    ],
+    "speakers": [
+      "karvin-jimenez"
+    ]
+  },
+  {
+    "id": 122,
+    "title": "From Zero to Query: Build, Secure, and Deploy a Production-Ready GraphQL API in One Afternoon",
+    "abstract": "In this hands-on workshop, you'll go from an empty project to a deployed, production-grade GraphQL API, no prior GraphQL experience required. Basic Spring Boot knowledge is desired. Starting with schema design fundamentals, we'll incrementally build a fully functional API using Spring for GraphQL (or your preferred JVM framework). Each module builds on the last: defining your schema and first resolvers; modelling relationships and solving the N+1 problem with DataLoaders; adding field-level authentication and input validation; and writing integration tests with GraphQL-specific assertions. By the end, you'll have a running service you built yourself, a clear understanding of GraphQL's core concepts, and, just as importantly, the judgment to know when GraphQL is the right choice and when it isn't. Bring your laptop and your curiosity.",
+    "description": "In this hands-on workshop, you'll go from an empty project to a deployed, production-grade GraphQL API, no prior GraphQL experience required. Basic Spring Boot knowledge is desired. Starting with schema design fundamentals, we'll incrementally build a fully functional API using Spring for GraphQL (or your preferred JVM framework). Each module builds on the last: defining your schema and first resolvers; modelling relationships and solving the N+1 problem with DataLoaders; adding field-level authentication and input validation; and writing integration tests with GraphQL-specific assertions. By the end, you'll have a running service you built yourself, a clear understanding of GraphQL's core concepts, and, just as importantly, the judgment to know when GraphQL is the right choice and when it isn't. Bring your laptop and your curiosity.",
+    "audience_level": "Beginner",
+    "talk_format": "Workshop (> 60 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "Tools, architecture and strategies"
+    ],
+    "speakers": [
+      "zkozina"
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Agents, Skills & Tools: How to Survive (and Win) the AI Coding Era",
+    "abstract": "Claude Code, Cursor, Codex, GitHub Copilot. Every Java developer is using at least one of these tools — but most are only getting a fraction of what they're capable of. Not because the AI isn't smart enough. Because the setup isn't right.<br><br>This talk is a survival guide for Java developers navigating the AI coding era. We'll cut through the buzzwords — agents, skills, tools, commands, memory, MCP — and replace confusion with a clear, practical mental model you can apply on Monday morning.<br><br>The core argument: the game has changed. AI models are smart enough to handle vague requests. What separates a generic result from a great one isn't your prompt — it's your setup. Skills, tools, and commands are the real multiplier. We'll prove it with real before/after examples: the same request, the same developer, two completely different results — one with raw prompting, one with a properly configured AI assistant that knows your project's conventions, can read your codebase, run your tests, and follow your team's standards.<br><br>We'll walk through how each major tool extends AI behavior: skill bundles and slash commands in Claude Code, rules files and agent mode in Cursor, and AGENTS.md in Codex. We'll define what an agent actually is (and isn't), what tools give agents their power, and why memory is the hardest problem to get right. And yes, we'll talk about MCP — briefly, in its proper place in the ecosystem.<br><br>We'll also cover the growing ecosystem of frameworks that give AI assistants superpowers out of the box, so you know what's already available before building anything yourself.<br><br>By the end, you'll have a unified mental model, real examples you can replicate, and the foundation to write your first skill — or install one in the next 10 seconds.",
+    "description": "Claude Code, Cursor, Codex, GitHub Copilot. Every Java developer is using at least one of these tools — but most are only getting a fraction of what they're capable of. Not because the AI isn't smart enough. Because the setup isn't right.<br><br>This talk is a survival guide for Java developers navigating the AI coding era. We'll cut through the buzzwords — agents, skills, tools, commands, memory, MCP — and replace confusion with a clear, practical mental model you can apply on Monday morning.<br><br>The core argument: the game has changed. AI models are smart enough to handle vague requests. What separates a generic result from a great one isn't your prompt — it's your setup. Skills, tools, and commands are the real multiplier. We'll prove it with real before/after examples: the same request, the same developer, two completely different results — one with raw prompting, one with a properly configured AI assistant that knows your project's conventions, can read your codebase, run your tests, and follow your team's standards.<br><br>We'll walk through how each major tool extends AI behavior: skill bundles and slash commands in Claude Code, rules files and agent mode in Cursor, and AGENTS.md in Codex. We'll define what an agent actually is (and isn't), what tools give agents their power, and why memory is the hardest problem to get right. And yes, we'll talk about MCP — briefly, in its proper place in the ecosystem.<br><br>We'll also cover the growing ecosystem of frameworks that give AI assistants superpowers out of the box, so you know what's already available before building anything yourself.<br><br>By the end, you'll have a unified mental model, real examples you can replicate, and the foundation to write your first skill — or install one in the next 10 seconds.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Emerging trends"
+    ],
+    "speakers": [
+      "franklin-castillo"
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Más Allá de los Datos Relacionales: Trabajando con datos vectoriales",
+    "abstract": "Hoy estamos viviendo un cambio silencioso, pero profundo, en la forma en que trabajamos con los datos.<br>Durante años hemos estructurado, normalizado y consultado información utilizando modelos relacionales tradicionales. Hemos sido expertos en responder preguntas exactas: ¿cuánto?, ¿cuándo?, ¿quién? Pero el mundo actual nos exige algo distinto. <br>Ahora necesitamos responder preguntas como: <br>¿qué se parece a esto?<br>¿qué significa esta imagen?<br>¿qué información relevante existe, aunque no esté explícitamente relacionada?<br>La inteligencia artificial está transformando la naturaleza del dato, y ya no hablamos solo de filas y columnas, sino de contexto, similitud y significado. Imágenes, documentos, registros médicos, diagramas, evidencia visual... todos contienen información valiosa que antes quedaba fuera del alcance del SQL tradicional.",
+    "description": "En esta sesión vamos a ver cómo ese nuevo tipo de información puede integrarse directamente en la base de datos, sin cambiar de plataforma, sin mover los datos a sistemas externos, y sin perder el control, la seguridad y el rendimiento que ya conocemos. Exploraremos cómo convertir imágenes en representaciones matemáticas —vectores— que permiten hacer búasquedas semánticas, detectar patrones, encontrar similitudes y enriquecer los procesos de negocio cotidianos.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Client side development",
+      "databases"
+    ],
+    "speakers": [
+      "ronald-vargas"
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Engineering Resilience: The High Availability Mindset",
+    "abstract": "In today's always-on digital world, organisations can no longer afford downtime, disruption, or failure under pressure. From mission-critical data systems to high-performance teams, resilience has become a strategic capability rather than a technical feature.<br>    <br>In this keynote, Francisco Munoz Alvarez — global leader in Oracle Maximum Availability Architecture and Australian Dragon Boat World Championship athlete —introduces The High Availability Mindset, a powerful framework for engineering resilience across technology, leadership, and organisational culture.",
+    "description": "Drawing from real-world enterprise experience and elite international sport performance, Francisco explores how organisations can design systems that anticipate failure, build teams that operate in synchronisation, and develop leaders capable of performing under extreme pressure. Through practical frameworks and compelling stories, audiences will discover how preparation, continuous validation, and disciplined teamwork enable consistent performance in complex and unpredictable environments.<br>    <br>This session provides actionable strategies to help organisations build resilient systems, high-performance cultures, and leadership approaches that thrive when failure is not an option.",
+    "audience_level": "All",
+    "talk_format": "Keynote (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Soft skills",
+      "Software development leadership"
+    ],
+    "speakers": [
+      "francisco-alvarez"
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Local Development in the AI Era",
+    "abstract": "Most of us like to do local development. It means we're in control of any dependencies, network issues/latency, configurations and cost. And we love to say that \"It works on my machine\" don’t we? <br><br>Now, with the advent of AI-driven development, it has become more challenging than ever before to do pure local development.<br><br>In this session we'll take a look at various solutions to continue to do local, network-optional development, even with AI:<br><br>- Run AI models locally.<br>- Evaluate different code assistants that can work with these locally running models<br>- Explore how to infuse AI capabilities from local models into our code<br>- Compare models from different vendors; and with different sizes to find the right balance between performance and accuracy<br>- Weigh pros and cons of using local vs remote models<br><br>Come to this session to learn more about local development while leveraging AI to optimize our development flow, code and our functionality itself!",
+    "description": "We've presented this session at Devoxx Belgium, We Are Developers, JavaZone etc and it always got great feedback and a full room, showing that there's a real demand for this kind of content. Developers will learn how they can do their local development using Free/Open Source AI tools, without depending on external parties. We'll also show Business leaders will learn that they don't necessarily <b>have</b> to pay expensive subscription fees to AI vendors for their org to be able to use AI models. And of course we'll show some fun demos :)",
+    "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
     "display": true,
     "featured": true,
     "tags": [
-      "Java",
-      "JDK",
-      "JVM"
+      "Emerging trends"
     ],
     "speakers": [
-      "venkat-subramaniam"
+      "grace-ableidinger"
     ]
   },
   {
-    "id": 118,
-    "title": "OpenTelemetry para todos",
-    "abstract": "OpenTelemetry es un framework para implementar observabilidad, en este taller queremos mostrar las  ventajas y el porqué es importante adoptar OpenTelemetry.",
-    "description": "OpenTelemetry es un proyecto de la CNCF(Cloud Native Computing Foundation), en concreto es un framework para implementar observabilidad.<br><br>El hecho de que sea: <b>Vendor- and tool- agnostic</b> a veces en lugar de ayudar a adoptarlo confunde y crea cierta resistencia innecesaria a su difusión.<br><br>Está formado por varios componentes, y la intención de este taller es mostrar un repaso didáctico de todos estos componentes.<br><br><h2>Temario</h2><ol><li>Introducción.<ol><li> ¿Por qué es necesario?.</li><li> Metricas.</li><li> Logs.</li><li> Traces.</li><li> ¿MELT?</li><li> OpenTelemetry Framework<ul><li>OTLP. OpenTelemetry Protocol.</li><li>Signals.</li><li>Documentación de Referencia.</li></ul></li></ol></li><li>Componentes Clave.</li><li>Referencias.</li><li>Dónde seguir.</li><li>Laboratorios. <ol><li>Instrumentación</li><li> Instrumentación Automática.</li><li> Instrumentación con librerías.</li><li> Instrumentación Manual.</li></ol></li><li>Troubleshooting.</li></ol>",
+    "id": 127,
+    "title": "Testcontainers - From Zero to Hero",
+    "abstract": "Las pruebas de integración no tienen por qué ser lentas, frágiles ni difíciles de mantener. En esta charla aprenderás cómo Testcontainers te permite ejecutar dependencias reales como bases de datos, colas de mensajería o servicios externos dentro de contenedores Docker directamente desde tus tests, logrando entornos reproducibles y confiables.<br><br>En este workshop revisaremos los conceptos básicos hasta buenas prácticas avanzadas. Al finalizar, tendrás las herramientas necesarias para integrar Testcontainers en tus proyectos y llevar tu estrategia de testing al siguiente nivel.",
+    "description": "Las pruebas de integración no tienen por qué ser lentas, frágiles ni difíciles de mantener. En esta charla aprenderás cómo Testcontainers te permite ejecutar dependencias reales como bases de datos, colas de mensajería o servicios externos dentro de contenedores Docker directamente desde tus tests, logrando entornos reproducibles y confiables.<br><br>En este workshop revisaremos los conceptos básicos hasta buenas prácticas avanzadas. Al finalizar, tendrás las herramientas necesarias para integrar Testcontainers en tus proyectos y llevar tu estrategia de testing al siguiente nivel.",
     "audience_level": "All",
-    "talk_format": "Workshop (\u003e 60 minutes)",
+    "talk_format": "Workshop (> 60 minutes)",
     "language": "es",
-    "display": true,
+    "display": false,
     "featured": false,
     "tags": [
-      "java",
-      "openTelemetry",
-      "observability"
+      "Server side development"
+
     ],
     "speakers": [
-      "isaac-ruiz"
+      "eddumelendez"
     ]
-  }
+  },
+  {
+  "id": 128,
+  "title": "De Cero a Cloud Native con Jakarta EE 11 y Payara",
+  "abstract": "Construyendo una aplicación FullStack moderna con estándares abiertos",
+  "description": "En el mundo Java actual parece que Cloud Native es sinónimo de frameworks nuevos y hype constante.Pero ¿y si pudieras construir una aplicación FullStack moderna, escalable y lista para Cloud, usando estándares abiertos y tecnología empresarial madura?<br><br>En esta sesión recorreremos el camino completo:<br><br>Diseño de una aplicación FullStack con Jakarta EE 11<br>Persistencia moderna con JPA<br>APIs REST con JAX-RS<br>Inyección de dependencias con CDI<br>Seguridad<br>Empaquetado y despliegue con Payara<br>Preparación para entornos Cloud Native<br><br>Todo desde cero, mostrando cómo Jakarta EE 11 sigue siendo una plataforma poderosa, productiva y totalmente vigente para arquitecturas modernas.<br><br>Sin hype. Sin magia. Con estándares.",
+  "audience_level": "All",
+  "talk_format": "JakartaOne Meetup (~30-45 minutes)",
+  "language": "es",
+  "display": true,
+  "featured": false,
+  "tags": [
+    "Server side development"
+  ],
+  "speakers": [
+    "diego-silva"
+  ]
+}
 ]
