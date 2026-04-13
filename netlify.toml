@@ -1,5 +1,5 @@
 [build]
-command = "./gradlew clean bake -i"
+command = "curl -s \"https://get.sdkman.io\" | bash && source \"$HOME/.sdkman/bin/sdkman-init.sh\" && sdk install java 11.0.22-tem && sdk default java 11.0.22-tem && ./gradlew clean bake -i"
 publish = "build/jbake"
 
 [build.environment]
