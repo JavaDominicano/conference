@@ -44,6 +44,11 @@
                                <p class="text" data-aos-delay="700" data-aos="fade-up">Have a good idea for a talk? The call for paper will be open soon!</p>
                              </div>
 
+                              <div th:if="${config.layout_display_tickets_onsale_soon && not config.layout_display_buytickets_index_button}" class="header-btn" data-aos-delay="900" data-aos="fade-up">
+                                   <p class="text" data-aos-delay="700" data-aos="fade-up">Tickets for JConf Dominicana go on sale soon!</p>
+                                    <a href="#tickets-onsale-soon" class="btn-2">Notify Me</a>
+                              </div>
+
                         </div>
                     </div>
                 </div>

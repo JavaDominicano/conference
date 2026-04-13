@@ -48,7 +48,7 @@
     "name": "Java México",
     "logoUrl": "/img/supporters/java-mexico.png",
     "url": "https://x.com/javamexico",
-    "display": false
+    "display": true
   },
   {
     "id": "mongodb",
@@ -62,13 +62,20 @@
     "name": "PeruJUG",
     "logoUrl": "/img/supporters/perujug.png",
     "url": "https://perujug.org",
-    "display": false
+    "display": true
   },
   {
     "id": "itsmrd",
     "name": "Comunidad ITSM RD",
     "logoUrl": "/img/supporters/itsmrd.png",
     "url": "https://www.itsmrd.org.do/",
+    "display": true
+  },
+  {
+    "id": "GuateJUG",
+    "name": "GuateJUG",
+    "logoUrl": "/img/supporters/guatejug.jpg",
+    "url": "https://www.guate-jug.net/",
     "display": true
   }
 ]
