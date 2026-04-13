@@ -1,0 +1,6 @@
+[build]
+command = "./gradlew clean bake -i"
+publish = "build/jbake"
+
+[build.environment]
+JAVA_VERSION = "11"
