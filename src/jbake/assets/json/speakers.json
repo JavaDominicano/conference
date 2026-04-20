@@ -260,7 +260,7 @@
     "photoUrl": "/img/speakers/priamo-germosen.jpg",
     "shortBio": "",
     "bio": "Software engineer with over 20 years of experience in Java and distributed systems. He currently works on AdTech platforms for CTV, focusing on backend architecture and high-scale systems",
-    "display": false,
+    "display": true,
     "featured": false,
     "badges": [
       {
@@ -545,7 +545,7 @@
   "companyLogo": "",
   "country": "Dominican Republic",
   "countryFlag": "flag-icon-do",
-  "photoUrl": "/archive/jconf2024/images/speakers/aluis-marte.jpg",
+  "photoUrl": "/img/speakers/aluis-marte.jpg",
    "shortBio": "",
    "bio": "Java Spring Boot developer and cat lover with over 12 years of experience working in various industries, including: Lottery, Casino, Fiber Optics Engineering, and Credit Reporting. With a deep-seated hatred for warnings",
    "display": true,
@@ -836,6 +836,34 @@
         "icon": "linkedin",
         "name": "Linkedin",
         "link": "https://www.linkedin.com/in/grace-ableidinger/"
+      }
+    ]
+  },
+  {
+    "numOrder": 128,
+    "speakerId": "jose-figueroa",
+    "name": "José Figueroa",
+    "company": "Internet Venite",
+    "companyLogo": "",
+    "title": "Internal Operations and Projects Analyst",
+    "country": "Guatemala",
+    "countryFlag": "flag-icon-gt",
+    "photoUrl": "/img/speakers/jose-figueroa.jpg",
+    "shortBio": "",
+    "bio": "José Figueroa holds a Bachelor’s degree in Business Administration from Rafael Landívar University and a degree in Information Systems Engineering. He is currently completing a Master’s in Cybersecurity at Mariano Gálvez University. His hybrid background combines business administration, project management, and technical skills.<br><br>He currently serves as an Internal Operations and Projects Analyst at Internet Venite, the leading telecommunications company in Guatemala’s Southwestern Region. In this role, he manages the data and information supporting financial and operational processes.<br><br>José has experience in executing, monitoring, and reporting on administrative, commercial, and technological projects. He leverages tools focused on Business Intelligence and strategic dashboards, while promoting agile methodologies, Notion, Scrum, Lean Six Sigma, Design Thinking, Digital Transformation, and Data Analytics. He actively participates in tech communities such as the502project, AWS User Group Guatemala, and Google Developers Group.<br><br>Additionally, he has served as a Startup Mentor with Bridge for Billions and collaborated with initiatives like CIG Joven and Enactus. From a technical standpoint, he has managed website development, ERP and CRM integration, and business best practices using Power BI and Looker Studio.",
+    "display": true,
+    "featured": false,
+    "badges": [
+      {
+        "name": "Internal Operations and Projects Analyst",
+        "description": "Internal Operations and Projects Analyst"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/jxinternet/"
       }
     ]
   }

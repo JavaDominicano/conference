@@ -151,7 +151,7 @@
     "audience_level": "Advanced",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
-    "display": false,
+    "display": true,
     "featured": false,
     "tags": [
       "Server side development"
@@ -486,6 +486,23 @@
     ],
     "speakers": [
       "diego-silva"
+    ]
+  },
+  {
+    "id": 129,
+    "title": "Observabilidad en Aplicaciones Java: De Métricas a Decisiones Reales",
+    "abstract": "Esta charla explora cómo transformar la observabilidad en aplicaciones Java en una herramienta real de análisis y toma de decisiones, utilizando Grafana como punto de control técnico y plataformas como Looker Studio y Power BI como capa analítica. A través del diseño correcto de métricas y dashboards, se muestra cómo interpretar el comportamiento de una aplicación más allá del \"up/down\", conectando señales técnicas con impacto operativo y de negocio. Desde una perspectiva práctica y orientada a datos, la sesión aborda errores comunes, buenas prácticas y aprendizajes reales para convertir métricas en información accionable dentro de entornos Java.",
+    "description": "Esta charla explora cómo implementar observabilidad efectiva en aplicaciones Java para transformar métricas, logs y trazas en información  para la operación y la toma de decisiones. A través de herramientas como Grafana, y su integración, se analizan buenas prácticas y errores comunes al instrumentar aplicaciones Java en producción. Desde una perspectiva analítica, la sesión demuestra cómo diseñar métricas y dashboards que expliquen el comportamiento real del sistema, permitiendo detectar cuellos de botella, degradaciones de rendimiento y problemas de experiencia de usuario antes de que se conviertan en incidentes críticos.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Observability and Monitoring"
+    ],
+    "speakers": [
+      "jose-figueroa"
     ]
   }
 ]
