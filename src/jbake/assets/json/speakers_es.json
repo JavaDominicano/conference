@@ -260,7 +260,7 @@
     "photoUrl": "/img/speakers/priamo-germosen.jpg",
     "shortBio": "",
     "bio": "Ingeniero de software con más de 20 años de experiencia en Java y sistemas distribuidos. Actualmente trabaja en plataformas de AdTech para CTV, enfocándose en arquitectura backend y sistemas de alta escala.",
-    "display": false,
+    "display": true,
     "featured": false,
     "badges": [
       {
@@ -829,6 +829,34 @@
         "icon": "linkedin",
         "name": "Linkedin",
         "link": "https://www.linkedin.com/in/grace-ableidinger/"
+      }
+    ]
+  },
+  {
+    "numOrder": 128,
+    "speakerId": "jose-figueroa",
+    "name": "José Figueroa",
+    "company": "Internet Venite",
+    "companyLogo": "",
+    "title": "Analista de Gestiones Internas y Proyectos",
+    "country": "Guatemala",
+    "countryFlag": "flag-icon-gt",
+    "photoUrl": "/img/speakers/jose-figueroa.jpg",
+    "shortBio": "",
+    "bio": "José Figueroa es Licenciado en Administración de Empresas por Universidad Rafael Landívar e Ingeniero en Sistemas de Información, próximo a graduarse de una Maestría en Seguridad Informática por la Universidad Mariano Gálvez. tiene una formación híbrida combina administración de empresas, gestión de proyectos y habilidades técnicas.<br><br> Actualmente se desempeña como Analista de Gestiones Internas y Proyectos en Internet Venite, la empresa de telecomunicaciones más importante en la Región Sur Occidente de Guatemala, donde gestiona la data y la información que respaldan los procesos financieros y operativos.<br><br> Tiene experiencia en la ejecución, cumplimiento y reporte de proyectos administrativos, comerciales y tecnológicos, aplicando herramientas enfocadas en Business Intelligence y tableros estratégicos, además de impulsar metodologías ágiles, el uso de Notion, Scrum, Lean Six Sigma, Design Thinking, Transformación Digital y Data Analytics, a través de su participación en comunidades tecnológicas como the502project, AWS User Group Guatemala y Google Developers Group.<br><br>Se ha desempeñado como Mentor de Emprendimientos con el apoyo de Bridge for Billions y ha colaborado en iniciativas de CIG Joven y Enactus. Desde el ámbito técnico, ha efectuado la gestión de páginas web, la integración de ERPs y CRMs y mejores prácticas de negocio gracias a Power BI y Looker Studio",
+    "display": true,
+    "featured": false,
+    "badges": [
+      {
+        "name": "Analista de Gestiones Internas y Proyectos",
+        "description": "Analista de Gestiones Internas y Proyectos"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/jxinternet/"
       }
     ]
   }
