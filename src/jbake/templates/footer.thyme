@@ -71,6 +71,8 @@
                                               <li th:if="${config.layout_display_organizers_page}"><a href="/organizers.html">Organizers</a></li>
                                               <li><a href="/past-conferences.html">Past Conferences</a></li>
                                               <li><a href="/code-of-conduct.html">Code of conduct</a></li>
+                                               <li><a href="/terms-and-conditions.html">Terms and Conditions</a></li>
+                                               <li><a href="/privacy-policy.html">Privacy Policy</a></li>
                                             </ul>
                                             <br>
                                             <h3 class="title">Event Details</h3>
@@ -212,6 +214,9 @@ Friends</a> | Baked with <a href="http://jbake.org" target="_blank">JBake <span 
                     <li th:if="${config.layout_display_organizers_page}"><a href="/organizers.html">Organizers</a></li>
                     <li th:if="${config.layout_display_gallery}"><a href="/gallery.html">Gallery</a></li>
                     <li><a href="/code-of-conduct.html">Code of conduct</a></li>
+                    <li><a href="/terms-and-conditions.html">Terms and Conditions</a></li>
+                    <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+
                 </ul>
 
             </div>
