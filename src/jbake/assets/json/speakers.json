@@ -344,7 +344,7 @@
     "photoUrl": "/img/speakers/brayan-munoz.jpeg",
     "shortBio": "",
     "bio": "I'm a Software Engineer and Data Scientist with an MSc in Data Science (UCJC) and a degree in Telematics Engineering (PUCMM). With over 5 years of software development experience and 2 years focused on AI and Data Science, I’m also a board member of the Dominican Republic Java User Group (@JavaDominicano), where I speak on topics like Java and Machine Learning. Additionally, I teach at PUCMM in areas such as Programming and AI, and actively contribute to open-source projects.",
-    "display": false,
+    "display": true,
     "featured": false,
     "badges": [
       {
@@ -784,7 +784,7 @@
     "photoUrl": "/archive/jconf2024/images/speakers/eddumelendez.jpg",
     "shortBio": "",
     "bio": "Eddú Meléndez is a Staff Software Engineer at Docker and is currently one of the members of the Testcontainers team, contributing to the Spring ecosystem and other Open Source projects since 2015. During his free time, he likes to research about new trends and contribute to Open Source projects.",
-    "display": false,
+    "display": true,
     "featured": false,
     "badges": [
       {
