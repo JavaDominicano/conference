@@ -55,14 +55,14 @@ function createWorkshopCard(workshop) {
 
   var sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
      "<h3 class=\"meeta-event-accordion-toggle\">"+
+     "<div class=\"event-title\">"+
      "<span class=\"title\">"+ title +"</span>"+
+     "<div id=\"instructors-"+ workshopId +"\"></div>"+
      "</div>"+
      " </h3>"+
      "<div class=\"meeta-event-accordion-body\" style=\"padding-left: 0px;\">"+
      "<p>"+description+"</p>"+
-     "<br><br><h3>Instructor(s)</h3>"+
-     "<div id=\"instructors-"+ workshopId  +"\"></div>"+
-      "</div>"+
+     "</div>"+
       "</li>";
 
       for (let i in speakers) {
@@ -78,11 +78,10 @@ async function renderWorkshopInstructors(fetchUrlSpeaker,speakerId, workshopId){
         let speakerDetailsList = filterSpeakerById(speakersData,speakerId);
         let speaker = speakerDetailsList[0];
 
-        let speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
+        let speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.speakerId);
          
         let instructors = document.getElementById("instructors"+"-"+workshopId);
 
-        instructors.innerHTML +=  "<div class=\"col-lg-3\"><a href=\"" + speakerUrlDetail + "\"><img src=\"" + speaker.photoUrl +"\" style=\"border-radius: 5px;\"  alt=\""+speaker.name+"\"></a></div><h3 class=\"speaker-name\">" + speaker.name + " <span class=\"flag-icon " + speaker.countryFlag + "\"></span></h3>" +
-        "<p class=\"speaker-designation\">" + speaker.title + "</p>" ;
+        instructors.innerHTML +=  "<a href=\"" + speakerUrlDetail + "\" title=\"See speaker details\">" + speaker.name + "</a> <span class=\"flag-icon " + speaker.countryFlag + "\"></span>";
 
 }

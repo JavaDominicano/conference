@@ -2,25 +2,26 @@ import { getUsefulContents, getUsefulLink } from '/js/util-url.js';
 import {fetchData, filterSpeakerById} from '/js/fetch-util.js';
 
 
-function createSessionCard(title,description, speaker) {
-
-   let speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.speakerId);
+function createSessionCard(sessionId, title,description, speakers) {
 
      let sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
      "<h3 class=\"meeta-event-accordion-toggle\">"+
-     "<div class=\"image\">"+
-     "<a href=\"" + speakerUrlDetail + "\" title=\""+speaker.title +" / " +speaker.company+"\"><img src=\"" +speaker.photoUrl +"\" alt=\""+speaker.name+"\"></a>"+
-     "</div>"+
      "<div class=\"event-title\">"+
      "<span class=\"title\">"+ title +"</span>"+
-     "</div>"+
+     "<div id=\"speakers-"+sessionId+"\"></div>";
+
+     for (let i in speakers) {
+         renderSessionSpeakers(getUsefulContents("lang", "../json/speakers"), sessionId, speakers[i]);
+     }
+
+   sessionHtml +=  "</div>"+
      " </h3>"+
-     "<div class=\"meeta-event-accordion-body\">"+
+     "<div class=\"meeta-event-accordion-body\" style=\"padding-left: 0px;\">"+
      "<p>"+description+"</p>"+
       "</div>"+
       "</li>";
 
-        return sessionHtml;
+      return sessionHtml;
 }
 
 async function getSpeakerById(fetchUrlSpeaker,speakerId){
@@ -31,13 +32,23 @@ async function getSpeakerById(fetchUrlSpeaker,speakerId){
 
 async function processSession(session, sessions){
     let title = session.title;
-    let speakerId = session.speakers[0];
+    let sessionId = session.id;
     let description = session.description;
 
-    let speaker = await getSpeakerById(getUsefulContents("lang", "../json/speakers"),speakerId);
-     sessions.innerHTML += createSessionCard(title,description,speaker[0]);
+     sessions.innerHTML += createSessionCard(sessionId, title, description, session.speakers);
 }
 
+async function renderSessionSpeakers(fetchUrlSpeaker, sessionId, speakerId){
+
+        let speakersData = await fetchData(fetchUrlSpeaker);
+        let speakerDetailsList = filterSpeakerById(speakersData,speakerId);
+        let speaker = speakerDetailsList[0];
+
+        let speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speakerId);
+
+        let speakers = document.getElementById("speakers-"+sessionId);
+        speakers.innerHTML += "<a href=\"" + speakerUrlDetail + "\" title=\"See speaker details\">"+speaker.name+"</a> <span class=\"flag-icon " + speaker.countryFlag + "\"></span> ";
+}
 
 let filterConfirmedSessions = function(sessionsJson) {
 
