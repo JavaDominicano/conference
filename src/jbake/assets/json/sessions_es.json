@@ -461,7 +461,7 @@
     "audience_level": "All",
     "talk_format": "Workshop (> 60 minutes)",
     "language": "es",
-    "display": false,
+    "display": true,
     "featured": false,
     "tags": [
       "Server side development"
@@ -503,6 +503,23 @@
     ],
     "speakers": [
       "jose-figueroa"
+    ]
+  },
+  {
+    "id": 130,
+    "title": "OK, But What About Predictive AI?",
+    "abstract": "Mientras el mundo tecnológico habla sin parar sobre la IA generativa y los modelos de lenguaje grandes (LLM), es fácil olvidar que la IA predictiva ha sido, y sigue siendo, el verdadero motor detrás de la mayoría de las aplicaciones impulsadas por IA. Desde la detección de fraudes hasta la previsión de demanda, los modelos predictivos están integrados en casi todas las industrias.<br><br>En esta charla, analizaremos el estado actual de la IA predictiva en el ecosistema Java. Exploraremos cómo el aprendizaje automático tradicional sigue muy vivo, es práctico y está evolucionando, especialmente con las mejoras recientes en eficiencia de modelos, portabilidad y herramientas.<br><br>Verás ejemplos reales de IA predictiva en acción y descubrirás algunas de las bibliotecas, frameworks y plataformas de Java que lo hacen posible, desde el entrenamiento de modelos hasta su implementación. Ya sea que seas nuevo en IA o que busques equilibrar el *hype* de la GenAI con soluciones prácticas y listas para producción, esta sesión te reconectará con la parte de la IA que sigue haciendo el trabajo pesado.",
+    "description": "Mientras el mundo tecnológico se enfoca en la IA generativa y los modelos de lenguaje grandes (LLM), es fácil pasar por alto que la IA predictiva ha sido, y sigue siendo, el verdadero motor detrás de la mayoría de las aplicaciones basadas en inteligencia artificial. Desde la detección de fraudes hasta la previsión de demanda, los modelos predictivos están presentes en casi todos los sectores.<br><br>En esta charla, revisaremos el estado actual de la IA predictiva en el ecosistema Java. Exploraremos cómo el aprendizaje automático tradicional sigue más vivo que nunca, es práctico y está en constante evolución, especialmente gracias a los avances recientes en eficiencia de modelos, portabilidad y herramientas.<br><br>Verás ejemplos reales de IA predictiva en acción y descubrirás algunas de las bibliotecas, frameworks y plataformas de Java que lo hacen posible, desde el entrenamiento de modelos hasta su despliegue. Ya sea que estés dando tus primeros pasos en IA o busques equilibrar el *hype* de la GenAI con soluciones prácticas y listas para producción, esta sesión te reconectará con la parte de la IA que sigue haciendo el trabajo más importante.",
+    "audience_level": "All",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "es",
+    "display": true,
+    "featured": false,
+    "tags": [
+      "Emerging trends"
+    ],
+    "speakers": [
+      "rafael-almonte","brayan-munoz"
     ]
   }
 ]

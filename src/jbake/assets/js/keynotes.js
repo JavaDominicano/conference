@@ -55,34 +55,33 @@ function createKeynoteCard(keynote) {
 
   var sessionHtml = "<li class=\"meeta-event-accordion-item\">"+
      "<h3 class=\"meeta-event-accordion-toggle\">"+
+     "<div class=\"event-title\">"+
      "<span class=\"title\">"+ title +"</span>"+
+     "<div id=\"speakers-"+ keynoteId + "\"></div>"+
      "</div>"+
      " </h3>"+
      "<div class=\"meeta-event-accordion-body\" style=\"padding-left: 0px;\">"+
      "<p>"+description+"</p>"+
-     "<br><br><h3>Instructor(s)</h3>"+
-     "<div id=\"instructors-"+ keynoteId  +"\"></div>"+
-      "</div>"+
-      "</li>";
+     "</div>"+
+     "</li>";
 
       for (let i in speakers) {
-         renderKeynoteInstructors(getUsefulContents("lang", "../json/speakers"),speakers[i],keynoteId)
+         renderKeynoteSpeakers(getUsefulContents("lang", "../json/speakers"),speakers[i],keynoteId)
      }
 
         return sessionHtml;
 }
 
-async function renderKeynoteInstructors(fetchUrlSpeaker,speakerId, keynoteId){
+async function renderKeynoteSpeakers(fetchUrlSpeaker,speakerId, keynoteId){
 
         let speakersData = await fetchData(fetchUrlSpeaker);
         let speakerDetailsList = filterSpeakerById(speakersData,speakerId);
         let speaker = speakerDetailsList[0];
 
-        let speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.id);
+        let speakerUrlDetail =  getUsefulLink("lang", "speaker-details.html?id=" + speaker.speakerId);
          
-        let instructors = document.getElementById("instructors"+"-"+keynoteId);
+        let speakersDom = document.getElementById("speakers"+"-"+keynoteId);
 
-        instructors.innerHTML +=  "<div class=\"col-lg-3\"><a href=\"" + speakerUrlDetail + "\"><img src=\"" + speaker.photoUrl +"\" style=\"border-radius: 5px;\"  alt=\""+speaker.name+"\"></a></div><h3 class=\"speaker-name\">" + speaker.name + " <span class=\"flag-icon " + speaker.countryFlag + "\"></span></h3>" +
-        "<p class=\"speaker-designation\">" + speaker.title + "</p>" ;
+        speakersDom.innerHTML +=  "<a href=\"" + speakerUrlDetail + "\" title=\"See speaker details\">"+speaker.name+"</a> <span class=\"flag-icon " + speaker.countryFlag + "\"></span>";
 
 }
