@@ -816,7 +816,7 @@
     "photoUrl": "/img/speakers/grace-ableidinger.jpg",
     "shortBio": "",
     "bio": "Grace Ableidinger es AI Engineer and Developer Advocate en Red Hat, con sede en Raleigh, Carolina del Norte. Apasionada por hacer que la IA sea accesible para todos, explora cómo la tecnología de código abierto puede generar un impacto real en el mundo. Su compromiso se centra en construir comunidades y recursos que empoderen a las personas para utilizar la IA y crear un futuro mejor.",
-    "display": true,
+    "display": false,
     "featured": true,
     "badges": [
       {

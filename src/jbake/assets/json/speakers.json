@@ -582,7 +582,7 @@
     "photoUrl": "/img/speakers/cedric-clyburn.jpg",
     "shortBio": "",
     "bio": "Cedric Clyburn (@cedricclyburn), Senior Developer Advocate at Red Hat, is an enthusiastic software developer with a background in Kubernetes, DevOps, and container tools. Focused on open-source software, he both contributes (e.g., Podman, vLLM) and enjoys speaking, with prior experience at Devoxx, WeAreDevelopers, The Linux Foundation, and more.<br><br> Cedric also spends (too much) time creating video and written content helping developers learn new topics in emerging technologies, with over 2M+ views online. He's based in New York City and is an organizer of the local Kubernetes Community Day.",
-    "display": true,
+    "display": false,
     "featured": true,
     "badges": [
       {
@@ -823,7 +823,7 @@
     "photoUrl": "/img/speakers/grace-ableidinger.jpg",
     "shortBio": "",
     "bio": "Grace Ableidinger is an AI Engineer and Developer Advocate at Red Hat based in Raleigh, NC. She is passionate about making AI accessible to everyone and exploring how open-source technology can drive real-world impact. She is dedicated to building communities and resources that empower people to use AI to build a better world.",
-    "display": true,
+    "display": false,
     "featured": true,
     "badges": [
       {

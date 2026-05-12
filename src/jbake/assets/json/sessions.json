@@ -288,7 +288,7 @@
     "audience_level": "All",
     "talk_format": "Workshop (> 60 minutes)",
     "language": "en",
-    "display": true,
+    "display": false,
     "featured": true,
     "tags": [
       "Emerging trends"
@@ -444,7 +444,7 @@
     "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "en",
-    "display": true,
+    "display": false,
     "featured": true,
     "tags": [
       "Emerging trends"
