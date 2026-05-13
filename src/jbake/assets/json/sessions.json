@@ -5,7 +5,7 @@
     "abstract": "This session will give you a history lesson of Enterprise Java as well as an overview of everything brought to you by Jakarta EE 11 with lots of code demos. We will also look forward and check out what's in the pipeline for Jakarta EE 12 and how enterprises can cope with the ever increasing presence of AI",
     "description": "Over the last 30 years, Java has been the preferred technology for developing enterprise applications. Frameworks and approaches such as J2EE, Spring Framework, Java EE, Spring Boot, and Jakarta EE all contribute to this success story.<br><br>The Jakarta EE 11, with features for increasing performance and developer productivity, such as support for virtual threads and the new Jakarta Data specification.<br><br>This session will give you a history lesson of Enterprise Java as well as an overview of everything brought to you by Jakarta EE 11 with lots of code demos. We will also look forward and check out what's in the pipeline for Jakarta EE 12 and how enterprises can cope with the ever increasing presence of AI.",
     "audience_level": "Intermediate",
-    "talk_format": "Talk (~30-45 minutes)",
+    "talk_format": "JakartaOne Meetup (~30-45 minutes)",
     "language": "en",
     "display": true,
     "featured": true,
@@ -521,5 +521,26 @@
     "speakers": [
       "rafael-almonte","brayan-munoz"
     ]
+  },
+  {
+    "id": 131,
+    "title": "Augmenting AI with the Power of Jakarta EE",
+    "abstract": "In this session, I will show how to orchestrate enterprise-ready AI agents using Jakarta EE technologies in combination with Agentic AI augmentation techniques such as tools, skills, RAG, and MCP to name a few.",
+    "description": "Building production-grade AI requires more than a model. It requires an ecosystem. The Java Community provides this ecosystem for the modern enterprise. Paired with Jakarta EE, it creates a formidable platform for AI Augmentation.<br><br>In this session, I will show how to orchestrate enterprise-ready AI agents using Jakarta EE technologies in combination with Agentic AI augmentation techniques such as tools, skills, RAG, and MCP to name a few.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "Java EE",
+      "Enterprise Java",
+      "Jakarta EE",
+      "AI"
+    ],
+    "speakers": [
+      "ivar-grimstad"
+    ]
   }
+
 ]
