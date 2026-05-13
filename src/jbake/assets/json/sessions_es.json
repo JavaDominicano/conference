@@ -5,10 +5,10 @@
     "abstract": "Esta sesión te dará una lección de historia sobre Enterprise Java, además de una visión general de todo lo que trae Jakarta EE 11, con muchas demos de código. También veremos qué se está preparando para Jakarta EE 12 y cómo las empresas pueden afrontar la presencia cada vez mayor de la IA.",
     "description": "Durante los últimos 30 años, Java ha sido la tecnología preferida para desarrollar aplicaciones empresariales. Frameworks y enfoques como J2EE, Spring Framework, Java EE, Spring Boot y Jakarta EE contribuyen a esta historia de éxito.<br><br>Jakarta EE 11 incorpora funcionalidades para mejorar el rendimiento y la productividad del desarrollador, como compatibilidad con virtual threads y la nueva especificación Jakarta Data.<br><br>Esta sesión te dará una lección de historia sobre Enterprise Java, además de una visión general de todo lo que trae Jakarta EE 11, con muchas demos de código. También veremos qué se está preparando para Jakarta EE 12 y cómo las empresas pueden afrontar la presencia cada vez mayor de la IA.",
     "audience_level": "Intermediate",
-    "talk_format": "Talk (~30-45 minutes)",
+    "talk_format": "JakartaOne Meetup (~30-45 minutes)",
     "language": "en",
     "display": true,
-    "featured": true,
+    "featured": false,
     "tags": [
       "Java EE",
       "Enterprise Java",
@@ -520,6 +520,25 @@
     ],
     "speakers": [
       "rafael-almonte","brayan-munoz"
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Augmenting AI with the Power of Jakarta EE",
+    "abstract": "En esta sesión, mostraré cómo orquestar agentes de IA listos para la empresa utilizando tecnologías de Jakarta EE, junto con técnicas de augmentación de IA Agentic, como herramientas, habilidades, RAG y MCP, entre otras.",
+    "description": "Construir aplicaciones potenciada por la IA lista para producción requiere más que un modelo: requiere un ecosistema. La comunidad Java proporciona este ecosistema para la empresa moderna. Y al combinarse con Jakarta EE, se convierte en una plataforma imbatible para la augmentación con IA.<br><br>En esta sesión, mostraré cómo orquestar agentes de IA listos para la empresa utilizando tecnologías de Jakarta EE, junto con técnicas de augmentación de IA Agentic, como herramientas, habilidades, RAG y MCP, entre otras.",
+    "audience_level": "Intermediate",
+    "talk_format": "Talk (~30-45 minutes)",
+    "language": "en",
+    "display": true,
+    "featured": true,
+    "tags": [
+      "Java EE",
+      "Enterprise Java",
+      "Jakarta EE"
+    ],
+    "speakers": [
+      "ivar-grimstad"
     ]
   }
 ]
