@@ -366,7 +366,7 @@
   },
   {
     "numOrder": 113,
-    "speakerId": "",
+    "speakerId": "gilson-martins",
     "name": "Gilson Martins",
     "company": "GGBR Solutions",
     "companyLogo": "",
@@ -575,7 +575,7 @@
     "photoUrl": "/img/speakers/cedric-clyburn.jpg",
     "shortBio": "",
     "bio": "Cedric Clyburn (@cedricclyburn), Senior Developer Advocate en Red Hat, es un apasionado desarrollador de software con experiencia en Kubernetes, DevOps y herramientas de contenedores. Enfocado en el software de código abierto, no solo contribuye a proyectos como Podman y vLLM, sino que también disfruta ser ponente en eventos como Devoxx, WeAreDevelopers y The Linux Foundation, entre otros.<br><br>Además, Cedric dedica (demasiado) tiempo a crear contenido en video y escrito para ayudar a los desarrolladores a aprender sobre tecnologías emergentes, acumulando más de 2 millones de visualizaciones en línea. Reside en la ciudad de Nueva York y es organizador del Kubernetes Community Day local.",
-    "display": true,
+    "display": false,
     "featured": true,
     "badges": [
       {
