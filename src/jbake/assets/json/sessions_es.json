@@ -109,17 +109,18 @@
   },
   {
     "id": 107,
-    "title": "Agilidad para Desarrolladores: Creando Software de Calidad de Forma Continua",
-    "abstract": "La agilidad no es solo seguir marcos de trabajo, sino desarrollar software de calidad de forma continua y sostenible. En esta charla, aprenderás cómo aplicar Agilidad para entregar valor, construir buen software y usar Scrum, Kanban y XP para un flujo eficiente sin comprometer la calidad.",
-    "description": "En el mundo del desarrollo de software, la rapidez y la calidad a menudo parecen estar en conflicto. Sin embargo, con un enfoque ágil bien aplicado, es posible entregar software de alto valor de manera continua sin sacrificar la estabilidad ni la excelencia técnica.<br><br>En esta charla, exploraremos cómo los desarrolladores pueden aprovechar la agilidad para mejorar su proceso de construcción de software. Abordaremos temas clave como:<br>El ciclo de vida del desarrollo ágil: Cómo gestionar desde la idea hasta la entrega de valor de manera iterativa y eficiente.<br>Planificación ágil: Estrategias para planificar el trabajo sin caer en la burocracia ni en la falta de previsión.<br>Scrum, Kanban y XP: Cómo elegir y combinar estos marcos de trabajo para optimizar el flujo de desarrollo.<br>Entrega continua y calidad del código: Prácticas que aseguran que el software se mantenga en producción sin interrupciones ni regresiones.<br>Colaboración y mejora continua: Cómo fomentar la comunicación efectiva dentro del equipo y adaptarse al cambio de manera fluida.<br><br>Si eres desarrollador y quieres construir software de calidad de forma sostenible, esta charla te dará las herramientas y enfoques necesarios para lograrlo con agilidad.",
+    "title": "Agilidad en la era de la IA: cómo deben evolucionar los equipos de software",
+    "abstract": "La inteligencia artificial está cambiando la forma en que construimos software.<br>En esta charla exploraremos qué partes de la agilidad siguen siendo relevantes, cuáles ya no funcionan y cómo deben evolucionar los equipos para adaptarse a esta nueva realidad.",
+    "description": "La inteligencia artificial está cambiando radicalmente la forma en que construimos software.Las reglas del juego están evolucionando: la velocidad de desarrollo se acelera, la automatización redefine los roles y la incertidumbre se mueve a otro nivel.<br><br>En esta charla exploraremos cómo este nuevo contexto impacta directamente en la agilidad. Analizaremos qué prácticas siguen siendo clave para generar valor, cuáles están perdiendo relevancia y por qué muchos equipos, aunque “ágiles”, no están preparados para este nuevo entorno.<br><br>Hablaremos de cómo la IA está transformando el trabajo de los equipos: desde la forma en que se construye código, se prueban soluciones y se toman decisiones, hasta cómo se redefine la colaboración entre negocio y tecnología. También abordaremos el cambio de mentalidad necesario para pasar de frameworks tradicionales a modelos más adaptativos, enfocados en flujo, aprendizaje continuo y entrega acelerada de valor.<br><br>Además, compartiremos ideas prácticas sobre cómo evolucionar los equipos, los roles y las formas de trabajo para aprovechar el potencial de la IA sin perder el foco en lo más importante: generar impacto real en el negocio.<br><br>Esta charla no es sobre herramientas, es sobre cómo repensar la agilidad en un mundo donde todo está cambiando más rápido que nunca.",
     "audience_level": "All",
     "talk_format": "Talk (~30-45 minutes)",
     "language": "es",
     "display": true,
     "featured": false,
     "tags": [
-      "Proceso de desarrollo de Software",
-      "Metodología"
+      "Soft skills",
+      "Software development leadership",
+      "Development Methodologies"
     ],
     "speakers": [
       "david-joa"
