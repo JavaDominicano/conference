@@ -58,6 +58,14 @@
         "url": "http://vfsewing.com",
         "packageType": "Geek",
         "display": true
+      },
+      {
+        "id": "el-encanto",
+        "name": "El Encanto",
+        "logoUrl": "/img/sponsors/el-encanto.png",
+        "url": "https://www.instagram.com/elencantord",
+        "packageType": "Geek",
+        "display": true
       }
     ]
   }
